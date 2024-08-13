@@ -1,0 +1,10 @@
+T1	End-position 49 58	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T2
+T2	PER 24 45	hai đại_biểu Quốc_hội
+T3	Elect 983 986	bầu
+E2	Elect:T3 Entity-Arg:T4 Person-Arg:T5
+T4	ORG 974 982	Quốc_hội
+T5	PER 947 970	những người giữ chức_vụ
+T6	End-position 2505 2513	bãi_miễn
+E3	End-position:T6 Person-Arg:T7
+T7	PER 2514 2535	hai đại_biểu Quốc_hội

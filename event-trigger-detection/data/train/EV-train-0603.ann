@@ -1,0 +1,41 @@
+T1	Die 15 23	tự_thiêu
+E1	Die:T1 Victim-Arg:T2 Victim-Arg2:T3 Agent-Arg:T2
+T2	PER 1 3	Mẹ
+T3	PER 29 34	2 con
+T4	Die 114 122	tự_thiêu
+E2	Die:T4 Agent-Arg:T6 Victim-Arg:T7 Victim-Arg2:T6 Instrument-Arg:T5
+T5	VEH 128 139	bốn lít dầu
+T6	PER 58 78	người mẹ ( 28 tuổi )
+T7	PER 98 109	hai con nhỏ
+T8	Die 203 207	chết
+E3	Die:T8 Victim-Arg:T9
+T9	PER 194 202	Người mẹ
+T10	PER 210 222	hai cháu nhỏ
+T11	Injure 254 259	phỏng
+E4	Injure:T11 Victim-Arg:T10
+T12	Injure 798 802	bỏng
+E5	Injure:T12 Victim-Arg:T13 Time-Arg:T14
+T13	PER 723 740	hai cháu T. và H.
+T14	TIME 755 780	ngày 30/1/2014 ( 30 tết )
+T15	Die 2154 2161	tử_vong
+E6	Die:T15 Victim-Arg:T16
+T16	PER 2144 2150	chị C.
+T17	Injure 2198 2202	bỏng
+E7	Injure:T17 Victim-Arg:T18
+T18	PER 2166 2194	hai cháu ngoại của ông Vương
+T19	Divorce 2382 2388	ly_hôn
+E8	Divorce:T19 Person-Arg:T20
+T20	PER 2327 2339	hai vợ_chồng
+T21	Be-born 2263 2267	sinh
+E9	Be-born:T21 Person-Arg:T22 Time-Arg:T23
+T22	PER 2273 2303	hai con ( một trai , một gái )
+T23	TIME 2236 2244	năm 2003
+T24	Convict 2678 2688	tuyên_phạt
+E10	Convict:T24 Defendant-Arg:T27 Adjudicator-Arg:T26 Crime-Arg:T25 Time-Arg:T28
+T25	CRIME 2708 2732	tội cố_ý gây thương_tích
+T26	ORG 2660 2677	TAND tỉnh Đắk_Lắk
+T27	PER 2632 2656	người chồng thứ 2 của C.
+T28	TIME 2614 2629	Mấy tháng trước
+T29	PER 1689 1696	Cháu T.
+T30	Injure 1705 1709	bỏng
+E11	Injure:T30 Victim-Arg:T29

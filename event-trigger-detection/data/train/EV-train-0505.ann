@@ -1,0 +1,9 @@
+T1	Marry 30 37	kết_hôn
+E1	Marry:T1 Person-Arg:T2 Person-Arg2:T3
+T2	PER 0 29	' Lý_Mạc_Sầu ' Trương_Hinh_Dư
+T3	PER 42 55	lính đặc_công
+T4	Divorce 1479 1487	chia_tay
+E2	Divorce:T4 
+T5	TIME 1460 1468	Năm 2014
+T6	PER 1471 1478	Lý_Thần
+T7	PER 1488 1495	Hinh_Dư

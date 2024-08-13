@@ -1,0 +1,24 @@
+T1	Release-parole 22 31	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 49 62	chủ Wikileaks
+T3	Release-parole 428 431	thả
+E2	Release-parole:T3 Person-Arg:T4
+T4	PER 432 439	Assange
+T5	Arrest-jail 900 903	bắt
+E3	Arrest-jail:T5 Person-Arg:T7 Agent-Arg:T6
+T6	GPE 884 887	Anh
+T7	PER 904 915	ông Assange
+T8	PER 965 1019	Assange , 44 tuổi , một cựu hacker quốc_tịch Australia
+T9	ORG 1094 1107	giới_chức Anh
+T10	Arrest-jail 1108 1115	bắt_giữ
+E4	Arrest-jail:T10 Agent-Arg:T9 Person-Arg:T8
+T11	Trial-hearing 1260 1266	xét_xử
+E5	Trial-hearing:T11 Defendant-Arg:T13 Crime-Arg:T12
+T12	CRIME 1270 1321	tội làm rò_rỉ các tài_liệu mật trên trang WikiLeaks
+T13	PER 1246 1249	ông
+T14	Execute 1627 1635	thi_hành
+E6	Execute:T14 Agent-Arg:T15
+T15	GPE 1599 1615	Thuỵ_Điển và Anh
+T16	Release-parole 1708 1722	được thả tự_do
+E7	Release-parole:T16 Person-Arg:T17
+T17	PER 1696 1703	Assange

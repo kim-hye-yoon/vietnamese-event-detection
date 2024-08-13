@@ -1,0 +1,11 @@
+T1	PER 411 414	tôi
+T2	Start-org 423 425	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 426 439	công_ty riêng
+T4	ORG 792 799	công_ty
+T5	End-org 830 838	đóng_cửa
+E2	End-org:T5 Org-Arg:T4
+T6	TIME 819 824	1 năm
+T7	PER 800 803	tôi
+T8	Start-org 804 806	mở
+E3	Start-org:T8 Agent-Arg:T7 Org-Arg:T4 Time-Arg:T6

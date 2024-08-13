@@ -1,0 +1,8 @@
+T1	PER 0 22	Đôi vợ_chồng vô_gia_cư
+T2	Marry 23 30	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Place-Arg:T3
+T3	LOC 36 43	gầm cầu
+T4	PER 477 499	Một phụ_nữ Jill_Jeftha
+T5	Transfer-ownership 503 507	tặng
+E2	Transfer-ownership:T5 Beneficiary-Arg:T6 Seller-Arg:T4
+T6	PER 521 531	bà Cecilia

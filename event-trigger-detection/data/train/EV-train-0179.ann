@@ -1,0 +1,10 @@
+T1	Attack 77 87	không_kích
+E1	Attack:T1 Place-Arg:T2
+T2	LOC 94 105	al - Mashad
+T3	Start-org 418 427	thiết_lập
+E2	Start-org:T3 Org-Arg:T4
+T4	ORG 394 415	ba hành_lang nhân_đạo
+T5	PER 505 519	169 dân_thường
+T6	Transport 523 525	rờ
+E3	Transport:T6 Agent-Arg:T5 Origin-Arg:T7
+T7	LOC 538 585	khu_vực bị các nhóm vũ_trang phi_pháp kiểm_soát

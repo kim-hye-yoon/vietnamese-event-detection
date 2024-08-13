@@ -1,0 +1,3 @@
+T1	Elect 14 22	được bầu
+E1	Elect:T1 Person-Arg:T2
+T2	PER 0 13	Chủ_tịch nước

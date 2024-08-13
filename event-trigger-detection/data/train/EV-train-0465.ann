@@ -1,0 +1,65 @@
+T1	Release-parole 37 46	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 31	Người_tình của nghi_can thảm_án
+T3	Die 158 166	thảm_sát
+E2	Die:T3 Place-Arg:T6
+T4	Release-parole 328 331	thả
+E3	Release-parole:T4 Person-Arg:T5 Entity-Arg:T7
+T5	PER 236 319	Nguyễn_Thị_Hán ( tức Hương , 36 tuổi , ngụ ở xã Đại_Sơn , huyện Văn_Yên , Yên_Bái )
+T6	GPE 178 229	thôn Cài , xã Lâm_Giang , huyện Văn_Yên ( Yên_Bái )
+T7	ORG 75 121	Cơ_quan Cảnh_sát điều_tra Công_an tỉnh Yên_Bái
+T8	PER 334 337	Hán
+T9	Arrest-jail 345 352	bắt_giữ
+E4	Arrest-jail:T9 Person-Arg:T8
+T10	Die 440 447	sát_hại
+E5	Die:T10 Victim-Arg:T11 Agent-Arg:T13 Place-Arg:T12
+T11	PER 448 455	4 người
+T12	LOC 458 484	khu_vực lán nương thôn Cài
+T13	PER 487 491	Hùng
+T14	WEA 504 514	2 súng_kíp
+T15	Attack 518 534	đe_doạ , ép_buộc
+E6	Attack:T15 Instrument-Arg:T14 Target-Arg:T16 Attacker-Arg:T13
+T16	PER 535 538	Hán
+T17	Transport 542 546	trốn
+E7	Transport:T17 Agent-Arg:T18 Agent-Arg2:T16
+T18	PER 552 556	mình
+T19	Die 619 627	giết_hại
+E8	Die:T19 Agent-Arg:T20
+T20	PER 614 618	Hùng
+T21	Transport 648 652	trốn
+E9	Transport:T21 Agent-Arg:T22 Agent-Arg2:T20
+T22	PER 634 641	chị này
+T23	Transport 740 744	trốn
+E10	Transport:T23 Destination-Arg:T24 Agent-Arg:T25 Agent-Arg2:T26
+T24	LOC 745 754	trên rừng
+T25	PER 764 768	Hùng
+T26	PER 771 774	Hán
+T27	Attack 882 899	ép_buộc và đe_doạ
+E11	Attack:T27 Attacker-Arg:T30 Target-Arg:T28
+T28	PER 900 903	Hán
+T29	Transport 912 916	trốn
+E12	Transport:T29 Agent-Arg:T28 Agent-Arg2:T30
+T30	PER 862 866	Hùng
+T31	ORG 1051 1070	lực_lượng chức_năng
+T32	Arrest-jail 1071 1078	bắt_giữ
+E13	Arrest-jail:T32 Agent-Arg:T31 Place-Arg:T33 Person-Arg:T34 Time-Arg:T35
+T33	LOC 1083 1140	khu_vực thuộc xã Khánh_Hoà , huyện Lục_Yên , tỉnh Yên_Bái
+T34	PER 952 1047	Hán và Đặng_Văn_Hùng ( 26 tuổi , ngụ ở thôn Cài , xã Lâm_Giang , Huyện_Văn_Yên , tỉnh Yên_Bái )
+T35	TIME 935 949	sáng ngày 15/8
+T36	Transport 1161 1165	trốn
+E14	Transport:T36 Agent-Arg:T34
+T37	Transport 1169 1177	di_lý về
+E15	Transport:T37 Artifact-Arg:T34 Agent-Arg:T31 Destination-Arg:T38
+T38	FAC 1178 1205	trụ_sở Công_an tỉnh Yên_Bái
+T39	Transport 1589 1598	trốn chạy
+E16	Transport:T39 Artifact-Arg:T41 Agent-Arg:T40
+T40	PER 1558 1562	Hùng
+T41	WEA 1550 1557	con dao
+T42	Transport 1799 1803	trốn
+E17	Transport:T42 Agent-Arg:T43 Agent-Arg2:T44
+T43	PER 1763 1776	Đặng_Văn_Hùng
+T44	PER 1809 1823	Nguyễn_Thị_Hán
+T45	Arrest-jail 1830 1837	bắt_giữ
+E18	Arrest-jail:T45 Person-Arg:T44 Person-Arg2:T43 Time-Arg:T46 Agent-Arg:T47
+T46	TIME 1838 1846	hôm 15/8
+T47	GPE 1849 1881	i xã Khánh_Hoà ( huyện Lục_Yên )

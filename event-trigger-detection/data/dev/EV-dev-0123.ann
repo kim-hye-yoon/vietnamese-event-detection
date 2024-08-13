@@ -1,0 +1,20 @@
+T1	End-position 18 27	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 14	Một cục_trưởng
+T3	Start-position 176 180	nhận
+E2	Start-position:T3 Position-Arg:T4 Person-Arg:T5
+T4	JOB 197 229	chuyên_viên Vụ Pháp_chế thuộc Bộ
+T5	PER 94 172	ông Lương_Duy_Hanh ( nguyên Cục_trưởng kiểm_soát hoạt_động bảo_vệ môi_trường )
+T6	End-position 934 945	điều_chuyển
+E3	End-position:T6 Entity-Arg:T7 Person-Arg:T10 Position-Arg:T8
+T7	ORG 917 930	Bộ Tài_nguyên
+T8	JOB 949 979	Phó tổng_cục_trưởng Môi_trường
+T9	JOB 985 1047	Phó viện trưởng chiến_lược chính_sách tài_nguyên và môi_trường
+T10	PER 896 914	ông Mai_Thanh_Dung
+T11	Start-position 980 984	sang
+E4	Start-position:T11 Position-Arg:T9 Entity-Arg:T7 Person-Arg:T10
+T12	End-position 691 695	cách
+E5	End-position:T12 Position-Arg:T13 Person-Arg:T14 Entity-Arg:T15
+T13	JOB 703 725	các chức_vụ trong Đảng
+T14	PER 730 738	ông Hanh
+T15	ORG 636 662	Uỷ_ban kiểm_tra Trung_ương

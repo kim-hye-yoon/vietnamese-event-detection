@@ -1,0 +1,5 @@
+T1	Marry 0 7	Kết_hôn
+E1	Marry:T1 
+T2	Marry 121 128	kết_hôn
+E2	Marry:T2 Person-Arg:T3
+T3	PER 75 108	nhiều người đến tầm ngoài 40 tuổi

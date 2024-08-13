@@ -1,0 +1,99 @@
+T1	Transfer-ownership 6 9	mua
+E1	Transfer-ownership:T1 Buyer-Arg:T2 Artifact-Arg:T3
+T2	PER 0 5	Người
+T3	FAC 10 13	nhà
+T4	Declare-bankruptcy 48 55	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T5
+T5	ORG 33 47	Petro_Landmark
+T6	Declare-bankruptcy 249 256	phá_sản
+E3	Declare-bankruptcy:T6 Org-Arg:T10
+T7	TIME 62 75	tháng 11/2016
+T8	ORG 78 109	Toà_án Nhân_dân quận 3 , TP HCM
+T9	PER 131 153	bà Trần_Thị_Châu_Giang
+T10	ORG 157 214	Công_ty_cổ_phần Bất_động_sản Xây_lắp dầu_khí ( PVC Land )
+T13	ORG 547 563	Công_ty PVC_Land
+T11	ORG 460 496	Ngân_hàng cổ_phần Bưu_điện Liên_Việt
+T12	Sue 537 546	khởi_kiện
+E4	Sue:T12 Plaintiff-Arg:T11 Defendant-Arg:T13
+T14	Declare-bankruptcy 831 838	phá_sản
+E5	Declare-bankruptcy:T14 Org-Arg:T15
+T15	ORG 839 847	PVC Land
+T16	Declare-bankruptcy 917 924	phá_sản
+E6	Declare-bankruptcy:T16 Org-Arg:T17
+T17	ORG 933 941	PVC Land
+T18	PER 882 890	bà Giang
+T20	ORG 1120 1136	Công_ty PVC Land
+T21	TIME 1071 1080	ngày 8/11
+T19	Transfer-money 1137 1140	trả
+E7	Transfer-money:T19 Giver-Arg:T20
+T22	Declare-bankruptcy 1287 1294	phá_sản
+E8	Declare-bankruptcy:T22 Org-Arg:T23
+T23	ORG 1295 1303	PVC Land
+T24	Transfer-money 1684 1687	trả
+E9	Transfer-money:T24 Giver-Arg:T25 Time-Arg:T26
+T25	ORG 1676 1683	công_ty
+T26	TIME 1740 1754	ngày 2/11/2016
+T27	PER 1631 1640	Ông Thành
+T28	PER 1649 1657	bà Giang
+T29	Transfer-money 1791 1794	trả
+E10	Transfer-money:T29 Giver-Arg:T31 Money-Arg:T30 Time-Arg:T32
+T30	MONEY 1801 1815	300 triệu đồng
+T31	ORG 1783 1790	công_ty
+T32	TIME 1772 1780	tháng 11
+T33	Transfer-money 1838 1841	trả
+E11	Transfer-money:T33 Money-Arg:T34
+T34	MONEY 1842 1856	300 triệu đồng
+T35	Declare-bankruptcy 1925 1932	phá_sản
+E12	Declare-bankruptcy:T35 
+T36	Transfer-ownership 2180 2183	trả
+E13	Transfer-ownership:T36 
+T37	Transfer-ownership 2338 2341	trả
+E14	Transfer-ownership:T37 
+T38	Transfer-ownership 2448 2458	thanh_toán
+E15	Transfer-ownership:T38 
+T39	Transfer-ownership 2499 2502	mua
+E16	Transfer-ownership:T39 Artifact-Arg:T40 Buyer-Arg:T41
+T40	FAC 2503 2506	nhà
+T41	PER 2479 2482	Tôi
+T42	Transfer-ownership 2559 2562	bán
+E17	Transfer-ownership:T42 Buyer-Arg:T43 Artifact-Arg:T44
+T43	PER 2538 2548	chủ_đầu_tư
+T44	FAC 2563 2566	nhà
+T45	Sue 2650 2659	kiện_tụng
+E18	Sue:T45 
+T46	Transfer-money 2707 2710	trả
+E19	Transfer-money:T46 Giver-Arg:T47
+T47	ORG 2698 2706	PVC Land
+T48	Declare-bankruptcy 2916 2923	phá_sản
+E20	Declare-bankruptcy:T48 
+T49	Trial-hearing 3164 3170	xét_xử
+E21	Trial-hearing:T49 Adjudicator-Arg:T50 Time-Arg:T51
+T50	ORG 3138 3160	Toà_án Nhân_dân quận 2
+T51	TIME 3127 3135	năm 2014
+T52	Transfer-money 3303 3306	mua
+E22	Transfer-money:T52 Place-Arg:T53 Money-Arg:T54
+T53	FAC 3307 3313	căn_hộ
+T54	MONEY 3316 3327	1,9 tỷ đồng
+T55	ORG 3275 3283	PVC Land
+T56	MONEY 3356 3370	400 triệu đồng
+T57	PER 3334 3342	bà Giang
+T58	PER 3396 3404	Bà Giang
+T59	Transfer-ownership 3405 3408	mua
+E23	Transfer-ownership:T59 Buyer-Arg:T58 Artifact-Arg:T60 Price-Arg:T62 Time-Arg:T63
+T60	FAC 3409 3448	căn_hộ PetroVietnam_Landmark ( quận 2 )
+T61	ORG 3452 3468	Công_ty PVC Land
+T62	MONEY 3496 3505	2 tỷ đồng
+T63	TIME 3506 3521	từ tháng 3/2010
+T64	Sue 3914 3918	kiện
+E24	Sue:T64 Plaintiff-Arg:T65 Time-Arg:T66
+T65	PER 3897 3905	bà Giang
+T66	TIME 3883 3896	tháng 10/2012
+T68	MONEY 4422 4433	100 tỷ đồng
+T69	ORG 4438 4474	Ngân_hàng cổ_phần Bưu_điện Liên_Việt
+T67	Transfer-money 4407 4410	trả
+E25	Transfer-money:T67 Money-Arg:T68 Recipient-Arg:T69 Time-Arg:T70
+T70	TIME 4252 4265	tháng 10/2011
+T71	Transfer-ownership 4512 4515	mua
+E26	Transfer-ownership:T71 Artifact-Arg:T73 Buyer-Arg:T72
+T72	PER 4492 4508	nhiều khách_hàng
+T73	FAC 4516 4522	căn_hộ

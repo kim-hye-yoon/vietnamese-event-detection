@@ -1,0 +1,3 @@
+T1	ORG 246 253	công_ty
+T2	End-org 271 277	sụp_đổ
+E1	End-org:T2 Org-Arg:T1

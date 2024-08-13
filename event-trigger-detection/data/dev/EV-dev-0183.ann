@@ -1,0 +1,65 @@
+T1	Meet 98 106	cuộc họp
+E1	Meet:T1 Entity-Arg:T3 Entity-Arg2:T2 Time-Arg:T4
+T2	PER 71 91	Tổng_thống Nga_Putin
+T3	PER 111 129	Thái_tử Arab_Saudi
+T4	TIME 150 158	hôm 1/12
+T5	Meet 188 195	họp_báo
+E2	Meet:T5 Entity-Arg:T8 Place-Arg:T6 Time-Arg:T7
+T6	GPE 220 244	Buenos_Aires , Argentina
+T7	TIME 245 253	hôm 1/12
+T8	PER 256 285	Tổng_thống Nga Vladimir_Putin
+T9	Release-parole 363 372	trả tự_do
+E3	Release-parole:T9 Person-Arg:T10
+T10	PER 377 388	24 thuỷ_thủ
+T11	VEH 394 418	ba tàu_chiến của Ukraine
+T12	Arrest-jail 419 425	bị bắt
+E4	Arrest-jail:T12 Place-Arg:T13 Time-Arg:T14 Person-Arg:T10
+T13	LOC 430 443	eo_biển Kerch
+T14	TIME 444 453	hôm 25/11
+T15	Attack 588 595	nổ_súng
+E5	Attack:T15 Attacker-Arg:T18 Target-Arg:T17
+T16	Arrest-jail 596 599	bắt
+E6	Arrest-jail:T16 Agent-Arg:T18
+T17	VEH 600 620	ba tàu_chiến Ukraine
+T18	PER 570 587	cảnh_sát biển Nga
+T19	Release-parole 699 710	phóng_thích
+E7	Release-parole:T19 Entity-Arg:T20 Person-Arg:T21
+T20	GPE 695 698	Nga
+T21	PER 728 740	các thuỷ_thủ
+T22	VEH 744 753	tàu_chiến
+T23	Arrest-jail 754 760	bị bắt
+E8	Arrest-jail:T23 Person-Arg:T21 Agent-Arg:T20
+T24	VEH 763 773	Ba tàu này
+T25	Arrest-jail 779 785	bị giữ
+E9	Arrest-jail:T25 Place-Arg:T26
+T26	LOC 788 798	cảng Kerch
+T27	PER 811 823	các thuỷ_thủ
+T28	Arrest-jail 824 831	bị giam
+E10	Arrest-jail:T28 Place-Arg:T29 Person-Arg:T27
+T29	GPE 834 840	Moskva
+T30	Trial-hearing 853 859	xét_xử
+E11	Trial-hearing:T30 Crime-Arg:T31 Place-Arg:T29 Defendant-Arg:T27
+T31	CRIME 860 885	tội xâm_phạm lãnh_hải Nga
+T32	Release-parole 945 956	phóng_thích
+E12	Release-parole:T32 
+T33	Attack 1402 1409	nổ_súng
+E13	Attack:T33 Time-Arg:T35 Attacker-Arg:T34 Target-Arg:T37 Target-Arg2:T38
+T34	ORG 1374 1391	Cảnh_sát biển Nga
+T35	TIME 1392 1401	hôm 25/11
+T36	Arrest-jail 1423 1426	bắt
+E14	Arrest-jail:T36 Agent-Arg:T34 Time-Arg:T35 Person-Arg:T38 Crime-Arg:T42
+T37	VEH 1427 1447	ba tàu_chiến Ukraine
+T38	PER 1453 1464	24 thuỷ_thủ
+T39	Release-parole 33 44	phóng_thích
+E15	Release-parole:T39 Person-Arg:T41
+T40	VEH 45 54	tàu_chiến
+T41	PER 60 68	thuỷ_thủ
+T42	CRIME 1469 1594	cáo_buộc xâm_phạm lãnh_hải Nga , có hành_vi nguy_hiểm và không tuân_thủ yêu_cầu dừng tàu của lực_lượng cảnh_sát biển nước này
+T43	Transport 1898 1907	nhập_cảnh
+E16	Transport:T43 Artifact-Arg:T45 Time-Arg:T44
+T44	TIME 1791 1801	Ngày 30/11
+T45	PER 1862 1897	công_dân Nga từ 16 tuổi đến 60 tuổi
+T46	Arrest-jail 1959 1962	bắt
+E17	Arrest-jail:T46 Agent-Arg:T47
+T47	GPE 1955 1958	Nga
+T48	VEH 1963 1987	ba tàu_chiến của Ukraine

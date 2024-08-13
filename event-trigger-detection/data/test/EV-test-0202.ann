@@ -1,0 +1,56 @@
+T1	SEN 49 56	tử_hình
+T2	Sentence 43 48	tuyên
+E1	Sentence:T2 Adjudicator-Arg:T3 Sentence-Arg:T1 Defendant-Arg:T5
+T3	GPE 32 42	Trung_Quốc
+T4	GPE 0 6	Canada
+T5	PER 20 28	công_dân
+T6	Execute 197 204	tử_hình
+E2	Execute:T6 Agent-Arg:T7
+T7	GPE 166 176	Trung_Quốc
+T8	Trial-hearing 234 240	xét_xử
+E3	Trial-hearing:T8 Defendant-Arg:T9 Place-Arg:T7
+T9	PER 241 260	một công_dân Canada
+T10	ORG 392 456	Toà thượng_thẩm thành_phố Đại_Liên , tỉnh Liêu_Ninh , Trung_Quốc
+T11	TIME 457 465	hôm 14/1
+T12	Sentence 466 474	tuyên_án
+E4	Sentence:T12 Sentence-Arg:T13 Time-Arg:T11 Adjudicator-Arg:T10 Defendant-Arg:T14 Crime-Arg:T15
+T13	SEN 475 482	tử_hình
+T14	PER 487 528	công_dân Canada_Robert_Lloyd_Schellenberg
+T15	CRIME 532 547	tội buôn ma_tuý
+T16	Transfer-ownership 536 540	buôn
+E5	Transfer-ownership:T16 Seller-Arg:T14
+T17	Sentence 559 568	hình_phạt
+E6	Sentence:T17 Sentence-Arg:T18 Adjudicator-Arg:T10 Defendant-Arg:T14
+T18	SEN 569 578	15 năm tù
+T19	Arrest-jail 722 725	bắt
+E7	Arrest-jail:T19 Person-Arg:T20 Place-Arg:T21 Time-Arg:T22
+T20	PER 706 718	Schellenberg
+T21	GPE 730 740	Trung_Quốc
+T22	TIME 744 757	cuối năm 2014
+T23	Trial-hearing 770 776	xét_xử
+E8	Trial-hearing:T23 Time-Arg:T24 Defendant-Arg:T20
+T24	TIME 793 801	năm 2016
+T25	Appeal 818 826	kháng_án
+E9	Appeal:T25 Defendant-Arg:T26
+T26	PER 804 810	Bị_cáo
+T27	Sentence 866 876	phán_quyết
+E10	Sentence:T27 Sentence-Arg:T28 Time-Arg:T29 Defendant-Arg:T26 Adjudicator-Arg:T30
+T28	SEN 877 886	15 năm tù
+T29	TIME 891 905	hôm 20/11/2018
+T30	ORG 835 858	toà trung_cấp Liêu_Ninh
+T31	Arrest-jail 1120 1123	bắt
+E11	Arrest-jail:T31 Agent-Arg:T33 Time-Arg:T32 Person-Arg:T34
+T32	TIME 1111 1119	hôm 1/12
+T33	GPE 1104 1110	Canada
+T34	PER 1124 1182	giám_đốc tài_chính tập_đoàn viễn_thông Huawei Mạnh_Vãn_Chu
+T35	TIME 1205 1213	Năm 2009
+T36	PER 1216 1232	một công_dân Anh
+T37	Execute 1239 1246	tử_hình
+E12	Execute:T37 Person-Arg:T36 Crime-Arg:T38 Time-Arg:T35
+T38	CRIME 1250 1280	đưa 4 kg heroin vào Trung_Quốc
+T39	Transport 1266 1269	vào
+E13	Transport:T39 Destination-Arg:T40 Agent-Arg:T36
+T40	GPE 1270 1280	Trung_Quốc
+T41	PER 1293 1305	Schellenberg
+T42	Transport 1318 1328	vận_chuyển
+E14	Transport:T42 Agent-Arg:T41

@@ -1,0 +1,30 @@
+T1	PER 0 14	Bé trai 8 tuổi
+T2	Attack 18 22	đánh
+E1	Attack:T2 Target-Arg:T1
+T3	Die 23 27	chết
+E2	Die:T3 Victim-Arg:T1
+T4	PER 66 83	Một cậu bé 8 tuổi
+T5	Attack 90 98	đánh_đập
+E3	Attack:T5 Target-Arg:T4
+T6	Die 103 107	chết
+E4	Die:T6 Victim-Arg:T4
+T7	PER 328 350	1 người đàn_ông lạ_mặt
+T8	Attack 374 384	cưỡng_hiếp
+E5	Attack:T8 Attacker-Arg:T7 Target-Arg:T9
+T9	PER 385 399	bé gái 12 tuổi
+T10	PER 402 415	Cậu bé 8 tuổi
+T11	Die 416 426	thiệt_mạng
+E6	Die:T11 Victim-Arg:T10
+T12	PER 594 600	cậu bé
+T13	PER 607 608	y
+T14	Attack 609 617	đánh_đập
+E7	Attack:T14 Target-Arg:T12 Attacker-Arg:T13
+T15	Attack 622 625	ném
+E8	Attack:T15 Attacker-Arg:T13 Target-Arg:T12
+T16	PER 655 661	cậu bé
+T17	Die 662 669	tử_vong
+E9	Die:T17 Place-Arg:T18 Victim-Arg:T16
+T18	LOC 670 677	tại_chỗ
+T19	PER 695 709	bé gái 12 tuổi
+T20	Injure 715 724	bị_thương
+E10	Injure:T20 Victim-Arg:T19

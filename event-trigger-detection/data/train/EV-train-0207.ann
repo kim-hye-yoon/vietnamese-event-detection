@@ -1,0 +1,30 @@
+T1	Pardon 27 32	ân_xá
+E1	Pardon:T1 Defendant-Arg:T2
+T2	PER 0 21	Cựu tỷ_phú dầu_mỏ Nga
+T3	Arquit 193 201	tha_bổng
+E2	Arquit:T3 Defendant-Arg:T4
+T4	PER 153 184	Mikhail_Borisovich_Khodorkovsky
+T5	Pardon 857 862	ân_xá
+E3	Pardon:T5 Defendant-Arg:T6
+T6	PER 867 879	Khodorkovsky
+T7	Pardon 1524 1529	ân_xá
+E4	Pardon:T7 Defendant-Arg:T8
+T8	PER 1534 1540	anh ta
+T9	Pardon 2187 2192	ân_xá
+E5	Pardon:T9 Adjudicator-Arg:T11 Defendant-Arg:T10
+T10	PER 2141 2153	Khodorkovsky
+T11	PER 2181 2186	Putin
+T12	Trial-hearing 2489 2495	xét_xử
+E6	Trial-hearing:T12 Defendant-Arg:T13
+T13	PER 2496 2499	ông
+T15	Pardon 1278 1284	xá tội
+E7	Pardon:T15 Adjudicator-Arg:T17 Defendant-Arg:T16
+T16	PER 1229 1235	anh ta
+T17	PER 1274 1277	tôi
+T14	Phone-write 1239 1243	viết
+E8	Phone-write:T14 Entity-Arg:T16
+T18	Convict 1923 1931	buộc_tội
+E9	Convict:T18 Defendant-Arg:T19 Crime-Arg:T20 Time-Arg:T21
+T19	PER 1865 1917	Khodorkovsky , 50 tuổi , và đồng_phạm Platon_Lebedev
+T20	CRIME 1932 1963	lừa_đảo , trốn_thuế và rửa tiền
+T21	TIME 1964 1972	năm 2010

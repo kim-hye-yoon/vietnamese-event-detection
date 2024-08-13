@@ -1,0 +1,42 @@
+T1	GPE 0 11	Philippines
+T2	Release-parole 16 25	trả tự_do
+E1	Release-parole:T2 Person-Arg:T3 Entity-Arg:T1
+T3	PER 30 49	17 ngư_dân Việt_Nam
+T4	Release-parole 67 81	trao_trả tự_do
+E2	Release-parole:T4 Person-Arg:T6 Entity-Arg:T5 Time-Arg:T7
+T5	GPE 52 63	Philippines
+T6	PER 86 105	17 ngư_dân Việt_Nam
+T7	TIME 110 119	ngày 2/11
+T8	PER 120 139	17 ngư_dân Việt_Nam
+T9	Release-parole 143 151	được trả
+E3	Release-parole:T9 Person-Arg:T8 Time-Arg:T11
+T10	Transport 152 154	về
+E4	Transport:T10 Destination-Arg:T12 Time-Arg:T11 Artifact-Arg:T8
+T11	TIME 164 173	ngày 2/11
+T12	LOC 155 159	nước
+T13	Arrest-jail 347 350	bắt
+E5	Arrest-jail:T13 Time-Arg:T16 Agent-Arg:T15 Person-Arg:T14
+T14	PER 302 322	Các ngư_dân Việt_Nam
+T15	ORG 326 346	hải_quân Philippines
+T16	TIME 351 358	hôm 8/9
+T18	LOC 488 501	vùng_biển này
+T19	PER 467 483	ngư_dân Việt_Nam
+T17	Transport 484 487	vào
+E6	Transport:T17 Destination-Arg:T18 Artifact-Arg:T19
+T20	Transport 522 525	đến
+E7	Transport:T20 Artifact-Arg:T21 Destination-Arg:T22
+T21	PER 519 521	Họ
+T22	LOC 526 547	vùng_biển Philippines
+T23	Release-parole 979 982	thả
+E8	Release-parole:T23 Person-Arg:T24 Person-Arg2:T25
+T24	PER 983 994	các ngư_dân
+T25	PER 940 970	Tổng_thống Philippines_Duterte
+T26	Meet 1028 1032	thăm
+E9	Meet:T26 Time-Arg:T28 Entity-Arg:T27 Entity-Arg2:T25
+T27	GPE 1033 1041	Việt_Nam
+T28	TIME 1048 1055	tháng 9
+T29	Trial-hearing 1080 1082	xử
+E10	Trial-hearing:T29 Defendant-Arg:T31 Adjudicator-Arg:T30 Crime-Arg:T32
+T30	GPE 1070 1079	Australia
+T31	PER 1083 1102	30 ngư_dân Việt_Nam
+T32	CRIME 1103 1121	đánh_bắt trái_phép

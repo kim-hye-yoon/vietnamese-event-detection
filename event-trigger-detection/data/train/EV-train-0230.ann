@@ -1,0 +1,51 @@
+T1	Release-parole 8 17	trả tự_do
+E1	Release-parole:T1 Person-Arg:T3 Entity-Arg:T2
+T2	GPE 0 3	Nga
+T3	PER 22 38	phi_công Ukraine
+T4	Attack 58 61	bắn
+E2	Attack:T4 
+T5	Release-parole 183 192	trả tự_do
+E3	Release-parole:T5 Person-Arg:T6
+T6	PER 196 215	 Nadezhda Savchenko
+T7	PER 219 222	tôi
+T8	Meet 604 611	hội_đàm
+E4	Meet:T8 Entity-Arg:T10 Entity-Arg2:T9 Entity-Arg3:T11 Entity-Arg4:T12
+T9	PER 575 578	ông
+T10	PER 640 663	Thủ_tướng Angela_Merkel
+T11	PER 666 694	Tổng_thống Francois_Hollande
+T12	PER 698 723	Tổng_thống Vladimir_Putin
+T13	Attack 771 774	bắn
+E5	Attack:T13 
+T14	Attack 853 863	giao_tranh
+E6	Attack:T14 Place-Arg:T15
+T15	GPE 866 883	miền đông Ukraine
+T16	ORG 1037 1054	lực_lượng ly_khai
+T17	Arrest-jail 1055 1062	bắt_giữ
+E7	Arrest-jail:T17 Person-Arg:T25 Agent-Arg:T16 Time-Arg:T18 Crime-Arg:T21 Place-Arg:T24
+T18	TIME 1067 1084	tháng 6 năm_ngoái
+T20	GPE 1101 1107	Moscow
+T21	CRIME 1121 1151	hỗ_trợ sát_hại hai nhà_báo Nga
+T22	Die 1128 1135	sát_hại
+E9	Die:T22 Victim-Arg:T23 Agent-Arg:T25
+T23	PER 1136 1151	hai nhà_báo Nga
+T24	GPE 1154 1171	miền đông Ukraine
+T25	PER 1014 1033	Nữ phi_công 33 tuổi
+T26	Die 1255 1259	giết
+E10	Die:T26 Victim-Arg:T27 Time-Arg:T29 Place-Arg:T30
+T27	PER 1249 1251	họ
+T28	PER 1229 1240	hai nhà_báo
+T29	TIME 1285 1292	tháng 6
+T30	GPE 1295 1307	vùng Luhansk
+T31	Arrest-jail 1366 1370	giam
+E11	Arrest-jail:T31 Person-Arg:T32
+T32	PER 1373 1382	Savchenko
+T33	Transport 1794 1805	đưa ra khỏi
+E12	Transport:T33 Origin-Arg:T34 Artifact-Arg:T35 Agent-Arg:T36
+T34	GPE 1806 1813	Ukraine
+T35	PER 1730 1739	Savchenko
+T36	PER 1771 1785	các phiến quân
+T19	Arrest-jail 1885 1892	bắt_giữ
+E8	Arrest-jail:T19 Person-Arg:T37 Agent-Arg:T38 Time-Arg:T39
+T37	PER 1893 1895	cô
+T38	ORG 1842 1859	Một toà_án Moscow
+T39	TIME 1860 1868	tuần này

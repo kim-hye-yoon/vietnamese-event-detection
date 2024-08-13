@@ -1,0 +1,8 @@
+T1	Meet 119 126	toạ_đàm
+E1	Meet:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	ORG 63 74	Bộ Tư_pháp
+T3	ORG 90 103	TAND Tối cao
+T4	Transfer-ownership 2346 2350	thuê
+E2	Transfer-ownership:T4 Seller-Arg:T6
+T5	PER 2351 2363	người bảo_vệ
+T6	PER 2323 2336	quản tài viên

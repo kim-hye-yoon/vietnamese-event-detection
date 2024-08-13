@@ -1,0 +1,11 @@
+T1	PER 13 20	4 người
+T2	Injure 41 53	trọng_thương
+E1	Injure:T2 Victim-Arg:T1 Instrument-Arg:T3
+T3	VEH 26 33	xe điên
+T4	Injure 599 608	bị_thương
+E2	Injure:T4 Victim-Arg:T5
+T5	PER 591 598	4 người
+T6	Transport 859 868	di_chuyển
+E3	Transport:T6 Time-Arg:T7 Vehicle-Arg:T8
+T7	TIME 839 849	hơn 23 giờ
+T8	VEH 852 858	xe cẩu

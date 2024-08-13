@@ -1,0 +1,25 @@
+T1	Transfer-ownership 20 26	đầu_tư
+E1	Transfer-ownership:T1 Buyer-Arg:T2 Artifact-Arg:T3 Place-Arg:T5 Price-Arg:T4
+T2	PER 0 13	Đại_gia ngoại
+T3	FAC 27 30	nhà
+T4	MONEY 31 44	dưới 1 tỷ đồn
+T5	LOC 48 55	Sài_Gòn
+T6	Transfer-money 98 104	đầu_tư
+E2	Transfer-money:T6 
+T10	ORG 147 187	công_ty Nhật , Hàn , Đài_Loan , Malaysia
+T16	FAC 1174 1186	1.000 căn_hộ
+T17	Transfer-ownership 1203 1206	bán
+E5	Transfer-ownership:T17 Price-Arg:T18 Artifact-Arg:T16
+T18	MONEY 1217 1231	868 triệu đồng
+T19	ORG 2011 2030	nhà_đầu_tư Hàn_Quốc
+T20	Transfer-ownership 2050 2053	bán
+E6	Transfer-ownership:T20 Seller-Arg:T19 Price-Arg:T21 Place-Arg:T22
+T21	MONEY 2095 2117	900 triệu đồng một căn
+T22	GPE 2131 2157	quận 9 và Thủ_Đức , TP HCM
+T23	Transfer-ownership 2527 2533	đầu_tư
+E7	Transfer-ownership:T23 Buyer-Arg:T24 Artifact-Arg:T25
+T24	ORG 2505 2515	khối ngoại
+T25	FAC 2538 2557	nhà ở trung cao_cấp
+T7	Transfer-money 205 208	rót
+E3	Transfer-money:T7 Money-Arg:T8 Giver-Arg:T10
+T8	MONEY 209 212	vốn

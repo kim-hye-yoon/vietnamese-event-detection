@@ -1,0 +1,64 @@
+T1	Sentence 15 23	tuyên_án
+E1	Sentence:T1 Crime-Arg:T3 Defendant-Arg:T2
+T2	PER 0 5	Người
+T3	CRIME 24 31	tử_hình
+T4	Release-parole 32 46	được trả tự_do
+E2	Release-parole:T4 Person-Arg:T5
+T5	PER 0 31	Người 4 lần bị tuyên_án tử_hình
+T6	ORG 49 69	VKSND tỉnh Bắc_Giang
+T7	Release-parole 92 101	trả tự_do
+E3	Release-parole:T7 Person-Arg:T8 Entity-Arg:T6
+T8	PER 106 166	ông Hàn_Đức_Long ( 57 tuổi , ở xã Phúc_Sơn , huyện Tân_Yên )
+T9	Arrest-jail 178 184	bị bắt
+E4	Arrest-jail:T9 Person-Arg:T8 Crime-Arg:T12
+T10	Sentence 188 196	tuyên_án
+E5	Sentence:T10 Defendant-Arg:T8 Sentence-Arg:T11 Crime-Arg:T12
+T11	SEN 197 204	tử_hình
+T12	CRIME 224 263	giết người , hiếp_dâm , hiếp_dâm trẻ_em
+T13	Charge-indict 305 312	khởi_tố
+E6	Charge-indict:T13 
+T14	Charge-indict 626 636	bị khởi_tố
+E7	Charge-indict:T14 Defendant-Arg:T15
+T15	PER 601 609	ông Long
+T16	Die 1558 1562	chết
+E8	Die:T16 Victim-Arg:T17
+T17	PER 1535 1537	bé
+T18	Attack 1778 1782	giết
+E9	Attack:T18 Target-Arg:T20 Attacker-Arg:T19
+T19	PER 1704 1712	ông Long
+T20	PER 1783 1797	đứa trẻ 5 tuổi
+T21	Transport 1842 1845	chở
+E10	Transport:T21 Vehicle-Arg:T24 Destination-Arg:T25 Time-Arg:T23 Artifact-Arg:T22
+T22	PER 1814 1822	ông Long
+T23	TIME 1828 1841	tối 26/6/2005
+T24	VEH 1862 1873	xe_cải_tiến
+T25	FAC 1878 1890	quán xay_xát
+T26	PER 1919 1922	ông
+T27	Transport 1943 1948	đi về
+E11	Transport:T27 Artifact-Arg:T26
+T28	Transport 1988 1995	trở_lại
+E12	Transport:T28 Destination-Arg:T31 Artifact-Arg:T30 Time-Arg:T29
+T29	TIME 1964 1976	Khoảng 18h30
+T30	PER 1979 1987	nghi_can
+T31	FAC 1996 2000	quán
+T32	Transport 2020 2024	sang
+E13	Transport:T32 Destination-Arg:T33 Artifact-Arg:T30
+T33	FAC 2025 2077	nhà nạn_nhân ở bên kia bờ ao chơi , cách khoảng 70 m
+T34	Sentence 2288 2293	tuyên
+E14	Sentence:T34 Adjudicator-Arg:T37 Defendant-Arg:T36 Time-Arg:T35 Crime-Arg:T38 Crime-Arg2:T39
+T35	TIME 2187 2211	Từ năm 2007 đến năm 2011
+T36	PER 2232 2248	ông Hàn_Đức_Long
+T37	ORG 2252 2287	TAND tỉnh Bắc_Giang và TAND Tối_cao
+T38	CRIME 2294 2332	phạm_tội Hiếp_dâm trẻ_em và Giết người
+T39	CRIME 2354 2361	tử_hình
+T40	Arrest-jail 2401 2407	bị bắt
+E15	Arrest-jail:T40 Person-Arg:T41
+T41	PER 2410 2418	ông Long
+T42	Appeal 2501 2511	kháng_nghị
+E16	Appeal:T42 Adjudicator-Arg:T44 Time-Arg:T43 Adjudicator-Arg2:T45
+T43	TIME 2438 2451	Cuối năm 2014
+T44	ORG 2454 2487	Hội_đồng thẩm_phán , TAND Tối_cao
+T45	ORG 2516 2528	TAND Tối_cao
+T46	Attack 2685 2689	giết
+E17	Attack:T46 Attacker-Arg:T47
+T47	PER 2718 2726	nghi_can

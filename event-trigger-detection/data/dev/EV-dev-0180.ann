@@ -1,0 +1,7 @@
+T1	Transfer-ownership 67 70	mua
+E1	Transfer-ownership:T1 Artifact-Arg:T5
+T2	Transfer-ownership 980 983	mua
+E2	Transfer-ownership:T2 Buyer-Arg:T3 Artifact-Arg:T4
+T3	ORG 865 877	Tổng_công_ty
+T4	VEH 984 991	xe hàng
+T5	VEH 71 77	tàu cũ

@@ -1,0 +1,15 @@
+T1	Marry 11 18	kết_hôn
+E1	Marry:T1 Person-Arg:T3 Person-Arg2:T2
+T2	PER 0 10	Cô_gái trẻ
+T3	PER 23 38	bố của bạn thân
+T4	Divorce 90 96	ly_hôn
+E2	Divorce:T4 Person-Arg:T5
+T5	PER 70 74	Kern
+T6	PER 41 54	Taylor_Lehman
+T7	Marry 1027 1034	kết_hôn
+E3	Marry:T7 Person-Arg:T11 Place-Arg:T9 Time-Arg:T10
+T8	Marry 1039 1047	đám_cưới
+E4	Marry:T8 Person-Arg:T11 Time-Arg:T10
+T9	GPE 1065 1090	thành_phố Cancun , Mexico
+T10	TIME 1095 1104	năm_ngoái
+T11	PER 1009 1015	Cả hai

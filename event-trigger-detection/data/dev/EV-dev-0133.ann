@@ -1,0 +1,28 @@
+T1	Declare-bankruptcy 15 22	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3 Place-Arg:T2
+T2	GPE 25 27	Mỹ
+T3	ORG 0 6	Suzuki
+T4	Declare-bankruptcy 88 95	phá_sản
+E2	Declare-bankruptcy:T4 Place-Arg:T6 Org-Arg:T5
+T5	ORG 40 52	Suzuki_Motor
+T6	GPE 55 57	Mỹ
+T7	Transfer-ownership 104 107	bán
+E3	Transfer-ownership:T7 Artifact-Arg:T8
+T8	VEH 108 112	ô_tô
+T9	ORG 159 232	American_Suzuki , nhà_phân_phối duy_nhất của tập_đoàn Suzuki_Motor tại Mỹ
+T10	Declare-bankruptcy 263 270	phá_sản
+E4	Declare-bankruptcy:T10 Org-Arg:T9 Place-Arg:T13
+T11	Transfer-money 279 281	nợ
+E5	Transfer-money:T11 Recipient-Arg:T9 Money-Arg:T12
+T12	MONEY 282 295	346 triệu USD
+T13	GPE 230 232	Mỹ
+T14	Transfer-ownership 496 499	bán
+E6	Transfer-ownership:T14 Artifact-Arg:T15 Seller-Arg:T16
+T15	VEH 474 492	những chiếc xe ôtô
+T16	ORG 415 421	Suzuki
+T17	ORG 514 520	Suzuki
+T19	VEH 537 546	26.000 xe
+T20	GPE 551 553	Mỹ
+T21	TIME 560 568	năm 2011
+T18	Transfer-ownership 521 524	bán
+E7	Transfer-ownership:T18 Artifact-Arg:T19 Seller-Arg:T17 Place-Arg:T20 Time-Arg:T21

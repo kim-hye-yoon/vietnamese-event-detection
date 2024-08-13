@@ -1,0 +1,27 @@
+T1	PER 0 16	Hàng nghìn người
+T2	GPE 19 27	New_York
+T3	Demonstrate 28 37	biểu_tình
+E1	Demonstrate:T3 Place-Arg:T2 Entity-Arg:T1
+T4	PER 55 66	Những người
+T5	Demonstrate 67 76	biểu_tình
+E2	Demonstrate:T5 Place-Arg:T6 Time-Arg:T7 Entity-Arg:T4
+T6	GPE 115 123	New_York
+T7	TIME 124 133	ngày 8/11
+T8	PER 148 163	Hơn 6.000 người
+T9	Demonstrate 173 182	biểu_tình
+E3	Demonstrate:T9 Entity-Arg:T8 Time-Arg:T10 Place-Arg:T14
+T10	TIME 183 192	ngày 8/11
+T11	Transport 193 202	tuần_hành
+E4	Transport:T11 Artifact-Arg:T8 Origin-Arg:T12 Destination-Arg:T13
+T12	FAC 206 227	Quảng_trường Thời_đại
+T13	FAC 232 255	Quảng_trường Thống_nhất
+T14	GPE 258 266	New_York
+T15	PER 909 920	Những người
+T16	Demonstrate 921 930	biểu_tình
+E5	Demonstrate:T16 Entity-Arg:T15
+T17	Demonstrate 1251 1260	biểu_tình
+E6	Demonstrate:T17 Place-Arg:T18 Place-Arg2:T20 Place-Arg3:T19 Place-Arg4:T21
+T18	GPE 1287 1296	Patchogue
+T19	GPE 1316 1326	Morristown
+T20	GPE 1299 1310	Long_Island
+T21	GPE 1334 1344	New_Jersey

@@ -1,0 +1,19 @@
+T1	Transport 120 123	đến
+E1	Transport:T1 Origin-Arg:T7 Destination-Arg:T9 Artifact-Arg:T2 Time-Arg:T11
+T5	Transport 496 499	đến
+E3	Transport:T5 Destination-Arg:T10 Origin-Arg:T8 Agent-Arg:T6
+T7	LOC 108 116	Trà_Vinh
+T8	LOC 484 492	Trà_Vinh
+T9	LOC 124 154	chi_nhánh của Công_ty Vietlott
+T10	LOC 500 533	chi_nhánh của Vietlott tại TP HCM
+T2	PER 77 104	một người đàn_ông đứng_tuổi
+T11	TIME 55 73	Khoảng 10h sáng na
+T4	LOC 349 397	một đại_lý của Vietlott ở quận Tân_Bình , TP HCM
+T3	Transfer-ownership 338 344	bán ra
+E2	Transfer-ownership:T3 Place-Arg:T4
+T6	PER 452 479	một người đàn_ông trung_niê
+T12	TIME 441 449	sáng nay
+T13	Transfer-money 963 972	nhận được
+E4	Transfer-money:T13 Recipient-Arg:T15 Money-Arg:T14
+T14	MONEY 973 987	gần 83 tỷ đồng
+T15	PER 934 957	người đàn_ông ở Trà_Vin

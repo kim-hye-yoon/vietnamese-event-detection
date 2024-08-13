@@ -1,0 +1,26 @@
+T1	PER 59 73	Không_quân Nga
+T2	Attack 105 115	không_kích
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T4 Place-Arg:T3
+T3	GPE 191 246	khu_vực tỉnh Idlib , tây bắc Syria , theo Almasdar_News
+T4	PER 138 188	nhóm phiến quân Hồi_giáo Ha ' yat Tahrir al - Sham
+T5	Attack 495 503	huỷ_diệt
+E2	Attack:T5 Instrument-Arg:T6
+T6	WEA 477 489	bom nhiệt_áp
+T7	Attack 810 819	tiêu_diệt
+E3	Attack:T7 Target-Arg:T8 Instrument-Arg:T9
+T8	PER 824 864	nhóm phiến quân Nhà_nước Hồi_giáo ( IS )
+T9	WEA 748 760	bom nhiệt_áp
+T10	Attack 1238 1248	chiến_dịch
+E4	Attack:T10 Attacker-Arg:T13 Place-Arg:T11 Time-Arg:T12
+T11	GPE 1261 1266	Syria
+T13	GPE 1226 1229	Nga
+T12	TIME 1271 1288	cuối tháng 9/2015
+T14	Attack 1172 1181	tiêu_diệt
+E5	Attack:T14 Target-Arg:T15 Place-Arg:T16 Instrument-Arg:T17
+T15	PER 1182 1191	quân địch
+T16	FAC 1199 1223	trong hầm ngầm , công_sự
+T17	WEA 1153 1168	vũ_khí hiệu_quả
+T18	Attack 21 28	nổ tung
+E6	Attack:T18 Target-Arg:T19 Instrument-Arg:T20
+T19	ORG 38 56	phiến quân ở Syria
+T20	WEA 0 16	Bom nhiệt_áp Nga

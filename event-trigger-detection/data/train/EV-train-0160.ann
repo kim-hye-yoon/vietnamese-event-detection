@@ -1,0 +1,6 @@
+T1	Marry 50 57	kết_hôn
+E1	Marry:T1 
+T2	PER 701 703	Họ
+T3	Marry 712 719	kết_hôn
+E2	Marry:T3 Person-Arg:T2 Time-Arg:T4
+T4	TIME 724 735	đầu tháng 8

@@ -1,0 +1,25 @@
+T1	Sue 66 75	khởi_kiện
+E1	Sue:T1 Plaintiff-Arg:T2 Defendant-Arg:T3 Adjudicator-Arg:T4
+T2	PER 45 56	các cá_nhân
+T3	ORG 83 98	Công_ty Bình_An
+T4	ORG 110 136	Toà_án nhân_dân quận Ô_Môn
+T5	Sue 409 418	khởi_kiện
+E2	Sue:T5 Plaintiff-Arg:T6 Defendant-Arg:T7 Adjudicator-Arg:T8
+T6	ORG 402 408	đơn_vị
+T7	ORG 426 441	Công_ty Bình_An
+T8	ORG 453 468	TAND quận Ô_Môn
+T9	Transfer-money 671 674	nộp
+E3	Transfer-money:T9 Money-Arg:T10
+T10	MONEY 687 700	11 triệu đồng
+T12	MONEY 849 860	120 tỷ đồng
+T13	PER 732 800	luật_sư Nguyễn_Thị_Hồng_Ngân , người đại_diện uỷ_quyền cho 21 hộ dân
+T15	MONEY 914 926	83,6 tỷ đồng
+T11	Transfer-ownership 822 825	mua
+E4	Transfer-ownership:T11 Buyer-Arg:T13 Price-Arg:T12
+T14	Transfer-ownership 891 894	mua
+E5	Transfer-ownership:T14 Price-Arg:T15
+T16	Transfer-money 883 885	nợ
+E6	Transfer-money:T16 Money-Arg:T15
+T17	Declare-bankruptcy 20 27	phá_sản
+E7	Declare-bankruptcy:T17 Org-Arg:T18
+T18	ORG 0 7	Bình_An

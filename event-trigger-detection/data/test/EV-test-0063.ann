@@ -1,0 +1,16 @@
+T1	End-position 23 32	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Chủ_tịch xã
+T3	End-position 158 167	cách_chức
+E2	End-position:T3 Person-Arg:T4 Position-Arg:T5
+T4	PER 168 187	ông Nguyễn_Hữu_Tuấn
+T5	JOB 190 217	Chủ_tịch UBND xã Trường_Lộc
+T6	Transfer-ownership 394 398	thuê
+E3	Transfer-ownership:T6 Artifact-Arg:T7
+T7	FAC 399 402	đất
+T8	PER 259 267	ông Tuấn
+T9	Nominate 590 598	bổ_nhiệm
+E4	Nominate:T9 Person-Arg:T10 Agent-Arg:T12 Position-Arg:T11
+T10	PER 599 607	con_trai
+T11	JOB 616 637	Phó trưởng công_an xã
+T12	ORG 579 589	UBND huyện

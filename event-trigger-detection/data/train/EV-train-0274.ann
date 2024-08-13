@@ -1,0 +1,45 @@
+T1	Execute 28 37	bị bắn hạ
+E1	Execute:T1 Person-Arg:T4
+T2	GPE 0 8	Pakistan
+T3	Release-parole 9 12	thả
+E2	Release-parole:T3 Person-Arg:T4 Entity-Arg:T2
+T4	PER 13 27	phi_công Ấn_Độ
+T5	Transport 147 153	trở_về
+E3	Transport:T5 Artifact-Arg:T6
+T6	PER 138 146	phi_công
+T7	Execute 200 209	bị bắn hạ
+E4	Execute:T7 Person-Arg:T8 Time-Arg:T9
+T8	PER 168 197	Phi_công Abhinandan_Varthaman
+T9	TIME 210 218	hôm 27/2
+T10	Transport 252 259	trở_lại
+E5	Transport:T10 Destination-Arg:T11 Time-Arg:T12
+T11	GPE 260 265	Ấn_Độ
+T12	TIME 270 278	ngày 2/3
+T13	Release-parole 506 517	phóng_thích
+E6	Release-parole:T13 Person-Arg:T14
+T14	PER 518 521	anh
+T15	Attack 572 580	Xung_đột
+E7	Attack:T15 Place-Arg:T16 Place-Arg2:T17
+T16	GPE 595 603	Pakistan
+T17	GPE 607 612	Ấn_Độ
+T18	Attack 922 926	đánh
+E8	Attack:T18 Instrument-Arg:T20 Attacker-Arg:T19 Place-Arg:T23
+T19	ORG 860 880	Jaish - e - Mohammed
+T20	WEA 927 930	bom
+T21	TIME 938 946	hôm 14/2
+T22	Die 931 937	tự_sát
+E9	Die:T22 
+T23	GPE 949 967	thành_phố Srinagar
+T24	PER 974 990	44 binh_sĩ Ấn_Độ
+T25	Die 991 1001	thiệt_mạng
+E10	Die:T25 Victim-Arg:T24 Agent-Arg:T19
+T26	GPE 1004 1012	Pakistan
+T27	TIME 1013 1022	ngày 27/2
+T28	VEH 1076 1087	Một máy_bay
+T29	Transport 1088 1097	rơi xuống
+E11	Transport:T29 Destination-Arg:T30 Artifact-Arg:T28
+T30	GPE 1098 1113	khu_vực Kashmir
+T31	VEH 1146 1161	máy_bay còn lại
+T32	Transport 1162 1171	rơi xuống
+E12	Transport:T32 Destination-Arg:T33 Artifact-Arg:T31
+T33	GPE 1177 1182	Ấn_Độ

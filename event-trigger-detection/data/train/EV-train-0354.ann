@@ -1,0 +1,19 @@
+T1	Transfer-money 602 609	chi_trả
+E1	Transfer-money:T1 Giver-Arg:T2 Money-Arg:T14
+T2	ORG 623 634	công_ty Exo
+T3	PER 821 839	mỗi công_nhân FIAT
+T4	Transfer-money 852 855	trả
+E2	Transfer-money:T4 Money-Arg:T5 Recipient-Arg:T3
+T5	MONEY 861 879	250 đôla mỗi tháng
+T6	PER 1241 1248	Ronaldo
+T7	Meet 1249 1252	gặp
+E3	Meet:T7 Entity-Arg:T6 Entity-Arg2:T8
+T8	PER 1257 1284	đồng_đội mới và HLV Allegri
+T9	Demonstrate 5 14	biểu_tình
+E4	Demonstrate:T9 Entity-Arg:T10
+T10	PER 19 33	công_nhân Fiat
+T11	Demonstrate 66 75	biểu_tình
+E5	Demonstrate:T11 Place-Arg:T12 Time-Arg:T13
+T12	FAC 80 95	nhà_máy ở Melfi
+T13	TIME 96 104	hôm 16/7
+T14	MONEY 582 596	117 triệu đôla

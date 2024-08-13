@@ -1,0 +1,58 @@
+T1	Execute 12 19	tử_hình
+E1	Execute:T1 Person-Arg:T3 Agent-Arg:T2 Place-Arg:T2
+T2	GPE 0 4	Iraq
+T3	PER 20 53	phiến quân nước_ngoài tham_gia IS
+T4	Trial-hearing 177 183	xét_xử
+E2	Trial-hearing:T4 Defendant-Arg:T5 Place-Arg:T6 Adjudicator-Arg:T6
+T5	PER 100 170	Các phiến quân nước_ngoài phục_vụ cho Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T6	GPE 199 203	Iraq
+T7	Sentence 217 223	kết_án
+E3	Sentence:T7 Sentence-Arg:T8 Defendant-Arg:T5 Adjudicator-Arg:T6 Place-Arg:T6 Crime-Arg:T9
+T8	SEN 224 231	tử_hình
+T9	CRIME 248 263	giết người Iraq
+T10	Die 248 252	giết
+E4	Die:T10 Victim-Arg:T11 Agent-Arg:T5
+T11	PER 253 263	người Iraq
+T12	Convict 239 247	buộc_tội
+E5	Convict:T12 Crime-Arg:T9 Defendant-Arg:T5
+T13	Sentence 290 298	tuyên_án
+E6	Sentence:T13 Sentence-Arg:T14
+T14	SEN 299 306	tử_hình
+T15	Extradite 667 673	dẫn_độ
+E7	Extradite:T15 Person-Arg:T18 Agent-Arg:T17
+T16	PER 610 641	Thủ_tướng Iraq_Adel_Abdul_Mahdi
+T17	GPE 651 659	nước này
+T18	PER 674 714	các tù_nhân IS không mang quốc_tịch Iraq
+T19	Transport 715 717	về
+E8	Transport:T19 Artifact-Arg:T18 Agent-Arg:T17 Destination-Arg:T20
+T20	GPE 718 722	nước
+T21	Trial-hearing 741 747	xét_xử
+E9	Trial-hearing:T21 Defendant-Arg:T22 Adjudicator-Arg:T17 Place-Arg:T17
+T22	PER 748 807	những kẻ phạm_tội ác chống lại chính_quyền và nhân_dân Iraq
+T23	Release-parole 833 836	thả
+E10	Release-parole:T23 Time-Arg:T27 Person-Arg:T24 Entity-Arg:T26 Place-Arg:T25
+T24	PER 837 857	hàng trăm tù_binh IS
+T25	FAC 863 890	các nhà_tù ở miền bắc Syria
+T26	ORG 810 813	SDF
+T27	TIME 814 827	hồi đầu tháng
+T28	Transport 968 971	đưa
+E11	Transport:T28 Artifact-Arg:T29 Agent-Arg:T32 Origin-Arg:T31
+T29	PER 972 986	những tay súng
+T30	Transport 987 990	rời
+E12	Transport:T30 Origin-Arg:T31 Artifact-Arg:T29 Agent-Arg:T32
+T31	LOC 996 1033	khu_vực do SDF kiểm_soát ở đông Syria
+T32	ORG 901 924	liên quân do Mỹ dẫn_đầu
+T33	Attack 1137 1146	đánh_đuổi
+E13	Attack:T33 Attacker-Arg:T35 Target-Arg:T36 Place-Arg:T34 Time-Arg:T37
+T35	ORG 1114 1127	Quân_đội Iraq
+T36	ORG 1157 1159	IS
+T34	LOC 1165 1177	đất_nước này
+T37	TIME 1182 1195	tháng 12/2017
+T38	Die 1266 1272	ám_sát
+E14	Die:T38 Agent-Arg:T42 Place-Arg:T41 Place-Arg2:T43
+T39	Attack 1276 1280	đánh
+E15	Attack:T39 Instrument-Arg:T40 Place-Arg:T41 Attacker-Arg:T42 Place-Arg2:T43
+T40	WEA 1281 1284	bom
+T41	GPE 1290 1303	lãnh_thổ Iraq
+T42	PER 1209 1224	các tay súng IS
+T43	LOC 1319 1350	khu_vực dọc biên_giới với Syria

@@ -1,0 +1,21 @@
+T1	PER 20 41	5 thủ_lĩnh al - Qaeda
+T2	GPE 46 51	Syria
+T3	GPE 0 3	Nga
+T4	Attack 4 14	không kích
+E1	Attack:T4 Attacker-Arg2:T3 Place-Arg:T2 Target-Arg:T1
+T5	GPE 80 111	tỉnh Idlib , phía tây bắc Syria
+T6	Attack 57 67	không kích
+E2	Attack:T6 Place-Arg:T5
+T7	Die 15 19	diệt
+E3	Die:T7 Victim-Arg:T1 Agent-Arg:T3
+T8	Die 192 201	tiêu_diệt
+E4	Die:T8 Victim-Arg:T9
+T9	PER 137 185	5 chỉ_huy chiến_trường và 32 tay súng phiến quân
+T10	Attack 217 227	không_kích
+E5	Attack:T10 Target-Arg:T9
+T11	Attack 327 335	tấn_công
+E6	Attack:T11 Place-Arg:T12
+T12	GPE 371 402	tỉnh Idlib , phía tây bắc Syria
+T13	Attack 496 506	không_kích
+E7	Attack:T13 
+T14	ORG 470 482	Quân_đội Nga

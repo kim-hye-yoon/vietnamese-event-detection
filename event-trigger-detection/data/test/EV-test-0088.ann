@@ -1,0 +1,12 @@
+T1	Marry 31 38	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 0 30	Tài_tử ' Thâm cung nội_chiến '
+T3	Marry 181 188	kết_hôn
+E2	Marry:T3 Person-Arg:T4 Person-Arg2:T5
+T4	PER 103 113	Joyce Wong
+T5	PER 86 99	Huỳnh_Đức_Bân
+T6	PER 1319 1326	Đức Bân
+T7	GPE 1331 1339	Việt_Nam
+T8	TIME 1308 1316	Năm 2016
+T9	Transport 1327 1330	tới
+E3	Transport:T9 Destination-Arg:T7 Artifact-Arg:T6 Time-Arg:T8

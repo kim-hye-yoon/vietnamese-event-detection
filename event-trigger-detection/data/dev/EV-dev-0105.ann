@@ -1,0 +1,43 @@
+T1	ORG 71 82	TAND Hà_Nội
+T2	Trial-hearing 100 106	xét_xử
+E1	Trial-hearing:T2 Adjudicator-Arg:T1 Time-Arg:T6 Defendant-Arg:T3 Crime-Arg:T4
+T3	PER 107 149	Đinh_Thị_Bảy ( 47 tuổi , ở huyện Ứng_Hoà )
+T4	CRIME 153 192	hành_vi mua_bán trái_phép chất ma_tuý .
+T5	Transfer-ownership 161 168	mua_bán
+E2	Transfer-ownership:T5 
+T6	TIME 61 68	Hôm_nay
+T7	Release-parole 378 388	được tự_do
+E3	Release-parole:T7 
+T8	TIME 391 403	tháng 7/2016
+T9	Transfer-money 540 543	vay
+E4	Transfer-money:T9 Money-Arg:T10 Recipient-Arg:T13
+T10	MONEY 544 557	10 triệu đồng
+T11	Transfer-money 560 563	trả
+E5	Transfer-money:T11 Money-Arg:T12 Giver-Arg:T13
+T12	MONEY 568 578	4.000 đồng
+T13	PER 495 501	bị_cáo
+T14	Transport 620 630	vận_chuyển
+E6	Transport:T14 Artifact-Arg:T15
+T15	PER 613 619	Bị_cáo
+T16	Transfer-money 701 708	cho vay
+E7	Transfer-money:T16 Money-Arg:T17
+T17	MONEY 709 722	10 triệu đồng
+T18	Transfer-money 723 726	trả
+E8	Transfer-money:T18 Money-Arg:T17
+T19	Transport 768 778	vận_chuyển
+E9	Transport:T19 Artifact-Arg:T20
+T20	PER 732 738	Bà Bảy
+T21	Transfer-ownership 808 815	mua_bán
+E10	Transfer-ownership:T21 
+T22	Marry 937 944	kết_hôn
+E11	Marry:T22 
+T23	Be-born 947 951	sinh
+E12	Be-born:T23 
+T24	Die 973 976	mất
+E13	Die:T24 Victim-Arg:T25
+T25	PER 967 972	chồng
+T26	Transfer-ownership 1017 1020	bán
+E14	Transfer-ownership:T26 
+T27	Sentence 1249 1257	tuyên_án
+E15	Sentence:T27 Crime-Arg:T28
+T28	CRIME 1258 1265	tử_hình

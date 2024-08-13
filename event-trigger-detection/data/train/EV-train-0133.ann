@@ -1,0 +1,36 @@
+T1	PER 0 6	Cô_gái
+T2	Marry 13 20	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Time-Arg:T3
+T3	TIME 44 50	9 ngày
+T4	PER 1039 1044	Rosie
+T5	PER 1048 1052	Josh
+T6	Marry 1056 1071	đăng_ký kết_hôn
+E2	Marry:T6 Person-Arg:T5 Person-Arg2:T4
+T7	PER 629 634	Rosie
+T8	PER 638 642	Josh
+T9	Marry 664 667	cướ
+E3	Marry:T9 Person-Arg:T8 Person-Arg2:T7
+T10	PER 1137 1149	đôi vợ_chồng
+T11	Transport 1150 1153	qua
+E4	Transport:T11 Destination-Arg:T12 Artifact-Arg:T10
+T12	GPE 1154 1165	Tây_Ban_Nha
+T13	Transport 1188 1192	đến 
+E5	Transport:T13 Destination-Arg:T14 Artifact-Arg:T10
+T14	GPE 1192 1200	Scotland
+T15	PER 1336 1341	Em bé
+T16	Be-born 1353 1359	hào_đờ
+E6	Be-born:T16 Person-Arg:T15 Time-Arg:T17
+T17	TIME 1365 1381	tháng Giêng 2019
+T18	PER 568 570	Cô
+T19	PER 574 578	Josh
+T20	Meet 582 590	hẹn nhau
+E7	Meet:T20 Entity-Arg:T18 Entity-Arg2:T19
+T21	Meet 1166 1169	gặp
+E8	Meet:T21 Entity-Arg:T10 Entity-Arg2:T24
+T22	Meet 1201 1204	gặp
+E9	Meet:T22 Entity-Arg:T10 Entity-Arg2:T23
+T23	PER 1205 1215	bố_mẹ Josh
+T24	PER 1170 1181	bố_mẹ Rosie
+T25	PER 1444 1453	chúng_tôi
+T26	Marry 1464 1471	kết_hôn
+E10	Marry:T26 Person-Arg:T25

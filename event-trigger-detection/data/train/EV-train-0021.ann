@@ -1,0 +1,38 @@
+T1	Sentence 4 12	tuyên_án
+E1	Sentence:T1 
+T2	Divorce 16 22	ly_hôn
+E2	Divorce:T2 Person-Arg:T3
+T3	PER 27 59	vợ_chồng chủ cà_phê Trung_Nguyên
+T4	Divorce 210 216	ly_hôn
+E3	Divorce:T4 
+T5	Divorce 142 148	ly_hôn
+E4	Divorce:T5 Person-Arg:T17 Person-Arg2:T16
+T6	Divorce 534 540	ly_hôn
+E5	Divorce:T6 
+T7	Divorce 567 573	ly_hôn
+E6	Divorce:T7 
+T8	Divorce 602 608	ly_hôn
+E7	Divorce:T8 
+T9	Divorce 682 688	ly_hôn
+E8	Divorce:T9 
+T10	Divorce 850 856	ly_hôn
+E9	Divorce:T10 
+T11	Divorce 892 898	ly_hôn
+E10	Divorce:T11 Person-Arg:T18
+T12	Divorce 1333 1339	ly_hôn
+E11	Divorce:T12 
+T13	Divorce 2068 2074	ly_hôn
+E12	Divorce:T13 
+T14	Divorce 2140 2146	ly_hôn
+E13	Divorce:T14 
+T15	Divorce 2406 2412	ly_hôn
+E14	Divorce:T15 Person-Arg:T22 Person-Arg2:T21
+T16	PER 120 122	vợ
+T17	PER 128 133	chồng
+T18	PER 881 886	người
+T19	Divorce 2308 2314	ly_hôn
+E15	Divorce:T19 
+T20	Sue 2396 2405	khởi_kiện
+E16	Sue:T20 Plaintiff-Arg:T22 Plaintiff-Arg2:T21
+T21	PER 2385 2390	chồng
+T22	PER 2393 2395	vợ

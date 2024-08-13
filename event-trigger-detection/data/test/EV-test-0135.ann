@@ -1,0 +1,40 @@
+T1	ORG 44 61	TAND tỉnh Nghệ_An
+T2	Trial-hearing 79 85	xét_xử
+E1	Trial-hearing:T2 Adjudicator-Arg:T1 Defendant-Arg:T3 Defendant-Arg2:T4 Crime-Arg:T26
+T3	PER 90 108	bị_cáo Lữ_Văn_Hạnh
+T4	PER 121 132	Lữ_Thị_Liên
+T5	PER 349 360	Lữ_Văn_Hạnh
+T6	PER 364 375	Lữ_Thị_Liên
+T7	Meet 380 383	gặp
+E2	Meet:T7 Entity-Arg:T6 Entity-Arg2:T5 Entity-Arg3:T8 Time-Arg:T9
+T8	PER 384 396	Thò_Lia_Nênh
+T9	TIME 324 337	tháng 11.2013
+T10	TIME 537 558	chiều ngày 17.11.2013
+T11	PER 561 573	Thò_Lia_Nênh
+T12	LOC 582 611	khách_sạn tại huyện Quế_Phong
+T13	Transport 574 577	đến
+E3	Transport:T13 Destination-Arg:T12 Agent-Arg:T11 Time-Arg:T10
+T14	PER 748 764	ực_lượng công_an
+T15	Arrest-jail 765 768	bắt
+E4	Arrest-jail:T15 Agent-Arg:T14 Person-Arg:T30
+T16	PER 796 807	Lữ_Thị_Liên
+T17	PER 780 792	Thò Lia_Nênh
+T18	Arrest-jail 816 819	bắt
+E5	Arrest-jail:T18 Person-Arg:T16 Person-Arg2:T17
+T19	ORG 834 849	Hội_đồng xét_xử
+T20	Sentence 853 863	tuyên_phạt
+E6	Sentence:T20 Adjudicator-Arg:T19 Defendant-Arg:T21 Defendant-Arg2:T23 Sentence-Arg:T31 Sentence-Arg2:T32 Crime-Arg:T22
+T23	PER 916 927	Lữ_Thị_Liên
+T24	Be-born 135 139	sinh
+E7	Be-born:T24 Time-Arg:T25 Person-Arg:T4
+T25	TIME 140 148	năm 1983
+T26	CRIME 247 287	mua_bán vận_chuyển trái_phép chất ma_tuý
+T27	PER 440 452	Thò_Lia_Nênh
+T28	Phone-write 453 461	liên_lạc
+E8	Phone-write:T28 Entity-Arg:T27 Entity-Arg2:T29
+T29	PER 466 489	một đối_tượng người Lào
+T30	PER 682 686	Hạnh
+T31	SEN 899 909	chung_thân
+T21	PER 864 891	Lữ_Văn_Hạnh và Thò_Lia_Nênh
+T22	CRIME 983 1023	mua_bán vận_chuyển trái_phép chất ma_tuý
+T32	SEN 952 968	mức án 20 năm tù

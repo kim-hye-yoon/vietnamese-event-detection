@@ -1,0 +1,37 @@
+T1	Arrest-jail 18 25	bắt_giữ
+E1	Arrest-jail:T1 Person-Arg:T3 Agent-Arg:T2
+T2	ORG 0 17	Cảnh_sát Malaysia
+T3	PER 26 38	13 nghi phạm
+T4	Attack 39 47	hiếm_dâm
+E2	Attack:T4 Target-Arg:T5 Attacker-Arg:T3
+T5	PER 56 70	bé gái 15 tuổi
+T6	Arrest-jail 100 107	bắt_giữ
+E3	Arrest-jail:T6 Agent-Arg:T8 Person-Arg:T7
+T7	PER 108 128	ít_nhất 13 nghi_phạm
+T8	ORG 79 96	Cảnh_sát Malaysia
+T9	Attack 146 154	hiếp_dâm
+E4	Attack:T9 Target-Arg:T10 Attacker-Arg:T7
+T10	PER 163 181	một bé gái 15 tuổi
+T11	Attack 201 209	hiếp_dâm
+E5	Attack:T11 Target-Arg:T13 Attacker-Arg:T12 Time-Arg:T14 Target-Arg2:T15
+T12	PER 184 200	Một nhóm đàn_ông
+T13	PER 218 224	bé gái
+T14	TIME 233 242	ngày 20.5
+T15	FAC 268 304	một căn nhà bỏ_hoang ở bang Kelantan
+T16	PER 500 520	gần 40 người đàn_ông
+T17	Attack 532 540	hiếp_dâm
+E6	Attack:T17 Target-Arg:T18 Attacker-Arg:T16
+T18	PER 549 563	bé gái 15 tuổi
+T19	Transport 645 648	đến
+E7	Transport:T19 Artifact-Arg:T21 Destination-Arg:T20
+T20	FAC 649 663	ngôi nhà hoang
+T21	PER 634 644	các bé gái
+T22	Attack 579 587	hiếp_dâm
+E8	Attack:T22 Attacker-Arg:T23
+T23	PER 566 578	Nhóm đàn_ông
+T24	Arrest-jail 683 690	bắt_giữ
+E9	Arrest-jail:T24 Person-Arg:T25
+T25	PER 666 679	Các nghi_phạm
+T26	Arrest-jail 782 785	bắt
+E10	Arrest-jail:T26 Person-Arg:T27
+T27	PER 757 777	13 nghi phạm hiếp_dâ

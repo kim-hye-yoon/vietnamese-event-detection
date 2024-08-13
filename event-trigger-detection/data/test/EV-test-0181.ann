@@ -1,0 +1,4 @@
+T1	Phone-write 312 315	gửi
+E1	Phone-write:T1 Entity-Arg:T2 Entity-Arg2:T3
+T2	ORG 316 361	các uỷ_ban tư_pháp của lưỡng viện quốc_hội Mỹ
+T3	PER 364 372	ông Barr

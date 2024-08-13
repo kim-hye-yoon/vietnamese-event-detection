@@ -1,0 +1,45 @@
+T1	PER 0 9	Nghịch tử
+T2	Die 10 14	giết
+E1	Die:T2 Agent-Arg:T1 Victim-Arg:T3
+T3	PER 15 17	bố
+T4	Attack 32 36	đánh
+E2	Attack:T4 Attacker-Arg:T3 Target-Arg:T5
+T5	PER 37 39	mẹ
+T6	TIME 54 63	Ngày 29-5
+T7	ORG 66 115	Phòng Cảnh_sát ĐTTP về TTXH Công_an tỉnh Lạng_Sơn
+T8	Charge-indict 119 126	khởi_tố
+E3	Charge-indict:T8 Adjudicator-Arg:T7 Crime-Arg:T10 Time-Arg:T6
+T9	Charge-indict 135 142	khởi_tố
+E4	Charge-indict:T9 Adjudicator-Arg:T7 Defendant-Arg:T11 Crime-Arg:T12 Time-Arg:T6
+T10	CRIME 127 132	vụ án
+T11	PER 143 251	bị_can đối_với Lâm_Văn_Chuyên ( SN 1990 , trú tại thôn Pác_Sàn , xã Xuân_Dương , huyện Lộc_Bình , Lạng_Sơn )
+T12	CRIME 255 269	tội giết người
+T13	TIME 297 319	khoảng 17h30 ngày 23/5
+T14	PER 527 533	Chuyên
+T18	WEA 546 549	dao
+T19	Attack 554 558	chém
+E6	Attack:T19 Instrument-Arg:T18 Target-Arg:T20 Attacker-Arg:T14
+T20	PER 559 561	bố
+T21	PER 623 631	ông Phẩm
+T22	WEA 645 648	dao
+T23	PER 663 666	con
+T24	Attack 658 662	chém
+E7	Attack:T24 Instrument-Arg:T22 Attacker-Arg:T21 Target-Arg:T23
+T25	PER 693 699	Chuyên
+T26	PER 724 726	bố
+T27	Die 719 723	giết
+E8	Die:T27 Victim-Arg:T26 Agent-Arg:T25
+T28	PER 756 762	Chuyên
+T29	WEA 787 790	dao
+T30	Attack 791 795	chém
+E9	Attack:T30 Instrument-Arg:T29 Attacker-Arg:T28 Target-Arg:T31
+T31	PER 826 834	nạn_nhân
+T32	Die 835 842	tử_vong
+E10	Die:T32 Victim-Arg:T31
+T33	ORG 862 878	Cơ_quan điều_tra
+T34	Trial-hearing 916 922	xét_xử
+E11	Trial-hearing:T34 Adjudicator-Arg:T33
+T35	PER 377 393	ông Lâm_Văn_Phẩm
+T36	Be-born 396 398	SN
+E12	Be-born:T36 Time-Arg:T37 Person-Arg:T35
+T37	TIME 399 403	1958

@@ -1,0 +1,41 @@
+T1	ORG 2 13	Siêu uỷ_ban
+T2	Start-org 24 27	lập
+E1	Start-org:T2 Org-Arg:T1 Time-Arg:T3
+T3	TIME 34 39	quý I
+T4	Start-org 109 118	thành_lập
+E2	Start-org:T4 Org-Arg:T28
+T5	PER 184 205	Tổ công_tác Thủ_tướng
+T6	Start-org 209 218	thành_lập
+E3	Start-org:T6 Agent-Arg:T5 Org-Arg:T7 Time-Arg2:T29
+T7	ORG 219 263	Uỷ_ban Quản_lý vốn Nhà_nước tại doanh_nghiệp
+T8	TIME 415 427	quý I / 2018
+T9	TIME 432 443	Trong quý I
+T10	Start-org 452 466	thành_lập được
+E4	Start-org:T10 Time-Arg:T9 Org-Arg:T11
+T11	ORG 467 473	Uỷ_ban
+T12	Transfer-ownership 619 622	bán
+E5	Transfer-ownership:T12 Time-Arg:T13
+T13	TIME 653 664	trong năm 2
+T14	ORG 758 764	uỷ_ban
+T15	Start-org 774 783	thành_lập
+E6	Start-org:T15 Org-Arg:T14
+T16	PER 1170 1196	Thủ_tướng Nguyễn_Xuân_Phúc
+T17	Start-org 1215 1224	thành_lập
+E7	Start-org:T17 Agent-Arg:T16 Org-Arg:T18
+T18	ORG 1225 1250	Tổ công_tác của Thủ_tướng
+T19	Start-org 1265 1274	thành_lập
+E8	Start-org:T19 Org-Arg:T20
+T20	ORG 1275 1302	Uỷ_ban Quản_lý vốn Nhà_nước
+T21	Start-position 1438 1446	giữ chức
+E9	Start-position:T21 Person-Arg:T22 Person-Arg2:T23
+T22	PER 1389 1437	cựu Bí_thư tỉnh_uỷ Cao_Bằng ông Nguyễn_Hoàng_Anh
+T23	PER 1447 1462	Chủ_tịch uỷ_ban
+T24	Start-org 1563 1572	thành_lập
+E10	Start-org:T24 Org-Arg:T25
+T25	ORG 1573 1600	Uỷ_ban Quản_lý vốn Nhà_nước
+T28	ORG 121 155	siêu uỷ_ban ' quản_lý vốn Nhà_nước
+T29	TIME 264 274	chiều 16/1
+T31	ORG 342 352	Bộ , ngành
+T32	Start-org 392 401	thành_lập
+E12	Start-org:T32 Time-Arg:T8 Agent-Arg:T31 Org-Arg:T33
+T33	ORG 402 408	uỷ_ban

@@ -1,0 +1,17 @@
+T1	Demonstrate 5 14	biểu_tình
+E1	Demonstrate:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	ORG 21 31	Trung_Quốc
+T3	ORG 36 49	Liên_Hợp_Quốc
+T4	PER 165 180	Hơn 6.000 người
+T5	Demonstrate 190 199	biểu_tình
+E2	Demonstrate:T5 Time-Arg:T6 Entity-Arg:T4
+T6	TIME 200 209	ngày 8/11
+T7	Demonstrate 210 219	tuần_hành
+E3	Demonstrate:T7 Entity-Arg:T4 Place-Arg:T8 Place-Arg2:T9
+T8	FAC 223 244	Quảng_trường Thời_đại
+T9	FAC 249 283	Quảng_trường Thống_nhất ở New_York
+T10	Transport 245 248	tới
+E4	Transport:T10 Artifact-Arg:T4 Origin-Arg:T8 Destination-Arg:T9
+T11	PER 1475 1478	ông
+T12	End-position 1487 1494	từ_chức
+E5	End-position:T12 Person-Arg:T11

@@ -1,0 +1,39 @@
+T1	GPE 0 11	Philippines
+T2	Release-parole 12 21	trả tự_do
+E1	Release-parole:T2 Person-Arg:T3 Entity-Arg:T1
+T3	PER 26 48	hai ngư_dân Trung_Quốc
+T4	Arrest-jail 97 107	bị bắt_giữ
+E2	Arrest-jail:T4 Person-Arg:T5
+T5	PER 51 96	Cảnh_sát Philippines và 11 ngư_dân Trung_Quốc
+T6	Transport 159 171	bị trục_xuất
+E3	Transport:T6 Artifact-Arg:T7 Origin-Arg:T8
+T7	PER 142 153	hai ngư_dân
+T8	GPE 177 188	Philippines
+T9	ORG 206 212	toà_án
+T10	Release-parole 213 222	trả tự_do
+E4	Release-parole:T10 Entity-Arg:T9 Person-Arg:T7
+T11	Arrest-jail 375 385	bị tạm giữ
+E5	Arrest-jail:T11 Place-Arg:T13 Person-Arg:T12
+T12	PER 337 357	9 ngư_dân Trung_Quốc
+T13	GPE 393 400	Palawan
+T14	Transfer-money 728 731	nộp
+E6	Transfer-money:T14 Money-Arg:T16 Giver-Arg:T15
+T15	PER 711 720	mỗi người
+T16	MONEY 732 761	70.000 peso ( hơn 1.500 USD )
+T17	Transport 808 817	trục_xuất
+E7	Transport:T17 Artifact-Arg:T18
+T18	PER 818 832	9 ngư_dân trên
+T19	Convict 896 903	kết_tội
+E8	Convict:T19 Crime-Arg:T20 Defendant-Arg:T21
+T20	CRIME 904 977	đánh_bắt những loài quý_hiếm , đang bị đe_doạ hoặc có nguy_cơ tuyệt_chủng
+T21	PER 980 997	nhóm ngư_dân trên
+T22	SEN 1022 1072	bản_án tối_đa 20 năm tù và một khoản tiền phạt lớn
+T23	Arrest-jail 1153 1156	bắt
+E9	Arrest-jail:T23 Agent-Arg:T25 Person-Arg:T24 Time-Arg:T26
+T24	PER 1075 1128	Các ngư_dân Trung_Quốc của tàu cá Qiongqionghai 09063
+T25	ORG 1132 1152	cảnh_sát Philippines
+T26	TIME 1157 1164	hôm 6/5
+T27	Release-parole 1430 1439	trả tự_do
+E10	Release-parole:T27 Person-Arg:T29 Entity-Arg:T28
+T28	GPE 1418 1429	Philippines
+T29	PER 1444 1451	ngư_dân

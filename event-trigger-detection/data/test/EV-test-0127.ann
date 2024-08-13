@@ -1,0 +1,84 @@
+T1	PER 0 30	Nguyên Chánh Thanh_tra Sở Y_tế
+T4	PER 41 46	người
+T5	TIME 61 74	Sáng nay 10/2
+T6	ORG 77 102	TAND Hải_Châu ( Đà_Nẵng )
+T7	Charge-indict 113 119	xét_xử
+E3	Charge-indict:T7 Adjudicator-Arg:T6 Time-Arg:T5 Defendant-Arg:T9 Crime-Arg:T10
+T8	Convict 123 131	tuyên_án
+E4	Convict:T8 Defendant-Arg:T9 Adjudicator-Arg:T6 Time-Arg:T5 Crime-Arg:T10
+T9	PER 132 197	bị_cáo Trần_Quang_Hiền , nguyên Chánh thanh_tra Sở Y_tế Quảng_Nam
+T10	CRIME 205 296	vi_phạm các quy_định về điều_khiển phương_tiện giao_thông đường_bộ gây hậu_quả nghiêm_trọng
+T11	TIME 310 341	vào_khoảng 20 giờ ngày 5/6/2013
+T12	PER 344 363	ông Trần_Quang_Hiền
+T13	Transport 364 374	điều_khiển
+E5	Transport:T13 Time-Arg:T11 Agent-Arg:T12 Vehicle-Arg:T14
+T14	VEH 375 399	xe ô_tô BKS 51 A -074.15
+T15	LOC 405 474	tuyến đường ven biển Nguyễn_Tất_Thành ( quận Hải_Châu , TP. Đà_Nẵng )
+T16	Attack 478 481	húc
+E6	Attack:T16 Time-Arg:T11 Attacker-Arg:T12 Place-Arg:T15 Target-Arg:T41
+T17	VEH 486 502	chiếc xe_gắn_máy
+T18	PER 506 567	chị Trần_Thị_Minh_Nguyệt ( 36 tuổi , ở Tiểu_La , TP.Đà_Nẵng )
+T19	Transport 568 578	điều_khiển
+E7	Transport:T19 Agent-Arg:T18 Vehicle-Arg:T17 Time-Arg:T11
+T20	PER 587 590	chị
+T21	Injure 591 599	ngã nhào
+E8	Injure:T21 Victim-Arg:T20
+T22	VEH 611 629	chiếc xe ô_tô trên
+T23	Attack 639 643	tông
+E9	Attack:T23 Place-Arg:T27 Instrument-Arg:T22 Time-Arg:T28
+T24	VEH 648 658	một xe_máy
+T25	PER 662 680	một nam thanh_niên
+T26	Transport 681 691	điều_khiển
+E10	Transport:T26 Agent-Arg:T25 Vehicle-Arg:T24
+T27	LOC 694 736	đang lưu_thông trên đường Nguyễn_Tất_Thành
+T28	TIME 602 608	Sau đó
+T29	TIME 739 781	Sau khi làm 2 chiếc xe_máy ngã xuống_đường
+T30	VEH 784 820	chiếc xe ô_tô do ông Hiền điều_khiển
+T31	Attack 841 844	đâm
+E11	Attack:T31 Target-Arg:T37 Instrument-Arg:T30 Time-Arg:T29
+T32	VEH 849 859	xe_gắn_máy
+T33	PER 863 952	chị Nguyễn_Nhật_Huyền_Trang ( 23 tuổi , ở phường Thọ_Quang , quận Sơn_Trà , TP. Đà_Nẵng )
+T34	Transport 953 963	điều_khiển
+E12	Transport:T34 Origin-Arg:T35 Destination-Arg:T36 Agent-Arg:T33 Vehicle-Arg:T32
+T35	LOC 978 997	đường Ông_Ích_Khiêm
+T36	LOC 1001 1016	cầu Thuận_Phước
+T37	VEH 849 1016	xe_gắn_máy do chị Nguyễn_Nhật_Huyền_Trang ( 23 tuổi , ở phường Thọ_Quang , quận Sơn_Trà , TP. Đà_Nẵng ) điều_khiển theo hướng từ đường Ông_Ích_Khiêm về cầu Thuận_Phước
+T38	VEH 784 797	chiếc xe ô_tô
+T39	PER 801 809	ông Hiền
+T40	Transport 810 820	điều_khiển
+E13	Transport:T40 Agent-Arg:T39 Vehicle-Arg:T38
+T41	VEH 486 578	chiếc xe_gắn_máy do chị Trần_Thị_Minh_Nguyệt ( 36 tuổi , ở Tiểu_La , TP.Đà_Nẵng ) điều_khiển
+T42	PER 1082 1091	chị Trang
+T43	Die 1092 1099	tử_vong
+E14	Die:T43 Place-Arg:T44 Agent-Arg:T42
+T44	LOC 1100 1107	tại_chỗ
+T47	PER 1317 1320	ông
+T48	PER 1324 1346	một người bạn cùng quê
+T49	LOC 1351 1373	đường Nguyễn_Tất_Thành
+T50	VEH 1379 1383	ô_tô
+T51	Transport 1347 1350	đến
+E16	Transport:T51 Destination-Arg:T49 Agent-Arg:T48 Agent-Arg2:T47 Time-Arg:T52 Vehicle-Arg:T50
+T52	TIME 1292 1314	Tối hôm xảy ra vụ_việc
+T53	VEH 1428 1430	xe
+T54	PER 1434 1450	bạn của ông Hiền
+T55	Transport 1451 1454	lái
+E17	Transport:T55 Agent-Arg:T54 Vehicle-Arg:T53
+T56	TIME 1864 1889	Sau khi xảy ra vụ tai_nạn
+T57	PER 1892 1903	bị_cáo Hiền
+T58	Transport 1956 1959	đến
+E18	Transport:T58 Destination-Arg:T59 Artifact-Arg:T57 Time-Arg:T56
+T59	FAC 1960 1969	bệnh_viện
+T60	PER 2208 2212	HĐXX
+T61	Sentence 2216 2226	tuyên_phạt
+E19	Sentence:T61 Adjudicator-Arg:T60 Sentence-Arg:T62 Sentence-Arg2:T63
+T62	SEN 2227 2244	mức án 9 tháng tù
+T63	SEN 2261 2268	án_treo
+T64	End-position 157 163	nguyên
+E20	End-position:T64 Person-Arg:T65 Position-Arg:T66
+T65	PER 132 154	bị_cáo Trần_Quang_Hiền
+T66	JOB 164 197	Chánh thanh_tra Sở Y_tế Quảng_Nam
+T45	PER 1496 1504	ông Hiền
+T46	Transport 1522 1532	điều_khiển
+E15	Transport:T46 Agent-Arg:T45
+T2	Die 31 40	tông chết
+E1	Die:T2 Victim-Arg:T4 Agent-Arg:T1

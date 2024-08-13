@@ -1,0 +1,36 @@
+T1	Elect 16 24	bầu_chọn
+E1	Elect:T1 
+T4	TIME 225 232	năm nay
+T5	PER 244 254	7.000 ngườ
+T6	Elect 284 289	đề_cử
+E4	Elect:T6 Person-Arg:T2 Time-Arg:T3
+T2	PER 260 269	Một người
+T3	TIME 312 325	các năm trước
+T7	Nominate 453 463	giới_thiệu
+E2	Nominate:T7 Person-Arg:T9 Agent-Arg:T8
+T8	PER 468 502	hai người là thành_viên trong viện
+T9	PER 390 408	một nhà_chuyên_môn
+T10	Nominate 909 914	đề_cử
+E3	Nominate:T10 Agent-Arg:T11 Position-Arg:T19
+T11	PER 863 877	những đạo_diễn
+T12	Elect 1268 1271	bầu
+E5	Elect:T12 Person-Arg:T13
+T13	PER 1238 1251	một diễn_viên
+T14	Nominate 1432 1437	đề_cử
+E6	Nominate:T14 
+T15	Nominate 1652 1657	đề_cử
+E7	Nominate:T15 Person-Arg:T16 Time-Arg:T17 Position-Arg:T18
+T16	PER 1519 1542	nữ diễn_viên Emma_Stone
+T17	TIME 1507 1516	ngày 24/1
+T18	JOB 1664 1682	vai chính xuất_sắc
+T19	JOB 930 947	Đạo_diễn xuất_sắc
+T20	Elect 1747 1753	đã bầu
+E8	Elect:T20 Person-Arg:T21
+T21	PER 1758 1775	người vừa bị loại
+T22	Nominate 2434 2439	đề_cử
+E9	Nominate:T22 
+T23	Nominate 2869 2874	đề_cử
+E10	Nominate:T23 Time-Arg:T24
+T24	TIME 2805 2813	Năm 2016
+T25	Nominate 3030 3035	đề_cử
+E11	Nominate:T25 

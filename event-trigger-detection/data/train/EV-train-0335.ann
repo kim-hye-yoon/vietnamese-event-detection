@@ -1,0 +1,28 @@
+T1	PER 0 22	Diễn_viên Hà_Việt_Dũng
+T2	Marry 23 30	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 35 54	cô_gái dân_tộc Thái
+T4	PER 57 69	Hà_Việt_Dũng
+T5	Marry 74 81	kết_hôn
+E2	Marry:T5 Person-Arg:T4 Place-Arg:T6 Time-Arg:T7
+T6	GPE 86 102	quê_nhà Hoà_Bình
+T7	TIME 103 113	ngày 19/10
+T8	PER 922 924	cô
+T9	Transport 925 931	chuyển
+E3	Transport:T9 Artifact-Arg:T8 Destination-Arg:T10
+T10	GPE 936 942	TP HCM
+T11	PER 1320 1332	Hà_Việt_Dũng
+T12	Be-born 1387 1394	sinh ra
+E4	Be-born:T12 Person-Arg:T11 Place-Arg:T13
+T13	GPE 1408 1448	thị_trấn Mường_Khến , Tân_Lạc , Hoà_Bình
+T14	PER 116 139	Cô_dâu tên Hà_Thị_Nhung
+T15	Be-born 142 146	sinh
+E5	Be-born:T15 Person-Arg:T14 Time-Arg:T16
+T16	TIME 147 155	năm 1993
+T17	Be-born 1333 1337	sinh
+E6	Be-born:T17 Time-Arg:T18 Person-Arg:T11
+T18	TIME 1338 1346	năm 1987
+T19	PER 1649 1664	Anh và anh_trai
+T20	Transfer-ownership 1676 1679	bán
+E7	Transfer-ownership:T20 Place-Arg:T21 Seller-Arg:T19
+T21	GPE 1689 1697	ở quận 3

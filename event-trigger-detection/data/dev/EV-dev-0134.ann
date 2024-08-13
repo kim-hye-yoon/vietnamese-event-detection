@@ -1,0 +1,6 @@
+T1	Declare-bankruptcy 306 313	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Divorce 958 960	bỏ
+E2	Divorce:T2 Person-Arg:T3 Person-Arg2:T4
+T3	PER 955 957	vợ
+T4	PER 944 948	anh 

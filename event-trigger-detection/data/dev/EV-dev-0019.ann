@@ -1,0 +1,109 @@
+T1	Divorce 9 15	ly_hôn
+E1	Divorce:T1 Place-Arg:T2
+T2	LOC 28 36	thế_giới
+T3	Marry 150 157	kết_hôn
+E2	Marry:T3 Person-Arg:T5 Person-Arg2:T6 Time-Arg:T4
+T4	TIME 158 166	năm 1969
+T5	PER 117 128	Bob_Johnson
+T6	PER 132 149	vợ Sheila_Johnson
+T7	Start-org 175 183	sáng_lập
+E3	Start-org:T7 Org-Arg:T8 Agent-Arg:T5 Agent-Arg2:T6
+T8	ORG 184 214	Black_Entertainment_Television
+T9	Divorce 315 321	ly_hôn
+E4	Divorce:T9 Person-Arg:T10 Time-Arg:T11
+T10	PER 301 303	họ
+T11	TIME 289 297	năm 2002
+T12	Marry 418 425	kết_hôn
+E5	Marry:T12 Person-Arg:T13 Person-Arg2:T14
+T13	PER 404 410	Sheila
+T14	PER 430 457	thẩm_phán chủ_toạ vụ ly_hôn
+T15	Divorce 451 457	ly_hôn
+E6	Divorce:T15 
+T16	Divorce 600 606	ly_hôn
+E7	Divorce:T16 Person-Arg:T17 Person-Arg2:T18
+T17	PER 537 561	nam diễn_viên Mel_Gibson
+T18	PER 565 576	Robyn_Moore
+T19	Divorce 873 878	ly_dị
+E8	Divorce:T19 Person-Arg:T21 Person-Arg2:T22 Time-Arg:T20
+T20	TIME 903 911	năm 1997
+T21	PER 776 833	Nhà tiên_phong trong ngành điện_thoại_di_động Craig_McCaw
+T22	PER 837 869	nhà_xuất_bản báo_chí Wendy_McCaw
+T23	Divorce 1073 1079	ly_hôn
+E9	Divorce:T23 Person-Arg:T24 Person-Arg2:T25 Time-Arg:T26
+T24	PER 1048 1065	Elena Rybolovleva
+T25	PER 1084 1122	doanh_nhân người Nga Dmitry_Rybolovlev
+T26	TIME 1156 1164	năm 2014
+T27	Appeal 1277 1286	kháng_cáo
+E10	Appeal:T27 Defendant-Arg:T28
+T28	PER 1259 1276	doanh nhân Dmitry
+T29	Marry 1443 1450	kết_hôn
+E11	Marry:T29 Person-Arg:T30 Person-Arg2:T31 Time-Arg:T32
+T30	PER 1395 1442	nhà_buôn vũ_khí Saudi_Arabia là Adnan_Khashoggi
+T31	PER 1455 1499	một phụ_nữ 20 tuổi người Anh tên Sandra_Daly
+T32	TIME 1384 1392	Năm 1961
+T33	Divorce 1658 1663	ly dị
+E12	Divorce:T33 Person-Arg:T34 Time-Arg:T35
+T34	PER 1655 1658	Họ 
+T35	TIME 1668 1676	năm 1974
+T36	Divorce 1794 1800	ly_hôn
+E13	Divorce:T36 Person-Arg:T37 Person-Arg2:T38 Time-Arg:T39
+T37	PER 1806 1833	ông trùm dầu_mỏ Harold_Hamm
+T38	PER 1837 1854	vợ Sue_Ann_Arnall
+T39	TIME 1855 1863	năm 2012
+T40	Transfer-money 1979 1982	chi
+E14	Transfer-money:T40 Giver-Arg:T41 Time-Arg:T42
+T41	PER 1961 1964	ông
+T42	TIME 1952 1960	năm 2015
+T43	Marry 2069 2076	kết_hôn
+E15	Marry:T43 Person-Arg:T44 Person-Arg2:T45 Time-Arg:T46
+T44	PER 2033 2068	Đại_gia sòng bạc Las_Vegas là Steve
+T45	PER 2081 2095	bà Elaine Wynn
+T46	TIME 2107 2143	giai_đoạn 1963 - 1986 và 1991 - 2010
+T47	Divorce 2156 2162	ly_hôn
+E16	Divorce:T47 Person-Arg:T48 Person-Arg2:T49
+T48	PER 2173 2184	đại_gia này
+T49	PER 2199 2201	vợ
+T50	PER 2286 2381	Cựu giám_đốc_điều_hành giải đua F1 Bernie_Ecclestone , một trong những người giàu nhất nước Anh
+T51	Divorce 2387 2392	ly_dị
+E17	Divorce:T51 Person-Arg:T50 Person-Arg2:T52 Time-Arg:T53
+T52	PER 2393 2427	người_mẫu Croatia là Slavica_Radić
+T53	TIME 2432 2440	năm 2009
+T54	Transfer-money 2547 2555	phải_chi
+E18	Transfer-money:T54 Giver-Arg:T55
+T55	PER 2521 2533	cô người_mẫu
+T56	Marry 2699 2706	kết_hôn
+E19	Marry:T56 Person-Arg:T57 Person-Arg2:T58
+T57	PER 2640 2676	Ông trùm truyền_thông Rupert_Murdoch
+T58	PER 2680 2698	nhà_báo Maria_Torv
+T59	Divorce 2796 2804	chia_tay
+E20	Divorce:T59 Person-Arg:T60 Time-Arg:T61
+T60	PER 2780 2782	họ
+T61	TIME 2822 2830	năm 1998
+T62	Divorce 2849 2854	ly_dị
+E21	Divorce:T62 
+T63	Marry 2985 2992	kết_hôn
+E22	Marry:T63 Person-Arg:T64 Person-Arg2:T65 Time-Arg:T66
+T64	PER 2977 2984	Murdoch
+T65	PER 2997 3007	Wendi_Deng
+T66	TIME 3008 3030	17 ngày sau khi ly_hôn
+T67	PER 3043 3047	Torv
+T68	Marry 3048 3055	kết_hôn
+E23	Marry:T68 Person-Arg:T67 Person-Arg2:T69 Time-Arg:T70
+T69	PER 3060 3072	William_Mann
+T70	TIME 3073 3089	sáu tháng sau đó
+T71	Divorce 3152 3158	ly_hôn
+E24	Divorce:T71 Time-Arg:T72
+T72	TIME 3183 3191	năm 1999
+T73	Transfer-money 3325 3329	trao
+E25	Transfer-money:T73 Beneficiary-Arg:T74 Money-Arg:T75 Time-Arg:T76
+T74	PER 3312 3319	Jocelyn
+T75	MONEY 3330 3357	2,5 tỷ USD và 100 triệu USD
+T76	TIME 3362 3382	mỗi 13 năm tiếp_theo
+T77	Transfer-money 2898 2903	nhận 
+E26	Transfer-money:T77 Recipient-Arg:T78 Money-Arg:T79
+T78	PER 2872 2882	Maria Torv
+T79	MONEY 2904 2914	1,7 tỷ USD
+T80	Divorce 3244 3249	ly_dị
+E27	Divorce:T80 Person-Arg:T81 Person-Arg2:T82
+T81	PER 3198 3243	nhà_buôn nghệ_thuật người Mỹ Alec_Wildenstein
+T82	PER 3250 3272	vợ Jocelyn_Wildenstein

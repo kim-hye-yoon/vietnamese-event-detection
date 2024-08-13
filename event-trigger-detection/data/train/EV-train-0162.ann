@@ -1,0 +1,5 @@
+T1	TIME 2687 2747	Kể từ ngày bắt_đầu mở bán sản_phẩm đầu_tiên vào tháng 5/2015
+T2	ORG 2758 2765	Công_ty
+T3	Transfer-ownership 2769 2772	bán
+E1	Transfer-ownership:T3 Seller-Arg:T2 Time-Arg:T1 Price-Arg:T4
+T4	MONEY 2866 2880	10.872 tỷ đồng

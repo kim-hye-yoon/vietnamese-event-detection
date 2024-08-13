@@ -1,0 +1,42 @@
+T2	Marry 31 38	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	Marry 101 108	lễ cưới
+E2	Marry:T3 Person-Arg:T5 Time-Arg:T4
+T4	TIME 126 135	hôm 19/10
+T5	PER 113 115	cô
+T6	Marry 416 423	cầu_hôn
+E3	Marry:T6 Person-Arg:T8 Person-Arg2:T7 Time-Arg:T9
+T7	PER 407 414	Bạn tra
+T8	PER 424 429	Janie
+T9	TIME 433 440	tháng 7
+T11	Be-born 463 467	sinh
+E4	Be-born:T11 Time-Arg:T12 Person-Arg:T10
+T12	TIME 472 476	1991
+T13	TIME 575 583	năm 2013
+T14	PER 586 604	Janie_Tienphosuwan
+T15	Marry 605 612	kết_hôn
+E5	Marry:T15 Person-Arg:T16 Person-Arg2:T14 Time-Arg:T13
+T16	PER 635 664	tỷ_phú Ae_Chonsawat_Asavahame
+T17	PER 781 786	Janie
+T18	Divorce 787 792	ly_dị
+E6	Divorce:T18 Time-Arg:T19 Person-Arg:T17
+T19	TIME 797 801	2014
+T20	PER 898 916	Janie_Tienphosuwan
+T22	Be-born 847 851	Sinh
+E7	Be-born:T22 Place-Arg:T23 Person-Arg:T20 Time-Arg:T21
+T23	GPE 863 881	Los_Angeles ( Mỹ )
+T24	Transport 917 919	về
+E8	Transport:T24 Agent-Arg:T20 Destination-Arg:T25
+T25	GPE 920 928	Thái_Lan
+T1	PER 2 30	Người đẹp thị_phi ' Thái_Lan
+T26	Marry 377 385	đám_cưới
+E9	Marry:T26 Person-Arg:T27
+T27	PER 386 404	Janie_Tienphosuwan
+T10	PER 443 462	Chú_rể Non_Anaphath
+T28	Marry 681 689	đám_cưới
+E10	Marry:T28 
+T29	Attack 748 776	thượng cẳng_chân hạ cẳng_tay
+E11	Attack:T29 Attacker-Arg:T30 Target-Arg:T31
+T30	PER 740 745	chồng
+T31	PER 713 732	Người_mẫu đánh_ghen
+T21	TIME 852 860	năm 1981

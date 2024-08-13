@@ -1,0 +1,116 @@
+T1	PER 79 107	hung_thủ sát_hại công_an_viê
+T2	Attack 113 120	vật_lộn
+E1	Attack:T2 Attacker-Arg:T1
+T3	Attack 124 133	chống_trả
+E2	Attack:T3 Attacker-Arg:T1
+T4	TIME 163 177	21h35 ngày 4/4
+T5	ORG 180 234	tổ công_tác Phòng cảnh_sát hình_sự Công_an tỉnh Sơn_La
+T6	Transport 256 259	đưa
+E3	Transport:T6 Agent-Arg:T5 Time-Arg:T4 Artifact-Arg:T7 Destination-Arg:T8
+T7	PER 260 342	kẻ sát_hại công_an_viên bản Phiêng_Mựt , xã Mường_Giôn , huyện Quỳnh_Nhai , Sơn_La
+T8	FAC 347 380	Trại tạm giam Công_an tỉnh Sơn_La
+T9	PER 925 990	anh Lường_Văn_Quang , công_an_viên bản Phiêng_Mựt , xã Mường_Giôn
+T10	Injure 1042 1052	vết_thương
+E4	Injure:T10 Victim-Arg:T9 Place-Arg:T37
+T11	Transport 1137 1140	đưa
+E5	Transport:T11 Artifact-Arg:T12 Destination-Arg:T13 Agent-Arg:T87
+T12	PER 1141 1144	anh
+T13	FAC 1160 1183	Trạm Y_tế xã Mường_Giôn
+T14	PER 1267 1276	anh Quang
+T15	Die 1277 1284	tử_vong
+E6	Die:T15 Victim-Arg:T14 Place-Arg:T16
+T16	FAC 1214 1262	đường đưa đến bệnh_viện Đa_khoa huyện Quỳnh_Nhai
+T17	ORG 1287 1298	Tổ công_tác
+T18	Transport 1302 1310	dẫn_giải
+E7	Transport:T18 Agent-Arg:T17 Artifact-Arg:T19 Origin-Arg:T20 Destination-Arg:T21
+T19	PER 1311 1333	đối_tượng Chè_Văn_Sung
+T20	GPE 1359 1367	Lai_Châu
+T21	GPE 1371 1377	Sơn_La
+T22	PER 1681 1690	anh Quang
+T23	Attack 1694 1697	bắn
+E8	Attack:T23 Target-Arg:T22 Place-Arg:T25
+T24	Die 1698 1702	chết
+E9	Die:T24 Victim-Arg:T22 Place-Arg:T25
+T25	LOC 1703 1782	cách bản Phiêng_Mựt hơn 1.000 m về phía Bắc , trên con đường_mòn đi_lại của dân
+T26	PER 2888 2897	anh Quang
+T28	PER 2926 2930	Sung
+T29	Transport 2936 2944	biến mất
+E11	Transport:T29 Origin-Arg:T30 Artifact-Arg:T28
+T30	LOC 2950 2957	địa_bàn
+T31	PER 4313 4319	anh ta
+T33	LOC 4349 4355	quê vợ
+T34	Injure 5333 5341	quật ngã
+E13	Injure:T34 Victim-Arg:T35
+T35	PER 5317 5321	Sung
+T38	ORG 5409 5425	các tổ trinh_sát
+T39	Attack 5436 5444	tấn_công
+E16	Attack:T39 Attacker-Arg:T38 Target-Arg:T40
+T40	PER 5484 5488	Sung
+T41	Arrest-jail 5476 5483	bắt_giữ
+E17	Arrest-jail:T41 Person-Arg:T40 Agent-Arg:T38
+T42	TIME 5499 5518	Ngay trong sáng 4/4
+T43	ORG 5521 5575	tổ công_tác Phòng cảnh_sát hình_sự Công_an tỉnh Sơn_La
+T44	Transport 5610 5615	di_lý
+E18	Transport:T44 Time-Arg:T42 Agent-Arg:T43 Artifact-Arg:T45 Destination-Arg:T46
+T45	PER 5616 5638	đối_tượng Chè_Văn_Sung
+T46	GPE 5642 5648	Sơn_La
+T47	TIME 5659 5679	chiều muộn cùng ngày
+T48	PER 5682 5696	đối_tượng Sung
+T49	Transport 5706 5712	đưa về
+E19	Transport:T49 Artifact-Arg:T48 Time-Arg:T47 Destination-Arg:T50
+T50	FAC 5713 5739	trụ_sở Công_an tỉnh Sơn_La
+T51	Die 5795 5803	giết_hại
+E20	Die:T51 Victim-Arg:T52 Agent-Arg:T36
+T52	PER 5804 5813	anh Quang
+T36	PER 5761 5773	Chè_Văn_Sung
+T37	FAC 1003 1036	khu_vực sửa ống nước của gia_đình
+T27	Die 2901 2908	sát_hại
+E10	Die:T27 Victim-Arg:T26
+T55	Attack 1810 1813	bắn
+E15	Attack:T55 Target-Arg:T56
+T56	PER 1797 1806	anh Quang
+T57	Transfer-ownership 3634 3637	mua
+E21	Transfer-ownership:T57 Buyer-Arg:T59 Artifact-Arg:T58 Time-Arg:T61 Price-Arg:T60
+T58	VEH 3620 3628	Chiếc xe
+T59	PER 3629 3633	Sung
+T61	TIME 3662 3670	năm 2006
+T62	Transfer-ownership 4018 4021	bán
+E22	Transfer-ownership:T62 Artifact-Arg:T64 Seller-Arg:T63
+T63	PER 3995 4007	Chè Văn_Sung
+T64	WEA 4022 4025	đất
+T66	TIME 649 659	Chiều 11/3
+T67	PER 662 688	Lường_Văn_Tuấn ( 13 tuổi )
+T68	LOC 708 771	khu_vực Huổi_Hua_Na , xã Mường_Giôn , huyện Quỳnh_Nhai , Sơn_La
+T65	Attack 788 795	súng nổ
+E23	Attack:T65 Place-Arg:T68 Time-Arg:T66
+T53	FAC 4263 4270	tài_sản
+T54	PER 4249 4253	Sung
+T69	Transfer-ownership 4254 4258	giao
+E14	Transfer-ownership:T69 Seller-Arg:T54 Artifact-Arg:T53 Beneficiary-Arg:T70
+T70	PER 4286 4288	vợ
+T71	Injure 991 998	nằm gục
+E24	Injure:T71 Victim-Arg:T9 Place-Arg:T37
+T72	Start-org 2297 2306	thành_lập
+E25	Start-org:T72 Org-Arg:T73
+T73	ORG 2307 2320	Ban chuyên_án
+T74	TIME 3065 3073	Năm 2008
+T75	PER 3076 3080	Sung
+T76	Transfer-ownership 3081 3088	bán ngô
+E26	Transfer-ownership:T76 Seller-Arg:T75 Buyer-Arg:T77 Time-Arg:T74
+T77	PER 3093 3100	em_trai
+T78	PER 3104 3110	anh Cu
+T79	Transfer-money 3114 3124	thanh_toán
+E27	Transfer-money:T79 Giver-Arg:T78
+T80	TIME 3147 3155	Năm 2010
+T81	PER 3158 3160	Cu
+T82	Transfer-ownership 3161 3164	bán
+E28	Transfer-ownership:T82 Seller-Arg:T81 Buyer-Arg:T83 Time-Arg:T80
+T83	PER 3173 3177	Sung
+T84	PER 3245 3247	Cu
+T85	Transport 3256 3259	đến
+E29	Transport:T85 Agent-Arg:T84 Destination-Arg:T86
+T86	LOC 3260 3272	nhà anh_trai
+T87	PER 1106 1136	dân bản và người_nhà anh Quang
+T32	Transport 4339 4345	chuyển
+E12	Transport:T32 Artifact-Arg:T31 Destination-Arg:T33
+T60	MONEY 3646 3658	4 triệu đồng

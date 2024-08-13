@@ -1,0 +1,23 @@
+T1	Die 8 14	tử_nạn
+E1	Die:T1 Victim-Arg:T2
+T2	PER 0 7	Thủ_môn
+T3	Elect 30 38	được bầu
+E2	Elect:T3 Person-Arg:T2
+T4	Die 93 99	tử_nạn
+E3	Die:T4 Victim-Arg:T5 Victim-Arg2:T6
+T5	PER 65 92	Thủ_môn của CLB Chapecoense
+T6	PER 105 117	các đồng_đội
+T7	Transport 122 125	bay
+E4	Transport:T7 Agent-Arg:T5 Agent-Arg2:T6 Destination-Arg:T8
+T8	GPE 130 138	Medellin
+T9	Elect 184 192	được bầu
+E5	Elect:T9 Person-Arg:T10 Entity-Arg:T11
+T10	PER 180 183	Anh
+T11	PER 267 270	CĐV
+T12	Die 728 735	qua_đời
+E6	Die:T12 Victim-Arg:T13
+T13	PER 720 727	thủ_môn
+T14	Die 1073 1080	qua_đời
+E7	Die:T14 Victim-Arg:T15 Place-Arg:T16
+T15	PER 1040 1069	19 thành_viên của Chapecoense
+T16	GPE 1100 1108	Colombia

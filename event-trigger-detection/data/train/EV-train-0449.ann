@@ -1,0 +1,27 @@
+T1	ORG 0 36	Nhà_đầu_tư BOT Thái_Nguyên - Chợ_Mới
+T2	Declare-bankruptcy 45 52	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T21	ORG 896 906	nhà_đầu_tư
+T24	MONEY 1022 1035	219,2 tỷ đồng
+T25	MONEY 1075 1088	183,1 tỷ đồng
+T28	ORG 1319 1337	doanh_nghiệp dự_án
+T29	ORG 1383 1392	ngân_hàng
+T32	ORG 1534 1544	nhà_đầu_tư
+T33	FAC 1806 1843	trạm trên tuyến Thái_Nguyên - Chợ Mới
+T34	VEH 1856 1867	phương_tiện
+T35	FAC 1893 1905	Quốc_lộ 3 cũ
+T39	ORG 2470 2478	Nhà_nước
+T40	MONEY 2518 2531	2.775 tỷ đồng
+T41	TIME 2591 2603	tháng 1/2019
+T3	ORG 987 1005	doanh_nghiệp dự_án
+T4	TIME 951 982	từ 18/5/2017 đến ngày 25/4/2018
+T5	Transfer-money 1014 1021	chi_trả
+E4	Transfer-money:T5 Money-Arg:T24 Giver-Arg:T3 Time-Arg:T4
+T6	Transfer-money 1372 1378	trả nợ
+E2	Transfer-money:T6 Recipient-Arg:T29 Giver-Arg:T28
+T7	Declare-bankruptcy 1498 1505	phá_sản
+E3	Declare-bankruptcy:T7 
+T8	Transport 1886 1888	đi
+E5	Transport:T8 Destination-Arg:T35 Vehicle-Arg:T34
+T9	Transfer-ownership 2479 2488	trưng_mua
+E6	Transfer-ownership:T9 Buyer-Arg:T39 Price-Arg:T40

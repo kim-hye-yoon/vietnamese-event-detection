@@ -1,0 +1,42 @@
+T1	Attack 86 90	đánh
+E1	Attack:T1 Target-Arg:T3 Attacker-Arg:T2
+T2	PER 78 85	Học trò
+T3	PER 91 95	bạn 
+T4	Attack 318 325	bạo_lực
+E2	Attack:T4 Target-Arg:T5
+T5	PER 238 292	Gần 50 % thanh_thiếu_niên độ tuổi đi học trên thế_giới
+T6	Attack 584 591	bạo_lực
+E3	Attack:T6 
+T7	Attack 715 722	gây_hấn
+E4	Attack:T7 Target-Arg:T9
+T8	Attack 734 741	bạo_lực
+E5	Attack:T8 Target-Arg:T9
+T9	PER 746 756	người khác
+T10	PER 775 782	con_trẻ
+T11	Attack 801 808	bạo_lực
+E6	Attack:T11 Target-Arg:T13 Attacker-Arg:T10
+T12	Attack 821 828	bắt_nạt
+E7	Attack:T12 Target-Arg:T13 Attacker-Arg:T10
+T13	PER 829 839	người khác
+T14	Attack 873 881	bạo_hành
+E8	Attack:T14 
+T15	Attack 924 931	bạo_lực
+E9	Attack:T15 
+T16	Attack 1015 1022	xâm_hại
+E10	Attack:T16 Target-Arg:T17
+T17	PER 1033 1043	người khác
+T18	Attack 1054 1061	bắt_nạt
+E11	Attack:T18 Target-Arg:T19
+T19	PER 1062 1065	bạn
+T20	Attack 1423 1430	bạo_lực
+E12	Attack:T20 
+T21	Transfer-money 2402 2409	cho vay
+E13	Transfer-money:T21 
+T22	Trial-hearing 2622 2624	xử
+E14	Trial-hearing:T22 Crime-Arg:T23
+T23	CRIME 2595 2612	vi_phạm pháp_luật
+T24	Attack 3117 3125	đánh_đập
+E15	Attack:T24 
+T25	Attack 3481 3491	bị bắt_nạt
+E16	Attack:T25 Target-Arg:T26
+T26	PER 3457 3463	các em

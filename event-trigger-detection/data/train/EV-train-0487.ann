@@ -1,0 +1,40 @@
+T1	Transport 224 227	đến
+E1	Transport:T1 Artifact-Arg:T2
+T2	PER 204 207	tôi
+T3	Transport 346 352	lao ra
+E2	Transport:T3 Artifact-Arg:T4
+T4	PER 307 318	một bé trai
+T5	Attack 747 751	đánh
+E3	Attack:T5 Attacker-Arg:T7 Target-Arg:T6
+T6	PER 752 755	anh
+T7	PER 716 731	3 người đàn_ông
+T8	Attack 853 860	bị đánh
+E4	Attack:T8 Target-Arg:T9
+T9	PER 838 852	Nam thanh_niên
+T10	Transport 877 884	bỏ chạy
+E5	Transport:T10 Artifact-Arg:T9
+T11	Transport 908 911	dắt
+E6	Transport:T11 Destination-Arg:T14 Vehicle-Arg:T13 Artifact-Arg:T12
+T12	PER 887 889	Họ
+T13	VEH 894 896	xe
+T14	FAC 916 919	nhà
+T15	Attack 967 976	đánh chết
+E7	Attack:T15 Attacker-Arg:T16 Target-Arg:T17
+T16	PER 963 966	tao
+T17	PER 950 953	Mày
+T18	PER 1103 1118	3 người đàn_ông
+T19	Attack 1119 1123	đánh
+E8	Attack:T19 Target-Arg:T20 Attacker-Arg:T18
+T20	PER 1124 1138	nam thanh_niên
+T21	Transfer-money 1266 1273	đưa cho
+E9	Transfer-money:T21 Giver-Arg:T23 Recipient-Arg:T22 Money-Arg:T24
+T22	PER 1274 1291	gia_đình nạn_nhân
+T23	PER 1232 1246	nam thanh_niên
+T24	MONEY 1292 1304	500.000 đồng
+T26	PER 1478 1488	thanh_niên
+T27	VEH 1492 1498	xe_máy
+T25	Transport 1489 1491	đi
+E10	Transport:T25 Artifact-Arg:T26 Vehicle-Arg:T27
+T28	PER 1539 1552	người đàn_ông
+T29	Attack 1565 1569	đánh
+E11	Attack:T29 Attacker-Arg:T28 Target-Arg:T26

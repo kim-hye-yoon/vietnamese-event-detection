@@ -1,0 +1,22 @@
+T1	PER 152 182	Bất_cứ quân_đội nước_ngoài nào
+T2	GPE 187 192	Syria
+T3	Transport 183 186	đến
+E1	Transport:T3 Destination-Arg:T2 Artifact-Arg:T1
+T4	GPE 403 405	Mỹ
+T5	Transport 406 410	điều
+E2	Transport:T5 Agent-Arg:T4 Artifact-Arg:T6
+T6	PER 411 415	quân
+T7	GPE 463 465	Mỹ
+T8	Attack 469 478	tiêu diệt
+E3	Attack:T8 Attacker-Arg:T7 Target-Arg:T9
+T9	ORG 479 511	Nhà nước Hồi_giáo tự_xưng ( IS )
+T10	PER 844 874	nhiều lính thuỷ_quân_lục_chiến
+T11	WEA 880 894	pháo hạng nặng
+T14	GPE 912 917	Syria
+T15	GPE 1367 1369	Mỹ
+T16	Transport 1375 1384	điều_động
+E6	Transport:T16 Artifact-Arg:T17 Agent-Arg:T15 Destination-Arg:T18
+T17	PER 1385 1407	gần 100 lính đặc_nhiệm
+T18	GPE 1420 1431	tỉnh Manbij
+T12	Transport 903 911	điều đến
+E4	Transport:T12 Artifact-Arg:T10 Artifact-Arg2:T11 Destination-Arg:T14

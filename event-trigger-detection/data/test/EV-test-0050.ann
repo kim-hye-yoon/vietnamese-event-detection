@@ -1,0 +1,18 @@
+T2	VEH 567 594	chiến_đấu cơ Mỹ F / A -18 E
+T3	VEH 606 623	cường_kích Su -22
+T4	Attack 674 681	ném bom
+E2	Attack:T4 Attacker-Arg:T6 Target-Arg:T5
+T5	ORG 682 711	các lực_lượng do Mỹ hậu_thuẫn
+T6	GPE 668 673	Syria
+T7	Attack 745 751	bắn hạ
+E3	Attack:T7 Target-Arg:T8 Attacker-Arg:T9
+T1	Attack 595 601	bắn hạ
+E1	Attack:T1 Target-Arg:T3 Instrument-Arg:T2
+T8	VEH 752 778	phi_cơ_chính_phủ nước khác
+T9	GPE 734 744	Washington
+T10	Attack 823 829	bắn hạ
+E4	Attack:T10 Target-Arg:T11
+T11	VEH 830 850	máy_bay có người lái
+T12	Attack 1267 1273	bắn hạ
+E5	Attack:T12 Target-Arg:T13
+T13	VEH 1274 1297	máy_bay chính_phủ Syria

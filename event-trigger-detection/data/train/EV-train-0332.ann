@@ -1,0 +1,19 @@
+T1	Merge-org 0 8	Sáp_nhập
+E1	Merge-org:T1 Org-Arg:T2 Org-Arg2:T3
+T2	ORG 9 18	Sacombank
+T3	ORG 22 34	Southernbank
+T4	Merge-org 197 205	sáp_nhập
+E2	Merge-org:T4 Org-Arg:T5 Org-Arg2:T6
+T5	ORG 206 243	ngân_hàng Phương_Nam ( Southernbank )
+T6	ORG 248 257	Sacombank
+T8	Merge-org 618 626	sáp_nhập
+E4	Merge-org:T8 Org-Arg:T9 Org-Arg2:T7
+T7	ORG 576 601	Ngân_hàng TMCP Phương_Nam
+T9	ORG 631 640	Sacombank
+T12	ORG 4174 4184	hai đơn_vị
+T13	Merge-org 4190 4198	sáp_nhập
+E6	Merge-org:T13 Org-Arg:T12
+T10	ORG 1247 1259	Southernbank
+T14	Start-org 1265 1274	thành_lập
+E3	Start-org:T14 Org-Arg:T10 Time-Arg:T15
+T15	TIME 1275 1283	năm 1993

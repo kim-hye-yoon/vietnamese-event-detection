@@ -1,0 +1,41 @@
+T1	ORG 197 223	quân_đội chính_quyền Syria
+T2	TIME 224 231	hôm 7/4
+T3	WEA 237 249	khí chlorine
+T4	Attack 250 258	tấn_công
+E1	Attack:T4 Attacker-Arg:T1 Time-Arg:T2 Instrument-Arg:T3 Place-Arg:T5
+T6	PER 328 336	70 người
+T7	Die 337 341	chết
+E2	Die:T7 Victim-Arg:T6
+T8	PER 1371 1384	Tổng_thống Mỹ
+T9	Transport 1388 1391	tới
+E3	Transport:T9 Agent-Arg:T8 Destination-Arg:T10 Time-Arg:T11
+T10	GPE 1392 1396	Peru
+T11	TIME 1397 1406	ngày 13/4
+T12	Transport 1416 1423	công_du
+E4	Transport:T12 Destination-Arg:T13 Artifact-Arg:T8
+T13	GPE 1424 1432	Colombia
+T14	Attack 2357 2367	không_kích
+E5	Attack:T14 Target-Arg:T15
+T15	FAC 2373 2398	vào sân_bay quân_sự Syria
+T16	VEH 2452 2473	hai tiêm_kích F -15 I
+T17	Attack 2511 2516	phóng
+E6	Attack:T17 Time-Arg:T21 Instrument-Arg:T16 Instrument-Arg2:T18 Place-Arg:T32
+T18	WEA 2517 2537	8 tên_lửa hành_trình
+T21	TIME 2441 2449	ngày 9/4
+T20	PER 2798 2806	12 người
+T22	Die 2807 2817	thiệt_mạng
+E7	Die:T22 Victim-Arg:T20
+T23	PER 4159 4184	Thủ_tướng Anh Theresa_May
+T24	Phone-write 4204 4212	điện_đàm
+E8	Phone-write:T24 Entity-Arg:T23 Entity-Arg2:T25
+T25	PER 4217 4230	Tổng_thống Mỹ
+T5	GPE 259 314	thành_phố Douma , Đông_Ghouta , ngoại_ô thủ_đô Damascus
+T26	GPE 3334 3340	Moscow
+T27	Attack 3344 3350	bắn hạ
+E9	Attack:T27 Attacker-Arg:T26 Target-Arg:T31
+T28	WEA 2642 2666	5 tên_lửa bị phòng_không
+T29	GPE 2667 2672	Syria
+T30	Attack 2673 2679	bắn hạ
+E10	Attack:T30 Attacker-Arg:T29 Target-Arg:T28
+T31	WEA 3351 3365	mọi tên_lửa Mỹ
+T32	GPE 2568 2573	Syria

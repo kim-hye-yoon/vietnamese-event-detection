@@ -1,0 +1,57 @@
+T1	Divorce 40 46	ly_hôn
+E1	Divorce:T1 Person-Arg:T3
+T2	Marry 58 62	cưới
+E2	Marry:T2 Person-Arg:T3
+T3	PER 16 26	người Nhật
+T5	Marry 195 199	cưới
+E4	Marry:T5 Person-Arg:T7 Place-Arg:T6
+T6	GPE 134 138	Nhật
+T7	PER 155 166	nhiều người
+T9	Divorce 375 381	ly_hôn
+E6	Divorce:T9 Place-Arg:T10
+T10	GPE 251 259	Tại_Nhật
+T11	Divorce 468 473	ly_dị
+E7	Divorce:T11 Time-Arg:T12
+T12	TIME 481 488	mỗi năm
+T14	PER 491 505	các đôi ở Nhật
+T15	Marry 719 726	kết_hôn
+E9	Marry:T15 Person-Arg:T17 Person-Arg2:T16
+T16	PER 731 736	chồng
+T17	PER 641 684	Ca_sĩ nhạc pop người Nhật , Silva , 43 tuổi
+T18	Divorce 970 976	ly_hôn
+E10	Divorce:T18 Person-Arg:T22
+T19	PER 979 984	Silva
+T20	Transfer-money 993 1003	bồi_thường
+E11	Transfer-money:T20 Money-Arg:T21 Beneficiary-Arg:T19
+T21	MONEY 1004 1036	một triệu yen ( 210 triệu đồng )
+T22	PER 900 909	hai người
+T23	Divorce 1070 1076	ly_hôn
+E12	Divorce:T23 Person-Arg:T24 Person-Arg2:T25 Time-Arg:T26
+T24	PER 1042 1047	Silva
+T25	PER 1051 1060	chồng chị
+T26	TIME 1085 1094	trước_đây
+T28	PER 1164 1167	tôi
+T29	Divorce 1188 1194	ly_hôn
+E14	Divorce:T29 Person-Arg:T30
+T30	PER 1197 1206	chúng_tôi
+T31	Marry 1262 1269	tái hôn
+E15	Marry:T31 Person-Arg:T32
+T32	PER 1272 1275	tôi
+T33	Marry 1391 1395	cưới
+E16	Marry:T33 Person-Arg:T34
+T34	PER 1323 1341	Nhiều đôi Nhật_Bản
+T35	Marry 1482 1490	cưới lại
+E17	Marry:T35 Person-Arg:T36
+T36	PER 1495 1500	Silva
+T39	PER 2675 2681	70 đôi
+T40	TIME 2685 2701	năm 2014 tới nay
+T41	Marry 3137 3141	cưới
+E20	Marry:T41 Person-Arg:T42 Person-Arg2:T43
+T42	PER 3127 3132	chồng
+T43	PER 2991 3032	một phụ_nữ nội_trợ ở độ tuổi 30 tại Tokyo
+T44	Marry 3403 3407	cưới
+E21	Marry:T44 Person-Arg:T45
+T45	PER 3364 3374	đôi nam_nữ
+T48	PER 3570 3572	họ
+T47	Marry 3630 3648	trở_thành vợ_chồng
+E23	Marry:T47 Person-Arg:T48

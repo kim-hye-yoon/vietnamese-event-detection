@@ -1,0 +1,47 @@
+T1	Die 306 313	qua_đời
+E1	Die:T1 Victim-Arg:T2
+T2	PER 297 302	chồng
+T3	Transport 363 369	bắt xe
+E2	Transport:T3 Origin-Arg:T4 Destination-Arg:T5 Artifact-Arg:T7
+T4	LOC 375 376	i
+T5	LOC 386 394	Phật_Sơn
+T6	Phone-write 316 326	Nói_chuyện
+E3	Phone-write:T6 
+T7	PER 352 359	cô Tian
+T8	Phone-write 601 611	điện_thoại
+E4	Phone-write:T8 Entity-Arg:T10
+T9	Phone-write 588 596	liên_lạc
+E5	Phone-write:T9 Entity-Arg:T10
+T10	PER 578 580	họ
+T12	PER 885 890	cô ấy
+T13	MONEY 891 904	hơn 40.000 tệ
+T14	PER 870 873	Tôi
+T15	Marry 1035 1042	kết_hôn
+E7	Marry:T15 Person-Arg:T16
+T16	PER 1002 1008	ông Wu
+T17	MONEY 1098 1106	2.000 tệ
+T18	PER 1090 1096	bạn gá
+T19	Transfer-money 1082 1089	đưa cho
+E8	Transfer-money:T19 Time-Arg:T20 Recipient-Arg:T18 Money-Arg:T17 Giver-Arg:T21
+T11	Transfer-money 877 884	đưa cho
+E6	Transfer-money:T11 Recipient-Arg:T12 Giver-Arg:T14 Money-Arg:T13
+T20	TIME 1045 1071	Kỳ nghỉ Quốc_khánh năm nay
+T21	PER 1136 1138	Wu
+T22	Phone-write 1149 1159	điện_thoại
+E9	Phone-write:T22 Entity-Arg:T23 Entity-Arg2:T21
+T23	ORG 1164 1172	cảnh_sát
+T24	Marry 1116 1123	kết_hôn
+E10	Marry:T24 Person-Arg:T21
+T25	Arrest-jail 1200 1203	bắt
+E11	Arrest-jail:T25 Person-Arg:T27 Agent-Arg:T26 Place-Arg:T28
+T26	PER 1175 1187	Người phụ_nữ
+T27	PER 1191 1199	cảnh_sát
+T28	LOC 1208 1211	nhà
+T29	Transfer-money 1622 1629	đưa cho
+E12	Transfer-money:T29 Giver-Arg:T31 Recipient-Arg:T32 Money-Arg:T30
+T30	MONEY 1633 1646	hơn 10.000 tệ
+T31	PER 1612 1618	Ông Li
+T32	PER 1630 1632	bà
+T33	Die 846 849	mất
+E13	Die:T33 Victim-Arg:T34
+T34	PER 840 845	chồng

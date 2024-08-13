@@ -1,0 +1,16 @@
+T2	Die 32 36	chết
+E1	Die:T2 Place-Arg:T3 Victim-Arg:T1
+T3	LOC 41 50	nhà_riêng
+T1	PER 5 31	một nam diễn_viên Hàn_Quốc
+T5	Die 202 209	tắt_thở
+E2	Die:T5 Agent-Arg:T4 Place-Arg:T6 Time-Arg:T7
+T4	PER 130 167	Nam diễn_viên Woo_Bong_Shik , 41 tuổi
+T6	FAC 216 251	căn nhà thuê ở Gaepo_Dong , Gangnam
+T7	TIME 263 281	8 giờ tối_ngày 9/3
+T8	Die 409 416	thi_thể
+E3	Die:T8 Victim-Arg:T9
+T9	PER 421 447	chàng diễn_viên xấu_số này
+T10	End-position 617 626	nghỉ_việc
+E4	End-position:T10 Time-Arg:T11 Person-Arg:T12
+T11	TIME 633 650	thời_gian gần đây
+T12	PER 610 613	ông

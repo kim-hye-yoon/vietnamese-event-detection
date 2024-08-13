@@ -1,0 +1,45 @@
+T1	Attack 10 18	đột_nhập
+E1	Attack:T1 Attacker-Arg:T2 Place-Arg:T3
+T2	PER 1 9	Nam sinh
+T3	LOC 19 40	nhà cô_giáo chủ_nhiệm
+T4	Arrest-jail 245 252	tạm giữ
+E2	Arrest-jail:T4 Agent-Arg:T5 Place-Arg:T6 Time-Arg:T8 Crime-Arg:T7
+T5	ORG 167 215	Cơ_quan Cảnh_sát điều_tra Công_an thị_xã Ayun_Pa
+T6	GPE 218 230	tỉnh Gia_Lai
+T8	TIME 156 164	Sáng 4/5
+T7	CRIME 261 354	Lê_Xuân_Phong ( SN 1996 , học_sinh lớp 12 A5 , trường THPT Lê_Thánh_Tông , thị_xã Ayun_Pa , )
+T9	Attack 368 376	đột_nhập
+E3	Attack:T9 Place-Arg:T10 Attacker-Arg:T11 Time-Arg:T12
+T10	LOC 377 417	nhà cô_giáo chủ_nhiệm Huỳnh_Thị_Như_Thuỷ
+T11	PER 261 274	Lê_Xuân_Phong
+T12	TIME 430 439	ngày 30/4
+T13	TIME 442 451	Chiều 1/5
+T14	PER 454 459	Phong
+T15	Transfer-money 460 464	mang
+E4	Transfer-money:T15 Giver-Arg:T14 Money-Arg:T16
+T16	MONEY 470 498	nhiều dây_chuyền , nhẫn vàng
+T17	Transport 499 502	đến
+E5	Transport:T17 Agent-Arg:T14 Destination-Arg:T18 Destination-Arg2:T19
+T18	LOC 503 518	một tiệm vàng S
+T19	GPE 520 551	nằm trên địa_bàn thị_xã Ayun_Pa
+T20	TIME 636 647	Ngay sau đó
+T21	PER 650 655	Phong
+T22	Transport 664 667	rời
+E6	Transport:T22 Agent-Arg:T21 Origin-Arg:T23 Time-Arg:T20
+T23	LOC 668 682	khỏi tiệm vàng
+T24	TIME 863 870	Đêm 1/5
+T25	PER 873 877	Phon
+T26	Transport 895 901	trở_về
+E7	Transport:T26 Agent-Arg:T25 Destination-Arg:T27
+T27	LOC 902 941	nhà ( đường Ngô_Mây , phường Đoàn_Kết )
+T28	Arrest-jail 967 974	bắt_giữ
+E8	Arrest-jail:T28 Agent-Arg:T29 Person-Arg:T25
+T29	ORG 949 966	lực_lượng công_an
+T30	TIME 1100 1109	ngày 30/4
+T31	PER 1112 1124	cô_giáo Thuỷ
+T32	Transport 1128 1131	đến
+E9	Transport:T32 Agent-Arg:T31 Time-Arg:T30 Destination-Arg:T33
+T33	LOC 1132 1154	Công_an thị_xã Ayun_Pa
+T34	PER 1172 1176	trộm
+T35	Attack 1177 1185	đột_nhập
+E10	Attack:T35 Attacker-Arg:T34

@@ -1,0 +1,32 @@
+T1	Marry 9 16	kết_hôn
+E1	Marry:T1 Person-Arg:T3 Person-Arg2:T2
+T2	PER 29 43	doanh_nhân Đức
+T3	PER 0 8	Bảo_Trúc
+T4	Transport 69 73	sang
+E2	Transport:T4 Destination-Arg:T7 Artifact-Arg:T5 Time-Arg:T6
+T5	PER 60 68	Bảo_Trúc
+T6	TIME 46 57	Đầu tháng 6
+T7	GPE 74 77	Đức
+T8	Marry 126 133	kết_hôn
+E3	Marry:T8 
+T9	Transport 533 537	sang
+E4	Transport:T9 Artifact-Arg:T10 Destination-Arg:T11 Time-Arg:T12
+T10	PER 522 524	họ
+T11	GPE 538 545	châu_Âu
+T12	TIME 512 519	Tháng 9
+T13	Be-born 1158 1162	sinh
+E5	Be-born:T13 Person-Arg:T15 Time-Arg:T14 Place-Arg:T16
+T14	TIME 1163 1171	năm 1986
+T15	PER 1149 1157	Bảo_Trúc
+T16	GPE 1180 1188	Bạc_Liêu
+T17	Marry 1376 1383	kết_hôn
+E6	Marry:T17 Person-Arg:T18 Time-Arg:T19
+T18	PER 1373 1375	cô
+T19	TIME 1364 1372	Năm 2011
+T20	Divorce 1386 1394	chia_tay
+E7	Divorce:T20 Person-Arg:T21 Person-Arg2:T18
+T21	PER 1395 1400	chồng
+T22	Meet 716 724	gặp nhau
+E8	Meet:T22 Entity-Arg:T24 Time-Arg:T23
+T23	TIME 743 752	tháng hai
+T24	PER 713 715	Họ

@@ -1,0 +1,15 @@
+T1	ORG 0 14	Đường_Ninh_Hoà
+T2	Start-org 15 17	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3 Place-Arg:T4
+T3	ORG 18 25	công_ty
+T4	GPE 30 39	Singapore
+T5	ORG 42 88	Công_ty_cổ_phần Đường_Ninh_Hoà ( Mã CK : NHS )
+T6	Start-org 112 121	thành_lập
+E2	Start-org:T6 Agent-Arg:T5 Org-Arg:T7 Place-Arg:T8
+T7	ORG 122 138	doanh_nghiệp con
+T8	GPE 143 152	Singapore
+T9	TIME 1206 1213	Hôm 2/7
+T10	ORG 1216 1230	Đường_Ninh_Hoà
+T11	Merge-org 1259 1267	sáp_nhập
+E3	Merge-org:T11 Org-Arg:T10 Org-Arg2:T12 Time-Arg:T9
+T12	ORG 1268 1298	Công_ty_cổ_phần Đường_Biên_Hoà

@@ -1,0 +1,31 @@
+T1	Declare-bankruptcy 10 17	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 0 9	Thiếu gia
+T13	PER 719 725	Trương
+T21	PER 1187 1193	Trương
+T22	Arrest-jail 1209 1212	bắt
+E2	Arrest-jail:T22 Person-Arg:T21 Agent-Arg:T23
+T23	PER 1200 1208	cảnh_sát
+T24	PER 1234 1240	Trương
+T25	PER 1400 1406	Trương
+T26	PER 1478 1484	Trương
+T27	Trial-hearing 1501 1507	xét_xử
+E3	Trial-hearing:T27 Crime-Arg:T28 Defendant-Arg:T26
+T28	CRIME 1508 1519	tội lừa_đảo
+T29	PER 1561 1567	Trương
+T30	Arrest-jail 1568 1574	bị bắt
+E4	Arrest-jail:T30 Person-Arg:T29
+T31	PER 1577 1582	Dương
+T4	PER 740 742	cô
+T5	FAC 789 808	một căn nhà cao_cấp
+T3	Transfer-ownership 735 739	tặng
+E5	Transfer-ownership:T3 Artifact-Arg:T5 Beneficiary-Arg:T4
+T6	Transfer-money 1084 1087	vay
+E6	Transfer-money:T6 Recipient-Arg:T7 Giver-Arg:T9 Money-Arg:T8
+T7	PER 1075 1078	Cậu
+T8	MONEY 1097 1141	170 triệu nhân_dân_tệ ( khoảng 595 tỷ đồng )
+T9	PER 1093 1096	bạn
+T10	Transfer-money 1261 1264	vay
+E7	Transfer-money:T10 Recipient-Arg:T24
+T11	Transfer-money 1407 1413	nợ_nần
+E8	Transfer-money:T11 

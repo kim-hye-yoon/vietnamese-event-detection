@@ -1,0 +1,52 @@
+T1	Arrest-jail 96 100	giam
+E1	Arrest-jail:T1 Person-Arg:T2 Place-Arg:T3 Crime-Arg:T4
+T2	PER 68 79	Paul_Whelan
+T3	GPE 103 106	Nga
+T4	CRIME 110 128	cáo_buộc gián_điệp
+T5	Release-parole 301 310	thả tự_do
+E2	Release-parole:T5 Person-Arg:T6
+T6	PER 315 404	một trong những người Nga bị giữ ở Mỹ như Maria_Butina , cô_gái đã nhận tội làm gián_điệp
+T7	Arrest-jail 344 347	giữ
+E3	Arrest-jail:T7 Person-Arg:T9 Place-Arg:T8
+T8	GPE 350 352	Mỹ
+T9	PER 315 340	một trong những người Nga
+T10	Transport 772 780	đến thăm
+E4	Transport:T10 Agent-Arg:T11
+T11	PER 738 771	các nhà_ngoại_giao những nước này
+T12	Transport 863 871	đến thăm
+E5	Transport:T12 Destination-Arg:T13 Agent-Arg:T16
+T13	FAC 872 897	nhà_tù Lefortovo ở Moskva
+T14	PER 904 910	Whelan
+T15	Arrest-jail 914 922	giam_giữ
+E6	Arrest-jail:T15 Person-Arg:T14 Place-Arg:T13
+T16	PER 790 844	Yevgeny_Yenikeyev , nhà hoạt_động vì quyền của tù_nhân
+T17	Arrest-jail 1441 1444	bắt
+E7	Arrest-jail:T17 Person-Arg:T19 Agent-Arg:T18 Crime-Arg:T20
+T18	GPE 1437 1440	Nga
+T19	PER 1427 1433	Whelan
+T20	CRIME 1458 1569	xây_dựng mạng_lưới tình_báo ở nước này bằng các nền_tảng trực_tuyến như diễn_đàn và mạng xã_hội từ 10 năm trước
+T21	Meet 1582 1588	gặp_gỡ
+E8	Meet:T21 Entity-Arg:T22 Entity-Arg2:T23
+T22	PER 1572 1578	Whelan
+T23	PER 1589 1605	một_số người Nga
+T24	Arrest-jail 1667 1670	bắt
+E9	Arrest-jail:T24 Person-Arg:T25
+T25	PER 1657 1663	Anh ta
+T26	Transport 1803 1806	đến
+E10	Transport:T26 Destination-Arg:T27 Agent-Arg:T28
+T27	GPE 1807 1813	Moskva
+T28	PER 1779 1788	người này
+T29	Arrest-jail 1914 1917	bắt
+E11	Arrest-jail:T29 Agent-Arg:T30 Person-Arg:T31
+T30	GPE 1890 1896	Moskva
+T31	PER 1918 1924	Whelan
+T32	Release-parole 1948 1951	thả
+E12	Release-parole:T32 Person-Arg:T33
+T33	PER 1952 1964	công_dân này
+T34	Arrest-jail 2001 2009	bắt giam
+E13	Arrest-jail:T34 
+T35	Arrest-jail 2105 2108	bắt
+E14	Arrest-jail:T35 Person-Arg:T38 Agent-Arg:T36 Time-Arg:T37
+T36	GPE 2102 2104	Mỹ
+T37	TIME 2109 2120	hồi tháng 6
+T38	PER 2026 2096	Maria_Butina , người sáng_lập tổ_chức ủng_hộ quyền_sở_hữu súng của Nga

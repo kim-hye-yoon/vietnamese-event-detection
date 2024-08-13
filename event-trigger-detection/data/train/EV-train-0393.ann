@@ -1,0 +1,14 @@
+T1	Declare-bankruptcy 2 9	Phá_sản
+E1	Declare-bankruptcy:T1 
+T4	PER 96 104	Tấn_Hùng
+T5	Declare-bankruptcy 129 136	Phá_sản
+E2	Declare-bankruptcy:T5 
+T26	PER 1790 1793	bạn
+T27	Declare-bankruptcy 1962 1969	Phá_sản
+E3	Declare-bankruptcy:T27 
+T28	PER 1973 1978	khách
+T36	PER 2525 2528	Tôi
+T37	Declare-bankruptcy 2533 2540	phá_sản
+E4	Declare-bankruptcy:T37 
+T2	Transfer-money 1798 1801	bán
+E5	Transfer-money:T2 

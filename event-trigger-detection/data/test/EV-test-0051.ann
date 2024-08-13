@@ -1,0 +1,4 @@
+T1	PER 803 814	bọn đầu_gấu
+T2	Die 831 840	giết chết
+E1	Die:T2 Agent-Arg:T1 Victim-Arg:T3
+T3	PER 841 849	nạn_nhân

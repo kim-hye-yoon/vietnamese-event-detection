@@ -1,0 +1,4 @@
+T1	Meet 147 155	hội_nghị
+E1	Meet:T1 Time-Arg:T2 Place-Arg:T3
+T2	TIME 219 227	sáng nay
+T3	GPE 230 236	TP HCM

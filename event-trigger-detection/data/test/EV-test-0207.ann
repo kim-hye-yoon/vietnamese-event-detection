@@ -1,0 +1,19 @@
+T1	PER 1174 1177	anh
+T2	Transfer-ownership 1178 1181	bán
+E1	Transfer-ownership:T2 Seller-Arg:T1 Price-Arg:T3
+T3	MONEY 1192 1212	giá 0,75 USD mỗi quả
+T4	Attack 1444 1447	cắn
+E2	Attack:T4 Target-Arg:T5
+T5	PER 1402 1405	tôi
+T6	PER 339 365	Glenn_Berger - một thợ lặn
+T7	Transfer-ownership 452 455	bán
+E3	Transfer-ownership:T7 Seller-Arg:T6
+T8	PER 497 500	anh
+T9	Transfer-ownership 501 504	bán
+E4	Transfer-ownership:T9 Seller-Arg:T8
+T10	PER 1635 1638	Anh
+T11	Die 1681 1685	chết
+E5	Die:T11 Victim-Arg:T10
+T12	PER 1714 1720	Berger
+T13	Attack 1731 1738	vật_lộn
+E6	Attack:T13 Attacker-Arg:T12

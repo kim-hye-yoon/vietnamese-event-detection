@@ -1,0 +1,20 @@
+T1	Declare-bankruptcy 8 15	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 3	Nhà
+T3	Start-org 237 239	mở
+E2	Start-org:T3 Org-Arg:T6 Agent-Arg:T5 Time-Arg:T4
+T4	TIME 214 227	hai năm trước
+T5	PER 230 233	ông
+T6	ORG 245 261	một cửa_hàng nhỏ
+T7	End-org 552 560	đóng_cửa
+E3	End-org:T7 Org-Arg:T8
+T8	ORG 518 527	tiệm bánh
+T9	Transfer-ownership 591 594	bán
+E4	Transfer-ownership:T9 Artifact-Arg:T10 Buyer-Arg:T11
+T10	ORG 595 603	cửa_hàng
+T11	PER 565 571	Bố tôi
+T12	Transfer-ownership 771 774	mua
+E5	Transfer-ownership:T12 
+T13	End-org 1188 1192	đóng
+E6	End-org:T13 Org-Arg:T14
+T14	ORG 1193 1201	cửa_hàng

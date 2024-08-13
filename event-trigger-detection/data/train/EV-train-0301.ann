@@ -1,0 +1,114 @@
+T1	Arquit 22 25	tha
+E1	Arquit:T1 Defendant-Arg:T3
+T2	Die 32 36	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 0 12	Kẻ cuồng_bạo
+T4	Die 153 160	sát_hại
+E3	Die:T4 Agent-Arg:T8 Victim-Arg:T5
+T5	PER 161 174	bé gái 4 tuổi
+T6	Attack 177 185	hiếp_dâm
+E4	Attack:T6 Attacker-Arg:T8 Target-Arg:T7
+T7	PER 186 195	bé 8 tuổi
+T8	PER 120 152	bị_can Đặng_Trần_Hoài - hung_thủ
+T9	Arrest-jail 329 332	bắt
+E5	Arrest-jail:T9 Person-Arg:T10
+T10	PER 335 339	Hoài
+T11	Transport 619 622	rời
+E6	Transport:T11 Agent-Arg:T12
+T12	PER 574 578	Hoài
+T13	Transport 823 828	phóng
+E7	Transport:T13 Agent-Arg:T15 Vehicle-Arg:T14 Origin-Arg:T16 Destination-Arg:T17
+T14	VEH 829 835	xe_máy
+T15	PER 818 822	Hoài
+T16	GPE 839 852	huyện Từ_Liêm
+T17	GPE 862 876	thị_xã Sơn_Tây
+T18	Transport 921 927	đi vào
+E8	Transport:T18 Destination-Arg:T19 Agent-Arg:T20
+T19	GPE 928 938	xã Cổ_Đông
+T20	PER 953 957	Hoài
+T21	Transport 1040 1042	đi
+E9	Transport:T21 Agent-Arg:T22 Vehicle-Arg:T23 Destination-Arg:T24
+T22	PER 1035 1039	Hoài
+T23	VEH 1043 1054	xe AirBlade
+T24	FAC 1059 1066	trạm_xá
+T25	Meet 1069 1072	gặp
+E10	Meet:T25 Entity-Arg:T22 Entity-Arg2:T26
+T26	PER 1073 1083	một phụ_nữ
+T27	Transport 1135 1140	bỏ đi
+E11	Transport:T27 Vehicle-Arg:T28 Agent-Arg:T22
+T28	VEH 1132 1134	xe
+T29	Transport 1316 1321	bỏ đi
+E12	Transport:T29 Agent-Arg:T30
+T30	PER 1303 1306	hắn
+T31	Transport 1296 1300	đuổi
+E13	Transport:T31 Agent-Arg:T32
+T32	PER 1269 1276	chủ nhà
+T33	Transport 1687 1689	đi
+E14	Transport:T33 Agent-Arg:T34 Destination-Arg:T35
+T34	PER 1683 1686	hắn
+T35	LOC 1696 1699	bếp
+T36	WEA 1704 1711	con dao
+T37	Transport 1712 1715	lên
+E15	Transport:T37 Agent-Arg:T34 Destination-Arg:T38 Artifact-Arg:T36
+T38	LOC 1716 1724	nhà trên
+T39	Attack 1725 1734	khống_chế
+E16	Attack:T39 Attacker-Arg:T34 Target-Arg:T40 Instrument-Arg:T36
+T40	PER 1735 1741	lũ trẻ
+T41	Die 1748 1755	sát_hại
+E17	Die:T41 Agent-Arg:T42 Victim-Arg:T43
+T42	PER 1744 1747	Hắn
+T43	PER 1756 1768	em bé 4 tuổi
+T44	Attack 1771 1786	giở_trò đồi_bại
+E18	Attack:T44 Attacker-Arg:T42 Target-Arg:T45
+T45	PER 1791 1804	bé gái 8 tuổi
+T46	Attack 1873 1877	chém
+E19	Attack:T46 Attacker-Arg:T47 Target-Arg:T48
+T47	PER 1865 1869	Hoài
+T48	PER 1811 1836	bác ruột của hai nạn_nhân
+T49	Transport 1892 1899	bỏ trốn
+E20	Transport:T49 Agent-Arg:T47
+T50	Transport 1914 1922	băng qua
+E21	Transport:T50 Agent-Arg:T47
+T51	Attack 1972 1981	khống_chế
+E22	Attack:T51 Attacker-Arg:T52 Target-Arg:T53
+T52	PER 1956 1959	Hắn
+T53	PER 1982 1992	một phụ_nữ
+T54	Transport 1998 2001	chở
+E23	Transport:T54 Agent-Arg:T53 Artifact-Arg:T55
+T55	PER 2002 2010	nạn_nhân
+T56	Transport 2087 2091	chạy
+E24	Transport:T56 Vehicle-Arg:T57
+T57	VEH 2072 2081	chiếc ôtô
+T58	Arrest-jail 2171 2178	bắt_giữ
+E25	Arrest-jail:T58 Person-Arg:T59
+T59	PER 2158 2167	kẻ thủ_ác
+T60	Die 2328 2335	sát_hại
+E26	Die:T60 Agent-Arg:T63 Victim-Arg:T62
+T61	Attack 2338 2346	hiếp_dâm
+E27	Attack:T61 Attacker-Arg:T63 Target-Arg:T62
+T62	PER 2347 2359	các nạn_nhân
+T63	PER 2183 2187	Hoài
+T64	Transport 2278 2281	vào
+E28	Transport:T64 Agent-Arg:T63 Destination-Arg:T65
+T65	LOC 2282 2303	nhà người thợ cắt tóc
+T66	Transport 2423 2428	phóng
+E29	Transport:T66 Agent-Arg:T68 Vehicle-Arg:T67 Destination-Arg:T69
+T67	VEH 2429 2431	xe
+T68	PER 2418 2422	Hoài
+T69	GPE 2435 2449	thị_xã Sơn_Tây
+T70	Pardon 2741 2759	giảm nhẹ hình_phạt
+E30	Pardon:T70 Defendant-Arg:T71
+T71	PER 2698 2702	Hoài
+T72	Sentence 2814 2823	hình_phạt
+E31	Sentence:T72 Defendant-Arg:T74 Sentence-Arg:T73
+T73	SEN 2824 2831	tử_hình
+T74	PER 2795 2798	hắn
+T75	Transfer-ownership 3103 3107	buôn
+E32	Transfer-ownership:T75 Seller-Arg:T76 Buyer-Arg:T77
+T76	PER 3075 3079	Hoài
+T77	ORG 3129 3140	các hàng ăn
+T78	Marry 3164 3167	lấy
+E33	Marry:T78 Person-Arg:T79 Person-Arg2:T80
+T79	PER 3160 3163	hắn
+T80	PER 3168 3185	cô_gái kém 3 tuổi
+T82	PER 2876 2880	Hoài

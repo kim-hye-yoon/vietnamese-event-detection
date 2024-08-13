@@ -1,0 +1,18 @@
+T1	Meet 2522 2533	buổi gặp_gỡ
+E1	Meet:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	PER 2499 2515	lãnh_đạo Vietjet
+T3	PER 2549 2583	Tổng_thống Pháp Francois_Hollandle
+T4	Transfer-money 872 879	tài_trợ
+E2	Transfer-money:T4 Giver-Arg:T8
+T5	Transfer-ownership 892 895	mua
+E3	Transfer-ownership:T5 Artifact-Arg:T6 Price-Arg:T7 Buyer-Arg:T8
+T6	VEH 896 903	máy_bay
+T7	MONEY 912 924	60 triệu USD
+T8	ORG 852 859	Vietjet
+T9	Transfer-ownership 1023 1026	mua
+E4	Transfer-ownership:T9 Buyer-Arg:T12 Artifact-Arg:T11 Seller-Arg:T13
+T10	Transfer-ownership 1030 1034	thuê
+E5	Transfer-ownership:T10 Buyer-Arg:T12 Artifact-Arg:T11 Seller-Arg:T13
+T11	VEH 1035 1042	máy_bay
+T12	ORG 999 1006	Vietjet
+T13	ORG 1078 1084	Airbus

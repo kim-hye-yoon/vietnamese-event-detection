@@ -1,0 +1,40 @@
+T1	Divorce 3558 3564	ly_hôn
+E1	Divorce:T1 
+T2	PER 3465 3471	ông Vũ
+T3	PER 3514 3520	cả hai
+T4	TIME 3453 3462	ngày 17/6
+T5	ORG 3002 3005	TNG
+T6	Sue 3031 3040	khởi_kiện
+E2	Sue:T6 Defendant-Arg:T7 Plaintiff-Arg:T5 Adjudicator-Arg:T8 Time-Arg:T9
+T7	PER 3041 3048	bà Thảo
+T8	ORG 3053 3075	Toà_án nhân_dân TP HCM
+T9	TIME 2987 2999	Đầu năm 2018
+T10	End-position 2576 2585	bãi_nhiệm
+E3	End-position:T10 Position-Arg:T11 Person-Arg:T13 Entity-Arg:T14
+T11	JOB 2586 2623	chức_vụ Phó tổng_giám_đốc thường_trực
+T12	PER 2474 2503	vợ_chồng ông chủ Trung_Nguyên
+T13	PER 2628 2648	bà Lê_Hoàng_Diệp_Thả
+T14	ORG 2532 2561	Tập_đoàn Trung_Nguyên ( TNG )
+T15	End-position 2095 2104	bãi_nhiệm
+E4	End-position:T15 Position-Arg:T16 Person-Arg:T17
+T16	JOB 2110 2177	Phó tổng_giám_đốc thường_trực Công_ty_cổ_phần Tập_đoàn Trung_Nguyên
+T17	PER 2182 2203	bà Lê_Hoàng_Diệp_Thảo
+T18	PER 2053 2074	ông Đặng_Lê_Nguyên_Vũ
+T19	End-position 1767 1776	bãi_nhiệm
+E5	End-position:T19 Position-Arg:T20 Person-Arg:T21
+T20	JOB 1787 1816	Phó tổng_giám_đốc thường_trực
+T21	PER 1821 1842	bà Lê_Hoàng_Diệp_Thảo
+T22	End-position 1342 1351	bãi_nhiệm
+E6	End-position:T22 Person-Arg:T23
+T23	PER 1352 1354	bà
+T24	End-position 1109 1118	bãi_nhiệm
+E7	End-position:T24 Position-Arg:T25 Person-Arg:T26 Entity-Arg:T28
+T25	JOB 1119 1141	chức Phó tổng_giám_đốc
+T26	PER 1146 1167	bà Lê_Hoàng_Diệp_Thảo
+T27	PER 1057 1088	Tổng_giám_đốc Đặng_Lê_Nguyên_Vũ
+T28	ORG 1028 1040	Trung_Nguyên
+T29	Sentence 843 849	bản_án
+E8	Sentence:T29 
+T30	ORG 211 230	TAND cấp cao TP HCM
+T31	Trial-hearing 231 237	xét_xử
+E9	Trial-hearing:T31 Adjudicator-Arg:T30

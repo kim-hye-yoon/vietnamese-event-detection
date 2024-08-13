@@ -1,0 +1,37 @@
+T2	Attack 980 989	đánh chặn
+E2	Attack:T2 Target-Arg:T3 Attacker-Arg:T1
+T3	VEH 995 1051	ít_nhất 71 trong tổng_số 103 tên_lửa của Mỹ và đồng_minh
+T1	GPE 971 976	Syria
+T4	FAC 1054 1079	Sân_bay Syria Al - Dumayr
+T5	LOC 1086 1122	cách Damascus 40 km về phía đông bắc
+T6	Attack 1131 1139	tấn_công
+E1	Attack:T6 Place-Arg:T5 Instrument-Arg:T7 Target-Arg:T4
+T7	WEA 1144 1165	12 tên_lửa hành_trình
+T8	VEH 1172 1187	toàn_bộ tên_lửa
+T9	Attack 1194 1198	chặn
+E3	Attack:T9 Target-Arg:T8 Attacker-Arg:T10
+T10	ORG 1203 1220	phòng_không Syria
+T11	PER 0 22	Lính phòng_không Syria
+T12	Attack 41 46	phóng
+E4	Attack:T12 Attacker-Arg:T11 Instrument-Arg:T13 Target-Arg:T14
+T13	WEA 47 50	đạn
+T14	WEA 51 66	chặn tên_lửa Mỹ
+T15	ORG 229 259	lực_lượng phòng_không nước này
+T16	Attack 260 268	khai_hoả
+E5	Attack:T16 Attacker-Arg:T15 Target-Arg:T18 Place-Arg:T19
+T17	Attack 269 278	đánh chặn
+E6	Attack:T17 Attacker-Arg:T15 Target-Arg:T18 Place-Arg:T19
+T18	WEA 279 300	tên_lửa hành_trình Mỹ
+T19	GPE 303 326	phía đông thành_phố Hom
+T20	PER 344 357	binh_sĩ Syria
+T21	Attack 448 453	phóng
+E7	Attack:T21 Attacker-Arg:T20 Instrument-Arg:T22
+T22	WEA 454 479	nhiều quả đạn Buk - M 2 E
+T24	Attack 582 587	phóng
+E8	Attack:T24 Instrument-Arg:T25 Place-Arg:T26
+T25	WEA 588 619	103 tên_lửa hành_trình các loại
+T26	LOC 624 643	ba mục_tiêu ở Syria
+T23	GPE 887 902	Mỹ và đồng_minh
+T27	Attack 903 911	tấn_công
+E9	Attack:T27 Attacker-Arg:T23 Place-Arg:T28
+T28	LOC 848 883	Ba mục_tiêu ở tỉnh Homs và Damascus

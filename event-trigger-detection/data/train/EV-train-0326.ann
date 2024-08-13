@@ -1,0 +1,52 @@
+T1	End-position 50 59	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 46	Phó thủ_trưởng Cơ_quan điều_tra Công_an Cà_Mau
+T3	ORG 146 156	Bộ Công_an
+T4	End-position 171 180	cách_chức
+E2	End-position:T4 Position-Arg:T5 Entity-Arg:T3 Person-Arg:T6
+T5	JOB 181 221	Phó thủ_trưởng Cơ_quan Cảnh_sát điều_tra
+T6	PER 230 253	thượng_tá Trần_Hồng_Lộc
+T7	JOB 269 305	đội_trưởng , điều_tra_viên trung_cấp
+T8	PER 314 333	trung_tá Đỗ_Tấn_Đạt
+T9	End-position 259 268	cách_chức
+E3	End-position:T9 Position-Arg:T7 Person-Arg:T8 Entity-Arg:T3
+T10	Die 374 379	tự_tử
+E4	Die:T10 Agent-Arg:T11 Victim-Arg:T11
+T11	PER 359 373	bé gái 13 tuổi
+T12	Attack 712 720	hiếp_dâm
+E5	Attack:T12 Attacker-Arg:T17 Target-Arg:T13
+T13	PER 721 727	bé gái
+T14	TIME 552 560	Năm 2016
+T15	PER 563 581	ông Lộc và ông Đạt
+T16	Charge-indict 682 688	tố_cáo
+E6	Charge-indict:T16 Defendant-Arg:T17 Prosecutor-Arg:T18
+T17	PER 689 711	ông Hữu_Bê ( 57 tuổi )
+T18	PER 610 681	gia_đình nữ_sinh 13 tuổi ( học lớp 5 , ở xã Tân_Lộc , huyện Thới_Bình )
+T19	Charge-indict 808 816	buộc_tội
+E7	Charge-indict:T19 Defendant-Arg:T20
+T20	PER 817 823	ông Bê
+T21	Injure 1040 1047	cấp_cứu
+E8	Injure:T21 Victim-Arg:T24
+T22	Die 1080 1087	tử_vong
+E9	Die:T22 Agent-Arg:T23
+T23	PER 1071 1079	nạn_nhân
+T24	PER 1029 1036	nữ_sinh
+T25	Transport 1037 1039	đi
+E10	Transport:T25 Artifact-Arg:T24
+T26	PER 1018 1020	họ
+T27	Die 1100 1104	chết
+E11	Die:T27 Victim-Arg:T28
+T28	PER 1107 1113	bé gái
+T29	Die 1221 1226	tự_tử
+E12	Die:T29 Agent-Arg:T30 Victim-Arg:T28
+T30	PER 1210 1216	ông Bê
+T31	Charge-indict 1298 1305	khởi_tố
+E13	Charge-indict:T31 Crime-Arg:T32 Prosecutor-Arg:T33 Time-Arg:T34
+T32	CRIME 1312 1343	Hiếp_dâm trẻ_em và Dâm ô trẻ_em
+T33	ORG 1280 1294	Công_an Cà_Mau
+T34	TIME 1233 1240	tháng 4
+T35	Arrest-jail 1482 1485	bắt
+E14	Arrest-jail:T35 Person-Arg:T37 Crime-Arg:T36 Time-Arg:T38
+T36	CRIME 1489 1517	hành_vi Dâm_ô đối_với trẻ_em
+T37	PER 1468 1478	ông Hữu_Bê
+T38	TIME 1446 1465	Hơn hai tháng trước

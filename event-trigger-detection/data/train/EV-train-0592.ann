@@ -1,0 +1,34 @@
+T1	Execute 44 51	tử_hình
+E1	Execute:T1 Person-Arg:T2 Agent-Arg:T3
+T2	PER 52 67	công_dân Canada
+T3	GPE 0 10	Trung_Quốc
+T4	Sentence 369 379	phán_quyết
+E2	Sentence:T4 Sentence-Arg:T5 Defendant-Arg:T6
+T5	SEN 380 387	tử_hình
+T6	PER 388 423	công_dân Canada_Robert_Schellenberg
+T7	Execute 719 726	tử_hình
+E3	Execute:T7 
+T8	Transport 903 913	vận_chuyển
+E4	Transport:T8 Agent-Arg:T9
+T9	PER 875 890	Công_dân Canada
+T10	Sentence 945 951	kết_án
+E5	Sentence:T10 Sentence-Arg:T11 Defendant-Arg:T9
+T11	SEN 952 961	15 năm tù
+T12	Appeal 992 1001	kháng_cáo
+E6	Appeal:T12 
+T13	Sentence 1050 1060	phán_quyết
+E7	Sentence:T13 Sentence-Arg:T14 Adjudicator-Arg:T15
+T14	SEN 1061 1068	tử_hình
+T15	PER 1004 1013	thẩm_phán
+T17	PER 1412 1424	Schellenberg
+T18	TIME 1357 1365	hôm 15/1
+T19	Arrest-jail 1931 1934	bắt
+E9	Arrest-jail:T19 Person-Arg:T22 Agent-Arg:T20 Time-Arg:T21 Crime-Arg:T23 Place-Arg:T20
+T20	GPE 1924 1930	Canada
+T21	TIME 1908 1921	tháng 12/2018
+T22	PER 1935 1973	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T23	CRIME 2008 2067	ừa_dối các ngân_hàng quốc_tế , vi_phạm lệnh trừng_phạt Iran
+T25	Arrest-jail 2090 2093	bắt
+E10	Arrest-jail:T25 Person-Arg:T26 Agent-Arg:T24 Place-Arg:T24
+T24	GPE 2079 2089	Trung_Quốc
+T26	PER 2094 2113	hai công_dân Canada

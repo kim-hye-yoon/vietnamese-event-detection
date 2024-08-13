@@ -1,0 +1,23 @@
+T1	Elect 268 274	bầu_cử
+E1	Elect:T1 Person-Arg:T3 Entity-Arg:T2
+T2	PER 275 293	Tổng_thống Ukraine
+T3	PER 308 325	tỷ_phú Poroshenko
+T4	End-position 382 385	Cựu
+E2	End-position:T4 Person-Arg:T5
+T5	PER 386 412	Thủ_tướng Yulia_Tymoshenko
+T6	Elect 912 918	bầu_cử
+E3	Elect:T6 Person-Arg:T7 Time-Arg:T8
+T7	PER 919 939	Tổng_thống ở Ukraine
+T8	TIME 948 956	hôm 25/5
+T11	JOB 1307 1317	Tổng_thống
+T9	Elect 1298 1306	thắng_cử
+E4	Elect:T9 Person-Arg2:T17 Position-Arg:T11
+T10	Start-position 511 514	tân
+E5	Start-position:T10 Position-Arg:T12 Time-Arg:T13 Place-Arg:T14
+T12	JOB 515 533	Tổng_thống Ukraine
+T13	TIME 556 579	thứ Bảy , ngày 7/6/2014
+T14	GPE 584 595	Thủ_đô Kiev
+T15	Start-position 732 741	nhậm_chức
+E6	Start-position:T15 Position-Arg:T16
+T16	JOB 742 760	Tổng_thống Ukraine
+T17	PER 1320 1337	tỷ_phú Poroshenko

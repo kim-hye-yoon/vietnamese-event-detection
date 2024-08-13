@@ -1,0 +1,84 @@
+T1	Injure 195 202	cú đánh
+E1	Injure:T1 Victim-Arg:T3
+T2	Die 203 211	chí chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 105 112	chị dâu
+T4	PER 214 222	hung_thủ
+T5	WEA 239 242	doa
+T6	Die 243 262	tước_đoạt mạng sống
+E3	Die:T6 Instrument-Arg:T5 Agent-Arg:T4 Victim-Arg:T7
+T7	PER 267 275	nạn_nhân
+T8	PER 570 622	Nguyễn_Ngọc_Vĩnh ( SN 1984 , cùng ngụ địa_chỉ trên )
+T9	Die 626 637	gây án_mạng
+E4	Die:T9 Agent-Arg:T8
+T10	PER 720 724	Vĩnh
+T11	Transport 725 728	đến
+E5	Transport:T11 Artifact-Arg:T10 Destination-Arg:T12
+T12	FAC 751 781	nhà một người họ_hàng trong xã
+T13	PER 1663 1674	anh_em Vĩnh
+T14	VEH 1679 1681	xe
+T15	Transport 1687 1692	ra về
+E6	Transport:T15 Artifact-Arg:T14 Agent-Arg:T13
+T16	PER 3107 3118	anh_em Vĩnh
+T17	Transport 3123 3127	sang
+E7	Transport:T17 Destination-Arg:T18 Agent-Arg:T16
+T18	LOC 3131 3139	đám_cưới
+T19	PER 3827 3831	Vĩnh
+T20	WEA 3836 3839	dao
+T21	PER 3844 3854	anh Trường
+T22	Attack 3840 3843	đâm
+E8	Attack:T22 Instrument-Arg:T20 Attacker-Arg:T19 Target-Arg:T21
+T23	PER 3877 3885	nạn_nhân
+T24	Injure 3894 3903	quỵ xuống
+E9	Injure:T24 Victim-Arg:T23
+T25	PER 3959 3965	Trường
+T26	Attack 3969 3972	đâm
+E10	Attack:T26 Target-Arg:T25
+T27	PER 4057 4065	Nạn_nhân
+T28	Transport 4083 4086	đưa
+E11	Transport:T28 Destination-Arg:T29 Agent-Arg:T27
+T29	FAC 4102 4123	Bệnh_viện 105 Sơn_Tây
+T30	PER 4176 4184	nạn_nhân
+T31	Die 4188 4195	tử_vong
+E12	Die:T31 Time-Arg:T32 Victim-Arg:T30
+T32	TIME 4196 4207	ngay sau đó
+T33	TIME 4210 4228	Trong lúc hỗn_loạn
+T34	PER 4231 4239	hung_thủ
+T35	Transport 4243 4250	bỏ trốn
+E13	Transport:T35 Origin-Arg:T36 Artifact-Arg:T34 Time-Arg:T33
+T36	LOC 4256 4267	hiện_trường
+T37	WEA 4408 4411	dao
+T38	Attack 4412 4415	đâm
+E14	Attack:T38 Target-Arg:T39 Instrument-Arg:T37
+T39	PER 4416 4424	nạn_nhân
+T40	TIME 4550 4559	Sáng 10/3
+T41	PER 4562 4566	Vĩnh
+T42	FAC 4570 4583	công_an huyện
+T43	Transport 4567 4569	ra
+E15	Transport:T43 Destination-Arg:T42 Artifact-Arg:T41 Time-Arg:T40
+T44	PER 4667 4673	Trường
+T45	Attack 4674 4679	phang
+E16	Attack:T45 Attacker-Arg:T44
+T46	PER 4736 4740	Vĩnh
+T47	WEA 4753 4756	dao
+T48	PER 4786 4796	anh Trường
+T49	Transport 4801 4808	bỏ chạy
+E17	Transport:T49 Artifact-Arg:T46
+T50	Attack 4767 4776	vung mạnh
+E18	Attack:T50 Instrument-Arg:T47 Attacker-Arg:T46 Target-Arg:T48
+T51	WEA 4816 4823	Con dao
+T52	PER 4827 4831	Vĩnh
+T53	Attack 4840 4843	đâm
+E19	Attack:T53 Target-Arg:T54 Attacker-Arg:T52 Instrument-Arg:T51
+T54	PER 4844 4854	anh Trường
+T55	PER 5253 5269	anh_em thông_gia
+T56	Die 5270 5277	sát_hại
+E20	Die:T56 Agent-Arg:T55
+T57	PER 381 397	Hoàng_Văn_Trường
+T58	Be-born 400 402	SN
+E21	Be-born:T58 Time-Arg:T59 Person-Arg:T57
+T59	TIME 403 407	1968
+T60	PER 570 586	Nguyễn_Ngọc_Vĩnh
+T61	Be-born 589 591	SN
+E22	Be-born:T61 Time-Arg:T62 Person-Arg:T60
+T62	TIME 592 596	1984

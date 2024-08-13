@@ -1,0 +1,19 @@
+T1	ORG 923 929	uỷ_ban
+T2	Start-org 938 947	thành_lập
+E1	Start-org:T2 Org-Arg:T1
+T3	Start-org 1538 1547	thành_lập
+E2	Start-org:T3 Org-Arg:T4 Place-Arg:T5
+T4	ORG 1548 1575	lực_lượng an_ninh biên_giới
+T5	LOC 1619 1650	biên_giới Syria giáp Thổ_Nhĩ_Kỳ
+T6	GPE 0 3	Đức
+T7	Transfer-ownership 10 16	chuyển
+E3	Transfer-ownership:T7 Seller-Arg:T6 Artifact-Arg:T8 Seller-Arg2:T9
+T8	VEH 17 24	xe_tăng
+T9	GPE 29 39	Thổ_Nhĩ_Kỳ
+T10	GPE 284 290	Berlin
+T11	Transfer-ownership 311 319	cung_cấp
+E4	Transfer-ownership:T11 
+T12	PER 1221 1228	bộ_binh
+T13	Attack 1229 1237	tấn_công
+E5	Attack:T13 Attacker-Arg:T12 Place-Arg:T14
+T14	LOC 1242 1306	khu_vực Afrin và Manbij do dân_quân người Kurd ( YPG ) kiểm_soát

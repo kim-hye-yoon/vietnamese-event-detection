@@ -1,0 +1,35 @@
+T1	Die 543 550	thi_thể
+E1	Die:T1 Victim-Arg:T2
+T2	PER 551 554	Đạt
+T3	Transport 603 609	đi học
+E2	Transport:T3 Vehicle-Arg:T5 Agent-Arg:T4 Time-Arg:T6
+T4	PER 599 602	Đạt
+T5	VEH 615 621	xe_máy
+T6	TIME 574 582	tối 26-2
+T7	Transport 734 741	đi chơi
+E3	Transport:T7 
+T8	Phone-write 798 812	gọi điện_thoại
+E4	Phone-write:T8 Entity-Arg:T9 Entity-Arg2:T10
+T9	PER 817 820	Đạt
+T10	PER 780 788	Gia_đình
+T11	PER 865 882	một người đàn_ông
+T12	Phone-write 883 904	nói_chuyện điện_thoại
+E5	Phone-write:T12 Entity-Arg:T11 Time-Arg:T13
+T13	TIME 841 862	Sáng hôm sau ( 27-2 )
+T14	Die 1086 1093	tang_lễ
+E6	Die:T14 Victim-Arg:T15
+T15	PER 1098 1104	em Đạt
+T16	Phone-write 2036 2044	tin nhắn
+E7	Phone-write:T16 Entity-Arg:T17 Time-Arg:T18
+T17	PER 2010 2025	gia_đình chị Lệ
+T18	TIME 2000 2007	gày 3-3
+T19	Phone-write 2284 2292	nhắn_tin
+E8	Phone-write:T19 Entity-Arg:T20
+T20	PER 2268 2274	chị Lệ
+T21	PER 2304 2307	con
+T22	Die 2460 2467	sát_hại
+E9	Die:T22 Victim-Arg:T23
+T23	PER 2442 2453	con của chị
+T24	Die 2548 2552	giết
+E10	Die:T24 Victim-Arg:T25
+T25	PER 2482 2485	Đạt

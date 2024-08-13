@@ -1,0 +1,38 @@
+T1	ORG 0 19	Nhà_hàng Trung_Quốc
+T2	Declare-bankruptcy 20 27	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T6	TIME 243 252	một tháng
+T7	PER 151 161	khách_hàng
+T8	GPE 298 335	Thành_Đô , tỉnh Tứ_Xuyên , Trung_Quốc
+T9	GPE 942 952	Trung_Quốc
+T10	ORG 917 941	phương_tiện truyền_thông
+T19	TIME 1840 1849	ngày 12/6
+T20	ORG 1852 1860	nhà_hàng
+T21	Declare-bankruptcy 1887 1894	phá_sản
+E2	Declare-bankruptcy:T21 Org-Arg:T20 Time-Arg:T19
+T22	PER 200 202	họ
+T23	Transport 210 213	đến
+E3	Transport:T23 Destination-Arg:T24 Artifact-Arg:T22 Time-Arg:T6
+T24	FAC 214 221	quán ăn
+T3	MONEY 176 197	120 tệ ( hơn 18 USD )
+T4	ORG 269 290	Nhà_hàng lẩu Jiamener
+T5	Start-org 291 293	mở
+E4	Start-org:T5 Place-Arg:T8 Org-Arg:T4
+T26	PER 489 504	Những người này
+T27	FAC 555 559	quán
+T25	Transport 546 554	quay lại
+E5	Transport:T25 Destination-Arg:T27 Artifact-Arg:T26
+T28	Transport 617 620	đến
+E6	Transport:T28 Artifact-Arg:T29
+T29	PER 598 616	số_lượng lớn khách
+T11	PER 974 988	500 thực_khách
+T30	Transport 989 992	đến
+E7	Transport:T30 Artifact-Arg:T11 Destination-Arg:T31 Time-Arg:T32
+T31	FAC 993 997	quán
+T32	TIME 955 963	Mỗi ngày
+T12	End-org 1897 1905	đóng_cửa
+E8	End-org:T12 Org-Arg:T13 Time-Arg:T19
+T13	ORG 1906 1914	nhà_hàng
+T14	End-org 2008 2016	đóng_cửa
+E9	End-org:T14 Org-Arg:T15
+T15	ORG 1936 1944	nhà_hàng

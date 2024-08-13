@@ -1,0 +1,39 @@
+T4	VEH 68 79	Máy_bay Phá
+T5	Attack 91 99	tấn_công
+E2	Attack:T5 Instrument-Arg:T4 Place-Arg:T6
+T6	GPE 100 104	Syri
+T7	GPE 126 128	Mỹ
+T8	TIME 129 138	ngày 14/4
+T9	VEH 148 191	ba tàu_khu_trục và oanh_tạc cơ B -1 B Lance
+T10	Attack 193 198	phóng
+E3	Attack:T10 Attacker-Arg:T7 Time-Arg:T8 Instrument-Arg:T9 Instrument-Arg2:T11 Place-Arg:T12
+T11	WEA 199 244	tên_lửa hành_trình Tomahawk và AGM -158 JASSM
+T12	GPE 249 254	Syria
+T13	GPE 275 278	Anh
+T14	WEA 287 309	cường_kích Tornado GR4
+T15	Attack 310 315	phóng
+E4	Attack:T15 Attacker-Arg:T13 Instrument-Arg:T14 Instrument-Arg2:T16
+T16	WEA 316 347	tên_lửa hành_trình Storm_Shadow
+T18	Transfer-money 443 446	giá
+E5	Transfer-money:T18 Money-Arg:T19
+T19	MONEY 447 461	1,59 triệu USD
+T17	Transfer-money 512 516	tiêu
+E6	Transfer-money:T17 Money-Arg:T20
+T20	MONEY 528 541	240 triệu USD
+T21	GPE 654 656	Mỹ
+T22	Attack 678 688	không_kích
+E7	Attack:T22 Attacker-Arg:T21
+T23	PER 812 820	70 người
+T24	Die 821 831	thiệt_mạng
+E8	Die:T24 Victim-Arg:T23
+T25	PER 871 921	Chuyên_gia của Tổ_chức Cấm Vũ_khí_Hoá_học ( OPCW )
+T26	Transport 925 928	đến
+E9	Transport:T26 Destination-Arg:T27 Artifact-Arg:T25
+T27	GPE 929 934	Syria
+T28	GPE 969 974	Syria
+T29	Attack 975 981	bắn hạ
+E10	Attack:T29 Attacker-Arg:T28 Target-Arg:T30
+T30	WEA 990 1013	71 trong số 103 tên_lửa
+T1	Attack 49 59	không_kích
+E1	Attack:T1 Place-Arg:T2
+T2	GPE 60 65	Syria

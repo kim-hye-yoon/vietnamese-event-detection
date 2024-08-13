@@ -1,0 +1,21 @@
+T1	Attack 35 45	không kích
+E1	Attack:T1 Attacker-Arg:T4 Target-Arg:T2 Place-Arg:T3
+T2	FAC 46 57	căn_cứ Iran
+T3	GPE 60 65	Syria
+T4	GPE 0 6	Israel
+T7	Attack 740 747	phá_huỷ
+E3	Attack:T7 Target-Arg:T8 Target-Arg2:T9 Target-Arg3:T10 Target-Arg4:T11
+T8	FAC 748 768	ba mục_tiêu của Iran
+T9	FAC 775 808	một trại đóng quân ở bắc Damascus
+T10	FAC 811 846	một kho vũ_khí tại sân_bay Damascus
+T11	VEH 850 877	một xe phóng rocket di_động
+T12	Attack 1398 1406	tấn_công
+E4	Attack:T12 Target-Arg:T13 Place-Arg:T14 Instrument-Arg:T15 Time-Arg:T16 Attacker-Arg:T19
+T13	FAC 1407 1419	sân_bay T -4
+T14	GPE 1422 1427	Syria
+T15	WEA 1433 1451	tên_lửa hành_trình
+T16	TIME 1452 1459	hôm 9/4
+T17	PER 1468 1483	7 công_dân Iran
+T18	Die 1484 1494	thiệt_mạng
+E5	Die:T18 Victim-Arg:T17 Agent-Arg:T19
+T19	GPE 1379 1385	Israel

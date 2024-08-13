@@ -1,0 +1,34 @@
+T1	Meet 221 228	họp bàn
+E1	Meet:T1 Entity-Arg:T19 Entity-Arg2:T18
+T2	Meet 385 393	cuộc họp
+E2	Meet:T2 Time-Arg:T3 Entity-Arg:T21 Entity-Arg2:T22 Place-Arg:T20
+T3	TIME 420 433	trưa ngày 9/4
+T4	PER 655 663	70 người
+T5	Die 664 674	thiệt_mạng
+E3	Die:T5 Victim-Arg:T4
+T6	ORG 527 535	quân_đội
+T7	Charge-indict 545 556	bị_cáo buộc
+E4	Charge-indict:T7 Defendant-Arg:T6
+T8	Attack 690 698	tấn_công
+E5	Attack:T8 
+T9	Attack 868 876	tấn_công
+E6	Attack:T9 Instrument-Arg:T10
+T10	WEA 882 900	tên_lửa hành_trình
+T11	Attack 910 923	vụ không_kích
+E7	Attack:T11 Time-Arg:T12
+T13	Attack 1232 1243	vụ tấn_công
+E8	Attack:T13 Instrument-Arg:T24
+T14	Attack 1313 1323	không_kích
+E9	Attack:T14 Place-Arg:T15 Attacker-Arg:T23
+T15	GPE 1324 1329	Syria
+T16	Appeal 1548 1563	bác_bỏ cáo_buộc
+E10	Appeal:T16 Defendant-Arg:T17
+T17	GPE 1542 1547	Syria
+T18	ORG 233 266	quân_đội và các cơ_quan liên_quan
+T19	PER 206 215	Chúng_tôi
+T20	FAC 406 415	Nhà_Trắng
+T21	PER 394 401	nội_các
+T22	PER 352 378	Tổng_thống Mỹ Donald_Trump
+T12	TIME 928 940	tháng 4/2017
+T23	ORG 1278 1295	chính_quyền Trump
+T24	WEA 1244 1251	hoá_học

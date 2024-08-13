@@ -1,0 +1,8 @@
+T1	Fine 1820 1824	phạt
+E1	Fine:T1 Money-Arg:T2 Money-Arg2:T3
+T2	MONEY 1833 1845	500.000 đồng
+T3	MONEY 1850 1864	một triệu đồng
+T4	Fine 1916 1920	phạt
+E2	Fine:T4 Money-Arg:T5 Entity-Arg:T6
+T5	MONEY 1926 1958	từ 250.000 đồng đến 500.000 đồng
+T6	PER 1875 1882	cá_nhân

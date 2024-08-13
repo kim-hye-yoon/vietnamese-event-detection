@@ -1,0 +1,24 @@
+T1	End-position 3 12	cách_chức
+E1	End-position:T1 Person-Arg:T2 Entity-Arg:T3
+T2	PER 13 30	tư_lệnh Hạm_đội 7
+T3	ORG 0 2	Mỹ
+T4	End-position 89 98	cách_chức
+E2	End-position:T4 Position-Arg:T5 Person-Arg:T6
+T5	JOB 99 116	tư_lệnh Hạm_đội 7
+T6	PER 61 85	Phó đô_đốc Joseph_Aucoin
+T7	End-position 202 211	cách_chức
+E3	End-position:T7 Person-Arg:T11 Position-Arg:T8 Time-Arg:T10
+T8	JOB 212 229	tư_lệnh Hạm_đội 7
+T9	PER 132 191	Đô_đốc Scott_Swift , tư_lệnh Hạm_đội Thái_Bình_Dương của Mỹ
+T10	TIME 194 201	hôm_nay
+T11	PER 232 256	Phó đô_đốc Joseph_Aucoin
+T12	Start-position 456 464	thay_thế
+E4	Start-position:T12 Person-Arg:T14
+T13	PER 476 482	Aucoin
+T14	PER 416 440	Chuẩn đô_đốc Phil_Sawyer
+T15	End-position 1054 1061	sa_thải
+E5	End-position:T15 Person-Arg:T16
+T16	PER 1062 1079	Phó đô_đốc Aucoin
+T17	End-position 1171 1180	cách_chức
+E6	End-position:T17 Person-Arg:T18
+T18	PER 1129 1160	Các sĩ_quan chỉ_huy hải_quân Mỹ

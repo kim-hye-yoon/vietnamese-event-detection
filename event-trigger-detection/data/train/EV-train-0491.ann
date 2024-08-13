@@ -1,0 +1,36 @@
+T1	PER 0 21	Người thừa_kế Samsung
+T2	Release-parole 22 36	được trả tự_do
+E1	Release-parole:T2 Entity-Arg:T1
+T3	Sentence 90 96	kết_án
+E2	Sentence:T3 Adjudicator-Arg:T4 Time-Arg:T8 Defendant-Arg:T5 Sentence-Arg:T6 Crime-Arg:T7
+T4	ORG 59 86	Toà_án Quận trung_tâm Seoul
+T5	PER 97 115	ông Lee_Jae - yong
+T6	SEN 116 124	5 năm tù
+T7	CRIME 128 154	tội biển_thủ và tham_nhũng
+T8	TIME 39 56	Tháng 8 năm_ngoái
+T9	Trial-hearing 417 423	xét_xử
+E3	Trial-hearing:T9 Defendant-Arg:T10 Place-Arg:T11
+T10	PER 424 442	ông Lee_Jae - yong
+T11	GPE 461 469	Hàn_Quốc
+T12	PER 544 557	Park_Geun-hye
+T13	End-position 558 570	bị phế_truất
+E4	End-position:T13 Person-Arg:T12 Position-Arg:T15 Time-Arg:T14
+T14	TIME 571 580	năm_ngoái
+T15	JOB 533 543	Tổng_thống
+T16	Arrest-jail 590 601	bị giam_giữ
+E5	Arrest-jail:T16 Time-Arg:T18 Person-Arg:T17
+T17	PER 583 586	Ông
+T18	TIME 606 613	một năm
+T19	Sentence 817 827	phán_quyết
+E6	Sentence:T19 Defendant-Arg:T21 Adjudicator-Arg:T20
+T20	PER 809 811	Họ
+T21	PER 828 831	ông
+T22	Convict 1139 1148	bị kết_án
+E7	Convict:T22 Defendant-Arg:T25 Crime-Arg:T23
+T23	CRIME 1152 1162	tham_nhũng
+T24	Release-parole 1172 1180	được tha
+E8	Release-parole:T24 Entity-Arg:T25 Crime-Arg:T23
+T25	PER 1095 1127	Chủ_tịch Samsung - Lee_Kun - hee
+T26	Release-parole 1432 1442	bị bắt_giữ
+E9	Release-parole:T26 Entity-Arg:T27
+T27	PER 1424 1431	ông Lee

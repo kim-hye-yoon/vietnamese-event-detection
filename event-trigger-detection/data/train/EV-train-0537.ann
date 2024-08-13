@@ -1,0 +1,43 @@
+T1	Transport 59 61	đi
+E1	Transport:T1 Agent-Arg:T5 Origin-Arg:T3 Destination-Arg:T4 Vehicle-Arg:T2
+T2	VEH 62 65	ôtô
+T3	GPE 69 79	Quảng_Ninh
+T4	GPE 85 94	Hải_Phòng
+T5	PER 44 58	Nhóm đạo chích
+T6	Transport 155 157	đi
+E2	Transport:T6 Agent-Arg:T7 Time-Arg:T8 Vehicle-Arg:T9 Destination-Arg:T11
+T7	PER 137 154	ba nam thanh_niên
+T8	TIME 115 134	Khoảng 2h ngày 19/7
+T9	VEH 158 177	ôtô biển Quảng_Ninh
+T11	GPE 183 192	Hải_Phòng
+T14	Transport 617 621	chạy
+E4	Transport:T14 Vehicle-Arg:T15 Destination-Arg:T10
+T15	VEH 574 616	ôtô Hyundai_Accent màu đen biển Quảng_Ninh
+T10	FAC 631 641	quốc_lộ 10
+T16	Transport 712 714	đi
+E5	Transport:T16 Vehicle-Arg:T17 Agent-Arg:T18
+T17	VEH 715 721	xe_máy
+T18	PER 684 711	Ông Tuyên đã cùng người_dân
+T19	Transport 797 801	chạy
+E6	Transport:T19 Destination-Arg:T20 Agent-Arg:T21 Vehicle-Arg:T22
+T20	LOC 806 812	đầu xã
+T21	PER 782 796	nhóm đạo chích
+T22	VEH 775 777	xe
+T23	Arrest-jail 851 854	bắt
+E7	Arrest-jail:T23 Person-Arg:T24
+T24	PER 855 867	ba nghi_phạm
+T25	Attack 889 893	đánh
+E8	Attack:T25 Attacker-Arg:T26
+T26	PER 870 879	người_dân
+T27	Arrest-jail 981 988	tạm giữ
+E9	Arrest-jail:T27 Person-Arg:T28 Agent-Arg:T29 Person-Arg2:T30 Person-Arg3:T31 Person-Arg4:T32
+T28	PER 940 951	ba tên trộm
+T29	ORG 955 980	Công_an huyện Thuỷ_Nguyên
+T30	PER 995 1021	Phạm_Hải_Quyết ( 35 tuổi )
+T31	PER 1024 1051	Nguyễn_Văn_Biển ( 31 tuổi )
+T32	PER 1055 1082	Nguyễn_Văn_Vĩnh ( 32 tuổi )
+T33	Transport 1175 1177	đi
+E10	Transport:T33 Agent-Arg:T34 Vehicle-Arg:T35 Destination-Arg:T36
+T34	PER 1136 1138	Họ
+T35	VEH 1178 1181	ôtô
+T36	GPE 1187 1196	Hải_Phòng

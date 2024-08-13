@@ -1,0 +1,37 @@
+T1	ORG 0 10	Al - Qaeda
+T2	Release-parole 11 20	trả tự_do
+E1	Release-parole:T2 Person-Arg:T3 Entity-Arg:T1
+T3	PER 25 42	hai con_tin Italy
+T4	Arrest-jail 88 98	bị bắt_cóc
+E2	Arrest-jail:T4 Person-Arg:T7 Place-Arg:T5 Time-Arg:T6
+T5	GPE 101 106	Syria
+T6	TIME 111 120	đầu tháng
+T7	PER 45 87	Greta_Ramelli ( trái ) và Vanessa_Marzullo
+T8	Release-parole 188 196	đã tự_do
+E3	Release-parole:T8 Person-Arg:T9
+T9	PER 154 187	Vanessa_Marzullo và Greta_Ramelli
+T10	Transport 207 213	trở_về
+E4	Transport:T10 Destination-Arg:T11 Artifact-Arg:T9
+T11	GPE 214 219	Italy
+T12	PER 385 404	Marzullo và Ramelli
+T14	LOC 421 441	biên_giới Thổ_Nhĩ_Kỳ
+T13	Transport 408 420	được đưa tới
+E5	Transport:T13 Destination-Arg:T14 Artifact-Arg:T12
+T15	Transport 517 523	trở_về
+E6	Transport:T15 Destination-Arg:T17 Artifact-Arg:T16
+T16	PER 444 454	Hai cô_gái
+T17	GPE 524 528	Rome
+T18	PER 832 873	Marzullo , 21 tuổi , và Ramelli , 20 tuổi
+T19	Release-parole 876 882	bị bắt
+E7	Release-parole:T19 Time-Arg:T20 Person-Arg:T18
+T20	TIME 898 910	cuối tháng 7
+T21	Transfer-money 1745 1748	trả
+E8	Transfer-money:T21 
+T22	Arrest-jail 1808 1818	bị bắt_cóc
+E9	Arrest-jail:T22 Person-Arg:T23
+T23	PER 1771 1779	công_dân
+T24	Transfer-money 1875 1878	trả
+E10	Transfer-money:T24 
+T25	Attack 1505 1512	bị giết
+E11	Attack:T25 Target-Arg:T26
+T26	PER 1397 1416	Ramelli và Marzullo

@@ -1,0 +1,67 @@
+T1	End-position 32 40	cho thôi
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 26	Nguyên Phó bí_thư Đồng_Nai
+T3	JOB 50 67	đại_biểu Quốc_hội
+T4	Meet 136 143	báo_cáo
+E2	Meet:T4 Entity-Arg:T7 Entity-Arg2:T6 Time-Arg:T5
+T5	TIME 70 80	Chiều 14/5
+T6	ORG 83 108	Uỷ_ban Thường_vụ_Quốc_hội
+T7	PER 114 135	Ban công_tác đại_biểu
+T8	Sentence 383 388	tuyên
+E3	Sentence:T8 Defendant-Arg:T9 Defendant-Arg2:T10 Adjudicator-Arg:T12 Time-Arg:T11
+T9	PER 389 398	ông Thăng
+T10	PER 402 411	ông Khánh
+T11	TIME 367 377	chiều 14/5
+T12	ORG 351 364	toà phúc_thẩm
+T13	Appeal 449 458	kháng_cáo
+E4	Appeal:T13 Defendant-Arg:T16 Adjudicator-Arg:T14
+T14	ORG 431 444	Toà phúc_thẩm
+T15	PER 530 551	ông Nguyễn_Quốc_Khánh
+T16	PER 466 483	ông Đinh_La_Thăng
+T17	Meet 1366 1372	kỳ họp
+E5	Meet:T17 Time-Arg:T28 Entity-Arg:T29
+T18	End-position 1778 1787	cách_chức
+E6	End-position:T18 Entity-Arg:T19 Position-Arg:T20 Person-Arg:T21
+T19	ORG 1756 1766	Ban_bí_thư
+T20	JOB 1795 1817	các chức_vụ trong Đảng
+T21	PER 1822 1841	Phó bí_thư Đồng_Nai
+T22	End-position 1921 1930	bãi_nhiệm
+E7	End-position:T22 Position-Arg:T23
+T23	JOB 1931 1948	đại_biểu Quốc_hội
+T24	TIME 2005 2013	ngày 4/5
+T26	JOB 2103 2120	đại_biểu Quốc_hội
+T27	PER 2060 2080	bà Phan_Thị_Mỹ_Thanh
+T28	TIME 1390 1405	ngày 12 và 13/3
+T29	ORG 1410 1436	Uỷ_ban Kiểm_tra Trung_ương
+T30	Meet 1134 1140	kỳ họp
+E9	Meet:T30 Entity-Arg:T31 Time-Arg:T32
+T31	ORG 1148 1174	Uỷ_ban Kiểm_tra Trung_ương
+T32	TIME 1177 1189	tháng 7/2017
+T34	JOB 2362 2388	đại_biểu Quốc_hội khoá XIV
+T35	PER 2393 2413	bà Phan_Thị_Mỹ_Thanh
+T36	ORG 2298 2316	Đảng_đoàn Quốc_hội
+T37	End-position 2690 2699	bãi_nhiệm
+E11	End-position:T37 Entity-Arg:T38
+T38	ORG 2669 2677	Quốc_hội
+T39	PER 2683 2689	cử_tri
+T25	End-position 2085 2089	thôi
+E8	End-position:T25 Position-Arg:T26 Person-Arg:T27 Time-Arg:T24
+T33	End-position 2353 2357	thôi
+E10	End-position:T33 Position-Arg:T34 Person-Arg:T35 Entity-Arg:T36
+T40	End-position 2516 2520	thôi
+E12	End-position:T40 Person-Arg:T41
+T41	PER 2496 2504	đại_biểu
+T42	TIME 2986 3000	Ngày 15/5/2017
+T43	End-position 3071 3075	thôi
+E13	End-position:T43 Entity-Arg:T46 Position-Arg:T44 Time-Arg:T42 Person-Arg:T45
+T44	JOB 3089 3114	đại_biểu Quốc_hội khoá 14
+T45	PER 3123 3136	ông Võ_Kim_Cự
+T46	ORG 3003 3027	Uỷ_ban Thường_vụ_Quốc_hộ
+T47	Elect 2828 2836	trúng_cử
+E14	Elect:T47 Person-Arg:T48 Entity-Arg:T49
+T48	PER 2818 2827	496 người
+T49	ORG 2797 2814	Quốc_hội khoá XIV
+T50	End-position 3228 3232	thôi
+E15	End-position:T50 Person-Arg:T51 Position-Arg:T52
+T51	PER 3183 3190	ông này
+T52	JOB 3237 3254	nhiệm_vụ đại_biểu

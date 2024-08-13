@@ -1,0 +1,70 @@
+T1	Divorce 22 28	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 42 63	vợ_chồng Trung_Nguyên
+T3	Marry 127 139	đến với nhau
+E2	Marry:T3 Person-Arg:T4 Person-Arg2:T5
+T4	PER 66 87	Bà Lê_Hoàng_Diệp_Thảo
+T5	PER 91 112	ông Đặng_Lê_Nguyên_Vũ
+T6	Divorce 429 435	ly_hôn
+E3	Divorce:T6 Time-Arg:T7 Person-Arg:T8
+T7	TIME 404 412	Năm 2015
+T8	PER 413 420	bà Thảo
+T9	Sue 985 989	kiện
+E4	Sue:T9 Defendant-Arg:T10
+T10	PER 929 935	Cả hai
+T11	Sue 1098 1102	kiện
+E5	Sue:T11 Adjudicator-Arg:T12
+T12	ORG 1119 1130	TAND TP HCM
+T13	Divorce 1271 1277	ly hôn
+E6	Divorce:T13 Person-Arg:T14
+T14	PER 1257 1263	ông Vũ
+T15	Trial-hearing 1464 1472	phiên xử
+E7	Trial-hearing:T15 Time-Arg:T16
+T16	TIME 1475 1484	20 - 21/2
+T17	Transfer-money 2475 2484	cấp_dưỡng
+E8	Transfer-money:T17 Giver-Arg:T18 Beneficiary-Arg:T19 Money-Arg:T20
+T18	PER 2416 2422	ông Vũ
+T19	PER 2496 2501	4 con
+T20	MONEY 2513 2523	10 tỷ đồng
+T22	Sue 2675 2684	khởi_kiện
+E9	Sue:T22 Plaintiff-Arg:T23
+T23	PER 2695 2702	bà Thảo
+T24	Sue 3116 3125	khởi_kiện
+E10	Sue:T24 Plaintiff-Arg:T25
+T25	PER 3144 3151	bà Thảo
+T26	Transfer-ownership 3870 3875	hưởng
+E11	Transfer-ownership:T26 Beneficiary-Arg:T28 Price-Arg:T27
+T27	MONEY 3891 3916	tương_đương 2.114 tỷ đồng
+T28	PER 3862 3864	bà
+T29	Transfer-ownership 5074 5079	hưởng
+E12	Transfer-ownership:T29 Beneficiary-Arg:T30 Beneficiary-Arg2:T31
+T30	PER 5054 5060	ông Vũ
+T31	PER 5087 5094	bà Thảo
+T32	Transfer-ownership 5124 5129	hưởng
+E13	Transfer-ownership:T32 Beneficiary-Arg:T34 Price-Arg:T33
+T33	MONEY 5151 5164	5.792 tỷ đồng
+T34	PER 5112 5118	ông Vũ
+T35	Transfer-money 5972 5980	vay_mượn
+E14	Transfer-money:T35 Recipient-Arg:T36
+T36	PER 5909 5915	Ông Vũ
+T37	Start-org 5944 5955	khởi_nghiệp
+E15	Start-org:T37 Agent-Arg:T36
+T38	Start-org 6345 6354	thành_lập
+E16	Start-org:T38 Time-Arg:T40 Org-Arg:T39 Agent-Arg:T41
+T39	ORG 6360 6380	chi_nhánh và công_ty
+T40	TIME 6245 6253	Năm 2002
+T41	PER 6392 6424	hai thành_viên là cha_con ông Vũ
+T42	Marry 6477 6484	kết_hôn
+E17	Marry:T42 Person-Arg:T43 Person-Arg2:T44 Time-Arg:T45
+T43	PER 6466 6472	ông Vũ
+T44	PER 6492 6496	Thảo
+T45	TIME 6499 6503	1998
+T46	Convict 6926 6936	phán_quyết
+E18	Convict:T46 Time-Arg:T47 Adjudicator-Arg:T48
+T47	TIME 6941 6951	chiều 25/2
+T48	ORG 6912 6915	Toà
+T21	Divorce 604 610	ly_hôn
+E19	Divorce:T21 
+T49	Start-org 6443 6452	thành_lập
+E20	Start-org:T49 Org-Arg:T50 Agent-Arg:T43
+T50	ORG 6453 6465	Trung_Nguyên

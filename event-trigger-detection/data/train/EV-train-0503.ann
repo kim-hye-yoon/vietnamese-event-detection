@@ -1,0 +1,39 @@
+T1	PER 0 37	Chủ_tịch Hội_đồng_quản_trị ĐH Hoa_Sen
+T2	End-position 41 50	bãi_nhiệm
+E1	End-position:T2 Person-Arg:T1
+T3	Meet 180 188	cuộc họp
+E2	Meet:T3 
+T4	Start-org 751 760	thành_lập
+E3	Start-org:T4 Org-Arg:T7 Agent-Arg:T5 Time-Arg:T6
+T5	PER 738 747	bà Phượng
+T6	TIME 724 737	Tháng 11/2011
+T7	ORG 761 811	Công_ty TNHH nhà_hàng khách_sạn và du_lịch Vĩnh_An
+T8	Meet 1621 1628	đại_hội
+E4	Meet:T8 
+T9	End-position 1836 1845	bãi_nhiệm
+E5	End-position:T9 
+T10	Elect 1825 1831	bầu_cử
+E6	Elect:T10 
+T11	End-position 1996 2004	bãi miễn
+E7	End-position:T11 Position-Arg:T12
+T12	JOB 2005 2016	hiệu_trưởng
+T13	End-position 2089 2097	bãi_miễn
+E8	End-position:T13 
+T14	Meet 2701 2709	hội_thảo
+E9	Meet:T14 
+T15	End-position 3798 3807	bãi_nhiệm
+E10	End-position:T15 Person-Arg:T16
+T16	PER 3808 3849	các thành_viên của HĐQT trường ĐH Hoa_Sen
+T17	PER 3855 3885	7 thành_viên hiện_tại của HĐQT
+T18	End-position 3963 3973	miễn_nhiệm
+E11	End-position:T18 Person-Arg:T19
+T19	PER 3982 4020	ông Trần_Văn_Tạo và bà Bùi_Trân_Phượng
+T20	PER 3924 3944	trên 98,5 % đại_biểu
+T21	Elect 4372 4375	bầu
+E12	Elect:T21 Person-Arg:T22 Position-Arg:T23
+T22	PER 4380 4397	6 thành_viên khác
+T23	JOB 4402 4417	HĐQT của trường
+T24	End-position 4452 4461	bãi_nhiệm
+E13	End-position:T24 Person-Arg:T25
+T25	PER 4462 4499	các thành_viên HĐQT trường ĐH Hoa_Sen
+T26	PER 4420 4431	Các cổ_đông

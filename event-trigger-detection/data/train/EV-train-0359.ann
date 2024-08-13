@@ -1,0 +1,56 @@
+T1	Release-parole 5 14	trả tự_do
+E1	Release-parole:T1 Time-Arg:T2
+T2	TIME 15 33	sau 24 năm ngồi tù
+T3	Attack 142 145	bắn
+E2	Attack:T3 Target-Arg:T5 Place-Arg:T6 Time-Arg:T7
+T4	Die 146 150	chết
+E3	Die:T4 Victim-Arg:T5 Place-Arg:T6 Time-Arg:T7
+T5	PER 118 138	nạn_nhân Darryl_Rush
+T6	GPE 155 173	thành_phố New_York
+T7	TIME 178 190	tháng 8/1989
+T8	Convict 226 233	kết_tội
+E4	Convict:T8 Defendant-Arg:T11 Adjudicator-Arg:T12
+T9	Sentence 242 249	chịu án
+E5	Sentence:T9 Defendant-Arg:T11 Adjudicator-Arg:T12 Sentence-Arg:T10
+T10	SEN 250 259	tù 25 năm
+T11	PER 204 211	Fleming
+T12	ORG 219 225	toà_án
+T13	Phone-write 369 376	liên_hệ
+E6	Phone-write:T13 Entity-Arg:T14 Entity-Arg2:T15 Time-Arg:T16
+T14	PER 381 383	họ
+T15	PER 331 366	Anthony_Mayol , luật_sư của Fleming
+T16	TIME 384 401	tháng 6 năm_ngoái
+T17	Trial-hearing 594 600	xét_xử
+E7	Trial-hearing:T17 
+T18	PER 563 569	Cô này
+T19	Charge-indict 702 709	truy_tố
+E8	Charge-indict:T19 Prosecutor-Arg:T21 Defendant-Arg:T20
+T20	PER 727 729	cô
+T21	ORG 688 696	cảnh_sát
+T22	Arrest-jail 946 949	bắt
+E9	Arrest-jail:T22 Person-Arg:T23
+T23	PER 917 927	nhân_chứng
+T24	Attack 1139 1141	nổ
+E10	Attack:T24 Instrument-Arg:T25
+T25	WEA 1142 1146	súng
+T26	Arquit 1193 1201	trắng_án
+E11	Arquit:T26 Defendant-Arg:T27 Time-Arg:T28
+T27	PER 1177 1184	Fleming
+T28	TIME 1156 1174	Sau 24 năm ngồi tù
+T29	Release-parole 1210 1219	trả tự_do
+E12	Release-parole:T29 Time-Arg:T30 Person-Arg:T27
+T30	TIME 1220 1227	hôm_nay
+T31	Release-parole 1304 1309	ra tù
+E13	Release-parole:T31 Person-Arg:T32
+T32	PER 1296 1303	Fleming
+T33	Release-parole 1360 1371	phóng_thích
+E14	Release-parole:T33 Time-Arg:T34 Person-Arg:T32
+T34	TIME 1376 1388	cuối năm nay
+T35	Trial-hearing 1509 1515	xét_xử
+E15	Trial-hearing:T35 
+T36	Arquit 1631 1639	tha_bổng
+E16	Arquit:T36 Defendant-Arg:T39
+T37	Die 1664 1668	giết
+E17	Die:T37 Victim-Arg:T38 Agent-Arg:T39
+T38	PER 1669 1674	người
+T39	PER 1593 1607	hai người khác

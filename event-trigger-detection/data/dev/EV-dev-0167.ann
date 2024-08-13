@@ -1,0 +1,39 @@
+T1	Sentence 87 97	tuyên_phạt
+E1	Sentence:T1 Defendant-Arg:T2 Sentence-Arg:T5 Time-Arg:T4 Place-Arg:T6 Adjudicator-Arg:T3 Crime-Arg:T11
+T2	PER 105 116	Hồ_Ngọc_Nhờ
+T4	TIME 51 68	Vào 11g ngày 30-5
+T5	SEN 117 126	18 năm tù
+T3	ORG 71 75	TAND
+T6	GPE 76 83	TP. HCM
+T7	MONEY 220 234	100 triệu đồng
+T8	PER 153 186	bị_cáo cùng với gia_đình liên_đới
+T9	Fine 187 197	bồi_thường
+E2	Fine:T9 Entity-Arg:T8 Money-Arg:T7
+T11	CRIME 134 144	giết người
+T10	Attack 452 455	đạp
+E3	Attack:T10 Attacker-Arg:T12 Target-Arg:T13
+T12	PER 381 387	Bị_cáo
+T13	PER 487 494	cháu bé
+T14	Transport 626 629	đưa
+E4	Transport:T14 Destination-Arg:T15
+T15	FAC 633 642	bệnh_viện
+T16	Injure 537 544	đau_đớn
+E5	Injure:T16 Victim-Arg:T17
+T17	PER 529 536	cháu bé
+T18	Sentence 24 32	tuyên_án
+E6	Sentence:T18 Defendant-Arg:T22 Sentence-Arg:T19
+T19	SEN 33 42	18 năm tù
+T20	Die 12 16	chết
+E7	Die:T20 Victim-Arg:T21 Agent-Arg:T22
+T21	PER 17 20	trẻ
+T22	PER 0 7	Bảo_mẫu
+T23	Attack 8 11	đạp
+E8	Attack:T23 Attacker-Arg:T22 Target-Arg:T21
+T24	Sentence 1089 1093	phạt
+E9	Sentence:T24 Defendant-Arg:T25 Adjudicator-Arg:T26
+T25	PER 1094 1100	bị_cáo
+T26	ORG 1085 1088	toà
+T27	Attack 1509 1512	đạp
+E10	Attack:T27 Attacker-Arg:T29 Target-Arg:T28
+T28	PER 1530 1539	cháu Long
+T29	PER 1498 1504	bị_cáo

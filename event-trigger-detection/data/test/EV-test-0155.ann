@@ -1,0 +1,6 @@
+T1	Injure 273 284	thương_tích
+E1	Injure:T1 Victim-Arg:T2
+T2	PER 255 261	anh T.
+T3	Injure 444 453	bị_thương
+E2	Injure:T3 Victim-Arg:T4
+T4	PER 425 431	anh T.

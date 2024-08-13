@@ -1,0 +1,51 @@
+T1	PER 512 525	2 người khách
+T2	Transport 526 529	đến
+E1	Transport:T2 Artifact-Arg:T1
+T3	Meet 530 533	gặp
+E2	Meet:T3 Entity-Arg:T1 Entity-Arg2:T4
+T4	PER 534 543	anh Phụng
+T5	PER 561 570	anh Phụng
+T6	Transport 580 584	chạy
+E3	Transport:T6 Artifact-Arg:T7 Agent-Arg:T5
+T7	VEH 585 587	xe
+T8	PER 855 864	anh Phụng
+T9	Transport 874 880	lái_xe
+E4	Transport:T9 Agent-Arg:T8
+T10	PER 886 890	Thái
+T11	VEH 901 909	xe mô_tô
+T12	Transport 910 914	chạy
+E5	Transport:T12 Vehicle-Arg:T11 Agent-Arg:T10 Destination-Arg:T13
+T13	LOC 925 952	trước đầu xe ô_tô anh Phụng
+T14	ORG 1120 1141	công_an huyện Bến_Cầu
+T15	Arrest-jail 1145 1148	bắt
+E6	Arrest-jail:T15 Agent-Arg:T14 Person-Arg:T16
+T16	PER 1158 1162	Thái
+T17	PER 1317 1325	Nhóm này
+T18	Attack 1335 1339	đánh
+E7	Attack:T18 Attacker-Arg:T17 Target-Arg:T19
+T19	PER 1340 1384	các tài_xế nào không theo quy_định của chúng
+T20	ORG 1556 1577	công_an huyện Bến_Cầu
+T21	Arrest-jail 1581 1584	bắt
+E8	Arrest-jail:T21 Person-Arg:T22 Person-Arg2:T23 Person-Arg3:T24 Person-Arg4:T25 Agent-Arg:T20
+T22	PER 1594 1597	Thi
+T23	PER 1600 1605	Cường
+T24	PER 1608 1612	Minh
+T25	PER 1615 1617	Vũ
+T26	PER 1629 1637	đồng_bọn
+T27	Arrest-jail 1641 1644	bắt
+E9	Arrest-jail:T27 Person-Arg:T26
+T28	PER 1647 1649	Em
+T29	FAC 1657 1664	Công_an
+T30	Transport 1653 1656	đến
+E10	Transport:T30 Artifact-Arg:T28 Destination-Arg:T29
+T31	ORG 1718 1739	Công_an huyện Bến_Cầu
+T32	Arrest-jail 1759 1762	bắt
+E11	Arrest-jail:T32 Agent-Arg:T31 Person-Arg:T33
+T33	PER 1763 1796	ba đối_tượng trong băng_nhóm trên
+T34	Charge-indict 0 7	Khởi_tố
+E12	Charge-indict:T34 Defendant-Arg:T35
+T35	PER 8 50	nhóm cưỡng_đoạt tiền nhiều tài_xế xe_khách
+T36	TIME 51 59	Ngày 9-2
+T38	Charge-indict 144 151	khởi_tố
+E13	Charge-indict:T38 Defendant-Arg:T39 Time-Arg:T36
+T39	PER 152 340	9 bị_can : Nguyễn_Hoàng_Vân , Trần_Văn_Thông , Lê_Hoàng_Vũ , Nguyễn_Văn_Hiệp , Lương_Văn_Minh , Trần_Quốc_Cường , Phạm_Quốc_Thái , Ngô_Văn_Thi , Nguyễn_Văn_Do Em ( cùng ngụ huyện Bến_Cầu )

@@ -1,0 +1,24 @@
+T1	Release-parole 12 21	trả tự_do
+E1	Release-parole:T1 Entity-Arg:T3
+T2	GPE 0 3	Nga
+T3	PER 22 56	người bị Mỹ buộc_tội làm gián_điệp
+T4	Release-parole 141 150	trả tự_do
+E2	Release-parole:T4 Entity-Arg:T5
+T5	PER 155 167	Maria_Butina
+T7	PER 352 373	sinh_viên 29 tuổi này
+T6	Release-parole 338 347	trả tự_do
+E3	Release-parole:T6 Entity-Arg:T7
+T8	Arrest-jail 471 474	bắt
+E4	Arrest-jail:T8 Time-Arg:T10 Agent-Arg:T9 Crime-Arg:T11 Person-Arg:T12
+T9	GPE 468 470	Mỹ
+T10	TIME 475 483	hôm 17/6
+T11	CRIME 496 551	làm điệp_viên cho chính_phủ Nga tại Mỹ mà không đăng_ký
+T12	PER 391 461	Maria_Butina , người sáng_lập tổ_chức ủng_hộ quyền_sở_hữu súng của Nga
+T13	Arrest-jail 874 880	bị bắt
+E5	Arrest-jail:T13 Person-Arg:T14
+T14	PER 867 873	Butina
+T15	Meet 1547 1550	gặp
+E6	Meet:T15 Time-Arg:T18 Entity-Arg:T16 Entity-Arg2:T17
+T16	PER 1555 1561	Butina
+T17	PER 1495 1527	Các đại_diện của Đại_sứ_quán Nga
+T18	TIME 1528 1535	hôm_qua

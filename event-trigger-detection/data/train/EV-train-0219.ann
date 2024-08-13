@@ -1,0 +1,35 @@
+T1	Extradite 48 54	dẫn_độ
+E1	Extradite:T1 Person-Arg:T3 Agent-Arg:T2
+T2	GPE 23 29	Canada
+T3	PER 55 67	Mạnh_Vãn_Chu
+T4	Trial-hearing 316 322	xét_xử
+E2	Trial-hearing:T4 
+T5	Extradite 622 628	dẫn_độ
+E3	Extradite:T5 Person-Arg:T6 Destination-Arg:T7
+T6	PER 629 667	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T7	GPE 673 675	Mỹ
+T8	Extradite 807 813	dẫn_độ
+E4	Extradite:T8 
+T9	PER 880 892	Mạnh_Vãn_Chu
+T10	Extradite 900 906	dẫn_độ
+E5	Extradite:T10 Person-Arg:T9
+T11	Extradite 985 991	dẫn_độ
+E6	Extradite:T11 Agent-Arg:T12
+T12	PER 919 943	Bộ_trưởng Tư_pháp Canada
+T13	Extradite 1256 1262	dẫn_độ
+E7	Extradite:T13 Person-Arg:T15
+T14	Release-parole 1274 1277	thả
+E8	Release-parole:T14 Person-Arg:T15
+T15	PER 1278 1285	bà Mạnh
+T16	PER 1288 1377	Mạnh Vãn_Chu , 47 tuổi , con_gái người sáng_lập tập_đoàn viễn_thông Huawei_Nhậm_Chính_Phi
+T17	GPE 1383 1389	Canada
+T18	Arrest-jail 1390 1393	bắt
+E9	Arrest-jail:T18 Agent-Arg:T17 Time-Arg:T19 Person-Arg:T16
+T19	TIME 1398 1407	1/12/2018
+T20	GPE 1650 1656	Canada
+T21	Release-parole 1657 1660	thả
+E10	Release-parole:T21 Person-Arg:T22 Entity-Arg:T20
+T22	PER 1661 1666	người
+T23	Release-parole 1829 1832	thả
+E11	Release-parole:T23 Person-Arg:T24
+T24	PER 1808 1820	Mạnh_Vãn_Chu

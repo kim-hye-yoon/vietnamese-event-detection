@@ -1,0 +1,26 @@
+T1	Attack 202 209	phá_huỷ
+E1	Attack:T1 Attacker-Arg:T3 Target-Arg:T2
+T2	WEA 210 219	5 xe_tăng
+T3	ORG 149 183	Các đơn_vị Bảo_vệ Nhân_dân ( YPG )
+T4	Attack 293 303	giao_tranh
+E2	Attack:T4 Place-Arg:T5
+T5	GPE 314 349	gần thành_phố Afrin , tây bắc Syria
+T6	Attack 753 760	phá_huỷ
+E3	Attack:T6 Target-Arg:T8 Instrument-Arg:T7
+T7	WEA 769 790	tên_lửa 9M113 Konkurs
+T8	WEA 697 714	xe_tăng Leopard 2
+T9	Attack 3138 3147	tiêu_diệt
+E4	Attack:T9 Target-Arg:T10 Instrument-Arg:T11
+T10	WEA 3148 3166	xe_tăng Thổ_Nhĩ_Kỳ
+T11	WEA 3082 3089	tên_lửa
+T12	Attack 3454 3463	trận đánh
+E5	Attack:T12 Attacker-Arg2:T14 Target-Arg:T14 Attacker-Arg:T13 Target-Arg2:T13
+T14	PER 3498 3516	phiến quân đối_lập
+T13	ORG 3478 3493	chính_phủ Syria
+T15	Transfer-ownership 4174 4182	viện_trợ
+E6	Transfer-ownership:T15 Beneficiary-Arg:T18 Seller-Arg:T16 Artifact-Arg:T17
+T16	GPE 4171 4173	Mỹ
+T17	WEA 4154 4165	Tên_lửa TOW
+T18	ORG 4187 4223	lực_lượng nổi_dậy Syria chống lại IS
+T19	Attack 4319 4329	giao_tranh
+E7	Attack:T19 

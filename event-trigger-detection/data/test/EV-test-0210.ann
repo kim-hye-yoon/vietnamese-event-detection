@@ -1,0 +1,8 @@
+T1	Elect 27 35	được bầu
+E1	Elect:T1 Person-Arg:T3 Position-Arg:T2
+T2	JOB 40 59	thị_trưởng Bắc_Kinh
+T3	PER 0 26	Người_thân tín của ông Tập
+T4	Transport 418 424	chuyển
+E2	Transport:T4 Agent-Arg:T5 Destination-Arg:T6
+T5	PER 379 394	ông Wang Anshun
+T6	FAC 429 482	Trung_tâm nghiên_cứu phát_triển của Hội_đồng_Nhà_nước

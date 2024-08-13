@@ -1,0 +1,28 @@
+T1	PER 279 286	1 người
+T2	Die 287 291	chết
+E1	Die:T2 Victim-Arg:T1
+T3	Transport 403 406	chở
+E2	Transport:T3 Agent-Arg:T4 Artifact-Arg:T6 Vehicle-Arg:T5 Destination-Arg:T7
+T4	PER 294 366	Anh Lê_Ngọc_Hoàng ( 24 tuổi , trú tại xã Hoà_Thắng , TP. Buôn_Ma_Thuột )
+T5	VEH 378 402	xe_gắn_máy 47B1 – 104.46
+T6	PER 407 441	em_gái Lê_Thị_Minh_Tâm ( 20 tuổi )
+T7	FAC 447 494	quốc_lộ 14 hướng từ TP. Buôn_Ma_Thuột đi Đạt_Lý
+T8	ORG 974 999	công_an TP. Buôn_Ma_Thuột
+T9	Arrest-jail 1034 1041	bắt_giữ
+E3	Arrest-jail:T9 Agent-Arg:T8 Person-Arg:T10
+T10	PER 1042 1066	tài_xế Nguyễn_Minh_Triều
+T11	PER 20 49	tài_xế gây tai_nạn giao_thông
+T12	Attack 58 61	cán
+E4	Attack:T12 Attacker-Arg:T11 Target-Arg:T14
+T13	Die 62 66	chết
+E5	Die:T13 Agent-Arg:T11 Victim-Arg:T14
+T14	PER 67 75	nạn_nhân
+T15	PER 787 793	tài_xế
+T16	VEH 850 852	xe
+T17	Transport 853 856	lùi
+E6	Transport:T17 Vehicle-Arg:T16 Agent-Arg:T15
+T18	Attack 861 864	cán
+E7	Attack:T18 Target-Arg:T20 Attacker-Arg:T15
+T19	Die 865 869	chết
+E8	Die:T19 Victim-Arg:T20 Agent-Arg:T15
+T20	PER 870 885	Lê_Thị_Minh_Tâm

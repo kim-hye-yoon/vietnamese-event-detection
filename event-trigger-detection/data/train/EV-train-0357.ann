@@ -1,0 +1,8 @@
+T1	Attack 234 237	bắn
+E1	Attack:T1 
+T2	Attack 557 564	dội bom
+E2	Attack:T2 Place-Arg:T4
+T3	Attack 631 641	không_kích
+E3	Attack:T3 
+T4	LOC 430 437	Darayya
+T5	VEH 167 218	một chiếc trực_thăng của chính_phủ Tổng_thống Assad

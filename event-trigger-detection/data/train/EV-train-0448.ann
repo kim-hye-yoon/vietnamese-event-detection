@@ -1,0 +1,20 @@
+T1	PER 390 393	Li_
+T2	Transfer-money 393 397	nhận
+E1	Transfer-money:T2 Recipient-Arg:T1 Giver-Arg:T3 Money-Arg:T4
+T3	PER 402 405	anh
+T4	MONEY 406 425	100.000 nhân_dân_tệ
+T5	PER 1263 1271	cảnh_sát
+T6	Meet 1306 1314	liên_lạc
+E2	Meet:T6 Entity-Arg:T5 Entity-Arg2:T7
+T7	PER 1319 1335	bố của nghi_phạm
+T8	TIME 1655 1664	ngày 29/9
+T9	PER 1667 1675	người_ta
+T10	Arrest-jail 1679 1682	bắt
+E3	Arrest-jail:T10 Time-Arg:T8 Agent-Arg:T9 Person-Arg:T11
+T11	PER 1688 1699	Zhou_Moumou
+T12	Transfer-ownership 1717 1723	mua vé
+E4	Transfer-ownership:T12 Buyer-Arg:T11 Place-Arg:T13
+T13	LOC 1735 1770	thành_phố Cẩm_Châu , tỉnh Liêu_Ninh
+T14	Marry 468 476	đám_cưới
+E5	Marry:T14 Time-Arg:T15
+T15	TIME 481 493	cuối tháng 6

@@ -1,0 +1,36 @@
+T1	Release-parole 43 52	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 6	Cô_gái
+T3	Release-parole 142 145	thả
+E2	Release-parole:T3 Person-Arg:T4
+T4	PER 134 136	cô
+T5	Release-parole 440 449	trả tự_do
+E3	Release-parole:T5 Person-Arg:T6
+T6	PER 432 434	cô
+T7	Arrest-jail 795 798	bắt
+E4	Arrest-jail:T7 Person-Arg:T10 Time-Arg:T9
+T8	Attack 802 810	đánh_đập
+E5	Attack:T8 Attacker-Arg:T10 Time-Arg:T9
+T10	PER 755 791	Ghavami là một trong số những phụ_nữ
+T9	TIME 869 877	hôm 20/6
+T11	Release-parole 1135 1138	thả
+E6	Release-parole:T11 Person-Arg:T12
+T12	PER 1109 1125	những người trên
+T13	Arrest-jail 1180 1183	bắt
+E7	Arrest-jail:T13 Person-Arg:T15
+T14	Trial-hearing 1194 1200	xét_xử
+E8	Trial-hearing:T14 Defendant-Arg:T15
+T15	PER 1165 1172	Ghavami
+T16	Sentence 1265 1271	kết_án
+E9	Sentence:T16 Defendant-Arg:T19 Sentence-Arg:T17
+T17	SEN 1272 1282	một năm tù
+T18	PER 1203 1224	Các công_tố_viên Iran
+T19	PER 1234 1236	cô
+T20	Release-parole 1385 1394	trả tự_do
+E10	Release-parole:T20 Person-Arg:T21
+T21	PER 1399 1401	cô
+T22	Transport 1469 1471	ra
+E11	Transport:T22 Destination-Arg:T23 Time-Arg:T24 Agent-Arg:T25
+T23	LOC 1472 1482	nước_ngoài
+T24	TIME 1483 1496	trong hai năm
+T25	PER 1455 1457	cô

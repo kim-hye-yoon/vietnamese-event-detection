@@ -1,0 +1,21 @@
+T1	Declare-bankruptcy 7 14	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 15 28	Vinashinlines
+T4	ORG 366 375	Vinalines
+T5	ORG 418 432	40 công_ty_con
+T6	Declare-bankruptcy 608 615	phá_sản
+E3	Declare-bankruptcy:T6 Org-Arg:T7 Org-Arg2:T8
+T7	ORG 634 687	Công_ty Vận_tải viễn_dương Vinashin ( Vinashinlines )
+T8	ORG 691 734	Công_ty Vận_tải dầu_khí Việt_Nam ( Falcon )
+T9	End-org 944 952	giải_thể
+E4	End-org:T9 Org-Arg:T10 Org-Arg2:T11
+T10	ORG 970 1004	Chi_nhánh Tổng_công_ty tại Cần_Thơ
+T11	ORG 1008 1072	Liên_doanh Trung_tâm Nhân_lực hàng_hải Đông_Nam_Á ( Vina - STC )
+T12	Transfer-ownership 1588 1591	bán
+E5	Transfer-ownership:T12 Seller-Arg:T14 Artifact-Arg:T13
+T13	VEH 1592 1604	những tàu cũ
+T14	ORG 1494 1506	Tổng_công_ty
+T15	Declare-bankruptcy 406 413	phá_sản
+E6	Declare-bankruptcy:T15 Org-Arg:T5
+T3	End-org 391 399	giải_thể
+E2	End-org:T3 Org-Arg:T5

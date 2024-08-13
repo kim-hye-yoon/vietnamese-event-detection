@@ -1,0 +1,52 @@
+T1	PER 3 10	bạn học
+T2	Attack 18 28	cưỡng_hiếp
+E1	Attack:T2 Target-Arg:T1 Time-Arg:T4
+T3	Attack 11 14	vật
+E2	Attack:T3 Target-Arg:T1 Time-Arg:T4
+T4	TIME 33 45	buổi họp lớp
+T5	Meet 81 88	hội_ngộ
+E3	Meet:T5 Entity-Arg:T6
+T6	PER 74 80	bạn_bè
+T7	Attack 200 207	xâm_hại
+E4	Attack:T7 Target-Arg:T8
+T8	PER 191 193	L.
+T9	PER 660 672	Trần_Thư_Bắc
+T10	PER 689 691	L.
+T11	Attack 706 712	sàm_sỡ
+E5	Attack:T11 Target-Arg:T10 Attacker-Arg:T9
+T12	PER 715 717	L.
+T13	Transport 730 737	bỏ chạy
+E6	Transport:T13 Agent-Arg:T12
+T14	TIME 996 1008	Chiều 27 tết
+T15	PER 1011 1013	L.
+T16	PER 1017 1046	các bạn cũ cùng học phổ_thông
+T17	Meet 1065 1073	hạnh ngộ
+E7	Meet:T17 Entity-Arg:T16 Entity-Arg2:T15 Time-Arg:T14
+T18	PER 1291 1343	Trần_Thư_Bắc ( SN 1990 , ở xã Thượng_Lộc , Can_Lộc )
+T19	PER 1359 1361	L.
+T20	Transport 1355 1358	chở
+E8	Transport:T20 Artifact-Arg:T19 Agent-Arg:T18 Destination-Arg:T21
+T21	FAC 1365 1368	nhà
+T22	TIME 1604 1642	Sau khi thực_hiện xong hành_vi đồi_bại
+T23	PER 1645 1648	Bắc
+T24	PER 1653 1655	L.
+T25	FAC 1659 1662	nhà
+T26	Transport 1649 1652	chở
+E9	Transport:T26 Artifact-Arg:T24 Agent-Arg:T23 Time-Arg:T22 Destination-Arg:T25
+T27	PER 1735 1738	Bắc
+T28	Phone-write 1748 1756	gọi điện
+E10	Phone-write:T28 Entity-Arg:T27 Entity-Arg2:T30
+T29	Phone-write 1759 1767	nhắn_tin
+E11	Phone-write:T29 Entity-Arg:T30 Entity-Arg2:T27
+T30	PER 1785 1787	L.
+T31	PER 1985 1988	Bắc
+T32	Arrest-jail 1995 1998	bắt
+E12	Arrest-jail:T32 Person-Arg:T31
+T33	ORG 2002 2020	TAND huyện Can_Lộc
+T34	CRIME 2056 2064	hiếp_dâm
+T35	Charge-indict 2034 2040	xét_xử
+E13	Charge-indict:T35 Adjudicator-Arg:T33 Crime-Arg:T34
+T36	ORG 2274 2277	toà
+T37	Sentence 2278 2286	tuyên_án
+E14	Sentence:T37 Adjudicator-Arg:T36 Sentence-Arg:T38
+T38	SEN 2287 2303	30 tháng tù_giam

@@ -1,0 +1,22 @@
+T1	Declare-bankruptcy 55 62	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 47	Khách_hàng lớn của ' đại_gia dệt_may ' Việt_Nam
+T3	ORG 65 117	Công_ty_cổ_phần Dệt_may Đầu_tư Thương_mại Thành_Công
+T4	ORG 213 226	Sears_Holding
+T5	Declare-bankruptcy 245 252	phá_sản
+E2	Declare-bankruptcy:T5 Org-Arg:T4
+T6	ORG 257 263	toà_án
+T7	GPE 264 266	Mỹ
+T8	TIME 303 316	giữa tháng 11
+T22	Declare-bankruptcy 884 891	phá_sản
+E3	Declare-bankruptcy:T22 
+T23	ORG 858 864	toà_án
+T40	ORG 1922 1932	Thành_Công
+T41	MONEY 1973 1984	159 tỷ đồng
+T42	Start-org 1936 1945	thành_lập
+E4	Start-org:T42 Org-Arg:T43 Agent-Arg:T40
+T43	ORG 1946 1957	công_ty_con
+T54	Trial-hearing 296 298	xử
+E5	Trial-hearing:T54 Time-Arg:T8 Adjudicator-Arg:T55
+T55	ORG 277 290	phiên_toà này
+T9	PER 769 809	Ông Lee_Eun_Hong - Tổng_giám_đốc công_ty

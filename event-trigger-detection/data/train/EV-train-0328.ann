@@ -1,0 +1,69 @@
+T1	Trial-hearing 108 114	xét_xử
+E1	Trial-hearing:T1 Place-Arg:T4 Time-Arg:T3 Defendant-Arg:T2
+T2	PER 72 86	Đoàn_Thị_Hương
+T3	TIME 115 124	sáng 14/3
+T4	GPE 129 137	Malaysia
+T5	Meet 210 213	gặp
+E2	Meet:T5 Time-Arg:T7 Entity-Arg:T6 Entity-Arg2:T8 Place-Arg:T9
+T6	PER 151 198	Thứ_trưởng Ngoại_giao Việt_Nam Nguyễn_Quốc_Dũng
+T7	TIME 199 206	hôm_nay
+T8	PER 214 229	Đại_sứ Malaysia
+T9	GPE 234 240	Hà_Nội
+T10	Trial-hearing 271 277	xét_xử
+E3	Trial-hearing:T10 Adjudicator-Arg:T12 Defendant-Arg:T11
+T11	PER 278 302	nghi phạm Đoàn_Thị_Hương
+T12	GPE 251 259	Malaysia
+T13	Release-parole 329 338	trả tự_do
+E4	Release-parole:T13 Entity-Arg:T14
+T14	PER 343 355	công_dân này
+T15	Meet 581 585	thăm
+E5	Meet:T15 Entity-Arg:T17 Entity-Arg2:T16
+T16	PER 566 575	Ông Quỳnh
+T17	PER 586 593	lãnh_sự
+T18	Trial-hearing 655 661	xét_xử
+E6	Trial-hearing:T18 Defendant-Arg:T20 Time-Arg:T19
+T19	TIME 662 671	ngày 14/3
+T20	PER 798 812	Đoàn_Thị_Hương
+T21	Phone-write 847 855	điện đàm
+E7	Phone-write:T21 Entity-Arg:T23 Entity-Arg2:T22
+T22	PER 815 843	Phó Thủ_tướng Phạm_Bình_Minh
+T23	PER 860 900	Ngoại_trưởng Malaysia_Saifuddin_Abdullah
+T24	Phone-write 948 955	gửi thư
+E8	Phone-write:T24 Entity-Arg:T26 Entity-Arg2:T25
+T25	PER 960 983	Tổng chưởng_lý Malaysia
+T26	PER 904 944	Bộ_trưởng Tư_pháp Việt_Nam Lê_Thành_Long
+T27	Trial-hearing 1015 1021	xét_xử
+E9	Trial-hearing:T27 Defendant-Arg:T29
+T28	Release-parole 1035 1046	phóng_thích
+E10	Release-parole:T28 Entity-Arg:T29
+T29	PER 1047 1064	công_dân Việt_Nam
+T30	Arrest-jail 1113 1123	bị bắt_giữ
+E11	Arrest-jail:T30 Person-Arg:T31
+T31	PER 1098 1112	Đoàn_Thị_Hương
+T32	ORG 1126 1160	các cơ_quan liên_quan của Việt_Nam
+T33	Meet 1164 1170	gặp_gỡ
+E12	Meet:T33 Entity-Arg:T32 Entity-Arg2:T34
+T34	PER 1171 1192	gia_đình công_dân này
+T35	Trial-hearing 1568 1574	xét_xử
+E13	Trial-hearing:T35 Defendant-Arg:T37
+T37	PER 1544 1558	Đoàn_Thị_Hương
+T36	Release-parole 1606 1615	trả tự_do
+E14	Release-parole:T36 Entity-Arg:T37
+T38	Release-parole 1788 1799	phóng_thích
+E15	Release-parole:T38 Entity-Arg:T39 Person-Arg:T40
+T39	PER 1800 1814	Đoàn_Thị_Hương
+T40	PER 1715 1762	Trưởng công_tố Malaysia_Muhammad_Iskandar_Ahmad
+T41	Release-parole 1972 1983	phóng_thích
+E16	Release-parole:T41 Entity-Arg:T43 Time-Arg:T42
+T42	TIME 1913 1921	Hôm 11/3
+T43	PER 1924 1963	Siti_Aisyah , nghi_phạm người Indonesia
+T44	Attack 2052 2059	sát_hại
+E17	Attack:T44 Attacker-Arg:T46 Target-Arg:T45 Place-Arg:T47 Time-Arg:T48
+T45	PER 2060 2068	Kim_Chol
+T46	PER 1986 1999	Siti và Hương
+T47	FAC 2193 2221	sân_bay quốc_tế Kuala_Lumpur
+T48	TIME 2222 2234	tháng 2/2017
+T49	Trial-hearing 2372 2378	xét_xử
+E18	Trial-hearing:T49 Defendant-Arg:T50 Time-Arg:T51
+T50	PER 2379 2393	Đoàn_Thị_Hương
+T51	TIME 2409 2417	ngày 1/4

@@ -1,0 +1,65 @@
+T1	WEA 98 104	cây_gỗ
+T2	Attack 118 122	đánh
+E1	Attack:T2 Target-Arg:T3 Instrument-Arg:T1 Attacker-Arg:T5
+T3	PER 143 159	Nguyễn_Thị_Tuyết
+T4	Injure 160 168	bất_tỉnh
+E2	Injure:T4 Victim-Arg:T3
+T5	PER 78 90	Ngô_Quốc_Huy
+T6	PER 887 899	Ngô_Quốc_Huy
+T7	WEA 919 925	cây_gỗ
+T8	PER 976 992	Nguyễn_Thị_Tuyết
+T9	Injure 993 1001	bất_tỉnh
+E3	Injure:T9 Victim-Arg:T8
+T10	Attack 939 943	đánh
+E4	Attack:T10 Target-Arg:T8 Attacker-Arg:T6 Instrument-Arg:T7
+T11	Attack 1089 1092	nện
+E5	Attack:T11 Target-Arg:T12
+T12	PER 1028 1059	Ngô_Thị_Như Ý và Ngô_Minh_Thành
+T13	Arrest-jail 1281 1284	bắt
+E6	Arrest-jail:T13 Person-Arg:T15 Agent-Arg:T14
+T14	ORG 1242 1277	Công_an phường 1 , quận 10 , TP HCM
+T15	PER 1289 1301	Ngô_Quốc_Huy
+T16	PER 2224 2226	bà
+T17	VEH 2244 2257	chiếc roi mây
+T18	Attack 2258 2262	đánh
+E7	Attack:T18 Target-Arg:T19 Attacker-Arg:T16 Instrument-Arg:T17
+T19	PER 2277 2280	hắn
+T20	Arrest-jail 3753 3756	tóm
+E8	Arrest-jail:T20 Person-Arg:T23 Agent-Arg:T21 Place-Arg:T22
+T21	ORG 3737 3752	Công_an quận 10
+T22	LOC 3705 3727	Bệnh_viện nhân_dân 115
+T23	PER 3730 3733	Huy
+T24	Convict 3797 3803	kết_án
+E9	Convict:T24 Defendant-Arg:T25
+T25	PER 3776 3793	Huy cùng đồng_bọn
+T26	Release-parole 3899 3901	về
+E10	Release-parole:T26 Person-Arg:T27
+T27	PER 3890 3893	Huy
+T28	Extradite 4974 4977	đưa
+E11	Extradite:T28 Person-Arg:T30 Person-Arg2:T31 Agent-Arg:T29 Destination-Arg:T32
+T29	ORG 4937 4963	Công_an phường 1 , quận 10
+T30	PER 4849 4852	Huy
+T31	PER 4925 4933	đồng_bọn
+T32	FAC 4982 5007	cơ_sở cai_nghiện bắt_buộc
+T33	Attack 5690 5694	đánh
+E12	Attack:T33 Attacker-Arg:T34 Target-Arg:T35
+T34	PER 5657 5665	bà Tuyết
+T35	PER 5701 5704	Huy
+T36	Attack 5884 5886	bổ
+E13	Attack:T36 Attacker-Arg:T38 Instrument-Arg:T37 Target-Arg:T39
+T37	VEH 5893 5900	khúc gỗ
+T38	PER 5868 5871	Huy
+T39	PER 5934 5942	bà Tuyết
+T40	Injure 5946 5961	chảy máu hộp sọ
+E14	Injure:T40 Victim-Arg:T39 Agent-Arg:T38
+T41	Attack 6207 6210	đập
+E15	Attack:T41 Target-Arg:T42 Attacker-Arg:T43 Instrument-Arg:T44
+T42	PER 6055 6118	Ngô_Thị_Như Ý , sinh năm 2002 và Ngô_Minh_Thành , sinh năm 2007
+T43	PER 6152 6155	Huy
+T44	VEH 6200 6206	cây_gỗ
+T45	Injure 7363 7369	hôn_mê
+E16	Injure:T45 Victim-Arg:T46
+T46	PER 7346 7359	Ngô_Thị_Như Ý
+T47	Injure 7496 7502	hôn_mê
+E17	Injure:T47 Victim-Arg:T48
+T48	PER 7476 7490	Ngô_Minh_Thành

@@ -1,0 +1,20 @@
+T1	PER 0 6	Cô_gái
+T2	Marry 13 20	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	PER 1137 1149	đôi vợ_chồng
+T4	Transport 1150 1153	qua
+E2	Transport:T4 Artifact-Arg:T3 Destination-Arg:T5
+T5	GPE 1154 1165	Tây_Ban_Nha
+T6	Meet 1166 1169	gặp
+E3	Meet:T6 Entity-Arg:T3 Entity-Arg2:T7
+T7	PER 1170 1181	bố_mẹ Rosie
+T8	Transport 1188 1191	đến
+E4	Transport:T8 Artifact-Arg:T3 Destination-Arg:T9
+T9	GPE 1192 1200	Scotland
+T10	PER 1205 1215	bố_mẹ Josh
+T11	Meet 1201 1204	gặp
+E5	Meet:T11 Entity-Arg:T3 Entity-Arg2:T10
+T12	PER 1336 1348	Em bé của họ
+T13	Be-born 1352 1360	chào_đời
+E6	Be-born:T13 Person-Arg:T12 Time-Arg:T14
+T14	TIME 1365 1381	tháng Giêng 2019

@@ -1,0 +1,20 @@
+T1	PER 0 16	Ông Diaz - Canel
+T2	Elect 17 25	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 30 43	Chủ_tịch Cuba
+T4	PER 79 102	ông Miguel_Diaz - Canel
+T5	Elect 119 127	được bầu
+E2	Elect:T5 Position-Arg:T6 Person-Arg:T4
+T6	JOB 132 145	Chủ_tịch Cuba
+T7	Elect 497 505	được bầu
+E3	Elect:T7 Position-Arg:T8 Person-Arg:T9
+T8	JOB 510 518	Chủ_tịch
+T9	PER 440 463	ông Miguel Diaz - Canel
+T10	Elect 1019 1022	bầu
+E4	Elect:T10 Person-Arg:T11
+T11	PER 1008 1011	ông
+T12	Elect 1074 1082	được bầu
+E5	Elect:T12 Position-Arg:T13 Time-Arg:T14 Person-Arg:T15
+T13	JOB 1087 1109	Phó chủ_tịch nước Cuba
+T14	TIME 1114 1122	năm 2013
+T15	PER 1125 1141	ông Diaz - Canel

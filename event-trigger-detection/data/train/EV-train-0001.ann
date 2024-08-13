@@ -1,0 +1,16 @@
+T1	End-position 273 280	sa_thải
+E1	End-position:T1 Person-Arg2:T3 Time-Arg:T4 Entity-Arg:T2
+T2	ORG 264 269	Pimco
+T3	PER 281 347	người sáng_lập kiêm nhà_đầu_tư trái_phiếu huyền_thoại - Bill_Gross
+T4	TIME 348 365	tháng 9 năm_ngoái
+T5	PER 418 423	Gross
+T6	Transport 424 430	rời đi
+E2	Transport:T6 Artifact-Arg:T5
+T7	PER 642 652	nhà_đầu_tư
+T8	Transfer-money 662 670	rút_tiền
+E3	Transfer-money:T8 Giver-Arg:T7 Time-Arg:T9
+T9	TIME 671 686	trong năm_ngoái
+T10	ORG 783 790	quỹ này
+T11	Transfer-money 794 797	mất
+E4	Transfer-money:T11 Giver-Arg:T10 Money-Arg:T12
+T12	MONEY 798 820	hơn 5,5 tỷ USD tài_sản

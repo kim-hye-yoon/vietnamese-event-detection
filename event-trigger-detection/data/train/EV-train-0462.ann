@@ -1,0 +1,84 @@
+T1	PER 244 247	Anh
+T2	Transfer-money 271 275	tặng
+E1	Transfer-money:T2 Giver-Arg:T1 Money-Arg:T3
+T3	MONEY 281 308	10.000 tệ ( 34 triệu đồng )
+T4	PER 332 358	Chu_Mỗ và mẹ là Chu_Mỗ_Anh
+T5	Transport 359 362	đến
+E2	Transport:T5 Destination-Arg:T6 Artifact-Arg:T4
+T6	LOC 363 374	quê anh Hứa
+T7	PER 456 463	ông Hứa
+T8	Transfer-money 464 467	đưa
+E3	Transfer-money:T8 Giver-Arg:T7 Recipient-Arg:T10 Money-Arg:T9
+T9	MONEY 486 518	30.000 tệ ( hơn 100 triệu đồng )
+T10	PER 478 484	nhà_gá
+T11	PER 747 755	nhà_trai
+T12	Meet 756 759	gặp
+E4	Meet:T12 Entity-Arg:T11 Entity-Arg2:T13
+T13	PER 760 767	nhà_gái
+T14	MONEY 853 865	tiền sính lễ
+T15	Transfer-money 882 889	tiêu hế
+E5	Transfer-money:T15 Money-Arg:T14
+T16	Transfer-money 1554 1557	cho
+E6	Transfer-money:T16 Recipient-Arg:T17 Money-Arg:T18
+T17	PER 1558 1565	nhà_gái
+T18	MONEY 1569 1587	70.000 nhân_dân_tệ
+T19	TIME 1934 1942	Ngày 4/9
+T20	PER 1953 1961	cảnh_sát
+T21	Arrest-jail 1965 1968	bắt
+E7	Arrest-jail:T21 Time-Arg:T19 Agent-Arg:T20 Person-Arg:T22
+T22	PER 1969 1977	2 mẹ_con
+T23	PER 2212 2222	Chu Mỗ_Anh
+T24	Marry 2238 2245	kết_hôn
+E8	Marry:T24 Time-Arg:T25 Person-Arg:T23
+T25	TIME 2250 2258	năm 1985
+T26	TIME 2290 2298	năm 1996
+T27	Be-born 2299 2303	sinh
+E9	Be-born:T27 Person-Arg:T28 Time-Arg:T26
+T28	PER 2304 2310	Chu_Mỗ
+T29	TIME 2313 2324	một năm sau
+T30	Divorce 2325 2331	ly_hôn
+E10	Divorce:T30 Time-Arg:T29 Person-Arg:T23
+T31	TIME 2334 2342	Năm 2016
+T32	PER 2345 2347	bà
+T33	Marry 2348 2355	kết_hôn
+E11	Marry:T33 Person-Arg:T32 Person-Arg2:T34 Time-Arg:T31
+T34	PER 2360 2385	người đàn_ông tỉnh Hà_Nam
+T35	PER 2446 2452	Chu_Mỗ
+T36	Marry 2453 2460	kết_hôn
+E12	Marry:T36 Person-Arg:T35 Time-Arg:T37 Person-Arg2:T38
+T37	TIME 2461 2469	năm 2013
+T38	PER 2480 2510	đàn ông trẻ thành_phố An khánh
+T39	Divorce 2532 2538	ly_hôn
+E13	Divorce:T39 Time-Arg:T40 Person-Arg:T35
+T40	TIME 2543 2555	tháng 3/2015
+T41	PER 2792 2802	hai mẹ_con
+T42	Arrest-jail 2806 2817	bị giam_giữ
+E14	Arrest-jail:T42 Person-Arg:T41
+T43	Marry 668 675	kết_hôn
+E15	Marry:T43 Person-Arg:T61
+T44	PER 814 824	con_gái bà
+T45	Marry 835 842	kết_hôn
+E16	Marry:T45 Person-Arg:T44
+T46	PER 1616 1626	Chu_Mỗ_Anh
+T47	Marry 1642 1646	cưới
+E17	Marry:T47 Person-Arg:T46
+T48	Transfer-ownership 1671 1674	trả
+E18	Transfer-ownership:T48 Price-Arg:T49
+T49	MONEY 1675 1683	2.000 tệ
+T50	PER 1802 1812	Chu_Mỗ_Anh
+T51	Marry 1832 1838	hôn_lễ
+E19	Marry:T51 Person-Arg:T50
+T52	Transfer-money 1852 1860	hoàn_trả
+E20	Transfer-money:T52 Giver-Arg:T50 Money-Arg:T53
+T53	MONEY 1861 1865	tiền
+T55	Marry 2140 2147	kết_hôn
+E22	Marry:T55 
+T56	Divorce 2109 2115	ly_hôn
+E23	Divorce:T56 
+T57	Marry 2085 2092	kết_hôn
+E24	Marry:T57 
+T58	PER 2570 2580	hai mẹ_con
+T59	Marry 2595 2602	kết_hôn
+E25	Marry:T59 Person-Arg:T58 Person-Arg2:T60
+T60	PER 2607 2617	người khác
+T61	PER 652 654	cô

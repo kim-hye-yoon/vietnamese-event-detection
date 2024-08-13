@@ -1,0 +1,6 @@
+T1	Divorce 3 9	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 10 31	vợ_chồng Trung_Nguyên
+T3	Divorce 67 73	ly_hôn
+E2	Divorce:T3 Person-Arg:T4
+T4	PER 86 131	vợ_chồng ông chủ tập_đoàn cà_phê Trung nguyên

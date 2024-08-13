@@ -1,0 +1,22 @@
+T1	PER 0 19	Ông Trương_Gia_Bình
+T2	Elect 20 28	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 33 49	HĐQT Vietcombank
+T4	Nominate 139 144	đề_cử
+E2	Nominate:T4 Position-Arg:T7 Person-Arg:T6 Agent-Arg:T5 Time-Arg:T8
+T5	ORG 52 99	Ngân_hàng Ngoại_thương Việt_Nam ( Vietcombank )
+T6	PER 128 138	8 ứng_viên
+T7	JOB 149 194	Hội_đồng_quản_trị ( HĐQT ) nhiệm_kỳ 2018-2023
+T8	TIME 236 245	sáng 27/4
+T9	Nominate 269 274	đề_cử
+E3	Nominate:T9 Person-Arg:T10 Position-Arg:T11
+T10	PER 287 430	ông Hồng_Quang - Trưởng_ban Tổ_chức cán_bộ Vietcombank và ông Trương_Gia_Bình - Chủ_tịch FPT , Trưởng_ban Nghiên_cứu Phát_triển Kinh_tế tư_nhân
+T11	JOB 279 283	HĐQT
+T12	PER 444 463	ông Trương_Gia_Bình
+T13	Elect 464 472	được bầu
+E4	Elect:T13 Position-Arg:T14 Person-Arg:T12
+T14	JOB 477 500	thành_viên HĐQT độc_lập
+T15	Transfer-ownership 1848 1855	mua_bán
+E5	Transfer-ownership:T15 
+T16	Merge-org 1856 1864	sáp_nhập
+E6	Merge-org:T16 

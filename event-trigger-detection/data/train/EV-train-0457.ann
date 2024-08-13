@@ -1,0 +1,12 @@
+T1	Declare-bankruptcy 2189 2196	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 2197 2204	công_ty
+T3	Transfer-ownership 2475 2478	bán
+E2	Transfer-ownership:T3 
+T4	Transfer-ownership 3085 3096	bán_đấu_giá
+E3	Transfer-ownership:T4 Buyer-Arg:T5
+T5	ORG 2981 3008	Nhà_máy bột giấy Phương_Nam
+T6	Transfer-money 3313 3316	trả
+E4	Transfer-money:T6 Giver-Arg:T7 Time-Arg:T8
+T7	ORG 3164 3190	Tổng_công_ty Giấy Việt_Nam
+T8	TIME 3341 3351	31/12/2016

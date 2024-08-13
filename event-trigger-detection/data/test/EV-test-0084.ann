@@ -1,0 +1,69 @@
+T1	Attack 333 341	tấn_công
+E1	Attack:T1 Attacker-Arg:T2 Place-Arg:T3 Instrument-Arg:T51
+T2	PER 301 324	Tổng_thống Donald_Trump
+T3	GPE 342 347	Syria
+T4	Sue 359 367	cáo_buộc
+E2	Sue:T4 Defendant-Arg:T23
+T5	Attack 515 523	tấn_công
+E3	Attack:T5 Place-Arg:T6
+T6	GPE 524 529	Syria
+T7	Attack 859 867	tấn_công
+E4	Attack:T7 Place-Arg:T8
+T8	GPE 872 890	mục_tiêu ở Bắc_Phi
+T9	Attack 2729 2737	tấn_công
+E5	Attack:T9 Place-Arg:T10 Instrument-Arg:T11
+T10	GPE 2738 2754	mục_tiêu ở Syria
+T12	Attack 2871 2879	tấn_công
+E6	Attack:T12 Place-Arg:T13
+T13	GPE 2844 2848	Pháp
+T14	Attack 56 66	không_kích
+E7	Attack:T14 Place-Arg:T15
+T15	GPE 67 72	Syria
+T16	VEH 16 23	máy_bay
+T17	Transport 24 28	mang
+E8	Transport:T17 Artifact-Arg:T18 Vehicle-Arg:T16
+T18	WEA 29 36	tên_lửa
+T19	VEH 194 210	hai tàu_khu_trục
+T20	Transport 211 215	mang
+E9	Transport:T20 Artifact-Arg:T21 Vehicle-Arg:T19
+T21	WEA 216 223	tên_lửa
+T23	GPE 368 376	nước này
+T24	VEH 578 586	tàu_ngầm
+T27	Attack 1142 1149	bắn rơi
+E11	Attack:T27 Target-Arg:T29 Place-Arg:T28
+T29	PER 1127 1138	phi_công Mỹ
+T30	Attack 1324 1332	tấn_công
+E12	Attack:T30 Instrument-Arg:T31
+T31	WEA 1316 1323	tên_lửa
+T32	Attack 2093 2101	tấn_công
+E13	Attack:T32 Place-Arg:T33
+T33	GPE 2110 2115	Syria
+T34	Attack 2145 2155	không kích
+E14	Attack:T34 Place-Arg:T35
+T35	GPE 2156 2161	Syria
+T36	Attack 2462 2472	không kích
+E15	Attack:T36 Place-Arg:T37 Instrument-Arg:T38
+T37	GPE 2473 2478	Syria
+T38	VEH 2385 2398	tiêm_kích Anh
+T39	VEH 2481 2500	Tàu_ngầm HMS Astute
+T40	Transport 2501 2505	mang
+E16	Transport:T40 Artifact-Arg:T41 Artifact-Arg2:T42 Vehicle-Arg:T39
+T41	WEA 2506 2516	38 tên_lửa
+T42	WEA 2520 2527	ngư_lôi
+T44	VEH 2982 2998	tiêm_kích Rafale
+T45	LOC 3012 3020	lãnh_thổ
+T46	GPE 3069 3074	Syria
+T47	Transport 3061 3068	bay đến
+E18	Transport:T47 Destination-Arg:T46 Origin-Arg:T45 Vehicle-Arg:T44
+T43	VEH 0 13	Dàn chiến_hạm
+T22	PER 0 3	Dàn
+T26	WEA 592 619	tên_lửa hành trình Tomahawk
+T25	Attack 1268 1278	không_kích
+E10	Attack:T25 Attacker-Arg:T48
+T48	GPE 1199 1201	Mỹ
+T11	VEH 2704 2721	các tiêm_kích này
+T49	Attack 104 109	phóng
+E17	Attack:T49 
+T28	GPE 1155 1169	lãnh_thổ Syria
+T50	VEH 1339 1362	từ tàu_ngầm hay máy_bay
+T51	WEA 385 399	vũ_khí_hoá_học

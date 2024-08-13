@@ -1,0 +1,41 @@
+T1	Pardon 15 20	ân_xá
+E1	Pardon:T1 Defendant-Arg:T3 Adjudicator-Arg:T2
+T2	PER 0 5	Trump
+T3	PER 25 76	huyền_thoại quyền_anh từ_chối tham_chiến ở Việt_Nam
+T4	Pardon 298 303	ân_xá
+E2	Pardon:T4 Defendant-Arg:T23
+T5	Pardon 459 464	ân_xá
+E3	Pardon:T5 Defendant-Arg:T6
+T6	PER 417 449	nhà vô_địch quyền Anh danh_tiếng
+T7	Sentence 1049 1055	kết_án
+E4	Sentence:T7 Defendant-Arg:T9 Time-Arg:T8
+T8	TIME 1031 1039	Năm 1967
+T9	PER 1042 1045	ông
+T10	Pardon 1233 1238	ân_xá
+E5	Pardon:T10 Adjudicator-Arg:T28
+T11	Pardon 1320 1325	ân_xá
+E6	Pardon:T11 
+T12	Die 1596 1603	qua_đời
+E7	Die:T12 Victim-Arg:T13 Time-Arg:T14
+T13	PER 1592 1595	ông
+T14	TIME 1576 1589	Ngày 4/6/2016
+T15	Pardon 1681 1686	ân_xá
+E8	Pardon:T15 Adjudicator-Arg:T17 Time-Arg:T16 Defendant-Arg:T18 Crime-Arg:T19
+T16	TIME 1648 1655	Hôm 7/6
+T17	PER 1658 1667	ông Trump
+T18	PER 1691 1705	một nữ tù_nhân
+T19	CRIME 1727 1737	buôn ma_tu
+T20	Transport 165 168	đến
+E9	Transport:T20 Time-Arg:T21 Artifact-Arg:T22
+T21	TIME 135 142	hôm 8/6
+T22	PER 204 209	Trump
+T23	PER 307 309	họ
+T24	Arrest-jail 340 348	giam_giữ
+E10	Arrest-jail:T24 Person-Arg:T23
+T25	Be-born 580 584	sinh
+E11	Be-born:T25 Person-Arg:T26 Place-Arg:T27
+T26	PER 572 579	Ông Ali
+T27	GPE 590 603	bang Kentucky
+T28	PER 1243 1252	ông Trump
+T29	Transfer-ownership 1727 1731	buôn
+E12	Transfer-ownership:T29 Seller-Arg:T18

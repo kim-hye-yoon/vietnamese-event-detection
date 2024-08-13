@@ -1,0 +1,24 @@
+T1	ORG 76 105	Toà_án Nhân_dân tỉnh Đắk_Nông
+T2	Trial-hearing 0 6	Xét_xử
+E1	Trial-hearing:T2 Crime-Arg:T3 Place-Arg:T4
+T3	CRIME 7 27	đại_án 1.000 tỷ đồng
+T4	LOC 32 44	VDB Đắk_Nông
+T5	Trial-hearing 127 133	xét_xử
+E2	Trial-hearing:T5 Adjudicator-Arg:T1 Time-Arg:T8 Crime-Arg:T6 Place-Arg:T7
+T6	CRIME 134 165	vụ án lừa_đảo hơn 1.000 tỷ đồng
+T7	FAC 177 243	Ngân_hàng Phát_triển Việt_Nam ( VDB ) Chi_nhánh Đắk_Lắk - Đắk_Nông
+T8	TIME 61 73	Hôm_nay 11-3
+T9	PER 441 450	13 bị_cáo
+T10	Trial-hearing 461 467	xét_xử
+E3	Trial-hearing:T10 Defendant-Arg:T9 Crime-Arg:T11
+T11	CRIME 471 568	các tội : lừa_đảo chiếm_đoạt tài_sản , đưa hối_lộ , nhận hối_lộ , vi_phạm các quy_định về cho vay
+T12	PER 1820 1823	Mai
+T13	Transfer-ownership 1836 1840	tặng
+E4	Transfer-ownership:T13 Seller-Arg:T12 Buyer-Arg:T14
+T14	PER 1841 1845	Hùng
+T15	PER 1946 1949	Mai
+T16	PER 1953 1957	Xuân
+T17	Transfer-ownership 1971 1974	mua
+E5	Transfer-ownership:T17 Seller-Arg:T15 Seller-Arg2:T16 Buyer-Arg:T18 Artifact-Arg:T19
+T18	PER 1979 1983	Hùng
+T19	VEH 1984 2034	một chiếc xe ôtô hiệu BMW - X6 trị_giá 3,2 tỉ đồng

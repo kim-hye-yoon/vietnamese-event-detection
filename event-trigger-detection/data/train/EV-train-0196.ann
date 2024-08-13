@@ -1,0 +1,56 @@
+T1	End-position 42 51	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 21	Bà Lê_Hoàng_Diệp_Thảo
+T3	End-position 254 263	bãi_nhiệm
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5 Entity-Arg:T7
+T4	JOB 269 286	phó tổng_giám_đốc
+T5	PER 291 312	bà Lê_Hoàng_Diệp_Thảo
+T6	TIME 153 161	tối 21/9
+T7	ORG 164 185	Tập_đoàn Trung_Nguyên
+T8	End-position 533 542	bãi_nhiệm
+E3	End-position:T8 Person-Arg:T9 Entity-Arg:T10
+T9	PER 543 545	bà
+T10	ORG 502 509	công_ty
+T11	End-position 586 595	bãi nhiệm
+E4	End-position:T11 Entity-Arg:T13 Person-Arg:T12
+T12	PER 548 569	Bà Lê_Hoàng_Diệp_Thảo
+T13	ORG 573 585	Trung Nguyên
+T14	Divorce 3730 3736	ly_hôn
+E5	Divorce:T14 Person-Arg:T15
+T15	PER 3742 3754	hai vợ_chồng
+T16	Sue 3722 3729	Vụ kiện
+E6	Sue:T16 
+T17	Sue 3644 3653	kiện_tụng
+E7	Sue:T17 
+T18	PER 3659 3719	2 vợ_chồng vua cà_phê Đặng_Lê_Nguyên_Vũ - Lê_Hoàng_Diệp_Thảo
+T19	End-position 3015 3024	bãi_nhiệm
+E8	End-position:T19 Person-Arg:T42 Time-Arg:T21 Position-Arg:T20
+T20	JOB 3035 3052	Phó tổng_giám_đốc
+T21	TIME 2964 2980	Đến tháng 7/2014
+T22	Nominate 2729 2737	bổ_nhiệm
+E9	Nominate:T22 Person-Arg:T24 Time-Arg:T25 Position-Arg:T23
+T23	JOB 2742 2759	Phó tổng_giám_đốc
+T24	PER 2716 2723	bà Thảo
+T25	TIME 2700 2713	Ngày 8/5/2006
+T26	Sue 2569 2578	khởi_kiện
+E10	Sue:T26 Plaintiff-Arg:T35
+T27	Appeal 2252 2261	kháng_cáo
+E11	Appeal:T27 Adjudicator-Arg:T31 Defendant-Arg:T28 Prosecutor-Arg:T34
+T28	PER 2266 2290	bị_đơn Đặng_Lê_Nguyên_Vũ
+T29	End-position 2384 2393	bãi_nhiệm
+E12	End-position:T29 Entity-Arg:T32 Position-Arg:T33
+T30	TIME 2208 2217	Ngày 20/9
+T31	ORG 2220 2243	TAND Cấp cao tại TP HCM
+T32	ORG 2302 2323	Tập_đoàn Trung_Nguyên
+T33	JOB 2404 2421	Phó tổng_giám_đốc
+T34	PER 2426 2455	nguyên_đơn Lê_Hoàng_Diệp_Thảo
+T35	PER 2581 2588	bà Thảo
+T36	Sentence 1511 1519	tuyên_án
+E13	Sentence:T36 
+T37	End-position 1199 1207	tước mất
+E14	End-position:T37 Person-Arg:T38 Position-Arg:T39
+T38	PER 1188 1195	bà Thảo
+T39	JOB 1215 1232	lãnh_đạo tập_đoàn
+T40	ORG 2779 2791	Trung_Nguyên
+T41	PER 2983 2989	ông Vũ
+T42	PER 3057 3064	bà Thảo

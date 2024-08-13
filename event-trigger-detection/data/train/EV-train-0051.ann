@@ -1,0 +1,38 @@
+T1	Pardon 52 57	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T4 Defendant-Arg:T3
+T2	GPE 0 3	Nga
+T3	PER 12 36	cựu điệp_viên bị đầu_độc
+T4	PER 46 51	Putin
+T5	Pardon 452 457	ân_xá
+E2	Pardon:T5 Defendant-Arg:T15 Adjudicator-Arg:T17
+T6	Convict 525 532	kết_tội
+E3	Convict:T6 Defendant-Arg:T7 Place-Arg:T8 Time-Arg:T9 Crime-Arg:T10
+T7	PER 514 521	Skripal
+T8	GPE 537 540	Nga
+T9	TIME 541 549	năm 2006
+T10	CRIME 553 599	tuồn thông_tin nhạy_cảm cho tình_báo Anh_Mi -6
+T11	Phone-write 281 288	gửi thư
+E4	Phone-write:T11 
+T12	PER 293 302	ông Putin
+T13	TIME 303 311	năm 2012
+T14	Transport 481 487	trở_về
+E5	Transport:T14 Artifact-Arg:T15 Destination-Arg:T18
+T15	PER 383 386	anh
+T16	Phone-write 409 417	viết thư
+E6	Phone-write:T16 Entity-Arg:T15 Entity-Arg2:T17
+T17	PER 422 440	ông Vladimir_Putin
+T18	GPE 488 491	Nga
+T19	Transport 616 619	tới
+E7	Transport:T19 Artifact-Arg:T20 Destination-Arg:T21 Time-Arg:T22
+T20	PER 602 605	Ông
+T21	GPE 620 623	Anh
+T22	TIME 624 632	năm 2010
+T23	Transport 1067 1076	trục_xuất
+E8	Transport:T23 Artifact-Arg:T24
+T24	PER 1077 1098	23 nhà_ngoại_giao Nga
+T25	Attack 1055 1063	tấn_công
+E9	Attack:T25 
+T26	Transport 1281 1290	trục_xuất
+E10	Transport:T26 Agent-Arg:T27 Artifact-Arg:T28
+T27	GPE 1269 1275	Moscow
+T28	PER 1291 1313	các nhà_ngoại_giao Anh

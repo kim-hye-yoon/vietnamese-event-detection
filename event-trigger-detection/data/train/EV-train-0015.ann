@@ -1,0 +1,45 @@
+T1	PER 8 24	ông chủ trại chó
+T2	PER 30 37	đối_tác
+T3	Die 25 29	giết
+E1	Die:T3 Victim-Arg:T2 Agent-Arg:T1
+T4	Arrest-jail 0 7	Phạt tù
+E2	Arrest-jail:T4 Person-Arg:T1
+T5	Die 137 144	sát_hại
+E3	Die:T5 Agent-Arg:T7 Victim-Arg:T6
+T6	PER 88 95	đối_tác
+T7	PER 78 83	Khiêm
+T8	Convict 180 190	tuyên_phạt
+E4	Convict:T8 Adjudicator-Arg:T9 Defendant-Arg:T11 Time-Arg:T10 Crime-Arg:T12
+T9	ORG 167 179	TAND TP. HCM
+T10	TIME 155 164	Ngày 10/3
+T11	PER 198 242	Lê_Thành_Khiêm ( 38 tuổi , ở quận Bình_Tân )
+T12	CRIME 256 301	hai tội Giết người và Cố_ý làm hư_hại tài_sản
+T13	Convict 342 346	lãnh
+E5	Convict:T13 Defendant-Arg:T14 Crime-Arg:T15
+T14	PER 304 341	Nguyễn_Tấn_Đạt ( 21 tuổi , ở quận 9 )
+T15	CRIME 360 374	tội Giết người
+T16	Attack 993 1000	gây_rối
+E6	Attack:T16 Attacker-Arg:T17 Target-Arg:T18
+T17	PER 918 922	Tuấn
+T18	PER 940 992	Lê_Thị_Thoại_Phương ( vợ của Khiêm nhưng đã ly_hôn )
+T19	Attack 1369 1373	tông
+E7	Attack:T19 Instrument-Arg:T21 Attacker-Arg:T20 Target-Arg:T22
+T20	PER 1349 1354	Khiêm
+T21	VEH 1362 1368	xe ôtô
+T22	PER 1395 1403	anh Tuấn
+T23	WEA 1605 1608	dao
+T24	PER 1583 1586	Đạt
+T25	PER 1630 1638	anh Tuấn
+T26	Attack 1609 1613	chém
+E8	Attack:T26 Instrument-Arg:T23 Attacker-Arg:T24 Target-Arg:T25
+T27	Die 1744 1751	tử_vong
+E9	Die:T27 Victim-Arg:T28
+T28	PER 1668 1676	Nạn_nhân
+T29	TIME 1107 1125	19h ngày 7/12/2012
+T30	PER 1128 1133	Khiêm
+T31	Transport 1134 1137	đem
+E10	Transport:T31 Artifact-Arg:T32 Agent-Arg:T30 Time-Arg:T29
+T32	WEA 1143 1146	dao
+T33	PER 1682 1691	người_dân
+T34	Transport 1692 1695	đưa
+E11	Transport:T34 Agent-Arg:T33 Artifact-Arg:T28

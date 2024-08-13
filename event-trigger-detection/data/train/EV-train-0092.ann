@@ -1,0 +1,13 @@
+T1	PER 0 39	Trưởng_đoàn đại_biểu Quốc_hội Quảng_Nam
+T2	Elect 40 48	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 53 67	Bí_thư Tỉnh_uỷ
+T4	TIME 70 78	Ngày 3/1
+T5	ORG 81 126	Hội_nghị Ban_chấp_hành Đảng_bộ tỉnh Quảng_Nam
+T6	Elect 130 133	bầu
+E2	Elect:T6 Person-Arg:T7 Entity-Arg:T5 Time-Arg:T4 Position-Arg:T8
+T7	PER 134 221	ông Phan_Việt_Cường - Phó bí_thư Tỉnh_uỷ , Trưởng_đoàn đại_biểu Quốc_hội tỉnh Quảng_Nam
+T8	JOB 231 266	Bí_thư Tỉnh_uỷ_nhiệm_kỳ 2015 - 2020
+T9	Start-position 481 490	nhậm_chức
+E3	Start-position:T9 Person-Arg:T10
+T10	PER 493 512	ông Phan_Việt_Cường

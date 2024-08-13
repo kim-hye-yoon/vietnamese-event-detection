@@ -1,0 +1,12 @@
+T1	End-position 39 48	cách_chức
+E1	End-position:T1 Person-Arg:T2 Place-Arg:T3
+T2	PER 0 23	Hạt trưởng hạt kiểm_lâm
+T3	GPE 26 35	Quảng_Nam
+T4	End-position 222 231	cách chức
+E2	End-position:T4 Position-Arg:T6 Person-Arg:T5
+T5	PER 205 218	Ông Trần Lanh
+T6	JOB 232 279	Hạt trưởng Kiểm lâm rừng_phòng_hộ Nam_Sông_Bung
+T7	End-position 423 432	cách_chức
+E3	End-position:T7 Position-Arg:T8 Person-Arg:T9
+T8	JOB 316 419	Hạt trưởng Kiểm_lâm rừng_phòng_hộ Nam_Sông_Bung , kiêm Giám_đốc Ban Quản_lý rừng_phòng_hộ Nam_Sông_Bung
+T9	PER 300 313	Ông Trần_Lanh

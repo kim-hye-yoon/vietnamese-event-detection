@@ -1,0 +1,15 @@
+T1	PER 0 13	Triệu_Lệ Dĩnh
+T2	Marry 23 30	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 35 52	Phùng_Thiệu_Phong
+T4	PER 1097 1110	Triệu_Lệ Dĩnh
+T5	Be-born 1111 1115	sinh
+E2	Be-born:T5 Person-Arg:T4 Time-Arg:T6
+T6	TIME 1116 1124	năm 1987
+T7	PER 732 745	hai diễn_viên
+T8	Transport 746 753	đi chơi
+E3	Transport:T8 Agent-Arg:T7
+T9	PER 2015 2017	họ
+T10	Divorce 2018 2026	chia_tay
+E4	Divorce:T10 Person-Arg:T9 Time-Arg:T11
+T11	TIME 2027 2035	năm 2015

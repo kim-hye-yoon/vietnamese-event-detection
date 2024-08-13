@@ -1,0 +1,22 @@
+T1	Execute 23 29	xử bắn
+E1	Execute:T1 Person-Arg:T2
+T2	PER 30 40	bà Clinton
+T3	PER 0 18	Người ủng_hộ Trump
+T4	Execute 275 282	đòi bắn
+E2	Execute:T4 Person-Arg:T5
+T5	PER 283 293	bà Clinton
+T6	Execute 416 422	xử bắn
+E3	Execute:T6 Crime-Arg:T7 Person-Arg:T8
+T7	CRIME 426 439	tội phản_quốc
+T8	PER 450 460	bà Clinton
+T9	Die 478 488	thiệt_mạng
+E4	Die:T9 Victim-Arg:T10
+T10	PER 467 477	4 người Mỹ
+T11	Attack 500 508	tấn_công
+E5	Attack:T11 Target-Arg:T12 Place-Arg:T13 Time-Arg:T14
+T12	PER 509 524	lãnh_sự_quán Mỹ
+T13	GPE 527 543	Benghazi , Libya
+T14	TIME 544 552	năm 2012
+T15	End-position 1197 1204	từ_chức
+E6	End-position:T15 Person-Arg:T16
+T16	PER 1176 1192	Trợ lý của Trump

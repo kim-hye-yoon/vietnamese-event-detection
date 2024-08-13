@@ -1,0 +1,47 @@
+T1	Execute 0 7	Tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 8 21	người đàn_ông
+T3	Transport 22 32	vận_chuyển
+E2	Transport:T3 Agent-Arg:T2
+T4	Sentence 93 103	tuyên_phạt
+E3	Sentence:T4 Defendant-Arg:T7 Sentence-Arg:T8 Defendant-Arg2:T9 Sentence-Arg2:T10 Adjudicator-Arg:T6 Time-Arg:T5 Crime-Arg:T11
+T5	TIME 48 58	Ngày 26/10
+T6	ORG 61 72	TAND Hà_Nội
+T7	PER 104 132	Trương_Văn_Thiên ( 39 tuổi )
+T8	SEN 133 140	tử_hình
+T9	PER 143 172	Nguyễn_Thanh_Hiệp ( 35 tuổi )
+T10	SEN 173 186	tù chung_thân
+T11	CRIME 192 228	tội Vận_chuyển trái_phép chất ma_tuý
+T12	Transport 196 206	Vận_chuyển
+E4	Transport:T12 Agent-Arg:T9 Agent-Arg2:T7
+T13	Transfer-ownership 302 306	buôn
+E5	Transfer-ownership:T13 Seller-Arg:T15 Place-Arg:T16
+T14	PER 283 288	Thiên
+T15	PER 294 301	ông chủ
+T16	GPE 313 359	thác Bản_Giốc ( huyện Trùng_Khánh , Cao_Bằng )
+T17	Transport 365 375	vận_chuyển
+E6	Transport:T17 Agent-Arg:T14 Origin-Arg:T18 Destination-Arg:T19
+T18	GPE 386 392	Hà_Nội
+T19	GPE 396 404	Cao_Bằng
+T20	Transport 514 516	về
+E7	Transport:T20 Vehicle-Arg:T24 Destination-Arg:T21 Agent-Arg:T22 Time-Arg:T23
+T21	GPE 517 523	Hà_Nội
+T22	PER 491 497	cả hai
+T23	TIME 476 488	Một tuần sau
+T24	VEH 503 506	ôtô
+T25	Transport 630 634	sang
+E8	Transport:T25 Destination-Arg:T26 Origin-Arg:T29 Agent-Arg:T28 Vehicle-Arg:T30 Time-Arg:T27
+T26	LOC 635 675	khu_vực chợ Đồng_Xuân ( quận Hoàn_Kiếm )
+T27	TIME 539 548	Ngày 22/3
+T28	PER 551 556	Thiên
+T29	GPE 595 609	huyện Đông_Anh
+T30	VEH 625 629	taxi
+T31	Phone-write 705 713	liên_lạc
+E9	Phone-write:T31 Entity-Arg:T32 Entity-Arg2:T33
+T32	PER 678 683	Thiên
+T33	PER 689 704	người “ xe_ôm ”
+T34	Arrest-jail 923 926	bắt
+E10	Arrest-jail:T34 Person-Arg:T35 Time-Arg:T36 Place-Arg:T37
+T35	PER 915 919	Hiệp
+T36	TIME 903 912	Cùng ngày
+T37	FAC 942 950	nhà_nghỉ

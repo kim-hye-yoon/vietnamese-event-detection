@@ -1,0 +1,69 @@
+T1	PER 0 27	Những lãnh_đạo trẻ cấp tỉnh
+T2	Elect 28 36	được bầu
+E1	Elect:T2 Time-Arg:T3 Person-Arg:T1
+T3	TIME 43 51	năm 2018
+T4	Elect 118 121	bầu
+E2	Elect:T4 Position-Arg:T7 Person-Arg:T6 Time-Arg:T5
+T5	TIME 54 62	Năm 2018
+T6	PER 72 99	nhiều cán_bộ độ tuổi trên 4
+T7	JOB 139 192	chức_vụ Chủ_tịch , Phó chủ_tịch UBND các tỉnh , thành
+T8	Elect 318 326	được bầu
+E3	Elect:T8 Person-Arg:T11 Position-Arg:T10 Time-Arg:T9
+T9	TIME 195 213	Cách đây hai tháng
+T10	JOB 227 254	Chủ_tịch tỉnh trẻ nhất nước
+T11	PER 259 317	ông Thái_Thanh_Quý , 42 tuổi ,  Trưởng ban Dân_vận Tỉnh_uỷ
+T12	PER 377 384	Ông Quý
+T13	Elect 385 393	được bầu
+E4	Elect:T13 Person-Arg:T12 Time-Arg:T14
+T14	TIME 438 451	tháng 10/2018
+T15	Elect 769 777	được bầu
+E5	Elect:T15 Person-Arg:T17 Position-Arg:T18 Time-Arg:T16
+T16	TIME 746 758	Tháng 1/2016
+T17	PER 761 768	ông Quý
+T18	JOB 782 829	Uỷ_viên dự_khuyết Ban_chấp_hành Trung_ương Đảng
+T19	Elect 940 948	được bầu
+E6	Elect:T19 Position-Arg:T21 Person-Arg:T20 Time-Arg:T22
+T20	PER 911 939	ông Lê_Hồng_Vinh ( 44 tuổi )
+T21	JOB 953 970	Phó chủ_tịch UBND
+T22	TIME 858 868	ngày 12/12
+T23	TIME 1430 1439	ngày 27/4
+T24	PER 1442 1449	ông Tân
+T25	Elect 1453 1461	được bầu
+E7	Elect:T25 Position-Arg:T26 Person-Arg:T24 Time-Arg:T23
+T26	JOB 1479 1520	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T27	Elect 2189 2192	bầu
+E8	Elect:T27 Position-Arg:T28 Time-Arg:T29
+T28	JOB 2193 2230	Chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T29	TIME 2108 2117	ngày  8/8
+T30	PER 2267 2345	ông Phạm_Đại_Dương - Phó bí_thư Tỉnh_uỷ , nguyên Thứ_trưởng Khoa_học Công_nghệ
+T31	Elect 2346 2354	được bầu
+E9	Elect:T31 Position-Arg:T32 Person-Arg:T30
+T32	JOB 2359 2367	Chủ_tịch
+T33	TIME 2612 2620	Năm 2015
+T34	PER 2621 2624	ông
+T36	JOB 2648 2740	Thứ_trưởng Bộ Khoa_học Công_nghệ , phụ_trách mảng công_nghệ_cao và Khu công_nghệ_cao Hoà_Lạc
+T35	Elect 2630 2638	bổ_nhiệm
+E10	Elect:T35 Person-Arg:T34 Time-Arg:T33 Position-Arg:T36
+T37	Elect 3260 3268	trúng_cử
+E11	Elect:T37 Position-Arg:T39 Time-Arg:T40 Person-Arg:T38
+T38	PER 3224 3255	ông Nguyễn_Long_Hải ( 42 tuổi )
+T39	JOB 3269 3300	Phó chủ_tịch UBND tỉnh Lạng_Sơn
+T40	TIME 3305 3317	đầu năm 2018
+T41	Elect 3630 3636	đã bầu
+E12	Elect:T41 Person-Arg:T44 Entity-Arg:T43 Time-Arg:T42 Position-Arg:T45
+T42	TIME 3597 3606	Ngày 6/12
+T43	ORG 3609 3629	HĐND tỉnh Quảng_Ninh
+T44	PER 3645 3740	ông Cao_Tường_Huy ( 45 tuổi )   - Uỷ_viên Ban Thường_vụ Tỉnh_uỷ , Trưởng_Ban Tuyên_giáo Tỉnh_uỷ
+T45	JOB 3750 3772	Phó chủ_tịch UBND tỉnh
+T46	TIME 4077 4086	ngày 6/12
+T47	ORG 4089 4108	HĐND tỉnh Quảng_Trị
+T48	Elect 4109 4115	đã bầu
+E13	Elect:T48 Person-Arg:T49 Entity-Arg:T47 Time-Arg:T46 Position-Arg:T50
+T49	PER 4116 4165	ông Hoàng_Nam ( 47 tuổi ) ,  Giám đốc Sở Ngoại vụ
+T50	JOB 4170 4211	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T51	Elect 4404 4407	bầu
+E14	Elect:T51 Person-Arg:T54 Position-Arg:T55 Entity-Arg:T53 Time-Arg:T52
+T52	TIME 4367 4376	Ngày 7/12
+T53	ORG 4379 4403	HĐND tỉnh Thừa_Thiên_Huế
+T54	PER 4416 4480	ông Phan_Thiên_Định ( 47 tuổi ) , Giám_đốc Sở Kế_hoạch và Đầu_tư
+T55	JOB 4485 4526	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021

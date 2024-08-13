@@ -1,0 +1,20 @@
+T1	Divorce 8 14	ly_hôn
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T7
+T2	PER 0 3	Anh
+T3	Divorce 479 485	ly_hôn
+E2	Divorce:T3 Person-Arg:T4
+T4	PER 486 489	anh
+T5	Marry 1783 1790	kết_hôn
+E3	Marry:T5 Person-Arg:T6
+T6	PER 1795 1806	người có vợ
+T7	PER 15 17	vợ
+T8	Marry 50 54	cưới
+E4	Marry:T8 Person-Arg:T9
+T9	PER 55 58	tôi
+T10	Marry 864 868	cưới
+E5	Marry:T10 Person-Arg:T11 Person-Arg2:T12
+T11	PER 849 852	anh
+T12	PER 788 791	Tôi
+T13	Phone-write 1904 1912	Gọi điện
+E6	Phone-write:T13 Entity-Arg:T14
+T14	PER 1917 1930	biên_tập_viên

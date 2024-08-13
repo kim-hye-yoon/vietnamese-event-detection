@@ -1,0 +1,95 @@
+T1	ORG 0 30	Hãng hàng_không quốc_gia Italy
+T2	GPE 25 30	Italy
+T3	Declare-bankruptcy 31 38	phá_sản
+E1	Declare-bankruptcy:T3 Org-Arg:T1
+T4	ORG 41 49	Alitalia
+T5	ORG 120 129	giới_chức
+T6	ORG 152 163	công_ty này
+T7	ORG 203 211	Alitalia
+T8	ORG 236 261	hãng bay lớn nhất châu_Âu
+T9	GPE 254 261	châu_Âu
+T10	TIME 276 289	nhiều năm nay
+T11	ORG 351 358	Ryanair
+T12	ORG 363 370	easyJet
+T13	ORG 292 294	họ
+T14	ORG 330 337	đối_thủ
+T15	ORG 394 402	Alitalia
+T16	ORG 377 385	hãng này
+T17	PER 409 419	hành_khách
+T18	TIME 438 446	Năm 2008
+T19	ORG 449 457	Alitalia
+T20	Merge-org 489 497	sáp_nhập
+E2	Merge-org:T20 Time-Arg:T18 Org-Arg:T19 Org-Arg2:T21
+T21	ORG 510 517	Air_One
+T22	ORG 547 556	Chính_phủ
+T23	GPE 589 594	Italy
+T24	ORG 571 594	nhà_băng hàng_đầu Italy
+T25	Transfer-money 595 602	cấp_vốn
+E3	Transfer-money:T25 Giver-Arg:T24
+T26	TIME 617 625	kể từ đó
+T27	ORG 628 636	hãng bay
+T28	MONEY 647 656	3 tỷ euro
+T29	ORG 679 687	Alitalia
+T30	Declare-bankruptcy 696 703	phá_sản
+E4	Declare-bankruptcy:T30 Org-Arg:T29
+T31	TIME 710 720	10 năm qua
+T32	ORG 729 736	Reuters
+T33	TIME 737 754	Trong một thập_kỷ
+T34	ORG 773 781	Alitalia
+T35	Transfer-money 785 789	nhận
+E5	Transfer-money:T35 Recipient-Arg:T34 Giver-Arg:T37 Money-Arg:T36 Time-Arg:T33
+T36	MONEY 790 803	hơn 7 tỷ euro
+T37	ORG 807 816	Chính_phủ
+T38	ORG 864 866	họ
+T39	End-org 884 899	không hoạt_động
+E6	End-org:T39 Org-Arg:T38
+T40	PER 928 937	công_nhân
+T41	ORG 939 957	ãng hàng_không này
+T42	ORG 1022 1030	hãng bay
+T43	ORG 1051 1059	Alitalia
+T44	GPE 1081 1086	Italy
+T45	ORG 1090 1096	Etihad
+T46	ORG 1099 1121	hãng bay của Abu_Dhabi
+T47	GPE 1112 1121	Abu_Dhabi
+T48	ORG 1139 1147	Alitalia
+T50	Transfer-money 1165 1182	cấp_vốn và hỗ_trợ
+E8	Transfer-money:T50 Giver-Arg:T49 Recipient-Arg:T43
+T49	PER 1069 1121	các cổ_đông Italy và Etihad - hãng bay của Abu_Dhabi
+T51	MONEY 1183 1192	2 tỷ euro
+T52	PER 1224 1237	các nhân_viên
+T53	TIME 1282 1289	Hôm_qua
+T54	ORG 1292 1307	Chính_phủ Italy
+T55	GPE 1302 1307	Italy
+T56	ORG 1326 1334	Alitalia
+T57	Start-org 1359 1368	tiếp_quản
+E7	Start-org:T57 Agent-Arg:T56 Org-Arg:T60
+T58	PER 1398 1404	chủ_nợ
+T59	ORG 1389 1395	toà_án
+T60	ORG 1377 1385	thực_thể
+T61	ORG 1435 1437	Họ
+T62	Transfer-money 1463 1466	vay
+E9	Transfer-money:T62 Money-Arg:T63 Giver-Arg:T61 Recipient-Arg:T64
+T63	MONEY 1483 1497	600 triệu euro
+T64	ORG 1506 1514	Alitalia
+T65	ORG 1574 1582	Alitalia
+T66	PER 1554 1582	người_phát_ngôn của Alitalia
+T67	ORG 1594 1609	Chính_phủ Italy
+T68	GPE 1604 1609	Italy
+T69	ORG 1623 1631	Alitalia
+T70	PER 1648 1657	người mua
+T71	ORG 1670 1672	Họ
+T72	Transfer-money 1707 1710	chi
+E10	Transfer-money:T72 Giver-Arg:T71 Recipient-Arg:T73
+T73	ORG 1715 1727	hãng bay này
+T74	PER 1730 1745	Người_dân Italy
+T75	GPE 1740 1745	Italy
+T76	ORG 1786 1794	Alitalia
+T77	TIME 1814 1829	cuối tuần trước
+T78	PER 1844 1858	người được hỏi
+T79	ORG 1868 1876	hãng bay
+T80	End-org 1895 1901	sụp_đổ
+E11	End-org:T80 Org-Arg:T79
+T81	PER 1923 1948	12.500 nhân_viên hãng này
+T82	ORG 1940 1948	hãng này
+T83	PER 1963 1969	Hà_Thu
+T84	ORG 1977 1992	BBC / Bloomberg

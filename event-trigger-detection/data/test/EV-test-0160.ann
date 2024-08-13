@@ -1,0 +1,6 @@
+T1	TIME 1646 1654	hôm 17/9
+T2	WEA 1617 1631	tên_lửa S -200
+T3	Attack 1638 1641	bắn
+E1	Attack:T3 Time-Arg:T1 Instrument-Arg:T2
+T4	Attack 1773 1783	không kích
+E2	Attack:T4 

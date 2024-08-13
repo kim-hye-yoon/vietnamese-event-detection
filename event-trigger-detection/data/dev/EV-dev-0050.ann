@@ -1,0 +1,31 @@
+T1	TIME 163 171	Ngày 7/4
+T4	Arrest-jail 216 223	tạm giữ
+E1	Arrest-jail:T4 Time-Arg:T1 Person-Arg:T3
+T5	PER 410 414	Nghệ
+T7	Transport 415 418	đến
+E2	Transport:T7 Agent-Arg:T5 Destination-Arg:T6
+T8	PER 481 485	Nghệ
+T9	Attack 527 531	đánh
+E3	Attack:T9 Target-Arg:T8 Time-Arg:T19
+T10	PER 609 613	Nghệ
+T11	PER 665 677	Trần_Văn_Nam
+T12	WEA 622 629	dao gấp
+T13	Injure 650 653	đâm
+E4	Injure:T13 Instrument-Arg:T12 Agent-Arg:T10 Victim-Arg:T20
+T14	PER 756 764	nạn_nhân
+T15	Die 774 778	chết
+E5	Die:T15 Victim-Arg:T14
+T2	ORG 174 210	Công_an huyện Giao_Thuỷ ( Nam_Định )
+T16	GPE 200 208	Nam_Định
+T3	PER 224 299	Nguyễn_Ngọc_Nghệ ( 24 tuổi , trú xã Giao_Yến , huyện Giao_Thuỷ , Nam_Định )
+T17	PER 224 240	Nguyễn_Ngọc_Nghệ
+T18	GPE 257 297	xã Giao_Yến , huyện Giao_Thuỷ , Nam_Định
+T6	GPE 419 430	xã Giao_Yến
+T19	TIME 459 478	Trong lúc uống rượu
+T20	PER 665 730	Trần_Văn_Nam ( 24 tuổi , trú tại xã Giao_Châu , huyện Giao_Thuỷ )
+T21	GPE 698 728	xã Giao_Châu , huyện Giao_Thuỷ
+T22	Attack 152 155	đâm
+E6	Attack:T22 Target-Arg:T24
+T23	Die 156 160	chết
+E7	Die:T23 Victim-Arg:T24
+T24	PER 139 148	một người

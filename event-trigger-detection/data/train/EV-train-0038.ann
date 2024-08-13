@@ -1,0 +1,119 @@
+T1	Die 19 26	sát_hại
+E1	Die:T1 Agent-Arg:T3 Victim-Arg:T2
+T2	PER 27 43	thiếu_nữ giao gà
+T3	PER 10 18	Thủ_phạm
+T4	Execute 57 64	tử_hình
+E2	Execute:T4 Person-Arg:T3
+T5	Transport 290 293	đến
+E3	Transport:T5 Agent-Arg:T6 Destination-Arg:T7 Time-Arg:T8
+T6	PER 231 281	nữ_sinh 22 tuổi ở huyện Điện_Biên , tỉnh Điện_Biên
+T7	FAC 299 306	tại nhà
+T8	TIME 201 209	ngày 4/2
+T9	Attack 357 366	cưỡng_bức
+E4	Attack:T9 Attacker-Arg:T12 Target-Arg:T11
+T10	Die 369 376	sát_hại
+E5	Die:T10 Agent-Arg:T12 Victim-Arg:T11
+T11	PER 377 383	cô_gái
+T12	PER 323 345	Hắn cùng bốn đồng_phạm
+T13	Charge-indict 602 609	khởi_tố
+E6	Charge-indict:T13 Defendant-Arg:T15 Crime-Arg:T14 Time-Arg:T16
+T14	CRIME 620 729	hành_vi giết người , cướp tài_sản , hiếp_dâm , tàng_trữ trái_phép chất ma_tuý và bắt_giữ người trái pháp_luật
+T15	PER 417 598	Vương_Văn_Hùng ( 35 tuổi ) và nhóm nghi_can Bùi_Văn_Công ( 44 tuổi ) , Phạm_Văn_Nhiệm ( 47 tuổi ) , Lường_Văn_Lả ( 26 tuổi ) và Lường_Văn_Hùng ( 39 tuổi , cùng trú huyện Điện_Biên )
+T16	TIME 405 414	Ngày 17/2
+T17	Die 628 632	giết
+E7	Die:T17 Victim-Arg:T18 Agent-Arg:T15
+T18	PER 633 638	người
+T19	Attack 656 664	hiếp_dâm
+E8	Attack:T19 Attacker-Arg:T15
+T20	Arrest-jail 701 708	bắt_giữ
+E9	Arrest-jail:T20 Person-Arg:T21 Agent-Arg:T15
+T21	PER 709 714	người
+T22	Transfer-ownership 915 918	mua
+E10	Transfer-ownership:T22 Buyer-Arg:T23 Seller-Arg:T24
+T23	PER 838 852	nhóm nghi_phạm
+T24	PER 958 966	nạn_nhân
+T25	Transport 967 970	đến
+E11	Transport:T25 Agent-Arg:T24 Destination-Arg:T26
+T26	LOC 971 986	địa_điểm gây án
+T27	Attack 1120 1137	xâm_hại tính_mạng
+E12	Attack:T27 Attacker-Arg:T29 Target-Arg:T30
+T28	Attack 1145 1177	xâm_hại đến nhân_phẩm , thân_thể
+E13	Attack:T28 Attacker-Arg:T29 Target-Arg:T30
+T29	PER 1095 1109	Nhóm nghi phạm
+T30	PER 1182 1188	cô_gái
+T31	Arrest-jail 1213 1221	giam_giữ
+E14	Arrest-jail:T31 Person-Arg:T30 Agent-Arg:T29
+T32	Attack 1239 1248	cưỡng_bức
+E15	Attack:T32 Attacker-Arg:T29 Target-Arg:T30
+T33	Attack 641 645	cướp
+E16	Attack:T33 Attacker-Arg:T15
+T34	Attack 1224 1228	cướp
+E17	Attack:T34 Attacker-Arg:T29 Target-Arg:T30
+T35	Die 1549 1553	Giết
+E18	Die:T35 Victim-Arg:T36 Agent-Arg:T37
+T36	PER 1554 1559	người
+T37	PER 1417 1425	5 bị_can
+T38	Die 1568 1572	giết
+E19	Die:T38 Victim-Arg:T39
+T39	PER 1573 1578	người
+T40	Die 1695 1699	giết
+E20	Die:T40 Victim-Arg:T41
+T41	PER 1700 1705	người
+T42	Convict 1835 1842	kết_tội
+E21	Convict:T42 Defendant-Arg:T43
+T43	PER 1815 1827	các nghi_can
+T44	Execute 1879 1886	tử_hình
+E22	Execute:T44 Person-Arg:T43
+T45	Die 2008 2012	chết
+E23	Die:T45 Victim-Arg:T46
+T46	PER 1996 2004	nạn_nhân
+T47	Attack 2070 2078	Hiếp_dâm
+E24	Attack:T47 Attacker-Arg:T48 Target-Arg:T46
+T48	PER 1935 1965	Lường_Văn_Hùng và Lường_Văn_Lả
+T49	Attack 2101 2109	Xâm_phạm
+E25	Attack:T49 Attacker-Arg:T48
+T50	Die 2290 2294	Giết
+E26	Die:T50 Victim-Arg:T51
+T51	PER 2295 2300	người
+T52	Attack 2439 2443	Cướp
+E27	Attack:T52 
+T53	Attack 2539 2547	Hiếp_dâm
+E28	Attack:T53 
+T54	Arrest-jail 2754 2773	Bắt , giữ hoặc giam
+E29	Arrest-jail:T54 Person-Arg:T55
+T55	PER 2774 2779	người
+T56	Attack 2917 2926	khống_chế
+E30	Attack:T56 Target-Arg:T58 Attacker-Arg:T59 Place-Arg:T57
+T57	FAC 2869 2883	Ngôi nhà hoang
+T58	PER 2888 2895	nữ_sinh
+T59	PER 2899 2916	nhóm người nghiện
+T60	Attack 3069 3077	xâm_phạm
+E31	Attack:T60 Attacker-Arg:T61 Target-Arg:T62
+T61	PER 3048 3057	Người nào
+T62	PER 3176 3186	người khác
+T63	Convict 3256 3263	kết_tội
+E32	Convict:T63 Defendant-Arg:T64
+T64	PER 3296 3310	nhóm nghi_phạm
+T65	Attack 3843 3851	xâm_phạm
+E33	Attack:T65 Target-Arg:T67
+T66	Die 3950 3954	chết
+E34	Die:T66 Victim-Arg:T67
+T67	PER 3944 3949	người
+T68	Attack 4094 4102	xâm_phạm
+E35	Attack:T68 Target-Arg:T69
+T69	PER 4072 4077	người
+T70	Attack 4198 4206	xâm_phạm
+E36	Attack:T70 
+T71	Attack 4260 4264	Cướp
+E37	Attack:T71 Attacker-Arg:T72
+T72	PER 4245 4250	người
+T73	Transfer-ownership 4278 4286	hoàn_trả
+E38	Transfer-ownership:T73 Seller-Arg:T72
+T74	Transport 4524 4527	đến
+E39	Transport:T74 Agent-Arg:T75 Destination-Arg:T76
+T75	PER 4495 4505	Các cô_gái
+T76	LOC 4534 4569	địa_điểm vắng_vẻ , ít người qua_lại
+T77	Attack 4643 4652	không chế
+E40	Attack:T77 Attacker-Arg:T78 Target-Arg:T79
+T78	PER 4636 4642	kẻ xấu
+T79	PER 4655 4663	nạn_nhân

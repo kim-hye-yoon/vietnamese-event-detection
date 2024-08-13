@@ -1,0 +1,66 @@
+T1	Extradite 10 16	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2 Origin-Arg:T3 Destination-Arg:T4
+T2	PER 17 32	giám_đốc Huawei
+T3	GPE 36 42	Canada
+T4	GPE 48 50	Mỹ
+T5	Transport 43 47	sang
+E2	Transport:T5 Origin-Arg:T3 Destination-Arg:T4 Artifact-Arg:T2
+T6	PER 106 144	Giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T7	TIME 145 154	ngày 1/12
+T8	Arrest-jail 155 161	bị bắt
+E3	Arrest-jail:T8 Time-Arg:T7 Place-Arg:T9 Person-Arg:T6
+T9	FAC 166 180	sân_bay Canada
+T10	Transfer-ownership 278 281	bán
+E4	Transfer-ownership:T10 Seller-Arg:T6
+T11	Extradite 561 567	dẫn_độ
+E5	Extradite:T11 Destination-Arg:T12 Person-Arg:T13
+T12	GPE 572 574	Mỹ
+T13	PER 449 456	bà Mạnh
+T14	Arrest-jail 650 653	bắt
+E6	Arrest-jail:T14 
+T15	Arrest-jail 908 911	bắt
+E7	Arrest-jail:T15 
+T16	Extradite 915 921	dẫn_độ
+E8	Extradite:T16 
+T17	Extradite 1205 1211	dẫn_độ
+E9	Extradite:T17 
+T18	Extradite 1306 1312	dẫn_độ
+E10	Extradite:T18 Person-Arg:T19
+T19	PER 1313 1321	công_dân
+T20	Extradite 1347 1353	dẫn_độ
+E11	Extradite:T20 
+T21	PER 1447 1452	người
+T22	Arrest-jail 1453 1459	bị bắt
+E12	Arrest-jail:T22 Person-Arg:T21
+T23	Extradite 1629 1635	dẫn_độ
+E13	Extradite:T23 
+T24	Extradite 1818 1824	dẫn_độ
+E14	Extradite:T24 Person-Arg:T25
+T25	PER 1804 1810	bị_cáo
+T26	Extradite 1998 2004	dẫn_độ
+E15	Extradite:T26 
+T27	Arrest-jail 2203 2209	bị bắt
+E16	Arrest-jail:T27 Person-Arg:T29
+T28	Transport 2255 2258	đến
+E17	Transport:T28 Artifact-Arg:T29 Destination-Arg:T30
+T29	PER 2246 2254	người đó
+T30	FAC 2259 2290	cửa_khẩu biên_giới hoặc sân_bay
+T31	Extradite 2317 2323	dẫn_độ
+E18	Extradite:T31 
+T32	Arrest-jail 2388 2394	bị bắt
+E19	Arrest-jail:T32 
+T33	PER 2404 2410	bị_cáo
+T34	Appeal 2418 2427	kháng_cáo
+E20	Appeal:T34 Defendant-Arg:T33
+T35	Transport 2537 2547	bị đưa tới
+E21	Transport:T35 Artifact-Arg:T37 Destination-Arg:T38
+T36	Arrest-jail 2509 2512	bắt
+E22	Arrest-jail:T36 Person-Arg:T40
+T37	PER 2534 2536	họ
+T38	LOC 2548 2571	quốc_gia yêu_cầu dẫn_độ
+T39	Extradite 2565 2571	dẫn_độ
+E23	Extradite:T39 
+T40	PER 2513 2515	họ
+T41	Appeal 2584 2594	kháng lệnh
+E24	Appeal:T41 Time-Arg:T42
+T42	TIME 2613 2638	vài tháng cho tới vài năm

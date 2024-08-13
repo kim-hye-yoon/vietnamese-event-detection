@@ -1,0 +1,58 @@
+T1	Transport 10 15	đổ về
+E1	Transport:T1 Agent-Arg:T2 Destination-Arg:T3
+T2	PER 0 9	Người_dân
+T3	LOC 16 22	thủ_đô
+T4	Transport 151 157	trở_về
+E2	Transport:T4 Agent-Arg:T5 Origin-Arg:T6 Destination-Arg:T7 Time-Arg:T8
+T5	PER 118 139	hàng chục nghìn người
+T6	LOC 142 150	các tỉnh
+T7	LOC 158 164	thủ_đô
+T8	TIME 57 66	Chiều 1/1
+T9	Transport 243 247	xách
+E3	Transport:T9 Agent-Arg:T10 Origin-Arg:T11 Destination-Arg:T12
+T10	PER 240 242	Họ
+T11	LOC 299 306	quê_nhà
+T12	LOC 311 314	phố
+T13	Transport 799 802	chở
+E4	Transport:T13 Artifact-Arg:T14 Agent-Arg:T15
+T14	PER 807 812	người
+T15	ORG 679 738	nhà_xe chạy từ Thái_Bình , Nam_Định , Ninh_Bình , Thanh_Hoá
+T16	Transport 842 844	đi
+E5	Transport:T16 Agent-Arg:T17 Origin-Arg:T18 Destination-Arg:T19 Time-Arg:T20
+T17	PER 838 841	tôi
+T18	GPE 848 869	Thái_Thuỵ , Thái_Bình
+T19	GPE 874 880	Hà_Nội
+T20	TIME 903 910	hôm_nay
+T21	Transport 1390 1395	đổ vể
+E6	Transport:T21 Agent-Arg:T22 Destination-Arg:T23
+T22	PER 1384 1389	khách
+T23	FAC 1396 1402	bến_xe
+T24	Transport 1490 1492	về
+E7	Transport:T24 Agent-Arg:T26 Destination-Arg:T25
+T25	LOC 1493 1496	quê
+T26	PER 1472 1483	nhiều người
+T27	Transport 1500 1510	đi du_lịch
+E8	Transport:T27 Agent-Arg:T26
+T28	Transport 1523 1525	đi
+E9	Transport:T28 Agent-Arg:T31 Vehicle-Arg:T29 Vehicle-Arg2:T30
+T29	VEH 1531 1538	máy_bay
+T30	VEH 1541 1548	tàu_hoả
+T31	PER 1513 1515	họ
+T32	Transport 1583 1585	ra
+E10	Transport:T32 Agent-Arg:T34 Origin-Arg:T33
+T33	LOC 1579 1582	quê
+T34	PER 1566 1575	người_dân
+T35	Transport 1614 1616	đi
+E11	Transport:T35 Time-Arg:T36 Agent-Arg:T34
+T36	TIME 1621 1638	ngày cuối kỳ nghỉ
+T37	Transport 1645 1647	đi
+E12	Transport:T37 Agent-Arg:T34
+T38	Transport 1820 1823	vào
+E13	Transport:T38 Vehicle-Arg:T41 Origin-Arg:T39 Destination-Arg:T40
+T39	FAC 1804 1819	bến_xe Giáp_Bát
+T40	LOC 1824 1833	nội_thành
+T41	VEH 1793 1800	xe_buýt
+T42	Transport 1969 1975	ra vào
+E14	Transport:T42 Vehicle-Arg:T43
+T43	VEH 1960 1968	xe_khách
+T44	LOC 1881 1929	trước cổng bến_xe Nước_Ngầm , Giáp_Bát , Mỹ_Đình

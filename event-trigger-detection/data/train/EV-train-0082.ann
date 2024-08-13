@@ -1,0 +1,43 @@
+T1	Declare-bankruptcy 29 36	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3
+T3	ORG 0 28	Casino mang tên Donald_Trump
+T5	ORG 137 163	Trump_Plaza_Hotel & Casino
+T6	End-org 167 175	đóng_cửa
+E3	End-org:T6 Org-Arg:T5 Time-Arg:T7
+T7	TIME 176 185	ngày 16/9
+T8	ORG 189 218	Trump_Taj_Mahal_Casino_Resort
+T9	End-org 510 518	đóng_cửa
+E4	End-org:T9 Org-Arg:T11 Time-Arg:T10
+T10	TIME 549 565	suốt từ năm 2011
+T11	ORG 493 504	Trump_Plaza
+T12	ORG 568 590	Casino Trump_Taj_Mahal
+T13	End-org 602 610	đóng_cửa
+E5	End-org:T13 Org-Arg:T12 Time-Arg:T14
+T14	TIME 611 630	từ tháng 11 năm nay
+T15	Declare-bankruptcy 756 763	phá_sản
+E6	Declare-bankruptcy:T15 Org-Arg:T16 Time-Arg:T17
+T16	ORG 733 749	3 casino của ông
+T17	TIME 714 730	Đến những năm 90
+T19	PER 775 778	ông
+T20	ORG 782 791	Taj_Mahal
+T21	MONEY 796 804	1 tỷ USD
+T18	Start-org 779 781	mở
+E7	Start-org:T18 Agent-Arg:T19 Org-Arg:T20
+T22	Declare-bankruptcy 846 853	phá_sản
+E8	Declare-bankruptcy:T22 Time-Arg:T24 Org-Arg:T23
+T23	ORG 807 834	Trump Entertainment_Resorts
+T24	TIME 866 882	năm 2004 và 2009
+T25	PER 889 894	Trump
+T26	JOB 910 918	Chủ_tịch
+T27	End-position 895 901	rời bỏ
+E9	End-position:T27 Person-Arg:T25 Position-Arg:T26 Time-Arg:T24
+T28	Transfer-ownership 942 945	bán
+E10	Transfer-ownership:T28 Artifact-Arg:T29 Buyer-Arg:T30 Time-Arg:T32 Price-Arg:T31
+T29	ORG 946 964	Trump_Marina_Hotel
+T30	ORG 969 979	Landry ’ s
+T31	MONEY 988 1000	38 triệu USD
+T32	TIME 921 929	Năm 2011
+T33	End-org 1759 1767	đóng_cửa
+E11	End-org:T33 Org-Arg:T35 Org-Arg2:T34
+T34	ORG 1724 1732	3 casino
+T35	ORG 1782 1838	Showboat của Caesars_Entertainment và Revel_Casino_Hotel

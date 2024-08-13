@@ -1,0 +1,14 @@
+T1	End-position 57 66	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 18	Lãnh_đạo Catalonia
+T3	Attack 416 424	tấn_công
+E2	Attack:T3 
+T4	Meet 518 527	phiên họp
+E3	Meet:T4 Entity-Arg:T5
+T5	ORG 528 547	nghị_viện Catalonia
+T6	Elect 911 917	bầu_cử
+E4	Elect:T6 
+T7	Meet 1075 1078	họp
+E5	Meet:T7 Entity-Arg:T8 Time-Arg:T9
+T8	ORG 1043 1066	Thượng_viện Tây_Ban_Nha
+T9	TIME 1083 1093	ngày 27/10

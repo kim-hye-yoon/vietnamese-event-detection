@@ -1,0 +1,25 @@
+T1	ORG 0 2	IS
+T2	Attack 3 11	đánh bom
+E1	Attack:T2 Target-Arg:T3 Attacker-Arg:T1 Place-Arg:T4
+T3	FAC 12 23	trại tị_nạn
+T4	GPE 26 31	Syria
+T5	PER 34 42	46 người
+T6	Die 43 47	chết
+E2	Die:T6 Victim-Arg:T5
+T7	Attack 96 104	tấn_công
+E3	Attack:T7 Time-Arg:T8 Target-Arg:T9 Place-Arg:T10
+T8	TIME 123 139	4h sáng ngày 2/5
+T9	FAC 144 156	khu trại tạm
+T10	GPE 159 208	Rajm al - Salibeh , tỉnh Hasakeh , đông bắc Syria
+T11	PER 338 351	5 kẻ tấn_công
+T12	Die 352 358	tự sát
+E4	Die:T12 Agent-Arg:T11 Victim-Arg:T11 Place-Arg:T13
+T13	LOC 376 462	phía trong và bên ngoài khu trại dành cho người tị_nạn Iraq và người Syria mất nhà_cửa
+T14	PER 640 648	46 người
+T15	Die 652 662	thiệt_mạng
+E5	Die:T15 Victim-Arg:T14
+T16	PER 779 798	một nhóm phiến quân
+T17	Attack 802 810	tấn_công
+E6	Attack:T17 Attacker-Arg:T16 Place-Arg:T18 Place-Arg2:T20
+T18	LOC 811 825	vị_trí của SDF
+T20	LOC 826 841	gần trại tị_nạn

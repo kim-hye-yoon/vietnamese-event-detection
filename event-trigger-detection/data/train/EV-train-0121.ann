@@ -1,0 +1,46 @@
+T1	Be-born 172 176	sinh
+E1	Be-born:T1 Person-Arg:T2 Time-Arg:T3
+T2	PER 177 193	con_gái đầu_lòng
+T3	TIME 163 171	hôm 21/6
+T4	Be-born 233 237	sinh
+E2	Be-born:T4 Person-Arg:T5
+T5	PER 238 241	con
+T6	Be-born 391 397	ra_đời
+E3	Be-born:T6 Time-Arg:T8 Person-Arg:T7
+T7	PER 376 390	Con của Ardern
+T8	TIME 402 411	ngày 21/6
+T9	Be-born 488 492	sinh
+E4	Be-born:T9 Person-Arg:T10 Time-Arg:T11
+T10	PER 493 525	con_gái Bakhtawar_Bhutto_Zardari
+T11	TIME 530 544	ngày 25/1/1990
+T12	Be-born 907 911	sinh
+E5	Be-born:T12 Person-Arg:T13
+T13	PER 912 915	con
+T14	Be-born 1462 1466	sinh
+E6	Be-born:T14 Person-Arg:T15
+T15	PER 1467 1470	con
+T16	Be-born 1745 1749	sinh
+E7	Be-born:T16 Person-Arg:T17
+T17	PER 1750 1753	con
+T18	Be-born 2045 2053	chào_đời
+E8	Be-born:T18 Person-Arg:T19
+T19	PER 2035 2044	Bakhtawar
+T20	Be-born 1890 1894	sinh
+E9	Be-born:T20 Person-Arg:T21
+T21	PER 1895 1898	con
+T22	Elect 2296 2302	bầu_cử
+E10	Elect:T22 
+T23	Start-position 2580 2589	trở_thành
+E11	Start-position:T23 Person-Arg:T26 Position-Arg:T25 Time-Arg:T24
+T24	TIME 2600 2608	năm 1993
+T25	JOB 2590 2599	thủ_tướng
+T26	PER 2561 2567	Bhutto
+T27	Transport 2882 2888	trở_về
+E12	Transport:T27 Destination-Arg:T28 Origin-Arg:T29 Time-Arg:T30
+T28	GPE 2889 2897	Pakistan
+T29	GPE 2852 2857	Dubai
+T30	TIME 2914 2922	năm 2007
+T31	Die 2931 2937	ám_sát
+E13	Die:T31 Agent-Arg:T33 Agent-Arg2:T32
+T32	PER 2925 2927	Bà
+T33	GPE 2962 2972	Rawalpindi

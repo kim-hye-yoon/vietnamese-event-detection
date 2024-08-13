@@ -1,0 +1,35 @@
+T1	End-position 12 21	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T3 Entity-Arg:T2
+T2	GPE 0 11	Philippines
+T3	PER 22 33	nữ chánh_án
+T4	GPE 145 156	Philippines
+T5	PER 68 91	Bà Maria_Lourdes_Sereno
+T6	End-position 484 493	phế_truất
+E2	End-position:T6 Person-Arg:T10 Entity-Arg:T20
+T7	End-position 1277 1284	sa_thải
+E3	End-position:T7 Person-Arg:T8
+T8	PER 1285 1294	bà Sereno
+T9	End-position 1346 1353	sa_thải
+E4	End-position:T9 Person-Arg:T22
+T10	PER 494 503	bà Sereno
+T11	End-position 583 592	phế_truất
+E5	End-position:T11 Person-Arg:T12
+T12	PER 593 599	Sereno
+T13	Nominate 653 661	bổ_nhiệm
+E6	Nominate:T13 Person-Arg:T14
+T14	PER 628 640	chánh_án mới
+T15	Sue 757 765	cáo_buộc
+E7	Sue:T15 
+T16	Die 1851 1859	chôn_cất
+E8	Die:T16 Victim-Arg:T17
+T17	PER 1817 1845	nhà độc_tài Ferdinand_Marcos
+T18	End-position 978 987	phế_truất
+E9	End-position:T18 Entity-Arg:T19 Person-Arg:T21
+T19	ORG 954 968	toà_án tối_cao
+T20	ORG 457 460	toà
+T21	PER 1013 1022	bà Sereno
+T22	PER 1354 1362	chánh_án
+T23	Convict 266 273	kết_tội
+E10	Convict:T23 Defendant-Arg:T24 Crime-Arg:T25
+T24	PER 184 204	Maria_Lourdes_Sereno
+T25	CRIME 274 325	nắm giữ và thực_thi bất_hợp_pháp văn_phòng chánh_án

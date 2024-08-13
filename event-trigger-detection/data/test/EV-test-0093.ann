@@ -1,0 +1,37 @@
+T2	PER 0 30	Cựu lãnh_đạo đối_lập Campuchia
+T3	Transport 170 176	trở_về
+E2	Transport:T3 Destination-Arg:T5 Artifact-Arg:T4 Time-Arg:T6
+T4	PER 160 169	Kem Sokha
+T5	FAC 177 180	nhà
+T6	TIME 185 198	3h30 sáng nay
+T7	PER 268 271	ông
+T10	PER 353 372	Kem_Sokha , 65 tuổi
+T12	PER 644 653	Kem Sokha
+T13	PER 548 616	Cựu chủ_tịch đảng Cứu nguy Dân_tộc Campuchia ( CNRP ) Eng Chhai_Eang
+T15	Meet 689 693	thăm
+E7	Meet:T15 Entity-Arg:T16
+T16	PER 694 703	Kem_Sokha
+T14	Transport 685 688	đến
+E6	Transport:T14 Artifact-Arg:T13
+T17	Release-parole 824 833	trả tự_do
+E8	Release-parole:T17 
+T18	Arrest-jail 846 852	bị bắt
+E9	Arrest-jail:T18 Time-Arg:T20 Person-Arg:T19
+T19	PER 836 845	Kem Sokha
+T20	TIME 853 866	ngày 3/9/2017
+T21	Convict 1079 1090	bị buộc_tội
+E10	Convict:T21 Defendant-Arg:T23 Crime-Arg:T22
+T22	CRIME 1091 1100	phản_quốc
+T23	PER 988 997	Kem Sokha
+T24	Arrest-jail 1182 1188	bị bắt
+E11	Arrest-jail:T24 Person-Arg:T25
+T25	PER 1172 1181	Kem Sokha
+T1	Release-parole 36 45	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T8	Release-parole 272 280	được thả
+E3	Release-parole:T8 Person-Arg:T7 Place-Arg:T26
+T26	FAC 288 304	nhà_tù biên_giới
+T9	Release-parole 380 389	trả tự_do
+E4	Release-parole:T9 Person-Arg:T10
+T11	Release-parole 654 662	được thả
+E5	Release-parole:T11 Person-Arg:T12

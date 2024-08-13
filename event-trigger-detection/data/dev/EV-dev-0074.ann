@@ -1,0 +1,63 @@
+T1	Execute 50 60	xử tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 61 75	người Canada .
+T3	Trial-hearing 101 107	xét_xử
+E2	Trial-hearing:T3 Defendant-Arg:T4 Adjudicator-Arg:T5 Time-Arg:T6
+T4	PER 76 88	Schellenberg
+T5	ORG 110 144	toà thượng thẩm thành phố Đại_Liên
+T6	TIME 145 153	hôm 14/1
+T7	ORG 398 440	toà_án thành_phố Đại_Liên , tỉnh Liêu_Ninh
+T8	Sentence 443 451	tuyên_án
+E3	Sentence:T8 Sentence-Arg:T9 Defendant-Arg:T10 Crime-Arg:T12 Adjudicator-Arg:T7
+T9	SEN 452 459	tử_hình
+T10	PER 460 501	công_dân Canada_Robert_Lloyd_Schellenberg
+T11	Transfer-ownership 505 513	buôn_lậu
+E4	Transfer-ownership:T11 Seller-Arg:T10
+T12	CRIME 505 530	buôn_lậu 222 kg ma_tuý đá
+T13	Sentence 589 595	kết_án
+E5	Sentence:T13 Sentence-Arg:T14 Defendant-Arg:T16 Adjudicator-Arg:T15
+T14	SEN 596 603	tử_hình
+T15	GPE 578 588	Trung_Quốc
+T16	PER 604 616	Schellenberg
+T17	Sentence 983 991	tuyên_án
+E6	Sentence:T17 Sentence-Arg:T18 Defendant-Arg:T19 Time-Arg:T20
+T18	SEN 992 1001	15 năm tù
+T19	PER 955 976	Schellenberg , 36 tuổ
+T20	TIME 1018 1031	tháng 11/2018
+T21	Appeal 1038 1046	kháng_án
+E7	Appeal:T21 Defendant-Arg:T19
+T22	Appeal 1206 1215	kháng_cáo
+E8	Appeal:T22 Defendant-Arg:T23
+T23	PER 1190 1193	anh
+T24	Transfer-ownership 1227 1235	buôn_bán
+E9	Transfer-ownership:T24 Seller-Arg:T26 Place-Arg:T25
+T25	GPE 1284 1294	Trung_Quốc
+T26	PER 1218 1226	Tội_phạm
+T27	Execute 1311 1318	tử_hình
+E10	Execute:T27 Person-Arg:T29 Agent-Arg:T28 Time-Arg:T30 Place-Arg:T28
+T28	GPE 1297 1307	Trung_Quốc
+T29	PER 1319 1335	một công_dân Anh
+T30	TIME 1340 1348	năm 2009
+T31	Execute 1457 1464	tử_hình
+E11	Execute:T31 Agent-Arg:T32
+T32	GPE 1423 1433	Trung_Quốc
+T33	Transport 1623 1626	tới
+E12	Transport:T33 Agent-Arg:T36 Destination-Arg:T35
+T34	GPE 1552 1558	Canada
+T35	GPE 1627 1637	Trung_Quốc
+T36	PER 1587 1596	người_dân
+T37	Trial-hearing 1948 1954	xét_xử
+E13	Trial-hearing:T37 Defendant-Arg:T38
+T38	PER 1899 1937	người đặc_biệt mang quốc_tịch đặc_biệt
+T39	Arrest-jail 2055 2058	bắt
+E14	Arrest-jail:T39 Person-Arg:T40 Time-Arg:T41
+T40	PER 2039 2051	Schellenberg
+T41	TIME 2063 2071	năm 2014
+T42	Arrest-jail 2210 2213	bắt
+E15	Arrest-jail:T42 Agent-Arg:T43 Person-Arg:T44
+T43	GPE 2203 2209	Ottawa
+T44	PER 2214 2252	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T45	Trial-hearing 2332 2334	xử
+E16	Trial-hearing:T45 
+T46	Transfer-ownership 2501 2509	buôn_lậu
+E17	Transfer-ownership:T46 

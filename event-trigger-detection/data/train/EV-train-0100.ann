@@ -1,0 +1,43 @@
+T1	End-position 0 9	Cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 10 23	phó bí_thư xã
+T3	TIME 53 62	Ngày 28/9
+T4	End-position 184 188	cách
+E2	End-position:T4 Position-Arg:T5 Person-Arg:T6 Entity-Arg:T7
+T5	JOB 193 211	chức_vụ trong Đảng
+T6	PER 220 238	ông Trần_Văn_Quyết
+T7	ORG 135 157	Ban thường_vụ Huyện_uỷ
+T8	Transport 24 27	vào
+E3	Transport:T8 Destination-Arg:T9 Artifact-Arg:T10 Artifact-Arg2:T2
+T9	FAC 28 36	nhà_nghỉ
+T10	PER 41 50	cán_bộ nữ
+T11	Transport 303 306	vào
+E4	Transport:T11 Artifact-Arg:T14 Destination-Arg:T12 Artifact-Arg2:T13
+T12	FAC 307 315	nhà_nghỉ
+T13	PER 321 344	một nữ cán_bộ ở xã khác
+T14	PER 279 286	ông này
+T15	Transport 541 544	vào
+E5	Transport:T15 Destination-Arg:T16 Artifact-Arg:T17 Artifact-Arg2:T18
+T16	FAC 545 553	nhà_nghỉ
+T17	PER 558 578	nữ cán_bộ chính_sách
+T18	PER 515 524	Ông Quyết
+T19	Transport 678 681	vào
+E6	Transport:T19 Artifact-Arg:T23 Time-Arg:T21 Artifact-Arg2:T22 Destination-Arg:T20
+T21	TIME 597 617	Khoảng 10h ngày 20/7
+T22	PER 620 629	ông Quyết
+T23	PER 634 677	chị Nguyễn , cán_bộ chính_sách xã Tượng_Sơn
+T20	FAC 682 711	nhà_nghỉ ở thị_trấn Nông_Cống
+T24	FAC 974 982	nhà_nghỉ
+T25	PER 987 997	chị Nguyễn
+T26	PER 950 959	Ông Quyết
+T27	Transport 970 973	vào
+E7	Transport:T27 Destination-Arg:T24 Artifact-Arg:T25 Artifact-Arg2:T26
+T28	Divorce 1206 1212	ly_hôn
+E8	Divorce:T28 Person-Arg:T30 Person-Arg2:T29
+T29	PER 1135 1145	Chị Nguyễn
+T30	PER 1217 1222	chồng
+T31	Start-position 1290 1301	luân_chuyển
+E9	Start-position:T31 Person-Arg:T34 Position-Arg:T32 Time-Arg:T33
+T32	JOB 1327 1359	Phó bí_thư Đảng_uỷ xã Tượng_Lĩnh
+T33	TIME 1363 1376	cuối năm 2016
+T34	PER 1275 1284	Ông Quyết

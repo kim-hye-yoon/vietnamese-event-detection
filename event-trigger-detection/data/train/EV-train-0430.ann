@@ -1,0 +1,16 @@
+T1	Transport 514 517	đến
+E1	Transport:T1 Artifact-Arg:T2 Destination-Arg:T7
+T2	PER 471 494	Một_số người ngoại_tỉnh
+T3	Attack 0 3	Đấm
+E2	Attack:T3 Attacker-Arg:T5 Target-Arg:T4
+T4	PER 4 21	trưởng công_an xã
+T5	PER 24 34	phó bí_thư
+T8	PER 918 925	ông Anh
+T9	PER 939 946	ông Tâm
+T6	Attack 926 929	đấm
+E3	Attack:T6 Attacker-Arg:T8 Target-Arg:T9
+T7	LOC 518 520	xã
+T11	PER 600 604	Tuấn
+T10	Attack 605 609	đánh
+E5	Attack:T10 Attacker-Arg:T11 Target-Arg:T12
+T12	PER 610 618	ba người

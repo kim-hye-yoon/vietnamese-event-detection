@@ -1,0 +1,37 @@
+T1	PER 0 21	20.000 người Hàn_Quốc
+T2	Demonstrate 22 31	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 74 79	Người
+T4	Demonstrate 80 89	biểu_tình
+E2	Demonstrate:T4 Entity-Arg:T3 Place-Arg:T5 Time-Arg:T6
+T5	GPE 109 125	Seoul , Hàn_Quốc
+T6	TIME 126 134	hôm 18/8
+T7	PER 214 219	Người
+T8	Demonstrate 228 237	biểu_tình
+E3	Demonstrate:T8 Entity-Arg:T7
+T9	PER 1494 1508	Nhiều nam_giới
+T10	Demonstrate 1528 1537	biểu_tình
+E4	Demonstrate:T10 Entity-Arg:T9
+T11	PER 1749 1761	Kim_Ji - eun
+T12	PER 1779 1782	Ahn
+T13	Attack 1783 1791	tấn_công
+E5	Attack:T13 Target-Arg:T11 Attacker-Arg:T12
+T14	PER 1950 1953	tôi
+T15	PER 1957 1960	Ahn
+T16	Attack 1961 1969	tấn_công
+E6	Attack:T16 Attacker-Arg:T15 Target-Arg:T14
+T17	ORG 2485 2506	Toà_án quận Tây_Seoul
+T18	TIME 2507 2515	hôm 14/8
+T19	Arquit 2516 2530	tuyên trắng_án
+E7	Arquit:T19 Adjudicator-Arg:T17 Time-Arg:T18 Defendant-Arg:T20 Crime-Arg:T21
+T20	PER 2535 2549	Ahn_Hee - jung
+T21	CRIME 2558 2653	các cáo_buộc lạm_dụng tình_dục , lạm_dụng quyền_lực để quan_hệ tình_dục và một_số cáo_buộc khác
+T22	PER 277 296	khoảng 20.000 người
+T23	Demonstrate 300 309	tập_trung
+E8	Demonstrate:T23 Entity-Arg:T22 Place-Arg:T24 Time-Arg:T25
+T24	LOC 310 347	tại trung_tâm thủ_đô Seoul , Hàn_Quốc
+T25	TIME 350 358	hôm 18/8
+T26	PER 2942 2974	Hàng chục nhà hoạt_động nữ quyền
+T27	Demonstrate 2978 2987	tập_trung
+E9	Demonstrate:T27 Entity-Arg:T26 Place-Arg:T28
+T28	LOC 2988 3004	bên ngoài toà_án

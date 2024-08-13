@@ -1,0 +1,15 @@
+T1	PER 1709 1712	Anh
+T3	TIME 1764 1769	2 năm
+T2	Start-org 1742 1744	mở
+E1	Start-org:T2 Org-Arg:T4 Agent-Arg:T1 Time-Arg:T3
+T4	ORG 1745 1752	công_ty
+T5	PER 2113 2120	Độc_giả
+T6	Phone-write 2121 2129	gọi điện
+E2	Phone-write:T6 Entity-Arg:T5 Entity-Arg2:T7
+T7	PER 2141 2154	biên_tập_viên
+T8	PER 1772 1775	Anh
+T9	Marry 1802 1809	kết_hôn
+E3	Marry:T9 Person-Arg:T8
+T10	Marry 1957 1960	lấy
+E4	Marry:T10 Person-Arg:T11
+T11	PER 1961 1964	anh

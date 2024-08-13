@@ -1,0 +1,25 @@
+T1	End-position 21 30	cách_chức
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 17	Ông Phạm_Văn_Vọng
+T3	JOB 31 62	nguyên Bí_thư Tỉnh_uỷ Vĩnh_Phúc
+T4	Meet 144 152	cuộc họp
+E2	Meet:T4 Entity-Arg:T5 Entity-Arg2:T6 Place-Arg:T7 Time-Arg:T8
+T5	ORG 157 167	Ban_Bí_thư
+T7	FAC 82 104	trụ_sở Trung_ương Đảng
+T8	TIME 65 75	Ngày 17/12
+T9	PER 289 425	ông Phạm_Văn_Vọng , nguyên Uỷ_viên Trung_ương Đảng , Bí_thư Tỉnh_uỷ_nhiệm_kỳ 2010-2015 , Chủ_tịch HĐND tỉnh Vĩnh_Phúc nhiệm_kỳ 2011-2016
+T10	ORG 235 285	Ban Thường_vụ Tỉnh_uỷ Vĩnh_Phúc nhiệm_kỳ 2010-2015
+T6	PER 107 135	Tổng_bí_thư Nguyễn_Phú_Trọng
+T11	Nominate 1026 1034	bổ_nhiệm
+E3	Nominate:T11 
+T12	End-position 2882 2891	cách_chức
+E4	End-position:T12 Person-Arg:T14 Position-Arg:T13 Entity-Arg:T15
+T13	JOB 2892 2925	Bí_thư Tỉnh_uỷ_nhiệm_kỳ 2010-2015
+T14	PER 2934 2951	ông Phạm_Văn_Vọng
+T15	ORG 2798 2808	Ban_Bí_thư
+T16	Meet 3016 3022	kỳ họp
+E5	Meet:T16 
+T17	End-position 3335 3339	Cách
+E6	End-position:T17 Position-Arg:T18 Person-Arg:T19
+T18	JOB 3340 3362	mọi chức_vụ trong Đảng
+T19	PER 3367 3407	Phó chủ_tịch tỉnh Thanh_Hoá Ngô_Văn_Tuấn

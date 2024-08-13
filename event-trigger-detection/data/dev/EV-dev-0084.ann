@@ -1,0 +1,12 @@
+T1	Declare-bankruptcy 3 10	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Declare-bankruptcy 184 191	phá_sản
+E2	Declare-bankruptcy:T2 
+T4	ORG 317 339	Học_viện Game_Changers
+T5	PER 290 295	Peter
+T3	Start-org 308 316	sáng_lập
+E3	Start-org:T3 Agent-Arg:T5 Org-Arg:T4
+T6	Declare-bankruptcy 863 870	phá_sản
+E4	Declare-bankruptcy:T6 
+T7	Declare-bankruptcy 1066 1073	phá_sản
+E5	Declare-bankruptcy:T7 

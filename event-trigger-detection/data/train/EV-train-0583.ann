@@ -1,0 +1,76 @@
+T2	Attack 36 40	giết
+E1	Attack:T2 Target-Arg:T1
+T4	PER 694 711	người đi tìm trầm
+T5	PER 1384 1388	Công
+T6	WEA 1393 1400	súng AK
+T7	Attack 1410 1419	khống_chế
+E3	Attack:T7 Attacker-Arg:T5 Attacker-Arg2:T8 Instrument-Arg:T6
+T8	PER 1427 1434	7 người
+T9	PER 1847 1858	3 đối_tượng
+T10	TIME 1828 1841	11h cùng ngày
+T12	LOC 1900 1916	Tà_Poọng ( Lào )
+T11	Attack 1863 1872	khống_chế
+E4	Attack:T11 Attacker-Arg:T9 Target-Arg:T13 Place-Arg:T12 Time-Arg:T10
+T13	PER 1873 1883	7 phu trầm
+T14	PER 2948 2961	Thành và Công
+T15	WEA 3026 3029	gậy
+T16	Attack 3030 3034	giết
+E5	Attack:T16 Target-Arg:T17 Attacker-Arg:T14 Instrument-Arg:T15
+T17	PER 3035 3037	họ
+T18	ORG 3346 3365	TAND tỉnh Quảng_Trị
+T19	TIME 3328 3345	Sáng nay ( 30/5 )
+T21	CRIME 3398 3432	bị_cáo Hồ_Văn_Công và Hồ_Văn_Thành
+T22	Trial-hearing 1 7	Xét_xử
+E7	Trial-hearing:T22 
+T24	Trial-hearing 80 89	phiên_toà
+E8	Trial-hearing:T24 Defendant-Arg:T25
+T25	PER 92 98	bị_cáo
+T26	Die 134 138	giết
+E9	Die:T26 Victim-Arg:T27 Place-Arg:T28 Time-Arg:T23
+T27	PER 139 166	5 phu trầm người Quảng_Bình
+T1	PER 11 32	5 phu trầm Quảng_Bình
+T23	TIME 214 231	cuối tháng 3/2013
+T28	GPE 171 209	khu_vực giáp_ranh biên_giới Việt – Lào
+T29	Trial-hearing 502 511	phiên_toà
+E10	Trial-hearing:T29 Defendant-Arg:T30
+T30	PER 487 497	Hai bị_cáo
+T31	Die 753 757	giết
+E11	Die:T31 Agent-Arg:T32
+T32	PER 758 760	họ
+T3	Attack 685 693	bắt trói
+E2	Attack:T3 Target-Arg:T4
+T33	Attack 675 684	khống_chế
+E12	Attack:T33 Target-Arg:T4
+T34	Transport 3192 3196	trốn
+E13	Transport:T34 Artifact-Arg:T35
+T35	PER 3180 3188	anh Hiền
+T36	Die 3280 3284	giết
+E14	Die:T36 Victim-Arg:T37
+T20	Trial-hearing 3369 3378	phiên_toà
+E6	Trial-hearing:T20 
+T37	PER 3263 3272	năm người
+T38	Trial-hearing 3474 3483	phiên_toà
+E15	Trial-hearing:T38 Defendant-Arg:T39
+T39	PER 3486 3496	hai bị_cáo
+T40	Sentence 3700 3706	bản_án
+E16	Sentence:T40 Defendant-Arg:T41
+T41	PER 3731 3737	bị_cáo
+T42	Die 3660 3670	giết người
+E17	Die:T42 Agent-Arg:T41
+T43	Trial-hearing 3590 3599	phiên_toà
+E18	Trial-hearing:T43 Defendant-Arg:T41
+T44	LOC 2246 2250	rừng
+T45	PER 2192 2234	Công , Thành , Nguyên tiếp_tục dẫn 7 người
+T46	Transport 2235 2241	đi_sâu
+E19	Transport:T46 Agent-Arg:T45 Destination-Arg:T44
+T47	Die 2835 2839	giết
+E20	Die:T47 Victim-Arg:T48
+T48	PER 2840 2850	6 nạn_nhân
+T49	Die 2935 2945	giết người
+E21	Die:T49 Instrument-Arg:T50
+T50	WEA 2915 2918	gậy
+T51	Transport 817 823	đi đến
+E22	Transport:T51 Agent-Arg:T52 Destination-Arg:T54 Time-Arg:T53
+T52	PER 798 816	cả 3 đối_tượng này
+T53	TIME 786 795	Ngày 23/3
+T54	LOC 824 893	địa_phận khe Chà_Lỳ , xã Hướng_Lập , huyện Hướng_Hoá , tỉnh Quảng_Trị

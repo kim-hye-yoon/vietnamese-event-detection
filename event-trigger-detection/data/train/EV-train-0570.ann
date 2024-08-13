@@ -1,0 +1,13 @@
+T2	Meet 400 408	trao_đổi
+E1	Meet:T2 Entity-Arg:T3 Entity-Arg2:T4 Time-Arg:T5
+T3	PER 413 441	PV báo Đời_sống và Pháp_luật
+T4	PER 444 482	lãnh_đạo Công_an quận Ba_Đình , Hà_Nội
+T5	TIME 383 397	Chiều ngày 2/4
+T6	Arrest-jail 556 568	bắt tạm giam
+E2	Arrest-jail:T6 Crime-Arg:T8 Agent-Arg:T4 Person-Arg:T7
+T7	PER 569 580	5 đối_tượng
+T8	CRIME 584 604	hành_vi cướp tài_sản
+T9	PER 1415 1421	anh T.
+T10	Transport 1422 1425	đến
+E3	Transport:T10 Destination-Arg:T11 Artifact-Arg:T9
+T11	FAC 1426 1434	nhà_nghỉ

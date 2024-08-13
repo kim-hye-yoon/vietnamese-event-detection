@@ -1,0 +1,44 @@
+T1	Declare-bankruptcy 12 19	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T5
+T2	PER 22 25	tôi
+T3	GPE 38 42	Nhật
+T4	MONEY 58 71	36 triệu đồng
+T5	ORG 0 7	Công_ty
+T17	ORG 723 730	công_ty
+T18	Declare-bankruptcy 766 773	phá_sản
+E2	Declare-bankruptcy:T18 Org-Arg:T17
+T20	PER 899 902	Tôi
+T21	GPE 990 998	Nhật_Bản
+T22	MONEY 1029 1040	18 ngàn yên
+T23	MONEY 1053 1073	khoảng 36 triệu đồng
+T24	TIME 1041 1050	một tháng
+T25	PER 1083 1087	tôi 
+T26	GPE 1144 1152	Việt_Nam
+T29	GPE 1450 1458	Nhật_Bản
+T31	PER 1796 1799	Tôi
+T32	GPE 1807 1811	Nhật
+T33	ORG 1853 1864	công_ty Hàn
+T34	GPE 1879 1882	Nga
+T35	Transport 33 37	sang
+E3	Transport:T35 Destination-Arg:T3 Artifact-Arg:T2
+T6	End-position 913 922	nghỉ_việc
+E4	End-position:T6 Person-Arg:T20
+T7	Transport 968 970	đi
+E5	Transport:T7 Artifact-Arg:T8 Destination-Arg:T21
+T8	PER 936 963	người bạn thân thời đại_học
+T9	Transport 1091 1093	đi
+E6	Transport:T9 Time-Arg:T10 Artifact-Arg:T25
+T10	TIME 1094 1101	vài năm
+T11	Transport 1141 1143	về
+E7	Transport:T11 Destination-Arg:T26 Artifact-Arg:T25
+T12	Transport 1416 1418	Đi
+E8	Transport:T12 Time-Arg:T13 Destination-Arg:T29
+T13	TIME 1438 1445	vài năm
+T14	Transport 1804 1806	đi
+E9	Transport:T14 Artifact-Arg:T31 Destination-Arg:T32 Time-Arg:T15
+T15	TIME 1821 1828	vài năm
+T16	Transport 1842 1844	về
+E10	Transport:T16 Destination-Arg:T19 Artifact-Arg:T31
+T19	LOC 1845 1848	quê
+T27	Transport 1874 1878	sang
+E11	Transport:T27 Destination-Arg:T34

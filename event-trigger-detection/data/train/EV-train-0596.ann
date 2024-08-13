@@ -1,0 +1,42 @@
+T1	Demonstrate 23 30	phản_đố
+E1	Demonstrate:T1 Place-Arg:T3
+T2	Demonstrate 0 9	Biểu_tình
+E2	Demonstrate:T2 Place-Arg:T3
+T3	GPE 15 22	nước Mỹ
+T4	PER 63 81	Một phụ_nữ tham_gi
+T5	Demonstrate 88 97	biểu_tình
+E3	Demonstrate:T5 Entity-Arg:T4 Time-Arg:T6 Place-Arg:T7
+T6	TIME 98 107	ngày 30/6
+T7	GPE 110 120	Washington
+T8	PER 197 206	Chúng_tôi
+T9	Demonstrate 210 219	tuần_hành
+E4	Demonstrate:T9 Entity-Arg:T8 Place-Arg:T10 Place-Arg2:T11
+T10	GPE 224 237	Washington DC
+T11	LOC 241 258	trên khắp cả nước
+T12	PER 472 481	Đoàn ngườ
+T13	Transport 493 500	tiến về
+E5	Transport:T13 Agent-Arg:T12 Destination-Arg:T14
+T14	LOC 506 518	Điện_Capitol
+T15	PER 640 666	Tổng_thống Mỹ Donald_Trump
+T16	Arrest-jail 678 685	bắt_giữ
+E6	Arrest-jail:T16 Agent-Arg:T15 Person-Arg:T17
+T17	PER 692 750	người trưởng_thành vượt_biên , bao_gồm cả người xin tị_nạn
+T18	Demonstrate 979 987	phản_đối
+E7	Demonstrate:T18 Place-Arg:T19
+T19	GPE 998 1024	ở Mỹ và trên toàn thế_giới
+T20	PER 1279 1330	Hơn 500 phụ_nữ , bao_gồm cả một nghị_sĩ quốc_hội Mỹ
+T21	Arrest-jail 1342 1348	bị bắt
+E8	Arrest-jail:T21 Person-Arg:T20 Crime-Arg:T23 Time-Arg:T22 Place-Arg:T24
+T22	TIME 1333 1341	hôm 28/6
+T23	CRIME 1352 1396	biểu_tình chống chính_sách nhập_cư của Trump
+T24	LOC 1401 1412	Đồi_Capitol
+T25	Demonstrate 1493 1502	biểu_tình
+E9	Demonstrate:T25 Time-Arg:T27 Place-Arg:T26
+T26	GPE 1465 1477	khắp nước Mỹ
+T27	TIME 1503 1512	ngày 30/6
+T28	Demonstrate 381 390	biểu_tình
+E10	Demonstrate:T28 Place-Arg:T29 Time-Arg:T30
+T29	GPE 393 403	Washington
+T30	TIME 404 413	ngày 30/6
+T31	Demonstrate 1576 1585	biểu_tình
+E11	Demonstrate:T31 

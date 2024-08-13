@@ -1,0 +1,123 @@
+T1	End-position 26 35	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 10 22	cựu lãnh_đạo
+T3	End-position 114 118	cách
+E2	End-position:T3 Person-Arg:T5 Position-Arg:T4 Time-Arg:T6
+T4	JOB 119 175	các chức_vụ trong Đảng cũng như chính_quyền từng nắm giữ
+T5	PER 78 99	nhiều nguyên lãnh_đạo
+T6	TIME 52 75	Từ đầu năm 2017 đến nay
+T7	End-position 397 400	xoá
+E3	End-position:T7 Position-Arg:T9 Person-Arg:T8
+T8	PER 377 393	Ông Vũ_Huy_Hoàng
+T9	JOB 409 437	nguyên Bộ_trưởng Công_Thương
+T10	End-position 541 544	xoá
+E4	End-position:T10 Entity-Arg:T13 Position-Arg:T11 Time-Arg:T14
+T11	JOB 553 600	nguyên Bộ_trưởng Công_Thương nhiệm_kỳ 2011-2016
+T12	PER 517 526	Thủ_tướng
+T13	ORG 458 506	Uỷ_ban Thường_vụ_Quốc_hội đã ban_hành Nghị_quyết
+T14	TIME 438 455	Cuối tháng 1/2017
+T15	Nominate 923 931	bổ_nhiệm
+E5	Nominate:T15 Person-Arg:T16 Position-Arg:T17 Person-Arg2:T18
+T16	PER 944 956	Vũ_Quang_Hải
+T17	JOB 961 1006	kiểm_soát viên Tổng_công_ty thuốc_lá Việt_Nam
+T18	PER 835 844	ông Hoàng
+T19	Elect 1113 1116	bầu
+E6	Elect:T19 Position-Arg:T20 Person-Arg:T21
+T20	JOB 1121 1163	thành_viên HĐQT , Phó tổng_giám_đốc Sabeco
+T21	PER 1019 1035	ông Vũ_Quang_Hải
+T22	Nominate 1561 1569	bổ_nhiệm
+E7	Nominate:T22 
+T23	End-position 1794 1803	cách chức
+E8	End-position:T23 Person-Arg:T24 Position-Arg:T25
+T24	PER 1781 1790	Võ_Kim_Cự
+T25	JOB 1751 1780	Nguyên Bí_thư Tỉnh_uỷ Hà_Tĩnh
+T26	End-position 1913 1922	cách_chức
+E9	End-position:T26 Position-Arg:T27 Entity-Arg:T30 Time-Arg:T28 Person-Arg:T29
+T27	JOB 1923 1993	Uỷ_viên Ban Thường_vụ Tỉnh_uỷ nhiệm_kỳ 2005-2010 và nhiệm_kỳ 2010-2015
+T28	TIME 1805 1817	Tháng 8/2017
+T29	PER 1820 1833	ông Võ_Kim_Cự
+T30	ORG 1902 1912	Ban_bí_thư
+T31	End-position 2004 2013	cách_chức
+E10	End-position:T31 Position-Arg:T32 Time-Arg:T28
+T32	JOB 2031 2109	Bí_thư Ban cán_sự đảng UBND tỉnh , Phó bí_thư Tỉnh_uỷ , Bí_thư Tỉnh_uỷ Hà_Tĩnh
+T33	End-position 2163 2166	xoá
+E11	End-position:T33 Position-Arg:T34 Person-Arg:T35
+T34	JOB 2175 2291	nguyên Phó chủ_tịch UBND tỉnh Hà_Tĩnh nhiệm_kỳ 2005 - 2010 và nguyên Chủ_tịch UBND tỉnh Hà_Tĩnh nhiệm_kỳ 2010 - 2015
+T35	PER 2300 2313	ông Võ_Kim_Cự
+T36	End-position 2830 2839	thôi chức
+E12	End-position:T36 Position-Arg:T37 Person-Arg:T39 Time-Arg:T38
+T37	JOB 2840 2878	Chủ_tịch liên_minh Hợp_tác_xã Việt_Nam
+T38	TIME 2801 2813	Tháng 9/2017
+T39	PER 2816 2829	ông Võ_Kim_Cự
+T40	End-position 2945 2954	cách_chức
+E13	End-position:T40 Person-Arg:T41 Position-Arg:T42
+T41	PER 2928 2941	Phạm_Văn_Vọng
+T42	JOB 2904 2927	Nguyên Bí_thư Vĩnh_Phúc
+T43	End-position 2987 2996	cách_chức
+E14	End-position:T43 Entity-Arg:T46 Time-Arg:T47 Position-Arg:T44 Person-Arg:T45
+T44	JOB 2997 3040	Bí_thư Tỉnh_uỷ Vĩnh_Phúc nhiệm_kỳ 2010-2015
+T45	PER 3049 3066	ông Phạm_Văn_Vọng
+T46	ORG 2973 2983	Ban_Bí_thư
+T47	TIME 2955 2970	Ngày 17/12/2017
+T48	Nominate 3417 3425	bổ_nhiệm
+E15	Nominate:T48 
+T49	Nominate 4053 4061	bổ_nhiệm
+E16	Nominate:T49 Person-Arg:T50
+T50	PER 4062 4075	một_số cán_bộ
+T51	PER 3915 3923	Ông Vọng
+T52	Meet 4128 4131	họp
+E17	Meet:T52 Entity-Arg:T53
+T53	ORG 4132 4151	Thường_trực Tỉnh_uỷ
+T54	PER 4116 4119	Ông
+T55	End-position 4454 4458	cách
+E18	End-position:T55 Position-Arg:T63 Entity-Arg:T59 Time-Arg:T60 Person-Arg:T68
+T56	End-position 4381 4385	cách
+E19	End-position:T56 Position-Arg:T57 Person-Arg:T58
+T57	JOB 4386 4411	tất_cả chức_vụ trong Đảng
+T58	PER 4352 4377	Nguyên Phó ban Tây_Nam_Bộ
+T59	ORG 4429 4439	Ban_bí_thư
+T60	TIME 4412 4426	Ngày 20/9/2017
+T61	End-position 4499 4508	cách_chức
+E20	End-position:T61 Position-Arg:T62 Person-Arg:T68
+T62	JOB 4509 4558	Phó trưởng_Ban thường_trực Ban chỉ_đạo Tây_Nam_Bộ
+T63	JOB 4459 4488	tất_cả các chức_vụ trong Đảng
+T64	End-position 4561 4570	cách_chức
+E21	End-position:T64 Position-Arg:T65 Person-Arg:T68
+T65	JOB 4571 4631	Uỷ_viên Ban_chấp_hành Đảng_bộ Cơ_quan Ban chỉ_đạo Tây_Nam_Bộ
+T66	End-position 4634 4643	cách_chức
+E22	End-position:T66 Position-Arg:T67 Person-Arg:T68
+T67	JOB 4644 4689	Bí_thư Đảng_uỷ Cơ_quan Ban chỉ_đạo Tây_Nam_Bộ
+T68	PER 4700 4722	ông Nguyễn_Phong_Quang
+T69	Nominate 5380 5388	bổ_nhiệm
+E23	Nominate:T69 
+T70	PER 5389 5407	trên 30 trường_hợp
+T71	End-position 5849 5858	Cách_chức
+E24	End-position:T71 Person-Arg:T72
+T72	PER 5859 5910	nguyên chủ_tịch Hội_đồng_quản_trị tập_đoàn hoá_chất
+T73	End-position 5984 5988	cách
+E25	End-position:T73 Position-Arg:T75 Person-Arg:T74
+T74	PER 6027 6047	ông Nguyễn_Quốc_Tuấn
+T75	JOB 5989 6018	tất_cả các chức_vụ trong Đảng
+T76	End-position 6808 6817	cách chức
+E26	End-position:T76 Position-Arg:T77 Person-Arg:T78
+T77	JOB 6818 6842	Bí thư Tỉnh uỷ Quảng Nam
+T78	PER 6786 6804	Ông Lê_Phước_Thanh
+T79	End-position 6896 6905	cách_chức
+E27	End-position:T79 Person-Arg:T80
+T80	PER 6854 6892	Nguyên Bí_thư Quảng_Nam Lê_Phước_Thanh
+T81	End-position 6931 6940	cách_chức
+E28	End-position:T81 Position-Arg:T82 Person-Arg:T85 Entity-Arg:T84 Time-Arg:T83
+T82	JOB 6941 6984	Bí_thư Tỉnh_uỷ Quảng_Nam nhiệm_kỳ 2010-2015
+T83	TIME 6906 6914	Ngày 5/2
+T84	ORG 6917 6927	Ban_Bí_thư
+T85	PER 6993 7011	ông Lê_Phước_Thanh
+T86	Nominate 7485 7493	bổ_nhiệm
+E29	Nominate:T86 Person-Arg:T87
+T87	PER 7494 7542	ông Lê_Phước_Hoài_Bảo ( con_trai của ông Thanh )
+T88	End-position 8198 8207	cách_chức
+E30	End-position:T88 Person-Arg:T89 Position-Arg:T90
+T89	PER 8208 8224	ông Vũ Huy_Hoàng
+T90	JOB 8282 8339	Bí_thư Ban cán_sự Đảng_Bộ Công_thương giai_đoạn 2011-2016
+T91	End-position 8384 8393	cách_chức
+E31	End-position:T91 Person-Arg:T92
+T92	PER 8353 8362	ông Hoàng

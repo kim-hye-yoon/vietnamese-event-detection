@@ -1,0 +1,11 @@
+T1	Arrest-jail 175 182	bắt_giữ
+E1	Arrest-jail:T1 Agent-Arg:T2 Person-Arg:T3 Crime-Arg:T4
+T2	PER 166 174	cảnh_sát
+T3	PER 85 159	một bác_sĩ nam 34 tuổi của bệnh_viện quận Hoài_Nhu , Bắc_Kinh , Trung_Quốc
+T4	CRIME 210 266	cài đặt máy_ảnh trong phòng tắm của y_tá và bệnh_nhân nữ
+T5	Sue 303 309	tố_cáo
+E2	Sue:T5 Plaintiff-Arg:T8 Time-Arg:T6 Adjudicator-Arg:T7 Crime-Arg:T9
+T6	TIME 269 277	Ngày 6/4
+T7	PER 280 288	cảnh_sát
+T8	PER 314 325	một nữ y_tá
+T9	CRIME 350 402	camera được đặt trong nhà_tắm tại bệnh_viện của mình

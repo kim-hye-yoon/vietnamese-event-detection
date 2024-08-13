@@ -1,0 +1,16 @@
+T1	Attack 43 53	tham_chiến
+E1	Attack:T1 Place-Arg:T2
+T2	GPE 56 61	Syria
+T3	Attack 169 179	cuộc_chiến
+E2	Attack:T3 Target-Arg:T4
+T4	ORG 186 211	tổ_chức Nhà_nước Hồi_giáo
+T5	Attack 747 756	chiến_đấu
+E3	Attack:T5 Target-Arg:T6 Attacker-Arg:T7
+T6	PER 767 780	phiến quân IS
+T7	PER 712 746	dân_quân người Kurd và phe nổi_dậy
+T8	Attack 878 897	chiến_dịch tấn_công
+E4	Attack:T8 Place-Arg:T9
+T9	LOC 903 910	mặt_đất
+T10	Attack 1045 1054	chiến_đấu
+E5	Attack:T10 Place-Arg:T11
+T11	LOC 1060 1072	chiến_trường

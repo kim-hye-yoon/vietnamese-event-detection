@@ -1,0 +1,9 @@
+T1	Transport 87 97	chuyển đến
+E1	Transport:T1 Agent-Arg:T3 Artifact-Arg:T2
+T2	PER 46 84	Kepa là thủ_môn đắt_giá nhất hành_tinh
+T3	ORG 98 105	Chelsea
+T5	PER 1081 1085	Kepa
+T6	ORG 1092 1099	Chelsea
+T7	MONEY 1129 1141	250.000 đôla
+T4	Fine 1100 1104	phạt
+E2	Fine:T4 Adjudicator-Arg:T6 Entity-Arg:T5 Money-Arg:T7

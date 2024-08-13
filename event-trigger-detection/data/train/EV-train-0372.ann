@@ -1,0 +1,59 @@
+T1	GPE 0 10	Thổ_Nhĩ_Kỳ
+T2	Release-parole 11 14	thả
+E1	Release-parole:T2 Entity-Arg:T1 Person-Arg:T3 Crime-Arg:T4
+T3	PER 15 24	mục_sư Mỹ
+T4	CRIME 41 50	gián_điệp
+T5	Transport 87 90	tới
+E2	Transport:T5 Destination-Arg:T7 Agent-Arg:T6 Time-Arg:T8
+T6	PER 53 86	Mục_sư Brunson ( áp trắng ) và vợ
+T7	FAC 91 127	sân_bay thành_phố Izmir , Thổ_Nhĩ_Kỳ
+T8	TIME 128 137	hôm 12/10
+T9	Transport 186 195	đáp xuống
+E3	Transport:T9 Agent-Arg:T10 Time-Arg:T12 Destination-Arg:T11
+T10	PER 156 177	Mục_sư Andrew_Brunson
+T11	FAC 196 246	sân_bay quân_sự Andrews gần thủ_đô Washington , Mỹ
+T12	TIME 258 302	16h ngày 13/10 ( 3 h ngày 14/10 giờ Hà_Nội )
+T13	Release-parole 327 336	trả tự_do
+E4	Release-parole:T13 Entity-Arg:T14
+T14	GPE 316 326	Thổ_Nhĩ_Kỳ
+T15	Transport 423 425	về
+E5	Transport:T15 Agent-Arg:T19 Destination-Arg:T20
+T16	Transport 346 355	dừng chân
+E6	Transport:T16 Agent-Arg:T17 Destination-Arg:T18
+T17	PER 339 342	Ông
+T18	GPE 360 363	Đức
+T19	PER 407 413	Ông ấy
+T20	LOC 426 430	nước
+T21	Transfer-ownership 472 476	tặng
+E7	Transfer-ownership:T21 Seller-Arg:T22 Buyer-Arg:T23
+T22	PER 468 471	tôi
+T23	PER 477 483	ông ấy
+T24	Arrest-jail 664 672	bắt giam
+E8	Arrest-jail:T24 Person-Arg:T25 Time-Arg:T26 Crime-Arg:T27
+T25	PER 653 660	Brunson
+T26	TIME 677 690	tháng 10/2016
+T27	CRIME 704 729	khủng_bố và làm gián_điệp
+T28	Attack 704 712	khủng_bố
+E9	Attack:T28 Attacker-Arg:T25
+T29	Sentence 964 970	kết_án
+E10	Sentence:T29 Sentence-Arg:T32 Defendant-Arg:T31 Adjudicator-Arg:T30 Crime-Arg:T33
+T30	ORG 939 956	Toà_án Thổ_Nhĩ_Kỳ
+T31	PER 971 978	Brunson
+T32	SEN 979 992	hơn ba năm tù
+T33	CRIME 997 1014	tội_danh khủng_bố
+T34	Attack 1006 1014	khủng_bố
+E11	Attack:T34 Attacker-Arg:T31
+T35	Release-parole 1370 1379	trả tự_do
+E12	Release-parole:T35 Person-Arg:T36
+T36	PER 1384 1391	Brunson
+T37	Transport 1425 1431	trở_về
+E13	Transport:T37 Agent-Arg:T38
+T38	PER 1418 1424	ông ấy
+T39	ORG 1620 1666	lực_lượng dân_quân người Kurd ở phía bắc Syria
+T40	Attack 1688 1696	khủng_bố
+E14	Attack:T40 Attacker-Arg:T39
+T41	Transfer-ownership 1734 1737	mua
+E15	Transfer-ownership:T41 Artifact-Arg:T44 Seller-Arg:T43 Buyer-Arg:T42
+T42	GPE 1709 1715	Ankara
+T43	GPE 1777 1783	Moskva
+T44	WEA 1738 1772	hệ_thống phòng_không tầm_xa S -400

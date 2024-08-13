@@ -1,0 +1,41 @@
+T1	Execute 19 25	xử bắn
+E1	Execute:T1 Person-Arg:T3 Agent-Arg:T2
+T2	GPE 0 10	Triều_Tiên
+T3	PER 26 35	quan_chức
+T4	VEH 41 57	pháo_phòng_không
+T5	Meet 284 292	cuộc họp
+E2	Meet:T5 Entity-Arg:T7 Entity-Arg2:T6
+T6	PER 297 304	ông Kim
+T7	PER 218 255	ông Ri Yong - jin , thuộc Bộ Giáo_dục
+T8	Meet 357 365	cuộc họp
+E3	Meet:T8 
+T9	PER 405 408	Ông
+T10	Arrest-jail 409 415	bị bắt
+E4	Arrest-jail:T10 Person-Arg:T9
+T11	Execute 479 489	bị tử_hình
+E5	Execute:T11 Person-Arg:T13 Crime-Arg:T12
+T12	CRIME 493 538	các cáo_buộc khác , trong đó có cả tham_nhũng
+T13	PER 469 478	Người này
+T14	Meet 859 867	cuộc họp
+E6	Meet:T14 Entity-Arg:T15 Time-Arg:T16
+T15	ORG 868 887	Quốc_hội Triều_Tiên
+T16	TIME 888 900	cuối tháng 6
+T17	PER 903 912	Hai người
+T18	Execute 913 922	bị xử bắn
+E7	Execute:T18 Person-Arg:T17 Place-Arg:T20
+T19	VEH 928 944	pháo_phòng_không
+T20	LOC 949 983	một học_viện quân_sự ở Bình_Nhưỡng
+T21	Execute 1189 1194	xử_tử
+E8	Execute:T21 
+T22	Execute 1300 1305	xử_tử
+E9	Execute:T22 Person-Arg:T23
+T23	PER 1306 1319	hai quan_chức
+T24	Transport 1611 1618	bỏ trốn
+E10	Transport:T24 Origin-Arg:T25 Time-Arg:T26 Artifact-Arg:T27 Artifact-Arg2:T30
+T25	LOC 1624 1635	Đại_sứ_quán
+T26	TIME 1636 1647	hồi tháng 7
+T27	PER 1555 1563	Ông Thae
+T28	Transport 1567 1570	tới
+E11	Transport:T28 Artifact-Arg:T27 Destination-Arg:T29 Artifact-Arg2:T30
+T29	GPE 1571 1587	Seoul , Hàn_Quốc
+T30	PER 1593 1602	vợ và con

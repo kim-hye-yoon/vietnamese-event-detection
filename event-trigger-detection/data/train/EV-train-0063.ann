@@ -1,0 +1,27 @@
+T1	PER 80 89	Chúng_tôi
+T2	Transport 99 102	rút
+E1	Transport:T2 Artifact-Arg:T3 Agent-Arg:T1 Origin-Arg:T4 Time-Arg:T5
+T3	PER 103 107	quân
+T4	GPE 113 118	Syria
+T5	TIME 124 131	bây_giờ
+T6	PER 593 619	Tổng_thống Mỹ Donald_Trump
+T7	GPE 583 588	Syria
+T8	Transport 565 568	rút
+E2	Transport:T8 Agent-Arg:T6 Artifact-Arg:T9 Origin-Arg:T7
+T9	PER 569 573	quân
+T10	Transport 962 965	đưa
+E3	Transport:T10 Artifact-Arg:T11 Destination-Arg:T12
+T11	PER 966 973	binh_sĩ
+T12	LOC 977 981	nước
+T13	Meet 1005 1008	gặp
+E4	Meet:T13 Entity-Arg:T14 Time-Arg:T15
+T14	PER 1013 1044	Tổng_thống Pháp Emmanuel_Macron
+T15	TIME 1049 1058	ngày 24/4
+T16	PER 1061 1070	ông Trump
+T17	Transport 1091 1094	rút
+E5	Transport:T17 Artifact-Arg:T18 Agent-Arg:T16
+T18	PER 1095 1099	quân
+T19	PER 1237 1260	Lực_lượng Dân_chủ Syria
+T20	Attack 1261 1270	tiêu_diệt
+E6	Attack:T20 Attacker-Arg:T19 Target-Arg:T21
+T21	ORG 1271 1273	IS

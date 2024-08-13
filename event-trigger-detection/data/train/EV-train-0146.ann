@@ -1,0 +1,17 @@
+T2	LOC 132 142	Sawantwadi
+T3	LOC 125 129	Diva
+T1	Transport 114 124	hành_trình
+E1	Transport:T1 Origin-Arg:T3 Destination-Arg:T2 Vehicle-Arg:T4 Time-Arg:T5
+T4	VEH 84 93	chiếc tàu
+T5	TIME 59 81	9 giờ 30 phút sáng 4/5
+T6	PER 272 280	50 người
+T7	Injure 281 290	bị_thương
+E2	Injure:T7 Victim-Arg:T6 Place-Arg:T8
+T8	LOC 197 257	thành_phố Mumbai , thủ_phủ bang Maharashtra ở miền Tây_Ấn_Độ
+T10	PER 0 11	Nhiều người
+T11	Injure 12 21	bị_thương
+E4	Injure:T11 Place-Arg:T12 Victim-Arg:T10
+T12	GPE 45 50	Ấn_Độ
+T9	PER 737 748	nhiều người
+T13	Injure 749 758	bị_thương
+E3	Injure:T13 Victim-Arg:T9

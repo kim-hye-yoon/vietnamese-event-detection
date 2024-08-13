@@ -1,0 +1,9 @@
+T1	Declare-bankruptcy 16 23	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 0 8	Ông giáo
+T3	Marry 241 245	cưới
+E2	Marry:T3 Person-Arg:T4
+T4	PER 206 214	ông Tiếp
+T5	GPE 232 238	Sa_Đéc
+T6	PER 246 248	vợ
+T7	GPE 183 189	TP HCM

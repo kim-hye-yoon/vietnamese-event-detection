@@ -1,0 +1,71 @@
+T1	Die 64 68	giết
+E1	Die:T1 
+T2	Meet 201 209	cuộc họp
+E2	Meet:T2 Time-Arg:T5 Entity-Arg2:T4 Place-Arg:T3 Entity-Arg:T6
+T3	GPE 214 227	thủ_đô Riyadh
+T4	PER 133 171	Thái_tử Arab_Saudi_Mohammed bin Salman
+T5	TIME 176 188	tháng 3/2017
+T6	PER 233 279	các quan_chức cấp cao và doanh_nhân Arab_Saudi
+T7	Meet 420 428	cuộc họp
+E3	Meet:T7 Entity-Arg:T8
+T8	PER 431 476	các doanh_nhân vốn xuất_thân từ giới tình_báo
+T9	End-position 709 716	sa_thải
+E4	End-position:T9 Person-Arg:T12
+T10	Die 725 729	chết
+E5	Die:T10 Victim-Arg:T11
+T11	PER 734 757	nhà_báo Jamal_Khashoggi
+T12	PER 700 705	người
+T13	Meet 776 784	cuộc họp
+E6	Meet:T13 Entity-Arg:T14
+T14	PER 669 697	hiếu_tướng Ahmed al - Assiri
+T15	Meet 797 805	cuộc họp
+E7	Meet:T15 Entity-Arg:T16
+T16	PER 808 838	các trợ_lý hàng_đầu của Assiri
+T17	Meet 1017 1025	cuộc họp
+E8	Meet:T17 Entity-Arg:T18 Entity-Arg2:T19
+T18	PER 993 1007	các doanh_nhân
+T19	PER 968 988	Quan_chức Arab_Saudi
+T20	Attack 871 877	ám_sát
+E9	Attack:T20 Target-Arg:T21
+T21	PER 878 894	Qassim_Suleimani
+T22	Attack 1065 1071	ám_sát
+E10	Attack:T22 Attacker-Arg:T23
+T23	PER 1087 1109	quan_chức cấp cao Iran
+T24	Die 1212 1218	ám_sát
+E11	Die:T24 
+T25	End-position 1423 1430	sa_thải
+E12	End-position:T25 Person-Arg:T26
+T26	PER 1433 1439	Assiri
+T27	Die 1577 1581	giết
+E13	Die:T27 Victim-Arg:T30 Place-Arg:T31
+T28	Die 1683 1690	kết_hôn
+E14	Die:T28 Time-Arg:T29 Agent-Arg:T30
+T29	TIME 1691 1699	hôm 2/10
+T30	PER 1558 1573	Jamal_Khashoggi
+T31	LOC 1588 1635	lãnh_sự_quán Arab_Saudi ở Istanbul , Thổ_Nhĩ_Kỳ
+T32	FAC 1648 1659	toà nhà này
+T33	Attack 1781 1785	giết
+E15	Attack:T33 Target-Arg:T34
+T34	PER 1786 1793	nhà_báo
+T35	PER 1753 1769	Thái_tử Mohammed
+T36	End-position 1939 1946	sa_thải
+E16	End-position:T36 Person-Arg:T38 Entity-Arg:T37
+T37	ORG 1925 1935	Arab_Saudi
+T38	PER 1947 1958	6 quan_chức
+T39	Arrest-jail 1962 1965	bắt
+E17	Arrest-jail:T39 Person-Arg:T40
+T40	PER 1966 1978	18 nghi_phạm
+T41	Die 2069 2076	sát_hại
+E18	Die:T41 Victim-Arg:T42
+T42	PER 2077 2086	Khashoggi
+T43	Charge-indict 2191 2198	truy_tố
+E19	Charge-indict:T43 Defendant-Arg:T44
+T44	PER 2199 2234	những người có liên_quan tới tội_ác
+T45	Die 2441 2448	thi_thể
+E20	Die:T45 Victim-Arg:T46
+T46	PER 2449 2463	nhà_báo xấu_số
+T47	Attack 2546 2554	tiêu_huỷ
+E21	Attack:T47 Instrument-Arg:T48 Target-Arg:T50 Attacker-Arg:T49
+T48	WEA 2560 2564	axit
+T49	PER 2528 2545	đặc_vụ Arab_Saudi
+T50	PER 2512 2521	Khashoggi

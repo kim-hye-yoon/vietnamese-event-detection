@@ -1,0 +1,34 @@
+T1	Divorce 41 47	ly_hôn
+E1	Divorce:T1 
+T2	Divorce 1218 1224	ly_hôn
+E2	Divorce:T2 Person-Arg:T3
+T3	PER 1193 1198	Hương
+T4	Divorce 1511 1517	ly_hôn
+E3	Divorce:T4 
+T5	Phone-write 729 733	viết
+E4	Phone-write:T5 Entity-Arg:T6 Entity-Arg2:T7
+T6	PER 713 716	anh
+T7	PER 760 762	vợ
+T8	Phone-write 792 795	gửi
+E5	Phone-write:T8 Entity-Arg:T9 Time-Arg:T10
+T9	PER 788 791	anh
+T10	TIME 796 805	sau 8 năm
+T11	Divorce 1088 1094	ly_hôn
+E6	Divorce:T11 Time-Arg:T12 Person-Arg:T13 Person-Arg2:T14
+T12	TIME 1110 1118	năm 2011
+T13	PER 1067 1069	cô
+T14	PER 1097 1102	chồng
+T15	Divorce 1358 1364	ly_hôn
+E7	Divorce:T15 Person-Arg:T17
+T16	Transport 1379 1385	chuyển
+E8	Transport:T16 
+T17	PER 1246 1248	cô
+T18	Meet 2151 2157	gặp_gỡ
+E9	Meet:T18 Entity-Arg:T19
+T19	PER 2168 2171	anh
+T20	Be-born 2295 2299	sinh
+E10	Be-born:T20 Person-Arg:T22
+T21	Be-born 2330 2332	đẻ
+E11	Be-born:T21 Person-Arg:T23
+T22	PER 2300 2308	con_trai
+T23	PER 2341 2346	3 cậu

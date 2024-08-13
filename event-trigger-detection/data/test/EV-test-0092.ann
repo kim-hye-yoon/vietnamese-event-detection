@@ -1,0 +1,55 @@
+T1	PER 2 8	Cậu ấm
+T2	Transport 11 14	lái
+E1	Transport:T2 Agent-Arg:T1 Vehicle-Arg:T3
+T3	VEH 15 21	xế hộp
+T6	PER 32 37	người
+T7	Transport 40 47	bỏ trốn
+E4	Transport:T7 Artifact-Arg:T1
+T8	TIME 48 57	Ngày 10/3
+T9	ORG 60 88	Cơ_quan CSĐT Công_an TP._Huế
+T10	Trial-hearing 92 99	khởi_tố
+E5	Trial-hearing:T10 Adjudicator-Arg:T9 Time-Arg:T8 Crime-Arg:T15
+T11	Trial-hearing 108 115	khởi_tố
+E6	Trial-hearing:T11 Time-Arg:T8 Defendant-Arg:T12 Adjudicator-Arg:T9 Crime-Arg:T15
+T12	PER 116 122	bị_can
+T13	Arrest-jail 126 129	bắt
+E7	Arrest-jail:T13 Agent-Arg:T9 Person-Arg:T14 Crime-Arg:T15
+T14	PER 135 214	Nguyễn_Văn_Hoà_Khánh ( SN 1994 , ngụ 51 Hoàng_Diệu , phường Tây_Lộc , TP._Huế )
+T15	CRIME 218 283	hành_vi điều_khiển phương_tiện giao_thông gây tai_nạn rồi bỏ chạy
+T16	TIME 297 317	khoảng 0h55 ngày 9.3
+T17	PER 320 325	Khánh
+T18	Transport 326 336	điều_khiển
+E8	Transport:T18 Vehicle-Arg:T19 Agent-Arg:T17 Time-Arg:T16
+T19	VEH 337 340	ôtô
+T20	PER 420 425	Khánh
+T21	Attack 426 430	tông
+E9	Attack:T21 Attacker-Arg:T20 Target-Arg:T22
+T22	PER 445 508	anh Thái_Ngọc_Tấn ( SN 1980 , ngụ phường Hương_Long , TP._Huế )
+T23	VEH 435 441	xe_đạp
+T24	Transport 509 519	điều_khiển
+E10	Transport:T24 Agent-Arg:T22 Vehicle-Arg:T23
+T26	Injure 558 570	trọng_thương
+E11	Injure:T26 Victim-Arg:T25
+T27	PER 602 607	Khánh
+T28	Transport 636 646	điều_khiển
+E12	Transport:T28 Vehicle-Arg:T29 Agent-Arg:T27
+T29	VEH 647 650	ôtô
+T25	PER 547 554	anh Tấn
+T30	PER 661 668	Anh Tấn
+T31	Die 710 717	tử_vong
+E13	Die:T31 Victim-Arg:T30 Place-Arg:T32
+T32	LOC 723 739	đường đi cấp_cứu
+T33	ORG 824 839	cơ_quan công_an
+T34	Arrest-jail 894 901	bắt_giữ
+E14	Arrest-jail:T34 Person-Arg:T35 Agent-Arg:T33
+T35	PER 902 907	Khánh
+T4	Die 22 31	tông chết
+E2	Die:T4 Agent-Arg:T1 Victim-Arg:T6
+T5	PER 135 155	Nguyễn_Văn_Hoà_Khánh
+T36	Be-born 158 160	SN
+E3	Be-born:T36 Person-Arg:T5 Time-Arg:T37
+T37	TIME 161 165	1994
+T38	PER 445 462	anh Thái_Ngọc_Tấn
+T39	Be-born 465 467	SN
+E15	Be-born:T39 Person-Arg:T38 Time-Arg:T40
+T40	TIME 468 472	1980

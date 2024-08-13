@@ -1,0 +1,22 @@
+T1	PER 1143 1154	một_số ngườ
+T2	Demonstrate 1156 1162	tụ_tập
+E1	Demonstrate:T2 Entity-Arg:T1 Time-Arg:T3
+T3	TIME 1117 1126	ngày 10/6
+T4	PER 1575 1592	Công_an thành_phố
+T5	Arrest-jail 1596 1599	bắt
+E2	Arrest-jail:T5 Agent-Arg:T4 Person-Arg:T6 Crime-Arg:T7
+T6	PER 1600 1609	hai người
+T7	CRIME 1619 1633	rải truyền_đơn
+T8	TIME 2000 2009	Ngày 10/6
+T9	GPE 2014 2020	Hà_Nội
+T10	Demonstrate 2024 2030	tụ_tập
+E3	Demonstrate:T10 Place-Arg:T12 Entity-Arg:T11 Place-Arg2:T9 Time-Arg:T8
+T11	PER 2031 2041	đông người
+T12	LOC 2044 2087	khu_vực Nhà_hát lớn và tượng_đài Lý_Thái_Tổ
+T13	Demonstrate 60 69	biểu_tình
+E4	Demonstrate:T13 
+T14	PER 2164 2171	Công_an
+T15	PER 2176 2188	một_số người
+T16	FAC 2192 2198	trụ_sở
+T17	Transport 2172 2175	đưa
+E5	Transport:T17 Agent-Arg:T14 Artifact-Arg:T15 Destination-Arg:T16

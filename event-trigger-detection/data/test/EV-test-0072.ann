@@ -1,0 +1,24 @@
+T1	PER 33 38	vệ_sĩ
+T2	Attack 39 48	hành_hung
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 49 64	người biểu_tình
+T4	PER 67 83	Vệ_sĩ của Macron
+T5	Attack 84 93	hành_hung
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6
+T6	PER 94 109	người biểu_tình
+T7	TIME 658 667	ngày 20/7
+T8	End-position 692 699	sa_thải
+E3	End-position:T8 Person-Arg:T9 Time-Arg:T7 Entity-Arg:T16
+T9	PER 700 707	Benalla
+T10	PER 710 718	Cảnh_sát
+T11	Arrest-jail 726 734	bắt giam
+E4	Arrest-jail:T11 Person-Arg:T12 Agent-Arg:T10
+T12	PER 735 759	anh ta và một vệ_sĩ khác
+T13	PER 1369 1395	Ba nhân_viên cảnh_sát khác
+T14	Arrest-jail 1401 1407	bị bắt
+E5	Arrest-jail:T14 Person-Arg:T13 Crime-Arg:T15
+T15	CRIME 1412 1469	cáo_buộc cung_cấp bằng_chứng ngoại_phạm giả cho vệ_sĩ này
+T16	ORG 632 657	văn_phòng Tổng_thống Pháp
+T17	PER 1093 1100	Benalla
+T18	End-position 1116 1124	đình_chỉ
+E6	End-position:T18 Person-Arg:T17

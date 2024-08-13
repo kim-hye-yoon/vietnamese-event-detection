@@ -1,0 +1,35 @@
+T1	Divorce 42 48	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 16 41	vợ_chồng chủ Trung_Nguyên
+T3	TIME 57 61	25/2
+T4	Divorce 82 88	ly_hôn
+E2	Divorce:T4 Time-Arg:T3 Person-Arg:T5 Person-Arg2:T6
+T5	PER 94 127	bà Lê_Hoàng_Diệp_Thảo ( 46 tuổi )
+T6	PER 131 166	chồng Đặng_Lê_Nguyên_Vũ ( 48 tuổi )
+T7	Divorce 1051 1057	ly_hôn
+E3	Divorce:T7 
+T8	Divorce 1196 1202	ly_hôn
+E4	Divorce:T8 Person-Arg:T9
+T9	PER 1176 1183	hai bên
+T10	Start-org 2375 2386	khởi_nghiệp
+E5	Start-org:T10 Agent-Arg:T11 Time-Arg:T12
+T11	PER 2368 2374	Ông Vũ
+T12	TIME 2390 2398	năm 1996
+T13	Marry 2701 2708	kết_hôn
+E6	Marry:T13 
+T14	Be-born 2711 2715	sinh
+E7	Be-born:T14 Person-Arg:T15
+T15	PER 2716 2719	con
+T19	Divorce 3034 3040	ly_hôn
+E11	Divorce:T19 
+T20	Transfer-ownership 3483 3488	hưởng
+E12	Transfer-ownership:T20 Beneficiary-Arg:T21 Price-Arg:T22
+T21	PER 3462 3469	bà Thảo
+T22	MONEY 3508 3521	2.114 tỷ đồng
+T23	Transfer-ownership 3743 3748	hưởng
+E13	Transfer-ownership:T23 Beneficiary-Arg:T24
+T24	PER 3726 3729	ông
+T25	Start-org 4253 4262	thành_lập
+E14	Start-org:T25 Org-Arg:T26 Agent-Arg:T27
+T26	ORG 4263 4270	công_ty
+T27	PER 4278 4281	ông

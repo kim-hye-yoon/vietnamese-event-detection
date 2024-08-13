@@ -1,0 +1,5 @@
+T1	TIME 0 10	Ngày 26/11
+T2	ORG 13 25	Bộ Tài_chính
+T3	Start-org 26 37	khai_trương
+E1	Start-org:T3 Agent-Arg:T2 Time-Arg:T1 Org-Arg:T4
+T4	ORG 52 107	Cổng thông_tin điện_tử Bộ Tài_chính và Kho_bạc Nhà_nước

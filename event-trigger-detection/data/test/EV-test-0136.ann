@@ -1,0 +1,91 @@
+T1	Arquit 403 414	xin giảm án
+E1	Arquit:T1 Defendant-Arg:T18
+T2	Attack 10 14	chặt
+E2	Attack:T2 Target-Arg:T3
+T3	PER 0 6	Cô_gái
+T4	Arquit 23 26	tha
+E3	Arquit:T4 Defendant-Arg:T5
+T5	PER 40 51	Hồ_Duy_Trúc
+T6	Die 31 35	chết
+E4	Die:T6 Victim-Arg:T5
+T7	Sentence 113 118	tuyên
+E5	Sentence:T7 Sentence-Arg:T8 Adjudicator-Arg:T9 Defendant-Arg:T11 Time-Arg:T10
+T8	SEN 124 131	tử_hình
+T9	ORG 75 112	Toà Phúc_thẩm TAND Tối_cao tại TP HCM
+T10	TIME 54 66	Hơn một tuần
+T11	PER 140 174	Hồ_Duy_Trúc , kẻ cầm_đầu băng cướp
+T12	Attack 175 179	chặt
+E6	Attack:T12 Attacker-Arg:T11 Target-Arg:T13
+T13	PER 208 244	chị Nguyễn_Thị_Ngọc_Thuý ( 30 tuổi )
+T14	Arquit 278 281	tha
+E7	Arquit:T14 Adjudicator-Arg:T15 Defendant-Arg:T17
+T15	PER 260 273	Chủ_tịch nước
+T16	Die 286 290	chết
+E8	Die:T16 Victim-Arg:T17
+T17	PER 295 309	tướng_cướp trẻ
+T18	PER 419 423	Trúc
+T19	Arquit 576 588	giảm nhẹ tội
+E9	Arquit:T19 Defendant-Arg:T20
+T20	PER 593 599	bị_cáo
+T21	Arquit 696 704	giảm tội
+E10	Arquit:T21 Adjudicator-Arg:T22
+T22	PER 655 668	chủ_tịch nước
+T23	Arquit 1206 1224	giảm nhẹ hình_phạt
+E11	Arquit:T23 Adjudicator-Arg:T24
+T24	ORG 1190 1193	toà
+T25	Transport 1683 1687	chạy
+E12	Transport:T25 Artifact-Arg:T30 Vehicle-Arg:T26 Destination-Arg:T31 Agent-Arg:T27 Agent-Arg2:T28 Agent-Arg3:T29 Time-Arg:T32
+T26	VEH 1688 1690	xe
+T27	PER 1638 1642	Trúc
+T28	PER 1646 1651	Luông
+T29	PER 1657 1665	đồng_bọn
+T30	WEA 1676 1682	mã_tấu
+T31	LOC 1696 1768	các tuyến đường vắng người thuộc địa_bàn quận 7 , quận 2 và huyện Nhà_Bè
+T32	TIME 1577 1593	Chiều 24/11/2012
+T33	Transport 1866 1870	chạy
+E13	Transport:T33 Agent-Arg:T35 Vehicle-Arg:T34 Origin-Arg:T36 Destination-Arg:T37
+T34	VEH 1871 1873	SH
+T35	PER 1845 1865	chị Thuý ( 30 tuổi )
+T36	GPE 1888 1894	quận 7
+T37	GPE 1900 1906	quận 2
+T38	Attack 1930 1934	chém
+E14	Attack:T38 Target-Arg:T40 Attacker-Arg:T39
+T39	PER 1829 1834	chúng
+T40	PER 1935 1943	chị Thuý
+T41	Attack 2119 2123	chém
+E15	Attack:T41 
+T42	Injure 2224 2235	thương_tích
+E16	Injure:T42 Victim-Arg:T45 Agent-Arg:T46
+T43	Injure 2039 2049	thương_tật
+E17	Injure:T43 Victim-Arg:T44
+T44	PER 2015 2023	chị Thuý
+T45	PER 2236 2244	12 người
+T46	PER 2145 2170	băng_nhóm do Trúc cầm_đầu
+T47	Sentence 2293 2303	tuyên_phạt
+E18	Sentence:T47 Defendant-Arg:T50 Adjudicator-Arg:T49 Time-Arg:T48 Sentence-Arg:T51 Defendant-Arg2:T52 Sentence-Arg2:T53 Crime-Arg:T54
+T48	TIME 2252 2264	háng 12/2013
+T49	ORG 2267 2278	TAND TP HCM
+T50	PER 2304 2308	Trúc
+T51	SEN 2316 2323	tử_hình
+T52	PER 2326 2340	Trần_Văn_Luông
+T53	SEN 2344 2354	chung_thân
+T54	CRIME 2362 2374	Cướp tài_sản
+T55	PER 2405 2512	các bị_cáo Nguyễn_Hoàng_Phương ( 20 tuổi ) , Huỳnh_Thanh_Sơn ( 31 tuổi , quê Tây_Ninh ) và Trần_Thanh_Tuyền
+T56	Sentence 2518 2522	nhận
+E19	Sentence:T56 Sentence-Arg:T57 Defendant-Arg:T55
+T57	SEN 2526 2542	12 đến 20 năm tù
+T58	Sentence 2581 2585	nhận
+E20	Sentence:T58 Sentence-Arg:T60 Defendant-Arg:T59 Crime-Arg:T61
+T59	PER 2567 2575	3 bị_cáo
+T60	SEN 2589 2610	9 tháng đến 12 năm tù
+T61	CRIME 2622 2717	Tiêu_thụ tài_sản do người khác phạm_tội mà có ; Tàng_trữ , mua_bán trái_phép vũ_khí quân_dụng .
+T62	Appeal 2757 2766	kháng_cáo
+E21	Appeal:T62 Defendant-Arg:T64
+T63	Arquit 2771 2789	giảm nhẹ hình_phạt
+E22	Arquit:T63 Defendant-Arg:T64
+T64	PER 2718 2746	Bị_cáo Trúc , Luông và Tuyền
+T65	Sentence 2844 2854	tuyên_phạt
+E23	Sentence:T65 Defendant-Arg:T67 Sentence-Arg:T66 Defendant-Arg2:T68
+T66	SEN 2855 2864	12 năm tù
+T67	PER 2811 2815	Trúc
+T68	ORG 2823 2843	TAND tỉnh Ninh_Thuận

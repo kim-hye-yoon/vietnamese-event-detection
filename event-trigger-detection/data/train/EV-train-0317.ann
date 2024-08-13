@@ -1,0 +1,21 @@
+T1	Transport 131 134	bay
+E1	Transport:T1 Destination-Arg:T5 Origin-Arg:T6 Vehicle-Arg:T4
+T2	Attack 168 178	không_kích
+E2	Attack:T2 Target-Arg:T3 Instrument-Arg:T4
+T3	ORG 196 224	phiến quân Nhà_nước Hồi_giáo
+T4	VEH 58 90	Một oanh_tạc cơ tầm xa Tu -95 MS
+T5	GPE 144 164	lãnh_thổ Iran , Iraq
+T6	LOC 117 128	sân_bay Nga
+T7	Attack 16 18	nã
+E3	Attack:T7 Instrument-Arg:T8 Target-Arg:T9 Target-Arg2:T10
+T8	WEA 19 26	tên_lửa
+T9	ORG 45 55	IS ở Syria
+T10	VEH 0 15	Oanh_tạc cơ Nga
+T11	TIME 91 100	ngày 26/9
+T12	Transport 101 109	cất_cánh
+E4	Transport:T12 Origin-Arg:T6 Vehicle-Arg:T4 Time-Arg:T11 Destination-Arg:T5
+T13	Attack 374 381	phá_huỷ
+E5	Attack:T13 Target-Arg:T14 Instrument-Arg:T15
+T14	FAC 388 474	căn_cứ ngầm , kho vũ_khí và nhiều cơ_sở khác của phiến quân nằm cách xa các khu dân_cư
+T15	WEA 329 370	tên_lửa hành_trình chiến_lược mới Kh -101
+T16	VEH 301 312	Máy_bay Nga

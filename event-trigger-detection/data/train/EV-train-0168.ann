@@ -1,0 +1,34 @@
+T2	Die 371 380	giết chết
+E1	Die:T2 Time-Arg:T3 Place-Arg:T4 Place-Arg2:T9 Victim-Arg:T1
+T3	TIME 252 264	19h ngày 9/2
+T4	LOC 390 416	phía nam đường Hồ_Chí_Minh
+T5	Die 15 19	chết
+E2	Die:T5 Victim-Arg:T6 Place-Arg:T7
+T6	PER 0 14	Bé gái chăn bò
+T7	FAC 24 32	vệ đường
+T8	Die 165 169	chết
+E3	Die:T8 Place-Arg:T11 Victim-Arg:T10
+T10	PER 157 164	cháu bé
+T11	FAC 174 182	vệ đường
+T9	GPE 226 240	huyện Bố_Trạch
+T1	PER 265 362	cháu N.T . Q ( SN 2002 , trú tại thôn 1 , Khe_Gát , xã Xuân_Trạch , huyện Bố_Trạch , Quảng_Bình )
+T12	Die 718 722	chết
+E4	Die:T12 Victim-Arg:T13 Place-Arg:T14
+T13	PER 707 713	cháu Q
+T14	LOC 727 827	vệ đường , ở khu_vực di_tích lịch_sử sân_bay Khe_Gát , xã Xuân_Trạch , huyện Bố_Trạch ( Quảng_Bình )
+T15	Attack 864 874	cưỡng_hiếp
+E5	Attack:T15 Target-Arg:T16
+T16	PER 844 848	cháu
+T17	Die 952 960	cái chết
+E6	Die:T17 Victim-Arg:T18
+T18	PER 965 971	cháu Q
+T19	Transport 504 506	đi
+E7	Transport:T19 Artifact-Arg:T20 Time-Arg:T21
+T20	PER 494 500	cháu Q
+T21	TIME 462 472	trưa 09/02
+T22	Transport 65 67	đi
+E8	Transport:T22 Agent-Arg:T23
+T23	PER 57 64	con_gái
+T24	Transport 132 134	đi
+E9	Transport:T24 Artifact-Arg:T25
+T25	PER 104 131	người_nhà đã cùng người_dân

@@ -1,0 +1,95 @@
+T1	Pardon 33 38	ân_xá
+E1	Pardon:T1 Defendant-Arg:T2
+T2	PER 0 27	Ông trùm tội_lỗi của Daewoo
+T3	Arrest-jail 154 161	bắt_giữ
+E2	Arrest-jail:T3 Agent-Arg:T5 Person-Arg:T4 Time-Arg:T6
+T4	PER 171 235	31 doanh_nhân , trong đó có một_số giám_đốc chi_nhánh của Daewoo
+T5	PER 127 145	ông Roh_Moo - hyun
+T6	TIME 112 124	Tháng 5/1999
+T7	Transport 256 260	trốn
+E3	Transport:T7 Agent-Arg:T9 Origin-Arg:T8
+T8	GPE 266 274	Hàn_Quốc
+T9	PER 238 245	Ông Kim
+T10	Arrest-jail 346 349	bắt
+E4	Arrest-jail:T10 Agent-Arg:T12 Time-Arg:T13 Person-Arg:T11 Place-Arg:T14
+T11	PER 350 353	ông
+T12	ORG 315 337	ngành tư_pháp Hàn_Quốc
+T13	TIME 304 312	Năm 2001
+T14	LOC 359 372	toàn thế_giới
+T15	Transport 742 748	trở_về
+E5	Transport:T15 Agent-Arg:T17 Destination-Arg:T16 Time-Arg:T18
+T16	GPE 749 757	Hàn_Quốc
+T17	PER 713 720	ông Kim
+T18	TIME 699 710	Giữa năm đó
+T19	Arrest-jail 810 817	bắt_giữ
+E6	Arrest-jail:T19 Person-Arg:T20 Place-Arg:T21
+T20	PER 803 806	Ông
+T21	FAC 827 850	sân_bay quốc_tế Incheon
+T22	Sentence 864 866	xử
+E7	Sentence:T22 Sentence-Arg:T23 Defendant-Arg:T20
+T23	SEN 867 869	tù
+T24	Sentence 895 903	tuyên_án
+E8	Sentence:T24 Defendant-Arg:T27 Time-Arg:T28 Sentence-Arg:T25 Crime-Arg:T26
+T25	SEN 904 918	10 năm tù_giam
+T26	CRIME 926 991	gian_lận tài_chính , biển thủ_công quỹ và hàng_loạt tội_danh khác
+T27	PER 884 887	ông
+T28	TIME 872 881	Năm_ngoái
+T29	Declare-bankruptcy 1027 1034	phá_sản
+E9	Declare-bankruptcy:T29 Org-Arg:T30
+T30	ORG 1009 1015	Daewoo
+T31	Transfer-money 1043 1045	nợ
+E10	Transfer-money:T31 Recipient-Arg:T30 Money-Arg:T32
+T32	MONEY 1046 1059	hơn 80 tỷ USD
+T33	Transfer-money 1235 1243	vay_mượn
+E11	Transfer-money:T33 Recipient-Arg:T34 Money-Arg:T37
+T34	PER 1231 1234	ông
+T35	Transfer-ownership 1216 1219	bán
+E12	Transfer-ownership:T35 Seller-Arg:T36
+T36	PER 1205 1215	một cậu bé
+T37	MONEY 1244 1253	5.000 USD
+T38	Start-org 1257 1266	thành_lập
+E13	Start-org:T38 Agent-Arg:T39 Time-Arg:T40 Agent-Arg2:T34 Agent-Arg3:T41
+T39	ORG 1267 1280	xưởng dệt nhỏ
+T40	TIME 1281 1289	năm 1967
+T41	PER 1294 1303	5 cộng_sự
+T42	Transfer-money 2661 2664	vay
+E14	Transfer-money:T42 Recipient-Arg:T43
+T43	PER 2582 2602	ông Kim_Woo - choong
+T44	Declare-bankruptcy 2946 2962	tuyên_bố phá_sản
+E15	Declare-bankruptcy:T44 Org-Arg:T45
+T45	ORG 2898 2904	Daewoo
+T46	Transport 2995 3002	bỏ trốn
+E16	Transport:T46 Agent-Arg:T49 Origin-Arg:T47 Time-Arg:T48
+T47	LOC 3008 3016	đất_nước
+T48	TIME 3017 3025	năm 1999
+T49	PER 2965 2986	Ông chủ_tịch tập_đoàn
+T50	Transfer-ownership 3129 3132	bán
+E17	Transfer-ownership:T50 Seller-Arg:T51 Artifact-Arg:T52
+T51	ORG 3063 3081	Chính_phủ Hàn_Quốc
+T52	ORG 3133 3155	một_nửa cơ_sở sản_xuất
+T53	Transfer-ownership 3328 3331	mua
+E18	Transfer-ownership:T53 Buyer-Arg:T54 Artifact-Arg:T55
+T54	ORG 3314 3327	nhiều công_ty
+T55	ORG 3336 3350	cơ_sở sản_xuất
+T56	Transport 3540 3550	chuyến bay
+E19	Transport:T56 Agent-Arg:T59 Origin-Arg:T57 Destination-Arg:T58
+T57	GPE 3554 3560	Hà_Nội
+T58	GPE 3522 3530	Hàn_Quốc
+T59	PER 3502 3518	Kim_Woo - choong
+T60	Pardon 3787 3792	ân_xá
+E20	Pardon:T60 Defendant-Arg:T61
+T61	PER 3795 3798	ông
+T62	Declare-bankruptcy 4301 4308	phá_sản
+E21	Declare-bankruptcy:T62 Org-Arg:T63
+T63	ORG 4294 4300	Daewoo
+T64	Transport 4476 4483	trở_lại
+E22	Transport:T64 Destination-Arg:T68 Agent-Arg:T69
+T65	Transport 3889 3896	trở_lại
+E23	Transport:T65 Destination-Arg:T66 Agent-Arg:T67
+T66	GPE 3897 3905	Việt_Nam
+T67	PER 3858 3865	ông Kim
+T68	GPE 4484 4492	Việt_Nam
+T69	PER 4461 4468	ông Kim
+T70	Transfer-ownership 4795 4798	bán
+E24	Transfer-ownership:T70 Place-Arg:T71
+T71	LOC 4804 4840	khắp thế_giới , trong đó có Việt_Nam

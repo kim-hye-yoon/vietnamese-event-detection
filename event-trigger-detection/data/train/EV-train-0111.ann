@@ -1,0 +1,23 @@
+T1	Divorce 30 36	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 13	Vợ Jeff_Bezos
+T3	Divorce 124 129	ly_dị
+E2	Divorce:T3 Person-Arg:T5 Person-Arg2:T6 Time-Arg:T4
+T4	TIME 130 151	sau 25 năm chung sống
+T5	PER 41 68	Ông chủ Amazon – Jeff_Bezos
+T6	PER 98 112	vợ - MacKenzie
+T7	Start-org 561 569	sáng_lập
+E3	Start-org:T7 Agent-Arg:T8 Agent-Arg2:T9
+T8	PER 557 560	nhà
+T9	ORG 570 594	đế_chế mỹ_phẩm L ’ Oreal
+T10	Marry 1133 1137	cưới
+E4	Marry:T10 Person-Arg:T11 Time-Arg:T12
+T11	PER 1113 1117	Shaw
+T12	TIME 1138 1146	năm 1993
+T13	Start-org 1169 1178	thành_lập
+E5	Start-org:T13 Time-Arg:T15 Org-Arg:T14 Agent-Arg:T16
+T14	ORG 1179 1214	đại_gia thương_mại_điện_tử - Amazon
+T15	TIME 1149 1160	Một năm sau
+T16	PER 1163 1168	Bezos
+T17	Divorce 695 701	ly_hôn
+E6	Divorce:T17 

@@ -1,0 +1,16 @@
+T2	Arrest-jail 144 147	bắt
+E1	Arrest-jail:T2 Agent-Arg:T1 Person-Arg:T3
+T5	PER 1351 1355	Trâm
+T6	Convict 1345 1350	xử_lý
+E2	Convict:T6 Adjudicator-Arg:T7 Defendant-Arg:T5 Crime-Arg:T8
+T7	GPE 1324 1333	pháp_luật
+T8	CRIME 1359 1379	tội trộm_cắp tài_sản
+T1	ORG 78 117	Công_an phường 10 ( quận 10 , TP. HCM )
+T9	GPE 98 115	quận 10 , TP. HCM
+T3	PER 153 242	Nguyễn_Thị_Thu_Trâm ( sinh năm 1991 ) - kẻ bắt_cóc bé gái 6 tuổi tại Bệnh_viện Nhi_Đồng 1
+T4	PER 153 172	Nguyễn_Thị_Thu_Trâm
+T10	PER 506 510	Trâm
+T11	TIME 495 503	Sáng 6/4
+T12	Arrest-jail 596 599	bắt
+E3	Arrest-jail:T12 Person-Arg:T10 Time-Arg:T11 Place-Arg:T13
+T13	LOC 520 540	Bệnh_viện Nhi_đồng 1

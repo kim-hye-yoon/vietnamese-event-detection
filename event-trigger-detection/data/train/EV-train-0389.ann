@@ -1,0 +1,194 @@
+T1	Be-born 489 496	sinh ra
+E1	Be-born:T1 Person-Arg:T2 Place-Arg:T3
+T2	PER 477 488	Phuoc Thang
+T3	FAC 503 541	trại tị_nạn của người Việt ở Indonesia
+T4	Transport 48 57	trục_xuất
+E2	Transport:T4 Origin-Arg:T5 Artifact-Arg:T6
+T5	GPE 63 65	Mỹ
+T6	PER 21 44	người Việt và Campuchia
+T7	Transport 756 763	nhập_cư
+E3	Transport:T7 Agent-Arg:T8
+T8	PER 744 755	Nhiều người
+T9	Transport 668 677	trục_xuất
+E4	Transport:T9 Artifact-Arg:T10
+T10	PER 583 648	Phuoc_Thang là một trong những người tị_nạn gốc Việt và Campuchia
+T11	Convict 956 962	kết_án
+E5	Convict:T11 Defendant-Arg:T12
+T12	PER 965 995	những thanh_thiếu_niên nhập_cư
+T13	Transport 988 995	nhập_cư
+E6	Transport:T13 Agent-Arg:T12
+T14	Marry 1123 1130	kết_hôn
+E7	Marry:T14 Person-Arg:T15 Place-Arg:T18
+T15	PER 1120 1122	Họ
+T16	Be-born 1133 1137	sinh
+E8	Be-born:T16 Person-Arg:T17 Place-Arg:T18
+T17	PER 1138 1141	con
+T18	GPE 1176 1178	Mỹ
+T19	Transport 1349 1355	trở_về
+E9	Transport:T19 Destination-Arg:T20 Agent-Arg:T21
+T20	GPE 1356 1364	Việt_Nam
+T21	PER 1279 1282	anh
+T22	Transport 1419 1421	về
+E10	Transport:T22 Artifact-Arg:T23
+T23	PER 1384 1397	những đứa con
+T24	Transport 1514 1521	gửi trả
+E11	Transport:T24 Artifact-Arg:T25 Agent-Arg:T26
+T25	PER 1522 1525	tôi
+T26	PER 1511 1513	họ
+T27	Transport 1537 1539	về
+E12	Transport:T27 Agent-Arg:T28
+T28	PER 1533 1536	tôi
+T29	Be-born 1925 1932	sinh ra
+E13	Be-born:T29 Person-Arg:T30 Place-Arg:T31
+T30	PER 1873 1920	hai cô con_gái , Mia 3 tuổi và Audrina 16 tháng
+T31	GPE 1935 1937	Mỹ
+T32	Arrest-jail 2213 2220	bắt_giữ
+E14	Arrest-jail:T32 Agent-Arg:T33 Time-Arg:T34
+T33	ORG 2143 2171	Cơ_quan Di_trú và Nhập_cư Mỹ
+T34	TIME 2224 2235	đầu năm nay
+T35	Transport 2274 2283	trục_xuất
+E15	Transport:T35 Artifact-Arg:T36 Agent-Arg:T37
+T36	PER 2284 2408	những người nhập_cư có tiền_án tiền_sự , kể_cả công_dân của những quốc_gia chưa từng hợp_tác hay đồng_ý nhận lại người từ Mỹ
+T37	ORG 2240 2257	chính_quyền Trump
+T38	Transport 2459 2466	gửi trả
+E16	Transport:T38 Artifact-Arg:T39 Destination-Arg:T40 Agent-Arg:T41
+T39	PER 2467 2505	những cá_nhân ngoại_quốc từng phạm_tội
+T40	LOC 2509 2525	quê_hương của họ
+T41	ORG 2434 2455	chính_quyền ( Trump )
+T42	Transport 2645 2651	trở_về
+E17	Transport:T42 Agent-Arg:T43
+T43	PER 2656 2677	các công_dân của mình
+T44	Transport 2905 2914	trục_xuất
+E18	Transport:T44 Origin-Arg:T45 Artifact-Arg:T46 Time-Arg:T47
+T45	GPE 2920 2922	Mỹ
+T46	PER 2787 2828	1.836 người Campuchia và 8.585 người Việt
+T47	TIME 2772 2781	ngày 23/7
+T48	Convict 2962 2968	kết_án
+E19	Convict:T48 
+T49	Transport 3043 3050	nhập_cư
+E20	Transport:T49 Agent-Arg:T50 Origin-Arg:T51 Destination-Arg:T52 Time-Arg:T53
+T50	PER 3037 3050	người nhập_cư
+T51	GPE 3055 3059	Việt
+T52	GPE 3080 3082	Mỹ
+T53	TIME 3083 3097	trước năm 1995
+T54	Transport 3220 3229	trục_xuất
+E21	Transport:T54 Artifact-Arg:T55 Agent-Arg:T56
+T55	PER 3210 3219	đối_tượng
+T56	ORG 3134 3151	chính_quyền Trump
+T57	Transport 3250 3253	đến
+E22	Transport:T57 Agent-Arg:T58 Destination-Arg:T59
+T58	PER 3238 3249	những người
+T59	GPE 3254 3256	Mỹ
+T60	Transport 3326 3336	chuyển đến
+E23	Transport:T60 Destination-Arg:T61 Time-Arg:T62 Agent-Arg:T64
+T61	GPE 3344 3352	San_Jose
+T62	TIME 3357 3375	đầu những năm 1980
+T63	PER 0 7	Quá_khứ
+T64	PER 3317 3325	gia_đình
+T65	Arrest-jail 3498 3501	bắt
+E24	Arrest-jail:T65 Time-Arg:T68 Person-Arg:T67 Crime-Arg:T69
+T66	Convict 3505 3512	kết_tội
+E25	Convict:T66 Time-Arg:T68 Defendant-Arg:T67 Crime-Arg:T69
+T67	PER 3483 3494	Phuoc_Thang
+T68	TIME 3472 3480	Năm 2001
+T69	CRIME 3513 3538	tàng_trữ vũ_khí và ma_tuý
+T70	Transport 3584 3593	trục_xuất
+E26	Transport:T70 Agent-Arg:T71 Artifact-Arg:T67
+T71	PER 3597 3606	thẩm_phán
+T72	Arrest-jail 3807 3810	bắt
+E27	Arrest-jail:T72 Person-Arg:T74 Time-Arg:T75 Crime-Arg:T73
+T73	CRIME 3814 3833	lái_xe khi say rượu
+T74	PER 3796 3799	anh
+T75	TIME 3785 3793	năm 2009
+T76	Transport 3896 3906	gửi trả về
+E28	Transport:T76 Artifact-Arg:T78 Destination-Arg:T77
+T77	GPE 3907 3915	Việt_Nam
+T78	PER 3858 3869	Phuoc_Thang
+T79	Arrest-jail 3965 3968	bắt
+E29	Arrest-jail:T79 Agent-Arg:T81 Person-Arg:T80 Time-Arg:T82 Place-Arg:T83
+T80	PER 3969 4003	khoảng 200 người Việt và Campuchia
+T81	ORG 3961 3964	ICE
+T82	TIME 3949 3958	Năm_ngoái
+T83	LOC 4004 4021	trên khắp cả nước
+T84	Arrest-jail 4108 4115	bắt_giữ
+E30	Arrest-jail:T84 Time-Arg:T85
+T85	TIME 4139 4147	năm 2018
+T86	Transfer-ownership 4572 4576	nhận
+E31	Transfer-ownership:T86 Time-Arg:T87 Beneficiary-Arg:T88 Seller-Arg:T89
+T87	TIME 4613 4620	mỗi năm
+T88	GPE 4522 4531	Campuchia
+T89	GPE 4560 4562	Mỹ
+T90	Transport 4660 4669	trục_xuất
+E32	Transport:T90 Artifact-Arg:T91 Time-Arg:T92
+T91	PER 4638 4653	người Campuchia
+T92	TIME 4688 4697	năm_ngoái
+T93	Be-born 5047 5054	sinh ra
+E33	Be-born:T93 Person-Arg:T94 Place-Arg:T95
+T94	PER 5008 5046	Borey " Peejay " Ai là người Campuchia
+T95	FAC 5065 5087	trại tị_nạn ở Thái_Lan
+T96	Transport 5166 5169	đến
+E34	Transport:T96 Agent-Arg:T98 Destination-Arg:T97
+T97	GPE 5170 5172	Mỹ
+T98	PER 5154 5165	Cả gia_đình
+T99	Die 5362 5366	chết
+E35	Die:T99 Victim-Arg:T101 Place-Arg:T102 Instrument-Arg:T142
+T100	Attack 5358 5361	bắn
+E36	Attack:T100 Target-Arg:T101 Place-Arg:T102 Instrument-Arg:T142
+T101	PER 5342 5354	em họ 7 tuổi
+T102	FAC 5397 5422	trường tiểu_học Cleveland
+T103	Attack 5373 5394	vụ xả súng kinh_hoàng
+E37	Attack:T103 Target-Arg:T102 Instrument-Arg:T142
+T104	Attack 5460 5468	cầm súng
+E38	Attack:T104 Attacker-Arg:T105 Time-Arg:T106 Instrument-Arg:T143
+T105	PER 5440 5442	Ai
+T106	TIME 5425 5437	7 năm sau đó
+T107	Convict 5492 5499	kết_tội
+E39	Convict:T107 Defendant-Arg:T110 Crime-Arg:T112
+T108	Die 5500 5504	giết
+E40	Die:T108 Victim-Arg:T109 Agent-Arg:T110 Time-Arg:T111
+T109	PER 5505 5510	người
+T110	PER 5485 5488	anh
+T111	TIME 5471 5482	Năm 14 tuổi
+T112	CRIME 5500 5521	giết người cấp_độ hai
+T113	Attack 5530 5533	bắn
+E41	Attack:T113 Target-Arg:T115 Attacker-Arg:T110
+T114	Die 5534 5538	chết
+E42	Die:T114 Victim-Arg:T115 Agent-Arg:T110
+T115	PER 5539 5560	một chủ cửa_hàng rượu
+T116	Convict 5586 5596	phán_quyết
+E43	Convict:T116 Adjudicator-Arg:T117 Defendant-Arg:T118
+T117	ORG 5601 5607	toà_án
+T118	PER 5610 5612	Ai
+T119	SEN 5684 5694	chung_thân
+T120	Sentence 5675 5683	tuyên_án
+E44	Sentence:T120 Sentence-Arg:T119 Defendant-Arg:T118 Adjudicator-Arg:T117
+T121	Pardon 5726 5731	ân_xá
+E45	Pardon:T121 Defendant-Arg:T123 Time-Arg:T124
+T122	PER 0 7	Quá_khứ
+T123	PER 5718 5720	Ai
+T124	TIME 5736 5744	năm 2016
+T125	Arrest-jail 5879 5887	giam_giữ
+E46	Arrest-jail:T125 Place-Arg:T126 Agent-Arg:T127 Person-Arg:T128
+T126	GPE 5888 5935	Rio_Consumes , hạt Sacramento , bang California
+T127	PER 5848 5850	Họ
+T128	PER 5861 5864	anh
+T129	Appeal 5982 5991	kháng_cáo
+E47	Appeal:T129 Defendant-Arg:T130
+T130	PER 5960 5962	Ai
+T131	Pardon 6014 6019	ân_xá
+E48	Pardon:T131 Adjudicator-Arg:T132 Crime-Arg:T133 Defendant-Arg:T130
+T132	PER 5999 6013	thống_đốc bang
+T133	CRIME 6024 6038	tội giết người
+T134	Die 6028 6032	giết
+E49	Die:T134 Victim-Arg:T135
+T135	PER 6033 6038	người
+T136	Pardon 6079 6084	ân_xá
+E50	Pardon:T136 Adjudicator-Arg:T137 Defendant-Arg:T138
+T137	PER 6049 6071	thống_đốc Jerrry_Brown
+T138	PER 6087 6089	Ai
+T139	Transport 6104 6113	trục_xuất
+E51	Transport:T139 Artifact-Arg:T138 Time-Arg:T140
+T140	TIME 6114 6128	bất_cứ lúc_nào
+T141	PER 7059 7066	An_Hồng
+T142	WEA 5379 5383	súng
+T143	WEA 5464 5468	súng

@@ -1,0 +1,14 @@
+T1	PER 1200 1209	157 người
+T2	Die 1210 1220	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1
+T3	Transport 1169 1172	rơi
+E2	Transport:T3 Destination-Arg:T5 Artifact-Arg:T4
+T4	VEH 1133 1140	máy_bay
+T5	GPE 1183 1191	Bishoftu
+T6	Transport 70 73	rơi
+E3	Transport:T6 
+T7	Transport 111 114	rơi
+E4	Transport:T7 Destination-Arg:T9 Artifact-Arg:T8 Time-Arg:T10
+T8	VEH 92 110	Ethiopian_Airlines
+T9	GPE 119 127	Bishoftu
+T10	TIME 128 137	ngày 10/3

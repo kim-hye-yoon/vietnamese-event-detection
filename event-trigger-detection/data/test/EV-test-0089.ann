@@ -1,0 +1,24 @@
+T1	Arrest-jail 139 146	bắt_giữ
+E1	Arrest-jail:T1 Agent-Arg:T3 Crime-Arg:T4 Person-Arg:T2
+T3	ORG 59 111	Cơ_quan CSĐT - Công_an TP. Cao_Lãnh , tỉnh Đồng_Tháp
+T4	CRIME 235 245	giết người
+T5	Attack 569 572	đâm
+E2	Attack:T5 Target-Arg:T7 Attacker-Arg:T6 Instrument-Arg:T9
+T6	PER 547 550	Ron
+T7	PER 573 576	Hận
+T8	Injure 592 601	bị_thương
+E3	Injure:T8 Victim-Arg:T11
+T9	WEA 556 568	dao Thái_Lan
+T10	Die 610 617	tử_vong
+E4	Die:T10 Victim-Arg:T11
+T11	PER 583 591	nạn_nhân
+T12	Transport 306 308	đi
+E5	Transport:T12 Destination-Arg:T15 Artifact-Arg:T13 Time-Arg:T14
+T13	PER 302 305	Ron
+T14	TIME 277 299	khoảng 19 giờ ngày 9.2
+T15	FAC 328 331	nhà
+T2	PER 157 223	Phạm_Cà_Ron ( SN 1974 , ngụ tổ 5 ấp 1 , xã Mỹ_Tân , TP. Cao_Lãnh )
+T17	PER 16 25	đối_tượng
+T18	WEA 42 45	dao
+T16	Die 26 36	giết người
+E6	Die:T16 Instrument-Arg:T18 Agent-Arg:T17

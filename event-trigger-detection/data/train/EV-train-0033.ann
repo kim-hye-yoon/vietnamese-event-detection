@@ -1,0 +1,3 @@
+T1	PER 96 104	chúng_tô
+T2	Marry 106 113	kết_hôn
+E1	Marry:T2 Person-Arg:T1

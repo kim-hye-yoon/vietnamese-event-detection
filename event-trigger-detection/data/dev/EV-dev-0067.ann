@@ -1,0 +1,21 @@
+T1	Arquit 17 24	tha_tội
+E1	Arquit:T1 Defendant-Arg:T2
+T2	PER 29 51	tên trộm tiền đẹp_trai
+T3	Arquit 391 394	tha
+E2	Arquit:T3 Defendant-Arg:T6
+T4	Arquit 287 290	tha
+E3	Arquit:T4 Defendant-Arg:T5
+T5	PER 198 252	Tên trộm có dáng_vẻ thư_sinh , tay đeo nhiều nhẫn vàng
+T6	PER 399 407	tên trộm
+T7	Arrest-jail 627 630	bắt
+E4	Arrest-jail:T7 Person-Arg:T8
+T8	PER 633 636	hắn
+T9	Arquit 711 714	tha
+E5	Arquit:T9 Defendant-Arg:T10
+T10	PER 719 727	tên trộm
+T11	Arquit 737 740	tha
+E6	Arquit:T11 Defendant-Arg:T12
+T12	PER 745 747	nó
+T13	Attack 955 964	tung cước
+E7	Attack:T13 Attacker-Arg:T14
+T14	PER 948 954	chủ xe

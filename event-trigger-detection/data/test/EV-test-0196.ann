@@ -1,0 +1,34 @@
+T1	Transport 135 137	ra
+E1	Transport:T1 Origin-Arg:T3 Artifact-Arg:T2
+T2	PER 131 134	anh
+T3	LOC 143 146	nhà
+T4	Phone-write 569 577	gọi điện
+E2	Phone-write:T4 Entity-Arg:T5
+T5	PER 565 568	anh
+T6	Transport 860 864	chạy
+E3	Transport:T6 Artifact-Arg:T7
+T7	PER 856 859	Tôi
+T8	Phone-write 1103 1111	liên_lạc
+E4	Phone-write:T8 Entity-Arg:T9 Entity-Arg2:T10
+T9	PER 1116 1131	em - phụ_nữ kia
+T10	PER 1088 1091	anh
+T11	Phone-write 1227 1235	liên_lạc
+E5	Phone-write:T11 Entity-Arg:T12
+T12	PER 1214 1217	anh
+T13	Phone-write 1390 1393	gọi
+E6	Phone-write:T13 Entity-Arg:T14 Entity-Arg2:T15
+T14	PER 1386 1389	Tôi
+T15	PER 1402 1405	anh
+T16	Phone-write 2064 2067	gọi
+E7	Phone-write:T16 Entity-Arg:T17 Entity-Arg2:T18
+T17	PER 2060 2063	tôi
+T18	PER 2068 2071	anh
+T19	PER 2703 2705	em
+T20	Phone-write 2706 2714	nhắn_tin
+E8	Phone-write:T20 Entity-Arg:T19 Entity-Arg2:T22
+T21	Meet 2720 2723	gặp
+E9	Meet:T21 Entity-Arg:T19 Entity-Arg2:T22
+T22	PER 2724 2736	vợ_chồng tôi
+T23	Phone-write 3916 3924	Gọi điện
+E10	Phone-write:T23 Entity-Arg:T24
+T24	PER 3929 3942	biên_tập_viên

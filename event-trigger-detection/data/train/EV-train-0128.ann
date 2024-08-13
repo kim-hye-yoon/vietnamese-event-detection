@@ -1,0 +1,29 @@
+T1	ORG 0 10	Công_ty cũ
+T2	End-org 11 18	phá_sản
+E1	End-org:T2 Org-Arg:T1
+T3	PER 44 60	Harvey_Weinstein
+T4	TIME 63 72	Ngày 25/2
+T5	ORG 97 114	Weinstein_Company
+T6	Declare-bankruptcy 138 154	tuyên_bố phá_sản
+E2	Declare-bankruptcy:T6 Org-Arg:T5
+T7	ORG 230 247	Weinstein_Company
+T10	PER 311 324	Ronald_Burkle
+T16	PER 681 697	Harvey_Weinstein
+T17	PER 700 706	Robert
+T18	PER 751 768	Eric Schneiderman
+T19	ORG 777 794	Weinstein_Company
+T20	Fine 795 802	nộp phạ
+E3	Fine:T20 Entity-Arg:T19
+T34	ORG 1543 1550	Miramax
+T35	TIME 1555 1563	năm 1979
+T36	ORG 1567 1588	The_Weinstein_Company
+T37	TIME 1589 1597	năm 2005
+T44	Transfer-ownership 226 229	bán
+E4	Transfer-ownership:T44 Buyer-Arg:T8 Seller-Arg:T7
+T8	ORG 252 298	tập_đoàn đầu_tư của bà Maria_Contreras - Sweet
+T11	Sue 615 621	tố_cáo
+E5	Sue:T11 Defendant-Arg:T12
+T12	PER 622 654	các giám_đốc cấp cao của công_ty
+T9	Start-org 1524 1533	thành_lập
+E6	Start-org:T9 Agent-Arg:T13 Org-Arg:T34 Time-Arg:T35 Org-Arg2:T36 Time-Arg2:T37
+T13	PER 1463 1466	Ông

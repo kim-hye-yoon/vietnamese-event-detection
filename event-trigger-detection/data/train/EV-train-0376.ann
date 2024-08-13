@@ -1,0 +1,4 @@
+T1	Declare-bankruptcy 34 41	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 29	Nhiều trường nghề ở Hải_Phòng
+T3	GPE 20 29	Hải_Phòng

@@ -1,0 +1,23 @@
+T1	End-position 22 25	xoá
+E1	End-position:T1 Position-Arg:T2 Person-Arg:T3
+T2	JOB 34 73	nguyên Bộ_trưởng Thông_tin Truyền_thông
+T3	PER 0 18	Ông Nguyễn_Bắc_Son
+T4	End-position 133 136	xoá
+E2	End-position:T4 Time-Arg:T7 Person-Arg:T6 Position-Arg:T5
+T5	JOB 145 206	nguyên Bộ_trưởng Thông_tin và Truyền_thông nhiệm_kỳ 2011-2016
+T6	PER 211 229	ông Nguyễn_Bắc_Son
+T7	TIME 110 120	ngày 26/10
+T8	PER 123 132	Thủ_tướng
+T9	Meet 350 359	phiên họp
+E3	Meet:T9 Entity-Arg:T11 Time-Arg:T10
+T10	TIME 331 341	sáng 22/10
+T11	ORG 406 415	Thường_vụ
+T12	Meet 527 535	Hội_nghị
+E4	Meet:T12 Time-Arg:T13
+T13	TIME 551 563	đầu tháng 10
+T14	PER 566 584	ông Nguyễn_Bắc_Son
+T15	End-position 588 597	cách_chức
+E5	End-position:T15 Position-Arg:T16 Person-Arg:T14 Time-Arg:T13
+T16	JOB 598 700	Uỷ_viên Trung_ương Đảng khoá XI và Bí_thư Ban cán_sự đảng Bộ Thông_tin Truyền_thông nhiệm_kỳ 2011-2016
+T17	Transfer-ownership 782 785	mua
+E6	Transfer-ownership:T17 

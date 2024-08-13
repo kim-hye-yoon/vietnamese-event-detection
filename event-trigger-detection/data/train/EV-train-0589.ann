@@ -1,0 +1,51 @@
+T1	PER 153 165	Cảnh_sát Nga
+T2	PER 173 182	839 người
+T3	Demonstrate 192 201	biểu_tình
+E1	Demonstrate:T3 Entity-Arg:T2 Time-Arg:T6
+T4	PER 173 233	839 người tham_gia biểu_tình phản_đối dự_luật cải_cách lương
+T5	Arrest-jail 169 172	bắt
+E2	Arrest-jail:T5 Agent-Arg:T1 Person-Arg:T4 Time-Arg:T6
+T6	TIME 238 245	hôm 9/9
+T7	PER 777 785	cảnh_sát
+T8	Arrest-jail 803 810	bắt_giữ
+E3	Arrest-jail:T8 Agent-Arg:T7 Place-Arg:T10 Place-Arg2:T9
+T9	GPE 813 828	St . Petersburg
+T10	GPE 845 851	Moskva
+T11	Demonstrate 1024 1033	biểu_tình
+E4	Demonstrate:T11 Time-Arg:T12
+T12	TIME 1034 1041	hôm 9/9
+T13	PER 1060 1072	Cảnh_sát Nga
+T14	Arrest-jail 1073 1076	bắt
+E5	Arrest-jail:T14 Agent-Arg:T13 Person-Arg:T15 Place-Arg:T16 Place-Arg2:T17 Place-Arg3:T18 Time-Arg:T19
+T15	PER 1077 1102	người biểu_tình trái_phép
+T16	GPE 1105 1111	Moskva
+T17	GPE 1114 1128	St . Peterburg
+T18	GPE 1132 1153	một_số thành_phố khác
+T19	TIME 1154 1161	hôm 9/9
+T20	PER 1463 1470	Navalny
+T21	SEN 1493 1508	án tù một tháng
+T22	Sentence 1488 1492	chịu
+E6	Sentence:T22 Defendant-Arg:T20 Sentence-Arg:T21 Crime-Arg:T23
+T23	CRIME 1512 1542	tổ_chức biểu_tình bất_hợp_pháp
+T24	PER 1724 1744	những người tham_gia
+T25	Arrest-jail 1755 1758	bắt
+E7	Arrest-jail:T25 Person-Arg:T24
+T26	PER 0 12	Cảnh_sát Nga
+T27	Arrest-jail 13 16	bắt
+E8	Arrest-jail:T27 Agent-Arg:T26 Person-Arg:T28
+T28	PER 17 32	hàng trăm người
+T29	Demonstrate 33 42	biểu_tình
+E9	Demonstrate:T29 Entity-Arg:T28
+T30	PER 55 70	Người biểu_tình
+T31	Demonstrate 71 80	tập_trung
+E10	Demonstrate:T31 Entity-Arg:T30 Place-Arg:T32 Place-Arg2:T33 Time-Arg:T34
+T32	LOC 85 115	quảng_trường trung_tâm Pushkin
+T33	GPE 118 131	thủ_đô Moskva
+T34	TIME 132 139	hôm 9/9
+T35	PER 709 732	người kêu_gọi biểu_tình
+T36	Arrest-jail 743 749	bị bắt
+E11	Arrest-jail:T36 Person-Arg:T35
+T37	PER 1357 1369	Một_số người
+T38	Demonstrate 1377 1386	diễu_hành
+E12	Demonstrate:T38 Place-Arg:T39 Entity-Arg:T37
+T39	LOC 1391 1414	trung_tâm thủ_đô Moskva

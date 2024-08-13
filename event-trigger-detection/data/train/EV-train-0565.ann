@@ -1,0 +1,32 @@
+T1	PER 0 16	Hàng nghìn người
+T2	Demonstrate 17 26	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 68 79	Những người
+T4	Demonstrate 94 103	biểu_tình
+E2	Demonstrate:T4 Entity-Arg:T3 Place-Arg:T5 Time-Arg:T6
+T5	GPE 106 116	Washington
+T6	TIME 117 126	ngày 4/10
+T7	PER 526 535	Kavanaugh
+T8	PER 539 543	Ford
+T9	Charge-indict 544 550	tố_cáo
+E3	Charge-indict:T9 Adjudicator-Arg:T8 Adjudicator-Arg2:T7 Crime-Arg:T10 Place-Arg:T12 Time-Arg:T11
+T10	CRIME 551 568	tấn_công tình_dục
+T11	TIME 593 607	những năm 1980
+T12	LOC 576 588	một bữa tiệc
+T13	PER 647 664	hàng nghìn phụ_nữ
+T14	Transport 665 667	đổ
+E4	Transport:T14 Artifact-Arg:T13 Destination-Arg:T15
+T15	LOC 674 694	đường_phố Washington
+T16	TIME 695 704	ngày 4/10
+T17	Demonstrate 705 714	biểu_tình
+E5	Demonstrate:T17 Entity-Arg:T13 Time-Arg:T16
+T18	PER 1118 1132	đoàn biểu_tình
+T19	Transport 1133 1142	tuần_hành
+E6	Transport:T19 Artifact-Arg:T18 Destination-Arg:T20
+T20	LOC 1147 1175	các tuyến phố của Washington
+T21	PER 1516 1530	đoàn biểu_tình
+T22	Transport 1540 1542	đi
+E7	Transport:T22 Artifact-Arg:T21
+T23	PER 1859 1878	hàng nghìn người Mỹ
+T24	Transport 1884 1887	tới
+E8	Transport:T24 Artifact-Arg:T23

@@ -1,0 +1,20 @@
+T1	PER 0 8	Nông_dân
+T2	Demonstrate 9 18	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1 Place-Arg:T3
+T3	LOC 27 52	ở chặng 16 Tour de_France
+T4	PER 77 85	đoàn đua
+T5	Transport 86 95	khởi_hành
+E2	Transport:T5 Agent-Arg:T4
+T6	PER 196 208	nông_dân Phá
+T7	Demonstrate 225 233	phản_đối
+E3	Demonstrate:T7 Entity-Arg:T6 Place-Arg:T13
+T8	PER 560 571	Các tay_đua
+T9	Transport 581 590	khởi_hành
+E4	Transport:T9 Agent-Arg:T8 Origin-Arg:T10
+T10	LOC 593 607	kilomet thứ 33
+T11	PER 610 618	Cảnh_sát
+T12	Attack 619 630	xịt hơi cay
+E5	Attack:T12 Attacker-Arg:T11
+T13	LOC 180 193	hai bên đường
+T14	Demonstrate 643 652	biểu_tình
+E6	Demonstrate:T14 

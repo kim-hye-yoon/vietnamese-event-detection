@@ -1,0 +1,12 @@
+T1	Elect 23 31	được bầu
+E1	Elect:T1 Person-Arg:T2 Position-Arg:T3
+T2	PER 0 22	Luật_sư người Slovenia
+T3	JOB 40 53	Chủ_tịch UEFA
+T4	Elect 454 457	bầu
+E2	Elect:T4 Time-Arg:T7 Entity-Arg:T5 Position-Arg:T6
+T5	ORG 446 450	UEFA
+T6	JOB 458 479	Chủ_tịch nhiệm_kỳ mới
+T7	TIME 435 443	Năm 2018
+T8	Elect 887 895	được bầu
+E3	Elect:T8 Person-Arg:T9
+T9	PER 898 905	Ceferin

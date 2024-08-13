@@ -1,0 +1,16 @@
+T1	Die 227 231	giết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 215 223	học_sinh
+T3	Die 581 589	xác_chết
+E2	Die:T3 Place-Arg:T4
+T4	LOC 533 566	cầu_cảng P. Tân_Thuận_Đông , Q. 7
+T5	Attack 863 870	sát_hại
+E3	Attack:T5 
+T6	Transport 980 983	đến
+E4	Transport:T6 Agent-Arg:T7 Time-Arg:T8
+T7	PER 915 937	gia_đình ông Lư_Nguyên
+T8	TIME 904 912	Sáng 8/3
+T9	ORG 984 1044	Đội Trọng_án Phòng CSĐT tội_phạm về trật_tự xã_hội ( PC 45 )
+T10	Phone-write 1290 1300	điện_thoại
+E5	Phone-write:T10 Entity-Arg:T11
+T11	PER 1277 1285	người lạ

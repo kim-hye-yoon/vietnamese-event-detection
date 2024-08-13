@@ -1,0 +1,29 @@
+T1	Release-parole 296 305	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 234 243	ông Sokha
+T3	Transport 249 255	đưa về
+E2	Transport:T3 Artifact-Arg:T2
+T4	Release-parole 332 343	phóng_thích
+E3	Release-parole:T4 Person-Arg:T5 Time-Arg:T6
+T5	PER 344 370	các tù_nhân chính_trị khác
+T6	TIME 371 378	gần đây
+T7	Meet 886 889	gặp
+E4	Meet:T7 Entity-Arg:T9 Entity-Arg2:T8
+T8	PER 890 917	các quan_chức của đảng CNRP
+T9	PER 869 874	Sokha
+T10	Release-parole 1223 1234	phóng_thích
+E5	Release-parole:T10 Time-Arg:T12 Person-Arg:T11 Crime-Arg:T13
+T11	PER 1208 1217	ông Sokha
+T12	TIME 1235 1242	hôm_qua
+T13	CRIME 1270 1279	phản_quốc
+T14	Arrest-jail 1374 1377	bắt
+E6	Arrest-jail:T14 Time-Arg:T16 Person-Arg:T15
+T15	PER 1338 1370	Cựu lãnh_đạo đối_lập 65 tuổi này
+T16	TIME 1382 1394	tháng 9/2017
+T17	Arrest-jail 1535 1538	bắt
+E7	Arrest-jail:T17 Person-Arg:T18
+T18	PER 1522 1531	Kem Sokha
+T19	Elect 1798 1804	đắc_cử
+E8	Elect:T19 Person-Arg:T20 Time-Arg:T21
+T20	PER 1776 1793	Thủ_tướng Hun_Sen
+T21	TIME 1764 1772	hôm 29/7

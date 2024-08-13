@@ -1,0 +1,29 @@
+T4	PER 42 57	Ông Seokhee_Won
+T5	Start-position 72 81	tiếp_nhận
+E2	Start-position:T5 Person-Arg:T4 Time-Arg:T6
+T6	TIME 112 124	đầu năm 2014
+T7	JOB 144 185	Tổng_Giám_đốc hiện_nay của Masan_Consumer
+T8	PER 189 210	ông Trương_Công_Thắng
+T9	End-position 218 226	từ_nhiệm
+E3	End-position:T9 Person-Arg:T8 Position-Arg:T7
+T11	PER 316 331	ông Seokhee_Won
+T12	Nominate 337 345	bổ_nhiệm
+E4	Nominate:T12 Person-Arg:T11 Position-Arg:T10 Agent-Arg:T13
+T10	JOB 350 431	Tổng_Giám_đốc ( CEO ) của Công_ty_Cổ_phần Hàng_tiêu_dùng Masan ( Masan_Consumer )
+T13	ORG 261 302	Công_ty_Cổ_phần Tập_đoàn Masan ( mã MSN )
+T14	PER 530 545	Ông Seokhee_Won
+T15	Start-position 560 569	tiếp_nhận
+E5	Start-position:T15 Person-Arg:T14 Time-Arg:T16
+T16	TIME 600 612	đầu năm 2014
+T17	JOB 632 673	Tổng_Giám_đốc hiện_nay của Masan_Consumer
+T18	PER 677 698	ông Trương_Công_Thắng
+T19	End-position 706 714	từ_nhiệm
+E6	End-position:T19 Person-Arg:T18 Position-Arg:T17
+T20	PER 734 749	Ông Seokhee_Won
+T21	Start-position 758 761	giữ
+E7	Start-position:T21 Position-Arg:T22 Person-Arg:T20
+T22	JOB 769 802	Phó Tổng_Giám_đốc của Masan_Group
+T23	PER 938 941	ông
+T24	Start-position 942 951	đảm_nhiệm
+E8	Start-position:T24 Person-Arg:T23 Position-Arg:T25
+T25	JOB 959 1109	Phó Chủ_Tịch cấp cao , phụ_trách quản_lý thương_hiệu các sản_phẩm chăm_sóc da của Unilever ở khu_vực Châu_Á và thương_hiệu Ponds trên phạm_vi toàn_cầu

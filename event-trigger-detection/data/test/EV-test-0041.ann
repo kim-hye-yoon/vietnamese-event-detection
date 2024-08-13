@@ -1,0 +1,13 @@
+T2	PER 57 67	hành_khách
+T3	Transfer-ownership 68 71	mua
+E2	Transfer-ownership:T3 Buyer-Arg:T2
+T4	PER 440 458	chủ_nhân của chúng
+T5	Transfer-ownership 465 468	mua
+E3	Transfer-ownership:T5 Buyer-Arg:T4
+T6	PER 777 786	Người chủ
+T7	Transfer-ownership 794 797	mua
+E4	Transfer-ownership:T7 Buyer-Arg:T6
+T8	PER 1294 1311	hơn 30 khách_hàng
+T9	Transport 1315 1319	mang
+E5	Transport:T9 Agent-Arg:T8 Destination-Arg:T10
+T10	LOC 1345 1358	chỗ chúng_tôi

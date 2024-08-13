@@ -1,0 +1,38 @@
+T1	Pardon 38 43	ân_xá
+E1	Pardon:T1 Defendant-Arg:T2
+T2	PER 0 10	Tỷ_phú Nga
+T3	Transport 11 14	bay
+E2	Transport:T3 Agent-Arg:T2 Destination-Arg:T4
+T4	GPE 20 23	Đức
+T5	Arrest-jail 72 79	áp_giải
+E3	Arrest-jail:T5 Person-Arg:T8 Agent-Arg:T6 Time-Arg:T7
+T6	ORG 84 90	toà_án
+T7	TIME 91 99	năm 2010
+T8	PER 46 66	Mikhail_Khodorkovsky
+T9	Transport 263 266	đến
+E4	Transport:T9 Agent-Arg:T10 Destination-Arg:T11 Origin-Arg:T12
+T10	PER 247 259	Khodorkovsky
+T11	FAC 267 286	sân_bay Schoenefeld
+T12	GPE 310 313	Nga
+T13	Arrest-jail 578 585	bị giam
+E5	Arrest-jail:T13 Person-Arg:T14 Time-Arg:T15 Crime-Arg:T16
+T14	PER 549 575	Ông Khodorkovsky , 50 tuổi
+T15	TIME 592 603	một thập_kỷ
+T16	CRIME 620 651	lừa_đảo , trốn_thuế và rửa_tiền
+T17	Arquit 730 733	thả
+E6	Arquit:T17 Defendant-Arg:T18
+T18	PER 721 724	ông
+T19	Transport 782 785	tới
+E7	Transport:T19 Agent-Arg:T20 Destination-Arg:T21
+T20	PER 763 770	ông này
+T21	GPE 786 789	Đức
+T22	Pardon 1216 1221	ân xá
+E8	Pardon:T22 Adjudicator-Arg:T23 Defendant-Arg:T24
+T23	PER 1195 1204	ông Putin
+T24	PER 1222 1234	Khodorkovsky
+T25	Arrest-jail 1396 1402	bị bắt
+E9	Arrest-jail:T25 Person-Arg:T26 Place-Arg:T27 Crime-Arg:T28
+T26	PER 1333 1336	Ông
+T27	FAC 1411 1428	sân_bay ở Siberia
+T28	CRIME 1442 1451	trốn_thuế
+T29	PER 1454 1464	Trọng_Giáp

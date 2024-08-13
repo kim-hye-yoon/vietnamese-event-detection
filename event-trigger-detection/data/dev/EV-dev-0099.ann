@@ -1,0 +1,34 @@
+T1	Attack 344 353	nội_chiến
+E1	Attack:T1 Place-Arg:T9 Time-Arg:T10
+T2	Attack 1538 1547	chiến_đấu
+E2	Attack:T2 Target-Arg:T3 Place-Arg:T4
+T3	ORG 1554 1556	IS
+T4	LOC 1559 1568	bắc Syria
+T5	Meet 2130 2137	họp_báo
+E3	Meet:T5 Entity-Arg:T23
+T6	Attack 2418 2427	chiến_đấu
+E4	Attack:T6 Target-Arg:T8 Attacker-Arg:T7
+T7	ORG 2388 2417	lực_lượng nổi_dậy người Sunni
+T8	PER 2438 2466	Tổng_thống Bashar al - Assad
+T9	GPE 354 359	Syria
+T10	TIME 366 380	cách đây 5 năm
+T11	Attack 1033 1042	chiến_đấu
+E5	Attack:T11 Target-Arg:T12
+T12	ORG 1049 1051	IS
+T13	Transport 82 85	chở
+E6	Transport:T13 Artifact-Arg:T14 Vehicle-Arg:T15
+T14	WEA 86 94	đạn_dược
+T15	VEH 79 81	xe
+T16	Transport 976 979	tới
+E7	Transport:T16 Artifact-Arg:T18 Destination-Arg:T17 Time-Arg:T19
+T17	GPE 980 985	Syria
+T18	PER 963 975	50 đặc_nhiệm
+T19	TIME 883 906	Cuối tháng 10 năm_ngoái
+T20	Attack 2087 2095	diệt_trừ
+E8	Attack:T20 Target-Arg:T21 Attacker-Arg:T22
+T21	ORG 2096 2098	IS
+T22	ORG 2042 2051	chúng_tôi
+T23	PER 2107 2112	Biden
+T24	Meet 2148 2151	gặp
+E9	Meet:T24 Entity-Arg:T25 Entity-Arg2:T23
+T25	PER 2152 2188	Thủ_tướng Thổ_Nhĩ_Kỳ Ahmet_Davutoglu

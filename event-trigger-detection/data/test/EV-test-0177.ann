@@ -1,0 +1,13 @@
+T1	Die 44 54	thiệt_mạng
+E1	Die:T1 Place-Arg:T2
+T2	GPE 57 62	Syria
+T3	Attack 1040 1048	tấn_công
+E2	Attack:T3 Attacker-Arg:T6 Target-Arg:T7
+T4	Injure 1101 1110	bị_thương
+E3	Injure:T4 Victim-Arg:T5
+T5	PER 1089 1100	một sĩ_quan
+T6	PER 1011 1031	Các phần_tử khủng_bố
+T7	PER 1049 1060	binh_sĩ Nga
+T8	Die 1616 1626	thiệt_mạng
+E4	Die:T8 
+T9	TIME 1583 1595	Tháng 6/1982

@@ -1,0 +1,44 @@
+T1	End-position 35 44	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T2 Entity-Arg:T3
+T2	PER 45 55	Tổng_thống
+T3	ORG 0 23	Đảng cầm_quyền Zimbabwe
+T4	Meet 28 31	họp
+E2	Meet:T4 Entity-Arg:T3
+T5	Meet 170 173	họp
+E3	Meet:T5 Entity-Arg:T7 Time-Arg:T6
+T6	TIME 178 205	10h30 ( 15h3 0 giờ Hà_Nội )
+T7	ORG 109 151	Uỷ_ban trung_ương đảng cầm_quyền ZANU - PF
+T8	End-position 209 218	phế_truất
+E4	End-position:T8 Position-Arg:T9 Person-Arg:T10 Entity-Arg:T7
+T9	JOB 226 239	lãnh_đạo đảng
+T10	PER 244 277	Tổng_thống Zimbabwe_Robert_Mugabe
+T11	End-position 297 306	bãi_nhiệm
+E5	End-position:T11 Entity-Arg:T14 Position-Arg:T12 Person-Arg:T13
+T12	JOB 314 349	lãnh_đạo liên_đoàn phụ_nữ ZANU - PF
+T13	PER 354 383	Đệ nhất phu_nhân Grace_Mugabe
+T14	ORG 280 288	Đảng này
+T15	Meet 450 453	gặp
+E6	Meet:T15 Time-Arg:T17 Entity-Arg:T16 Entity-Arg2:T18
+T16	PER 428 438	ông Mugabe
+T17	TIME 439 446	hôm_nay
+T18	PER 458 474	chỉ_huy quân_đội
+T19	Demonstrate 533 542	biểu_tình
+E7	Demonstrate:T19 Place-Arg:T23 Time-Arg:T22 Entity-Arg:T24
+T20	PER 551 561	ông Mugabe
+T21	End-position 562 569	từ_chức
+E8	End-position:T21 Person-Arg:T20
+T22	TIME 494 504	ngày 18/11
+T23	FAC 514 530	đường_phố Harare
+T24	PER 477 492	Hàng nghìn ngườ
+T25	Demonstrate 584 593	diễu_hành
+E9	Demonstrate:T25 Entity-Arg:T26 Place-Arg:T27
+T26	PER 572 583	Nhiều người
+T27	FAC 598 642	biệt_thự " Mái xanh " - nơi ở của Tổng_thống
+T28	End-position 836 843	sa_thải
+E10	End-position:T28 Person-Arg:T30
+T29	PER 822 832	ông Mugabe
+T30	PER 844 877	phó tổng_thống Emmerson_Mnangagwa
+T31	End-position 1208 1215	rời ghế
+E11	End-position:T31 Person-Arg:T32 Entity-Arg:T33
+T32	PER 1197 1207	ông Mugabe
+T33	ORG 1183 1191	quân_đội

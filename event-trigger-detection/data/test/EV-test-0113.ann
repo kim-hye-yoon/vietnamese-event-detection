@@ -1,0 +1,8 @@
+T1	PER 0 8	Lan Khuê
+T2	Marry 13 20	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 25 45	doanh_nhân Việt_kiều
+T4	PER 78 86	Lan_Khuê
+T5	Marry 90 100	lên xe_hoa
+E2	Marry:T5 Time-Arg:T6 Person-Arg:T4
+T6	TIME 105 117	đầu tháng 10

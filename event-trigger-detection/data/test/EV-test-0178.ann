@@ -1,0 +1,77 @@
+T1	Execute 0 7	Tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 8 26	kẻ chém chết người
+T3	PER 90 94	Hùng
+T4	WEA 99 119	dao_tông dài nửa mét
+T5	Attack 120 124	chém
+E2	Attack:T5 Instrument-Arg:T4 Attacker-Arg:T3 Target-Arg:T7
+T6	Die 132 141	đoạt mạng
+E3	Die:T6 Agent-Arg:T3 Instrument-Arg:T4 Victim-Arg:T7
+T7	PER 142 150	nạn_nhân
+T8	TIME 473 498	Khoảng 10h ngày 19/5/2012
+T9	PER 501 505	Hùng
+T10	PER 509 554	bạn Lê_Minh_Thắng ( 27 tuổi , huyện Từ_Liêm )
+T11	Transport 555 557	đi
+E4	Transport:T11 Agent-Arg:T10 Agent-Arg2:T9 Time-Arg:T8 Destination-Arg:T15 Vehicle-Arg:T12
+T12	VEH 558 564	xe_máy
+T15	FAC 608 637	quán điện_tử ở quận Long_Biên
+T16	TIME 698 710	Khoảng 12h30
+T17	PER 718 727	anh Thành
+T18	Transport 728 733	đi ra
+E6	Transport:T18 Time-Arg:T16 Agent-Arg:T17
+T19	PER 804 808	Hùng
+T20	Attack 819 823	chém
+E7	Attack:T20 Attacker-Arg:T19 Target-Arg:T21
+T21	PER 835 843	nạn_nhân
+T22	TIME 846 860	Sau khi gây án
+T23	PER 863 867	Hùng
+T24	FAC 881 899	nhà Trần_Văn_Chiến
+T25	VEH 874 876	xe
+T26	Transport 868 873	phóng
+E8	Transport:T26 Vehicle-Arg:T25 Destination-Arg:T24 Time-Arg:T22 Agent-Arg:T23
+T27	TIME 987 1002	Chiều cùng ngày
+T28	PER 1005 1014	anh Thành
+T29	Die 1015 1022	tử_vong
+E9	Die:T29 Victim-Arg:T28 Time-Arg:T27
+T30	ORG 1051 1062	TAND Hà_Nội
+T31	TIME 1025 1039	Ngày 14/5/2013
+T32	SEN 1068 1077	20 năm tù
+T33	CRIME 1085 1116	Giết người và Che_giấu tội_phạm
+T34	PER 1042 1047	Thắng
+T35	PER 1119 1124	Chiến
+T36	SEN 1130 1138	3 năm tù
+T37	CRIME 1142 1159	Che_giấu tội_phạm
+T38	Sentence 1125 1129	lĩnh
+E10	Sentence:T38 Sentence-Arg:T36 Defendant-Arg:T35 Crime-Arg:T37 Adjudicator-Arg:T30 Time-Arg:T31
+T39	Sentence 1063 1067	phạt
+E11	Sentence:T39 Sentence-Arg:T32 Crime-Arg:T33 Adjudicator-Arg:T30 Defendant-Arg:T34 Time-Arg:T31
+T40	PER 1168 1172	Hùng
+T41	Transport 1173 1180	bỏ trốn
+E12	Transport:T41 Artifact-Arg:T40
+T42	PER 1201 1205	Hùng
+T43	ORG 1209 1245	Công_an huyện Hà_Khẩu ( Trung_Quốc )
+T44	Arrest-jail 1246 1253	bắt_giữ
+E13	Arrest-jail:T44 Agent-Arg:T43 Person-Arg:T42 Time-Arg:T45
+T45	TIME 1183 1198	Sau hơn một năm
+T46	ORG 1385 1396	TAND Hà_Nội
+T47	PER 1419 1425	bị_cáo
+T48	Sentence 1474 1484	tuyên_phạt
+E14	Sentence:T48 Sentence-Arg:T49 Defendant-Arg:T47 Adjudicator-Arg:T46
+T49	SEN 1485 1495	án tử_hình
+T50	Transport 1326 1330	trốn
+E15	Transport:T50 Artifact-Arg:T51 Destination-Arg:T52
+T51	PER 1310 1314	Hùng
+T52	GPE 1359 1369	Trung_Quốc
+T53	Extradite 1257 1265	bàn_giao
+E16	Extradite:T53 Agent-Arg:T43 Person-Arg:T42 Destination-Arg:T54 Origin-Arg:T55
+T54	GPE 1278 1286	Việt_Nam
+T55	GPE 1233 1243	Trung_Quốc
+T56	Transport 980 984	trốn
+E17	Transport:T56 Artifact-Arg:T23
+T57	PER 923 928	Chiến
+T58	Transfer-ownership 929 932	mua
+E18	Transfer-ownership:T58 Buyer-Arg:T57
+T13	PER 736 741	chúng
+T14	Attack 792 800	truy_đuổ
+E5	Attack:T14 Attacker-Arg:T13 Instrument-Arg:T59
+T59	WEA 746 749	dao

@@ -1,0 +1,4 @@
+T1	Start-position 506 516	tuyển_dụng
+E1	Start-position:T1 Person-Arg:T2 Entity-Arg:T3
+T2	PER 443 461	5,1 triệu lao_động
+T3	ORG 471 505	doanh_nghiệp siêu nhỏ , nhỏ và vừa

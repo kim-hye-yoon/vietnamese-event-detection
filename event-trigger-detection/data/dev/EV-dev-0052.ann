@@ -1,0 +1,29 @@
+T1	Arrest-jail 288 295	bắt_giữ
+E1	Arrest-jail:T1 Time-Arg:T2 Agent-Arg:T3 Agent-Arg2:T5 Person-Arg:T4 Crime-Arg:T6
+T2	TIME 183 191	Ngày 3/5
+T3	ORG 194 217	công_an huyện Cẩm_Giàng
+T4	PER 296 310	Nguyễn_Văn_Tâm
+T5	ORG 247 282	phòng An_ninh điều_tra công_an tỉnh
+T6	CRIME 404 438	hành_vi Lừa_đảo chiếm_đoạt tài_sản
+T7	Meet 548 551	Gặp
+E2	Meet:T7 Entity-Arg:T9 Time-Arg:T8 Place-Arg:T10 Entity-Arg2:T11
+T8	TIME 564 578	cách đây 3 năm
+T9	PER 552 555	Tâm
+T10	GPE 581 591	TP Lào_Cai
+T11	PER 610 614	Trâm
+T12	Phone-write 1264 1272	liên_lạc
+E3	Phone-write:T12 Entity-Arg:T13 Entity-Arg2:T15 Time-Arg:T14
+T13	PER 1254 1260	Phương
+T14	TIME 1208 1221	giữa năm 2013
+T15	PER 1277 1280	Tâm
+T16	Elect 2295 2297	ký
+E4	Elect:T16 Entity-Arg:T19 Person-Arg:T17 Time-Arg:T18
+T17	PER 2275 2278	Tâm
+T18	TIME 2260 2272	Đầu năm 2012
+T19	ORG 2365 2444	một công_ty trong khu_công_nghiệp Tân_Trường , huyện Cẩm_Giàng , tỉnh Hải_Dương
+T20	ORG 1491 1498	công_ty
+T21	Transport 1520 1523	đưa
+E5	Transport:T21 Agent-Arg:T20 Artifact-Arg:T22 Destination-Arg:T23 Time-Arg:T24
+T22	PER 1524 1538	người lao_động
+T23	GPE 1550 1562	tại Malaysia
+T24	TIME 1579 1586	3 tháng

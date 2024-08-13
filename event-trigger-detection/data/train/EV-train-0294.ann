@@ -1,0 +1,27 @@
+T1	PER 0 18	Công_chúa Nhật_Bản
+T2	Marry 19 26	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Place-Arg:T3
+T3	FAC 31 40	đền Meiji
+T4	PER 43 58	Công_chúa Ayako
+T5	PER 62 68	chú_rể
+T6	Marry 73 81	đám_cưới
+E2	Marry:T6 Person-Arg:T5 Person-Arg2:T4 Place-Arg:T7
+T7	FAC 86 95	đền Meiji
+T8	PER 109 114	Ayako
+T9	Marry 152 159	kết_hôn
+E3	Marry:T9 Person-Arg:T8 Person-Arg2:T10
+T10	PER 172 182	Kei_Moriya
+T11	PER 281 290	hai người
+T12	Transport 300 304	tiến
+E4	Transport:T12 Destination-Arg:T13 Artifact-Arg:T11
+T13	FAC 309 318	đền Meiji
+T14	PER 702 707	Ayako
+T15	Transfer-money 711 715	nhận
+E5	Transfer-money:T15 Recipient-Arg:T14 Money-Arg:T16 Giver-Arg:T17
+T16	MONEY 721 761	gần 107 triệu yên ( khoảng 950.000 USD )
+T17	ORG 765 774	chính_phủ
+T18	PER 892 910	Công_chúa Akishino
+T19	Marry 919 926	kết_hôn
+E6	Marry:T19 Person-Arg:T18 Person-Arg2:T20 Time-Arg:T21
+T20	PER 931 945	một thường_dân
+T21	TIME 950 958	năm 2020

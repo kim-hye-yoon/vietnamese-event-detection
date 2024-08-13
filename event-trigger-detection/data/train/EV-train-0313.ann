@@ -1,0 +1,74 @@
+T1	Divorce 54 60	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 12 17	Trump
+T3	Divorce 228 234	ly_hôn
+E2	Divorce:T3 
+T4	Marry 598 605	kết_hôn
+E3	Marry:T4 Person-Arg:T50
+T5	Marry 662 669	kết_hôn
+E4	Marry:T5 
+T6	Divorce 1401 1407	ly_hôn
+E5	Divorce:T6 Person-Arg:T7
+T7	PER 1353 1365	Donald_Trump
+T8	Divorce 1487 1492	ly_dị
+E6	Divorce:T8 Person-Arg:T9
+T9	PER 1517 1523	Ivana 
+T10	Transfer-money 1528 1532	nhận
+E7	Transfer-money:T10 Recipient-Arg:T9 Money-Arg:T11 Money-Arg2:T12 Money-Arg3:T13
+T11	MONEY 1533 1546	14 triệu đôla
+T12	MONEY 1558 1570	350.000 đôla
+T13	MONEY 1629 1641	300.000 đôla
+T14	PER 1689 1694	Marla
+T16	MONEY 1718 1730	2 triệu đôla
+T15	Transfer-money 1701 1705	nhận
+E8	Transfer-money:T15 Recipient-Arg:T14 Money-Arg:T16
+T17	Marry 1951 1959	đám_cưới
+E9	Marry:T17 Person-Arg:T19 Time-Arg:T18
+T18	TIME 1964 1972	năm 2005
+T19	PER 1878 1885	Melania
+T20	Divorce 2609 2614	ly_dị
+E10	Divorce:T20 Person-Arg:T21 Person-Arg2:T51
+T21	PER 2554 2590	Ông trùm truyền thông Rupert Murdoch
+T22	Divorce 2791 2796	ly_dị
+E11	Divorce:T22 Person-Arg:T23
+T23	PER 2816 2819	ông
+T24	Marry 2820 2827	kết_hôn
+E12	Marry:T24 Person-Arg:T23 Person-Arg2:T25
+T25	PER 2832 2842	Wendi_Deng
+T26	Divorce 2902 2908	ly_hôn
+E13	Divorce:T26 Person-Arg:T29 Person-Arg2:T27 Time-Arg:T30
+T27	PER 2863 2866	ông
+T28	MONEY 2887 2898	1,8 tỷ đôla
+T29	PER 2913 2915	bà
+T30	TIME 2845 2860	Mười ba năm sau
+T31	PER 2918 2973	Harold_Hamm , CEO của hãng dầu_mỏ Continental_Resources
+T32	TIME 2980 2993	tháng 11/2014
+T33	Transfer-money 3022 3025	trả
+E14	Transfer-money:T33 Time-Arg:T32 Recipient-Arg:T34 Giver-Arg:T31 Money-Arg:T35
+T34	PER 3030 3053	vợ cũ là Sue_Ann_Arnall
+T35	MONEY 3058 3069	một tỷ đôla
+T36	Divorce 3094 3099	ly_dị
+E15	Divorce:T36 Person-Arg:T31 Person-Arg2:T34
+T37	Divorce 3288 3293	ly_dị
+E16	Divorce:T37 Place-Arg:T38
+T38	GPE 3310 3312	Mỹ
+T39	Divorce 3431 3437	ly_hôn
+E17	Divorce:T39 Person-Arg:T55
+T40	Marry 3682 3689	kết_hôn
+E18	Marry:T40 Person-Arg:T42
+T41	Start-org 3647 3656	thành_lập
+E19	Start-org:T41 Org-Arg:T43 Agent-Arg:T42
+T42	PER 3642 3646	Jeff
+T43	ORG 3657 3663	Amazon
+T44	Divorce 3785 3790	ly_dị
+E20	Divorce:T44 Place-Arg:T45 Person-Arg:T46
+T45	GPE 3808 3818	Washington
+T46	PER 3854 3863	MacKenzie
+T47	Divorce 3923 3928	ly_dị
+E21	Divorce:T47 Person-Arg:T46
+T48	Sue 249 257	kiện_cáo
+E22	Sue:T48 Plaintiff-Arg:T49
+T49	PER 265 278	vợ hoặc chồng
+T50	PER 594 597	Bạn
+T51	PER 2615 2627	hai người vợ
+T55	PER 3443 3495	tỷ_phú giàu nhất thế_giới Jeff Bezos và vợ MacKenzie

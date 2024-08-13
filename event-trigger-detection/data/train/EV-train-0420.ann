@@ -1,0 +1,14 @@
+T1	Die 0 7	Tử_vong
+E1	Die:T1 
+T2	PER 424 432	anh Buốc
+T3	Injure 442 450	ngất_xỉu
+E2	Injure:T3 Victim-Arg:T2
+T4	PER 476 484	anh Buốc
+T5	Die 534 538	chết
+E3	Die:T5 Victim-Arg:T4
+T7	FAC 557 566	bệnh_viện
+T6	Transport 554 556	đi
+E4	Transport:T6 Destination-Arg:T7 Artifact-Arg:T4
+T8	Die 230 238	mai_táng
+E5	Die:T8 Victim-Arg:T9
+T9	PER 239 247	anh Buốc

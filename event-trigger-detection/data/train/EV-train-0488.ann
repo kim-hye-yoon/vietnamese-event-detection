@@ -1,0 +1,40 @@
+T1	End-position 36 45	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 32	Thứ_trưởng Công_an Bùi_Văn_Thành
+T3	End-position 101 110	cách chức
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5 Time-Arg:T7
+T4	JOB 111 129	Thứ_trưởng Công_an
+T5	PER 138 155	ông Bùi_Văn_Thành
+T6	PER 60 86	Thủ_tướng Nguyễn_Xuân_Phúc
+T7	TIME 48 57	Chiều 8/8
+T8	End-position 302 305	xoá
+E3	End-position:T8 Position-Arg:T9 Person-Arg:T10
+T9	JOB 314 352	Thứ_trưởng Công_an giai_đoạn 2011-2016
+T10	PER 361 378	ông Trần_Việt_Tân
+T11	PER 261 285	Người đứng đầu Chính_phủ
+T12	Meet 754 757	họp
+E4	Meet:T12 Entity-Arg:T16 Time-Arg:T13
+T13	TIME 729 738	ngày 28/7
+T14	End-position 774 775	h
+E5	End-position:T14 Position-Arg:T15 Entity-Arg:T16 Time-Arg:T13 Person-Arg:T17
+T15	JOB 781 968	tất_cả chức_vụ trong Đảng ( Uỷ_viên Ban_chấp_hành Đảng_bộ Công_an Trung_ương nhiệm_kỳ 2016-2021 ; Uỷ_viên Ban_chấp_hành Đảng_bộ Tổng_cục Hậu_cần - Kỹ_thuật Bộ Công_an nhiệm_kỳ 2010-2015 )
+T16	ORG 741 753	Bộ_Chính_trị
+T17	PER 1079 1096	trung_tướng Thành
+T18	Transport 2298 2300	đi
+E6	Transport:T18 Destination-Arg:T20 Artifact-Arg:T19
+T19	PER 2268 2280	Phan_Văn_Anh
+T20	LOC 2301 2311	nước_ngoài
+T21	Nominate 3281 3289	bổ_nhiệm
+E7	Nominate:T21 Position-Arg:T22 Person-Arg:T24 Time-Arg:T23
+T22	JOB 3290 3308	Thứ_trưởng Công_an
+T23	TIME 3313 3325	tháng 8/2014
+T24	PER 3116 3133	Ông Bùi_Văn_Thành
+T25	Nominate 3566 3574	bổ_nhiệm
+E8	Nominate:T25 Position-Arg:T26 Time-Arg:T27 Person-Arg:T28
+T26	JOB 3583 3601	Thứ_trưởng Công_an
+T27	TIME 3606 3619	tháng 10/2011
+T28	PER 3503 3548	Ông Trần_Việt_Tân ( 63 tuổi , quê Thái_Bình )
+T29	End-position 3752 3760	nghỉ hưu
+E9	End-position:T29 Time-Arg:T30 Person-Arg:T31
+T30	TIME 3761 3769	năm 2016
+T31	PER 3718 3721	ông

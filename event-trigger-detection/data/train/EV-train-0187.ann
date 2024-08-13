@@ -1,0 +1,49 @@
+T1	Extradite 42 48	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2
+T2	PER 49 64	giám_đốc Huawei
+T3	Extradite 137 143	dẫn_độ
+E2	Extradite:T3 
+T4	Extradite 192 198	dẫn_độ
+E3	Extradite:T4 
+T5	Arrest-jail 503 506	bắt
+E4	Arrest-jail:T5 Agent-Arg:T7 Person-Arg:T6
+T6	PER 507 545	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T7	GPE 496 502	Ottawa
+T8	PER 680 695	Giám_đốc Huawei
+T9	Arrest-jail 696 702	bị bắt
+E5	Arrest-jail:T9 Place-Arg:T10 Person-Arg:T8 Time-Arg:T11
+T10	FAC 723 750	ở sân_bay quốc_tế Vancouver
+T11	TIME 751 759	hôm 1/12
+T12	Extradite 967 973	dẫn_độ
+E6	Extradite:T12 
+T13	PER 999 1018	một công_dân Canada
+T14	Phone-write 1019 1027	gọi điện
+E7	Phone-write:T14 Entity-Arg:T13
+T15	Phone-write 1114 1122	liên_lạc
+E8	Phone-write:T15 Entity-Arg:T17 Entity-Arg2:T16
+T16	ORG 1084 1104	Bộ Ngoại_giao Canada
+T17	PER 1131 1140	người này
+T18	PER 1166 1212	cựu nhân_viên ngoại_giao Canada_Michael_Kovrig
+T19	GPE 1216 1226	Trung_Quốc
+T20	Arrest-jail 1227 1230	bắt
+E9	Arrest-jail:T20 Time-Arg:T21 Agent-Arg:T19 Person-Arg:T18
+T21	TIME 1231 1240	đêm 10/12
+T22	Arrest-jail 1294 1297	bắt
+E10	Arrest-jail:T22 Person-Arg:T23
+T23	PER 1298 1304	Kovrig
+T24	Transfer-ownership 1522 1525	bán
+E11	Transfer-ownership:T24 Seller-Arg:T25
+T25	PER 1461 1473	Mạnh Vãn_Chu
+T26	Extradite 1724 1730	dẫn_độ
+E12	Extradite:T26 Agent-Arg:T28 Person-Arg:T27
+T27	PER 1750 1757	bà Mạnh
+T28	GPE 1699 1701	Mỹ
+T29	Extradite 1846 1852	dẫn_độ
+E13	Extradite:T29 
+T30	Extradite 2074 2080	dẫn_độ
+E14	Extradite:T30 Person-Arg:T31
+T31	PER 2023 2030	bà Mạnh
+T32	PER 2119 2157	Giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T33	FAC 2162 2203	toà British_Columbia ở Vancouver , Canada
+T34	Transport 2158 2161	rời
+E15	Transport:T34 Origin-Arg:T33 Agent-Arg:T32

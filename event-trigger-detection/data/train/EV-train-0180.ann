@@ -1,0 +1,12 @@
+T1	PER 985 991	Cả hai
+T2	Arrest-jail 998 1010	bắt tạm giam
+E1	Arrest-jail:T2 Person-Arg:T1
+T3	PER 1063 1081	Số cầu_thủ còn lại
+T4	Arrest-jail 1094 1103	giam_lỏng
+E2	Arrest-jail:T4 Person-Arg:T3 Place-Arg:T5
+T5	FAC 1108 1152	Trung_tâm Đào_tạo trẻ bóng_đá tỉnh Ninh_Bình
+T6	ORG 47 59	Cơ_quan CSĐT
+T7	Arrest-jail 80 92	bắt tạm giam
+E3	Arrest-jail:T7 Agent-Arg:T6 Person-Arg:T8 Crime-Arg:T9
+T8	PER 97 147	cầu_thủ Trần_Mạnh_Dũng và thủ_môn Nguyễn_Mạnh_Dũng
+T9	CRIME 160 213	đánh_bạc , cá_độ bóng_đá tại CLB The_Vissai_Ninh_Bình

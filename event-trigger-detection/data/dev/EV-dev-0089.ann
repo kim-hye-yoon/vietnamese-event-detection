@@ -1,0 +1,23 @@
+T1	PER 643 667	kẻ cầm_đầu nhóm khủng_bố
+T2	Meet 727 734	gặp_mặt
+E1	Meet:T2 Entity-Arg:T1 Entity-Arg2:T3
+T3	PER 749 775	phần_tử khủng_bố tại Syria
+T4	Attack 1146 1156	không kích
+E2	Attack:T4 Target-Arg:T5
+T5	ORG 1157 1192	phiến quân Nhà_nước Hồi_giáo ( IS )
+T6	PER 1289 1301	quân_đội Nga
+T7	Attack 1302 1311	tiêu_diệt
+E3	Attack:T7 Attacker-Arg:T6 Target-Arg:T8
+T8	PER 1319 1343	100.000 phần_tử khủng_bố
+T9	Die 1403 1409	xoá_sổ
+E4	Die:T9 Victim-Arg:T10
+T10	PER 1410 1424	gần 85.000 tên
+T11	PER 1437 1454	112 quân_nhân Nga
+T12	Die 1458 1465	hy_sinh
+E5	Die:T12 Agent-Arg:T11 Place-Arg:T13
+T13	GPE 1487 1492	Syria
+T14	ORG 1593 1610	phòng_không Syria
+T15	Attack 1611 1614	bắn
+E6	Attack:T15 Target-Arg:T17 Attacker-Arg:T14 Time-Arg:T16
+T16	TIME 1624 1631	tháng 9
+T17	VEH 1567 1589	vụ trinh_sát cơ Il -20

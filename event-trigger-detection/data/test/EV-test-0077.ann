@@ -1,0 +1,34 @@
+T1	ORG 0 9	Nine West
+T2	Declare-bankruptcy 10 17	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	MONEY 31 41	1,5 tỷ USD
+T8	TIME 223 230	thứ Sáu
+T10	ORG 252 259	Reuters
+T11	ORG 291 300	Nine_West
+T12	MONEY 316 326	1,5 tỷ USD
+T13	ORG 356 365	Nine_West
+T14	ORG 439 448	Nine_West
+T15	ORG 452 461	Bandolino
+T16	ORG 466 491	tập_đoàn Authentic_Brands
+T18	Transfer-money 28 30	nợ
+E3	Transfer-money:T18 Recipient-Arg:T1 Money-Arg:T3
+T4	Declare-bankruptcy 242 249	phá_sản
+E2	Declare-bankruptcy:T4 Time-Arg:T8 Org-Arg:T5
+T5	ORG 127 216	Nine West_Holdings , công_ty sở_hữu nhãn_hiệu giày_dép và may_mặc nổi_tiếng trên thế_giới
+T6	Transfer-money 306 308	nợ
+E4	Transfer-money:T6 Money-Arg:T12 Recipient-Arg:T11
+T7	Transfer-ownership 382 385	bán
+E5	Transfer-ownership:T7 Buyer-Arg:T13
+T9	Transfer-money 1076 1079	trả
+E6	Transfer-money:T9 Recipient-Arg:T19 Money-Arg:T17
+T17	MONEY 1083 1105	1 tỷ USD đến 10 tỷ USD
+T19	ORG 998 1007	Nine_West
+T20	ORG 1139 1189	Toys “ R ” Us - chuỗi siêu_thị đồ_chơi lớn nhất Mỹ
+T21	Declare-bankruptcy 1211 1218	phá_sản
+E7	Declare-bankruptcy:T21 Org-Arg:T20 Time-Arg:T22
+T22	TIME 1119 1136	tháng 9 năm_ngoái
+T23	End-org 1368 1376	đóng_cửa
+E8	End-org:T23 Org-Arg:T25 Place-Arg:T26 Time-Arg:T24
+T24	TIME 1306 1315	Năm_ngoái
+T25	ORG 1330 1362	15 công_ty trong lĩnh_vực bán_lẻ
+T26	GPE 1320 1322	Mỹ

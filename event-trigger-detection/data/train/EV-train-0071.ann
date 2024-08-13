@@ -1,0 +1,88 @@
+T1	PER 1 16	Gã chồng vũ_phu
+T2	PER 27 29	vợ
+T3	Die 17 26	đoạt mạng
+E1	Die:T3 Agent-Arg:T1 Victim-Arg:T2
+T4	PER 322 327	Doanh
+T5	Transport 334 337	lên
+E2	Transport:T5 Artifact-Arg:T4 Destination-Arg:T6
+T6	GPE 338 346	Hoà_Bình
+T7	PER 1149 1154	Doanh
+T8	PER 1180 1182	vợ
+T9	Attack 1167 1171	đánh
+E3	Attack:T9 Attacker-Arg:T7 Target-Arg:T8
+T10	PER 1203 1208	Doanh
+T12	PER 1246 1248	vợ
+T11	Attack 1239 1245	bóp cổ
+E4	Attack:T11 Attacker-Arg:T10 Target-Arg:T12
+T13	PER 1462 1467	Doanh
+T14	Transport 1536 1540	trốn
+E5	Transport:T14 Origin-Arg:T15 Artifact-Arg:T13
+T15	FAC 1546 1557	hiện_trường
+T16	PER 1859 1862	ông
+T17	Transport 1863 1875	đi ngang qua
+E6	Transport:T17 Artifact-Arg:T16 Destination-Arg:T18
+T18	FAC 1876 1890	văn_phòng Đoàn
+T19	PER 2093 2100	ông Yên
+T20	Transport 2101 2103	về
+E7	Transport:T20 Destination-Arg:T21 Artifact-Arg:T19
+T21	FAC 2104 2115	nhà con_gái
+T22	PER 2439 2446	con_gái
+T23	Die 2450 2457	tắt_thở
+E8	Die:T23 Victim-Arg:T22
+T24	Die 2650 2655	tự_tử
+E9	Die:T24 Agent-Arg:T25 Victim-Arg:T25
+T25	PER 2622 2629	con_gái
+T26	Trial-hearing 105 111	xét_xử
+E10	Trial-hearing:T26 Defendant-Arg:T29 Crime-Arg:T30 Time-Arg:T28 Adjudicator-Arg:T27
+T27	ORG 73 91	TAND tỉnh Hoà_Bình
+T28	TIME 53 70	Cuối tháng 4-2014
+T29	PER 128 142	Phạm_Văn_Doanh
+T30	CRIME 161 186	Giết người ; Cướp tài_sản
+T32	Marry 426 435	kết_duyên
+E12	Marry:T32 Person-Arg:T4 Person-Arg2:T33
+T33	PER 440 466	chị Nguyễn_Thị_Hương_Giang
+T31	PER 3126 3140	Phạm_Văn_Doanh
+T34	Arrest-jail 3149 3155	bị bắt
+E11	Arrest-jail:T34 Person-Arg:T31
+T35	PER 3911 3935	đối_tượng Phạm_Văn_Doanh
+T36	Arrest-jail 3936 3942	bị bắt
+E13	Arrest-jail:T36 Person-Arg:T35 Place-Arg:T37
+T37	LOC 3943 4006	trên chuyến tàu của một thương_nhân buôn hoa_quả sang biên_giới
+T38	TIME 4020 4028	đêm 20-9
+T39	PER 4031 4036	Doanh
+T40	Transport 4042 4047	di_lý
+E14	Transport:T40 Artifact-Arg:T39 Time-Arg:T38 Origin-Arg:T41 Destination-Arg:T42
+T41	GPE 4051 4061	Quảng_Ninh
+T42	GPE 4065 4073	Hoà_Bình
+T43	PER 4411 4420	chị Giang
+T44	Marry 4439 4447	hôn_nhân
+E15	Marry:T44 Person-Arg:T43 Person-Arg2:T45 Time-Arg:T46
+T45	PER 4402 4407	Doanh
+T46	TIME 4367 4375	Năm 2012
+T47	PER 4787 4791	HĐXX
+T48	Sentence 4792 4802	tuyên_phạt
+E16	Sentence:T48 Adjudicator-Arg:T47 Defendant-Arg:T49 Sentence-Arg:T50 Crime-Arg:T51 Crime-Arg2:T52 Crime-Arg3:T53
+T49	PER 4803 4817	Phạm_Văn_Doanh
+T50	SEN 4818 4838	mức án tù chung_thân
+T51	CRIME 4843 4857	tội Giết người
+T52	CRIME 4861 4869	3 năm tù
+T53	CRIME 4873 4889	tội Cướp tài_sản
+T54	PER 189 203	Phạm_Văn_Doanh
+T55	Be-born 206 208	SN
+E17	Be-born:T55 Person-Arg:T54 Time-Arg:T56
+T56	TIME 209 213	1976
+T57	Be-born 469 471	SN
+E18	Be-born:T57 Person-Arg:T33 Time-Arg:T58
+T58	TIME 472 476	1983
+T59	PER 1572 1590	ông Nguyễn_Văn_Yên
+T60	Be-born 1593 1595	SN
+E19	Be-born:T60 Person-Arg:T59 Time-Arg:T61
+T61	TIME 1596 1600	1961
+T62	PER 3778 3783	Doanh
+T63	Transport 3789 3797	lẩn_trốn
+E20	Transport:T63 Artifact-Arg:T62 Destination-Arg:T64
+T64	GPE 3800 3810	TP Móng_Cá
+T65	PER 4193 4198	Doanh
+T66	Transfer-ownership 4207 4213	cầm_cố
+E21	Transfer-ownership:T66 Seller-Arg:T65 Price-Arg:T67
+T67	MONEY 4218 4231	12 triệu đồng

@@ -1,0 +1,52 @@
+T1	Extradite 18 24	dẫn_độ
+E1	Extradite:T1 Person-Arg:T3 Origin-Arg:T4
+T2	GPE 0 8	Thái_Lan
+T3	PER 25 46	cựu thủ_tướng Thaksin
+T4	GPE 50 59	Hong_Kong
+T5	Divorce 266 273	kết_hôn
+E2	Divorce:T5 Person-Arg:T7 Person-Arg2:T6 Time-Arg:T8 Place-Arg:T9
+T6	PER 179 260	Paetongtarn_Shinawatra , con_gái út của cựu thủ_tướng Thái_Lan Thaksin_Shinawatra
+T7	PER 278 302	phi_công Pidok_Sooksawas
+T8	TIME 307 316	ngày 22/3
+T9	GPE 321 343	Hong_Kong , Trung_Quốc
+T10	Extradite 439 445	dẫn_độ
+E3	Extradite:T10 Agent-Arg:T15 Person-Arg:T14
+T11	Transport 373 376	tới
+E4	Transport:T11 Artifact-Arg:T13 Destination-Arg:T12
+T12	GPE 377 386	Hong_Kong
+T13	PER 346 357	Ông Thaksin
+T14	PER 446 449	ông
+T15	ORG 404 424	chính_quyền Thái_Lan
+T16	Extradite 582 588	dẫn_độ
+E5	Extradite:T16 Person-Arg:T17
+T17	PER 655 662	Thaksin
+T18	GPE 667 676	Hong_Kong
+T19	Extradite 808 814	dẫn_độ
+E6	Extradite:T19 
+T20	Extradite 977 983	dẫn_độ
+E7	Extradite:T20 Person-Arg:T21
+T21	PER 984 1004	một người bị truy_nã
+T22	GPE 1010 1019	Hong_Kong
+T23	GPE 1023 1031	Thái_Lan
+T24	Extradite 1125 1131	dẫn_độ
+E8	Extradite:T24 Person-Arg:T25
+T25	PER 1132 1157	một người trong tương_lai
+T26	Transport 1294 1297	tới
+E9	Transport:T26 Destination-Arg:T28 Artifact-Arg:T27
+T27	PER 1273 1280	Thaksin
+T28	GPE 1298 1307	Hong_Kong
+T29	Meet 1311 1314	gặp
+E10	Meet:T29 Entity-Arg:T30 Entity-Arg2:T27
+T30	PER 1319 1351	chính_trị_gia của đảng Pheu_Thai
+T31	Transport 1561 1564	tới
+E11	Transport:T31 Destination-Arg:T33 Artifact-Arg:T32
+T32	PER 1537 1548	ông Thaksin
+T33	GPE 1565 1594	Singapore , London , Bắc_Kinh
+T34	PER 1654 1665	bà Yingluck
+T35	Transport 1678 1681	rời
+E12	Transport:T35 Artifact-Arg:T34 Origin-Arg:T37 Time-Arg:T36
+T36	TIME 1692 1699	ăm 2017
+T37	LOC 1682 1686	nước
+T38	Extradite 1943 1949	dẫn_độ
+E13	Extradite:T38 Person-Arg:T39
+T39	PER 1950 1957	Thaksin

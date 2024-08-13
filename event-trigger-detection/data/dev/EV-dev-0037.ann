@@ -1,0 +1,18 @@
+T1	Divorce 41 47	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 17	Vợ ông chủ Amazon
+T3	Transfer-money 18 22	nhận
+E2	Transfer-money:T3 Money-Arg:T4 Recipient-Arg:T2
+T4	MONEY 27 36	35 tỷ USD
+T5	Divorce 177 183	ly_hôn
+E3	Divorce:T5 Person-Arg:T6 Person-Arg2:T12
+T6	PER 50 65	MacKenzie_Bezos
+T7	Divorce 1146 1151	ly_dị
+E4	Divorce:T7 Person-Arg:T9 Time-Arg:T8 Person-Arg2:T13
+T8	TIME 1071 1083	Cuối tháng 1
+T9	PER 1086 1096	Jeff_Bezos
+T10	Divorce 1317 1322	ly_dị
+E5	Divorce:T10 Person-Arg:T11
+T11	PER 1363 1368	Bezos
+T12	PER 116 154	chồng cũ - ông chủ Amazon - Jeff_Bezos
+T13	PER 1132 1134	vợ

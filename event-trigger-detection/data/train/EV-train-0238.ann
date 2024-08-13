@@ -1,0 +1,13 @@
+T1	PER 568 570	cô
+T2	Sue 571 580	khởi_kiện
+E1	Sue:T2 Plaintiff-Arg:T1
+T3	PER 1767 1788	Nữ giám_đốc ngân_hàng
+T4	Marry 1805 1812	kết_hôn
+E2	Marry:T4 Person-Arg:T3
+T5	Sue 1837 1841	kiện
+E3	Sue:T5 Plaintiff-Arg:T3
+T6	PER 0 6	Cô_gái
+T7	GPE 9 24	Ả - rập Xê - út
+T8	Marry 32 39	kết_hôn
+E4	Marry:T8 Place-Arg:T7 Person-Arg:T6 Person-Arg2:T9
+T9	PER 44 63	người biết chơi đàn

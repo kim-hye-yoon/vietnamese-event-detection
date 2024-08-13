@@ -1,0 +1,22 @@
+T1	End-position 15 24	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Chủ_tịch xã
+T3	End-position 179 188	cách_chức
+E2	End-position:T3 Person-Arg:T6 Position-Arg:T7
+T4	PER 93 109	ông Nguyễn_Khánh
+T5	TIME 80 90	Ngày 14/12
+T6	PER 189 206	ông Võ_Hồng_Nhiệm
+T7	JOB 209 230	Chủ_tịch xã Tiên_Lãnh
+T8	End-position 329 338	cách_chức
+E3	End-position:T8 Position-Arg:T10 Person-Arg:T9
+T9	PER 283 296	Ông Võ_Tấn_Sỹ
+T10	JOB 299 318	cán_bộ địa_chính xã
+T11	End-position 505 513	cách hết
+E4	End-position:T11 Person-Arg:T13 Position-Arg:T12
+T13	PER 476 501	Chủ_tịch xã Võ_Hồng_Nhiệm
+T12	JOB 518 530	chức_vụ Đảng
+T14	Arrest-jail 1205 1213	tạm giam
+E5	Arrest-jail:T14 Person-Arg:T15 Agent-Arg:T16 Crime-Arg:T17
+T15	PER 1214 1231	ông Phùng_Văn_Bảy
+T16	ORG 1155 1179	Công_an huyện Tiên_Phước
+T17	CRIME 1257 1298	thuê bảy nhân công_phá gần năm hecta rừng

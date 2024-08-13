@@ -1,0 +1,15 @@
+T3	ORG 26 38	doanh_nghiệp
+T7	TIME 323 329	99 năm
+T8	TIME 350 356	70 năm
+T13	ORG 691 703	doanh_nghiệp
+T14	ORG 773 789	cơ_quan nhà_nước
+T16	Declare-bankruptcy 965 972	phá_sản
+E2	Declare-bankruptcy:T16 Org-Arg:T17
+T17	ORG 952 964	doanh_nghiệp
+T1	Declare-bankruptcy 39 46	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3
+T2	Transfer-ownership 823 827	giao
+E3	Transfer-ownership:T2 Beneficiary-Arg:T13
+T4	Transfer-ownership 444 448	giao
+E4	Transfer-ownership:T4 Beneficiary-Arg:T5
+T5	PER 457 467	nhà_đầu_tư

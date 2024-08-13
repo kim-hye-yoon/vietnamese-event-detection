@@ -1,0 +1,26 @@
+T1	ORG 0 2	IS
+T2	Attack 3 11	đánh bom
+E1	Attack:T2 Attacker-Arg:T1 Place-Arg:T4 Place-Arg2:T3
+T3	GPE 24 31	ở Syria
+T4	LOC 12 23	trại tị_nạn
+T5	PER 34 42	46 người
+T6	Die 43 47	chết
+E2	Die:T6 Victim-Arg:T5
+T7	PER 338 351	5 kẻ tấn_công
+T8	Die 352 358	tự sát
+E3	Die:T8 Agent-Arg:T7 Victim-Arg:T7
+T9	Attack 359 366	kích nổ
+E4	Attack:T9 Attacker-Arg:T7 Instrument-Arg:T10 Place-Arg:T11
+T10	WEA 367 370	bom
+T11	LOC 371 462	cả ở phía trong và bên ngoài khu trại dành cho người tị_nạn Iraq và người Syria mất nhà_cửa
+T12	PER 640 648	46 người
+T13	Die 652 662	thiệt_mạng
+E5	Die:T13 Victim-Arg:T12
+T14	PER 779 798	một nhóm phiến quân
+T15	Attack 802 810	tấn_công
+E6	Attack:T15 Attacker-Arg:T14 Place-Arg:T16
+T16	LOC 812 841	ị_trí của SDF gần trại tị_nạn
+T17	Attack 96 104	tấn_công
+E7	Attack:T17 Time-Arg:T18 Target-Arg:T19
+T18	TIME 116 139	khoảng 4h sáng ngày 2/5
+T19	FAC 144 176	khu trại tạm ở Rajm al - Salibeh

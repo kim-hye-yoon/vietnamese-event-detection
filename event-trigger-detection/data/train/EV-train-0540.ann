@@ -1,0 +1,44 @@
+T1	Divorce 37 43	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 12	Vũ_Duy_Khánh
+T3	PER 62 68	ly_hôn
+T4	Divorce 210 216	Ly_hôn
+E2	Divorce:T4 Person-Arg:T5
+T5	PER 229 232	tôi
+T6	Divorce 536 542	ly_hôn
+E3	Divorce:T6 Person-Arg:T7
+T7	PER 558 561	tôi
+T8	Marry 821 825	cưới
+E4	Marry:T8 Person-Arg:T9 Person-Arg2:T14
+T9	PER 767 775	JustaTee
+T10	Divorce 1907 1913	Ly_hôn
+E5	Divorce:T10 
+T11	Die 253 258	ra đi
+E6	Die:T11 Victim-Arg:T12 Time-Arg:T13
+T12	PER 263 285	bố tôi - NSƯT Minh_Hải
+T13	TIME 297 308	hơn một năm
+T14	PER 831 833	vợ
+T15	Transfer-money 3155 3158	trả
+E7	Transfer-money:T15 Giver-Arg:T17 Time-Arg:T16
+T16	TIME 3113 3125	Tháng 9/2018
+T17	PER 3128 3131	anh
+T18	Transfer-money 3286 3289	trả
+E8	Transfer-money:T18 Giver-Arg:T19
+T19	PER 3213 3216	Tôi
+T20	Transfer-money 3532 3535	trả
+E9	Transfer-money:T20 Giver-Arg:T21
+T21	PER 3503 3515	Vũ_Duy_Khánh
+T22	Be-born 4181 4185	sinh
+E10	Be-born:T22 Person-Arg:T23 Time-Arg:T24
+T23	PER 4168 4180	Vũ_Duy_Khánh
+T24	TIME 4186 4194	năm 1989
+T25	Marry 4504 4511	kết_hôn
+E11	Marry:T25 Person-Arg:T26 Time-Arg:T27
+T26	PER 4482 4503	Vợ_chồng Vũ_Duy_Khánh
+T27	TIME 4512 4525	cuối năm 2015
+T28	Divorce 4585 4591	ly_hôn
+E12	Divorce:T28 Time-Arg:T29
+T29	TIME 4569 4579	Sau ba năm
+T30	Meet 1528 1531	gặp
+E13	Meet:T30 Entity-Arg:T31
+T31	PER 1509 1518	chúng_tôi

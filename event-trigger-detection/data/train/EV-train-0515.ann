@@ -1,0 +1,30 @@
+T2	PER 314 324	kẻ xả súng
+T3	PER 341 350	nhân_viên
+T1	Attack 329 336	sát_hại
+E1	Attack:T1 Attacker-Arg:T2 Target-Arg:T3
+T4	Die 559 569	thiệt_mạng
+E2	Die:T4 Victim-Arg:T5
+T5	PER 545 553	tay súng
+T6	Die 656 660	chết
+E3	Die:T6 Victim-Arg:T7
+T7	PER 648 655	tên này
+T8	Attack 0 7	Xả súng
+E4	Attack:T8 Target-Arg:T9
+T9	PER 20 37	một gia_đình đang
+T10	Attack 149 156	xả súng
+E5	Attack:T10 Attacker-Arg:T11 Target-Arg:T12 Place-Arg:T21
+T11	PER 115 144	một tay súng chưa rõ danh_tín
+T12	PER 161 168	6 người
+T13	Die 210 220	thiệt_mạng
+E6	Die:T13 Victim-Arg:T18
+T14	Injure 232 241	bị_thương
+E7	Injure:T14 Victim-Arg:T17
+T15	Injure 265 274	bị_thương
+E8	Injure:T15 Victim-Arg:T16
+T16	PER 256 264	2 trẻ_em
+T17	PER 224 231	4 người
+T18	PER 202 209	2 người
+T19	Die 492 499	tử_vong
+E9	Die:T19 Victim-Arg:T20
+T20	PER 479 491	3 trường_hợp
+T21	GPE 75 94	bang Arkasas của Mỹ

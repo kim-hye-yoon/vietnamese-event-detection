@@ -1,0 +1,11 @@
+T1	Marry 10 17	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 22 58	người họ_hàng của gia_đình thông_gia
+T3	Marry 106 113	kết_hôn
+E2	Marry:T3 
+T4	Marry 219 226	kết_hôn
+E3	Marry:T4 
+T5	Marry 330 337	kết_hôn
+E4	Marry:T5 
+T6	Marry 475 482	kết_hôn
+E5	Marry:T6 

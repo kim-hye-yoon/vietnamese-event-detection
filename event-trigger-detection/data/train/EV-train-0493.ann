@@ -1,0 +1,57 @@
+T1	PER 22 27	chồng
+T2	Attack 28 37	chém chết
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 38 47	vợ và con
+T4	TIME 104 117	rạng sáng 3/5
+T5	PER 122 141	người chồng 57 tuổi
+T6	Attack 158 167	chém chết
+E2	Attack:T6 Attacker-Arg:T5 Target-Arg:T7 Instrument-Arg:T9 Time-Arg:T4 Place-Arg:T8
+T7	PER 168 182	vợ và con_trai
+T8	GPE 81 103	xã Hà_Kỳ ( Hải_Dương )
+T9	WEA 150 157	dao_rựa
+T10	PER 404 428	Phạm_Văn_Hải ( SN 1957 )
+T11	WEA 437 444	dao_rựa
+T12	Attack 445 454	chém chết
+E3	Attack:T12 Instrument-Arg:T11 Attacker-Arg:T10 Target-Arg:T13 Place-Arg:T14
+T13	PER 455 469	vợ và con_trai
+T14	FAC 500 513	tại nhà_riêng
+T15	Attack 271 275	chém
+E4	Attack:T15 Target-Arg:T17 Attacker-Arg:T18
+T16	Die 276 280	chết
+E5	Die:T16 Victim-Arg:T17 Agent-Arg:T18
+T17	PER 281 290	vợ và con
+T18	PER 220 242	Nghi_phạm Phạm_Văn_Hải
+T19	PER 1878 1885	ông Hải
+T20	TIME 1853 1875	khoảng 6 giờ cùng ngày
+T21	FAC 1893 1908	cơ_quan công_an
+T22	Transport 1889 1892	đến
+E6	Transport:T22 Time-Arg:T20 Destination-Arg:T21 Artifact-Arg:T19
+T23	WEA 1954 1957	dao
+T24	Die 1958 1965	sát_hại
+E7	Die:T24 Instrument-Arg:T23 Victim-Arg:T25 Victim-Arg2:T19
+T25	PER 1966 1980	vợ và con_trai
+T26	PER 2116 2123	ông Hải
+T27	WEA 2131 2138	dao_rựa
+T28	Attack 2139 2143	chém
+E8	Attack:T28 Attacker-Arg:T26 Target-Arg:T29 Instrument-Arg:T27
+T29	PER 2178 2187	vợ và con
+T30	PER 2220 2227	ông Hải
+T31	WEA 2242 2245	dao
+T32	Attack 2246 2249	cắt
+E9	Attack:T32 Attacker-Arg:T30 Target-Arg:T33 Instrument-Arg:T31
+T33	PER 2257 2270	vợ , con mình
+T34	PER 2587 2594	bà Vông
+T35	PER 2598 2610	anh Tuấn_Anh
+T36	Die 2611 2618	tử_vong
+E10	Die:T36 Victim-Arg:T34 Victim-Arg2:T35
+T37	PER 2695 2702	Bà Vông
+T39	WEA 2750 2757	dao_rựa
+T40	Attack 2706 2710	chém
+E11	Attack:T40 Target-Arg:T37 Instrument-Arg:T39
+T38	ORG 4427 4452	Cơ_quan CSĐT Công_an tỉnh
+T41	Arrest-jail 4494 4501	tạm giữ
+E12	Arrest-jail:T41 Agent-Arg:T38 Crime-Arg:T42 Person-Arg:T43
+T42	CRIME 4513 4531	hành_vi giết người
+T43	PER 4540 4552	Phạm_Văn_Hải
+T44	Charge-indict 4470 4477	khởi_tố
+E13	Charge-indict:T44 Adjudicator-Arg:T38

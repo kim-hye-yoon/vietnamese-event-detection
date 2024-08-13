@@ -1,0 +1,7 @@
+T1	Declare-bankruptcy 11 27	tuyên_bố phá_sản
+E1	Declare-bankruptcy:T1 Place-Arg:T3 Org-Arg:T2
+T2	ORG 0 7	Benelli
+T3	GPE 32 37	Italy
+T4	Transfer-money 560 566	trả nợ
+E2	Transfer-money:T4 Giver-Arg:T5
+T5	PER 516 525	Chúng_tôi

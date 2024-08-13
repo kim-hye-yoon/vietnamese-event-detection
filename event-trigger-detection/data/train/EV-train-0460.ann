@@ -1,0 +1,50 @@
+T1	Transfer-ownership 511 514	mua
+E1	Transfer-ownership:T1 Seller-Arg:T3 Price-Arg:T2 Buyer-Arg:T4
+T2	MONEY 490 502	trăm tỉ đồng
+T3	PER 522 530	nông_dân
+T4	ORG 537 547	Bianfishco
+T5	End-org 991 999	đóng_cửa
+E2	End-org:T5 Org-Arg:T6
+T6	ORG 961 973	doanh_nghiệp
+T7	Transfer-money 1095 1105	thanh_toán
+E3	Transfer-money:T7 Giver-Arg:T8
+T8	ORG 1077 1094	10 % doanh_nghiệp
+T9	Transfer-money 1362 1364	nợ
+E4	Transfer-money:T9 Giver-Arg:T10 Recipient-Arg:T11 Place-Arg:T12 Money-Arg:T13
+T10	ORG 1365 1383	6 tổ_chức tín_dụng
+T11	ORG 1316 1344	Công_ty_cổ_phần Thép_Vạn_Lợi
+T12	GPE 1347 1356	Hải_Phòng
+T13	MONEY 1384 1401	hơn 1.000 tỉ đồng
+T14	Transfer-money 1404 1406	nợ
+E5	Transfer-money:T14 Recipient-Arg:T11 Money-Arg:T15 Money-Arg2:T16
+T15	MONEY 1417 1427	11 tỉ đồng
+T16	MONEY 1446 1455	7 tỉ đồng
+T17	Transfer-money 1824 1826	nợ
+E6	Transfer-money:T17 Giver-Arg:T19 Recipient-Arg:T20
+T18	Transfer-money 1876 1886	thanh_toán
+E7	Transfer-money:T18 Recipient-Arg:T19 Giver-Arg:T20
+T19	ORG 1908 1914	chủ_nợ
+T20	ORG 1761 1769	Vinashin
+T21	Declare-bankruptcy 2267 2283	tuyên_bố phá_sản
+E8	Declare-bankruptcy:T21 Org-Arg:T22
+T22	ORG 2230 2240	Bianfishco
+T23	Sue 3357 3366	khởi_kiện
+E9	Sue:T23 Plaintiff-Arg:T24
+T24	PER 3257 3294	một_số nông_dân là chủ_nợ của Bình_An
+T25	Transfer-money 3795 3798	vay
+E10	Transfer-money:T25 Recipient-Arg:T27 Giver-Arg:T29 Place-Arg:T28 Money-Arg:T30
+T26	Transfer-ownership 3829 3832	mua
+E11	Transfer-ownership:T26 Buyer-Arg:T27 Artifact-Arg:T31 Place-Arg:T28
+T27	ORG 3778 3794	một doanh_nghiệp
+T28	GPE 3768 3775	Phú_Yên
+T29	ORG 3799 3808	ngân_hàng
+T30	MONEY 3809 3825	hơn trăm tỉ đồng
+T31	VEH 3833 3843	ô_tô khách
+T32	Transfer-ownership 3904 3907	bán
+E12	Transfer-ownership:T32 Seller-Arg:T34 Artifact-Arg:T33
+T33	VEH 3908 3910	xe
+T34	ORG 3886 3898	doanh_nghiệp
+T35	Transfer-ownership 4317 4320	bán
+E13	Transfer-ownership:T35 Seller-Arg:T36 Artifact-Arg:T37
+T36	ORG 4304 4316	doanh_nghiệp
+T37	VEH 4243 4251	xe_khách

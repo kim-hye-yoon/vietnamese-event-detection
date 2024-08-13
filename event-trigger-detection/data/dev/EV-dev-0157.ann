@@ -1,0 +1,22 @@
+T1	Attack 14 17	đâm
+E1	Attack:T1 Target-Arg:T3
+T2	Die 18 22	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 0 10	Công_an xã
+T4	Divorce 221 227	ly_hôn
+E3	Divorce:T4 Person-Arg:T6
+T5	Divorce 40 46	ly_hôn
+E4	Divorce:T5 Person-Arg:T3
+T6	PER 188 196	bố_mẹ Ân
+T7	Attack 478 481	đâm
+E5	Attack:T7 Attacker-Arg:T8 Target-Arg:T9 Instrument-Arg:T15
+T8	PER 466 468	Ân
+T9	PER 499 511	công_an_viên
+T10	PER 592 602	Phước_Tuấn
+T11	Die 566 573	tử_vong
+E6	Die:T11 Victim-Arg:T12
+T12	PER 557 565	nạn_nhân
+T13	Transport 542 549	bỏ trốn
+E7	Transport:T13 Agent-Arg:T14
+T14	PER 576 578	Ân
+T15	WEA 474 477	dao

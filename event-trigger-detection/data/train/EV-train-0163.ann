@@ -1,0 +1,43 @@
+T1	Extradite 19 25	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2
+T2	PER 26 50	nghi_phạm giết Khashoggi
+T3	Extradite 144 150	dẫn_độ
+E2	Extradite:T3 
+T4	Attack 573 577	giết
+E3	Attack:T4 Target-Arg:T5
+T5	PER 578 585	nhà_báo
+T6	End-position 829 839	bị sa_thải
+E4	End-position:T6 Time-Arg:T8 Person-Arg:T7
+T7	PER 807 824	Hai quan_chức này
+T8	TIME 844 852	tháng 10
+T9	Die 861 865	chết
+E5	Die:T9 Victim-Arg:T10
+T10	PER 870 879	Khashoggi
+T11	Extradite 1154 1160	dẫn_độ
+E6	Extradite:T11 Person-Arg:T12
+T12	PER 1161 1181	tất_cả các nghi_phạm
+T13	Attack 1191 1195	giết
+E7	Attack:T13 Target-Arg:T14
+T14	PER 1196 1203	nhà_báo
+T15	PER 1161 1203	tất_cả các nghi_phạm trong vụ giết nhà_báo
+T16	Transport 1204 1207	tới
+E8	Transport:T16 Destination-Arg:T17 Artifact-Arg:T15
+T17	GPE 1208 1218	Thổ_Nhĩ_Kỳ
+T18	PER 1221 1230	Khashoggi
+T19	Attack 1231 1241	bị sát_hại
+E9	Attack:T19 Target-Arg:T18
+T20	Transport 1250 1253	tới
+E10	Transport:T20 Artifact-Arg:T18 Destination-Arg:T21 Destination-Arg2:T22
+T21	FAC 1254 1277	lãnh_sự_quán Arab_Saudi
+T22	GPE 1280 1301	Istanbul , Thổ_Nhĩ_Kỳ
+T23	Marry 1325 1332	kết_hôn
+E11	Marry:T23 Person-Arg:T18
+T24	Die 1450 1457	tử_vong
+E12	Die:T24 Victim-Arg:T25
+T25	PER 1400 1407	nhà_báo
+T26	Attack 1698 1702	giết
+E13	Attack:T26 Target-Arg:T27
+T27	PER 1703 1712	Khashoggi
+T28	Attack 1895 1899	giết
+E14	Attack:T28 Target-Arg:T29
+T29	PER 1900 1905	người

@@ -1,0 +1,36 @@
+T1	PER 131 143	các nạn_nhân
+T2	Die 144 154	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1 Place-Arg:T3
+T3	GPE 169 175	Odessa
+T4	PER 571 579	40 người
+T5	Die 586 596	thiệt_mạng
+E2	Die:T5 Victim-Arg:T4 Place-Arg:T8 Time-Arg:T9
+T6	PER 604 618	200 người khác
+T7	Injure 619 628	bị_thương
+E3	Injure:T7 Victim-Arg:T6 Place-Arg:T8 Time-Arg:T9
+T8	FAC 680 711	toà nhà công_đoàn của thành_phố
+T9	TIME 712 729	hôm thứ 6 ( 2/5 )
+T10	PER 1436 1524	nhóm ủng_hộ Kiev bao_gồm những cổ_động_viên bóng_đá từ Kharkov , chiến_binh Right_Sector
+T11	Attack 1536 1542	xô_xát
+E4	Attack:T11 Attacker-Arg:T10 Time-Arg:T14 Instrument-Arg:T12 Target-Arg:T13
+T12	WEA 1548 1555	gậy_gộc
+T13	PER 1569 1591	phe biểu_tình thân Nga
+T14	TIME 1411 1419	Trước đó
+T15	PER 1625 1645	những người_thân Nga
+T16	Transport 1651 1654	vào
+E5	Transport:T16 Destination-Arg:T17 Artifact-Arg:T15
+T17	FAC 1662 1700	toà nhà công_đoàn của thành_phố Odessa
+T18	PER 1703 1738	Các phần_tử thân Kiev và phương Tây
+T19	PER 1811 1825	mấy chục người
+T20	Die 1829 1839	thiệt_mạng
+E6	Die:T20 Victim-Arg:T19 Agent-Arg:T18
+T21	ORG 499 515	chính_quyền Kiev
+T22	Attack 516 519	ném
+E7	Attack:T22 Instrument-Arg:T23 Attacker-Arg:T21 Place-Arg:T25 Time-Arg:T24
+T23	WEA 520 528	bom_xăng
+T24	TIME 557 564	hôm 2/5
+T25	LOC 539 556	toà nhà công_đoàn
+T26	Attack 1756 1759	ném
+E8	Attack:T26 Instrument-Arg:T27 Place-Arg:T28 Attacker-Arg:T18 Attacker-Arg2:T19
+T27	WEA 1747 1755	bom_xăng
+T28	LOC 1764 1777	trong toà nhà

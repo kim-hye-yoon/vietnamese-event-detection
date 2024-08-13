@@ -1,0 +1,76 @@
+T1	Pardon 0 5	Ân_xá
+E1	Pardon:T1 Place-Arg:T3
+T2	Sentence 41 47	kết_án
+E2	Sentence:T2 Place-Arg:T3
+T3	GPE 53 61	Malaysia
+T5	TIME 133 141	ngày 1/3
+T6	PER 118 132	Đoàn_Thị_Hương
+T7	ORG 145 162	toà_án ở Malaysia
+T8	PER 177 228	người đàn_ông Triều_Tiên mang hộ_chiếu tên Kim_Chol
+T9	SEN 349 359	án tử_hình
+T10	Sentence 367 374	kết_tội
+E4	Sentence:T10 Defendant-Arg:T11 Sentence-Arg:T9
+T11	PER 331 336	Hương
+T12	Pardon 504 509	ân_xá
+E5	Pardon:T12 Defendant-Arg:T13
+T13	PER 457 473	tử_tù ở Malaysia
+T14	Sentence 629 635	kết_án
+E6	Sentence:T14 Defendant-Arg:T15 Time-Arg:T17
+T15	PER 605 625	95 trong 829 tù_nhân
+T16	Pardon 652 657	ân_xá
+E7	Pardon:T16 Defendant-Arg:T15
+T17	TIME 574 599	năm 2010 đến tháng 2/2016
+T18	Pardon 763 768	ân_xá
+E8	Pardon:T18 Adjudicator-Arg:T19
+T19	PER 677 745	Nhà_vua Malaysia và các Sultan ( người cai_trị các bang ở Malaysia )
+T20	Sentence 891 897	kết_án
+E9	Sentence:T20 Sentence-Arg:T21
+T21	SEN 898 905	tử_hình
+T23	PER 1148 1155	Nhà_vua
+T24	GPE 1240 1252	Kuala_Lumpur
+T25	GPE 1255 1264	Putrajaya
+T26	GPE 1268 1274	Labuan
+T22	Pardon 1170 1175	ân_xá
+E10	Pardon:T22 Adjudicator-Arg:T23 Place-Arg:T24 Place-Arg2:T25 Place-Arg3:T26
+T27	Pardon 1417 1422	ân_xá
+E11	Pardon:T27 
+T4	Die 172 176	giết
+E3	Die:T4 Agent-Arg:T6 Time-Arg:T5 Victim-Arg:T8
+T28	Convict 2464 2471	kết_tội
+E12	Convict:T28 Defendant-Arg:T29 Crime-Arg:T33
+T29	PER 2449 2460	4 người này
+T30	Attack 2472 2476	giết
+E13	Attack:T30 Target-Arg:T31 Attacker-Arg:T29
+T31	PER 2477 2482	người
+T32	Transfer-ownership 2486 2494	buôn_bán
+E14	Transfer-ownership:T32 Seller-Arg:T29
+T33	CRIME 2472 2501	giết người và buôn_bán ma_tuý
+T34	Pardon 2238 2243	ân_xá
+E15	Pardon:T34 Defendant-Arg:T36 Adjudicator-Arg:T35
+T35	PER 2215 2234	Sultan của Selangor
+T36	PER 2244 2250	cô này
+T37	Sentence 2408 2414	kết_án
+E16	Sentence:T37 Sentence-Arg:T39 Defendant-Arg:T38
+T38	PER 2397 2404	4 người
+T39	SEN 2415 2446	tử_hình xuống còn tù chung_thân
+T40	Arrest-jail 2515 2521	bị bắt
+E17	Arrest-jail:T40 Time-Arg:T42 Person-Arg:T41
+T41	PER 2504 2514	David_Wang
+T42	TIME 2522 2530	năm 1984
+T43	Transfer-ownership 2562 2566	buôn
+E18	Transfer-ownership:T43 Seller-Arg:T41
+T44	Appeal 2584 2593	kháng_cáo
+E19	Appeal:T44 Adjudicator-Arg:T45 Time-Arg:T46
+T45	ORG 2607 2623	toà_án liên_bang
+T46	TIME 2624 2632	năm 1996
+T47	PER 2635 2639	Wang
+T48	Phone-write 2643 2651	viết thư
+E20	Phone-write:T48 Entity-Arg:T47 Entity-Arg2:T49
+T49	PER 2656 2677	Sultan của Terengganu
+T50	Transfer-ownership 2166 2174	buôn_lậu
+E21	Transfer-ownership:T50 Seller-Arg:T52 Time-Arg:T51
+T51	TIME 2067 2075	Năm 2015
+T52	PER 2078 2126	một phụ_nữ Philippines có tên Jacqueline_Quiamno
+T53	Convict 2158 2165	kết_tội
+E22	Convict:T53 Crime-Arg:T54 Defendant-Arg:T52
+T54	CRIME 2166 2212	buôn_lậu ma_tuý ở sân_bay quốc_tế Kuala_Lumpur

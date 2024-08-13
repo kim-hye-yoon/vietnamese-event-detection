@@ -1,0 +1,27 @@
+T1	Attack 142 147	ẩu_đả
+E1	Attack:T1 Attacker-Arg:T2
+T2	PER 122 141	hai nhóm thanh_niên
+T3	Attack 175 189	đuổi đánh nhau
+E2	Attack:T3 Attacker-Arg:T4
+T4	PER 154 165	nhiều người
+T5	Attack 329 332	bắn
+E3	Attack:T5 Attacker-Arg:T6 Instrument-Arg:T7
+T6	PER 208 287	người đàn_ông mặc áo cộc tay màu trắng , quần màu xanh đồng_phục của công_an xã
+T7	WEA 324 328	súng
+T8	Attack 545 552	nổ_súng
+E4	Attack:T8 Instrument-Arg:T9 Attacker-Arg:T10
+T9	WEA 548 552	súng
+T10	PER 556 605	ông Trịnh_Văn_Hưng - Trưởng công_an xã Thọ_Trường
+T11	Attack 700 706	xô_xát
+E5	Attack:T11 Attacker-Arg:T12
+T12	PER 680 699	hai nhóm thanh_niên
+T13	Attack 769 772	bắn
+E6	Attack:T13 Instrument-Arg:T14 Attacker-Arg:T15
+T14	WEA 764 768	súng
+T15	PER 709 717	ông Hưng
+T16	Attack 1081 1099	nổ nhiều phát súng
+E7	Attack:T16 Instrument-Arg:T17 Attacker-Arg:T18 Place-Arg:T19
+T17	WEA 1095 1099	súng
+T18	PER 1072 1080	Ông Hưng
+T19	FAC 1104 1115	quán ăn đêm
+T20	PER 1438 1450	thiếu_tá Anh

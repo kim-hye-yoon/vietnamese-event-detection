@@ -1,0 +1,29 @@
+T1	Execute 29 36	tử_hình
+E1	Execute:T1 Person-Arg:T2 Agent-Arg:T3 Place-Arg:T3
+T2	PER 37 52	người đồng_tính
+T3	GPE 57 63	Brunei
+T4	Die 472 477	chết 
+E2	Die:T4 Victim-Arg:T5 Place-Arg:T6
+T5	PER 477 512	người ngoại_tình và người đồng_tính
+T6	GPE 445 451	Brunei
+T7	Attack 461 464	ném
+E3	Attack:T7 Instrument-Arg:T8 Target-Arg:T5 Place-Arg:T6
+T8	WEA 465 467	đá
+T9	Convict 581 588	kết_tội
+E4	Convict:T9 Crime-Arg:T10 Defendant-Arg:T11
+T10	CRIME 589 597	trộm_cắp
+T11	PER 572 577	người
+T12	Attack 604 608	chặt
+E5	Attack:T12 Target-Arg:T13
+T13	PER 572 597	người bị kết_tội trộm_cắp
+T14	Sentence 856 865	hình_phạt
+E6	Sentence:T14 Sentence-Arg:T15 Crime-Arg:T16
+T15	SEN 866 873	tử_hình
+T16	CRIME 886 977	cưỡng_hiếp , cướp_bóc , quan_hệ với động_vật và lăng_mạ hoặc phỉ_báng nhà tiên_tri Mohammad
+T17	Execute 1233 1240	tử_hình
+E7	Execute:T17 Agent-Arg:T18 Place-Arg:T18
+T18	GPE 1170 1176	Brunei
+T19	Execute 1259 1278	thi_hành án tử_hình
+E8	Execute:T19 Agent-Arg:T20 Time-Arg:T21 Place-Arg:T20
+T20	GPE 1252 1258	Brunei
+T21	TIME 1286 1294	năm 1957

@@ -1,0 +1,35 @@
+T1	Attack 229 237	tấn_công
+E1	Attack:T1 Attacker-Arg:T3 Place-Arg:T2 Time-Arg:T15
+T2	LOC 246 278	làng thuộc bang Zamfara miền Bắc
+T3	ORG 210 225	một_số tay súng
+T4	Attack 1073 1081	tấn_công
+E2	Attack:T4 Place-Arg:T8 Target-Arg:T7 Attacker-Arg:T5 Time-Arg:T6
+T5	ORG 1052 1067	một_số tay súng
+T6	TIME 1038 1049	Tháng trước
+T7	PER 1082 1090	nông_dân
+T8	LOC 1093 1125	bang Kaduna , cạnh bang Damphara
+T9	PER 30 38	79 người
+T10	Die 39 49	thiệt_mạng
+E3	Die:T10 Victim-Arg:T9 Place-Arg:T11
+T11	GPE 11 27	miền Bắc_Nigeria
+T12	PER 142 151	100 người
+T13	Die 152 162	thiệt_mạng
+E4	Die:T13 Victim-Arg:T12 Place-Arg:T14
+T14	GPE 101 122	bang Kaduna , Nigeria
+T15	TIME 183 198	hôm_qua ( 6/4 )
+T16	Die 291 299	giết_hại
+E5	Die:T16 Victim-Arg:T17
+T17	PER 300 308	79 người
+T18	PER 554 566	Các tay súng
+T19	Attack 599 607	xông vào
+E6	Attack:T19 Attacker-Arg:T18 Place-Arg:T20
+T20	LOC 613 640	họp của lãnh_đạo địa_phương
+T21	Meet 675 684	thảo_luận
+E7	Meet:T21 Entity-Arg:T22
+T22	PER 644 674	đại_diện của làng Yar_Galadima
+T23	PER 761 779	Những người Fulani
+T24	Attack 860 870	giao_tranh
+E8	Attack:T24 Attacker-Arg:T23
+T25	PER 1139 1148	100 người
+T26	Die 1149 1159	thiệt_mạng
+E9	Die:T26 Victim-Arg:T25

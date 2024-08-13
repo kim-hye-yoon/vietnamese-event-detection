@@ -1,0 +1,52 @@
+T2	ORG 72 105	TAND quận Hải_Châu ( TP Đà_Nẵng )
+T3	TIME 60 69	Ngày 10/2
+T5	PER 1083 1092	chị Trang
+T6	Die 1093 1100	tử_vong
+E2	Die:T6 Victim-Arg:T5
+T7	PER 1111 1119	anh Hiếu
+T8	Injure 1120 1129	bị_thương
+E3	Injure:T8 Victim-Arg:T7
+T9	PER 1312 1321	chị Trang
+T10	Die 1322 1329	tử_vong
+E4	Die:T10 Victim-Arg:T9
+T11	PER 1465 1480	vợ_chồng bị_cáo
+T12	Divorce 1484 1490	ly_hôn
+E5	Divorce:T12 Person-Arg:T11
+T1	Trial-hearing 109 115	xét_xử
+E1	Trial-hearing:T1 Adjudicator-Arg:T2 Defendant-Arg:T4 Time-Arg:T3 Crime-Arg:T13
+T4	PER 124 210	bị_cáo Trần_Quang_Hiền ( SN 1959 , ngụ xã Duy_Hoà , huyện Duy_Xuyên , tỉnh Quảng_Nam )
+T13	CRIME 268 334	Vi_phạm các quy_định về điều_khiển phương_tiện giao_thông đường_bộ
+T14	Sentence 1702 1712	tuyên_phạt
+E6	Sentence:T14 Sentence-Arg:T15 Defendant-Arg:T16 Adjudicator-Arg:T17
+T15	SEN 1720 1735	9 tháng tù_treo
+T16	PER 1547 1553	bị_cáo
+T17	ORG 1530 1534	HĐXX
+T18	FAC 969 984	cầu Thuận_Phước
+T19	FAC 946 965	đường Ông_Ích_Khiêm
+T20	PER 834 905	chị Nguyễn_Nhật_Huyền_Trang ( SN 1990 , trú quận Sơn_Trà , TP Đà_Nẵng )
+T21	Transport 497 507	điều_khiển
+E7	Transport:T21 Vehicle-Arg:T22 Agent-Arg:T23 Origin-Arg:T24 Time-Arg:T25
+T22	VEH 508 531	xe ô_tô BKS 51 A -07415
+T23	PER 481 496	Trần_Quàng_Hiền
+T24	FAC 539 547	lề_đường
+T25	TIME 387 418	khoảng 20g 25 phút tối 5/6/2013
+T26	FAC 425 478	đường Nguyễn_Tất_Thành ( quận Hải_Châu , TP Đà_Nẵng )
+T27	Injure 1156 1167	thương_tích
+E8	Injure:T27 Victim-Arg:T28
+T28	PER 1136 1146	chị Nguyệt
+T29	Sentence 38 42	lãnh
+E9	Sentence:T29 Sentence-Arg:T31 Defendant-Arg:T30
+T30	PER 14 37	Chánh Thanh_tra Sở Y_tế
+T31	SEN 43 53	9 tháng tù
+T32	Trial-hearing 361 369	phiên xử
+E10	Trial-hearing:T32 Defendant-Arg:T33
+T33	PER 337 356	Ông Trần_Quang_Hiền
+T34	Transport 922 931	lưu_thông
+E11	Transport:T34 Agent-Arg:T20 Origin-Arg:T19 Destination-Arg:T18
+T35	Attack 815 819	tông
+E12	Attack:T35 
+T36	Trial-hearing 1207 1216	phiên_toà
+E13	Trial-hearing:T36 Defendant-Arg:T37
+T37	PER 1219 1230	bị_cáo Hiền
+T38	Trial-hearing 1581 1590	phiên_toà
+E14	Trial-hearing:T38 Defendant-Arg:T16 Prosecutor-Arg:T17

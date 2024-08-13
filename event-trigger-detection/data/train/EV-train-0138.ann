@@ -1,0 +1,22 @@
+T1	WEA 42 57	Tên_lửa Tomhawk
+T2	TIME 58 65	hôm 7/4
+T3	Attack 72 77	phóng
+E1	Attack:T3 Instrument-Arg:T1 Time-Arg:T2 Place-Arg:T9
+T4	TIME 634 642	Ngày 7/4
+T5	VEH 645 661	hai tàu_chiến Mỹ
+T6	Attack 685 690	phóng
+E2	Attack:T6 Target-Arg:T8 Instrument-Arg:T7 Instrument-Arg2:T5 Time-Arg:T4
+T7	WEA 691 712	59 tên_lửa hành_trình
+T8	FAC 717 762	căn_cứ không_quân Shayrat ở tỉnh Homs , Syria
+T9	LOC 103 121	đông Địa_Trung_Hải
+T10	Attack 1276 1286	không_kích
+E3	Attack:T10 Attacker-Arg:T11
+T11	GPE 1291 1293	Mỹ
+T12	Attack 1307 1315	xâm_lược
+E4	Attack:T12 Place-Arg:T13
+T13	LOC 1320 1341	quốc_gia có chủ_quyền
+T14	Attack 1137 1145	tấn_công
+E5	Attack:T14 Instrument-Arg:T15 Place-Arg:T16 Time-Arg:T17
+T15	VEH 1151 1165	vũ_khí_hoá_học
+T16	GPE 1168 1178	tỉnh Idlib
+T17	TIME 1179 1186	hôm 4/4

@@ -1,0 +1,67 @@
+T3	Divorce 90 96	Ly_hôn
+E2	Divorce:T3 Person-Arg:T4
+T4	PER 109 112	tôi
+T5	Divorce 257 279	kết_thúc cuộc hôn_nhân
+E3	Divorce:T5 Person-Arg:T6
+T6	PER 237 245	chị Dawn
+T7	Marry 356 363	tái_hôn
+E4	Marry:T7 Person-Arg:T8
+T8	PER 349 352	Chị
+T9	Divorce 451 457	ly_hôn
+E5	Divorce:T9 Person-Arg:T10
+T10	PER 416 424	nam_giới
+T11	Divorce 468 470	bỏ
+E6	Divorce:T11 Person-Arg:T12 Person-Arg2:T13
+T12	PER 460 467	Đàn_ông
+T13	PER 471 473	vợ
+T1	Divorce 2392 2398	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 2350 2358	Người vợ
+T14	Divorce 3022 3030	chia_tay
+E7	Divorce:T14 Person-Arg:T15
+T15	PER 3033 3041	vợ_chồng
+T16	Die 3320 3325	tự_tử
+E8	Die:T16 
+T17	Divorce 3828 3833	ly_dị
+E9	Divorce:T17 Person-Arg:T19 Person-Arg2:T18
+T18	PER 3834 3836	vợ
+T19	PER 3727 3739	Daley_Gibbon
+T20	Marry 3844 3852	hôn_nhân
+E10	Marry:T20 Person-Arg:T21
+T21	PER 3874 3876	họ
+T22	Divorce 4096 4102	ly_hôn
+E11	Divorce:T22 Person-Arg:T23 Person-Arg2:T24
+T23	PER 4041 4044	Anh
+T24	PER 4067 4069	vợ
+T25	Marry 4126 4129	lấy
+E12	Marry:T25 Person-Arg:T27 Person-Arg2:T28 Time-Arg:T26
+T26	TIME 4105 4116	Hai năm sau
+T27	PER 4119 4125	vợ anh
+T28	PER 4130 4140	người khác
+T29	Be-born 4145 4149	sinh
+E13	Be-born:T29 Person-Arg:T27 Person-Arg2:T30
+T30	PER 4150 4153	con
+T31	Marry 4523 4531	lấy nhau
+E14	Marry:T31 Person-Arg:T32 Person-Arg2:T33
+T32	PER 4534 4537	ông
+T33	PER 4541 4546	vợ cũ
+T34	Transfer-ownership 4574 4577	mua
+E15	Transfer-ownership:T34 Buyer-Arg:T32 Buyer-Arg2:T33
+T35	Transfer-ownership 1892 1895	mua
+E16	Transfer-ownership:T35 Buyer-Arg:T36 Place-Arg:T37
+T36	PER 1876 1888	vợ_chồng anh
+T38	Divorce 4910 4915	ly_dị
+E17	Divorce:T38 Person-Arg:T40 Time-Arg:T39
+T39	TIME 4852 4860	Năm 2011
+T40	PER 4897 4909	vợ_chồng ông
+T41	Transfer-ownership 4932 4936	nhận
+E18	Transfer-ownership:T41 Beneficiary-Arg:T42
+T42	PER 4918 4926	Người vợ
+T37	GPE 1935 1946	Essex , Anh
+T43	PER 4956 4961	chồng
+T44	Transfer-money 4967 4970	trả
+E19	Transfer-money:T44 Giver-Arg:T43 Money-Arg:T45
+T45	MONEY 4976 4987	13.000 bảng
+T46	Transfer-ownership 5308 5312	thuê
+E20	Transfer-ownership:T46 Buyer-Arg:T47
+T47	PER 5270 5281	ông Tristan

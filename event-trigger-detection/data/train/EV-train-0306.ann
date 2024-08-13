@@ -1,0 +1,36 @@
+T1	PER 0 14	Người Hàn_Quốc
+T2	Demonstrate 15 24	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 74 89	Các nhóm dân_sự
+T4	GPE 94 102	Hàn_Quốc
+T5	Demonstrate 103 112	biểu_tình
+E2	Demonstrate:T5 Place-Arg:T4 Place-Arg2:T6 Time-Arg:T7 Entity-Arg:T3
+T6	LOC 113 127	trước Nhà_Xanh
+T7	TIME 128 136	hôm 29/5
+T8	PER 197 269	ác nhóm hoạt_động dân_sự , bao_gồm Liên_hiệp Công_đoàn Hàn_Quốc ( KCTU )
+T9	Demonstrate 275 284	biểu_tình
+E3	Demonstrate:T9 Entity-Arg:T8 Place-Arg:T10 Time-Arg:T11
+T10	LOC 291 299	Nhà_Xanh
+T11	TIME 300 308	hôm 29/5
+T12	TIME 499 511	Ngày hôm sau
+T13	PER 514 564	chi_nhánh của KCTU tại đảo Jeju cùng các nhóm khác
+T14	Demonstrate 570 579	biểu_tình
+E4	Demonstrate:T14 Entity-Arg:T13 Place-Arg:T15 Time-Arg:T12
+T15	LOC 580 621	trước Trung_tâm Việc_làm và Phúc_lợi Jeju
+T16	PER 906 928	Một trong hai nạn_nhân
+T17	Transport 929 931	tớ
+E5	Transport:T17 Destination-Arg:T18 Time-Arg:T19 Artifact-Arg:T16
+T18	GPE 933 941	Hàn_Quốc
+T19	TIME 945 957	tháng 6/2017
+T20	PER 1348 1364	ngư_dân Việt_Nam
+T21	Transport 1370 1373	tới
+E6	Transport:T21 Destination-Arg:T22 Time-Arg:T23 Artifact-Arg:T20
+T22	GPE 1374 1382	Hàn_Quốc
+T23	TIME 1386 1398	tháng 9/2017
+T24	PER 1497 1510	Người Hàn_Quố
+T25	Demonstrate 1512 1521	biểu_tình
+E7	Demonstrate:T25 Entity-Arg:T24
+T26	PER 2026 2048	Cảnh_sát biển Seogwipo
+T27	Arrest-jail 2052 2059	bắt_giữ
+E8	Arrest-jail:T27 Person-Arg:T28 Agent-Arg:T26
+T28	PER 2060 2073	thuyền_trưởng

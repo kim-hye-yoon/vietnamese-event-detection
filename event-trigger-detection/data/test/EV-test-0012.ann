@@ -1,0 +1,31 @@
+T1	End-position 17 26	bãi_nhiệm
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T4 Entity-Arg:T2
+T2	ORG 0 16	Công_ty thuỷ_sản
+T3	JOB 35 50	thành_viên HĐQT
+T4	PER 55 68	ông Vũ ' Nhôm
+T5	End-position 155 164	bãi_nhiệm
+E2	End-position:T5 Position-Arg:T6 Person-Arg:T7 Entity-Arg:T8 Time-Arg:T10
+T6	JOB 173 201	Thành_viên Hội_đồng_quản_trị
+T7	PER 210 247	ông Phan_Văn_Anh_Vũ , tức Vũ ‘ Nhôm ’
+T8	ORG 73 131	Tổng_công_ty Thuỷ_sản Việt_Nam ( Seaprodex , mã CK : SEA )
+T9	Meet 252 261	phiên họp
+E3	Meet:T9 Time-Arg:T10
+T10	TIME 270 280	sáng 25/12
+T11	End-position 288 297	bãi_nhiệm
+E4	End-position:T11 Entity-Arg:T12
+T12	ORG 317 361	Hội_đồng_quản_trị trình đại_hội_đồng cổ_đông
+T13	End-position 397 406	bãi_nhiệm
+E5	End-position:T13 Entity-Arg:T14 Position-Arg:T15 Person-Arg:T16 Time-Arg:T17
+T14	ORG 383 392	Seaprodex
+T15	JOB 415 430	Thành viên HĐQT
+T16	PER 439 454	ông Vũ ' Nhôm '
+T17	TIME 461 471	sáng 25/12
+T18	Nominate 806 814	bổ_nhiệm
+E6	Nominate:T18 Person-Arg:T19 Time-Arg:T20
+T19	PER 781 800	Ông Phan_Văn_Anh Vũ
+T20	TIME 836 848	tháng 7/2016
+T21	Transfer-ownership 1448 1461	chuyển_nhượng
+E7	Transfer-ownership:T21 Artifact-Arg:T22 Place-Arg:T23 Seller-Arg:T24
+T22	FAC 1462 1505	mặt_bằng khu đất 2-4-6 Đồng_Khởi ( quận 1 )
+T24	ORG 1417 1426	Seaprodex
+T23	GPE 1437 1443	TP HCM

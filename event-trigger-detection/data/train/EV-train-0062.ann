@@ -1,0 +1,21 @@
+T1	PER 0 6	Nam_Em
+T2	PER 11 14	Tôi
+T4	ORG 50 58	nhà_hàng
+T9	PER 443 446	tôi
+T12	PER 625 628	Tôi
+T18	PER 1052 1055	tôi
+T20	Die 20 25	tự_tử
+E2	Die:T20 Victim-Arg:T2
+T3	End-org 59 66	phá_sản
+E1	End-org:T3 Org-Arg:T4
+T5	End-org 450 458	đóng_cửa
+E3	End-org:T5 Org-Arg:T6
+T6	ORG 459 467	nhà_hàng
+T7	Start-org 634 636	mở
+E4	Start-org:T7 Org-Arg:T8 Agent-Arg:T12
+T8	ORG 637 645	nhà_hàng
+T10	End-org 1041 1049	đóng_cửa
+E5	End-org:T10 
+T11	VEH 1092 1098	xe_tải
+T13	Transport 1099 1102	chở
+E6	Transport:T13 Vehicle-Arg:T11

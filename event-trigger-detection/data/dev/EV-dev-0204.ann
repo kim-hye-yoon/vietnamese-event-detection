@@ -1,0 +1,73 @@
+T1	Attack 9 12	đâm
+E1	Attack:T1 Target-Arg:T3
+T2	Die 13 17	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 18 30	một thiếu_nữ
+T4	VEH 4 8	ô_tô
+T5	Transport 0 3	Lùi
+E3	Transport:T5 Vehicle-Arg:T4
+T6	Transport 54 57	lùi
+E4	Transport:T6 Artifact-Arg:T7 Agent-Arg:T10
+T7	VEH 58 62	ô_tô
+T8	Attack 97 101	tông
+E5	Attack:T8 Target-Arg:T9 Attacker-Arg:T10
+T9	VEH 106 116	hai xe_máy
+T10	PER 65 78	người đàn_ông
+T11	PER 123 132	hai người
+T12	Injure 133 142	bị_thương
+E6	Injure:T12 Victim-Arg:T11 Agent-Arg:T10
+T13	PER 186 195	một người
+T14	Die 196 203	tử_vong
+E7	Die:T14 Victim-Arg:T13 Agent-Arg:T10
+T15	Attack 155 159	tông
+E8	Attack:T15 Target-Arg:T16 Attacker-Arg:T10
+T16	VEH 164 179	một xe_máy khác
+T17	ORG 218 246	TAND quận Hải_Châu , Đà_Nẵng
+T18	Sentence 270 278	tuyên_án
+E9	Sentence:T18 Adjudicator-Arg:T17 Defendant-Arg:T19 Sentence-Arg:T20 Sentence-Arg2:T22 Crime-Arg:T21
+T19	PER 279 365	bị_cáo Trần_Quang_Hiền ( SN 1959 , trú xã Duy_Hoà , huyện Duy_Xuyên , tỉnh Quảng_Nam )
+T20	SEN 366 376	9 tháng tù
+T21	CRIME 410 476	Vi_phạm các quy_định về điều_khiển phương_tiện giao_thông đường_bộ
+T22	SEN 387 400	hưởng án_treo
+T23	TIME 535 552	tối_ngày 5/6/2013
+T24	PER 555 563	ông Hiền
+T26	VEH 575 598	xe ô_tô BKS 51 A -07415
+T27	Transport 599 602	lùi
+E11	Transport:T27 Vehicle-Arg:T26 Origin-Arg:T25 Agent-Arg:T24 Time-Arg:T23
+T25	LOC 606 659	lề_đường Nguyễn_Tất_Thành ( quận Hải_Châu , Đà_Nẵng )
+T28	PER 687 695	ông Hiền
+T29	Transport 699 705	lái_xe
+E10	Transport:T29 Agent-Arg:T28 Artifact-Arg:T31
+T30	Attack 706 709	đâm
+E12	Attack:T30 Attacker-Arg:T28 Target-Arg:T31
+T31	VEH 714 724	hai xe_máy
+T32	PER 731 740	hai người
+T33	Injure 741 750	bị_thương
+E13	Injure:T33 Victim-Arg:T32
+T34	VEH 769 776	xe ô_tô
+T35	Attack 790 794	tông
+E14	Attack:T35 Instrument-Arg:T34 Target-Arg:T36
+T36	VEH 799 878	xe_máy của chị Nguyễn_Nhật_Huyền_Trang ( SN 1990 , trú quận Sơn_Trà , Đà_Nẵng )
+T37	PER 965 974	chị Trang
+T38	Die 975 982	tử_vong
+E15	Die:T38 Place-Arg:T39 Victim-Arg:T37
+T39	LOC 983 990	tại_chỗ
+T40	TIME 1087 1094	tối 5/6
+T41	PER 1097 1108	bị_cáo Hiền
+T43	LOC 1133 1155	đường Nguyễn_Tất_Thành
+T42	Transport 1118 1120	đi
+E16	Transport:T42 Artifact-Arg:T41 Time-Arg:T40 Destination-Arg:T43
+T44	PER 1213 1224	bị_cáo Hiền
+T45	Transport 1237 1240	lùi
+E17	Transport:T45 Vehicle-Arg:T46 Agent-Arg:T44
+T46	VEH 1241 1243	xe
+T47	PER 814 837	Nguyễn_Nhật_Huyền_Trang
+T48	Be-born 840 842	SN
+E18	Be-born:T48 Person-Arg:T47 Time-Arg:T49 Place-Arg:T50
+T49	TIME 843 847	1990
+T50	GPE 850 876	trú quận Sơn_Trà , Đà_Nẵng
+T51	PER 286 301	Trần_Quang_Hiền
+T52	Be-born 304 306	SN
+E19	Be-born:T52 Person-Arg:T51 Time-Arg:T53 Place-Arg:T54
+T53	TIME 307 311	1959
+T54	GPE 318 363	xã Duy_Hoà , huyện Duy_Xuyên , tỉnh Quảng_Nam

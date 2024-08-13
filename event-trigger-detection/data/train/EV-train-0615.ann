@@ -1,0 +1,43 @@
+T1	PER 56 58	Hà
+T3	Transport 95 98	đưa
+E1	Transport:T3 Agent-Arg:T1 Origin-Arg:T2 Destination-Arg:T13
+T5	TIME 224 233	Ngày 28/5
+T9	Arrest-jail 264 267	bắt
+E2	Arrest-jail:T9 Time-Arg:T5 Crime-Arg:T11 Person-Arg:T8 Agent-Arg:T7
+T11	CRIME 401 433	vận_chuyển trái_phép chất ma_tuý
+T15	LOC 861 875	trụ_sở công_an
+T16	Transport 478 480	đi
+E4	Transport:T16 Origin-Arg:T17 Destination-Arg:T18 Agent-Arg:T19 Vehicle-Arg:T20
+T17	GPE 508 517	Hải_Phòng
+T18	GPE 520 527	Nghệ_An
+T19	PER 466 477	2 người này
+T20	VEH 491 501	một xe ôtô
+T12	PER 839 848	Hà và Hải
+T8	PER 268 352	Phạm_Trọng_Hà ( 28 tuổi , ở TP Vinh ) và Trần_Vũ_Hải ( 27 tuổi , ở huyện Quỳnh_Lưu )
+T2	GPE 124 146	Hải_Phòng và Hải_Dương
+T6	Transport 1018 1021	đưa
+E5	Transport:T6 Origin-Arg:T21 Agent-Arg:T10 Destination-Arg:T33
+T10	PER 979 981	Hà
+T21	GPE 1065 1086	Hải_Phòng , Hải_Dương
+T13	FAC 163 221	một_số quán bar , karaoke trên địa_bàn TP Vinh ( Nghệ_An )
+T22	GPE 202 221	TP Vinh ( Nghệ_An )
+T23	FAC 163 188	một_số quán bar , karaoke
+T7	ORG 236 263	công_an TP Vinh ( Nghệ_An )
+T24	PER 268 281	Phạm_Trọng_Hà
+T25	PER 309 320	Trần_Vũ_Hải
+T26	GPE 296 303	TP Vinh
+T27	GPE 335 350	huyện Quỳnh_Lưu
+T28	GPE 568 592	xã Nghi_Liên ( TP Vinh )
+T29	PER 447 455	cảnh_sát
+T30	PER 595 602	công_an
+T4	PER 722 730	cảnh_sát
+T31	PER 839 841	Hà
+T32	PER 845 848	Hải
+T14	Transport 849 857	được đưa
+E3	Transport:T14 Artifact-Arg:T12 Destination-Arg:T15
+T33	FAC 1103 1149	một_số quán bar , karaoke trên địa_bàn TP Vinh
+T34	GPE 1142 1149	TP Vinh
+T35	PER 1152 1159	Công_an
+T36	PER 1184 1219	những người liên_quan đường_dây này
+T37	Arrest-jail 1180 1183	bắt
+E6	Arrest-jail:T37 Person-Arg:T36 Agent-Arg:T35

@@ -1,0 +1,24 @@
+T1	Pardon 6 11	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3 Crime-Arg:T4
+T2	PER 0 5	Trump
+T3	PER 12 29	thuỷ_thủ bị án tù
+T4	CRIME 33 65	chụp ảnh trong tàu_ngầm hạt_nhân
+T5	Pardon 142 147	ân_xá
+E2	Pardon:T5 Adjudicator-Arg:T6 Defendant-Arg:T7
+T6	PER 128 138	Tổng_thống
+T7	PER 152 186	thuỷ_thủ tàu_ngầm Kristian_Saucier
+T8	Sentence 354 360	kết_án
+E3	Sentence:T8 Defendant-Arg:T9 Time-Arg:T10 Crime-Arg:T11 Sentence-Arg:T18
+T9	PER 343 350	Saucier
+T10	TIME 382 394	tháng 8/2016
+T11	CRIME 399 546	hai tội_danh lưu_giữ thông_tin quốc_phòng bất_hợp_pháp và cản_trở quá_trình điều_tra bằng cách tự phá_huỷ điện_thoại khi biết mình đang bị điều_tra
+T12	Pardon 1396 1401	ân_xá
+E4	Pardon:T12 Adjudicator-Arg:T19
+T13	Pardon 1489 1494	ân_xá
+E5	Pardon:T13 Time-Arg:T15 Adjudicator-Arg:T14 Defendant-Arg:T16 Crime-Arg:T17
+T14	PER 1454 1471	Ông chủ Nhà_Trắng
+T15	TIME 1476 1488	tháng 8/2017
+T16	PER 1499 1555	Joe_Arpaio , cảnh_sát trưởng hạt Maricopa , bang Arizona
+T17	CRIME 1570 1680	không tuân_lệnh toà_án trong một vụ án hình_sự liên_quan đến những người tình_nghi là dân nhập_cư bất_hợp_pháp
+T18	SEN 361 377	12 tháng tù_giam
+T19	PER 1414 1423	ông Trump

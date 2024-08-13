@@ -1,0 +1,25 @@
+T1	Demonstrate 322 331	biểu_tình
+E1	Demonstrate:T1 Time-Arg:T3 Entity-Arg:T5
+T3	TIME 335 351	ngày 21 đến 25/1
+T4	Die 276 286	thiệt_mạng
+E2	Die:T4 Victim-Arg:T5
+T2	Attack 300 306	bị bắn
+E3	Attack:T2 Target-Arg:T5
+T5	PER 257 275	41 người Venezuela
+T6	Demonstrate 927 936	biểu_tình
+E4	Demonstrate:T6 Place-Arg:T7
+T7	GPE 939 948	Venezuela
+T8	Arrest-jail 34 37	bắt
+E5	Arrest-jail:T8 Person-Arg:T10 Agent-Arg:T9
+T9	ORG 0 21	Chính_quyền Venezuela
+T10	PER 42 63	1.000 người biểu_tình
+T11	PER 42 53	1.000 người
+T12	Demonstrate 54 63	biểu_tình
+E6	Demonstrate:T12 Entity-Arg:T11
+T13	Demonstrate 78 87	biểu_tình
+E7	Demonstrate:T13 Entity-Arg:T14
+T14	PER 72 77	người
+T15	Arrest-jail 404 412	bắt giam
+E8	Arrest-jail:T15 Agent-Arg:T17 Person-Arg:T16
+T16	PER 364 373	900 người
+T17	ORG 377 403	lực_lượng an_ninh nước này

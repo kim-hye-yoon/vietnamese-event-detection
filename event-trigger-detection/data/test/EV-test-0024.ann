@@ -1,0 +1,16 @@
+T1	Marry 31 38	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 0 21	Nữ tuyển_thủ Việt_Nam
+T3	Be-born 322 326	sinh
+E2	Be-born:T3 Time-Arg:T5 Person-Arg:T4
+T4	PER 310 321	Hoàng_Quỳnh
+T5	TIME 327 335	năm 1992
+T6	Transport 1271 1277	trở_về
+E3	Transport:T6 Artifact-Arg:T7 Time-Arg:T8
+T7	PER 1265 1270	Quỳnh
+T8	TIME 1254 1262	Năm 2016
+T9	Transport 1093 1097	sang
+E4	Transport:T9 Destination-Arg:T10 Artifact-Arg:T11 Time-Arg:T12
+T10	GPE 1098 1106	Nhật_Bản
+T11	PER 1070 1081	Hoàng_Quỳnh
+T12	TIME 1059 1067	Năm 2015

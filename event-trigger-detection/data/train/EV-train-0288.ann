@@ -1,0 +1,8 @@
+T1	Elect 8 16	được bầu
+E1	Elect:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 7	Ronaldo
+T3	JOB 21 54	trung_phong hay nhất mọi thời_đại
+T4	PER 64 81	63 % độc_giả Goal
+T5	Elect 82 91	bình_chọn
+E2	Elect:T5 Entity-Arg:T4 Person-Arg:T6
+T6	PER 96 103	Ronaldo

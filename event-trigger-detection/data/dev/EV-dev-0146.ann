@@ -1,0 +1,30 @@
+T1	PER 64 75	Phạm_Cà_Ron
+T2	WEA 113 116	dao
+T3	Die 117 120	đâm
+E1	Die:T3 Instrument-Arg:T2 Victim-Arg:T4 Place-Arg:T5 Agent-Arg:T20
+T4	PER 134 144	thanh_niên
+T5	LOC 149 159	địa_phương
+T6	TIME 196 205	Ngày 10/2
+T8	Arrest-jail 269 276	bắt_giữ
+E2	Arrest-jail:T8 Crime-Arg:T10 Time-Arg:T6 Agent-Arg:T7 Person-Arg:T23
+T9	PER 277 288	Phạm_Cà_Ron
+T10	CRIME 347 365	hành_vi giết người
+T11	PER 736 739	Ron
+T12	PER 763 766	Hận
+T13	WEA 745 748	dao
+T14	Die 749 752	đâm
+E3	Die:T14 Instrument-Arg:T13 Victim-Arg:T12 Agent-Arg:T11 Time-Arg:T25
+T15	PER 769 777	Nạn_nhân
+T16	Die 778 785	tử_vong
+E4	Die:T16 Victim-Arg:T15
+T17	ORG 810 843	Cơ_quan CSĐT Công_an TP. Cao_Lãnh
+T18	Arrest-jail 844 851	tạm giữ
+E5	Arrest-jail:T18 Agent-Arg:T17 Person-Arg:T19
+T19	PER 860 871	Phạm_Cà_Ron
+T20	PER 64 108	Phạm_Cà_Ron ( 40 tuổi , ngụ tỉnh Đồng_Tháp )
+T21	GPE 92 106	tỉnh Đồng_Tháp
+T7	ORG 208 255	Cơ_quan CSĐT Công_an TP. Cao_Lãnh ( Đồng_Tháp )
+T22	GPE 244 253	Đồng_Tháp
+T23	PER 277 343	Phạm_Cà_Ron ( 40 tuổi , ngụ tổ 5 ấp 1 , xã Mỹ_Tân , TP. Cao_Lãnh )
+T24	LOC 305 341	tổ 5 ấp 1 , xã Mỹ_Tân , TP. Cao_Lãnh
+T25	TIME 706 733	Trong lúc lời_qua_tiếng_lại

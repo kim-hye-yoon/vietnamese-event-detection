@@ -1,0 +1,40 @@
+T1	PER 0 21	1.200 binh_sĩ Ukraine
+T2	Die 22 32	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1 Place-Arg:T3
+T3	LOC 35 44	Sloviansk
+T4	PER 301 331	1.200 binh_sĩ quân_đội Ukraine
+T5	Die 332 342	thiệt_mạng
+E2	Die:T5 Victim-Arg:T4
+T6	PER 368 373	người
+T7	Demonstrate 374 391	biều tình ly_khai
+E3	Demonstrate:T7 Entity-Arg:T6 Place-Arg:T25
+T8	PER 486 505	1.200-1.300 binh_sĩ
+T9	Die 506 516	thiệt_mạng
+E4	Die:T9 Victim-Arg:T8
+T10	PER 949 961	14 quân nhân
+T11	Die 962 972	thiện mạng
+E5	Die:T11 Victim-Arg:T10
+T12	PER 1242 1269	200 chiến_binh và 300 người
+T13	Injure 1270 1279	bị_thương
+E6	Injure:T13 Victim-Arg:T12
+T14	PER 1346 1358	8 dân_thường
+T15	Die 1359 1369	thiệt_mạng
+E7	Die:T15 Victim-Arg:T14 Time-Arg:T27
+T16	PER 1373 1385	8 người khác
+T17	Injure 1386 1395	bị_thương
+E8	Injure:T17 Victim-Arg:T16 Time-Arg:T27
+T18	ORG 1438 1454	Quân_đội Ukraine
+T20	LOC 1479 1498	thành_phố Sloviansk
+T21	TIME 1502 1516	trưa ngày 27/5
+T19	Attack 1463 1466	bắn
+E9	Attack:T19 Instrument-Arg:T22 Place-Arg:T20 Time-Arg:T21 Attacker-Arg:T18
+T22	WEA 1467 1474	đạn cối
+T23	PER 1627 1641	Vài chục người
+T24	Die 1645 1655	thiệt_mạng
+E10	Die:T24 Victim-Arg:T23
+T25	LOC 394 407	thành_phố này
+T27	TIME 1426 1435	ngày 28/5
+T26	Attack 1402 1421	các cuộc giao_tranh
+E11	Attack:T26 Time-Arg:T27 Target-Arg:T16 Target-Arg2:T14
+T28	Attack 1862 1870	tấn_công
+E12	Attack:T28 

@@ -1,0 +1,20 @@
+T1	PER 1510 1517	Ballmer
+T2	JOB 1562 1565	CEO
+T3	Nominate 1553 1557	chọn
+E1	Nominate:T3 Position-Arg:T2 Person-Arg:T1 Time-Arg:T4
+T4	TIME 1581 1589	năm 2000
+T5	PER 1651 1654	Ông
+T6	End-org 1658 1666	nghỉ hưu
+E2	End-org:T6 Org-Arg:T8 Time-Arg:T7
+T7	TIME 1667 1678	từ ngày 4/2
+T8	ORG 1703 1712	Microsoft
+T9	PER 176 186	Bill_Gates
+T10	Transfer-ownership 190 196	bán ra
+E3	Transfer-ownership:T10 Seller-Arg:T9
+T11	PER 444 451	Ballmer
+T12	Transfer-ownership 491 503	bán cổ_phiếu
+E4	Transfer-ownership:T12 Price-Arg:T13 Seller-Arg:T11
+T13	MONEY 465 482	khoảng 3,4 tỷ USD
+T14	PER 1125 1130	Gates
+T15	End-position 1203 1210	từ_chức
+E5	End-position:T15 Person-Arg:T14

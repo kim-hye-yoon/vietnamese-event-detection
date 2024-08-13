@@ -1,0 +1,54 @@
+T1	Release-parole 53 62	trả tự_do
+E1	Release-parole:T1 Entity-Arg:T2
+T2	PER 0 47	Giám_đốc tổ_chức lễ_hội âm_nhạc có 7 người chết
+T3	Arrest-jail 90 93	giữ
+E2	Arrest-jail:T3 Person-Arg:T4
+T4	PER 94 219	Lê_Thái_Sơn ( Giám_đốc Công_ty TNHH kết_nối Á_Châu ) - người tổ_chức sự_kiện đêm nhạc mùa_thu có bảy người tử_vong sau lễ_hội
+T5	Die 201 208	tử_vong
+E3	Die:T5 Victim-Arg:T8
+T6	Die 43 47	chết
+E4	Die:T6 Victim-Arg:T7
+T7	PER 35 42	7 người
+T8	PER 191 200	bảy người
+T9	ORG 222 236	Công_an Hà_Nội
+T10	Release-parole 240 249	trả tự_do
+E5	Release-parole:T10 Entity-Arg:T11 Entity-Arg2:T9 Time-Arg:T12
+T11	PER 254 257	ông
+T12	TIME 266 280	chiều_tối 22/9
+T13	Arrest-jail 308 318	bị tạm giữ
+E6	Arrest-jail:T13 Crime-Arg:T15 Person-Arg:T14
+T14	PER 300 307	ông Sơn
+T15	CRIME 334 429	Vi_phạm các quy_định về an_toàn_lao_động , vệ_sinh lao_động , về an_toàn ở những nơi đông người
+T16	Die 585 592	tử_vong
+E7	Die:T16 Victim-Arg:T17
+T17	PER 575 584	bảy người
+T18	Arrest-jail 663 670	bắt_giữ
+E8	Arrest-jail:T18 Person-Arg:T19
+T19	PER 675 682	ông Sơn
+T20	Release-parole 707 716	trả tự_do
+E9	Release-parole:T20 Entity-Arg:T21 Entity-Arg2:T22
+T21	PER 721 733	giám_đốc này
+T22	ORG 687 703	cơ_quan điều_tra
+T23	Release-parole 963 972	trả tự_do
+E10	Release-parole:T23 Entity-Arg:T24 Entity-Arg2:T25
+T24	ORG 950 957	công_an
+T25	PER 977 993	người bị tạm giữ
+T26	Die 1130 1137	tử_vong
+E11	Die:T26 Victim-Arg:T27
+T27	PER 1065 1077	các nạn_nhân
+T28	Die 1264 1271	tử_vong
+E12	Die:T28 
+T29	PER 1343 1348	người
+T30	Arrest-jail 1349 1356	tạm giữ
+E13	Arrest-jail:T30 Person-Arg:T29
+T31	Arrest-jail 1790 1793	bắt
+E14	Arrest-jail:T31 Time-Arg:T32 Person-Arg:T33 Crime-Arg:T34
+T32	TIME 1756 1765	Ngày 20/9
+T33	PER 1803 1827	Bùi_Mạnh_Duy ( 19 tuổi )
+T34	CRIME 1831 1883	tội Lôi_kéo người khác sử_dụng trái_phép chất ma_tuý
+T35	Transfer-ownership 1904 1907	mua
+E15	Transfer-ownership:T35 Buyer-Arg:T36
+T36	PER 1886 1889	Duy
+T37	Die 2651 2658	tử_vong
+E16	Die:T37 Victim-Arg:T38
+T38	PER 2641 2650	bảy người

@@ -1,0 +1,71 @@
+T1	Divorce 43 49	ly_hôn
+E1	Divorce:T1 Time-Arg:T3 Place-Arg:T2
+T2	GPE 59 62	Anh
+T3	TIME 0 5	6 năm
+T4	Marry 111 117	lấy vợ
+E2	Marry:T4 Person-Arg:T6 Person-Arg2:T5 Time-Arg:T7
+T5	PER 118 135	Tatiana_Akhmedova
+T6	PER 65 110	Doanh_nhân Farkhad_Akhmedov ( quốc_tịch Nga )
+T7	TIME 140 144	1993
+T8	Transport 189 195	chuyển
+E3	Transport:T8 Destination-Arg:T9
+T9	GPE 200 214	London ( Anh )
+T10	Marry 360 367	kết_hôn
+E4	Marry:T10 Person-Arg:T46
+T11	Divorce 389 395	ly_hôn
+E5	Divorce:T11 Person-Arg:T12 Place-Arg:T13 Person-Arg2:T46
+T12	PER 338 346	Năm 2013
+T13	GPE 409 425	thành_phố London
+T14	Divorce 436 442	ly_hôn
+E6	Divorce:T14 Time-Arg:T15
+T15	TIME 463 472	cuối 2014
+T16	Divorce 817 823	ly_hôn
+E7	Divorce:T16 Person-Arg:T17 Place-Arg:T18 Time-Arg:T19 Person-Arg2:T47
+T17	PER 775 791	Farkhad_Akhmedov
+T18	GPE 837 861	thành_phố Moscow ( Nga )
+T19	TIME 865 874	18/8/2000
+T20	Divorce 1069 1075	ly_hôn
+E8	Divorce:T20 Person-Arg:T21
+T21	PER 1080 1096	Farkhad_Akhmedov
+T22	Divorce 1905 1911	ly_hôn
+E9	Divorce:T22 Place-Arg:T23 Person-Arg:T24
+T23	GPE 1948 1951	Anh
+T24	PER 1714 1731	Tatiana_Akhmedova
+T25	Divorce 2095 2101	ly_hôn
+E10	Divorce:T25 Person-Arg:T26 Time-Arg:T27
+T26	PER 2002 2018	Farkhad_Akhmedov
+T27	TIME 2102 2110	năm 2000
+T28	Appeal 2135 2144	kháng_cáo
+E11	Appeal:T28 Prosecutor-Arg:T29 Time-Arg:T30 Adjudicator-Arg:T38
+T29	PER 2149 2165	Farkhad_Akhmedov
+T30	TIME 2202 2215	tháng 10/2018
+T31	Divorce 2274 2280	ly_hôn
+E12	Divorce:T31 Person-Arg:T29
+T32	Divorce 2490 2496	ly_hôn
+E13	Divorce:T32 Time-Arg:T33 Person-Arg:T34 Person-Arg2:T48
+T33	TIME 2497 2505	năm 2000
+T34	PER 2512 2529	Tatiana_Akhmedova
+T35	Appeal 3132 3141	kháng_cáo
+E14	Appeal:T35 Prosecutor-Arg:T36 Adjudicator-Arg:T37
+T36	PER 3115 3131	Farkhad_Akhmedov
+T37	ORG 3146 3165	toà phúc_thẩm Dubai
+T38	ORG 2169 2189	toà cấp trên của Nga
+T39	Divorce 3502 3508	ly_hôn
+E15	Divorce:T39 Person-Arg:T53
+T40	Transfer-money 3710 3713	trả
+E16	Transfer-money:T40 Giver-Arg:T41 Recipient-Arg:T42
+T41	PER 3692 3709	Tatiana_Akhmedova
+T42	PER 3725 3730	chồng
+T43	Appeal 3773 3782	kháng_cáo
+E17	Appeal:T43 Prosecutor-Arg:T44 Adjudicator-Arg:T45
+T44	PER 3736 3753	Tatiana Akhmedova
+T45	ORG 3798 3807	toà Dubai
+T46	PER 376 378	vợ
+T47	PER 811 813	vợ
+T48	PER 2443 2452	Vị tỷ_phú
+T49	Transfer-ownership 3034 3053	chuyển quyền_sở_hữu
+E18	Transfer-ownership:T49 Artifact-Arg:T52 Beneficiary-Arg:T51 Time-Arg:T50
+T50	TIME 3000 3012	Tháng 4/2018
+T51	PER 3077 3094	Tatiana_Akhmedova
+T52	VEH 3058 3067	du_thuyền
+T53	PER 3480 3491	người chồng

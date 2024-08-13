@@ -1,0 +1,52 @@
+T1	Execute 3 10	tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 15 26	người chồng
+T3	Attack 27 35	truy sát
+E2	Attack:T3 Attacker-Arg:T2 Target-Arg:T4 Time-Arg:T5
+T4	PER 36 38	vợ
+T5	TIME 39 48	trong đêm
+T6	Marry 148 155	kết_hôn
+E3	Marry:T6 Person-Arg:T7 Person-Arg2:T8
+T7	PER 99 147	Nguyễn_Ngọc_Nhẫn ( 39 tuổi , ở huyện Thanh_Trì )
+T8	PER 160 196	chị Nguyễn_Thị_Kim_Chung ( 40 tuổi )
+T9	Transfer-ownership 217 220	cho
+E4	Transfer-ownership:T9 Seller-Arg:T10 Buyer-Arg:T7 Buyer-Arg2:T8
+T10	PER 205 216	gia_đình vợ
+T11	Transport 313 317	sang
+E5	Transport:T11 Agent-Arg:T13 Destination-Arg:T14 Time-Arg:T12
+T12	TIME 240 253	Đêm 21/8/2018
+T13	PER 308 312	Nhẫn
+T14	FAC 318 327	nhà mẹ vợ
+T15	Transport 469 476	quay về
+E6	Transport:T15 Destination-Arg:T16 Agent-Arg:T17
+T16	FAC 477 480	nhà
+T17	PER 466 468	vợ
+T18	Phone-write 499 509	điện_thoại
+E7	Phone-write:T18 Entity-Arg:T19
+T19	PER 494 498	Nhẫn
+T20	Phone-write 581 584	gọi
+E8	Phone-write:T20 Entity-Arg:T21 Entity-Arg2:T22
+T21	PER 568 577	chị Chung
+T22	PER 589 618	anh_trai là Nguyễn_Mạnh_Cường
+T23	Transport 627 629	về
+E9	Transport:T23 Destination-Arg:T24 Agent-Arg:T21 Agent-Arg2:T22
+T24	FAC 630 633	nhà
+T25	Attack 706 714	truy_sát
+E10	Attack:T25 Attacker-Arg:T27 Instrument-Arg:T26 Target-Arg:T30 Target-Arg2:T33
+T26	WEA 702 705	dao
+T27	PER 690 694	Nhẫn
+T28	Attack 717 720	đâm
+E11	Attack:T28 Attacker-Arg:T27 Target-Arg:T30
+T29	Die 721 725	chết
+E12	Die:T29 Victim-Arg:T30 Agent-Arg:T27
+T30	PER 726 735	chị Chung
+T31	Attack 739 742	đâm
+E13	Attack:T31 Target-Arg:T33 Attacker-Arg:T27
+T32	Injure 743 752	bị_thương
+E14	Injure:T32 Victim-Arg:T33 Agent-Arg:T27
+T33	PER 753 759	anh vợ
+T34	Sentence 812 822	tuyên phạt
+E15	Sentence:T34 Sentence-Arg:T35 Adjudicator-Arg:T37 Defendant-Arg:T36
+T35	SEN 823 833	án tử_hình
+T36	PER 778 782	Nhẫn
+T37	ORG 807 811	HĐXX

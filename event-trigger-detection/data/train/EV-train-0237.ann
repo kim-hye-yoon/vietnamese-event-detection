@@ -1,0 +1,17 @@
+T1	Attack 22 29	bắn tỉa
+E1	Attack:T1 Attacker-Arg:T4 Target-Arg:T2 Place-Arg:T3
+T2	ORG 35 37	IS
+T3	GPE 40 45	Syria
+T4	PER 0 13	Đặc_nhiệm Nga
+T5	Attack 320 329	tiêu_diệt
+E2	Attack:T5 Attacker-Arg:T6 Instrument-Arg:T7 Target-Arg:T8
+T6	PER 268 293	các binh_sĩ đặc_nhiệm Nga
+T7	WEA 302 319	tên_lửa dẫn đường
+T8	FAC 336 362	phương_tiện vận_tải của IS
+T9	Attack 445 451	bắn hạ
+E3	Attack:T9 Attacker-Arg:T10 Instrument-Arg:T12 Target-Arg:T13
+T10	PER 380 396	một_số đặc_nhiệm
+T11	Attack 397 404	bắn tỉa
+E4	Attack:T11 Attacker-Arg:T10
+T12	WEA 413 443	súng_trường giảm thanh hiện_đạ
+T13	PER 452 462	phiến quân

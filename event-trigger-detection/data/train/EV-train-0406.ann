@@ -1,0 +1,48 @@
+T1	Pardon 18 23	ân_xá
+E1	Pardon:T1 Place-Arg:T3 Defendant-Arg:T2
+T2	PER 35 42	Thaksin
+T3	GPE 0 4	Thái
+T4	Pardon 230 235	ân_xá
+E2	Pardon:T4 Defendant-Arg:T5
+T5	PER 244 251	tù_nhân
+T6	Pardon 391 396	ân_xá
+E3	Pardon:T6 Adjudicator-Arg:T7
+T7	ORG 401 410	hoàng_gia
+T10	Phone-write 789 796	gửi thư
+E5	Phone-write:T10 Entity-Arg:T11
+T11	PER 767 788	cựu thủ_tướng Thaksin
+T12	Phone-write 1124 1132	viết thư
+E6	Phone-write:T12 Entity-Arg:T13
+T13	PER 1097 1110	Cựu thủ_tướng
+T14	GPE 1136 1141	Dubai
+T15	Pardon 2009 2014	ân_xá
+E7	Pardon:T15 Defendant-Arg:T19
+T16	ORG 1947 1961	đảng Pheu_Thai
+T17	Transport 2042 2051	hồi_hương
+E8	Transport:T17 Agent-Arg:T18
+T18	PER 2038 2041	ông
+T19	PER 1964 1975	ông Thaksin
+T20	Pardon 2088 2093	ân_xá
+E9	Pardon:T20 Defendant-Arg:T21
+T21	PER 2109 2159	những tù_nhân trên 60 tuổi và bị kết_án dưới 3 năm
+T22	Sentence 2142 2148	kết_án
+E10	Sentence:T22 Sentence-Arg:T23 Defendant-Arg:T21
+T23	SEN 2149 2159	dưới 3 năm
+T24	Pardon 2167 2172	ân_xá
+E11	Pardon:T24 Adjudicator-Arg:T25 Time-Arg:T26
+T25	ORG 2178 2196	chính_phủ Thái_Lan
+T26	TIME 2204 2276	hàng năm vào dịp sinh_nhật của Quốc_vương Bhumibol_Adulyadej , ngày 5/12
+T27	Demonstrate 2504 2513	biểu_tình
+E12	Demonstrate:T27 Entity-Arg:T28
+T28	ORG 2466 2477	phe đối_lập
+T29	Demonstrate 2585 2594	biểu_tình
+E13	Demonstrate:T29 Time-Arg:T30
+T30	TIME 2611 2618	hôm_nay
+T31	Charge-indict 2788 2795	truy_tố
+E14	Charge-indict:T31 Defendant-Arg:T32 Crime-Arg:T33
+T32	PER 2727 2730	Ông
+T33	CRIME 2800 2810	tham_nhũng
+T34	Pardon 942 947	ân_xá
+E15	Pardon:T34 
+T35	Pardon 1465 1470	ân_xá
+E16	Pardon:T35 

@@ -1,0 +1,18 @@
+T1	PER 39 46	7 người
+T2	Injure 47 56	bị_thương
+E1	Injure:T2 Victim-Arg:T1 Place-Arg:T3
+T3	LOC 1 10	Khánh_Hoà
+T4	PER 198 205	7 người
+T5	Injure 206 215	bị_thương
+E2	Injure:T5 Victim-Arg:T4 Place-Arg:T7 Time-Arg:T6
+T6	TIME 71 80	Sáng 10-2
+T7	LOC 88 161	QL1A đoạn qua địa_phận xã Suối_Hiệp ( huyện Diên_Khánh , tỉnh Khánh_Hoà )
+T8	TIME 218 239	Khoảng 6 giờ sáng nay
+T9	VEH 242 290	xe container đầu kéo biển kiểm_soát 50 LD -02838
+T10	Transport 355 364	lưu_thông
+E3	Transport:T10 Vehicle-Arg:T9 Time-Arg:T8 Origin-Arg:T11 Destination-Arg:T12
+T11	LOC 376 379	Bắc
+T12	LOC 382 385	Nam
+T13	VEH 389 424	xe_khách biển kiểm_soát 77 B -00614
+T14	Transport 490 494	chạy
+E4	Transport:T14 Vehicle-Arg:T13 Destination-Arg:T11 Origin-Arg:T12

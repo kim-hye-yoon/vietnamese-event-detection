@@ -1,0 +1,20 @@
+T1	Arrest-jail 304 307	bắt
+E1	Arrest-jail:T1 Person-Arg:T2
+T2	PER 308 328	các phần_tử nằm vùng
+T3	Die 1302 1311	tiêu_diệt
+E2	Die:T3 Victim-Arg:T4 Agent-Arg:T5 Place-Arg:T6
+T4	PER 1319 1343	100.000 phần_tử khủng_bố
+T5	ORG 1289 1301	quân_đội Nga
+T6	GPE 1281 1286	Syria
+T7	Die 1458 1465	hy_sinh
+E3	Die:T7 Place-Arg:T9 Victim-Arg:T8
+T8	PER 1437 1454	112 quân_nhân Nga
+T9	GPE 1487 1492	Syria
+T10	Die 1510 1520	thiệt_mạng
+E4	Die:T10 
+T11	Phone-write 703 711	liên_lạc
+E5	Phone-write:T11 Entity-Arg:T14 Entity-Arg2:T13
+T12	Meet 727 734	gặp_mặt
+E6	Meet:T12 Entity-Arg:T13 Entity-Arg2:T14
+T13	PER 745 775	các phần_tử khủng_bố tại Syria
+T14	PER 643 667	kẻ cầm_đầu nhóm khủng_bố

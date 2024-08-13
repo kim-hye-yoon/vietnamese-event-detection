@@ -1,0 +1,44 @@
+T1	PER 0 7	Hai tên
+T2	Die 8 12	giết
+E1	Die:T2 Agent-Arg:T1 Victim-Arg:T3
+T3	PER 13 23	5 phu trầm
+T4	Sentence 24 32	bị tuyên
+E2	Sentence:T4 Defendant-Arg:T1 Sentence-Arg:T5 Sentence-Arg2:T6
+T5	SEN 33 42	tử_hình "
+T6	SEN 55 64	35 năm tù
+T7	PER 142 146	HĐXX
+T8	Convict 147 157	tuyên_phạt
+E3	Convict:T8 Defendant-Arg:T9 Adjudicator-Arg:T7
+T9	PER 158 185	Hồ_Văn_Công và Hồ_Văn_Thành
+T10	PER 1659 1663	HĐXX
+T11	Sentence 1664 1674	tuyên_phạt
+E4	Sentence:T11 Adjudicator-Arg:T10 Defendant-Arg:T12 Sentence-Arg:T13 Sentence-Arg2:T15 Crime-Arg:T14 Crime-Arg2:T16 Sentence-Arg3:T17 Crime-Arg3:T18 Sentence-Arg4:T19 Crime-Arg4:T20 Defendant-Arg2:T21 Sentence-Arg5:T22 Crime-Arg5:T23 Sentence-Arg6:T24 Crime-Arg6:T25 Sentence-Arg7:T26 Crime-Arg7:T27 Sentence-Arg8:T28 Crime-Arg8:T29
+T12	PER 1675 1686	Hồ_Văn_Công
+T13	SEN 1687 1694	tử_hình
+T14	CRIME 1698 1716	tội “ Giết người ”
+T15	SEN 1719 1728	10 năm tù
+T16	CRIME 1732 1750	tội “ Cướp tài_sản
+T17	SEN 1755 1763	7 năm tù
+T18	CRIME 1767 1806	tội “ Bắt_cóc nhằm chiếm_đoạt tài_sản ”
+T19	SEN 1810 1818	2 năm tù
+T20	CRIME 1822 1875	tội “ Tàng_trữ , sử_dụng trái_phép vũ_khí quân_dụng ”
+T21	PER 1878 1897	Bị_cáo Hồ_Văn_Thành
+T22	SEN 1898 1905	tử_hình
+T23	CRIME 1909 1927	tội “ Giết người ”
+T24	SEN 1930 1938	8 năm tù
+T25	CRIME 1942 1962	tội “ Cướp tài_sản ”
+T26	SEN 1965 1973	7 năm tù
+T27	CRIME 1977 2016	tội “ Bắt_cóc nhằm chiếm_đoạt tài_sản ”
+T28	SEN 2020 2028	1 năm tù
+T29	CRIME 2032 2085	tội “ Tàng_trữ , sử_dụng trái_phép vũ_khí quân_dụng ”
+T30	PER 2147 2157	các bị_cáo
+T32	PER 2099 2112	cả hai bị_cáo
+T33	SEN 2121 2128	tử_hình
+T34	Sentence 2113 2120	lãnh án
+E5	Sentence:T34 Sentence-Arg:T33 Defendant-Arg:T32
+T31	Die 512 520	giết_hại
+E6	Die:T31 
+T35	Fine 2163 2173	bồi_thường
+E7	Fine:T35 Entity-Arg:T30 Time-Arg:T37
+T36	PER 2178 2197	các gia_đình bị hại
+T37	TIME 2201 2215	880 triệu đồng

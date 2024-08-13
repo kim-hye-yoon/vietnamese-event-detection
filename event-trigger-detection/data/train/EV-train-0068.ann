@@ -1,0 +1,23 @@
+T1	ORG 796 808	liên_quân Mỹ
+T2	Attack 809 817	tấn_công
+E1	Attack:T2 Attacker-Arg:T1
+T3	PER 855 876	hàng chục nghìn người
+T4	Die 880 890	thiệt_mạng
+E2	Die:T4 Victim-Arg:T3
+T5	Attack 1196 1204	tấn_công
+E3	Attack:T5 Attacker-Arg:T6 Instrument-Arg:T7
+T6	ORG 1178 1195	chính_quyền Syria
+T7	WEA 1205 1212	hoá_học
+T8	PER 1226 1234	70 người
+T9	Die 1235 1245	thiệt_mạng
+E4	Die:T9 Victim-Arg:T8 Place-Arg:T10 Time-Arg:T11
+T10	GPE 1248 1253	Douma
+T11	TIME 1254 1262	ngày 7/4
+T12	Attack 1285 1295	không kích
+E5	Attack:T12 Attacker-Arg:T13 Target-Arg:T14 Place-Arg:T15
+T13	ORG 1154 1170	Mỹ , Anh và Pháp
+T14	FAC 1300 1355	ba cơ_sở được cho là sản_xuất và lưu_trữ vũ_khí_hoá_học
+T15	GPE 1358 1363	Syria
+T16	Transport 1480 1483	đưa
+E6	Transport:T16 Destination-Arg:T17
+T17	LOC 1488 1515	trụ_sở của tổ_chức ở Hà_Lan

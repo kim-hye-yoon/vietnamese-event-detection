@@ -1,0 +1,17 @@
+T1	Transport 157 160	đến
+E1	Transport:T1 Agent-Arg:T2 Destination-Arg:T3 Time-Arg:T4
+T2	PER 58 79	chị Lê_Thị_Xuân_Trang
+T3	FAC 161 172	nhà cô ruột
+T4	TIME 40 55	8 giờ ngày 10-3
+T5	Die 10 14	giết
+E2	Die:T5 Victim-Arg:T6
+T6	PER 0 6	Cụ già
+T7	Die 443 450	tắt_thở
+E3	Die:T7 Victim-Arg:T8
+T8	PER 431 439	bà Nhiền
+T9	Die 584 588	chết
+E4	Die:T9 Time-Arg:T11 Victim-Arg:T10
+T10	PER 581 583	bà
+T11	TIME 589 615	vào_khoảng 13 giờ ngày 9-3
+T12	Attack 630 634	chém
+E5	Attack:T12 

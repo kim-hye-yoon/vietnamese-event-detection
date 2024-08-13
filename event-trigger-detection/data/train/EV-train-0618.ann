@@ -1,0 +1,13 @@
+T1	Arquit 37 40	tha
+E1	Arquit:T1 Defendant-Arg:T2 Crime-Arg:T3
+T2	PER 0 31	Lính Mỹ lộ bí_mật cho WikiLeaks
+T3	CRIME 41 56	tội giúp kẻ_thù
+T4	Convict 90 98	buộc_tội
+E2	Convict:T4 Crime-Arg:T5 Defendant-Arg:T7 Time-Arg:T6
+T5	CRIME 99 108	gián_điệp
+T6	TIME 79 86	hôm_qua
+T7	PER 59 76	Manning , 25 tuổi
+T8	Arquit 342 350	tha_bổng
+E3	Arquit:T8 Crime-Arg:T9 Defendant-Arg:T10
+T9	CRIME 355 369	giúp_đỡ kẻ_thù
+T10	PER 333 336	anh

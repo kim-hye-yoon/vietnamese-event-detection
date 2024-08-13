@@ -1,0 +1,59 @@
+T1	Transport 11 13	đi
+E1	Transport:T1 Agent-Arg:T2
+T2	PER 0 3	Tôi
+T3	Transfer-ownership 460 468	buôn_bán
+E2	Transfer-ownership:T3 Seller-Arg:T4 Place-Arg:T5
+T4	PER 447 453	Vợ tôi
+T5	FAC 454 459	ở nhà
+T6	Start-org 484 486	mở
+E3	Start-org:T6 Org-Arg:T7
+T7	ORG 487 491	tiệm
+T8	Transfer-money 521 529	trợ_giúp
+E4	Transfer-money:T8 Giver-Arg:T9
+T9	PER 511 516	ba_mẹ
+T10	Transfer-money 624 628	mượn
+E5	Transfer-money:T10 Recipient-Arg:T11 Time-Arg:T12 Giver-Arg:T13 Money-Arg:T14
+T11	PER 613 619	mẹ tôi
+T12	TIME 588 599	Dạo gần đây
+T13	PER 641 643	vợ
+T14	MONEY 646 667	khoảng vài trăm_nghìn
+T15	Transfer-money 828 834	trả nợ
+E6	Transfer-money:T15 Money-Arg:T16 Giver-Arg:T19
+T16	MONEY 835 851	khoảng 100 triệu
+T17	Start-org 857 859	mở
+E7	Start-org:T17 Org-Arg:T18
+T18	ORG 860 864	tiệm
+T19	PER 817 822	ba_mẹ
+T20	Transport 967 969	đi
+E8	Transport:T20 Agent-Arg:T21
+T21	PER 906 909	tôi
+T22	Transport 998 1017	đi hợp_tác lao_động
+E9	Transport:T22 Destination-Arg:T23
+T23	GPE 1022 1026	Nhật
+T24	Transfer-money 1037 1041	mượn
+E10	Transfer-money:T24 
+T25	Transport 1130 1132	đi
+E11	Transport:T25 Agent-Arg:T26
+T26	PER 1119 1122	Tôi
+T27	Transport 1153 1155	về
+E12	Transport:T27 Agent-Arg:T28 Destination-Arg:T29
+T28	PER 1146 1152	vợ_con
+T29	FAC 1156 1165	nhà ngoại
+T30	Be-born 1686 1690	sinh
+E13	Be-born:T30 Person-Arg:T31
+T31	PER 1691 1694	con
+T32	Transport 2299 2301	Đi
+E14	Transport:T32 
+T33	Transport 2498 2500	đi
+E15	Transport:T33 Agent-Arg:T34
+T34	PER 2513 2516	bạn
+T35	Transfer-ownership 2978 2986	buôn_bán
+E16	Transfer-ownership:T35 Seller-Arg:T36
+T36	PER 2991 2993	vợ
+T37	Transfer-ownership 3200 3208	buôn_bán
+E17	Transfer-ownership:T37 Seller-Arg:T38
+T38	PER 3181 3183	vợ
+T39	PER 3475 3482	Độc_giả
+T40	Phone-write 3483 3491	gọi điện
+E18	Phone-write:T40 Entity-Arg:T39 Entity-Arg2:T41
+T41	PER 3503 3516	biên_tập_viên

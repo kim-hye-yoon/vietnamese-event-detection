@@ -1,0 +1,56 @@
+T1	Arrest-jail 146 149	bắt
+E1	Arrest-jail:T1 Person-Arg:T2 Time-Arg:T3
+T2	PER 61 139	một thành_viên chủ_chốt của Uỷ_ban Cải_cách dân_chủ_nhân_dân Thái_Lan ( PDRC )
+T3	TIME 49 58	Ngày 10.2
+T4	PER 179 286	Ông Sonthiyan_Chuenruthainaitham - lãnh_đạo PDRC , chủ_sở_hữu hãng tin T - News và kênh_truyền_hình vệ_tinh
+T5	ORG 292 300	cảnh_sát
+T6	Arrest-jail 301 302	b
+E2	Arrest-jail:T6 Person-Arg:T4 Agent-Arg:T5 Time-Arg:T7 Place-Arg:T35
+T7	TIME 309 314	13h30
+T8	Transport 390 393	đưa
+E3	Transport:T8 Artifact-Arg:T10 Destination-Arg:T9
+T9	LOC 398 446	trụ_sở cảnh_sát quận Khlong_Luang ở Pathum_Thani
+T10	PER 377 384	Ông này
+T11	Injure 709 718	bị_thương
+E4	Injure:T11 Victim-Arg:T13 Time-Arg:T12
+T12	TIME 657 664	hôm_nay
+T13	PER 675 686	6 công_nhân
+T14	Demonstrate 756 771	người biểu_tình
+E5	Demonstrate:T14 Entity-Arg:T15 Place-Arg:T16
+T15	ORG 778 787	chính_phủ
+T16	LOC 790 804	thủ_đô Bangkok
+T17	Demonstrate 950 959	biểu_tình
+E6	Demonstrate:T17 Place-Arg:T18 Time-Arg:T21
+T18	LOC 962 976	thủ_đô Bangkok
+T19	Attack 865 872	phát_nổ
+E7	Attack:T19 Instrument-Arg:T20 Time-Arg:T21
+T20	WEA 834 864	quả bom hoặc pháo_hoa khổng_lồ
+T21	TIME 877 885	trưa nay
+T22	Injure 1012 1021	bị_thương
+E8	Injure:T22 Victim-Arg:T23
+T23	PER 979 1011	Hai trong số những công_nhân này
+T24	Injure 1038 1047	nhập_viện
+E9	Injure:T24 Victim-Arg:T23
+T25	Demonstrate 1308 1323	người biểu_tình
+E10	Demonstrate:T25 Place-Arg:T26
+T26	FAC 1342 1363	giao_lộ lớn ở Bangkok
+T27	Die 1967 1977	thiệt_mạng
+E11	Die:T27 Victim-Arg:T28
+T28	PER 1955 1963	10 người
+T29	PER 1981 1996	hàng chục người
+T30	Injure 1997 2006	nhập_viện
+E12	Injure:T30 Victim-Arg:T29
+T31	Demonstrate 2020 2027	bạo_lực
+E13	Demonstrate:T31 Place-Arg:T32
+T32	GPE 2030 2038	Thái_Lan
+T33	Arrest-jail 1 4	Bắt
+E14	Arrest-jail:T33 Person-Arg:T34
+T34	PER 10 39	thủ_lĩnh chủ_chốt phe đối_lập
+T35	FAC 338 374	Central_Department_Store ở Lat_Phrao
+T36	GPE 365 374	Lat_Phrao
+T37	GPE 434 446	Pathum_Thani
+T38	PER 1644 1659	Người biểu_tình
+T39	TIME 1675 1688	tháng 11.2013
+T40	Attack 1702 1709	đụng_độ
+E15	Attack:T40 Target-Arg:T41 Time-Arg:T39 Attacker-Arg:T38
+T41	PER 1714 1722	cảnh_sát

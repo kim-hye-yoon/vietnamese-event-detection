@@ -1,0 +1,28 @@
+T1	Declare-bankruptcy 42 49	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Declare-bankruptcy 1502 1509	phá_sản
+E2	Declare-bankruptcy:T2 
+T3	Transfer-money 1579 1582	trả
+E3	Transfer-money:T3 
+T4	Transfer-money 1606 1608	nợ
+E4	Transfer-money:T4 
+T5	Declare-bankruptcy 2199 2206	phá_sản
+E5	Declare-bankruptcy:T5 
+T6	Transport 2286 2294	đi xuống
+E6	Transport:T6 
+T7	Transfer-money 2389 2392	vay
+E7	Transfer-money:T7 Money-Arg:T8 Recipient-Arg:T11
+T8	MONEY 2393 2403	2,6 tỷ USD
+T9	Transfer-money 2416 2418	nợ
+E8	Transfer-money:T9 
+T10	Declare-bankruptcy 2458 2465	phá_sản
+E9	Declare-bankruptcy:T10 
+T11	ORG 2348 2388	Daewoo_Shipbuilding & Marine_Engineering
+T12	GPE 2212 2220	Hàn_Quốc
+T13	End-org 2840 2848	đóng_cửa
+E10	End-org:T13 
+T14	Start-org 2852 2861	thành_lập
+E11	Start-org:T14 
+T15	Declare-bankruptcy 3021 3028	phá_sản
+E12	Declare-bankruptcy:T15 Org-Arg:T16
+T16	ORG 2999 3020	doanh_nghiệp Nhật_Bản

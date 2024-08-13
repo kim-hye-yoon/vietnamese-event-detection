@@ -1,0 +1,18 @@
+T1	PER 0 24	Đôi uyên_ương Trung_Quốc
+T2	Marry 25 32	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	TIME 95 104	hôm 14/10
+T4	Marry 107 114	lễ cưới
+E2	Marry:T4 Time-Arg:T3 Person-Arg:T5 Person-Arg2:T6 Place-Arg:T7
+T5	PER 119 131	Zhang Haoxin
+T6	PER 135 144	Meng_Ying
+T7	GPE 157 191	quê_nhà ở tỉnh Hà_Nam , Trung_Quốc
+T8	PER 617 647	47 người hành_khách Trung_Quốc
+T9	Die 648 658	thiệt_mạng
+E3	Die:T9 Victim-Arg:T8 Time-Arg:T10
+T10	TIME 531 538	Hôm 5/7
+T11	ORG 1281 1288	Công_ty
+T12	Transfer-money 1292 1298	thưởng
+E4	Transfer-money:T12 Recipient-Arg:T13 Giver-Arg:T11 Time-Arg:T14
+T13	PER 1303 1308	Zhang
+T14	TIME 1309 1343	100.000 nhân_dân_tệ ( 20.400 USD )

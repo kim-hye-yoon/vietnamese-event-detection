@@ -1,0 +1,33 @@
+T1	Sue 121 128	khởi_tố
+E1	Sue:T1 Plaintiff-Arg:T3
+T2	TIME 27 37	Ngày 25/10
+T3	ORG 69 106	cơ_quan CSĐT Công_an huyện Kiến_Xương
+T4	Sue 163 170	khởi_tố
+E2	Sue:T4 Defendant-Arg:T5 Plaintiff-Arg:T3
+T5	PER 171 230	các bị_can tham_gia đánh_bạc tại nhà công_an_viên xã Vũ_Sơn
+T6	Transport 438 442	chạy
+E3	Transport:T6 Agent-Arg:T7
+T7	PER 427 434	cả nhóm
+T8	Injure 462 471	bị_thương
+E4	Injure:T8 Victim-Arg:T9
+T9	PER 454 461	3 người
+T10	Arrest-jail 504 507	bắt
+E5	Arrest-jail:T10 Person-Arg:T11
+T11	PER 492 500	12 người
+T12	Arrest-jail 582 585	bắt
+E6	Arrest-jail:T12 Person-Arg:T13 Place-Arg:T14
+T13	PER 571 578	5 người
+T14	LOC 595 605	địa_bàn xã
+T15	Arrest-jail 666 673	tạm giữ
+E7	Arrest-jail:T15 Person-Arg:T16 Place-Arg:T17
+T16	PER 656 662	Tất_cả
+T17	FAC 685 716	trụ_sở công_an huyện Kiến_Xương
+T18	Arquit 731 740	tại_ngoại
+E8	Arquit:T18 Defendant-Arg:T16
+T19	Sentence 889 899	quyết_định
+E9	Sentence:T19 Sentence-Arg:T20 Adjudicator-Arg:T21 Defendant-Arg:T22
+T20	SEN 900 938	đình_chỉ công_tác , buộc cho thôi_việc
+T21	ORG 845 876	Ban thường_vụ Đảng_uỷ xã Vũ_Sơn
+T22	PER 757 786	công_an_viên Lương_Đình_Nhiên
+T23	End-position 929 938	thôi_việc
+E10	End-position:T23 Person-Arg:T22

@@ -1,0 +1,33 @@
+T3	TIME 745 753	gày 16/5
+T4	ORG 756 762	đơn_vị
+T1	CRIME 795 834	100 thanh đao và 12 thanh kiếm nhập lậu
+T2	Arrest-jail 787 794	bắt_giữ
+E1	Arrest-jail:T2 Agent-Arg:T4 Time-Arg:T3 Crime-Arg:T1
+T5	PER 903 910	cửu_vạn
+T6	Transport 913 924	cõng ” thuê
+E2	Transport:T6 Origin-Arg:T7 Destination-Arg:T8 Agent-Arg:T5
+T7	GPE 942 952	Trung_Quốc
+T8	GPE 964 971	Lạng_Sơ
+T9	ORG 984 990	đơn_vị
+T10	Arrest-jail 996 1003	bắt_giữ
+E3	Arrest-jail:T10 Agent-Arg:T9 Crime-Arg:T11 Place-Arg:T12 Crime-Arg2:T13
+T11	CRIME 1014 1025	hàng vô_chủ
+T12	FAC 1030 1054	sân ga quốc_tế Đồng_Đăng
+T13	CRIME 1059 1247	15 ngàn vỏ bao_bì mì chính nhãn_hiệu Ajinomoto , Miwon ; 140 chiếc bóng_điện nhãn_hiệu Rạng_đông , 160 bóng tiết_kiệm điện nhãn_hiệu Vankon , 21 ngàn gói dầu_gội đầu nhãn_hiệu Clear , Dove
+T14	TIME 1280 1289	ngày 23/5
+T15	ORG 1292 1313	Công_an huyện Cao_Lộc
+T16	Arrest-jail 1327 1334	thu_giữ
+E4	Arrest-jail:T16 Agent-Arg:T15 Time-Arg:T14 Crime-Arg:T17
+T17	CRIME 1341 1485	lô hàng vô_chủ tại Ga_Đồng_Đăng gồm pin , vỏ , sạc điện_thoại_di_động mang nhãn_hiệu Nokia , iPhone ; 10.000 gói dầu_gội đầu giả nhãn_hiệu Clear
+T18	ORG 1513 1534	Công_an huyện Cao_Lộc
+T19	Arrest-jail 1549 1556	thu_giữ
+E5	Arrest-jail:T19 Agent-Arg:T18 Crime-Arg:T21
+T20	FAC 1502 1512	tại sân ga
+T21	CRIME 1557 1704	720 lọ kem rửa mặt nhãn_hiệu Atis , 800 lọ kem dưỡng da , 80 lọ dầu_gội đầu , 7 ngàn tuýp thuốc_tây ; 80 xe ôtô đồ_chơi các loại cùng 180kg pháo nổ
+T22	ORG 379 400	Công_an tỉnh Lạng_Sơn
+T23	Arrest-jail 404 411	bắt_giữ
+E6	Arrest-jail:T23 Agent-Arg:T22 Crime-Arg:T25
+T24	MONEY 472 508	trị_giá hàng_hoá trên 320 triệu đồng
+T25	CRIME 412 467	23 vụ buôn_lậu , hàng giả , hàng cấm , gia_cầm nhập lậu
+T26	Arrest-jail 520 527	bắt_giữ
+E7	Arrest-jail:T26 

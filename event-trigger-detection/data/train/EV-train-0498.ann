@@ -1,0 +1,23 @@
+T1	Marry 98 106	lấy nhau
+E1	Marry:T1 Time-Arg:T3 Person-Arg:T2
+T2	PER 71 83	Vợ_chồng tôi
+T3	TIME 112 117	8 năm
+T4	Marry 319 323	cưới
+E2	Marry:T4 Person-Arg:T5
+T5	PER 326 328	vợ
+T6	Phone-write 578 586	nhắn_tin
+E3	Phone-write:T6 Entity-Arg:T8 Entity-Arg2:T7
+T7	PER 546 564	em_gái của cậu bạn
+T8	PER 598 601	tôi
+T9	Meet 1131 1134	gặp
+E4	Meet:T9 Entity-Arg:T11 Entity-Arg2:T10
+T10	PER 1127 1130	tôi
+T11	PER 1135 1151	một người phụ_nữ
+T12	Meet 1425 1428	gặp
+E5	Meet:T12 Entity-Arg:T13 Entity-Arg2:T14
+T13	PER 1374 1377	Tôi
+T14	PER 1452 1454	em
+T15	Phone-write 1682 1690	Gọi điện
+E6	Phone-write:T15 Entity-Arg:T16
+T16	PER 1695 1708	biên_tập_viên
+T17	NUM 1717 1729	09 6658 1270

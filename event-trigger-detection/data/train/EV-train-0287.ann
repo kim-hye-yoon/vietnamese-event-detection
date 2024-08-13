@@ -1,0 +1,18 @@
+T1	Pardon 18 23	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T3 Defendant-Arg:T2
+T2	ORG 30 33	ZTE
+T3	GPE 0 2	Mỹ
+T4	Fine 57 61	phạt
+E2	Fine:T4 Adjudicator-Arg:T5
+T5	ORG 72 84	chính_phủ Mỹ
+T6	ORG 131 134	ZTE
+T7	Transfer-money 140 143	trả
+E3	Transfer-money:T7 Giver-Arg:T6 Money-Arg:T8
+T8	MONEY 196 204	1 tỷ USD
+T9	Transfer-ownership 998 1001	mua
+E4	Transfer-ownership:T9 Buyer-Arg:T10 Time-Arg:T11
+T10	ORG 987 990	ZTE
+T11	TIME 972 984	Tháng 4/2018
+T12	Transfer-money 588 591	trả
+E5	Transfer-money:T12 Giver-Arg:T13
+T13	ORG 579 582	ZTE

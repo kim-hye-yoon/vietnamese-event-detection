@@ -1,0 +1,35 @@
+T1	PER 0 21	Con_gái NSND Hồng_Vân
+T2	Marry 22 29	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Place-Arg:T3
+T3	GPE 32 34	Mỹ
+T4	Marry 272 281	tiệc cưới
+E2	Marry:T4 Person-Arg:T19
+T5	Marry 296 304	Đám_cưới
+E3	Marry:T5 Person-Arg:T6
+T6	PER 309 325	con_gái Hồng_Vân
+T7	TIME 577 584	Tháng 8
+T8	PER 587 606	vợ_chồng Hoàng_Châu
+T9	Marry 626 633	lễ cưới
+E4	Marry:T9 Person-Arg:T8 Time-Arg:T7
+T10	PER 636 646	Hoàng_Châu
+T11	Be-born 647 651	sinh
+E5	Be-born:T11 Time-Arg:T12 Person-Arg:T10
+T12	TIME 656 660	1994
+T13	TIME 990 998	Năm 2011
+T14	PER 1001 1011	Hoàng_Châu
+T15	Transport 1012 1016	sang
+E6	Transport:T15 Destination-Arg:T16 Agent-Arg:T14 Time-Arg:T13
+T16	GPE 1017 1019	Mỹ
+T17	Marry 142 150	hôn_nhân
+E7	Marry:T17 Person-Arg:T18
+T18	PER 99 105	Cả hai
+T19	PER 286 293	con_gái
+T20	Transport 411 415	sang
+E8	Transport:T20 Destination-Arg:T21 Artifact-Arg:T22
+T21	GPE 416 418	Mỹ
+T22	PER 359 367	Hồng_Vân
+T23	Marry 565 574	tiệc cưới
+E9	Marry:T23 Person-Arg:T24
+T24	PER 521 528	con_gái
+T25	Transport 610 617	về nước
+E10	Transport:T25 Agent-Arg:T8 Time-Arg:T7

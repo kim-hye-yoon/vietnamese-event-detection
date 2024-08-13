@@ -1,0 +1,88 @@
+T1	Die 52 56	giết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 57 66	Khashoggi
+T3	PER 0 12	Công_tố_viên
+T4	Sentence 13 20	đề_xuất
+E2	Sentence:T4 Sentence-Arg:T5 Adjudicator-Arg:T3
+T5	SEN 21 33	5 án tử_hình
+T6	Trial-hearing 164 170	xét_xử
+E3	Trial-hearing:T6 Defendant-Arg:T11 Time-Arg:T9 Place-Arg:T10
+T7	Die 218 222	giết
+E4	Die:T7 Victim-Arg:T8 Agent-Arg:T11
+T8	PER 223 246	nhà_báo Jamal_Khashoggi
+T9	TIME 255 262	hôm_nay
+T10	GPE 267 295	thủ_đô Riyadh của Arab_Saudi
+T11	PER 188 200	các nghi_can
+T12	Sentence 383 390	đề_nghị
+E5	Sentence:T12 Sentence-Arg:T13 Adjudicator-Arg:T14 Defendant-Arg:T15
+T13	SEN 391 403	5 án tử_hình
+T14	PER 370 382	Công_tố_viên
+T15	PER 412 432	5 trong số 11 bị_cáo
+T16	Die 460 464	giết
+E6	Die:T16 Victim-Arg:T17 Agent-Arg:T15
+T17	PER 465 470	người
+T18	Arrest-jail 595 599	bắt 
+E7	Arrest-jail:T18 Person-Arg:T19
+T19	PER 584 591	7 người
+T20	Trial-hearing 620 626	xét_xử
+E8	Trial-hearing:T20 Defendant-Arg:T19
+T21	TIME 643 650	hôm_nay
+T22	Arrest-jail 694 697	bắt
+E9	Arrest-jail:T22 Person-Arg:T23
+T23	PER 682 690	18 người
+T24	Die 1250 1257	sát_hại
+E10	Die:T24 Victim-Arg:T25
+T25	PER 1258 1267	Khashoggi
+T26	Extradite 1305 1311	dẫn_độ
+E11	Extradite:T26 Person-Arg:T27 Agent-Arg:T28
+T27	PER 1312 1324	18 nghi phạm
+T28	GPE 1294 1304	Arab_Saudi
+T29	Die 1448 1452	chết
+E12	Die:T29 Victim-Arg:T30
+T30	PER 1457 1466	Khashoggi
+T31	Sentence 1562 1572	đề_nghị án
+E13	Sentence:T31 Adjudicator-Arg:T34 Sentence-Arg:T32 Defendant-Arg:T33
+T32	SEN 1573 1580	tử_hình
+T33	PER 1589 1601	các nghi_can
+T34	GPE 1551 1561	Arab_Saudi
+T35	Execute 1681 1700	thi_hành án tử_hình
+E14	Execute:T35 Place-Arg:T36
+T36	GPE 1658 1668	Arab_Saudi
+T37	Execute 1769 1776	tử_hình
+E15	Execute:T37 Person-Arg:T38 Place-Arg:T39
+T38	PER 1777 1794	ít_nhất 146 người
+T39	GPE 1755 1765	Arab_Saudi
+T40	Die 1939 1943	giết
+E16	Die:T40 Victim-Arg:T43 Place-Arg:T44
+T42	Phone-write 1846 1850	viết
+E17	Phone-write:T42 Entity-Arg:T43
+T43	PER 1821 1830	Khashoggi
+T41	Transport 1952 1955	tới
+E18	Transport:T41 Destination-Arg:T44 Agent-Arg:T43
+T44	FAC 1956 2013	lãnh_sự_quán Arab_Saudi ở thành_phố Istanbul , Thổ_Nhĩ_Kỳ
+T45	Marry 2037 2044	kết_hôn
+E19	Marry:T45 Person-Arg:T43
+T46	Die 2112 2116	giết
+E20	Die:T46 Victim-Arg:T47
+T47	PER 2117 2126	Khashoggi
+T48	Transport 2164 2166	về
+E21	Transport:T48 Destination-Arg:T49 Agent-Arg:T47
+T49	LOC 2167 2171	nước
+T50	GPE 2070 2080	Arab_Saudi
+T51	Transport 2216 2227	đưa ra khỏi
+E22	Transport:T51 Destination-Arg:T52
+T52	FAC 2228 2240	lãnh_sự_quán
+T53	Transport 2443 2449	đi vào
+E23	Transport:T53 Destination-Arg:T54
+T54	FAC 2450 2486	dinh_thự của tổng_lãnh_sự Arab_Saudi
+T55	Attack 2534 2542	đánh_đập
+E24	Attack:T55 Target-Arg:T58 Place-Arg:T57
+T56	Attack 2545 2552	tra_tấn
+E25	Attack:T56 Target-Arg:T58 Place-Arg:T57
+T57	FAC 2579 2591	lãnh_sự_quán
+T58	PER 2521 2530	Khashoggi
+T59	Transport 2636 2639	vào
+E26	Transport:T59 Agent-Arg:T60 Destination-Arg:T61 Time-Arg:T62
+T60	PER 2594 2610	Ba người đàn_ông
+T61	FAC 2640 2672	dinh thự tổng_lãnh_sự Arab_Saudi
+T62	TIME 2673 2686	hôm 2/10/2018

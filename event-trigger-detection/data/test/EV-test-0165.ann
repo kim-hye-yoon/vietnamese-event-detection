@@ -1,0 +1,6 @@
+T1	Declare-bankruptcy 24 31	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 7	Tribeco
+T3	Declare-bankruptcy 528 535	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4
+T4	ORG 468 483	Công_ty Tribeco

@@ -1,0 +1,11 @@
+T1	PER 139 148	chúng_tôi
+T2	ORG 183 218	5 cửa_hàng mang thương_hiệu Ten_Ren
+T3	TIME 219 232	trong năm nay
+T4	Start-org 180 182	mở
+E1	Start-org:T4 Org-Arg:T2 Agent-Arg:T1 Time-Arg:T3
+T5	ORG 394 401	công_ty
+T6	Start-org 405 407	mở
+E2	Start-org:T6 Place-Arg:T8 Org-Arg:T7 Agent-Arg:T5 Time-Arg:T9
+T7	ORG 408 431	xưởng sản_xuất sản_phẩm
+T8	GPE 436 442	Đà_Lạt
+T9	TIME 382 391	Tương_lai

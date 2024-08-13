@@ -1,0 +1,25 @@
+T2	Marry 23 30	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Place-Arg:T12
+T3	Marry 66 73	Lễ cưới
+E2	Marry:T3 Person-Arg:T4 Place-Arg:T5
+T4	PER 87 109	đôi vợ_chồng vô_gia_cư
+T5	GPE 110 117	Nam_Phi
+T6	Marry 135 142	Lễ cưới
+E3	Marry:T6 Person-Arg:T7 Person-Arg2:T8 Time-Arg:T11 Place-Arg:T9
+T7	PER 147 160	ông Llewellyn
+T8	PER 164 174	bà Cecilia
+T12	FAC 31 43	dưới gầm cầu
+T1	PER 0 22	Đôi vợ_chồng vô_gia_cư
+T11	TIME 254 262	hôm 14/8
+T9	FAC 188 251	một cầu cao_tốc ở thành_phố Cape_Town , bờ biển tây nam Nam_Phi
+T10	Marry 832 839	lễ cưới
+E4	Marry:T10 Person-Arg:T13 Person-Arg2:T14
+T13	PER 815 825	bà Cecilia
+T14	PER 798 811	Ông Llewellyn
+T15	Marry 985 993	đám_cưới
+E5	Marry:T15 Person-Arg:T16
+T16	PER 956 974	đôi vợ_chồng nghèo
+T17	Meet 1019 1022	gặp
+E6	Meet:T17 Time-Arg:T19 Entity-Arg:T18
+T18	PER 1009 1018	Hai người
+T19	TIME 1035 1047	30 năm trước

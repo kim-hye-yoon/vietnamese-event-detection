@@ -1,0 +1,19 @@
+T1	Declare-bankruptcy 39 46	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3 Place-Arg:T2
+T2	GPE 28 38	Trung_Quốc
+T3	ORG 0 25	Quán ăn phong_cách nhà_tù
+T4	ORG 105 131	nhà_hàng phong_cách nhà_tù
+T5	PER 97 104	ông chủ
+T6	TIME 87 94	một năm
+T13	ORG 700 708	Nhà_hàng
+T14	GPE 746 755	Thiên_Tân
+T15	TIME 760 768	năm 2014
+T16	PER 771 781	Chủ_sở_hữu
+T17	ORG 805 813	nhà_hàng
+T18	PER 826 836	thực_khách
+T23	End-org 165 173	đóng_cửa
+E2	End-org:T23 Org-Arg:T4 Time-Arg:T6
+T7	Start-org 709 715	mở_cửa
+E3	Start-org:T7 Org-Arg:T13 Place-Arg:T14 Time-Arg:T15
+T8	Start-org 802 804	mở
+E4	Start-org:T8 Org-Arg:T17 Agent-Arg:T16

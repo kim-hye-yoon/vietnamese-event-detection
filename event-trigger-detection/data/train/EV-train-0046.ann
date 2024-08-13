@@ -1,0 +1,11 @@
+T1	End-position 24 33	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 20	Trưởng công_an huyện
+T3	End-position 157 166	cách_chức
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5 Entity-Arg:T8
+T4	JOB 167 195	Trưởng công_an huyện Trần_Đề
+T5	PER 204 225	đại_tá Đoàn_Thanh_Sơn
+T6	Start-position 263 271	thay_thế
+E3	Start-position:T6 Person-Arg:T7
+T7	PER 248 259	cán_bộ khác
+T8	ORG 138 148	Bộ Công_an

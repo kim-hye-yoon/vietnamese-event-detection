@@ -1,0 +1,25 @@
+T1	ORG 0 12	Doanh_nghiệp
+T2	Transfer-ownership 13 16	mua
+E1	Transfer-ownership:T2 Buyer-Arg:T1
+T3	PER 61 82	Thương_lái Trung_Quốc
+T4	Transfer-ownership 142 149	thu_mua
+E2	Transfer-ownership:T4 Buyer-Arg:T3 Price-Arg:T5
+T5	MONEY 165 182	8.000 đồng một kg
+T6	ORG 620 632	doanh_nghiệp
+T7	Transfer-ownership 633 636	trả
+E3	Transfer-ownership:T7 Price-Arg:T8 Buyer-Arg:T6
+T8	MONEY 645 663	15.000 đồng mỗi kg
+T9	TIME 685 692	mọi năm
+T10	PER 693 703	hơn 100 hộ
+T11	Transfer-ownership 727 730	bán
+E4	Transfer-ownership:T11 Seller-Arg:T10 Time-Arg:T9 Buyer-Arg:T12
+T12	PER 735 756	thương_lái Trung_Quốc
+T15	PER 1604 1613	chúng_tôi
+T16	Transfer-ownership 1626 1633	thu_mua
+E7	Transfer-ownership:T16 Buyer-Arg:T15
+T17	Transfer-ownership 1977 1980	mua
+E8	Transfer-ownership:T17 Buyer-Arg:T18
+T18	PER 1955 1964	chúng_tôi
+T19	PER 1890 1911	thương_lái Trung_Quốc
+T20	Transfer-ownership 1937 1944	trả_giá
+E9	Transfer-ownership:T20 Seller-Arg:T19

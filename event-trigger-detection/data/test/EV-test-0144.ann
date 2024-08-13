@@ -1,0 +1,47 @@
+T1	End-position 27 36	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 23	Trưởng_phòng Tài_nguyên
+T3	TIME 78 88	Ngày 16/11
+T4	End-position 419 428	cách_chức
+E2	End-position:T4 Position-Arg:T8 Person-Arg:T7
+T5	Start-position 431 443	chuyển xuống
+E3	Start-position:T5 Position-Arg:T6 Person-Arg:T7
+T6	JOB 448 459	chuyên_viên
+T7	PER 374 389	ông Lê_Văn_Thuỷ
+T8	JOB 392 415	Trưởng_phòng Tài_nguyên
+T9	Transfer-ownership 709 712	mua
+E4	Transfer-ownership:T9 Place-Arg:T12 Buyer-Arg:T11 Seller-Arg:T13 Artifact-Arg:T10
+T10	FAC 623 645	Một trong những lô đất
+T11	PER 651 692	các cán_bộ phòng Tài_nguyên và Môi_trường
+T12	GPE 693 705	huyện Lộc_Hà
+T13	PER 717 720	dân
+T14	Transfer-ownership 1025 1028	bán
+E5	Transfer-ownership:T14 Seller-Arg:T18 Buyer-Arg:T15 Place-Arg:T16
+T15	PER 866 896	một_số cán_bộ phòng Tài_nguyên
+T16	GPE 897 909	huyện Lộc_Hà
+T17	PER 924 960	chủ các lô đất bị bỏ_hoang nhiều năm
+T18	PER 971 973	họ
+T19	Charge-indict 842 848	tố_cáo
+E6	Charge-indict:T19 Prosecutor-Arg:T20 Defendant-Arg:T15
+T20	PER 853 863	các hộ dân
+T21	Transfer-ownership 1055 1058	bán
+E7	Transfer-ownership:T21 Buyer-Arg:T22 Seller-Arg:T23 Artifact-Arg:T24 Price-Arg:T25
+T23	PER 1042 1051	Ba hộ dân
+T22	PER 1063 1074	nhóm cán_bộ
+T24	FAC 1075 1083	5 lô đất
+T25	MONEY 1094 1119	từ 200 đến 350 triệu đồng
+T26	Transfer-ownership 1222 1228	nhượng
+E8	Transfer-ownership:T26 Beneficiary-Arg:T27 Seller-Arg:T28
+T27	PER 1237 1247	người_thân
+T28	PER 1160 1189	cán_bộ phòng Tài_nguyên huyện
+T29	Transfer-ownership 1129 1132	Mua
+E9	Transfer-ownership:T29 Artifact-Arg:T30 Buyer-Arg:T28
+T30	FAC 1138 1141	đất
+T31	Transfer-ownership 1400 1413	chuyển_nhượng
+E10	Transfer-ownership:T31 
+T32	FAC 1422 1425	đất
+T33	End-position 1443 1452	cách_chức
+E11	End-position:T33 Position-Arg:T35 Person-Arg:T36 Entity-Arg:T34
+T34	ORG 1428 1439	Cơ_quan này
+T35	JOB 1453 1521	Uỷ_viên ban_chấp_hành Đảng_bộ huyện , Bí_thư chi_bộ Phòng Tài_nguyên
+T36	PER 1530 1538	ông Thuỷ

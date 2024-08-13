@@ -1,0 +1,9 @@
+T1	End-position 27 36	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 37 46	Hữu_Thắng
+T3	End-position 345 354	cách_chức
+E2	End-position:T3 Person-Arg:T6
+T4	End-position 475 484	thôi_việc
+E3	End-position:T4 Person-Arg:T5
+T5	PER 417 436	ông Nguyễn_Văn_Diện
+T6	PER 277 341	Chủ tịch xã Trần Đoàn_Minh_Hiệp và Phó chủ_tịch xã Trần_Oai Dũng

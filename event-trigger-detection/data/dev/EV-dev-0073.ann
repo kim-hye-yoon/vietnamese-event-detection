@@ -1,0 +1,28 @@
+T1	PER 0 14	Công_chúa Nhật
+T2	Transfer-money 15 19	nhận
+E1	Transfer-money:T2 Recipient-Arg:T1 Money-Arg:T3
+T3	MONEY 20 35	gần 1 triệu USD
+T5	PER 52 62	thường_dân
+T4	Marry 40 47	kết_hôn
+E2	Marry:T4 Person-Arg:T1 Person-Arg2:T5
+T6	PER 175 190	Công_chúa Ayako
+T7	Transfer-money 267 271	nhận
+E3	Transfer-money:T7 Recipient-Arg:T6 Money-Arg:T8 Giver-Arg:T9
+T8	MONEY 277 317	gần 107 triệu yên ( khoảng 950.000 USD )
+T9	ORG 321 330	chính_phủ
+T10	Marry 339 346	kết_hôn
+E4	Marry:T10 Person-Arg:T6 Person-Arg2:T11
+T11	PER 351 361	Kei_Moriya
+T12	PER 983 995	Noriko_Senge
+T13	Transfer-money 1033 1037	nhận
+E5	Transfer-money:T13 Recipient-Arg:T12 Money-Arg:T14 Time-Arg:T15
+T14	MONEY 1043 1065	khoản tiền tương_đương
+T15	TIME 1070 1078	năm 2014
+T16	Marry 1083 1090	kết_hôn
+E6	Marry:T16 Person-Arg:T12 Person-Arg2:T17 Place-Arg:T18
+T17	PER 1095 1109	Kunimaro_Senge
+T18	FAC 1148 1195	một ngôi đền của Thần_đạo Shinto ở tỉnh Shimane
+T19	PER 1308 1318	Công_nương
+T20	Meet 1319 1322	gặp
+E7	Meet:T20 Entity-Arg:T21 Entity-Arg2:T19
+T21	PER 1323 1340	cha_mẹ của Moriya

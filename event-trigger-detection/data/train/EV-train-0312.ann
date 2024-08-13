@@ -1,0 +1,51 @@
+T1	Marry 23 30	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 14 17	Tôi
+T3	PER 187 190	Tôi
+T4	Phone-write 201 209	nhắn_tin
+E2	Phone-write:T4 Entity-Arg:T5 Entity-Arg2:T6 Entity-Arg3:T3
+T5	PER 218 224	bạn_bè
+T6	PER 227 237	người_thân
+T7	TIME 542 550	Năm 2011
+T8	Start-position 565 574	nhậm_chức
+E3	Start-position:T8 Position-Arg:T9 Time-Arg:T7
+T9	JOB 575 589	Đại_sứ Du_lịch
+T10	PER 943 952	mọi người
+T11	Phone-write 953 961	nhắn_tin
+E4	Phone-write:T11 Entity-Arg:T10 Entity-Arg2:T12
+T12	PER 978 981	tôi
+T13	Marry 1339 1346	kết_hôn
+E5	Marry:T13 Person-Arg:T14
+T14	PER 1298 1307	chúng_tôi
+T15	Marry 1541 1549	cưới_xin
+E6	Marry:T15 Person-Arg:T24
+T16	Marry 1570 1582	lập gia_đình
+E7	Marry:T16 Person-Arg:T17
+T17	PER 1552 1555	Tôi
+T18	Marry 1881 1888	kết_hôn
+E8	Marry:T18 Person-Arg:T19
+T19	PER 1866 1869	tôi
+T20	Meet 2055 2061	gặp_gỡ
+E9	Meet:T20 
+T21	Marry 4536 4543	kết_hôn
+E10	Marry:T21 Person-Arg:T22 Person-Arg2:T23
+T22	PER 4510 4519	Quang_Kha
+T23	PER 4492 4500	Thiên_Di
+T24	PER 1501 1507	Anh ấy
+T25	Divorce 1820 1827	chia_ly
+E11	Divorce:T25 
+T26	Marry 2507 2515	đám_cưới
+E12	Marry:T26 Person-Arg:T27
+T27	PER 2498 2501	Chị
+T28	Marry 2801 2809	đám_cưới
+E13	Marry:T28 Person-Arg:T29
+T29	PER 2772 2775	Tôi
+T30	Marry 2896 2903	tân_hôn
+E14	Marry:T30 
+T31	Marry 2948 2957	ngày cưới
+E15	Marry:T31 
+T32	Marry 2660 2669	ngày cưới
+E16	Marry:T32 
+T33	Transfer-money 3549 3556	góp vốn
+E17	Transfer-money:T33 Giver-Arg:T34
+T34	PER 3545 3548	tôi

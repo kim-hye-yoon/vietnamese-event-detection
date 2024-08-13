@@ -1,0 +1,16 @@
+T1	Release-parole 20 34	được trả tự_do
+E1	Release-parole:T1 
+T2	Transport 624 627	đến
+E2	Transport:T2 Artifact-Arg:T7 Destination-Arg:T3
+T3	FAC 628 636	cửa_hàng
+T4	Transfer-money 637 640	trả
+E3	Transfer-money:T4 Giver-Arg:T7 Money-Arg:T5
+T5	MONEY 641 648	230 USD
+T6	Transfer-ownership 652 655	mua
+E4	Transfer-ownership:T6 Buyer-Arg:T7 Price-Arg:T5
+T7	PER 577 608	Một người ăn_chay ở Nova_Scotia
+T8	Transport 706 709	chở
+E5	Transport:T8 Destination-Arg:T11 Vehicle-Arg:T10 Artifact-Arg:T9
+T9	PER 672 681	Người này
+T10	VEH 694 705	tàu đánh_cá
+T11	LOC 731 741	vịnh Fundy

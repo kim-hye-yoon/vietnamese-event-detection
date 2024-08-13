@@ -1,0 +1,90 @@
+T1	Arquit 22 29	tha_tội
+E1	Arquit:T1 Defendant-Arg:T3
+T2	Die 30 34	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 0 17	Sát_thủ cuồng_bạo
+T4	Phone-write 50 54	viết
+E3	Phone-write:T4 Entity-Arg:T5 Entity-Arg2:T6
+T5	PER 89 93	Hoài
+T6	PER 103 116	Chủ_tịch nước
+T7	Arquit 117 124	tha_tội
+E4	Arquit:T7 Adjudicator-Arg:T6 Defendant-Arg:T5
+T8	Die 125 129	chết
+E5	Die:T8 Victim-Arg:T5
+T9	Be-born 320 324	sinh
+E6	Be-born:T9 Person-Arg:T10
+T10	PER 312 315	con
+T11	Appeal 443 452	kháng_cáo
+E7	Appeal:T11 Defendant-Arg:T12
+T12	PER 401 405	Hoài
+T13	Arquit 685 692	tha_tội
+E8	Arquit:T13 Defendant-Arg:T15 Adjudicator-Arg:T16
+T14	Die 693 697	chết
+E9	Die:T14 Victim-Arg:T15
+T15	PER 702 705	tôi
+T16	PER 671 684	chủ_tịch nước
+T17	Appeal 880 889	kháng_cáo
+E10	Appeal:T17 Defendant-Arg:T18
+T18	PER 824 828	Hoài
+T19	Sentence 906 910	nhận
+E11	Sentence:T19 Sentence-Arg:T20 Defendant-Arg:T18
+T20	SEN 914 921	tử_hình
+T21	Transport 1035 1040	phóng
+E12	Transport:T21 Time-Arg:T26 Origin-Arg:T25 Agent-Arg:T24 Vehicle-Arg:T22 Destination-Arg:T23
+T22	VEH 1041 1043	xe
+T23	GPE 1047 1061	thị_xã Sơn_Tây
+T24	PER 979 983	Hoài
+T25	LOC 1013 1028	khu_vực Mỹ_Đình
+T26	TIME 962 976	ngày 29/7/2012
+T27	Transport 1366 1368	đi
+E13	Transport:T27 Agent-Arg:T29 Artifact-Arg:T30 Destination-Arg:T28
+T28	LOC 1378 1381	nhà
+T29	PER 1286 1290	Hoài
+T30	PER 1299 1313	đứa trẻ 8 tuổi
+T31	Transport 1314 1323	kéo xuống
+E14	Transport:T31 Agent-Arg:T29 Artifact-Arg:T30 Destination-Arg:T32
+T32	LOC 1324 1327	bếp
+T33	Attack 1350 1359	khống_chế
+E15	Attack:T33 Attacker-Arg:T29 Target-Arg:T30
+T34	Die 1461 1468	sát_hại
+E16	Die:T34 Victim-Arg:T36 Agent-Arg:T35
+T35	PER 1457 1460	hắn
+T36	PER 1414 1427	đứa em 4 tuổi
+T37	Die 1471 1475	Giết
+E17	Die:T37 Victim-Arg:T38
+T38	PER 1481 1488	đứa trẻ
+T39	Attack 1560 1564	chém
+E18	Attack:T39 Attacker-Arg:T40 Target-Arg:T41
+T40	PER 1553 1556	hắn
+T41	PER 1565 1573	một ngườ
+T42	Sentence 1660 1670	tuyên_phạt
+E19	Sentence:T42 Sentence-Arg:T43 Defendant-Arg:T44 Adjudicator-Arg:T45 Time-Arg:T46 Crime-Arg:T47
+T43	SEN 1671 1678	tử_hình
+T44	PER 1640 1644	Hoài
+T45	ORG 1648 1659	TAND Hà_Nội
+T46	TIME 1622 1637	Ngày 25/10/2012
+T47	CRIME 1682 1733	3 tội : Giết người , Hiếp_dâm trẻ_em , Cướp tài_sản
+T48	Die 1690 1694	Giết
+E20	Die:T48 Victim-Arg:T49 Agent-Arg:T44
+T49	PER 1695 1700	người
+T50	Attack 1203 1211	hiếp_dâm
+E21	Attack:T50 Attacker-Arg:T51 Target-Arg:T52
+T51	PER 1182 1186	Hiền
+T52	PER 1154 1164	hai bé gái
+T53	Attack 1385 1393	hiếp_dâm
+E22	Attack:T53 Attacker-Arg:T29 Target-Arg:T30
+T54	Attack 1703 1711	Hiếp_dâm
+E23	Attack:T54 Target-Arg:T55 Attacker-Arg:T44
+T55	PER 1712 1718	trẻ_em
+T56	Appeal 1765 1774	kháng_cáo
+E24	Appeal:T56 Defendant-Arg:T57 Adjudicator-Arg:T58
+T57	PER 1817 1829	kẻ cuồng_bạo
+T58	ORG 1748 1760	TAND Tối_cao
+T59	Pardon 573 595	xin giảm nhẹ hình_phạt
+E25	Pardon:T59 Defendant-Arg:T12
+T60	Pardon 1775 1797	xin giảm nhẹ hình_phạt
+E26	Pardon:T60 Adjudicator-Arg:T58 Defendant-Arg:T57
+T61	Attack 1505 1512	làm bậy
+E27	Attack:T61 Attacker-Arg:T62 Target-Arg:T63
+T62	PER 1491 1495	Hoài
+T63	PER 1517 1530	bé gái 8 tuổi

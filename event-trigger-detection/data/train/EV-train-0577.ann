@@ -1,0 +1,48 @@
+T1	Attack 2877 2885	xung_đột
+E1	Attack:T1 
+T2	Sue 274 282	cáo_buộc
+E2	Sue:T2 Defendant-Arg:T4 Crime-Arg:T24
+T3	Attack 2392 2400	xung_đột
+E3	Attack:T3 Attacker-Arg:T11 Place-Arg:T12
+T4	ORG 283 298	chính_phủ Syria
+T5	Attack 916 924	tấn_công
+E4	Attack:T5 Attacker-Arg:T6 Instrument-Arg:T7 Target-Arg:T8
+T6	ORG 878 888	Washington
+T7	WEA 936 972	tên_lửa hành_trình BGM -109 Tomahawk
+T8	WEA 978 992	AGM -86 C_ALCM
+T9	Attack 2321 2329	tấn_công
+E5	Attack:T9 Place-Arg:T10
+T10	GPE 2330 2335	Syria
+T11	GPE 2338 2340	Mỹ
+T12	GPE 2415 2418	Nga
+T13	Attack 2680 2695	ấn_công quân_sự
+E6	Attack:T13 Attacker-Arg:T14
+T14	GPE 2676 2678	Mỹ
+T15	Injure 474 485	thương_vong
+E7	Injure:T15 Victim-Arg:T16 Place-Arg:T17
+T16	PER 490 501	binh_sĩ Nga
+T17	GPE 512 517	Syria
+T18	Attack 602 610	tấn_công
+E8	Attack:T18 Attacker-Arg:T19
+T19	GPE 547 549	Mỹ
+T20	Attack 1696 1704	tấn_công
+E9	Attack:T20 
+T21	Attack 2084 2092	tấn_công
+E10	Attack:T21 
+T22	Attack 2793 2801	tấn_công
+E11	Attack:T22 Attacker-Arg:T23
+T23	GPE 2823 2825	Mỹ
+T24	CRIME 299 321	sử_dụng vũ_khí_hoá_học
+T25	Transport 151 159	rút quân
+E12	Transport:T25 
+T26	Attack 1839 1849	trừng_phạt
+E13	Attack:T26 Place-Arg:T27 Attacker-Arg:T28
+T27	GPE 1850 1855	Syria
+T28	ORG 1810 1821	quân_đội Mỹ
+T29	Attack 2652 2662	trừng_phạt
+E14	Attack:T29 Attacker-Arg:T30
+T30	ORG 2579 2603	Nhà_Trắng và Lầu_Năm_Góc
+T31	Attack 4 14	trừng_phạt
+E15	Attack:T31 Attacker-Arg:T32 Place-Arg:T33
+T32	GPE 23 25	Mỹ
+T33	GPE 45 50	Syria

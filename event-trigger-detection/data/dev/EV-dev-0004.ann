@@ -1,0 +1,30 @@
+T3	GPE 28 36	Việt_Nam
+T2	ORG 64 70	Hanjin
+T1	Declare-bankruptcy 44 51	phá_sản
+E1	Declare-bankruptcy:T1 
+T5	MONEY 223 234	118.000 USD
+T6	ORG 209 215	Hanjin
+T4	Transfer-money 220 222	nợ
+E2	Transfer-money:T4 Money-Arg:T5
+T7	Declare-bankruptcy 304 320	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T9
+T8	ORG 276 297	Cục Hàng_hải Việt_Nam
+T9	ORG 325 342	hãng tàu Hàn_Quốc
+T10	ORG 393 410	Hiệp_hội Chủ hàng
+T11	ORG 413 429	Hiệp_hội Chủ tàu
+T13	Transport 527 530	vào
+E4	Transport:T13 Destination-Arg:T14 Vehicle-Arg:T12
+T12	VEH 494 526	tàu_biển và container của Hanjin
+T14	FAC 531 535	cảng
+T15	Declare-bankruptcy 742 749	phá_sản
+E5	Declare-bankruptcy:T15 Org-Arg:T16 Time-Arg:T17
+T16	ORG 691 733	Đại_gia vận_tải_biển - Hanjin ( Hàn_Quốc )
+T17	TIME 754 766	cuối tháng 8
+T18	Declare-bankruptcy 966 973	phá_sản
+E6	Declare-bankruptcy:T18 Org-Arg:T19
+T19	ORG 959 965	Hanjin
+T20	Transport 1093 1099	ra vào
+E7	Transport:T20 Destination-Arg:T22 Artifact-Arg:T21
+T21	VEH 1073 1092	11 tàu của hãng này
+T22	FAC 1100 1119	các cảng tại TP HCM
+T23	FAC 1126 1204	cảng Cát_Lái , Tân_Cảng_Hiệp_Phước và Cảng Container Quốc_Tế Việt_Nam ( VICT )

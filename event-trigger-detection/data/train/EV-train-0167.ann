@@ -1,0 +1,13 @@
+T1	Declare-bankruptcy 44 51	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Declare-bankruptcy 371 378	phá_sản
+E2	Declare-bankruptcy:T2 
+T3	Declare-bankruptcy 396 403	phá_sản
+E3	Declare-bankruptcy:T3 
+T4	Declare-bankruptcy 622 629	phá_sản
+E4	Declare-bankruptcy:T4 
+T5	Declare-bankruptcy 820 827	phá_sản
+E5	Declare-bankruptcy:T5 
+T6	Declare-bankruptcy 980 987	phá_sản
+E6	Declare-bankruptcy:T6 Time-Arg:T7
+T7	TIME 937 945	Năm 2015

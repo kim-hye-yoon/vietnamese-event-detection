@@ -1,0 +1,12 @@
+T1	Pardon 15 20	ân_xá
+E1	Pardon:T1 
+T2	Pardon 1934 1939	ân_xá
+E2	Pardon:T2 
+T3	Pardon 2787 2792	ân_xá
+E3	Pardon:T3 
+T4	Merge-org 3490 3493	gom
+E4	Merge-org:T4 Org-Arg:T5 Org-Arg2:T6 Org-Arg3:T7
+T5	ORG 3417 3442	nhà_máy đóng tàu Song_Mai
+T6	ORG 3445 3461	đóng tàu Hạ_Long
+T7	ORG 3500 3529	tổng_công_ty , thành tập_đoàn
+T8	PER 5324 5332	Chí_Hiếu

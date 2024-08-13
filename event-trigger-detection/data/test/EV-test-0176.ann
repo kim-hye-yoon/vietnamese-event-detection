@@ -1,0 +1,38 @@
+T1	Transport 97 106	điều_động
+E1	Transport:T1 Artifact-Arg:T2
+T2	PER 59 80	Các cán_bộ , chiến_sĩ
+T3	Transport 39 41	về
+E2	Transport:T3 Artifact-Arg:T5
+T4	Transport 7 16	điều_động
+E3	Transport:T4 Artifact-Arg:T5
+T5	PER 17 38	137 cán_bộ , chiến_sĩ
+T6	Transport 190 199	điều_động
+E4	Transport:T6 Artifact-Arg:T8 Destination-Arg:T10 Time-Arg:T7
+T7	TIME 134 143	Chiều 1/4
+T8	PER 200 221	137 cán_bộ , chiến_sĩ
+T9	Transport 222 224	về
+E5	Transport:T9 Destination-Arg:T10 Artifact-Arg:T8 Time-Arg:T7
+T10	LOC 225 245	23 xã thuộc 13 huyện
+T11	Transport 377 386	điều_động
+E6	Transport:T11 Artifact-Arg:T14 Destination-Arg:T12
+T12	LOC 421 432	xã ở Hà_Nội
+T13	Transport 418 420	về
+E7	Transport:T13 Artifact-Arg:T14 Destination-Arg:T12
+T14	PER 400 417	công_an chính_quy
+T15	Transport 800 809	điều_động
+E8	Transport:T15 Agent-Arg:T17 Artifact-Arg:T18 Destination-Arg:T19 Time-Arg:T16
+T16	TIME 761 783	Từ đầu tháng 8 đến nay
+T17	ORG 786 796	Bộ Công_an
+T18	PER 817 829	10.000 người
+T19	LOC 836 846	huyện , xã
+T20	PER 858 887	gần 1.000 người từ cơ_quan Bộ
+T21	Transport 888 890	về
+E9	Transport:T21 Artifact-Arg:T20
+T22	PER 904 932	trên 5.900 người từ cấp tỉnh
+T23	Transport 933 938	xuống
+E10	Transport:T23 Artifact-Arg:T22 Destination-Arg:T24
+T24	LOC 939 944	huyện
+T25	PER 947 972	trên 3.200 người từ huyện
+T27	LOC 979 981	xã
+T26	Transport 973 978	xuống
+E11	Transport:T26 Artifact-Arg:T25 Destination-Arg:T27

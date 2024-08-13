@@ -1,0 +1,36 @@
+T4	Die 38 46	đâm chết
+E2	Die:T4 Agent-Arg:T1
+T2	Die 112 119	đâm chế
+E1	Die:T2 Victim-Arg:T3
+T7	Injure 260 263	đâm
+E3	Injure:T7 Place-Arg:T5 Victim-Arg:T6
+T10	Sentence 431 437	kết_án
+E4	Sentence:T10 Sentence-Arg:T11 Crime-Arg:T12 Defendant-Arg:T9 Adjudicator-Arg:T8
+T11	SEN 438 445	tử_hình
+T12	CRIME 449 468	tội_danh giết người
+T13	PER 1081 1098	Hai người đàn_ông
+T9	PER 397 424	một trong hai người đàn_ông
+T14	Arrest-jail 1109 1116	bắt_giữ
+E5	Arrest-jail:T14 Person-Arg:T13
+T15	PER 1209 1225	Lauren_Patterson
+T17	LOC 1246 1254	quán bar
+T18	Transport 1242 1245	đến
+E6	Transport:T18 Destination-Arg:T17 Agent-Arg:T15
+T19	PER 1347 1355	hung_thủ
+T20	Die 1392 1396	giết
+E7	Die:T20 Agent-Arg:T19 Victim-Arg:T21
+T21	PER 1397 1405	nạn_nhân
+T1	PER 9 21	nữ giáo_viên
+T3	PER 82 94	nữ giáo_viên
+T5	LOC 201 215	sa_mạc ở Qatar
+T22	GPE 210 215	Qatar
+T6	PER 144 177	Một giáo_viên trung_học người Anh
+T8	PER 360 379	công_tố_viên ở Doha
+T23	GPE 375 379	Doha
+T16	PER 919 939	2 gã đàn_ông đồi_bại
+T24	PER 910 912	cô
+T25	Attack 940 950	cưỡng_hiếp
+E8	Attack:T25 Target-Arg:T24 Attacker-Arg:T16
+T26	PER 1799 1808	Patterson
+T27	Die 1790 1794	chết
+E9	Die:T27 Victim-Arg:T26

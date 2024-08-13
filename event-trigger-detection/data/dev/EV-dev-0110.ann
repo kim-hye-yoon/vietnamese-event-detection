@@ -1,0 +1,6 @@
+T9	PER 1046 1053	Công_an
+T1	Arrest-jail 1064 1067	bắt
+E1	Arrest-jail:T1 Person-Arg:T2 Agent-Arg:T9
+T2	PER 1068 1092	những người có liên_quan
+T3	Arrest-jail 804 811	bắt_giữ
+E2	Arrest-jail:T3 

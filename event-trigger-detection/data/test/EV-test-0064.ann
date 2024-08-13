@@ -1,0 +1,64 @@
+T1	Sue 192 196	kiện
+E1	Sue:T1 Defendant-Arg:T2 Plaintiff-Arg:T3 Adjudicator-Arg:T4
+T2	ORG 88 110	Công_ty Vàng_Phước_Sơn
+T3	ORG 124 190	Công ty cổ_phần tư_vấn và kỹ_thuật Abel Việt_Nam ( Abel Việt_Nam )
+T4	ORG 46 76	Toà_án nhân_dân tỉnh Quảng_Nam
+T5	GPE 67 76	Quảng_Nam
+T6	Phone-write 458 461	gửi
+E2	Phone-write:T6 Entity-Arg:T7 Entity-Arg2:T8
+T7	PER 442 452	các chủ_nợ
+T8	ORG 478 489	toà_án tỉnh
+T9	ORG 809 831	Công_ty Vàng_Phước_Sơn
+T10	Transfer-money 853 855	nợ
+E3	Transfer-money:T10 Recipient-Arg:T9 Giver-Arg:T11 Money-Arg:T12
+T11	ORG 856 869	Abel Việt_Nam
+T12	MONEY 870 885	hơn  19 tỷ đồng
+T13	Transfer-money 951 954	trả
+E4	Transfer-money:T13 Giver-Arg:T14 Recipient-Arg:T15
+T14	ORG 962 974	doanh_nghiệp
+T15	ORG 996 1009	Abel Việt_Nam
+T16	Declare-bankruptcy 1521 1528	phá_sản
+E5	Declare-bankruptcy:T16 Org-Arg:T17
+T17	ORG 1498 1505	công_ty
+T19	ORG 1738 1750	mỏ Phước_Sơn
+T20	TIME 1727 1735	Năm 1999
+T21	End-org 1903 1918	ngừng hoạt_động
+E7	End-org:T21 Time-Arg:T23 Org-Arg:T22
+T22	ORG 1872 1894	Công_ty Vàng_Phước_Sơn
+T23	TIME 1845 1869	cuối năm 2013 , đầu 2014
+T24	Transfer-money 2051 2053	nợ
+E8	Transfer-money:T24 Recipient-Arg:T25 Giver-Arg:T26 Money-Arg:T27 Giver-Arg2:T28
+T25	ORG 2039 2046	công_ty
+T26	ORG 2054 2070	Ngân_hàng Việt_Á
+T27	MONEY 2071 2084	4,5 triệu USD
+T28	ORG 2088 2123	nhiều hộ buôn_bán , kinh_doanh khác
+T29	Transfer-ownership 2169 2172	bán
+E9	Transfer-ownership:T29 Seller-Arg:T30 Time-Arg:T31 Buyer-Arg:T32
+T30	ORG 2160 2165	Besra
+T31	TIME 2144 2157	giữa năm 2015
+T32	ORG 2186 2222	Công_ty_cổ_phần Vàng_Việt_Á ( VACO )
+T33	Transfer-money 2412 2415	trả
+E10	Transfer-money:T33 Giver-Arg:T34 Time-Arg:T35 Money-Arg:T36
+T34	ORG 2386 2408	công_ty vàng Phước_Sơn
+T35	TIME 2440 2448	12 tháng
+T36	MONEY 2477 2505	mỗi tháng trả hơn 27 tỷ đồng
+T37	Transfer-money 2575 2578	nộp
+E11	Transfer-money:T37 Giver-Arg:T38 Money-Arg:T39 Time-Arg:T40
+T38	ORG 2558 2565	công_ty
+T39	MONEY 2601 2612	335 tỷ đồng
+T40	TIME 2624 2632	11 tháng
+T41	End-org 3056 3071	ngừng hoạt_động
+E12	End-org:T41 Org-Arg:T42 Time-Arg:T43
+T42	ORG 3025 3047	Công_ty Vàng_Phước_Sơn
+T43	TIME 2933 2946	cuối năm 2016
+T44	Transfer-money 3140 3150	thanh_toán
+E13	Transfer-money:T44 Giver-Arg:T45 Money-Arg:T46
+T45	ORG 3129 3136	công_ty
+T46	MONEY 3163 3174	244 tỷ đồng
+T47	Transfer-money 3251 3257	đầu_tư
+E14	Transfer-money:T47 Giver-Arg:T49 Money-Arg:T48
+T48	MONEY 3258 3275	hàng trăm tỷ đồng
+T49	ORG 3216 3247	ác thành_viên mới của Phước_Sơn
+T51	TIME 3676 3684	năm 2017
+T50	Transfer-ownership 3666 3675	xuất_khẩu
+E15	Transfer-ownership:T50 Time-Arg:T51

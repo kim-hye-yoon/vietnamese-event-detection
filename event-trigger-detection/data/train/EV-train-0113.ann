@@ -1,0 +1,46 @@
+T1	Pardon 29 36	tha_tội
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3
+T2	ORG 21 28	công_an
+T3	PER 41 59	phụ_huynh học_sinh
+T4	TIME 62 70	Ngày 3/4
+T5	PER 73 106	nữ_sinh Phan_Thị_Hiên ( 21 tuổi )
+T6	Attack 109 115	bị hại
+E2	Attack:T6 Target-Arg:T5 Time-Arg:T4
+T7	Charge-indict 187 194	khởi_tố
+E3	Charge-indict:T7 Defendant-Arg:T9
+T8	Charge-indict 203 210	khởi_tố
+E4	Charge-indict:T8 Defendant-Arg:T9
+T9	PER 222 269	Phan_Thị_Nghĩa ( 35 tuổi , trú thành_phố Vinh )
+T10	Charge-indict 752 759	khởi_tố
+E5	Charge-indict:T10 Defendant-Arg:T11
+T11	PER 760 766	bị_can
+T12	Charge-indict 814 821	khởi_tố
+E6	Charge-indict:T12 
+T13	Attack 1077 1086	hành_hung
+E7	Attack:T13 Attacker-Arg:T16 Target-Arg:T14
+T14	PER 1087 1117	nữ_sinh_thực_tập Phan_Thị_Hiên
+T15	Transport 1028 1031	tới
+E8	Transport:T15 Destination-Arg:T17 Artifact-Arg:T16
+T16	PER 1019 1024	Nghĩa
+T17	FAC 1032 1066	trường Mầm_non công_lập Việt - Lào
+T18	Attack 1067 1074	gây_hấn
+E9	Attack:T18 Attacker-Arg:T16 Target-Arg:T14
+T19	PER 1004 1011	cô_giáo
+T20	Attack 1012 1016	đánh
+E10	Attack:T20 Attacker-Arg:T19 Target-Arg:T21
+T21	PER 963 971	con_trai
+T22	Attack 1189 1193	đánh
+E11	Attack:T22 Target-Arg:T23 Attacker-Arg:T24
+T23	PER 1194 1197	trẻ
+T24	PER 1159 1167	chị Hiên
+T25	Charge-indict 1288 1295	khởi tố
+E12	Charge-indict:T25 Defendant-Arg:T28 Prosecutor-Arg:T27 Time-Arg:T26 Crime-Arg:T29
+T26	TIME 1253 1262	Ngày 30/3
+T27	ORG 1265 1287	công_an thành_phố Vinh
+T28	PER 1307 1312	Nghĩa
+T29	CRIME 1320 1339	Làm_nhục người khác
+T30	PER 1451 1463	nữ_sinh Hiên
+T31	Transport 1467 1473	trở_về
+E13	Transport:T31 Destination-Arg:T32 Artifact-Arg:T30 Origin-Arg:T33
+T32	FAC 1474 1477	nhà
+T33	FAC 1399 1448	Trung_tâm chăm_sóc sức_khoẻ sinh_sản tỉnh Nghệ_An

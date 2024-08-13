@@ -1,0 +1,49 @@
+T1	PER 0 11	Ngọc_Anh 3A
+T2	Marry 12 19	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 24 36	bạn_trai Tây
+T4	Marry 94 102	đám_cưới
+E2	Marry:T4 
+T5	Marry 355 362	kết_hôn
+E3	Marry:T5 Person-Arg:T30
+T6	Marry 465 474	lấy chồng
+E4	Marry:T6 Person-Arg:T31
+T8	PER 561 566	chồng
+T9	Marry 567 574	kết_hôn
+E5	Marry:T9 Place-Arg:T10 Person-Arg:T8 Person-Arg2:T7
+T10	GPE 579 581	Mỹ
+T11	PER 584 598	Chồng Ngọc_Anh
+T12	Be-born 599 603	sinh
+E6	Be-born:T12 Time-Arg:T13 Person-Arg:T11
+T13	TIME 608 612	1963
+T14	PER 675 678	Anh
+T15	Transport 679 683	sang
+E7	Transport:T15 Destination-Arg:T16 Time-Arg:T19 Agent-Arg:T14
+T16	GPE 684 692	Việt_Nam
+T17	GPE 720 722	Mỹ
+T18	Transport 717 719	về
+E8	Transport:T18 Destination-Arg:T17 Time-Arg:T20 Agent-Arg:T14
+T19	TIME 709 713	2008
+T20	TIME 732 736	2013
+T21	Marry 932 939	kết_hôn
+E9	Marry:T21 Person-Arg2:T22 Person-Arg:T23
+T22	PER 923 931	Ngọc Anh
+T24	Divorce 992 998	ly_hôn
+E10	Divorce:T24 Time-Arg:T25
+T26	Divorce 1131 1137	ly_hôn
+E11	Divorce:T26 Person-Arg:T32 Person-Arg2:T33
+T27	PER 1282 1284	cô
+T28	Transport 1285 1289	sang
+E12	Transport:T28 Agent-Arg:T27 Agent-Arg2:T29
+T29	GPE 1290 1292	Mỹ
+T30	PER 319 327	Ngọc_Anh
+T31	PER 457 459	Em
+T7	PER 543 557	Ca_sĩ Ngọc_Anh
+T23	PER 944 986	nhạc_sĩ Trần_Hùng - con_trai NSND Tường_Vi
+T25	TIME 999 1007	năm 2017
+T32	PER 1138 1147	Trần_Hùng
+T33	PER 1077 1085	Ngọc Anh
+T34	Be-born 1159 1163	sinh
+E13	Be-born:T34 Time-Arg:T36 Person-Arg:T35
+T35	PER 1150 1158	Ngọc Anh
+T36	TIME 1164 1172	năm 1975

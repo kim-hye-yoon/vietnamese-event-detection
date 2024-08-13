@@ -1,0 +1,8 @@
+T1	Execute 3 9	xử bắn
+E1	Execute:T1 Person-Arg:T3 Agent-Arg:T2
+T2	GPE 0 2	Mỹ
+T3	PER 10 17	tù_nhân
+T4	GPE 34 36	Mỹ
+T5	Execute 37 42	xử_tử
+E2	Execute:T5 Person-Arg:T6 Agent-Arg:T4
+T6	PER 43 50	tù_nhân

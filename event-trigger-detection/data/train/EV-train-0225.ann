@@ -1,0 +1,24 @@
+T1	Release-parole 48 62	được trả tự_do
+E1	Release-parole:T1 
+T2	VEH 0 47	Siêu du_thuyền hơn 400 triệu USD của tỷ_phú Nga
+T3	Transport 81 85	chạy
+E2	Transport:T3 Vehicle-Arg:T4
+T4	VEH 65 80	Sailing_Yacht_A
+T5	Transfer-money 352 354	nợ
+E3	Transfer-money:T5 Money-Arg:T7 Recipient-Arg:T6
+T6	PER 337 347	tỷ_phú Nga
+T7	MONEY 369 381	16 triệu USD
+T8	Transfer-money 490 492	nợ
+E4	Transfer-money:T8 
+T9	Transport 653 661	rời khỏi
+E5	Transport:T9 Vehicle-Arg:T11 Origin-Arg:T10
+T10	GPE 662 671	Gibraltar
+T11	VEH 561 576	Sailing_Yacht_A
+T12	Transport 730 733	rời
+E6	Transport:T12 Origin-Arg:T14 Vehicle-Arg:T13
+T13	VEH 710 725	Sailing_Yacht_A
+T14	FAC 734 750	nhà_máy sản_xuất
+T15	Transport 993 1001	rời khỏi
+E7	Transport:T15 Origin-Arg:T17 Time-Arg:T16
+T16	TIME 1012 1025	đầu tháng này
+T17	FAC 1002 1007	xưởng

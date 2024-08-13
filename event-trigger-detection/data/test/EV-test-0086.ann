@@ -1,0 +1,15 @@
+T1	PER 0 11	Xuân_Trường
+T2	Elect 12 20	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 25 47	đội phó tuyển Việt_Nam
+T4	Meet 83 86	họp
+E2	Meet:T4 Entity-Arg:T6 Time-Arg:T5
+T5	TIME 50 60	Chiều 6/11
+T6	PER 61 78	HLV Park Hang_Seo
+T7	PER 169 183	các thành_viên
+T8	Elect 203 206	bầu
+E3	Elect:T8 Entity-Arg:T7
+T9	Elect 360 363	bầu
+E4	Elect:T9 Person-Arg:T10 Position-Arg:T11
+T10	PER 391 407	Nguyễn_Văn_Quyết
+T11	JOB 368 378	đội_trưởng

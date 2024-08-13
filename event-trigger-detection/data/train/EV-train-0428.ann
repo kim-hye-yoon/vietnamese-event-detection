@@ -1,0 +1,20 @@
+T1	PER 0 19	Thứ_trưởng Giáo_dục
+T2	End-position 20 24	thôi
+E1	End-position:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 25 54	nhiệm_vụ đại_biểu HĐND Hà_Nội
+T4	End-position 104 108	thôi
+E2	End-position:T4 Position-Arg:T5 Person-Arg:T8 Entity-Arg:T7 Time-Arg:T6
+T6	TIME 57 67	Chiều 5/12
+T7	ORG 70 81	HĐND Hà_Nội
+T5	JOB 118 170	đại_biểu HĐND thành_phố khoá 15 , nhiệm_kỳ 2016-2021
+T8	PER 179 231	ông Nguyễn_Hữu_Độ , Thứ trưởng Giáo_dục và Đào_tạo
+T9	Nominate 295 303	bổ_nhiệm
+E3	Nominate:T9 Person-Arg:T10 Position-Arg:T11 Time-Arg:T12
+T10	PER 316 362	ông Nguyễn_Hữu_Độ , Giám_đốc Sở Giáo_dục Hà_Nộ
+T11	JOB 368 392	chức Thứ_trưởng Giáo_dục
+T12	TIME 247 259	cuối tháng 9
+T13	PER 262 271	Thủ_tướng
+T14	Elect 741 749	trúng_cử
+E4	Elect:T14 Position-Arg:T16 Person-Arg:T15
+T15	PER 731 737	ông Độ
+T16	JOB 750 773	đại_biểu HĐND thành_phố

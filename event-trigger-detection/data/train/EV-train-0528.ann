@@ -1,0 +1,17 @@
+T1	Sue 21 27	tố_cáo
+E1	Sue:T1 Defendant-Arg:T3 Crime-Arg:T2
+T2	CRIME 28 44	đánh_bài ăn_tiền
+T3	PER 0 17	Trưởng công_an xã
+T4	Sue 241 247	tố_cáo
+E2	Sue:T4 Adjudicator-Arg:T6 Defendant-Arg:T7 Crime-Arg:T8
+T5	TIME 47 56	Ngày 18/6
+T6	ORG 154 169	Uỷ_ban Kiểm_tra
+T7	PER 184 237	ông Nguyễn_Đình_Hai ( Trưởng công_an xã Triêu_Dương )
+T8	CRIME 248 264	đánh_bài ăn_tiền
+T10	PER 384 393	người_dân
+T9	Sue 439 445	tố_cáo
+E3	Sue:T9 Plaintiff-Arg:T10 Defendant-Arg:T11 Crime-Arg:T12 Place-Arg:T13
+T11	PER 446 453	ông Hai
+T12	CRIME 454 499	đánh_bài ăn_tiền với nhiều người_dân trong xã
+T13	FAC 504 515	một quán ăn
+T14	PER 1218 1222	mình

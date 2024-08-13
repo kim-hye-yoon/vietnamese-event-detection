@@ -1,0 +1,22 @@
+T1	Attack 28 36	truy_sát
+E1	Attack:T1 Target-Arg:T3
+T2	Die 41 45	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 0 24	Nam công_an xã ở Sài_Gòn
+T5	PER 261 264	anh
+T6	PER 268 299	Trương Vũ_Minh_Sang ( 28 tuổi )
+T4	Attack 327 335	tấn_công
+E3	Attack:T4 Attacker-Arg:T6 Target-Arg:T5 Instrument-Arg:T9
+T7	Transport 353 362	tháo_chạy
+E4	Transport:T7 Artifact-Arg:T8
+T8	PER 338 346	Nạn_nhân
+T9	WEA 305 312	khúc gỗ
+T10	Transport 588 594	đưa về
+E5	Transport:T10 Agent-Arg:T12 Artifact-Arg:T11
+T11	PER 581 587	anh ta
+T12	PER 539 547	Cảnh_sát
+T13	Transport 624 630	đưa đi
+E6	Transport:T13 Artifact-Arg:T15
+T14	Die 648 655	tử_vong
+E7	Die:T14 Victim-Arg:T15
+T15	PER 610 618	nạn_nhân

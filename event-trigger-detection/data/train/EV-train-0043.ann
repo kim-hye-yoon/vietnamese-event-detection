@@ -1,0 +1,50 @@
+T1	Extradite 48 54	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2
+T2	PER 55 67	Mạnh_Vãn_Chu
+T3	Extradite 155 161	dẫn_độ
+E2	Extradite:T3 Person-Arg:T4
+T4	PER 170 208	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T5	GPE 220 226	Canada
+T6	Arrest-jail 227 230	bắt
+E3	Arrest-jail:T6 Time-Arg:T7 Agent-Arg:T5 Person-Arg:T4
+T7	TIME 235 253	tháng 12 năm_ngoái
+T8	Transfer-money 926 929	nộp
+E4	Transfer-money:T8 Money-Arg:T12 Giver-Arg:T10
+T9	GPE 911 917	Canada
+T10	PER 877 881	Mạnh
+T11	GPE 899 908	Vancouver
+T12	MONEY 930 943	7,5 triệu USD
+T13	Extradite 994 1000	dẫn_độ
+E5	Extradite:T13 
+T14	Extradite 1017 1023	dẫn_độ
+E6	Extradite:T14 
+T15	Extradite 1075 1081	dẫn_độ
+E7	Extradite:T15 
+T17	GPE 1103 1109	Ottawa
+T18	PER 1114 1119	người
+T16	Arrest-jail 1110 1113	bắt
+E8	Arrest-jail:T16 Person-Arg:T18 Agent-Arg:T17
+T19	Extradite 1151 1157	dẫn_độ
+E9	Extradite:T19 
+T20	Extradite 1222 1228	dẫn_độ
+E10	Extradite:T20 
+T21	Appeal 1295 1304	kháng_cáo
+E11	Appeal:T21 Defendant-Arg:T22
+T22	PER 1288 1294	bị_cáo
+T23	Arrest-jail 1310 1313	bắt
+E12	Arrest-jail:T23 Person-Arg:T24
+T24	PER 1314 1321	bà Mạnh
+T25	PER 1391 1398	bà Mạnh
+T26	Arrest-jail 1399 1405	bị bắt
+E13	Arrest-jail:T26 Person-Arg:T25
+T27	GPE 1413 1423	Trung_Quốc
+T28	Arrest-jail 1429 1432	bắt
+E14	Arrest-jail:T28 Person-Arg:T29 Agent-Arg:T27 Crime-Arg:T30
+T29	PER 1433 1452	hai công_dân Canada
+T30	CRIME 1466 1492	" gây hại an_ninh quốc_gia
+T31	Sentence 1643 1649	kết_án
+E15	Sentence:T31 Sentence-Arg:T33 Defendant-Arg:T34 Adjudicator-Arg:T32 Crime-Arg:T35
+T32	ORG 1610 1627	Toà_án Trung_Quốc
+T33	SEN 1650 1657	tử_hình
+T34	PER 1658 1677	một công_dân Canada
+T35	CRIME 1681 1692	buôn ma_tuý

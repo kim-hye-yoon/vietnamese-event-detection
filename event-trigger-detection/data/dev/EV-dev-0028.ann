@@ -1,0 +1,15 @@
+T1	End-position 31 40	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 27	Chủ_tịch thành_phố Trà_Vinh
+T3	End-position 236 245	cách_chức
+E2	End-position:T3 Person-Arg:T4 Time-Arg:T6
+T4	PER 254 300	ông Diệp_Văn_Thạnh - Chủ_tịch UBND TP Trà_Vinh
+T5	PER 146 186	Chủ_tịch UBND tỉnh Trà_Vinh_Đồng_Văn_Lâm
+T6	TIME 133 143	Ngày 16/10
+T7	ORG 315 333	UBND tỉnh Trà_Vinh
+T8	End-position 1218 1227	cách_chức
+E3	End-position:T8 Entity-Arg:T11 Person-Arg:T10 Time-Arg:T9 Position-Arg:T12
+T9	TIME 1159 1175	hồi giữa tháng 9
+T10	PER 1178 1187	ông Thạnh
+T11	ORG 1191 1217	Uỷ_ban Kiểm_tra Trung_ương
+T12	JOB 1228 1320	Phó bí_thư và Uỷ_viên Ban Thường_vụ Thành_uỷ Trà_Vinh các nhiệm_kỳ 2010 - 2015 , 2015 - 2020

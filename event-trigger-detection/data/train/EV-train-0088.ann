@@ -1,0 +1,30 @@
+T1	PER 0 21	Bộ_trưởng Kinh_tế Nga
+T2	Arrest-jail 22 28	bị bắt
+E1	Arrest-jail:T2 Person-Arg:T1 Crime-Arg:T3
+T3	CRIME 32 48	nghi nhận hối_lộ
+T4	PER 226 251	Ông Ulyukayev ( 60 tuổi )
+T5	Arrest-jail 255 262	bắt_giữ
+E2	Arrest-jail:T5 Time-Arg:T6 Person-Arg:T4
+T6	TIME 263 270	hôm_qua
+T7	Attack 416 425	đảo chính
+E3	Attack:T7 Time-Arg:T8
+T8	TIME 435 443	năm 1991
+T9	Transfer-ownership 520 523	mua
+E4	Transfer-ownership:T9 Seller-Arg:T10
+T10	PER 512 519	Rosneft
+T11	PER 657 670	ông Ulyukayev
+T12	Convict 647 654	kết_tội
+E5	Convict:T12 Defendant-Arg:T11
+T13	TIME 906 917	Tháng trước
+T14	PER 920 927	Rosneft
+T15	Transfer-ownership 931 934	mua
+E6	Transfer-ownership:T15 Time-Arg:T13 Seller-Arg:T14 Price-Arg:T16
+T16	MONEY 968 994	330 tỷ rouble ( 5 tỷ USD )
+T17	ORG 1140 1147	công_ty
+T18	Transfer-money 1151 1154	mua
+E7	Transfer-money:T18 Giver-Arg:T17
+T19	PER 1252 1265	Ông Ulyukayev
+T20	Nominate 1271 1279	chỉ_định
+E8	Nominate:T20 Person-Arg:T19 Time-Arg:T22 Agent-Arg:T21
+T21	PER 1284 1305	Bộ_trưởng Kinh_tế Nga
+T22	TIME 1306 1314	năm 2013

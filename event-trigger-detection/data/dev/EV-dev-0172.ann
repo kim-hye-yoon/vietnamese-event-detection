@@ -1,0 +1,47 @@
+T1	Extradite 33 39	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2 Destination-Arg:T4
+T2	PER 0 9	Không tặc
+T3	GPE 23 29	Ai_Cập
+T4	LOC 43 47	nước
+T5	Extradite 611 617	dẫn_độ
+E2	Extradite:T5 Person-Arg:T8
+T6	Trial-hearing 642 648	xét_xử
+E3	Trial-hearing:T6 Place-Arg:T7 Defendant-Arg:T8
+T7	GPE 663 669	Ai_Cập
+T8	PER 574 581	Mostafa
+T9	Appeal 582 591	kháng_cáo
+E4	Appeal:T9 Defendant-Arg:T8
+T10	Arrest-jail 815 823	giam_giữ
+E5	Arrest-jail:T10 
+T11	Die 827 831	giết
+E6	Die:T11 Agent-Arg:T12
+T12	PER 832 837	người
+T13	Appeal 1022 1031	kháng_cáo
+E7	Appeal:T13 Adjudicator-Arg:T15 Defendant-Arg:T14
+T14	PER 1036 1043	Mostafa
+T15	ORG 996 1014	Toà_án Tối_cao Síp
+T16	Transport 1260 1267	trở_lại
+E8	Transport:T16 Destination-Arg:T18 Agent-Arg:T17
+T17	PER 1235 1242	Mostafa
+T18	LOC 1268 1276	đất_nước
+T19	Appeal 1288 1297	kháng_cáo
+E9	Appeal:T19 Defendant-Arg:T17
+T20	Transport 1342 1345	chở
+E10	Transport:T20 Vehicle-Arg:T24 Artifact-Arg:T21 Origin-Arg:T25 Destination-Arg:T26 Time-Arg:T23
+T21	PER 1346 1354	62 người
+T22	PER 1317 1324	Mustafa
+T23	TIME 1300 1314	Ngày 29/3/2016
+T24	VEH 1335 1341	phi cơ
+T25	GPE 1423 1433	Alexandria
+T26	GPE 1438 1443	Cairo
+T27	Meet 1572 1575	gặp
+E11	Meet:T27 Entity-Arg:T30 Entity-Arg2:T28
+T28	PER 1576 1581	vợ cũ
+T29	Arrest-jail 1515 1518	giữ
+E12	Arrest-jail:T29 Agent-Arg:T30 Person-Arg:T34
+T30	PER 1446 1453	Mustafa
+T31	WEA 1466 1469	bom
+T32	Transport 1486 1498	chuyển_hướng
+E13	Transport:T32 Destination-Arg:T33
+T33	GPE 1503 1506	Síp
+T34	PER 1519 1553	vài hành_khách và nhân_viên tổ bay

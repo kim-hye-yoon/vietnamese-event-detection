@@ -1,0 +1,39 @@
+T2	LOC 43 51	thế_giới
+T3	Declare-bankruptcy 54 61	phá_sản
+E1	Declare-bankruptcy:T3 Org-Arg:T1
+T1	ORG 0 51	Công_ty đứng sau ' smartphone an_toàn nhất thế_giới
+T4	ORG 69 79	Phonearena
+T5	ORG 82 144	công_ty điện_thoại Phần_Lan_Turing_Robotics_Industries ( TRI )
+T6	Declare-bankruptcy 159 166	phá_sản
+E2	Declare-bankruptcy:T6 Org-Arg:T5
+T7	ORG 266 273	công_ty
+T8	PER 280 290	các chủ_nợ
+T9	Sue 299 303	kiện
+E3	Sue:T9 Defendant-Arg:T7 Plaintiff-Arg:T8 Time-Arg:T10
+T10	TIME 307 316	cuối 2017
+T11	ORG 352 364	Turing_Phone
+T12	LOC 407 415	thế_giới
+T13	ORG 418 421	TRI
+T14	MONEY 444 452	1 tỷ USD
+T15	ORG 457 464	Potevio
+T16	ORG 478 490	Turing_Phone
+T17	GPE 495 505	Trung_Quốc
+T18	Declare-bankruptcy 607 614	phá_sản
+E4	Declare-bankruptcy:T18 Org-Arg:T13
+T19	ORG 622 629	công_ty
+T20	Declare-bankruptcy 630 637	phá_sản
+E5	Declare-bankruptcy:T20 Org-Arg:T19
+T21	PER 725 735	người dùng
+T22	ORG 694 706	Turing_Phone
+T23	LOC 683 691	thế_giới
+T24	MONEY 803 810	610 USD
+T26	PER 755 766	nhiều người
+T29	PER 1209 1214	ai đó
+T30	PER 1233 1236	bạn
+T31	Phone-write 1220 1228	liên_lạc
+E7	Phone-write:T31 Entity-Arg:T29 Entity-Arg2:T30
+T32	PER 1257 1259	họ
+T33	ORG 1379 1391	Turing_Phone
+T34	PER 1632 1639	Bảo_Lâm
+T25	Transfer-ownership 767 775	đặt_hàng
+E6	Transfer-ownership:T25 Buyer-Arg:T26 Price-Arg:T24

@@ -1,0 +1,9 @@
+T1	PER 0 14	Kỹ_sư phần_mềm
+T2	Start-org 37 39	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 40 54	công_ty địa_ốc
+T4	ORG 57 94	Công_ty Phần_mềm FPT ( FPT Software )
+T5	Start-org 99 110	khai_trương
+E2	Start-org:T5 Agent-Arg:T4 Org-Arg:T6 Place-Arg:T7
+T6	ORG 111 147	công_ty_con FPT Software_Philippines
+T7	LOC 156 184	khu Công_nghệ_thông_tin Cebu

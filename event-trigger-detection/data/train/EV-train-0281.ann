@@ -1,0 +1,43 @@
+T1	End-position 17 26	bãi_nhiệm
+E1	End-position:T1 Position-Arg:T3 Entity-Arg:T2
+T2	ORG 8 16	Quốc_hội
+T3	JOB 35 43	đại_biểu
+T4	PER 44 60	Châu_Thị_Thu_Nga
+T5	End-position 419 420	n
+E2	End-position:T5 Position-Arg:T7 Entity-Arg:T8 Person-Arg:T6
+T6	PER 340 346	bà Nga
+T7	JOB 425 441	tư_cách đại_biểu
+T8	ORG 406 414	Quốc_hội
+T9	End-position 783 792	bãi_nhiệm
+E3	End-position:T9 Position-Arg:T10
+T10	JOB 801 809	đại_biểu
+T11	PER 818 824	bà Nga
+T12	ORG 737 763	Mặt_trận tổ_quốc thành_phố
+T13	End-position 947 956	bãi_nhiệm
+E4	End-position:T13 
+T14	End-position 1002 1011	bãi_nhiệm
+E5	End-position:T14 Position-Arg:T15 Person-Arg:T16
+T15	JOB 1020 1028	đại_biểu
+T16	PER 1029 1048	bà Châu_Thị_Thu_Nga
+T17	Meet 1053 1059	kỳ họp
+E6	Meet:T17 
+T18	Meet 1645 1653	hội_nghị
+E7	Meet:T18 Entity-Arg:T20 Entity-Arg2:T19
+T19	PER 1623 1633	33 uỷ_viên
+T20	PER 1659 1669	11 uỷ_viên
+T21	End-position 1754 1763	bãi_nhiệm
+E8	End-position:T21 Entity-Arg:T22 Position-Arg:T23 Person-Arg:T24
+T22	ORG 1745 1753	Quốc_hội
+T23	JOB 1772 1789	đại_biểu Quốc_hội
+T24	PER 1794 1813	bà Châu_Thị_Thu_Nga
+T25	Charge-indict 1989 1996	khởi_tố
+E9	Charge-indict:T25 Prosecutor-Arg:T28 Crime-Arg:T30
+T26	Arrest-jail 2006 2014	tạm giam
+E10	Arrest-jail:T26 Person-Arg:T29 Agent-Arg:T28 Crime-Arg:T30
+T27	TIME 1919 1926	tối 7/1
+T28	ORG 1929 1965	Cơ_quan cảnh_sát điều_tra Bộ Công_an
+T29	PER 2015 2021	bà Nga
+T30	CRIME 2055 2138	lừa_đảo chiếm_đoạt tài_sản khi triển_khai dự_án nhà chung_cư - biệt_thự B5 Cầu_Diễn
+T31	Arrest-jail 2373 2376	bắt
+E11	Arrest-jail:T31 Person-Arg:T32
+T32	PER 2379 2389	bà Thu_Nga

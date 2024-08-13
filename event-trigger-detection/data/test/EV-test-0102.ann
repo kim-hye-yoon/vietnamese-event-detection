@@ -1,0 +1,72 @@
+T1	Die 303 307	chết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 190 193	Chị
+T3	Transport 0 2	Đi
+E2	Transport:T3 
+T4	Transport 153 155	đi
+E3	Transport:T4 Agent-Arg:T5
+T5	PER 55 70	chị Liu Guoqing
+T6	Transport 88 94	trở_về
+E4	Transport:T6 Agent-Arg:T5 Destination-Arg:T7 Time-Arg:T8
+T7	GPE 101 138	Đạt_Châu , tỉnh Tứ_Xuyên , Trung_Quốc
+T8	TIME 171 187	gày 18/5 vừa_qua
+T9	Die 38 40	tử
+E5	Die:T9 Victim-Arg:T10
+T10	PER 15 23	người vợ
+T11	Die 272 274	tử
+E6	Die:T11 Victim-Arg:T2 Time-Arg:T12
+T12	TIME 278 290	tháng 2/2017
+T14	PER 339 342	Liu
+T15	Marry 521 528	kết_hôn
+E8	Marry:T15 Person-Arg:T16 Person-Arg2:T17 Time-Arg:T18
+T16	PER 500 507	chị Liu
+T17	PER 533 547	anh Yu Ningguo
+T18	TIME 551 559	năm 1995
+T19	Transport 638 640	đi
+E9	Transport:T19 Destination-Arg:T20 Agent-Arg:T21 Time-Arg:T22
+T20	GPE 647 680	thành_phố Trường_Sa , tỉnh Hồ_Nam
+T21	PER 630 637	chị Liu
+T22	TIME 590 598	năm 2006
+T23	Transport 699 701	đi
+E10	Transport:T23 Agent-Arg:T24
+T24	PER 707 710	chị
+T25	Phone-write 728 736	liên_lạc
+E11	Phone-write:T25 Entity-Arg:T24 Entity-Arg2:T26
+T26	PER 741 749	gia_đình
+T27	Marry 819 826	tái_hôn
+E12	Marry:T27 Person-Arg:T28
+T28	PER 775 785	chồng mình
+T30	PER 808 810	vợ
+T31	Phone-write 878 886	gọi điện
+E14	Phone-write:T31 Entity-Arg:T32 Entity-Arg2:T33 Time-Arg:T34
+T32	PER 863 877	một người làng
+T33	PER 891 898	chị Liu
+T34	TIME 836 857	hồi tháng 8 năm_ngoái
+T36	PER 923 926	chị
+T37	Transport 1032 1038	trở_về
+E16	Transport:T37 Agent-Arg:T39 Destination-Arg:T38
+T38	FAC 1039 1042	nhà
+T39	PER 1016 1019	chị
+T41	PER 1066 1070	mình
+T42	Transport 1093 1096	đến
+E18	Transport:T42 Agent-Arg:T43 Time-Arg:T44 Agent-Arg2:T45
+T43	PER 1085 1092	chị Liu
+T44	TIME 1073 1082	Ngày 20/5
+T45	ORG 1097 1120	đồn cảnh_sát địa_phương
+T46	Die 1151 1155	chết
+E19	Die:T46 Victim-Arg:T47
+T47	PER 1143 1147	mình
+T48	Die 1209 1213	chết
+E20	Die:T48 Victim-Arg:T49
+T49	PER 1202 1205	tôi
+T50	Die 1333 1335	tử
+E21	Die:T50 Victim-Arg:T51
+T51	PER 1302 1305	chị
+T52	Marry 1838 1845	kết_hôn
+E22	Marry:T52 Person-Arg:T53 Person-Arg2:T54
+T53	PER 1825 1834	chồng Liu
+T54	PER 1850 1871	một phụ_nữ ở làng bên
+T55	Divorce 1994 1999	li_dị
+E23	Divorce:T55 Person-Arg:T56 Person-Arg2:T57
+T56	PER 1981 1984	chị
+T57	PER 1972 1974	Yu

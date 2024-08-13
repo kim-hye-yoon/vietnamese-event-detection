@@ -1,0 +1,26 @@
+T1	Extradite 25 31	dẫn_độ
+E1	Extradite:T1 Person-Arg:T3 Agent-Arg:T2
+T2	GPE 0 6	Canada
+T3	PER 32 55	giám_đốc Huawei sang Mỹ
+T4	Extradite 219 225	dẫn_độ
+E2	Extradite:T4 Person-Arg:T5 Agent-Arg:T6
+T5	PER 226 238	Mạnh_Vãn_Chu
+T6	ORG 116 147	Các quan_chức Bộ Tư_pháp Canada
+T7	PER 496 508	Mạnh_Vãn_Chu
+T8	Extradite 516 522	dẫn_độ
+E3	Extradite:T8 Person-Arg:T7
+T9	PER 637 752	Giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu , 47 tuổi , con_gái người sáng_lập tập_đoàn viễn_thông Huawei_Nhậm_Chính_Phi
+T10	GPE 758 764	Canada
+T11	Arrest-jail 765 768	bắt
+E4	Arrest-jail:T11 Time-Arg:T12 Agent-Arg:T10 Person-Arg:T9
+T12	TIME 769 782	hôm 1/12/2018
+T13	Release-parole 1032 1035	thả
+E5	Release-parole:T13 Person-Arg:T16 Entity-Arg:T15
+T14	GPE 996 1006	Trung_Quốc
+T15	GPE 1025 1031	Canada
+T16	PER 1036 1041	người
+T17	GPE 1114 1122	Bắc_Kinh
+T18	Arrest-jail 1126 1129	bắt
+E6	Arrest-jail:T18 Crime-Arg:T20 Agent-Arg:T17 Person-Arg:T19
+T19	PER 1130 1228	hai công_dân Canada là cựu nhân_viên ngoại_giao Canada_Michael_Kovrig và doanh_nhân Michael_Spavor
+T20	CRIME 1242 1309	" tham_gia vào những hoạt_động gây nguy_hiểm cho an_ninh quốc_gia "

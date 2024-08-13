@@ -1,0 +1,99 @@
+T1	ORG 0 10	Công_ty Mỹ
+T2	Declare-bankruptcy 16 23	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	GPE 35 45	Trung_Quốc
+T4	TIME 52 59	tháng 1
+T5	ORG 62 90	công_ty công_nghệ năng_lượng
+T6	GPE 105 118	Massachusetts
+T7	GPE 169 179	Trung_Quốc
+T8	ORG 182 189	Sinovel
+T9	ORG 202 209	Sinovel
+T11	ORG 274 297	American_Superconductor
+T12	Die 323 332	giết chết
+E2	Die:T12 Victim-Arg:T13 Agent-Arg:T14
+T13	PER 333 342	chúng_tôi
+T14	PER 317 319	họ
+T15	PER 347 364	CEO Daniel_McGahn
+T16	TIME 410 418	Năm 2007
+T17	ORG 421 444	American_Superconductor
+T18	GPE 467 477	Trung_Quốc
+T22	GPE 756 766	Trung_Quốc
+T23	GPE 793 800	châu_Âu
+T24	GPE 836 846	Trung_Quốc
+T25	GPE 856 858	Mỹ
+T26	TIME 877 889	tháng 3/2011
+T27	PER 919 925	McGahn
+T28	ORG 935 942	Sinovel
+T29	ORG 946 969	American_Superconductor
+T30	MONEY 970 982	70 triệu USD
+T35	ORG 1229 1240	Wall_Street
+T36	PER 1252 1261	chúng_tôi
+T37	Die 1265 1269	chết
+E3	Die:T37 Victim-Arg:T36
+T43	TIME 1491 1499	Năm 2011
+T44	PER 1502 1513	Karabasevic
+T45	ORG 1533 1540	Sinovel
+T46	ORG 1605 1628	American_Superconductor
+T51	PER 1775 1786	Karabasevic
+T52	Sentence 1800 1806	kết_án
+E4	Sentence:T52 Time-Arg:T53 Defendant-Arg:T51
+T53	TIME 1807 1817	một năm tù
+T55	PER 1978 1990	Karabasevica
+T56	ORG 2013 2020	Sinovel
+T57	PER 2032 2035	anh
+T58	ORG 2049 2056	Sinovel
+T59	ORG 2077 2081	AMSC
+T60	PER 2124 2127	tôi
+T61	ORG 2155 2205	Uỷ_ban Điều_tra Ăn_cắp Bản quyền_Sở_hữu Trí_tuệ Mỹ
+T62	GPE 2244 2246	Mỹ
+T63	MONEY 2255 2265	600 tỷ USD
+T64	GPE 2280 2290	Trung_Quốc
+T65	PER 2418 2446	Tổng_thống Mỹ - Donald_Trump
+T66	GPE 2525 2535	Trung_Quốc
+T67	MONEY 2548 2557	60 tỷ USD
+T68	GPE 2670 2680	Trung_Quốc
+T69	ORG 2822 2845	American_Superconductor
+T70	NUM 2848 2850	70
+T71	GPE 2873 2883	Trung_Quốc
+T72	GPE 2912 2922	Trung_Quốc
+T73	ORG 2977 2984	Sinovel
+T74	PER 2987 2993	McGahn
+T75	ORG 3003 3026	American_Superconductor
+T76	PER 3054 3063	Chúng_tôi
+T77	PER 3096 3099	ông
+T78	TIME 3245 3250	7 năm
+T79	PER 3265 3271	McGahn
+T80	ORG 3281 3304	American_Superconductor
+T81	ORG 3454 3465	Hải_quân Mỹ
+T82	ORG 3520 3527	Sinovel
+T83	TIME 3548 3556	ngày 4/6
+T84	ORG 3559 3572	Bộ Tư_pháp Mỹ
+T85	ORG 3595 3602	Sinovel
+T86	MONEY 3623 3636	900 triệu USD
+T87	ORG 3641 3664	American_Superconductor
+T88	PER 3667 3673	McGahn
+T89	GPE 3700 3710	Trung_Quốc
+T90	PER 3778 3781	Tôi
+T91	GPE 3834 3836	Mỹ
+T92	GPE 3839 3844	Trung
+T93	PER 3849 3852	ông
+T10	ORG 213 236	một toà_án liên_bang Mỹ
+T94	CRIME 245 269	ăn_cắp bí_mật thương_mại
+T95	Start-org 445 452	bắt_đầu
+E5	Start-org:T95 Org-Arg:T17 Time-Arg:T16 Place-Arg:T18
+T19	ORG 504 551	Sinovel - một doanh_nghiệp sản_xuất turbine gió
+T96	ORG 480 491	Công_ty này
+T97	Merge-org 492 499	hợp_tác
+E6	Merge-org:T97 Org-Arg:T96 Org-Arg2:T19
+T20	FAC 746 753	nhà_máy
+T21	Transfer-money 943 945	nợ
+E7	Transfer-money:T21 Recipient-Arg:T28 Giver-Arg:T29 Money-Arg:T30
+T31	End-position 1205 1212	sa_thải
+E8	End-position:T31 Person-Arg:T32
+T32	PER 1213 1224	700 nhân_sự
+T33	PER 1274 1280	McGahn
+T34	Start-org 769 771	mở
+E9	Start-org:T34 Org-Arg:T38 Place-Arg:T23
+T38	ORG 772 790	trung_tâm thiết_kế
+T39	Sentence 237 244	kết_tội
+E10	Sentence:T39 Crime-Arg:T94 Defendant-Arg:T9 Adjudicator-Arg:T10

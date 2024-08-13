@@ -1,0 +1,16 @@
+T1	Die 41 45	chết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 29 40	ba du_khách
+T3	Die 271 278	tử_vong
+E2	Die:T3 Victim-Arg:T4
+T4	PER 259 270	ba du_khách
+T5	Die 620 624	chết
+E3	Die:T5 Victim-Arg:T6
+T6	PER 629 641	các nạn_nhân
+T7	Die 1013 1020	tử_vong
+E4	Die:T7 Victim-Arg:T8 Time-Arg:T9
+T8	PER 975 1009	Hai mẹ_con cùng một bé trai 3 tuổi
+T9	TIME 840 854	Ngày 16/9/2018
+T10	Die 1204 1208	chết
+E5	Die:T10 Victim-Arg:T11
+T11	PER 1213 1224	ba nạn_nhân

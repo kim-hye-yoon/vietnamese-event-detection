@@ -1,0 +1,34 @@
+T1	Die 11 15	chết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 0 10	Công_an xã
+T3	Die 328 332	chết
+E2	Die:T3 Victim-Arg:T4
+T4	PER 277 327	một công_an_viên xã Trà_Giang ( huyện Bắc_Trà_My )
+T5	Die 596 600	chết
+E3	Die:T5 Victim-Arg:T6 Place-Arg:T7
+T6	PER 534 547	ông N.T . M .
+T7	LOC 624 671	vườn cây phía sau nhà tại thôn 4 , xã Trà_Giang
+T8	Meet 830 833	hẹn
+E4	Meet:T8 Entity-Arg:T9 Entity-Arg2:T15 Time-Arg:T10 Place-Arg:T16
+T9	PER 834 839	bà X.
+T10	TIME 812 820	Trưa 3/5
+T11	Transport 1050 1053	đưa
+E5	Transport:T11 Agent-Arg:T13 Artifact-Arg:T12 Destination-Arg:T14
+T12	PER 1054 1059	bà X.
+T13	PER 1030 1046	Một_số người_dân
+T14	FAC 1064 1073	bệnh_viện
+T15	PER 823 829	ông M.
+T16	LOC 844 889	khu_vực thuỷ_điện Nước_Oa ( thị_trấn Trà_My )
+T17	Injure 941 949	bất_động
+E6	Injure:T17 
+T18	PER 931 936	bà X.
+T19	Transfer-money 112 116	mượn
+E7	Transfer-money:T19 Recipient-Arg:T20 Money-Arg:T21 Giver-Arg:T22
+T20	PER 102 108	ông M.
+T21	MONEY 117 127	3 chỉ vàng
+T22	PER 136 154	người phụ_nữ tên X
+T23	Transfer-money 749 753	mượn
+E8	Transfer-money:T23 Money-Arg:T24 Giver-Arg:T25 Recipient-Arg:T26
+T24	MONEY 754 764	3 chỉ vàng
+T25	PER 769 792	một người phụ_nữ tên X.
+T26	PER 739 745	ông M.

@@ -1,0 +1,24 @@
+T1	Convict 40 48	tuyên_án
+E1	Convict:T1 Defendant-Arg:T2
+T2	PER 0 22	" Thủ_thư al - Qaeda "
+T3	TIME 91 100	ngày 29/5
+T4	Convict 104 112	tuyên_án
+E2	Convict:T4 Time-Arg:T3 Adjudicator-Arg:T7 Defendant-Arg:T5 Crime-Arg:T6
+T5	PER 135 157	Mudhar_Hussein_Almalki
+T6	CRIME 202 236	tội_danh tham_gia tổ_chức khủng_bố
+T7	ORG 63 90	Toà_án quốc_gia Tây_Ban_Nha
+T8	Release-parole 247 254	mãn hạn
+E3	Release-parole:T8 Person-Arg:T9
+T9	PER 275 282	Almalki
+T10	Arrest-jail 378 381	bắt
+E4	Arrest-jail:T10 Person-Arg:T12 Place-Arg:T11
+T11	LOC 386 408	Valencia , Tây_Ban_Nha
+T12	PER 334 374	Mudhar Hussein_Almalki ( người trùm áo )
+T13	Attack 895 903	khủng_bố
+E5	Attack:T13 Attacker-Arg:T14
+T14	PER 756 762	Almaki
+T15	Arrest-jail 1420 1427	bắt_giữ
+E6	Arrest-jail:T15 Agent-Arg:T16 Person-Arg:T18 Place-Arg:T17
+T16	ORG 1396 1416	cảnh_sát Tây_Ban_Nha
+T17	GPE 1440 1458	thành_phố Valencia
+T18	PER 1428 1435	Almalki

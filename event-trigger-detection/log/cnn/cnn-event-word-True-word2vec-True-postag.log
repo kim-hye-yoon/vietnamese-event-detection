@@ -1,0 +1,309 @@
+Namespace(no_train=False, train_batch_size=64, eval_batch_size=64, lr=0.0001, num_epochs=20, log_step=500, no_cuda=False, window_size=15, word_embedding_dim=300, position_embedding_dim=25, use_pretrained=True, use_postag=True, postag_embedding_dim=25, kernel_sizes=[2, 3, 4, 5], num_filters=150, dropout_rate=0.5)
+Epoch 1|20:
+Batch 1|4035: loss 3.9319 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0999 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.2196 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0258 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.1936 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0337 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.1976 f1 33.33 precision 50.00 recall 25.00
+Batch 3501|4035: loss 0.1026 f1 0.00 precision 0.00 recall 0.00
+Batch 4001|4035: loss 0.0644 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0132 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.1321 f1 11.66 precision 15.76 recall 10.30
+Time: 37.50
+Dev: loss 0.0730 f1 28.82 precision 63.79 recall 18.61
+Save model weight!
+
+Epoch 2|20:
+Batch 1|4035: loss 0.0277 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0206 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0521 f1 80.00 precision 66.67 recall 100.00
+Batch 1501|4035: loss 0.0343 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.0391 f1 80.00 precision 100.00 recall 66.67
+Batch 2501|4035: loss 0.0722 f1 66.67 precision 66.67 recall 66.67
+Batch 3001|4035: loss 0.0718 f1 50.00 precision 33.33 recall 100.00
+Batch 3501|4035: loss 0.0550 f1 66.67 precision 50.00 recall 100.00
+Batch 4001|4035: loss 0.1133 f1 66.67 precision 100.00 recall 50.00
+Batch 4035|4035: loss 0.0242 f1 66.67 precision 100.00 recall 50.00
+Train: loss 0.0688 f1 32.69 precision 40.01 recall 30.48
+Time: 37.28
+Dev: loss 0.0582 f1 48.83 precision 60.55 recall 40.92
+Save model weight!
+
+Epoch 3|20:
+Batch 1|4035: loss 0.0255 f1 66.67 precision 100.00 recall 50.00
+Batch 501|4035: loss 0.0228 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0133 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0096 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0403 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0340 f1 85.71 precision 100.00 recall 75.00
+Batch 3001|4035: loss 0.0486 f1 40.00 precision 50.00 recall 33.33
+Batch 3501|4035: loss 0.0341 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0149 f1 100.00 precision 100.00 recall 100.00
+Batch 4035|4035: loss 0.1063 f1 66.67 precision 100.00 recall 50.00
+Train: loss 0.0530 f1 41.80 precision 48.65 recall 40.00
+Time: 37.84
+Dev: loss 0.0566 f1 49.13 precision 62.91 recall 40.30
+Save model weight!
+
+Epoch 4|20:
+Batch 1|4035: loss 0.0089 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.1091 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0332 f1 66.67 precision 50.00 recall 100.00
+Batch 1501|4035: loss 0.0077 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0038 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0163 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.0751 f1 88.89 precision 100.00 recall 80.00
+Batch 3501|4035: loss 0.1422 f1 0.00 precision 0.00 recall 0.00
+Batch 4001|4035: loss 0.1401 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.1036 f1 66.67 precision 100.00 recall 50.00
+Train: loss 0.0432 f1 47.36 precision 53.58 recall 45.85
+Time: 38.23
+Dev: loss 0.0571 f1 47.99 precision 61.36 recall 39.41
+
+Epoch 5|20:
+Batch 1|4035: loss 0.0329 f1 50.00 precision 100.00 recall 33.33
+Batch 501|4035: loss 0.0080 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0553 f1 50.00 precision 100.00 recall 33.33
+Batch 1501|4035: loss 0.0242 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0155 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0055 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.0502 f1 50.00 precision 33.33 recall 100.00
+Batch 3501|4035: loss 0.0093 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0158 f1 100.00 precision 100.00 recall 100.00
+Batch 4035|4035: loss 0.0199 f1 0.00 precision 0.00 recall 0.00
+Train: loss 0.0363 f1 51.33 precision 57.05 recall 49.99
+Time: 39.49
+Dev: loss 0.0559 f1 53.17 precision 61.87 recall 46.62
+Save model weight!
+
+Epoch 6|20:
+Batch 1|4035: loss 0.0326 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0219 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0044 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0413 f1 80.00 precision 100.00 recall 66.67
+Batch 2001|4035: loss 0.0223 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0303 f1 66.67 precision 100.00 recall 50.00
+Batch 3001|4035: loss 0.1189 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.1114 f1 0.00 precision 0.00 recall 0.00
+Batch 4001|4035: loss 0.0402 f1 80.00 precision 66.67 recall 100.00
+Batch 4035|4035: loss 0.0081 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.0312 f1 54.06 precision 58.76 recall 53.18
+Time: 38.80
+Dev: loss 0.0556 f1 52.14 precision 61.46 recall 45.28
+
+Epoch 7|20:
+Batch 1|4035: loss 0.0037 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0179 f1 80.00 precision 100.00 recall 66.67
+Batch 1001|4035: loss 0.0312 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0080 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0033 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0634 f1 40.00 precision 100.00 recall 25.00
+Batch 3001|4035: loss 0.0216 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0118 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0258 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0078 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.0267 f1 58.51 precision 62.61 recall 57.93
+Time: 38.64
+Dev: loss 0.0576 f1 53.21 precision 60.56 recall 47.46
+Save model weight!
+
+Epoch 8|20:
+Batch 1|4035: loss 0.0017 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0380 f1 75.00 precision 100.00 recall 60.00
+Batch 1001|4035: loss 0.0173 f1 66.67 precision 100.00 recall 50.00
+Batch 1501|4035: loss 0.0399 f1 80.00 precision 66.67 recall 100.00
+Batch 2001|4035: loss 0.0723 f1 66.67 precision 66.67 recall 66.67
+Batch 2501|4035: loss 0.0226 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0734 f1 75.00 precision 100.00 recall 60.00
+Batch 3501|4035: loss 0.1052 f1 0.00 precision 0.00 recall 0.00
+Batch 4001|4035: loss 0.0024 f1 100.00 precision 100.00 recall 100.00
+Batch 4035|4035: loss 0.0068 f1 0.00 precision 0.00 recall 0.00
+Train: loss 0.0231 f1 61.70 precision 65.30 recall 61.21
+Time: 38.75
+Dev: loss 0.0591 f1 54.97 precision 59.88 recall 50.81
+Save model weight!
+
+Epoch 9|20:
+Batch 1|4035: loss 0.0046 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0062 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0758 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0163 f1 66.67 precision 100.00 recall 50.00
+Batch 2001|4035: loss 0.0052 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0349 f1 80.00 precision 100.00 recall 66.67
+Batch 3001|4035: loss 0.0011 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0029 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0384 f1 85.71 precision 100.00 recall 75.00
+Batch 4035|4035: loss 0.0491 f1 66.67 precision 66.67 recall 66.67
+Train: loss 0.0212 f1 63.41 precision 66.51 recall 63.31
+Time: 38.72
+Dev: loss 0.0623 f1 54.58 precision 61.65 recall 48.97
+
+Epoch 10|20:
+Batch 1|4035: loss 0.0120 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0010 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0256 f1 80.00 precision 100.00 recall 66.67
+Batch 1501|4035: loss 0.0028 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0609 f1 85.71 precision 75.00 recall 100.00
+Batch 2501|4035: loss 0.0056 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0035 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0058 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0462 f1 66.67 precision 50.00 recall 100.00
+Batch 4035|4035: loss 0.1124 f1 66.67 precision 100.00 recall 50.00
+Train: loss 0.0188 f1 65.33 precision 68.21 recall 65.21
+Time: 38.72
+Dev: loss 0.0658 f1 54.53 precision 60.59 recall 49.58
+
+Epoch 11|20:
+Batch 1|4035: loss 0.0052 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0054 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0548 f1 80.00 precision 66.67 recall 100.00
+Batch 1501|4035: loss 0.0008 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0033 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0123 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0028 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0333 f1 88.89 precision 80.00 recall 100.00
+Batch 4001|4035: loss 0.0240 f1 66.67 precision 100.00 recall 50.00
+Batch 4035|4035: loss 0.0034 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.0175 f1 66.69 precision 69.29 recall 66.59
+Time: 38.77
+Dev: loss 0.0662 f1 53.94 precision 61.27 recall 48.18
+
+Epoch 12|20:
+Batch 1|4035: loss 0.0024 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0239 f1 85.71 precision 75.00 recall 100.00
+Batch 1001|4035: loss 0.0326 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0011 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.0038 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0222 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.0050 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0024 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0466 f1 80.00 precision 66.67 recall 100.00
+Batch 4035|4035: loss 0.0033 f1 0.00 precision 0.00 recall 0.00
+Train: loss 0.0166 f1 67.94 precision 70.21 recall 68.14
+Time: 38.76
+Dev: loss 0.0671 f1 53.87 precision 60.89 recall 48.30
+
+Epoch 13|20:
+Batch 1|4035: loss 0.0123 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0180 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0321 f1 66.67 precision 100.00 recall 50.00
+Batch 1501|4035: loss 0.0005 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0013 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0014 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0002 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0091 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0002 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0186 f1 66.67 precision 50.00 recall 100.00
+Train: loss 0.0156 f1 68.14 precision 70.08 recall 68.50
+Time: 38.74
+Dev: loss 0.0677 f1 54.65 precision 59.05 recall 50.87
+
+Epoch 14|20:
+Batch 1|4035: loss 0.0027 f1 0.00 precision 0.00 recall 0.00
+Batch 501|4035: loss 0.0014 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0352 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0048 f1 100.00 precision 100.00 recall 100.00
+Batch 2001|4035: loss 0.0014 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0067 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.1103 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0028 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0100 f1 100.00 precision 100.00 recall 100.00
+Batch 4035|4035: loss 0.0301 f1 0.00 precision 0.00 recall 0.00
+Train: loss 0.0142 f1 69.40 precision 71.31 recall 69.55
+Time: 38.76
+Dev: loss 0.0714 f1 53.00 precision 60.83 recall 46.95
+
+Epoch 15|20:
+Batch 1|4035: loss 0.0028 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0009 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0037 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0370 f1 88.89 precision 100.00 recall 80.00
+Batch 2001|4035: loss 0.0004 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0021 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0007 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0003 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0519 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0224 f1 66.67 precision 100.00 recall 50.00
+Train: loss 0.0138 f1 69.15 precision 70.81 recall 69.54
+Time: 38.83
+Dev: loss 0.0745 f1 52.97 precision 59.76 recall 47.57
+
+Epoch 16|20:
+Batch 1|4035: loss 0.0007 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0039 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0115 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0001 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.0018 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0022 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0598 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0690 f1 66.67 precision 100.00 recall 50.00
+Batch 4001|4035: loss 0.0117 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0142 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.0130 f1 70.78 precision 72.32 recall 71.08
+Time: 38.79
+Dev: loss 0.0770 f1 52.55 precision 60.69 recall 46.34
+
+Epoch 17|20:
+Batch 1|4035: loss 0.0009 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0095 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0037 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0023 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.0787 f1 0.00 precision 0.00 recall 0.00
+Batch 2501|4035: loss 0.0077 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0011 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0058 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0705 f1 80.00 precision 100.00 recall 66.67
+Batch 4035|4035: loss 0.0001 f1 0.00 precision 0.00 recall 0.00
+Train: loss 0.0133 f1 70.35 precision 71.76 recall 70.83
+Time: 38.88
+Dev: loss 0.0767 f1 53.93 precision 61.06 recall 48.30
+
+Epoch 18|20:
+Batch 1|4035: loss 0.0086 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0906 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0016 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0145 f1 85.71 precision 100.00 recall 75.00
+Batch 2001|4035: loss 0.0060 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0016 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.0008 f1 0.00 precision 0.00 recall 0.00
+Batch 3501|4035: loss 0.0194 f1 85.71 precision 75.00 recall 100.00
+Batch 4001|4035: loss 0.0035 f1 100.00 precision 100.00 recall 100.00
+Batch 4035|4035: loss 0.0247 f1 88.89 precision 100.00 recall 80.00
+Train: loss 0.0127 f1 70.82 precision 72.43 recall 71.07
+Time: 38.85
+Dev: loss 0.0768 f1 54.59 precision 61.07 recall 49.36
+
+Epoch 19|20:
+Batch 1|4035: loss 0.0166 f1 80.00 precision 66.67 recall 100.00
+Batch 501|4035: loss 0.0044 f1 100.00 precision 100.00 recall 100.00
+Batch 1001|4035: loss 0.0002 f1 0.00 precision 0.00 recall 0.00
+Batch 1501|4035: loss 0.0010 f1 0.00 precision 0.00 recall 0.00
+Batch 2001|4035: loss 0.0070 f1 100.00 precision 100.00 recall 100.00
+Batch 2501|4035: loss 0.0001 f1 0.00 precision 0.00 recall 0.00
+Batch 3001|4035: loss 0.0003 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0465 f1 80.00 precision 66.67 recall 100.00
+Batch 4001|4035: loss 0.0743 f1 80.00 precision 66.67 recall 100.00
+Batch 4035|4035: loss 0.0190 f1 80.00 precision 100.00 recall 66.67
+Train: loss 0.0126 f1 71.14 precision 72.47 recall 71.60
+Time: 38.89
+Dev: loss 0.0792 f1 53.24 precision 60.91 recall 47.29
+
+Epoch 20|20:
+Batch 1|4035: loss 0.0035 f1 100.00 precision 100.00 recall 100.00
+Batch 501|4035: loss 0.0006 f1 0.00 precision 0.00 recall 0.00
+Batch 1001|4035: loss 0.0030 f1 100.00 precision 100.00 recall 100.00
+Batch 1501|4035: loss 0.0747 f1 66.67 precision 100.00 recall 50.00
+Batch 2001|4035: loss 0.0168 f1 85.71 precision 75.00 recall 100.00
+Batch 2501|4035: loss 0.0097 f1 100.00 precision 100.00 recall 100.00
+Batch 3001|4035: loss 0.0068 f1 100.00 precision 100.00 recall 100.00
+Batch 3501|4035: loss 0.0063 f1 100.00 precision 100.00 recall 100.00
+Batch 4001|4035: loss 0.0004 f1 0.00 precision 0.00 recall 0.00
+Batch 4035|4035: loss 0.0015 f1 100.00 precision 100.00 recall 100.00
+Train: loss 0.0113 f1 72.15 precision 73.39 recall 72.48
+Time: 38.87
+Dev: loss 0.0799 f1 54.93 precision 60.09 recall 50.59
+
+Restore best model !
+Test: f1 55.65 precision 61.32 recall 50.93

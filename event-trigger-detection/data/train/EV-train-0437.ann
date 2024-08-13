@@ -1,0 +1,8 @@
+T1	ORG 2036 2047	một công_ty
+T2	End-org 2048 2053	vỡ_nợ
+E1	End-org:T2 Org-Arg:T1
+T3	ORG 3516 3536	Ngân_hàng trung_ương
+T4	Transfer-money 3537 3544	cho vay
+E2	Transfer-money:T4 Money-Arg:T5 Giver-Arg:T3 Recipient-Arg:T6
+T5	MONEY 3545 3572	1.000 tỷ NDT ( 162 tỷ USD )
+T6	ORG 3577 3608	Ngân_hàng Phát_triển Trung_Quốc

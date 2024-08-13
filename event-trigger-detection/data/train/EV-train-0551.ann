@@ -1,0 +1,27 @@
+T1	End-position 39 48	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 35	Phó chủ_tịch Thanh_Hoá Ngô_Văn_Tuấn
+T3	Meet 76 84	cuộc họp
+E2	Meet:T3 Entity-Arg:T6 Entity-Arg2:T4 Time-Arg:T5
+T4	ORG 89 103	tỉnh Thanh Hoá
+T5	TIME 104 112	năm 2016
+T6	PER 51 67	Ông Ngô_Văn_Tuấn
+T7	End-position 172 181	cách_chức
+E3	End-position:T7 Position-Arg:T8 Person-Arg:T9
+T8	JOB 182 235	Phó chủ_tịch UBND tỉnh Thanh_Hoá , nhiệm_kỳ 2016-2021
+T9	PER 244 260	ông Ngô_Văn_Tuấn
+T10	Nominate 1182 1190	bổ_nhiệm
+E4	Nominate:T10 Position-Arg:T11 Person-Arg:T12
+T11	JOB 1195 1226	Phó trưởng_phòng , Trưởng_phòng
+T12	PER 1061 1081	bà Trần_Vũ_Quỳnh_Anh
+T13	Nominate 1369 1377	bổ_nhiệm
+E5	Nominate:T13 
+T14	Nominate 1467 1475	bổ_nhiệm
+E6	Nominate:T14 Position-Arg:T15
+T15	JOB 1476 1513	nhiều trưởng_phòng , phó trưởng_phòng
+T16	End-position 1824 1828	cách
+E7	End-position:T16 Position-Arg:T17 Person-Arg:T18 Entity-Arg:T19 Time-Arg:T20
+T17	JOB 1829 1854	tất_cả chức_vụ trong Đảng
+T18	PER 1859 1875	ông Ngô_Văn_Tuấn
+T19	ORG 1802 1812	Ban_bí_thư
+T20	TIME 1784 1799	Ngày 17/12/2017

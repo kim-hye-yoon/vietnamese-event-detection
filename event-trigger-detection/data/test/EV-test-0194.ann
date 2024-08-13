@@ -1,0 +1,8 @@
+T1	Divorce 36 42	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 10	Jeff Bezos
+T3	Divorce 351 357	ly_hôn
+E2	Divorce:T3 Person-Arg:T4 Person-Arg2:T5 Time-Arg:T6
+T4	PER 358 366	người vợ
+T5	PER 320 325	Bezos
+T6	TIME 381 388	hôm 9/1

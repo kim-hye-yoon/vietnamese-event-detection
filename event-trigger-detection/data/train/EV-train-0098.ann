@@ -1,0 +1,125 @@
+T1	Attack 36 44	tấn_công
+E1	Attack:T1 Attacker-Arg:T2 Place-Arg:T3
+T2	PER 30 35	Trump
+T3	FAC 45 57	căn_cứ Syria
+T4	Attack 674 682	tấn_công
+E2	Attack:T4 Place-Arg:T5 Instrument-Arg:T50
+T5	LOC 693 733	thị_trấn Khan_Sheikhoun , phía bắc Syria
+T6	Attack 1363 1371	tấn_công
+E3	Attack:T6 Place-Arg:T7 Instrument-Arg:T45
+T7	LOC 1382 1387	Syria
+T8	Meet 2031 2040	thảo_luận
+E4	Meet:T8 Entity-Arg:T10 Entity-Arg2:T9
+T9	ORG 1976 1985	Nhà_Trắng
+T10	ORG 1989 2000	Lầu_Năm_Góc
+T11	Attack 4180 4188	tấn_công
+E5	Attack:T11 Place-Arg:T14 Instrument-Arg:T13 Attacker-Arg:T12
+T12	ORG 4153 4165	Chiến_hạm Mỹ
+T13	WEA 4172 4179	tên_lửa
+T14	LOC 4189 4201	căn_cứ Syria
+T15	Phone-write 4542 4550	gọi điện
+E6	Phone-write:T15 Entity-Arg:T16 Entity-Arg2:T84 Time-Arg:T85
+T16	PER 4398 4512	Phó tổng_thống Mike_Pence , Ngoại_trưởng Tillerson , Bộ_trưởng Quốc_phòng Mattis , Cố_vấn An_ninh Quốc_gia McMaste
+T17	Meet 508 516	cuộc họp
+E7	Meet:T17 Time-Arg:T21 Time-Arg2:T93
+T18	Meet 1882 1890	cuộc họp
+E8	Meet:T18 Entity-Arg:T20 Entity-Arg2:T19
+T19	PER 1769 1791	các đội_ngũ liên_ngành
+T20	PER 1811 1824	Tổng_thống Mỹ
+T22	Meet 2327 2334	họp_báo
+E10	Meet:T22 Entity-Arg:T23 Entity-Arg2:T24 Time-Arg:T25
+T23	PER 2345 2367	Vua_Jordan_Abdullah II
+T24	PER 2280 2306	Tổng_thống Mỹ Donald_Trump
+T25	TIME 2368 2376	ngày 5/4
+T21	TIME 550 555	10h30
+T26	Attack 615 623	tấn_công
+E9	Attack:T26 Place-Arg:T27 Instrument-Arg:T43
+T27	GPE 597 611	thị_trấn Syria
+T28	PER 746 754	80 người
+T29	Die 755 765	thiệt_mạng
+E11	Die:T29 Victim-Arg:T28
+T30	PER 771 780	400 người
+T31	Injure 781 790	bị_thương
+E12	Injure:T31 Victim-Arg:T30
+T32	Meet 2403 2412	thảo_luận
+E13	Meet:T32 Time-Arg:T33
+T33	TIME 2437 2454	sáng và chiều 5/4
+T34	Attack 2708 2719	vụ tấn_công
+E14	Attack:T34 Place-Arg:T35 Instrument-Arg:T55
+T35	GPE 2730 2735	Syria
+T36	Meet 2599 2611	cuộc họp_báo
+E15	Meet:T36 Place-Arg:T37 Time-Arg:T38 Entity-Arg:T53 Entity-Arg2:T54
+T37	GPE 2622 2631	Nhà_Trắng
+T38	TIME 2632 2647	chiều cùng ngày
+T39	PER 3329 3345	Tổng_thống Trump
+T40	Transport 3460 3463	tới
+E16	Transport:T40 Artifact-Arg:T39 Destination-Arg:T41
+T41	GPE 3464 3489	Palm_Beach , bang Florida
+T42	Meet 441 450	thảo_luận
+E17	Meet:T42 
+T43	WEA 624 631	hoá_học
+T44	Attack 933 941	tấn_công
+E18	Attack:T44 
+T45	WEA 1372 1379	hoá_học
+T46	Attack 1466 1474	tấn_công
+E19	Attack:T46 Instrument-Arg:T47 Time-Arg:T48 Place-Arg:T49
+T47	WEA 1475 1482	hoá_học
+T48	TIME 1483 1490	hôm_nay
+T49	GPE 1493 1498	Syria
+T50	WEA 683 690	hoá_học
+T51	Phone-write 2168 2176	liên_lạc
+E20	Phone-write:T51 Entity-Arg:T52
+T52	PER 2146 2154	McMaster
+T53	PER 2650 2669	Tổng_thống Mỹ_Trump
+T54	PER 2673 2695	Vua_Jordan_Abdullah II
+T55	WEA 2720 2727	hoá_học
+T56	Attack 3279 3287	tấn_công
+E21	Attack:T56 Instrument-Arg:T57 Target-Arg:T58
+T57	VEH 3288 3295	tên_lửa
+T58	FAC 3296 3308	căn_cứ Syria
+T59	TIME 3414 3439	vào_khoảng 13h30 ngày 6/4
+T60	Meet 3350 3359	triệu_tập
+E22	Meet:T60 Entity-Arg:T61 Entity-Arg2:T39 Place-Arg:T62 Time-Arg:T59
+T61	PER 3360 3384	đội_ngũ an_ninh quốc_gia
+T62	FAC 3390 3413	chuyên_cơ Air_Force_One
+T63	Meet 3495 3503	tiếp_đón
+E23	Meet:T63 Entity-Arg:T64 Place-Arg:T65 Entity-Arg2:T39
+T64	PER 3504 3536	Chủ_tịch Trung_Quốc Tập_Cận_Bình
+T65	LOC 3541 3570	khu nghỉ_dưỡng Mar - a - Lago
+T66	Phone-write 3652 3660	cuộc_gọi
+E24	Phone-write:T66 Entity-Arg:T67 Entity-Arg2:T68
+T67	PER 3636 3646	Tổng_thống
+T68	PER 3573 3583	Các cố_vấn
+T69	Meet 3610 3618	buổi họp
+E25	Meet:T69 
+T70	Meet 3870 3873	họp
+E26	Meet:T70 Entity-Arg:T72 Entity-Arg2:T77 Entity-Arg3:T74 Entity-Arg4:T75 Entity-Arg5:T76 Time-Arg:T73 Place-Arg:T71
+T71	FAC 3878 3938	một căn phòng riêng được bảo_vệ nghiêm_ngặt ở Mar - a - Lago
+T72	PER 3844 3860	những người khác
+T73	TIME 3697 3707	Khoảng 16h
+T74	PER 3728 3744	Tổng_thống Trump
+T75	PER 3747 3773	Ngoại_trưởng Rex_Tillerson
+T76	PER 3776 3803	Bộ_trưởng Quốc_phòng Mattis
+T77	PER 3806 3838	Cố_vấn An_ninh Quốc_gia McMaster
+T78	Attack 4071 4076	phóng
+E27	Attack:T78 Place-Arg:T80 Instrument-Arg:T79 Time-Arg:T82
+T79	WEA 4077 4107	59 tên_lửa hành_trình Tomahawk
+T80	FAC 4117 4150	các mục_tiêu thuộc căn_cứ Shayrat
+T81	VEH 4020 4069	hai tàu USS Ross và USS Poter ở đông Địa_Trung_Hả
+T82	TIME 3990 4017	Vào_khoảng 19h40 ( giờ Mỹ )
+T83	Attack 4166 4171	phóng
+E28	Attack:T83 Instrument-Arg:T13
+T84	PER 4575 4626	các lãnh_đạo thế_giới cùng một_số lãnh_đạo quốc_hội
+T85	TIME 4387 4395	Cùng lúc
+T86	Attack 4683 4691	tấn_công
+E29	Attack:T86 Instrument-Arg:T87
+T87	WEA 4697 4704	tên_lửa
+T88	Attack 4925 4933	tấn_công
+E30	Attack:T88 
+T89	Attack 5317 5325	tấn_công
+E31	Attack:T89 
+T90	GPE 5363 5365	Mỹ
+T91	Attack 5366 5374	tấn_công
+E32	Attack:T91 Attacker-Arg:T90 Target-Arg:T92
+T92	FAC 5328 5351	Căn_cứ không_quân Syria
+T93	TIME 493 501	ngày 4/4

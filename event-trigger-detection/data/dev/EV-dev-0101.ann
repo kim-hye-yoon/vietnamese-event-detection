@@ -1,0 +1,43 @@
+T1	ORG 0 28	Hãng bán_lẻ từng lớn nhất Mỹ
+T2	Declare-bankruptcy 37 44	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T6	Declare-bankruptcy 115 122	phá_sản
+E2	Declare-bankruptcy:T6 Org-Arg:T3
+T7	ORG 127 141	Toà_án Phá_sản
+T8	GPE 144 152	New_York
+T9	GPE 155 157	Mỹ
+T12	ORG 390 396	toà_án
+T13	ORG 399 404	Sears
+T14	MONEY 413 423	6,9 tỷ USD
+T15	MONEY 435 446	11,3 tỷ USD
+T33	ORG 1217 1222	Sears
+T34	TIME 1223 1231	năm 2005
+T36	PER 1286 1289	ông
+T37	MONEY 1345 1353	1 tỷ USD
+T39	Declare-bankruptcy 1458 1465	phá_sản
+E3	Declare-bankruptcy:T39 Org-Arg:T38
+T38	ORG 1412 1433	Công_ty_con của Sears
+T42	ORG 1537 1542	Sears
+T43	TIME 1558 1566	năm 1886
+T44	Start-org 1548 1557	thành_lập
+E4	Start-org:T44 Org-Arg:T42 Agent-Arg:T45 Time-Arg:T43
+T45	PER 1571 1584	Richard_Sears
+T46	ORG 1660 1665	Sears
+T47	TIME 1687 1695	năm 1925
+T52	TIME 1806 1814	năm 1973
+T16	PER 1079 1144	CEO Sears - Eddie_Lampert - cổ_đông lớn nhất của chuỗi bán_lẻ này
+T17	PER 1194 1197	ông
+T18	Transfer-ownership 1209 1212	mua
+E6	Transfer-ownership:T18 Buyer-Arg:T19 Time-Arg:T34
+T19	ORG 1203 1208	Kmart
+T20	End-org 1298 1302	đóng
+E7	End-org:T20 Org-Arg:T21
+T21	ORG 1303 1321	hàng trăm cửa_hàng
+T22	Start-org 1666 1668	mở
+E8	Start-org:T22 Agent-Arg:T46 Time-Arg:T47
+T24	FAC 1717 1794	Sears_Tower tại đây ( hiện có tên Willis_Tower ) là toà nhà cao nhất thế_giới
+T23	Start-org 1799 1805	mở_cửa
+E9	Start-org:T23 Time-Arg:T52
+T3	ORG 47 91	Sears_Holdings - hãng bán_lẻ 125 tuổi của Mỹ
+T4	Transfer-money 455 458	trả
+E5	Transfer-money:T4 Giver-Arg:T13 Money-Arg:T15 Money-Arg2:T14

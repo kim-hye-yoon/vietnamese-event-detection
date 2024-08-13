@@ -1,0 +1,18 @@
+T1	ORG 0 3	GBS
+T2	End-position 7 15	bãi miễn
+E1	End-position:T2 Entity-Arg:T1 Person-Arg:T3
+T3	PER 16 46	2 thành_viên Hội_đồng_quản_trị
+T4	Meet 369 372	họp
+E2	Meet:T4 Time-Arg:T5 Entity-Arg:T6
+T5	TIME 376 381	14h00
+T6	PER 382 392	ngày 25/10
+T7	Meet 412 415	họp
+E3	Meet:T7 
+T8	LOC 419 464	số 4 , Liễu_Giai , Cống_Vị , Ba_Đình , Hà_Nội
+T9	Meet 476 479	họp
+E4	Meet:T9 Entity-Arg:T13
+T10	End-position 588 596	bãi miễn
+E5	End-position:T10 Position-Arg:T11 Person-Arg:T12
+T11	JOB 597 633	chức_vụ thành_viên Hội_đồng_quản_trị
+T12	PER 642 682	bà Nguyễn_Thị_Luyến và ông Đào_Hữu_Thành
+T13	ORG 516 566	Công_ty_cổ_phần chứng_khoán Golden_Bridge Việt_Nam

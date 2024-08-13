@@ -1,0 +1,13 @@
+T1	ORG 0 16	Thuỷ_sản Camimex
+T2	Start-org 25 27	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 28 39	công_ty_con
+T4	Start-org 237 239	mở
+E2	Start-org:T4 Agent-Arg:T6 Org-Arg:T5
+T5	ORG 245 291	Công_ty TNHH Thuỷ_sản Camimex ( Camimex_Corp )
+T6	PER 42 85	Ông Bùi_Sĩ_Tuấn , Chủ_tịch Hội_đồng_quản_tr
+T7	ORG 904 911	Caminex
+T8	Nominate 923 925	cử
+E3	Nominate:T8 Agent-Arg:T7 Person-Arg:T9 Position-Arg:T10
+T9	PER 928 974	ông Bùi_Sĩ_Tuấn , Vũ_Ngọc_Lễ và Nguyễn_An_Ninh
+T10	JOB 979 1082	người đại_diện phần vốn theo uỷ_quyền và thành_viên Hội_đồng_quản_trị tại Công_ty TNHH thuỷ_sản Camimex

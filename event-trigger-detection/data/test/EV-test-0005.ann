@@ -1,0 +1,36 @@
+T1	Declare-bankruptcy 29 36	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 12 20	Ngô_Kinh
+T3	Transfer-money 229 232	thu
+E2	Transfer-money:T3 Money-Arg:T4
+T4	MONEY 236 276	hơn 1,1 tỷ Nhân_dân_tệ ( 163 triệu USD )
+T5	Transfer-money 520 526	đầu_tư
+E3	Transfer-money:T5 Money-Arg:T6
+T6	MONEY 527 567	150 triệu Nhân_dân_tệ ( 22,3 triệu USD )
+T7	Transfer-money 588 591	góp
+E4	Transfer-money:T7 Giver-Arg:T8 Money-Arg:T9
+T8	PER 579 587	Ngô_Kinh
+T9	MONEY 596 607	80 triệu tệ
+T10	Transfer-ownership 633 639	cầm_cố
+E5	Transfer-ownership:T10 Seller-Arg:T11 Artifact-Arg:T12
+T11	PER 629 632	anh
+T12	ORG 643 660	biệt_thự của mình
+T13	Marry 787 791	cưới
+E6	Marry:T13 Person-Arg:T14 Person-Arg2:T15
+T14	PER 767 769	Em
+T15	PER 792 795	anh
+T16	Marry 894 902	đám_cưới
+E7	Marry:T16 Person-Arg:T18 Time-Arg:T17
+T17	TIME 907 919	tháng 5/2014
+T18	PER 876 885	Hai người
+T19	Marry 947 956	ngày cưới
+E8	Marry:T19 Person-Arg:T21 Time-Arg:T20
+T20	TIME 957 965	năm 2014
+T21	PER 921 929	Ngô_Kinh
+T22	Marry 968 977	Ngày cưới
+E9	Marry:T22 Person-Arg:T23 Person-Arg2:T24
+T23	PER 980 988	Ngô_Kinh
+T24	PER 1009 1015	Tạ_Nam
+T25	Die 1471 1475	chết
+E10	Die:T25 Victim-Arg:T26
+T26	PER 1445 1451	Tài_tử

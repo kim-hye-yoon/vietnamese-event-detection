@@ -1,0 +1,40 @@
+T1	Marry 447 454	kết_hôn
+E1	Marry:T1 Person-Arg:T2 Person-Arg2:T3 Time-Arg:T4
+T2	PER 422 425	Tôi
+T3	PER 429 431	vợ
+T4	TIME 455 467	được 6 tháng
+T5	Marry 643 650	kết_hôn
+E2	Marry:T5 Person-Arg:T6 Person-Arg2:T7
+T6	PER 622 625	Tôi
+T7	PER 629 631	vợ
+T8	Marry 1147 1151	cưới
+E3	Marry:T8 
+T9	Transport 1330 1332	về
+E4	Transport:T9 Agent-Arg:T10 Destination-Arg:T11
+T10	PER 1327 1329	em
+T11	LOC 1333 1336	nhà
+T12	Phone-write 1816 1824	nhắn_tin
+E5	Phone-write:T12 Entity-Arg:T13 Entity-Arg2:T14
+T13	PER 1806 1812	vợ tôi
+T14	PER 1829 1839	người khác
+T15	Transfer-ownership 2329 2332	mua
+E6	Transfer-ownership:T15 Buyer-Arg:T20 Beneficiary-Arg:T19
+T16	Transfer-ownership 2255 2259	tặng
+E7	Transfer-ownership:T16 Beneficiary-Arg:T17 Seller-Arg:T18
+T17	PER 2228 2230	vợ
+T18	PER 2251 2254	tôi
+T19	PER 2262 2264	vợ
+T20	PER 2293 2296	tôi
+T21	Transport 2977 2979	đi
+E8	Transport:T21 Agent-Arg:T23
+T22	Transport 3096 3098	đi
+E9	Transport:T22 Agent-Arg:T24
+T23	PER 2935 2943	vợ_chồng
+T24	PER 3092 3095	Tôi
+T25	Phone-write 3996 4000	viết
+E10	Phone-write:T25 Entity-Arg:T26
+T26	PER 4016 4019	tôi
+T27	Phone-write 4362 4370	gọi điện
+E11	Phone-write:T27 Entity-Arg:T28 Entity-Arg2:T29
+T28	PER 4354 4361	Độc_giả
+T29	PER 4382 4395	biên_tập_viên

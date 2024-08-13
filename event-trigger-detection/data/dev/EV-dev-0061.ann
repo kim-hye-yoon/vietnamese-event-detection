@@ -1,0 +1,17 @@
+T1	PER 0 20	Giám_đốc Sở Ngoại_vụ
+T2	Elect 21 29	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 39 61	Phó chủ_tịch Quảng_Trị
+T4	PER 64 77	Ông Hoàng_Nam
+T5	Elect 87 95	được bầu
+E2	Elect:T5 Position-Arg:T6 Person-Arg:T4
+T6	JOB 105 156	Phó chủ_tịch UBND tỉnh Quảng_Trị nhiệm_kỳ 2016-2012
+T7	Elect 257 260	bầu
+E3	Elect:T7 Position-Arg:T10 Entity-Arg:T9 Time-Arg:T8
+T8	TIME 175 185	Sáng  6/12
+T9	ORG 195 214	HĐND tỉnh Quảng_Trị
+T10	JOB 261 302	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T11	PER 315 351	ông Hoàng_Nam - Giám_đốc Sở Ngoại_Vụ
+T12	Elect 352 360	được bầu
+E4	Elect:T12 Position-Arg:T13 Person-Arg:T11
+T13	JOB 375 407	Phó chủ_tịch UBND tỉnh Quảng_Trị

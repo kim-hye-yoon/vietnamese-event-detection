@@ -1,0 +1,83 @@
+T1	PER 210 222	Hơn 80 người
+T2	Die 226 236	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1 Time-Arg:T3
+T3	TIME 293 300	hôm 4/4
+T4	PER 512 523	nhiều người
+T5	Transport 527 531	chạy
+E2	Transport:T5 Origin-Arg:T6 Artifact-Arg:T4
+T6	LOC 537 540	đây
+T7	PER 809 832	người em họ và người cô
+T8	Die 836 846	thiệt_mạng
+E3	Die:T8 Victim-Arg:T7
+T9	Transport 1014 1017	dìu
+E4	Transport:T9 Artifact-Arg:T10 Destination-Arg:T11
+T10	PER 1018 1026	người cô
+T11	LOC 1031 1040	cầu_thang
+T12	PER 1197 1199	Cô
+T13	Transport 1203 1206	đưa
+E5	Transport:T13 Agent-Arg:T12 Artifact-Arg:T14 Destination-Arg:T15
+T14	PER 1207 1226	người em họ 17 tuổi
+T15	LOC 1231 1240	phòng tắm
+T16	PER 1369 1415	25 người trong đại_gia_đình của cô_gái 24 tuổi
+T17	Die 1419 1429	thiệt_mạng
+E6	Die:T17 Victim-Arg:T16
+T18	PER 1803 1821	Mẹ và ba em của cô
+T19	Transport 1844 1853	vượt biển
+E7	Transport:T19 Origin-Arg:T20 Destination-Arg:T21 Artifact-Arg:T18
+T20	GPE 1857 1867	Thổ_Nhĩ_Kỳ
+T21	GPE 1873 1876	Đức
+T22	PER 2766 2796	Những người anh_em họ của Alaa
+T23	Die 2800 2804	chết
+E8	Die:T23 Agent-Arg:T22 Place-Arg:T24
+T24	LOC 2809 2821	một sân bóng
+T25	PER 3204 3210	ông ấy
+T26	Transport 3214 3217	đến
+E9	Transport:T26 Agent-Arg:T25
+T27	ORG 3502 3520	quân_đội chính_phủ
+T28	Attack 3531 3541	không_kích
+E10	Attack:T28 Attacker-Arg:T27
+T29	PER 3779 3782	ông
+T30	Transport 3786 3790	chạy
+E11	Transport:T30 Agent-Arg:T29 Destination-Arg:T31
+T31	LOC 3795 3802	mái nhà
+T32	PER 3945 3954	mọi người
+T33	Transport 3955 3958	lên
+E12	Transport:T33 Agent-Arg:T32 Vehicle-Arg:T34
+T34	VEH 3959 3964	xe ôt
+T35	PER 3974 3986	gia_đình tôi
+T36	Transport 3987 3990	vào
+E13	Transport:T36 Agent-Arg:T35 Destination-Arg:T37
+T37	LOC 3997 3999	xe
+T38	PER 4139 4172	Bác_sĩ phẫu_thuật Osama_Abo_Elezz
+T39	Transport 4234 4242	băng qua
+E14	Transport:T39 Agent-Arg:T38 Destination-Arg:T40
+T40	LOC 4263 4270	quê_nhà
+T41	PER 4442 4456	nhân_viên y_tế
+T42	Transport 4465 4468	tới
+E15	Transport:T42 Destination-Arg:T43 Artifact-Arg:T41
+T43	LOC 4469 4489	khu_vực bị ảnh_hưởng
+T44	Transport 4493 4502	di_chuyển
+E16	Transport:T44 Agent-Arg:T41 Artifact-Arg:T45
+T45	PER 4509 4516	thi_thể
+T46	PER 4715 4739	Một gia_đình có 6 trẻ_em
+T47	Transport 4748 4757	chuyển tớ
+E17	Transport:T47 Artifact-Arg:T46
+T48	PER 4818 4824	tất_cả
+T49	Die 4829 4843	không qua khỏi
+E18	Die:T49 Victim-Arg:T48
+T50	Attack 50 58	tấn_công
+E19	Attack:T50 Place-Arg:T52 Instrument-Arg:T51
+T51	VEH 59 66	hoá_học
+T52	GPE 67 72	Syria
+T53	Attack 116 124	tấn_công
+E20	Attack:T53 Instrument-Arg:T54 Place-Arg:T55 Time-Arg:T56
+T54	WEA 135 149	vũ_khí_hoá_học
+T55	GPE 152 183	thị trấn Khan Sheikhoun , Syria
+T56	TIME 186 193	hôm 4/4
+T57	PER 1670 1687	hai con song_sinh
+T58	Die 1691 1701	thiệt_mạng
+E21	Die:T58 Victim-Arg:T57
+T59	Die 4952 4956	chết
+E22	Die:T59 
+T60	Attack 4966 4974	tấn_công
+E23	Attack:T60 

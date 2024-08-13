@@ -1,0 +1,40 @@
+T1	Transfer-ownership 131 134	bán
+E1	Transfer-ownership:T1 Seller-Arg:T2 Buyer-Arg:T4 Price-Arg:T5 Time-Arg:T6
+T2	ORG 123 130	Benfica
+T3	PER 140 148	Lindelof
+T4	ORG 153 160	Man_Utd
+T5	MONEY 169 189	khoảng 40 triệu đôla
+T6	TIME 215 222	mới_đây
+T7	Transfer-money 281 285	nhận
+E2	Transfer-money:T7 Money-Arg:T8 Giver-Arg:T9 Recipient-Arg:T10
+T8	MONEY 289 298	bốn triệu
+T9	ORG 302 309	Benfica
+T10	ORG 225 236	Đội_bóng cũ
+T11	Transfer-money 576 578	có
+E3	Transfer-money:T11 Recipient-Arg:T12
+T12	PER 567 575	Vasteras
+T13	Transfer-ownership 637 640	bán
+E4	Transfer-ownership:T13 Buyer-Arg:T14 Time-Arg:T15
+T14	ORG 654 661	Benfica
+T15	TIME 662 670	năm 2011
+T16	Transfer-ownership 711 716	hưởng
+E5	Transfer-ownership:T16 Beneficiary-Arg:T17
+T17	ORG 683 701	đội_bóng Thuỵ_Điển
+T18	ORG 734 741	Benfica
+T19	Transfer-ownership 742 745	bán
+E6	Transfer-ownership:T19 Seller-Arg:T18 Buyer-Arg:T21
+T20	PER 746 754	trung_vệ
+T21	ORG 763 776	đội_bóng khác
+T22	Transfer-money 815 819	nhận
+E7	Transfer-money:T22 Recipient-Arg:T23 Money-Arg:T24
+T23	PER 803 811	Vasteras
+T24	MONEY 823 832	tám triệu
+T25	Transfer-money 882 886	nhận
+E8	Transfer-money:T25 Recipient-Arg:T26
+T26	PER 869 877	Vasteras
+T27	Transfer-ownership 953 956	mua
+E9	Transfer-ownership:T27 Buyer-Arg:T30 Time-Arg:T29 Price-Arg:T31
+T28	PER 957 965	Lindelof
+T29	TIME 966 974	năm 2011
+T30	ORG 977 984	Benfica
+T31	MONEY 993 1014	khoảng một triệu đôla

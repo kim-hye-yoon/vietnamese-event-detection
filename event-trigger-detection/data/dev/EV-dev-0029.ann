@@ -1,0 +1,19 @@
+T1	Pardon 56 61	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T10 Defendant-Arg:T11
+T2	Pardon 258 263	ân_xá
+E2	Pardon:T2 
+T3	Pardon 378 383	ân_xá
+E3	Pardon:T3 Adjudicator-Arg:T13 Defendant-Arg:T12
+T4	Pardon 760 765	ân_xá
+E4	Pardon:T4 
+T6	TIME 885 898	tháng 12/2018
+T7	CRIME 907 1027	tội_danh lừa_đảo , trốn_thuế , liên_quan đến các khoản đóng_góp bất_hợp_pháp cho chiến_dịch tranh_cử và nói_dối_quốc_hội
+T8	PER 807 822	Cohen , 52 tuổi
+T9	PER 832 863	thẩm_phán liên_bang ở Manhattan
+T10	PER 52 55	ông
+T11	PER 15 32	cựu luật_sư Cohen
+T12	PER 348 351	ông
+T13	PER 374 377	tôi
+T14	SEN 871 880	ba năm tù
+T5	Sentence 864 870	kết_án
+E5	Sentence:T5 Sentence-Arg:T14 Adjudicator-Arg:T9 Defendant-Arg:T8 Time-Arg:T6 Crime-Arg:T7

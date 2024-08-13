@@ -1,0 +1,29 @@
+T1	Attack 154 164	cuộc_chiến
+E1	Attack:T1 Attacker-Arg:T2 Target-Arg:T3 Place-Arg:T18
+T2	ORG 124 147	lực_lượng đặc_nhiệm Nga
+T3	ORG 171 214	phiến quân Nhà_nước Hồi_giáo tự_xưng ( IS )
+T4	Attack 397 404	bắn tỉa
+E2	Attack:T4 Attacker-Arg:T8 Target-Arg:T9 Place-Arg:T10 Instrument-Arg:T20
+T5	Attack 320 329	tiêu_diệt
+E3	Attack:T5 Instrument-Arg:T12 Attacker-Arg:T11 Target-Arg:T19
+T6	Attack 735 743	bao vây 
+E4	Attack:T6 Attacker-Arg:T7 Place-Arg:T22
+T7	ORG 715 729	Quân_đội Syria
+T8	PER 380 396	một_số đặc_nhiệm
+T9	PER 452 462	phiến quân
+T10	LOC 509 539	Aleppo và vùng ngoại_ô Latakia
+T11	PER 272 293	binh_sĩ đặc_nhiệm Nga
+T12	WEA 302 319	tên_lửa dẫn đường
+T13	Attack 22 29	bắn tỉa
+E5	Attack:T13 Attacker-Arg:T14 Place-Arg:T15
+T14	PER 0 13	Đặc_nhiệm Nga
+T15	GPE 40 45	Syria
+T16	Attack 30 34	diệt
+E6	Attack:T16 Target-Arg:T17 Place-Arg:T15 Attacker-Arg:T14
+T17	ORG 35 37	IS
+T18	GPE 217 222	Syria
+T19	VEH 330 362	nhiều phương_tiện vận_tải của IS
+T20	WEA 413 444	súng_trường giảm thanh hiện_đại
+T21	Attack 445 448	bắn
+E7	Attack:T21 Target-Arg:T9 Place-Arg:T10 Attacker-Arg:T8
+T22	GPE 743 748	Idlib

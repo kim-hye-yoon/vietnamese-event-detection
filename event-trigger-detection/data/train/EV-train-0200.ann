@@ -1,0 +1,87 @@
+T1	PER 0 19	Ông Nguyễn_Xuân_Anh
+T2	End-position 23 32	bãi_nhiệm
+E1	End-position:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 38 59	Chủ_tịch HĐND Đà_Nẵng
+T4	Meet 78 87	phiên họp
+E2	Meet:T4 Entity-Arg:T5
+T5	ORG 103 118	HĐND TP Đà_Nẵng
+T6	PER 139 173	Phó chủ_tịch HĐND Nguyễn_Nho_Trung
+T7	End-position 181 186	nhiệm
+E3	End-position:T7 Position-Arg:T8 Person-Arg:T9
+T8	JOB 187 240	chức_danh Chủ_tịch và đại_biểu HĐND TP Đà_Nẵng khoá 9
+T9	PER 245 264	ông Nguyễn_Xuân_Anh
+T10	Meet 338 347	thảo_luận
+E4	Meet:T10 
+T11	End-position 388 397	bãi nhiệm
+E5	End-position:T11 
+T12	Meet 509 515	kỳ họp
+E6	Meet:T12 
+T13	Meet 566 572	kỳ họp
+E7	Meet:T13 Entity-Arg:T17
+T14	End-position 592 601	bãi nhiệm
+E8	End-position:T14 Position-Arg:T15 Person-Arg:T16
+T15	JOB 602 631	chức Chủ_tịch HĐND TP Đà_Nẵng
+T16	PER 636 655	ông Nguyễn_Xuân_Anh
+T17	PER 537 557	Ông Nguyễn_Nho_Trung
+T18	Meet 896 905	thảo_luận
+E9	Meet:T18 
+T19	End-position 962 971	bãi_nhiệm
+E10	End-position:T19 Position-Arg:T20 Person-Arg:T21
+T20	JOB 972 1006	chức_danh Chủ_tịch HĐND TP Đà_Nẵng
+T21	PER 1015 1034	ông Nguyễn_Xuân_Anh
+T22	Phone-write 1100 1110	điện_thoại
+E11	Phone-write:T22 Entity-Arg:T23 Entity-Arg2:T26
+T23	ORG 1115 1125	VnExpress 
+T24	End-position 1139 1148	bãi_nhiệm
+E12	End-position:T24 Person-Arg:T26
+T25	Meet 1129 1138	phiên họp
+E13	Meet:T25 
+T26	PER 1151 1170	ông Nguyễn_Xuân_Anh
+T27	Elect 1374 1377	bầu
+E14	Elect:T27 Entity-Arg:T28 Position-Arg:T29
+T28	ORG 1350 1361	cơ_quan này
+T29	JOB 1394 1427	chức_danh Chủ_tịch HĐND thành_phố
+T30	Meet 1229 1235	kỳ họp
+E15	Meet:T30 
+T31	Meet 1494 1500	gặp_gỡ
+E16	Meet:T31 Time-Arg:T34 Entity-Arg:T32 Entity-Arg2:T33
+T32	ORG 1506 1510	HĐND
+T33	PER 1515 1521	cử_tri
+T34	TIME 1439 1448	hôm 14/11
+T35	Start-position 1561 1569	thay_thế
+E17	Start-position:T35 Person-Arg:T36
+T36	PER 1573 1617	Phó chủ_tịch HĐND thành_phố Nguyễn_Nho_Trung
+T37	End-position 1778 1787	cách_chức
+E18	End-position:T37 Position-Arg:T38 Entity-Arg:T42 Time-Arg:T43
+T38	JOB 1788 1904	Bí_thư Thành_uỷ Đà_Nẵng , Uỷ_viên Ban thường_vụ , Uỷ_viên Ban_chấp_hành Đảng_bộ thành_phố Đà_Nẵng nhiệm_kỳ 2015-2020
+T39	End-position 1910 1917	cho thô
+E19	End-position:T39 Position-Arg:T41 Person-Arg:T40
+T40	PER 1974 1993	ông Nguyễn_Xuân_Anh
+T41	JOB 1919 1969	chức Uỷ_viên Ban_chấp_hành Trung_ương Đảng khoá 12
+T42	ORG 1745 1774	Ban_chấp_hành Trung_ương Đảng
+T43	TIME 1733 1742	Ngày 6/10
+T44	Elect 2824 2827	bầu
+E20	Elect:T44 Position-Arg:T45 Time-Arg:T46 Entity-Arg:T47
+T45	JOB 2832 2852	chức Bí_thư Thành_uỷ
+T46	TIME 2853 2867	ngày 6/10/2015
+T47	ORG 2783 2823	Ban_chấp_hành Đảng_bộ TP Đà_Nẵng khoá 21
+T48	Meet 2950 2956	kỳ họp
+E21	Meet:T48 Time-Arg:T49 Entity-Arg:T51
+T49	TIME 2933 2947	Ngày 16/6/2016
+T50	Elect 2995 2998	bầu
+E22	Elect:T50 Person-Arg:T52 Entity-Arg:T51 Position-Arg:T53
+T51	ORG 2968 2991	HĐND TP Đà_Nẵng khoá IX
+T52	PER 2999 3018	ông Nguyễn_Xuân_Anh
+T53	JOB 3051 3074	Chủ_tịch HĐND thành_phố
+T54	End-position 3174 3183	bãi_nhiệm
+E23	End-position:T54 Person-Arg:T55
+T55	PER 3144 3170	đại_biểu Hội_đồng_nhân_dân
+T56	Transfer-ownership 2607 2611	biếu
+E24	Transfer-ownership:T56 Artifact-Arg:T58 Beneficiary-Arg:T61
+T57	Transfer-ownership 2614 2618	tặng
+E25	Transfer-ownership:T57 Artifact-Arg:T58 Beneficiary-Arg:T61
+T58	FAC 2630 2654	2 nhà ở của doanh_nghiệp
+T59	Transfer-ownership 2572 2576	nhận
+E26	Transfer-ownership:T59 Artifact-Arg:T60 Beneficiary-Arg:T61
+T60	VEH 2587 2606	ôtô do doanh_nghiệp
+T61	PER 2378 2390	ông Xuân_Anh

@@ -1,0 +1,50 @@
+T1	GPE 0 6	Israel
+T2	Attack 7 15	tấn_công
+E1	Attack:T2 Place-Arg:T3 Attacker-Arg:T1
+T3	GPE 31 36	Syria
+T4	Attack 424 432	tấn_công
+E2	Attack:T4 Target-Arg:T30 Attacker-Arg:T31
+T5	Attack 604 614	không_kích
+E3	Attack:T5 Target-Arg:T6 Place-Arg:T7
+T6	FAC 619 633	cơ_sở của Iran
+T7	GPE 636 641	Syria
+T8	Charge-indict 646 654	cáo_buộc
+E4	Charge-indict:T8 
+T9	Attack 735 742	bắn rơi
+E5	Attack:T9 Target-Arg:T10
+T10	VEH 708 731	Máy_bay_không_người_lái
+T11	PER 827 836	Một người
+T12	Injure 837 846	bị_thương
+E6	Injure:T12 Victim-Arg:T11
+T13	Attack 921 924	bắn
+E7	Attack:T13 Instrument-Arg:T15 Target-Arg:T14
+T14	VEH 939 950	hai máy_bay
+T15	WEA 891 911	hệ_thống phòng_không
+T16	Attack 1217 1223	bắn hạ
+E8	Attack:T16 Target-Arg:T17
+T17	VEH 1224 1247	máy_bay_không_người_lái
+T18	PER 1423 1429	Tehran
+T19	Appeal 1435 1450	bác_bỏ cáo_buộc
+E9	Appeal:T19 Prosecutor-Arg:T20 Defendant-Arg:T18
+T20	PER 1455 1463	Tel_Aviv
+T21	Attack 1577 1588	vụ tấn_công
+E10	Attack:T21 Target-Arg:T22
+T22	VEH 1589 1596	máy_bay
+T23	Attack 1670 1680	Vụ bạo_lực
+E11	Attack:T23 Time-Arg:T32
+T24	GPE 1752 1756	Iran
+T25	GPE 1760 1765	Syria
+T26	Attack 1777 1786	nội_chiến
+E12	Attack:T26 Attacker-Arg:T24 Attacker-Arg2:T25 Place-Arg:T27 Attacker-Arg3:T33
+T27	GPE 1803 1808	Syria
+T28	Attack 53 60	bắn rơi
+E13	Attack:T28 Target-Arg:T29
+T29	VEH 44 49	F -16
+T30	PER 433 442	chúng_tôi
+T31	PER 414 422	bất_cứ a
+T32	TIME 1681 1688	hôm_nay
+T33	GPE 1743 1749	Israel
+T34	Attack 1869 1877	xung_đột
+E14	Attack:T34 Target-Arg:T35
+T35	VEH 1851 1862	một máy_bay
+T36	GPE 1840 1846	Israel

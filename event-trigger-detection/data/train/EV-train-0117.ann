@@ -1,0 +1,38 @@
+T1	ORG 0 2	IS
+T2	Attack 3 11	đánh bom
+E1	Attack:T2 Place-Arg:T3 Attacker-Arg:T1
+T3	GPE 23 28	Syria
+T4	PER 31 39	34 người
+T5	Die 40 44	chết
+E2	Die:T5 Victim-Arg:T4
+T6	PER 379 388	Mọi người
+T7	Injure 389 396	ngã gục
+E3	Injure:T7 Victim-Arg:T6
+T8	PER 457 462	người
+T9	Die 463 467	chết
+E4	Die:T9 Victim-Arg:T8
+T10	PER 539 547	34 người
+T11	Die 551 561	thiệt_mạng
+E5	Die:T11 Victim-Arg:T10
+T12	PER 571 579	90 người
+T13	Injure 580 589	bị_thương
+E6	Injure:T13 Victim-Arg:T12
+T14	PER 652 655	cha
+T15	PER 663 691	người anh_em trai của chú_rể
+T16	Die 695 705	thiệt_mạng
+E7	Die:T16 Victim-Arg:T15 Victim-Arg2:T14
+T17	Marry 12 20	đám_cưới
+E8	Marry:T17 Place-Arg:T3
+T18	Marry 59 67	đám_cưới
+E9	Marry:T18 
+T19	Attack 957 968	vụ tấn_công
+E10	Attack:T19 Attacker-Arg:T20
+T20	ORG 937 939	IS
+T21	Attack 998 1005	xả súng
+E11	Attack:T21 Place-Arg:T23 Attacker-Arg:T22
+T22	PER 980 994	một phiến quân
+T23	GPE 1006 1027	gần thành_phố Hasakeh
+T24	Die 1038 1048	tự kích nổ
+E12	Die:T24 Agent-Arg:T22 Victim-Arg:T22
+T25	Marry 1070 1078	đám_cưới
+E13	Marry:T25 

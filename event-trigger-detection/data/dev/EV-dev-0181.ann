@@ -1,0 +1,42 @@
+T1	Pardon 324 330	đặc_xá
+E1	Pardon:T1 
+T2	Pardon 345 351	đặc_xá
+E2	Pardon:T2 
+T3	Sentence 454 460	kết_án
+E3	Sentence:T3 
+T4	Sentence 635 641	kết_án
+E4	Sentence:T4 
+T5	Pardon 714 720	đặc_xá
+E5	Pardon:T5 
+T6	Sentence 1081 1087	kết_án
+E6	Sentence:T6 Crime-Arg:T8
+T7	Sentence 1326 1332	kết_án
+E7	Sentence:T7 Crime-Arg:T9
+T8	CRIME 1091 1310	tội phá_hoại việc thực_hiện các chính_sách kinh_tế - xã_hội ; tội phá_hoại chính_sách đoàn_kết ; tội tổ_chức , cưỡng_ép , xúi_giục người khác trốn đi nước_ngoài hoặc trốn ở lại nước_ngoài nhằm chống chính_quyền nhân_dân
+T9	CRIME 1356 1471	tội cướp tài_sản , bắt_cóc nhằm chiếm_đoạt tài_sản , sản_xuất trái_phép chất ma_tuý , mua_bán trái_phép chất ma_tuý
+T10	Sentence 1593 1599	kết_án
+E8	Sentence:T10 
+T11	Transfer-money 1843 1846	trả
+E9	Transfer-money:T11 
+T12	Sentence 1922 1928	kết_án
+E10	Sentence:T12 Crime-Arg:T14
+T14	CRIME 1944 1982	tội_phạm tham_nhũng hoặc tội_phạm khác
+T15	PER 1986 1999	Chủ_tịch nước
+T13	Pardon 2025 2031	đặc_xá
+E11	Pardon:T13 
+T16	Transfer-money 2090 2093	trả
+E12	Transfer-money:T16 
+T17	Transfer-money 2353 2356	trả
+E13	Transfer-money:T17 
+T18	Pardon 2588 2594	đặc_xá
+E14	Pardon:T18 
+T19	Pardon 2706 2712	đặc_xá
+E15	Pardon:T19 
+T20	Sentence 3297 3303	kết_án
+E16	Sentence:T20 
+T21	Pardon 3349 3355	đặc_xá
+E17	Pardon:T21 
+T22	Pardon 3997 4003	đặc_xá
+E18	Pardon:T22 
+T23	Pardon 4258 4264	đặc_xá
+E19	Pardon:T23 

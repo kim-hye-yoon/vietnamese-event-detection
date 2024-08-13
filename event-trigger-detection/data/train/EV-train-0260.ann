@@ -1,0 +1,29 @@
+T1	PER 1011 1031	Các phần_tử khủng_bố
+T2	Attack 1040 1048	tấn_công
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 1049 1060	binh_sĩ Nga
+T4	PER 1093 1100	sĩ_quan
+T5	Injure 1101 1110	bị_thương
+E2	Injure:T5 Victim-Arg:T4
+T6	TIME 1583 1595	Tháng 6/1982
+T7	PER 1598 1615	30 binh_sĩ Israel
+T8	Die 1616 1626	thiệt_mạng
+E3	Die:T8 Victim-Arg:T7 Time-Arg:T6
+T9	PER 1630 1642	5 người khác
+T10	Arrest-jail 1643 1649	bị bắt
+E4	Arrest-jail:T10 Person-Arg:T9 Time-Arg:T6 Place-Arg:T11
+T11	LOC 1705 1724	gần biên_giới Syria
+T12	PER 1911 1913	họ
+T13	Die 1917 1927	thiệt_mạng
+E5	Die:T13 Victim-Arg:T12
+T14	TIME 2409 2417	đêm 17/9
+T15	PER 2422 2438	15 quân_nhân Nga
+T16	Die 2439 2449	thiệt_mạng
+E6	Die:T16 Victim-Arg:T15 Time-Arg:T14
+T17	PER 39 43	lính
+T18	Die 44 54	thiệt_mạng
+E7	Die:T18 Victim-Arg:T17 Place-Arg:T19
+T19	GPE 57 62	Syria
+T20	VEH 2386 2393	máy_bay
+T21	Attack 2397 2400	bắn
+E8	Attack:T21 Target-Arg:T20

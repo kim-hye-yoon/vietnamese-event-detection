@@ -1,0 +1,10 @@
+T1	PER 0 30	Hai con_gái ông Trần_Quí_Thanh
+T2	Start-org 31 41	mở công_ty
+E1	Start-org:T2 Agent-Arg:T1
+T3	ORG 110 130	Công_ty TNHH Mua_bán
+T4	Start-org 140 149	thành_lập
+E2	Start-org:T4 Time-Arg:T5 Org-Arg:T3
+T5	TIME 154 169	tháng 3 năm nay
+T6	ORG 874 887	Tân_Hiệp_Phát
+T7	Transfer-ownership 918 921	mua
+E3	Transfer-ownership:T7 Buyer-Arg:T6

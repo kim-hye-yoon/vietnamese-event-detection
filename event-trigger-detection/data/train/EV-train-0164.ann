@@ -1,0 +1,32 @@
+T1	Arrest-jail 0 7	Tạm giữ
+E1	Arrest-jail:T1 Person-Arg:T2
+T2	PER 8 16	nam sinh
+T3	PER 27 39	bạn cùng lớp
+T4	Attack 17 26	đánh chết
+E2	Attack:T4 Attacker-Arg:T2 Target-Arg:T3
+T5	TIME 54 62	Ngày 4-4
+T6	ORG 65 80	CA TP Thái_Bình
+T7	Arrest-jail 95 102	tạm giữ
+E3	Arrest-jail:T7 Agent-Arg:T6 Person-Arg:T8 Time-Arg:T5
+T8	PER 103 116	Phạm_Như_Hiếu
+T9	PER 353 361	Như_Hiếu
+T11	Attack 371 374	đấm
+E4	Attack:T11 Attacker-Arg:T9 Target-Arg:T12
+T12	PER 383 392	Ngọc_Hiếu
+T13	PER 399 405	HS này
+T14	Injure 409 413	ngất
+E5	Injure:T14 Victim-Arg:T13
+T15	PER 442 476	cán_bộ y_tế , giáo_viên nhà_trường
+T16	Transport 477 480	đưa
+E6	Transport:T16 Agent-Arg:T15 Destination-Arg:T17
+T17	LOC 485 507	Bệnh_viện đa_khoa tỉnh
+T18	PER 544 553	Ngọc_Hiếu
+T19	Die 557 564	tử_vong
+E7	Die:T19 Victim-Arg:T18
+T20	PER 652 656	Hiếu
+T21	PER 662 670	gia_đình
+T22	Transport 671 678	đưa đến
+E8	Transport:T22 Agent-Arg:T21 Artifact-Arg:T20 Destination-Arg:T23
+T23	LOC 679 683	CQCA
+T24	Die 206 216	chết người
+E9	Die:T24 

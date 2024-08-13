@@ -1,0 +1,29 @@
+T1	LOC 31 41	đông Syria
+T2	ORG 0 2	IS
+T3	Die 3 10	sát_hại
+E1	Die:T3 Agent-Arg:T2 Victim-Arg:T4 Place-Arg:T1
+T4	PER 19 28	250 người
+T5	Attack 153 160	tàn_sát
+E2	Attack:T5 Place-Arg:T6
+T6	LOC 170 182	al - Bagilya
+T7	LOC 301 338	al - Bagilya , thị trấn Deir ez - Zor
+T8	ORG 258 273	phiến quân ISIL
+T9	Attack 234 242	thảm_sát
+E3	Attack:T9 Attacker-Arg:T8 Place-Arg:T7
+T10	Die 498 508	hành_quyết
+E4	Die:T10 Agent-Arg:T11 Victim-Arg:T12
+T11	ORG 469 482	Phiến quân IS
+T12	PER 514 522	gia_đình
+T13	Die 582 592	thiệt_mạng
+E5	Die:T13 Victim-Arg:T14
+T14	PER 596 606	dân_thường
+T15	Die 695 705	thiệt_mạng
+E6	Die:T15 Victim-Arg:T16
+T16	PER 662 689	hàng chục binh_sĩ chính_phủ
+T17	Die 781 791	thiệt_mạng
+E7	Die:T17 Victim-Arg:T18
+T18	PER 771 780	280 người
+T19	Die 980 984	chết
+E8	Die:T19 Victim-Arg:T21 Place-Arg:T20
+T20	LOC 987 998	khu Bagilya
+T21	PER 970 979	250 người

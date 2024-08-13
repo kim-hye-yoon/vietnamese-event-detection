@@ -1,0 +1,15 @@
+T1	GPE 0 3	Nga
+T2	GPE 6 16	Thổ_Nhĩ_Kỳ
+T3	GPE 19 23	Iran
+T4	Start-org 33 36	lập
+E1	Start-org:T4 Agent-Arg:T1 Agent-Arg2:T2 Agent-Arg3:T3 Org-Arg:T5
+T5	ORG 39 61	vùng an_toàn tại Syria
+T6	GPE 329 335	Moscow
+T7	Transport 345 348	đưa
+E2	Transport:T7 Agent-Arg:T6 Artifact-Arg:T9 Destination-Arg:T8
+T8	LOC 373 388	khu_vực an_toàn
+T9	PER 349 362	quan_sát_viên
+T10	PER 821 847	đại_diện lực_lượng đối_lập
+T11	Transport 863 866	rời
+E3	Transport:T11 Agent-Arg:T10 Origin-Arg:T12
+T12	LOC 872 880	cuộc họp

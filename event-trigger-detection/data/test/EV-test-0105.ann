@@ -1,0 +1,19 @@
+T1	PER 0 27	Nguyên Phó​ bí_thư Đồng_Nai
+T2	End-position 32 36	thôi
+E1	End-position:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 37 63	nhiệm_vụ đại_biểu Quốc_hội
+T4	End-position 770 779	bãi_nhiệm
+E2	End-position:T4 
+T5	End-position 625 634	bãi_nhiệm
+E3	End-position:T5 
+T6	JOB 635 652	đại_biểu Quốc_hội
+T7	PER 780 788	đại_biểu
+T8	ORG 796 804	Quốc_hội
+T9	End-position 974 983	bãi_nhiệm
+E4	End-position:T9 
+T10	Meet 1095 1103	cuộc họp
+E5	Meet:T10 
+T11	TIME 1104 1112	ngày 4/5
+T12	Meet 2888 2894	kỳ họp
+E6	Meet:T12 
+T13	TIME 2912 2927	ngày 12 và 13/3

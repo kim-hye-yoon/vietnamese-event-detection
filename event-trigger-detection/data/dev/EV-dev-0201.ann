@@ -1,0 +1,48 @@
+T1	Declare-bankruptcy 20 27	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 5	Kodak
+T3	Transfer-money 354 356	nợ
+E2	Transfer-money:T3 
+T4	ORG 324 329	Kodak
+T5	MONEY 343 353	4,1 tỷ USD
+T6	Transfer-money 391 394	vay
+E3	Transfer-money:T6 Recipient-Arg:T8
+T7	Transfer-money 422 430	hoàn_trả
+E4	Transfer-money:T7 
+T8	ORG 408 413	Kodak
+T9	Transfer-money 451 458	cho vay
+E5	Transfer-money:T9 
+T10	Declare-bankruptcy 704 711	phá_sản
+E6	Declare-bankruptcy:T10 Time-Arg:T11
+T11	TIME 716 724	ngày 3/9
+T12	Transfer-money 978 981	trả
+E7	Transfer-money:T12 Giver-Arg:T13
+T13	PER 986 1023	các chủ_nợ không lấy tài_sản thế_chấp
+T14	TIME 1026 1038	Tháng 1/2012
+T15	ORG 1041 1046	Kodak
+T16	Declare-bankruptcy 1055 1062	phá_sản
+E8	Declare-bankruptcy:T16 Org-Arg:T15 Time-Arg:T14
+T17	MONEY 1083 1093	3,4 tỷ USD
+T19	ORG 1145 1150	Kodak
+T20	TIME 1127 1142	10 năm trước đó
+T21	PER 1166 1182	47.000 nhân_viên
+T18	End-position 1154 1161	sa_thải
+E9	End-position:T18 Person-Arg:T21 Entity-Arg:T19 Time-Arg:T20
+T23	FAC 1194 1204	13 nhà_máy
+T22	End-org 1185 1193	đóng_cửa
+E10	End-org:T22 Org-Arg:T19 Place-Arg:T23
+T24	End-org 1249 1257	đóng_cửa
+E11	End-org:T24 Org-Arg:T19 Place-Arg:T25
+T25	FAC 1258 1278	130 phòng_thí_nghiệm
+T26	Declare-bankruptcy 1293 1300	phá_sản
+E12	Declare-bankruptcy:T26 Org-Arg:T27
+T27	ORG 1303 1308	Kodak
+T28	PER 1312 1328	17.000 nhân_viên
+T29	Transfer-ownership 1521 1524	bán
+E13	Transfer-ownership:T29 
+T30	Start-org 1994 2003	thành_lập
+E14	Start-org:T30 Agent-Arg:T32 Time-Arg:T31
+T31	TIME 2008 2016	năm 1880
+T32	ORG 1971 1993	Tập_đoàn Eastman_Kodak
+T33	Declare-bankruptcy 2313 2320	phá_sản
+E15	Declare-bankruptcy:T33 

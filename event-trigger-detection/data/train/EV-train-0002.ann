@@ -1,0 +1,25 @@
+T1	PER 0 3	Nga
+T2	Transport 12 15	rút
+E1	Transport:T2 Origin-Arg:T4 Artifact-Arg:T3 Agent-Arg:T1
+T3	PER 16 20	quân
+T4	GPE 26 31	Syria
+T5	PER 89 101	Quân_đội Nga
+T6	TIME 102 109	hôm_nay
+T7	Transport 118 121	rút
+E2	Transport:T7 Artifact-Arg:T8 Time-Arg:T6 Agent-Arg:T5 Origin-Arg:T9 Destination-Arg:T10
+T8	PER 122 140	một phần lực_lượng
+T9	GPE 150 155	Syria
+T10	LOC 159 163	nước
+T11	Transport 294 297	rút
+E3	Transport:T11 Artifact-Arg:T12
+T12	PER 298 302	quân
+T13	FAC 670 695	căn_cứ không_quân Hmeymim
+T14	Meet 653 657	thăm
+E4	Meet:T14 Place-Arg:T13 Entity-Arg:T15 Time-Arg:T16
+T15	PER 630 639	Ông Putin
+T16	TIME 696 706	ngày 11/12
+T17	Transport 718 721	rút
+E5	Transport:T17 Agent-Arg2:T15 Artifact-Arg:T18 Origin-Arg:T19 Destination-Arg:T20
+T18	PER 722 745	các đơn_vị quân_đội Nga
+T19	GPE 765 770	Syria
+T20	FAC 774 803	căn_cứ thường_trực trong nước

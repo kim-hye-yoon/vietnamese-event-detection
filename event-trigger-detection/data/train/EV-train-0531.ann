@@ -1,0 +1,20 @@
+T1	Die 41 51	thiệt_mạng
+E1	Die:T1 Victim-Arg:T11 Agent-Arg:T10
+T2	Die 424 434	thiệt_mạng
+E2	Die:T2 Victim-Arg:T6
+T3	Injure 454 463	bị_thương
+E3	Injure:T3 Victim-Arg:T5
+T4	Attack 75 84	pháo_kích
+E4	Attack:T4 Attacker-Arg:T7 Target-Arg:T8
+T5	PER 445 453	40 người
+T6	PER 381 394	14 dân_thường
+T7	ORG 54 67	Phiến quân IS
+T8	ORG 85 95	khu dân_cư
+T9	Attack 9 16	nã pháo
+E5	Attack:T9 Target-Arg:T11 Attacker-Arg:T10
+T10	ORG 0 2	IS
+T11	PER 21 40	14 dân_thường Syria
+T12	Attack 250 258	tấn_công
+E6	Attack:T12 Attacker-Arg:T14 Instrument-Arg:T13
+T13	WEA 276 283	đạn cối
+T14	ORG 210 242	Tổ_chức Nhà_nước Hồi_giáo ( IS )

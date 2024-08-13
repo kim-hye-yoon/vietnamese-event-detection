@@ -1,0 +1,9 @@
+T1	Die 39 49	thiệt_mạng
+E1	Die:T1 Victim-Arg:T2 Place-Arg:T7
+T2	PER 30 37	10 ngườ
+T3	LOC 71 122	nhà dưỡng_lão ở thành_phố Paillaco , miền Nam Chile
+T4	Die 144 161	cướp đi sinh_mạng
+E2	Die:T4 Victim-Arg:T5 Time-Arg:T6 Place-Arg:T3
+T5	PER 166 174	10 người
+T6	TIME 127 130	6/4
+T7	GPE 1 6	Chile

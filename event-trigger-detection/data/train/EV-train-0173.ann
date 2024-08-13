@@ -1,0 +1,8 @@
+T1	GPE 0 3	Đức
+T2	Transport 10 16	chuyển
+E1	Transport:T2 Artifact-Arg:T3 Destination-Arg:T4 Agent-Arg:T1
+T3	VEH 17 24	xe_tăng
+T4	GPE 29 39	Thổ_Nhĩ_Kỳ
+T5	Start-org 1538 1547	thành_lập
+E2	Start-org:T5 Org-Arg:T6
+T6	ORG 1548 1575	lực_lượng an_ninh biên_giới

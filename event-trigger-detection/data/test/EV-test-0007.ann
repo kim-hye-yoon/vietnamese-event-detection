@@ -1,0 +1,32 @@
+T1	Declare-bankruptcy 9 16	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2 Time-Arg:T3
+T2	ORG 0 8	Hãng dầu
+T3	TIME 29 36	9 tháng
+T4	Declare-bankruptcy 292 320	tuyên_bố nộp đơn xin phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T5 Time-Arg:T6
+T5	ORG 254 271	Hercules_Offshore
+T6	TIME 272 287	cuối tuần trước
+T7	Declare-bankruptcy 631 638	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T8
+T8	ORG 623 630	công_ty
+T9	Transfer-money 668 671	trả
+E4	Transfer-money:T9 Giver-Arg:T10
+T10	PER 657 660	Anh
+T11	Start-org 793 801	sáng_lập
+E5	Start-org:T11 Agent-Arg:T12 Org-Arg:T13
+T12	PER 777 786	Ted_Gavin
+T13	ORG 802 829	hãng luật Gavin / Solmonese
+T14	Transfer-ownership 893 896	bán
+E6	Transfer-ownership:T14 Seller-Arg:T15
+T15	ORG 881 889	Hercules
+T16	Transfer-ownership 948 951	bán
+E7	Transfer-ownership:T16 Seller-Arg:T17 Price-Arg:T18 Buyer-Arg:T19
+T17	ORG 927 929	Họ
+T18	MONEY 975 988	196 triệu USD
+T19	ORG 993 1010	Maersk_Highlander
+T20	Declare-bankruptcy 1567 1574	phá_sản
+E8	Declare-bankruptcy:T20 Org-Arg:T21 Org-Arg2:T22 Time-Arg:T24
+T21	ORG 1553 1561	Hercules
+T22	ORG 1501 1538	Hơn 60 hãng dịch_vụ dầu_mỏ tại Bắc_Mỹ
+T23	GPE 1532 1538	Bắc_Mỹ
+T24	TIME 1578 1590	đầu năm 2015

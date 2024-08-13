@@ -1,0 +1,4 @@
+T1	ORG 3436 3456	Ngân_hàng Vietinbank
+T2	Transfer-money 3464 3467	vay
+E1	Transfer-money:T2 Giver-Arg:T1 Money-Arg:T3
+T3	MONEY 3482 3501	70 % giá_trị căn_hộ

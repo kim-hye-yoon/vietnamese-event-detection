@@ -1,0 +1,109 @@
+T1	Transfer-money 27 30	trả
+E1	Transfer-money:T1 Recipient-Arg:T2
+T2	PER 50 53	dân
+T3	ORG 58 67	ngân_hàng
+T4	Declare-bankruptcy 68 75	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T3
+T6	TIME 146 156	sáng 26/10
+T7	PER 165 173	đại_biểu
+T5	Meet 80 104	Thảo_luận tại hội_trường
+E3	Meet:T5 Time-Arg:T6 Entity-Arg:T7
+T8	Meet 290 314	thảo_luận tại hội_trường
+E4	Meet:T8 Entity-Arg:T9
+T9	ORG 281 289	Quốc_hội
+T10	ORG 652 661	ngân_hàng
+T11	Declare-bankruptcy 662 677	đổ_vỡ , phá_sản
+E5	Declare-bankruptcy:T11 Org-Arg:T10
+T12	PER 782 796	người gửi tiền
+T13	Transfer-money 802 809	chi_trả
+E6	Transfer-money:T13 Money-Arg:T14 Beneficiary-Arg:T12
+T14	MONEY 846 859	75 triệu đồng
+T15	ORG 909 918	ngân_hàng
+T16	Declare-bankruptcy 919 926	phá_sản
+E7	Declare-bankruptcy:T16 Org-Arg:T15
+T17	ORG 975 984	ngân_hàng
+T18	Declare-bankruptcy 985 992	phá_sản
+E8	Declare-bankruptcy:T18 Org-Arg:T17
+T19	Transfer-money 937 944	chi_trả
+E9	Transfer-money:T19 Beneficiary-Arg:T20 Money-Arg:T21
+T20	PER 949 963	người gửi tiền
+T21	MONEY 1043 1056	75 triệu đồng
+T22	Transfer-money 1135 1139	nhận
+E10	Transfer-money:T22 Beneficiary-Arg:T25 Money-Arg:T28 Beneficiary-Arg2:T29
+T23	Transfer-money 1087 1090	gửi
+E11	Transfer-money:T23 Giver-Arg:T25 Money-Arg:T26
+T24	Transfer-money 1112 1115	gửi
+E12	Transfer-money:T24 Money-Arg:T27 Giver-Arg:T29
+T25	PER 1081 1086	người
+T26	MONEY 1091 1102	100 tỷ đồng
+T27	MONEY 1116 1125	100 triệu
+T28	MONEY 1178 1191	75 triệu đồng
+T29	PER 1106 1111	người
+T30	PER 1194 1199	Người
+T31	Transfer-money 1200 1203	gửi
+E13	Transfer-money:T31 Giver-Arg:T30
+T32	Transfer-money 1219 1224	nhận 
+E14	Transfer-money:T32 Beneficiary-Arg:T30
+T33	ORG 1358 1367	ngân_hàng
+T34	Declare-bankruptcy 1368 1375	phá_sản
+E15	Declare-bankruptcy:T34 Org-Arg:T33
+T35	PER 1654 1659	người
+T36	Transfer-money 1660 1663	gửi
+E16	Transfer-money:T36 Giver-Arg:T35
+T37	Transfer-money 1669 1677	được trả
+E17	Transfer-money:T37 Beneficiary-Arg:T35
+T38	ORG 1742 1751	ngân_hàng
+T39	Declare-bankruptcy 1752 1759	phá_sản
+E18	Declare-bankruptcy:T39 Org-Arg:T38
+T40	ORG 1871 1880	ngân_hàng
+T41	Declare-bankruptcy 1881 1886	đổ_vỡ
+E19	Declare-bankruptcy:T41 Org-Arg:T40
+T42	PER 2360 2365	người
+T43	Transfer-money 2366 2369	gửi
+E20	Transfer-money:T43 Giver-Arg:T42
+T44	Declare-bankruptcy 2379 2386	phá_sản
+E21	Declare-bankruptcy:T44 Org-Arg:T45
+T45	ORG 2387 2396	ngân_hàng
+T46	Transfer-money 2326 2333	chi_trả
+E22	Transfer-money:T46 Beneficiary-Arg:T42
+T47	PER 2937 2942	người
+T48	Transfer-money 2943 2946	gửi
+E23	Transfer-money:T48 Giver-Arg:T47
+T49	Transfer-money 3091 3098	chi_trả
+E24	Transfer-money:T49 Giver-Arg:T50 Beneficiary-Arg:T53
+T50	ORG 3072 3080	Nhà_nước
+T51	ORG 3148 3157	ngân_hàng
+T52	Declare-bankruptcy 3158 3165	phá_sản
+E25	Declare-bankruptcy:T52 Org-Arg:T51
+T53	PER 3190 3199	người gửi
+T54	Transfer-money 3383 3390	chi_trả
+E26	Transfer-money:T54 Beneficiary-Arg:T55
+T55	PER 3408 3417	người gửi
+T56	Transfer-money 3414 3417	gửi
+E27	Transfer-money:T56 Giver-Arg:T57
+T57	PER 3408 3413	người
+T58	PER 3488 3493	người
+T59	Transfer-money 3494 3497	gửi
+E28	Transfer-money:T59 Giver-Arg:T58
+T60	Transfer-money 3980 3983	vay
+E29	Transfer-money:T60 Giver-Arg:T63 Recipient-Arg:T64
+T61	Transfer-money 4165 4168	vay
+E30	Transfer-money:T61 Recipient-Arg:T62
+T62	ORG 4190 4199	ngân_hàng
+T63	ORG 3868 3876	Nhà_nước
+T64	ORG 4114 4123	ngân_hàng
+T65	Declare-bankruptcy 4229 4236	phá_sản
+E31	Declare-bankruptcy:T65 Org-Arg:T62
+T66	Transfer-money 4258 4268	thanh_toán
+E32	Transfer-money:T66 Giver-Arg:T62
+T67	Transfer-money 4337 4340	vay
+E33	Transfer-money:T67 
+T68	Transfer-money 4742 4750	đóng_góp
+E34	Transfer-money:T68 Giver-Arg:T69
+T69	PER 4755 4758	dân
+T70	Transfer-money 5098 5102	đóng
+E35	Transfer-money:T70 Giver-Arg:T71
+T71	PER 5069 5078	người_dân
+T72	Declare-bankruptcy 1906 1911	đổ_vỡ
+E36	Declare-bankruptcy:T72 Org-Arg:T73
+T73	ORG 1912 1921	ngân_hàng

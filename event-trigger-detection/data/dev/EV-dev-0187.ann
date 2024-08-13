@@ -1,0 +1,10 @@
+T1	Elect 19 27	được bầu
+E1	Elect:T1 Person-Arg:T2
+T2	PER 0 18	Em_gái Kim_Jong-un
+T3	Nominate 129 135	bầu_cử
+E2	Nominate:T3 Person-Arg:T4
+T4	PER 50 113	Bà Kim - Yo - jong , em_gái nhà_lãnh_đạo Triều_Tiên_Kim_Jong-un
+T5	Elect 246 254	được bầu
+E3	Elect:T5 Person-Arg:T6 Time-Arg:T7
+T6	PER 239 245	bà Kim
+T7	TIME 292 300	hôm 10/5

@@ -1,0 +1,13 @@
+T1	GPE 329 335	Moscow
+T2	Transport 345 348	đưa
+E1	Transport:T2 Artifact-Arg:T3 Agent-Arg:T1 Destination-Arg:T4
+T3	PER 349 362	quan_sát_viên
+T4	LOC 367 388	những khu_vực an_toàn
+T5	PER 670 679	người_dân
+T6	Transport 685 688	rời
+E2	Transport:T6 Origin-Arg:T7 Artifact-Arg:T5
+T7	LOC 692 701	quê_hương
+T8	PER 821 859	đại_diện lực_lượng đối_lập có vũ_trang
+T9	Transport 863 866	rời
+E3	Transport:T9 Origin-Arg:T10 Artifact-Arg:T8
+T10	LOC 872 880	cuộc họp

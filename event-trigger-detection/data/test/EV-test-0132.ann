@@ -1,0 +1,10 @@
+T1	Transport 318 327	di_chuyển
+E1	Transport:T1 Destination-Arg:T2 Destination-Arg2:T3 Destination-Arg3:T4 Destination-Arg4:T5
+T2	GPE 331 337	TP HCM
+T3	GPE 340 350	Bình_Dương
+T4	GPE 353 361	Đồng_Nai
+T5	GPE 364 372	Tây_Ninh
+T6	Transfer-ownership 3230 3236	bán_lẻ
+E2	Transfer-ownership:T6 
+T7	Transport 3376 3385	di_chuyển
+E3	Transport:T7 

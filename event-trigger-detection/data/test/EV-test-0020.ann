@@ -1,0 +1,43 @@
+T1	Attack 23 26	bắn
+E1	Attack:T1 Attacker-Arg:T6 Target-Arg:T3 Instrument-Arg:T7
+T2	Die 27 31	chết
+E2	Die:T2 Victim-Arg:T3
+T3	PER 32 37	người
+T4	Arrest-jail 0 3	Bắt
+E3	Arrest-jail:T4 Person-Arg:T5
+T5	PER 4 51	5 nghi can xả súng bắn chết người trên ban_công
+T6	PER 4 14	5 nghi can
+T7	WEA 18 22	súng
+T8	TIME 54 63	Chiều 9/3
+T9	ORG 66 88	Công_an tỉnh Thanh_Hoá
+T10	Arrest-jail 89 96	tạm giữ
+E4	Arrest-jail:T10 Agent-Arg:T9 Time-Arg:T8 Person-Arg:T11
+T11	PER 97 253	5 nghi can gồm Doãn_Phương_Nam ( 21 tuổi ) , Phạm_Ngọc_Sơn ( 23 tuổi ) , Bùi_Khắc_Khánh , Nguyễn_Văn_Sơn và Nguyễn_Thanh_Bình ( đều 24 tuổi , ở TP Thanh_Hoá
+T12	Attack 276 280	giết
+E5	Attack:T12 Target-Arg:T13
+T13	PER 281 286	người
+T14	PER 353 363	5 nghi_can
+T15	Attack 364 370	gây án
+E6	Attack:T15 Target-Arg:T14
+T16	PER 426 490	anh Phùng_Quang_Huy ( 22 tuổi ) và Nguyễn_Quang_Linh ( 21 tuổi )
+T17	Transport 491 494	đến
+E7	Transport:T17 Destination-Arg:T18 Artifact-Arg:T16 Time-Arg:T19
+T18	FAC 504 553	căn nhà trên đường Quang_Trung , phường Ngọc_Trạo
+T19	TIME 407 423	tối ba hôm trước
+T20	Attack 650 657	xả súng
+E8	Attack:T20 Attacker-Arg:T21 Target-Arg:T23 Time-Arg:T22
+T21	PER 628 649	một nhóm người lạ_mặt
+T22	TIME 556 578	Khoảng 22h30 cùng ngày
+T23	PER 581 587	cả hai
+T24	PER 673 680	Anh Huy
+T25	PER 691 695	Linh
+T26	Die 681 688	tử_vong
+E9	Die:T26 Victim-Arg:T24
+T27	Injure 696 708	trọng_thương
+E10	Injure:T27 Victim-Arg:T25
+T28	TIME 813 824	Ba ngày sau
+T29	PER 825 838	nhóm nghi_can
+T30	Arrest-jail 839 845	bị bắt
+E11	Arrest-jail:T30 Person-Arg:T29 Time-Arg:T28
+T31	Transfer-money 1079 1082	vay
+E12	Transfer-money:T31 

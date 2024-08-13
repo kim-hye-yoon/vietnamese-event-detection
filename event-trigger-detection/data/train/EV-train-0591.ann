@@ -1,0 +1,49 @@
+T3	Attack 2919 2926	bao_vây
+E3	Attack:T3 Attacker-Arg:T4 Place-Arg:T16
+T4	ORG 2899 2913	Quân_đội Syria
+T6	ORG 3740 3761	quân_đội Syria và Nga
+T8	Attack 196 204	tấn_công
+E5	Attack:T8 Place-Arg:T9 Attacker-Arg:T10
+T9	GPE 205 215	tỉnh Idlib
+T10	ORG 158 172	quân_đội Syria
+T12	Die 369 379	thiệt_mạng
+E6	Die:T12 Agent-Arg:T11
+T13	GPE 602 607	Idlib
+T17	Attack 907 915	tấn_công
+E8	Attack:T17 Attacker-Arg:T18
+T18	ORG 888 899	quân_đội Mỹ
+T19	WEA 934 948	vũ_khí_hoá_học
+T20	Attack 955 965	chiến_dịch
+E9	Attack:T20 Attacker-Arg:T22 Instrument-Arg:T19 Place-Arg:T21
+T21	GPE 966 971	Idlib
+T22	GPE 920 925	Syria
+T23	Transport 1076 1079	đến
+E10	Transport:T23 Artifact-Arg:T25 Destination-Arg:T24
+T24	LOC 1080 1089	gần Syria
+T25	VEH 1041 1062	hạm_đội tàu_chiến lớn
+T26	Attack 1142 1150	tấn_công
+E11	Attack:T26 Instrument-Arg:T27
+T27	WEA 1151 1158	hoá_học
+T28	Phone-write 3517 3535	trao_đổi thông_tin
+E12	Phone-write:T28 Entity-Arg:T30 Entity-Arg2:T29
+T29	PER 3485 3501	thủ_lĩnh của HTS
+T30	PER 3540 3559	tình_báo Thổ_Nhĩ_Kỳ
+T31	Attack 3991 3999	tấn_công
+E13	Attack:T31 Place-Arg:T32 Attacker-Arg:T33 Attacker-Arg2:T34
+T32	GPE 4000 4005	Idlib
+T33	GPE 3985 3990	Syria
+T34	GPE 3978 3981	Nga
+T36	ORG 4744 4758	quân_đội Syria
+T2	Attack 578 586	tấn_công
+E2	Attack:T2 Place-Arg:T13
+T1	Attack 4723 4731	tấn_công
+E1	Attack:T1 Attacker-Arg:T36
+T5	Attack 3776 3784	tấn_công
+E4	Attack:T5 Attacker-Arg:T6 Place-Arg:T35
+T7	GPE 3710 3715	Idlib
+T11	PER 347 368	hàng trăm_nghìn người
+T14	Attack 2212 2221	nội_chiến
+E7	Attack:T14 Place-Arg:T15
+T15	GPE 2232 2237	Syria
+T16	GPE 2927 2937	tỉnh Idlib
+T35	GPE 3789 3797	tỉnh này

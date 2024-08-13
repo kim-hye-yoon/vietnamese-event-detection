@@ -1,0 +1,44 @@
+T1	Extradite 28 34	dẫn_độ
+E1	Extradite:T1 Agent-Arg:T2 Person-Arg:T3
+T2	ORG 0 18	Quốc_hội Venezuela
+T3	PER 35 46	cựu nghị_sĩ
+T4	Die 55 61	ám_sát
+E2	Die:T4 Agent-Arg:T3 Victim-Arg:T5
+T5	PER 62 72	Tổng_thống
+T6	Extradite 290 296	dẫn_độ
+E3	Extradite:T6 Agent-Arg3:T9 Agent-Arg:T34
+T9	PER 297 331	cựu chủ_tịch quốc_hội Julio_Borges
+T10	Arrest-jail 392 399	bắt_giữ
+E4	Arrest-jail:T10 Person-Arg:T11
+T11	PER 400 406	Borges
+T12	Arrest-jail 558 565	bắt_giữ
+E5	Arrest-jail:T12 Person-Arg:T14 Crime-Arg:T15 Agent-Arg:T13
+T13	ORG 513 537	Toà_án Tối_cao Venezuela
+T14	PER 566 572	Borges
+T15	CRIME 576 593	" âm_mưu ám_sát "
+T16	Die 585 591	ám_sát
+E6	Die:T16 Agent-Arg:T14
+T17	Die 626 633	mưu_sát
+E7	Die:T17 Instrument-Arg:T20 Time-Arg:T21 Agent-Arg:T14 Victim-Arg:T18
+T18	PER 634 659	Tổng_thống Nicolas_Maduro
+T19	Transport 689 693	mang
+E8	Transport:T19 Vehicle-Arg:T22 Agent-Arg:T14 Artifact-Arg:T20 Time-Arg:T21
+T20	WEA 694 702	thuốc_nổ
+T21	TIME 703 710	hôm 4/8
+T22	VEH 665 688	máy_bay_không_người_lái
+T23	Arrest-jail 766 773	bắt_giữ
+E9	Arrest-jail:T23 Agent-Arg:T24 Person-Arg:T25 Place-Arg:T26 Crime-Arg:T27
+T24	ORG 749 765	cơ_quan tình_báo
+T25	PER 774 804	nghị_sĩ đối lập Juan Requesens
+T26	LOC 809 818	nhà_riêng
+T27	CRIME 823 851	các cáo_buộc tương_tự Borges
+T28	Die 1072 1078	ám_sát
+E10	Die:T28 Victim-Arg:T29 Agent-Arg:T30
+T29	PER 1085 1102	Tổng_thống Maduro
+T30	PER 1112 1131	Borges và Requesens
+T31	Die 1211 1217	ám_sát
+E11	Die:T31 
+T32	Die 1358 1364	ám_sát
+E12	Die:T32 Victim-Arg:T33
+T33	PER 1310 1345	Tổng_thống Venezuela_Nicolas_Maduro
+T34	GPE 275 289	Colombia và Mỹ

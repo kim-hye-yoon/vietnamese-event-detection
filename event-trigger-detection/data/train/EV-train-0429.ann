@@ -1,0 +1,43 @@
+T1	Elect 35 43	được bầu
+E1	Elect:T1 Position-Arg:T2
+T2	JOB 0 34	Chủ_tịch HĐND Lạng_Sơn , Thanh_Hoá
+T3	Elect 136 139	bầu
+E2	Elect:T3 Position-Arg:T4 Person-Arg:T5 Time-Arg:T6 Entity-Arg:T24
+T4	JOB 140 193	các chức_danh chủ_chốt của HĐND và UBND tỉnh khoá mới
+T5	PER 198 209	58 đại_biểu
+T6	TIME 69 78	Sáng 30/6
+T7	Elect 271 279	trúng_cử
+E3	Elect:T7 Person-Arg:T9 Position-Arg:T8
+T8	JOB 285 303	Chủ_tịch HĐND tỉnh
+T9	PER 212 265	Ông Hoàng_Văn_Nghiệm , Phó Bí_thư Thường_trực Tỉnh_uỷ
+T10	Elect 346 352	tái_cử
+E4	Elect:T10 Person-Arg:T12 Position-Arg:T11
+T11	JOB 358 376	Chủ_tịch UBND tỉnh
+T12	PER 325 345	Ông Phạm_Ngọc_Thưởng
+T13	Elect 531 539	được bầu
+E5	Elect:T13 Person-Arg:T15 Position-Arg:T14
+T14	JOB 549 585	Chủ_tịch UBND tỉnh Lạng_Sơn khoá XVI
+T15	PER 501 521	ông Phạm_Ngọc_Thưởng
+T16	Elect 657 663	đắc_cử
+E6	Elect:T16 Person-Arg:T18 Position-Arg:T17
+T17	JOB 669 686	Phó chủ_tịch tỉnh
+T18	PER 608 650	Các ông Lý_Vinh_Quang , Nguyễn_Công_Trưởng
+T19	Elect 1071 1074	bầu
+E7	Elect:T19 Person-Arg:T20 Time-Arg:T22 Position-Arg:T21 Entity-Arg:T23
+T20	PER 1075 1137	ông Trịnh_Văn_Chiến , Uỷ_viên Trung_ương Đảng , Bí_thư Tỉnh_uỷ
+T21	JOB 1147 1160	Chủ_tịch HĐND
+T22	TIME 1000 1009	Cùng ngày
+T23	ORG 1013 1061	HĐND tỉnh Thanh_Hoá khoá XVII nhiệm_kỳ 2016-2021
+T24	ORG 81 108	HĐND tỉnh Lạng_Sơn khoá XVI
+T25	Elect 1239 1247	được bầu
+E8	Elect:T25 Person-Arg:T27 Position-Arg:T26
+T26	JOB 1252 1274	Phó Chủ_tịch HĐND tỉnh
+T27	PER 1201 1238	Ông Phạm_Thanh_Sơn và ông Phạm_Bá_Oai
+T28	Elect 1298 1304	tái_cử
+E9	Elect:T28 Person-Arg:T29 Position-Arg:T30
+T29	PER 1277 1297	Ông Nguyễn_Đình_Xứng
+T30	JOB 1310 1338	Chủ_tịch UBND tỉnh Thanh_Hoá
+T32	JOB 1478 1500	Phó chủ_tịch UBND tỉnh
+T31	PER 1370 1459	Các ông Nguyễn_Đức_Quyền , Phạm_Đặng_Quyền , Ngô_Văn_Tuấn , Lê_Anh_Tuấn và bà Lê Thị Thìn
+T33	Elect 1460 1468	được bầu
+E10	Elect:T33 Person-Arg:T31 Position-Arg:T32

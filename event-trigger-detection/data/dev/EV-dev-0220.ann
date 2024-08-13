@@ -1,0 +1,24 @@
+T1	PER 0 30	' Người đẹp thị_phi ' Thái_Lan
+T2	Marry 31 38	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	TIME 575 583	năm 2013
+T4	PER 586 604	Janie_Tienphosuwan
+T5	Marry 605 612	kết_hôn
+E2	Marry:T5 Person-Arg:T4 Time-Arg:T3 Person-Arg2:T6
+T6	PER 617 664	bố của bạn thân - tỷ_phú Ae_Chonsawat_Asavahame
+T7	PER 781 786	Janie
+T8	Divorce 787 792	ly_dị
+E3	Divorce:T8 Person-Arg:T7 Time-Arg:T9
+T9	TIME 793 801	năm 2014
+T10	PER 898 916	Janie_Tienphosuwan
+T11	Be-born 847 851	Sinh
+E4	Be-born:T11 Place-Arg:T13 Person-Arg:T10 Time-Arg:T12
+T12	TIME 852 860	năm 1981
+T13	GPE 863 881	Los_Angeles ( Mỹ )
+T14	Transport 917 919	về
+E5	Transport:T14 Destination-Arg:T15 Artifact-Arg:T10
+T15	GPE 920 928	Thái_Lan
+T16	PER 443 462	Chú_rể Non_Anaphath
+T17	Be-born 463 467	sinh
+E6	Be-born:T17 Person-Arg:T16 Time-Arg:T18
+T18	TIME 468 476	năm 1991

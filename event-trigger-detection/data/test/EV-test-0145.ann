@@ -1,0 +1,13 @@
+T1	ORG 508 514	các DN
+T2	Fine 534 541	bị phạt
+E1	Fine:T2 Entity-Arg:T1 Money-Arg:T3
+T3	MONEY 546 567	số tiền nhiều tỷ đồng
+T4	ORG 2288 2317	Đoàn thanh_tra của Bộ TN & MT
+T5	Transport 2318 2321	đến
+E2	Transport:T5 Agent-Arg:T4 Destination-Arg:T6
+T6	GPE 2322 2328	Cà_Mau
+T10	Phone-write 2757 2767	truyền_đạt
+E4	Phone-write:T10 Entity-Arg:T11 Entity-Arg2:T13
+T11	PER 2711 2729	Phó_Văn_phòng UBND
+T12	GPE 2730 2741	tỉnh Cà_Mau
+T13	ORG 2779 2800	Thường_trực UBND tỉnh

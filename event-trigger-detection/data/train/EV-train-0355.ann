@@ -1,0 +1,132 @@
+T1	Declare-bankruptcy 0 7	Phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Declare-bankruptcy 77 84	phá_sản
+E2	Declare-bankruptcy:T2 
+T3	TIME 22 31	ngày 30/3
+T4	PER 42 65	Tổng_thống Barack_Obama
+T5	Declare-bankruptcy 577 584	phá_sản
+E3	Declare-bankruptcy:T5 Org-Arg:T6
+T6	ORG 492 494	GM
+T7	Merge-org 742 750	sáp_nhập
+E4	Merge-org:T7 Org-Arg:T9 Org-Arg2:T8
+T8	ORG 684 692	Chrysler
+T9	ORG 755 773	hãng xe Italy_Fiat
+T10	TIME 702 709	30 ngày
+T11	Declare-bankruptcy 791 798	phá_sản
+E5	Declare-bankruptcy:T11 Org-Arg:T12
+T12	ORG 780 782	GM
+T13	Declare-bankruptcy 983 990	phá_sản
+E6	Declare-bankruptcy:T13 Org-Arg:T14
+T14	ORG 956 974	2/3 số công_ty lớn
+T15	ORG 1086 1105	các doanh_nghiệp Mỹ
+T16	Declare-bankruptcy 1108 1115	phá_sản
+E7	Declare-bankruptcy:T16 Org-Arg:T15
+T17	Declare-bankruptcy 1184 1191	phá_sản
+E8	Declare-bankruptcy:T17 
+T18	ORG 1261 1266	Kmart
+T19	Declare-bankruptcy 1332 1339	phá_sản
+E9	Declare-bankruptcy:T19 Time-Arg:T20 Org-Arg:T18
+T20	TIME 1344 1356	tháng 1/2002
+T21	End-org 1809 1817	đóng_cửa
+E10	End-org:T21 Org-Arg:T22 Org-Arg2:T23
+T22	ORG 1803 1808	Kmart
+T23	ORG 1818 1867	hàng trăm trong số khoảng 2.000 cửa_hàng của mình
+T24	Declare-bankruptcy 1912 1919	phá_sản
+E11	Declare-bankruptcy:T24 Org-Arg:T25
+T25	ORG 1924 1939	các hãng bán_lẻ
+T26	Merge-org 1985 1993	hợp nhất
+E12	Merge-org:T26 
+T27	Transfer-ownership 2151 2154	mua
+E13	Transfer-ownership:T27 Buyer-Arg:T28
+T28	PER 2035 2066	Một nhà_đầu_tư là Eddie_Lampert
+T29	Declare-bankruptcy 2214 2221	phá_sản
+E14	Declare-bankruptcy:T29 Org-Arg:T30 Time-Arg:T31
+T30	ORG 2189 2194	Kmart
+T31	TIME 2230 2238	455 ngày
+T32	PER 2241 2248	Lampert
+T33	Start-position 2249 2258	trở_thành
+E15	Start-position:T33 Position-Arg:T34 Person-Arg:T32
+T34	JOB 2259 2276	chủ_tịch của hãng
+T35	PER 2295 2302	Lampert
+T36	Transfer-ownership 2306 2309	bán
+E16	Transfer-ownership:T36 Seller-Arg:T35
+T37	Merge-org 2386 2394	sáp_nhập
+E17	Merge-org:T37 Org-Arg:T38 Org-Arg2:T39
+T38	ORG 2395 2400	Kmart
+T39	ORG 2405 2422	hãng bán_lẻ Sears
+T40	ORG 2425 2468	Hãng hàng_không Continental_Airlines của Mỹ
+T41	Declare-bankruptcy 2478 2485	phá_sản
+E18	Declare-bankruptcy:T41 Org-Arg:T40 Time-Arg:T42
+T42	TIME 2506 2522	năm 1983 và 1990
+T43	Declare-bankruptcy 2749 2756	phá_sản
+E19	Declare-bankruptcy:T43 Org-Arg:T45 Time-Arg:T44
+T44	TIME 2525 2543	Đầu thập_niên 1980
+T45	ORG 2628 2639	Continental
+T46	GPE 2623 2625	Mỹ
+T47	Declare-bankruptcy 3053 3060	phá_sản
+E20	Declare-bankruptcy:T47 Org-Arg:T48
+T48	ORG 3065 3076	Continental
+T49	TIME 3083 3091	năm 1990
+T50	ORG 3094 3105	Continental
+T51	Declare-bankruptcy 3110 3117	phá_sản
+E21	Declare-bankruptcy:T51 Org-Arg:T50 Time-Arg:T49
+T52	Declare-bankruptcy 3160 3167	phá_sản
+E22	Declare-bankruptcy:T52 
+T53	Transfer-money 3223 3229	nợ_nần
+E23	Transfer-money:T53 
+T54	Transfer-ownership 3255 3258	mua
+E24	Transfer-ownership:T54 
+T55	JOB 3285 3293	Chủ_tịch
+T56	ORG 3364 3375	Continental
+T57	Declare-bankruptcy 3456 3463	phá_sản
+E25	Declare-bankruptcy:T57 Org-Arg:T60
+T58	Transfer-ownership 3476 3479	bán
+E26	Transfer-ownership:T58 Artifact-Arg:T59
+T59	VEH 3480 3519	một_số tuyến bay quốc_tế cho hãng Delta
+T60	ORG 3546 3557	Continental
+T61	Declare-bankruptcy 3583 3590	Phá_sản
+E27	Declare-bankruptcy:T61 
+T62	ORG 3596 3607	Continental
+T63	Declare-bankruptcy 3843 3850	phá_sản
+E28	Declare-bankruptcy:T63 Org-Arg:T64
+T64	ORG 3853 3864	Continental
+T65	LOC 3945 3953	thế_giới
+T66	Declare-bankruptcy 3963 3970	phá_sản
+E29	Declare-bankruptcy:T66 
+T67	Declare-bankruptcy 4024 4031	phá_sản
+E30	Declare-bankruptcy:T67 Org-Arg:T68
+T68	ORG 4036 4069	hãng thời_trang Fruit of_the Loom
+T69	GPE 3998 4000	Mỹ
+T70	Transfer-ownership 4080 4083	mua
+E31	Transfer-ownership:T70 Buyer-Arg:T73 Artifact-Arg:T72 Time-Arg:T71
+T71	TIME 4104 4112	năm 1985
+T72	ORG 4088 4099	công_ty này
+T73	PER 4115 4137	doanh_nhân Bill_Farley
+T74	TIME 4226 4245	cuối thập_niên 1990
+T75	ORG 4299 4304	Fruit
+T76	Transport 4305 4311	chuyển
+E32	Transport:T76 Agent-Arg:T75 Time-Arg:T74 Destination-Arg:T78
+T77	FAC 4312 4319	nhà_máy
+T78	GPE 4343 4361	Morocco hay Mexico
+T79	Declare-bankruptcy 4613 4620	phá_sản
+E33	Declare-bankruptcy:T79 Org-Arg:T80 Time-Arg:T81
+T80	ORG 4595 4612	Fruit of the Loom
+T81	TIME 4578 4592	4 tháng sau đó
+T83	TIME 4479 4487	năm 1999
+T84	PER 4490 4496	Farley
+T82	Sue 4528 4537	kiện_tụng
+E34	Sue:T82 Defendant-Arg:T84 Time-Arg:T83
+T85	Declare-bankruptcy 4675 4682	phá_sản
+E35	Declare-bankruptcy:T85 Org-Arg:T86
+T86	ORG 4627 4644	Fruit of the Loom
+T87	ORG 4685 4738	tập_đoàn Berkshire_Hathaway của tỷ_phú Warren_Buffett
+T88	PER 4717 4738	tỷ_phú Warren_Buffett
+T89	Transfer-ownership 4742 4745	mua
+E36	Transfer-ownership:T89 Buyer-Arg:T87 Artifact-Arg:T90
+T90	ORG 4750 4761	công_ty này
+T91	Transfer-money 4889 4892	vay
+E37	Transfer-money:T91 
+T92	Transfer-ownership 4949 4952	bán
+E38	Transfer-ownership:T92 
+T93	Transfer-money 4984 4987	vay
+E39	Transfer-money:T93 

@@ -1,0 +1,28 @@
+T1	Start-org 847 856	thành_lập
+E1	Start-org:T1 Org-Arg:T3 Time-Arg:T2
+T2	TIME 861 869	năm 1880
+T3	ORG 824 846	Tập_đoàn Eastman_Kodak
+T4	Start-org 982 988	ra_đời
+E2	Start-org:T4 Org-Arg:T5 Time-Arg:T6
+T5	ORG 989 1020	hàng_loạt những công_ty đối_thủ
+T6	TIME 1027 1048	vài thập_niên gần đây
+T7	Declare-bankruptcy 24 31	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T8
+T8	ORG 0 5	Kodak
+T9	Declare-bankruptcy 264 271	phá_sản
+E4	Declare-bankruptcy:T9 Time-Arg:T10
+T10	TIME 272 288	hôm_nay ( 19/1 )
+T11	Transfer-money 649 652	trả
+E5	Transfer-money:T11 Giver-Arg:T13 Recipient-Arg:T12
+T12	PER 663 679	17.000 nhân_công
+T13	ORG 551 556	Kodak
+T14	Transfer-ownership 586 589	mua
+E6	Transfer-ownership:T14 Seller-Arg:T13 Artifact-Arg:T15
+T15	ORG 594 601	công_ty
+T16	Transfer-money 777 779	nợ
+E7	Transfer-money:T16 Money-Arg:T17
+T17	MONEY 810 821	6,75 tỷ USD
+T18	Declare-bankruptcy 1166 1173	phá_sản
+E8	Declare-bankruptcy:T18 
+T19	Declare-bankruptcy 1267 1274	phá_sản
+E9	Declare-bankruptcy:T19 

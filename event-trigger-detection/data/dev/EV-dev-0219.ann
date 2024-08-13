@@ -1,0 +1,71 @@
+T1	Execute 25 34	bị xử bắn
+E1	Execute:T1 Person-Arg:T2
+T2	PER 9 14	tử_tù
+T3	Execute 257 276	thi_hành án tử_hình
+E2	Execute:T3 
+T4	Execute 792 798	xử bắn
+E3	Execute:T4 
+T5	Execute 1275 1286	thi_hành án
+E4	Execute:T5 
+T6	Execute 1465 1476	thi_hành án
+E5	Execute:T6 Person-Arg:T8 Time-Arg:T7
+T7	TIME 1361 1369	ngày 6/8
+T8	PER 1372 1401	Nguyễn_Anh_Tuấn ( ở Mê_Linh )
+T9	Execute 1673 1684	thi_hành án
+E6	Execute:T9 Person-Arg:T12
+T10	Execute 1698 1704	xử bắn
+E7	Execute:T10 Person-Arg:T12
+T11	SEN 1685 1692	tử_hình
+T12	PER 1721 1739	cả nghìn phạm_nhân
+T14	PER 1772 1781	Mỗi tử_tù
+T13	Transport 1782 1788	bị đưa
+E8	Transport:T13 Artifact-Arg:T14
+T15	Sentence 1858 1866	tuyên_án
+E9	Sentence:T15 Crime-Arg:T16
+T16	CRIME 1867 1874	tử_hình
+T17	PER 1877 1879	họ
+T18	Transport 1880 1886	trở_về
+E10	Transport:T18 Destination-Arg:T19 Artifact-Arg:T17
+T19	FAC 1887 1897	buồng giam
+T20	Execute 1947 1958	thi_hành án
+E11	Execute:T20 Person-Arg:T17
+T21	TIME 2444 2458	ngày 24/6/2011
+T22	PER 2313 2361	Nguyễn_Văn_Hưng ( 21 tuổi , ở huyện Thạch_Thất )
+T23	Execute 2478 2487	bị xử bắn
+E12	Execute:T23 Time-Arg:T21 Person-Arg:T22
+T24	Execute 2499 2505	xử bắn
+E13	Execute:T24 Person-Arg:T25
+T25	PER 2506 2511	tử_tù
+T26	PER 2807 2816	một người
+T27	PER 2777 2781	Hưng
+T29	GPE 2824 2847	huyện Phúc_Thọ , Hà_Nội
+T28	Transport 2817 2823	chở về
+E14	Transport:T28 Destination-Arg:T29 Agent-Arg:T26 Artifact-Arg:T27
+T30	Transport 2926 2933	bỏ chạy
+E15	Transport:T30 Artifact-Arg:T32
+T31	PER 2879 2883	Hưng
+T32	PER 2908 2916	nạn_nhân
+T33	Attack 2892 2901	khống_chế
+E16	Attack:T33 Instrument-Arg:T34 Attacker-Arg:T31 Target-Arg:T32
+T34	WEA 2888 2891	dao
+T35	Attack 2995 2998	đâm
+E17	Attack:T35 Attacker-Arg:T36 Target-Arg:T37
+T36	PER 2980 2984	Hưng
+T37	PER 3043 3068	người lái xe_ôm nghèo_khổ
+T38	Pardon 3218 3223	ân_xá
+E18	Pardon:T38 
+T39	Execute 3341 3352	thi_hành án
+E19	Execute:T39 Person-Arg:T40
+T40	PER 3360 3365	tử_tù
+T41	Phone-write 3398 3406	viết thư
+E20	Phone-write:T41 Entity-Arg:T42
+T42	PER 3444 3454	người_thân
+T43	Execute 3487 3498	thi_hành án
+E21	Execute:T43 Person-Arg:T44
+T44	PER 3482 3486	Hưng
+T45	Execute 3880 3891	thi_hành án
+E22	Execute:T45 Crime-Arg:T46
+T46	CRIME 3892 3899	tử_hình
+T47	PER 3922 3927	người
+T48	Execute 3928 3937	bị xử bắn
+E23	Execute:T48 Person-Arg:T47

@@ -1,0 +1,33 @@
+T1	PER 1 12	223 nữ_sinh
+T2	Attack 13 23	bị bắt_cóc
+E1	Attack:T2 Target-Arg:T1
+T3	PER 99 110	276 nữ_sinh
+T4	Attack 136 146	bị bắt_cóc
+E2	Attack:T4 Target-Arg:T3 Time-Arg:T5
+T5	TIME 151 162	tháng trước
+T6	PER 333 342	Người_dân
+T7	Demonstrate 343 349	giương
+E3	Demonstrate:T7 Entity-Arg:T6
+T8	PER 485 496	230 nữ_sinh
+T9	Attack 497 507	bị bắt_cóc
+E4	Attack:T9 Target-Arg:T8 Time-Arg:T10 Place-Arg:T11
+T10	TIME 514 523	đêm khuya
+T11	GPE 528 586	một trường trung_học trong khu_vực ở phía đông bắc Nigeria
+T12	PER 1153 1172	những người đàn_ông
+T13	Attack 1188 1196	đột_nhập
+E5	Attack:T13 Attacker-Arg:T12 Time-Arg:T24
+T14	Transport 1276 1282	chở đi
+E6	Transport:T14 Agent-Arg:T12 Artifact-Arg:T15
+T15	PER 1225 1236	các nữ_sinh
+T16	PER 1448 1455	nữ_sinh
+T17	Attack 1459 1466	bắt_cóc
+E7	Attack:T17 Target-Arg:T16
+T18	PER 1788 1794	phụ_nữ
+T19	Transport 1870 1873	đến
+E8	Transport:T19 Agent-Arg:T18 Destination-Arg:T20
+T20	FAC 1874 1880	trường
+T21	PER 1953 1969	những chiến_binh
+T22	Attack 1988 1995	bắt_cóc
+E9	Attack:T22 Attacker-Arg:T21 Target-Arg:T23
+T23	PER 1996 2003	nữ_sinh
+T24	TIME 1115 1128	đêm_ngày 16/4

@@ -1,0 +1,32 @@
+T1	Divorce 29 35	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 28	Bạn_trai của Jennifer_Garner
+T3	Divorce 145 151	ly_hôn
+E2	Divorce:T3 Person-Arg:T4 Person-Arg2:T5 Time-Arg:T6
+T4	PER 156 167	John_Miller
+T5	PER 171 188	Caroline_Campbell
+T6	TIME 38 48	Ngày 16/11
+T7	Divorce 359 365	ly_hôn
+E3	Divorce:T7 Person-Arg:T8
+T8	PER 321 327	Cả hai
+T9	Divorce 463 471	chia_tay
+E4	Divorce:T9 Person-Arg:T10
+T10	PER 477 494	Caroline_Campbell
+T11	Marry 609 613	cưới
+E5	Marry:T11 Person-Arg:T12 Person-Arg2:T13 Time-Arg:T14
+T12	PER 589 600	John_Miller
+T13	PER 618 635	Caroline_Campbell
+T14	TIME 640 652	tháng 4/2005
+T15	Divorce 679 685	ly_hôn
+E6	Divorce:T15 Person-Arg:T16 Time-Arg:T17
+T16	PER 654 671	CEO của CaliGroup
+T17	TIME 691 699	năm 2011
+T18	Divorce 1130 1136	ly_hôn
+E7	Divorce:T18 Person-Arg:T20 Person-Arg2:T19 Time-Arg:T21
+T19	PER 1137 1148	Ben_Affleck
+T20	PER 1090 1107	Diễn_viên 46 tuổi
+T21	TIME 1153 1161	tháng 10
+T22	Divorce 1574 1580	ly_hôn
+E8	Divorce:T22 Person-Arg:T24 Person-Arg2:T23
+T23	PER 1581 1592	Ben_Affleck
+T24	PER 1533 1548	Jennifer_Garner

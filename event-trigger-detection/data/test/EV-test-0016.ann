@@ -1,0 +1,37 @@
+T1	Transport 7 9	đi
+E1	Transport:T1 
+T2	Marry 92 100	bên nhau
+E2	Marry:T2 Person-Arg:T3 Person-Arg2:T4
+T3	PER 62 73	Tôi 30 tuổi
+T4	PER 76 89	chồng 41 tuổi
+T5	Transfer-money 407 415	vay_mượn
+E3	Transfer-money:T5 Recipient-Arg:T6
+T6	PER 329 332	anh
+T7	Transfer-money 944 947	trả
+E4	Transfer-money:T7 Giver-Arg:T8
+T8	PER 940 943	anh
+T9	Transfer-money 921 929	vay_mượn
+E5	Transfer-money:T9 Recipient-Arg:T10
+T10	PER 901 904	tôi
+T11	Transfer-ownership 1045 1048	bán
+E6	Transfer-ownership:T11 Seller-Arg:T12
+T12	PER 1034 1036	bà
+T13	Divorce 1281 1286	ly_dị
+E7	Divorce:T13 Person-Arg:T14 Person-Arg2:T15
+T14	PER 1273 1276	Tôi
+T15	PER 1293 1296	anh
+T16	Transport 1360 1362	đi
+E8	Transport:T16 Artifact-Arg:T18 Destination-Arg:T17 Agent-Arg:T19
+T17	GPE 1363 1367	Nhật
+T18	PER 1356 1359	tôi
+T19	PER 1312 1320	Chị ruột
+T20	Divorce 1480 1495	đường ai_nấy đi
+E9	Divorce:T20 
+T21	Transport 1753 1755	đi
+E10	Transport:T21 Destination-Arg:T22 Agent-Arg:T23
+T22	GPE 1756 1760	Nhật
+T23	PER 1671 1674	tôi
+T24	Phone-write 1860 1868	gọi điện
+E11	Phone-write:T24 Entity-Arg:T25 Entity-Arg2:T26
+T25	PER 1852 1859	Độc_giả
+T26	PER 1880 1893	biên_tập_viên

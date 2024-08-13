@@ -1,0 +1,38 @@
+T1	Attack 3 10	sát_hại
+E1	Attack:T1 Target-Arg:T2 Attacker-Arg:T3 Place-Arg:T14
+T2	PER 17 28	t 250 người
+T3	ORG 0 2	IS
+T4	Die 582 592	thiệt_mạng
+E2	Die:T4 Victim-Arg:T5
+T5	PER 596 606	dân_thường
+T6	PER 771 780	280 người
+T7	Die 781 791	thiệt_mạng
+E3	Die:T7 Victim-Arg:T6
+T8	PER 970 979	250 người
+T9	Die 980 984	chết
+E4	Die:T9 Victim-Arg:T8 Place-Arg:T23
+T10	Attack 1083 1090	tàn_sát
+E5	Attack:T10 
+T11	Transport 1209 1218	di_chuyển
+E6	Transport:T11 Destination-Arg:T13 Agent-Arg:T12
+T12	ORG 1190 1203	phiến quân IS
+T13	LOC 1228 1259	phía bắc của tỉnh Deir ez - Zor
+T14	GPE 31 41	đông Syria
+T15	Attack 150 160	vụ tàn_sát
+E7	Attack:T15 Place-Arg:T16
+T16	GPE 168 182	ở al - Bagilya
+T17	PER 662 689	hàng chục binh_sĩ chính_phủ
+T18	Die 695 705	thiệt_mạng
+E8	Die:T18 Victim-Arg:T17
+T20	Attack 1020 1028	chặt đầu
+E9	Attack:T20 Target-Arg:T19
+T21	Attack 498 508	hành_quyết
+E10	Attack:T21 
+T22	ORG 469 482	Phiến quân IS
+T19	PER 1001 1016	Một_số nạn_nhân
+T23	LOC 987 998	khu Bagilya
+T24	Attack 892 899	bắt_cóc
+E11	Attack:T24 
+T25	PER 870 888	400 người sống_sót
+T26	Die 822 829	thi_thể
+E12	Die:T26 

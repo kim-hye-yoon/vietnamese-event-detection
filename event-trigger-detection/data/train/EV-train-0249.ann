@@ -1,0 +1,10 @@
+T1	Attack 146 151	phóng
+E1	Attack:T1 Time-Arg:T2 Instrument-Arg:T3 Attacker-Arg:T7 Attacker-Arg2:T6 Attacker-Arg3:T5
+T2	TIME 136 145	ngày 14/4
+T3	WEA 152 174	105 tên_lửa hành_trình
+T4	Attack 175 183	tấn_công
+E2	Attack:T4 Target-Arg:T8 Instrument-Arg:T3
+T5	GPE 120 122	Mỹ
+T6	GPE 125 128	Anh
+T7	GPE 131 135	Pháp
+T8	FAC 184 245	ba cơ_sở bị nghi sản_xuất , tàng_trữ vũ_khí_hoá_học của Syria

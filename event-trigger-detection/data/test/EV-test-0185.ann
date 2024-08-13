@@ -1,0 +1,15 @@
+T1	Start-position 565 574	nhậm_chức
+E1	Start-position:T1 Position-Arg:T3 Time-Arg:T2 Person-Arg:T4
+T2	TIME 542 550	Năm 2011
+T3	JOB 575 589	Đại_sứ Du_lịch
+T4	PER 633 636	tôi
+T5	PER 943 952	mọi người
+T6	Phone-write 953 961	nhắn_tin
+E2	Phone-write:T6 Entity-Arg:T7 Entity-Arg2:T5
+T7	PER 978 981	tôi
+T8	PER 14 17	Tôi
+T9	Marry 23 30	kết_hôn
+E3	Marry:T9 Person-Arg:T8
+T10	PER 1298 1307	chúng_tôi
+T11	Marry 1339 1346	kết_hôn
+E4	Marry:T11 Person-Arg:T10

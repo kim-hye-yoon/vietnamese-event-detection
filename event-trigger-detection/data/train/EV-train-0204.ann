@@ -1,0 +1,30 @@
+T1	End-position 34 43	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 30	Hai cảnh_sát kinh_tế Sóc_Trăng
+T3	End-position 233 242	cách_chức
+E2	End-position:T3 
+T4	JOB 130 156	Phó phòng Cảnh_sát Kinh_tế
+T5	PER 162 185	trung_tá Trương_Minh_Tr
+T6	ORG 58 80	Công_an tỉnh Sóc_Trăng
+T7	TIME 46 55	Ngày 28/7
+T8	Trial-hearing 326 332	xét_xử
+E3	Trial-hearing:T8 Defendant-Arg:T11 Time-Arg:T10
+T9	Arrest-jail 409 412	bắt
+E4	Arrest-jail:T9 Time-Arg:T10 Person-Arg:T11
+T10	TIME 413 430	hơn một năm trước
+T11	PER 333 403	ông Châu_Hoài_Phương ( nguyên Chi_cục phó Quản_lý thị_trường Sóc_Trăng
+T12	End-position 583 589	chuyển
+E5	End-position:T12 Position-Arg:T14 Person-Arg:T13 Entity-Arg:T15
+T13	PER 524 541	ông Võ_Minh_Thiên
+T14	JOB 551 570	Phó chánh Thanh_tra
+T15	ORG 455 508	Sở Nông_nghiệp và Phát_triển Nông_thôn tỉnh Sóc_Trăng
+T16	Meet 1326 1334	cuộc họp
+E6	Meet:T16 Entity-Arg:T17
+T17	PER 1217 1242	thượng_tá Trương_Minh_Trí
+T18	TIME 1546 1558	tháng 9/2017
+T19	ORG 1561 1583	Công_an tỉnh Sóc_Trăng
+T20	Arrest-jail 1584 1587	bắt
+E7	Arrest-jail:T20 Person-Arg:T21 Agent-Arg:T19 Time-Arg:T18
+T21	PER 1597 1628	ông Phương và ông Ưng_Văn_Thanh
+T22	Transfer-ownership 1475 1483	tiêu_thụ
+E8	Transfer-ownership:T22 

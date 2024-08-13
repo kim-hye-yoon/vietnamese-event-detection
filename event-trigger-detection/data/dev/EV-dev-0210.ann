@@ -1,0 +1,63 @@
+T1	Attack 34 38	đánh
+E1	Attack:T1 Place-Arg:T2 Instrument-Arg:T3
+T2	GPE 0 7	Bangkok
+T3	WEA 39 42	bom
+T4	Demonstrate 91 100	biểu_tình
+E2	Demonstrate:T4 Place-Arg:T5
+T5	GPE 103 130	Thủ_đô Bangkok của Thái_Lan
+T6	Attack 62 64	nổ
+E3	Attack:T6 Instrument-Arg:T7 Place-Arg:T5 Time-Arg:T8
+T7	WEA 65 68	bom
+T8	TIME 43 52	Trưa 10/2
+T9	PER 145 156	6 nhân_viên
+T10	Injure 168 177	bị_thương
+E4	Injure:T10 Victim-Arg:T9
+T11	PER 192 199	2 người
+T12	Injure 200 209	bị_thương
+E5	Injure:T12 Victim-Arg:T11
+T13	Attack 283 285	nổ
+E6	Attack:T13 Place-Arg:T14 Instrument-Arg:T15 Instrument-Arg2:T16
+T14	GPE 288 312	trung_tâm thủ_đô Bangkok
+T15	WEA 319 337	một quả bom tự chế
+T16	WEA 343 359	một quả pháo_cối
+T17	PER 528 535	6 người
+T18	Injure 536 545	bị_thương
+E7	Injure:T18 Victim-Arg:T17
+T19	PER 517 518	2
+T20	Transport 554 563	nhập_viện
+E8	Transport:T20 Agent-Arg:T19
+T21	PER 675 729	2 người ( một người biểu_tình , một nhân_viên bảo_vệ )
+T22	Injure 730 739	bị_thương
+E9	Injure:T22 Victim-Arg:T21 Place-Arg:T23 Time-Arg:T24
+T23	GPE 616 623	Bangkok
+T24	TIME 593 613	ngày hôm_qua ( 9/2 )
+T25	Meet 791 800	thảo_luận
+E10	Meet:T25 Entity-Arg:T26 Entity-Arg2:T27 Time-Arg:T28
+T26	ORG 754 779	Uỷ_ban bầu_cử Thái_Lan EC
+T27	PER 805 816	bà Yingluck
+T28	TIME 742 751	Cùng ngày
+T29	Demonstrate 1353 1358	chống
+E11	Demonstrate:T29 Entity-Arg:T30 Place-Arg:T31
+T30	ORG 1359 1368	chính_phủ
+T31	GPE 1373 1385	quốc_gia này
+T33	TIME 1800 1828	Tết Songkran vào tháng 4 này
+T34	ORG 1717 1758	Uỷ_ban Cải_cách Dân_chủ Nhân_dân ( PDRC )
+T35	Attack 1464 1473	phong_toả
+E13	Attack:T35 Attacker-Arg:T36 Place-Arg:T37
+T36	ORG 1416 1432	song phe Áo vàng
+T37	LOC 1478 1514	nút giao_thông quan_trọng tại Thủ_đô
+T38	Demonstrate 2078 2083	chống
+E14	Demonstrate:T38 Entity-Arg:T39 Entity-Arg2:T40
+T39	PER 2034 2049	người biểu_tình
+T40	ORG 2084 2093	chính_phủ
+T41	Elect 2165 2171	bầu_cử
+E15	Elect:T41 Time-Arg:T42
+T42	TIME 2172 2179	hôm 2/2
+T43	Transfer-money 2271 2279	cắt_giảm
+E16	Transfer-money:T43 Giver-Arg:T45 Money-Arg:T44
+T44	MONEY 2280 2302	10 % doanh_thu dự_kiến
+T45	ORG 2243 2256	ngành du_lịch
+T50	Injure 567 576	bị_thương
+E18	Injure:T50 Victim-Arg:T19
+T32	Demonstrate 1786 1795	biểu_tình
+E12	Demonstrate:T32 Entity-Arg:T34 Time-Arg:T33

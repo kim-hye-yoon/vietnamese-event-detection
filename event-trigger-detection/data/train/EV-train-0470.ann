@@ -1,0 +1,33 @@
+T1	PER 0 21	Vệ_sĩ Tổng_thống Pháp
+T2	Attack 22 26	đánh
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 27 42	người biểu_tình
+T4	PER 587 594	Benalla
+T5	Attack 644 650	kéo lê
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T7
+T6	Attack 680 688	đánh_đập
+E3	Attack:T6 Attacker-Arg:T4 Target-Arg:T8
+T7	PER 651 667	một người phụ_nữ
+T8	PER 689 711	một nam thanh_niên khá
+T9	PER 903 910	Benalla
+T10	Arrest-jail 919 925	bị bắt
+E4	Arrest-jail:T10 Person-Arg:T9 Crime-Arg:T11
+T11	CRIME 930 977	cáo_buộc hành_hung và giả_danh_sĩ_quan cảnh_sát
+T12	PER 989 996	Benalla
+T13	Attack 997 1006	hành_hung
+E5	Attack:T13 Attacker-Arg:T12 Target-Arg:T14 Time-Arg:T15
+T14	PER 1007 1022	người biểu_tình
+T15	TIME 1023 1030	hôm 1/5
+T16	PER 165 174	Hai người
+T17	Attack 178 186	tấn_công
+E6	Attack:T17 Target-Arg:T16
+T18	Demonstrate 131 140	biểu_tình
+E7	Demonstrate:T18 Time-Arg:T19
+T19	TIME 141 148	hôm 1/5
+T20	Demonstrate 724 733	biểu_tình
+E8	Demonstrate:T20 Time-Arg:T21 Place-Arg:T22
+T21	TIME 756 759	1/5
+T22	GPE 762 774	thủ_đô Paris
+T23	End-position 886 893	sa_thải
+E9	End-position:T23 Person-Arg:T24
+T24	PER 894 900	anh ta

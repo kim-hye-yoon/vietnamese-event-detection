@@ -1,0 +1,31 @@
+T1	Execute 20 27	tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 0 10	Tù_nhân Mỹ
+T3	Execute 124 131	tử_hình
+E2	Execute:T3 Person-Arg:T4
+T4	PER 136 157	tù_nhân Noel_Montalvo
+T5	Trial-hearing 181 187	xét_xử
+E3	Trial-hearing:T5 Adjudicator-Arg:T6 Defendant-Arg:T4
+T6	ORG 168 180	toà cấp dưới
+T7	Appeal 330 339	kháng_cáo
+E4	Appeal:T7 
+T8	Trial-hearing 583 589	xét_xử
+E5	Trial-hearing:T8 Adjudicator-Arg:T9
+T9	PER 550 559	thẩm_phán
+T10	Sentence 720 729	hình_phạt
+E6	Sentence:T10 Sentence-Arg:T11
+T11	SEN 730 737	tử_hình
+T12	Trial-hearing 821 827	xét_xử
+E7	Trial-hearing:T12 
+T13	Die 1455 1459	giết
+E8	Die:T13 Agent-Arg:T15 Agent-Arg2:T16 Victim-Arg:T14 Time-Arg:T17
+T14	PER 1460 1494	bạn gái cũ và người_yêu của cô này
+T15	PER 1446 1454	anh_trai
+T16	PER 1407 1420	Noel Montalvo
+T17	TIME 1507 1511	1998
+T18	Trial-hearing 1530 1536	xét_xử
+E9	Trial-hearing:T18 Defendant-Arg:T21
+T19	Sentence 1554 1561	nhận án
+E10	Sentence:T19 Sentence-Arg:T20 Defendant-Arg:T21
+T20	SEN 1562 1569	tử_hình
+T21	PER 1514 1524	Hai anh_em

@@ -1,0 +1,62 @@
+T1	PER 68 89	Những nạn_nhân xấu_số
+T2	Die 116 125	chết ngạt
+E1	Die:T2 Victim-Arg:T1
+T3	PER 135 144	một người
+T4	Die 145 149	chết
+E2	Die:T4 Victim-Arg:T3 Place-Arg:T5
+T5	LOC 152 161	cầu_thang
+T6	PER 946 966	Những người đang ngủ
+T7	Die 979 988	chết ngạt
+E3	Die:T7 Victim-Arg:T6
+T8	PER 2167 2182	nạn_nhân xấu_số
+T9	Die 2199 2208	chết ngạt
+E4	Die:T9 Victim-Arg:T8
+T10	PER 2218 2227	một người
+T11	Die 2228 2232	chết
+E5	Die:T11 Place-Arg:T12 Victim-Arg:T10
+T12	FAC 2235 2244	cầu_thang
+T13	PER 2282 2303	thi_thể cả 5 nạn_nhân
+T14	Transport 2312 2318	chuyển
+E6	Transport:T14 Destination-Arg:T15 Artifact-Arg:T13
+T15	FAC 2323 2352	nhà tang_lễ bệnh_viện Bạch_Ma
+T16	PER 3143 3150	thi_thể
+T17	Transport 3139 3142	đưa
+E7	Transport:T17 Destination-Arg:T19 Artifact-Arg:T16 Agent-Arg:T18
+T18	PER 3126 3134	gia_đình
+T19	LOC 3154 3157	quê
+T20	PER 3996 4005	năm người
+T21	Die 4006 4013	tử_vong
+E8	Die:T21 Victim-Arg:T20
+T22	Transport 620 624	chạy
+E9	Transport:T22 Artifact-Arg:T23 Destination-Arg:T24
+T23	PER 604 606	bà
+T24	LOC 637 654	nhà mình ở gần đó
+T25	Die 1791 1798	tử_vong
+E10	Die:T25 Victim-Arg:T27 Victim-Arg2:T26
+T26	PER 1783 1790	5 người
+T27	PER 1816 2158	Phạm_Trung_Nam ( 42 tuổi , ở Hà_Nội , là 1 trong 3 chủ quán ) ; Trần_Trung_Hiếu ( sn 1989 , trú tại Thanh_Trì , Hà_Nội ) ; Hoàng_Thị_Hiền ( sn 1988 , trú tại huyện Hạ_Hoà , Phú_Thọ ) ; Lưu_Viết_Trinh ( sn 1990 , trú tại huyện Văn_Chấn , Yên_Bái ) và Lê_Thị_Hằng ( sn 1992 , quê Hải_Phòng , trú tại tập_thể Thành_Công , quận Ba_Đình , Hà_Nội )
+T28	Transport 3572 3575	chở
+E11	Transport:T28 Vehicle-Arg:T29
+T29	VEH 3557 3571	những chiếc xe
+T30	Phone-write 3686 3694	gọi điện
+E12	Phone-write:T30 Entity-Arg:T31
+T31	PER 3651 3658	Ông Hào
+T33	Die 3745 3754	chết cháy
+E14	Die:T33 Victim-Arg:T34
+T34	PER 3739 3741	nó
+T35	PER 3717 3727	Thằng Hiếu
+T36	Die 3872 3880	chết rồi
+E15	Die:T36 Victim-Arg:T37
+T37	PER 3869 3871	nó
+T32	Die 3728 3736	chết rồi
+E13	Die:T32 Victim-Arg:T35
+T38	Die 5024 5031	tử_vong
+E16	Die:T38 Victim-Arg:T39
+T39	PER 4967 4987	Anh Nam cùng 4 người
+T40	Phone-write 3329 3339	điện_thoại
+E17	Phone-write:T40 Entity-Arg:T41 Entity-Arg2:T42
+T41	PER 3319 3328	một người
+T42	PER 3294 3297	Tôi
+T43	Die 2469 2478	chết cháy
+E18	Die:T43 Victim-Arg:T44
+T44	PER 2494 2508	Lưu_Viết_Trinh

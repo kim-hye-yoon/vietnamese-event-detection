@@ -1,0 +1,39 @@
+T1	ORG 17 33	vào một gia_đình
+T2	Attack 1 3	Xả
+E1	Attack:T2 Instrument-Arg:T3 Target-Arg:T1
+T3	WEA 4 8	súng
+T4	PER 116 128	một tay súng
+T5	Attack 150 152	xả
+E2	Attack:T5 Attacker-Arg:T4 Time-Arg:T9 Place-Arg:T8 Instrument-Arg:T6 Target-Arg:T7
+T7	PER 162 169	6 người
+T8	GPE 76 95	bang Arkasas của Mỹ
+T9	TIME 96 104	ngày 3/5
+T6	WEA 153 157	súng
+T10	PER 203 210	2 người
+T11	Die 211 221	thiệt_mạng
+E3	Die:T11 Victim-Arg:T10
+T12	PER 225 231	4 ngườ
+T13	Injure 233 242	bị_thương
+E4	Injure:T13 Victim-Arg:T12
+T14	PER 257 265	2 trẻ_em
+T15	Injure 266 275	bị_thương
+E5	Injure:T15 Victim-Arg:T14
+T16	PER 315 317	kẻ
+T17	Attack 318 320	xả
+E6	Attack:T17 Attacker-Arg:T16 Instrument-Arg:T18
+T18	WEA 321 325	súng
+T19	Die 330 337	sát_hại
+E7	Die:T19 Victim-Arg:T20 Agent-Arg:T16
+T20	PER 338 351	một nhân_viên
+T21	Die 560 570	thiệt_mạng
+E8	Die:T21 Victim-Arg:T22 Instrument-Arg:T23
+T22	PER 546 554	tay súng
+T23	VEH 577 585	một ô_tô
+T24	PER 613 621	cảnh_sát
+T25	PER 649 656	tên này
+T26	Die 657 661	chết
+E9	Die:T26 Agent-Arg:T25
+T27	Die 668 674	tự_sát
+E10	Die:T27 Agent-Arg:T25
+T28	Attack 682 685	bắn
+E11	Attack:T28 Target-Arg:T25

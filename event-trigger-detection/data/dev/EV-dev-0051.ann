@@ -1,0 +1,64 @@
+T1	Arrest-jail 0 3	Bắt
+E1	Arrest-jail:T1 Person-Arg:T2
+T2	PER 4 10	tài_xế
+T3	Attack 19 22	cán
+E2	Attack:T3 Target-Arg:T5 Attacker-Arg:T2
+T4	Die 23 27	chết
+E3	Die:T4 Victim-Arg:T5 Agent-Arg:T2
+T5	PER 28 46	hai anh_em nữ_sinh
+T6	TIME 47 66	Sau khi gây tai_nạn
+T7	PER 96 120	tài_xế Nguyễn_Minh_Triều
+T8	Transport 124 134	điều_khiển
+E4	Transport:T8 Artifact-Arg:T7 Time-Arg:T6 Vehicle-Arg:T9
+T9	VEH 135 137	xe
+T10	Attack 138 154	cán đi , cán lại
+E5	Attack:T10 Time-Arg:T6 Target-Arg:T11 Attacker-Arg:T7 Target-Arg2:T14
+T11	PER 161 167	cô_gái
+T12	Die 168 175	tử_vong
+E6	Die:T12 Victim-Arg:T11 Place-Arg:T13 Time-Arg:T6
+T13	LOC 176 183	tại_chỗ
+T14	PER 190 204	nam thanh_niên
+T15	Injure 205 231	trong tình_trạng nguy_kịch
+E7	Injure:T15 Victim-Arg:T14 Agent-Arg:T7 Time-Arg:T6
+T16	PER 462 542	Anh Lê_Ngọc_Hoàng ( SN 1990 , trú tại thôn 9 , xã Hoà_Thắng , TP Buôn_Ma_Thuột )
+T17	PER 594 628	em_gái Lê_Thị_Minh_Tâm ( SN 1994 )
+T18	GPE 641 657	TP Buôn_Ma_Thuột
+T19	GPE 660 674	thị_xã Buôn_Hồ
+T20	VEH 682 711	xe ô_tô mang BKS 47A – 021.45
+T21	Transport 545 555	điều_khiển
+E8	Transport:T21 Agent-Arg:T16 Vehicle-Arg:T22 Artifact-Arg:T17 Origin-Arg:T18 Destination-Arg:T19
+T22	VEH 556 589	xe mô_tô mang BKS : 47B1 – 104.46
+T23	Transport 590 593	chở
+E9	Transport:T23 Agent-Arg:T16 Artifact-Arg:T17 Origin-Arg:T18 Destination-Arg:T19 Vehicle-Arg:T22
+T24	PER 715 802	tài_xế Nguyễn_Minh_Triều ( SN 1987 , trú tại thôn 6 , xã Hoà_Thuận , TP Buôn_Ma_Thuột )
+T25	Attack 803 807	tông
+E10	Attack:T25 Instrument-Arg:T20 Attacker-Arg:T24 Target-Arg:T16
+T26	TIME 953 978	sau khi gây ra vụ tai_nạn
+T27	PER 985 1013	tài_xế của chiếc xe ô_tô này
+T28	Transport 1059 1069	điều_khiển
+E11	Transport:T28 Time-Arg:T26 Agent-Arg:T27 Vehicle-Arg:T29
+T29	VEH 1070 1072	xe
+T30	Attack 1073 1087	cán đi cán lại
+E12	Attack:T30 Attacker-Arg:T27 Target-Arg:T31
+T31	PER 1088 1096	nạn_nhân
+T32	PER 1105 1123	em Lê_Thị_Minh_Tâm
+T33	Die 1124 1131	tử_vong
+E13	Die:T33 Time-Arg:T26 Agent-Arg:T27 Victim-Arg:T32 Place-Arg:T34
+T34	LOC 1132 1139	tại_chỗ
+T35	PER 1144 1153	anh Hoàng
+T36	Injure 1158 1184	trong tình_trạng nguy_kịch
+E14	Injure:T36 Time-Arg:T26 Agent-Arg:T27 Victim-Arg:T35
+T37	PER 1222 1240	em Lê_Thị_Minh_Tâm
+T38	Transport 1319 1321	về
+E15	Transport:T38 Destination-Arg:T39 Artifact-Arg:T37
+T39	LOC 1322 1325	quê
+T40	ORG 1387 1425	lực_lượng chức_năng CATP Buôn_Ma_Thuột
+T41	Arrest-jail 1460 1467	bắt_giữ
+E16	Arrest-jail:T41 Agent-Arg:T40 Person-Arg:T42
+T42	PER 1468 1492	lái_xe Nguyễn_Minh_Triều
+T43	Attack 1547 1550	cán
+E17	Attack:T43 Time-Arg:T46 Target-Arg:T45
+T44	Die 1551 1555	chết
+E18	Die:T44 Time-Arg:T46 Victim-Arg:T45
+T45	PER 1556 1564	nạn_nhân
+T46	TIME 1565 1584	sau khi gây tai_nạn

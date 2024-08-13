@@ -1,0 +1,36 @@
+T1	Attack 638 650	đòn tấn_công
+E1	Attack:T1 Attacker-Arg:T2
+T2	GPE 655 657	Mỹ
+T3	GPE 829 831	Mỹ
+T4	GPE 834 837	Anh
+T5	GPE 841 845	Pháp
+T6	Charge-indict 846 852	tố_cáo
+E2	Charge-indict:T6 Prosecutor-Arg:T3 Prosecutor-Arg2:T4 Prosecutor-Arg3:T5 Defendant-Arg:T7
+T7	GPE 853 870	chính_quyền Syria
+T10	Die 910 920	thiệt_mạng
+E4	Die:T10 Time-Arg:T11 Victim-Arg:T9 Place-Arg:T27
+T11	TIME 929 937	ngày 7/4
+T12	GPE 1066 1071	Syria
+T13	GPE 1075 1078	Nga
+T14	Appeal 1079 1094	bác_bỏ cáo_buộc
+E5	Appeal:T14 Defendant-Arg:T13 Defendant-Arg2:T12
+T15	GPE 1669 1671	Mỹ
+T16	GPE 1675 1684	đồng_minh
+T17	WEA 1661 1668	tên_lửa
+T18	Attack 1685 1693	tấn_công
+E6	Attack:T18 Attacker-Arg:T16 Attacker-Arg2:T15 Place-Arg:T19 Instrument-Arg:T17 Target-Arg:T28
+T19	GPE 1652 1657	Syria
+T20	Attack 262 272	không kích
+E7	Attack:T20 Attacker-Arg:T22 Time-Arg:T21 Target-Arg:T23
+T21	TIME 273 282	ngày 14/4
+T22	GPE 246 261	Mỹ , Anh , Pháp
+T23	FAC 221 242	một trong ba mục_tiêu
+T24	Die 564 568	chết
+E8	Die:T24 Victim-Arg:T25
+T25	PER 537 553	hàng nghìn người
+T8	Attack 871 879	tấn_công
+E3	Attack:T8 Instrument-Arg:T26 Attacker-Arg:T7
+T26	WEA 880 887	hoá_học
+T9	PER 894 909	hàng chục người
+T27	GPE 923 928	Douma
+T28	FAC 1638 1649	Ba mục_tiêu

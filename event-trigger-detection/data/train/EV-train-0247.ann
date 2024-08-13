@@ -1,0 +1,28 @@
+T1	Charge-indict 659 667	cáo_buộc
+E1	Charge-indict:T1 Defendant-Arg:T2
+T2	GPE 668 673	Syria
+T3	Attack 674 681	ném bom
+E2	Attack:T3 Attacker-Arg:T2 Target-Arg:T4
+T4	ORG 686 711	lực_lượng do Mỹ hậu_thuẫn
+T5	Attack 595 601	bắn hạ
+E3	Attack:T5 Target-Arg:T6 Instrument-Arg:T7 Place-Arg:T12
+T6	WEA 606 623	cường_kích Su -22
+T8	ORG 734 744	Washington
+T9	Attack 745 751	bắn hạ
+E4	Attack:T9 Attacker-Arg:T8 Target-Arg:T10
+T11	Attack 794 803	nội_chiến
+E5	Attack:T11 
+T7	VEH 567 594	chiến_đấu cơ Mỹ F / A -18 E
+T12	LOC 643 652	gần Raqqa
+T13	Attack 823 829	bắn hạ
+E6	Attack:T13 Target-Arg:T14
+T14	VEH 830 850	máy_bay có người lái
+T15	PER 0 2	Mỹ
+T10	VEH 752 778	phi_cơ_chính_phủ nước khác
+T16	Phone-write 1240 1248	liên_lạc
+E7	Phone-write:T16 Entity-Arg:T19 Entity-Arg2:T20
+T17	Attack 1267 1273	bắn hạ
+E8	Attack:T17 Target-Arg:T18
+T18	VEH 1274 1297	máy_bay chính_phủ Syria
+T19	GPE 1253 1256	Nga
+T20	GPE 1214 1216	Mỹ

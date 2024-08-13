@@ -1,0 +1,137 @@
+T1	Pardon 59 64	ân_xá
+E1	Pardon:T1 Place-Arg:T3 Defendant-Arg:T2
+T2	PER 0 14	Người gốc Việt
+T3	GPE 69 71	Mỹ
+T5	PER 543 552	Ông Brown
+T6	TIME 553 563	ngày 21/11
+T7	PER 588 652	38 người và giảm án cho 70 người , trong đó có ba người gốc Việt
+T4	Pardon 578 583	ân_xá
+E2	Pardon:T4 Time-Arg:T6 Defendant-Arg:T7 Adjudicator-Arg:T5
+T8	Pardon 751 756	ân_xá
+E3	Pardon:T8 
+T9	Attack 893 896	đâm
+E4	Attack:T9 Attacker-Arg:T11 Target-Arg:T10 Time-Arg:T13 Place-Arg:T12
+T10	PER 897 902	người
+T11	PER 856 860	Tùng
+T12	GPE 810 812	Mỹ
+T13	TIME 843 853	ba năm sau
+T14	Trial-hearing 961 967	xét_xử
+E5	Trial-hearing:T14 Defendant-Arg:T16
+T15	Convict 971 978	kết_tội
+E6	Convict:T15 Defendant-Arg:T16
+T16	PER 950 953	anh
+T17	Sentence 2090 2096	kết_án
+E7	Sentence:T17 Place-Arg:T18 Time-Arg:T19
+T18	GPE 2099 2101	Mỹ
+T19	TIME 2001 2013	tháng 3/2017
+T20	Sentence 2411 2417	kết_án
+E8	Sentence:T20 
+T21	Pardon 3720 3725	ân_xá
+E9	Pardon:T21 Defendant-Arg:T24 Adjudicator-Arg:T22 Time-Arg:T23
+T22	PER 3737 3762	thống_đốc bang California
+T23	TIME 3767 3772	21/11
+T24	PER 3697 3701	Tùng
+T25	Transport 166 175	trục_xuất
+E10	Transport:T25 
+T26	Transport 499 508	trục_xuất
+E11	Transport:T26 Artifact-Arg:T27
+T27	PER 451 454	Anh
+T28	Transport 794 803	trục_xuất
+E12	Transport:T28 
+T29	Transport 1277 1286	trục_xuất
+E13	Transport:T29 Artifact-Arg:T30 Time-Arg:T31
+T30	PER 1226 1229	anh
+T31	TIME 1303 1319	từ tháng 10/2011
+T32	Transport 1468 1477	trục_xuất
+E14	Transport:T32 Artifact-Arg:T36 Destination-Arg:T37 Time-Arg:T38
+T33	Arrest-jail 1354 1365	bị tạm giam
+E15	Arrest-jail:T33 Person-Arg:T34
+T34	PER 1350 1354	Anh 
+T35	Transport 1394 1403	trục_xuất
+E16	Transport:T35 Artifact-Arg:T34
+T36	PER 1478 1492	người Việt_Nam
+T37	GPE 1497 1499	Mỹ
+T38	TIME 1500 1514	trước năm 1995
+T39	Transport 1954 1963	trục_xuất
+E17	Transport:T39 Artifact-Arg:T40 Time-Arg:T41
+T40	PER 1964 1991	những người từng có tiền_án
+T41	TIME 1801 1817	Đến đầu năm 2017
+T42	Transport 2348 2357	trục_xuất
+E18	Transport:T42 Artifact-Arg:T43
+T43	PER 2312 2337	10.000 người Việt nhập_cư
+T44	Arrest-jail 2541 2551	bị bắt_giữ
+E19	Arrest-jail:T44 Person-Arg:T45
+T46	Transport 2432 2440	rời khỏi
+E20	Transport:T46 Origin-Arg:T47 Time-Arg:T48
+T47	GPE 2441 2449	Việt_Nam
+T48	TIME 2450 2470	trước ngày 12/7/1995
+T45	PER 2420 2470	Những người rời khỏi Việt_Nam trước ngày 12/7/1995
+T49	Transport 2559 2568	trục_xuất
+E21	Transport:T49 Artifact-Arg:T50
+T50	PER 2569 2589	những người gốc Việt
+T51	Transport 2709 2712	đến
+E22	Transport:T51 Artifact-Arg:T52 Destination-Arg:T53 Time-Arg:T54
+T52	PER 2685 2708	những người từ Việt_Nam
+T53	GPE 2713 2715	Mỹ
+T54	TIME 2716 2736	trước ngày 12/7/1995
+T55	Transport 2749 2758	trục_xuất
+E23	Transport:T55 
+T56	Transport 2867 2876	trục_xuất
+E24	Transport:T56 
+T57	Meet 2883 2889	gặp_gỡ
+E25	Meet:T57 Entity-Arg:T58 Entity-Arg2:T59
+T58	PER 2879 2882	Anh
+T59	PER 2890 2917	nhiều người trong cộng_đồng
+T60	Transport 3666 3675	trục_xuất
+E26	Transport:T60 Artifact-Arg:T68
+T61	Sue 3597 3601	kiện
+E27	Sue:T61 Plaintiff-Arg:T62 Defendant-Arg:T64 Time-Arg:T65 Crime-Arg:T63
+T62	PER 3581 3584	anh
+T63	CRIME 3606 3675	vi_phạm luật liên_bang khi bắt_giữ những người gốc Việt chờ trục_xuất
+T64	ORG 3602 3605	ICE
+T65	TIME 3562 3578	Hồi tháng 2/2018
+T66	Arrest-jail 3633 3640	bắt_giữ
+E28	Arrest-jail:T66 Person-Arg:T67
+T67	PER 3641 3675	những người gốc Việt chờ trục_xuất
+T68	PER 3641 3661	những người gốc Việt
+T69	Transport 3977 3986	trục_xuất
+E29	Transport:T69 
+T70	Transport 4261 4270	trục_xuất
+E30	Transport:T70 
+T72	PER 4163 4207	người nhập_cư gốc Việt đến Mỹ trước năm 1995
+T71	Transport 4153 4162	trục_xuất
+E31	Transport:T71 Artifact-Arg:T72
+T73	PER 4163 4185	người nhập_cư gốc Việt
+T74	Transport 4186 4189	đến
+E32	Transport:T74 Artifact-Arg:T73 Destination-Arg:T75 Time-Arg:T76
+T75	GPE 4190 4192	Mỹ
+T76	TIME 4193 4207	trước năm 1995
+T77	Transport 4337 4346	trục_xuất
+E33	Transport:T77 Artifact-Arg:T78
+T78	PER 4286 4312	những người đã có lệnh này
+T79	Transport 4444 4453	trục_xuất
+E34	Transport:T79 
+T80	Transport 4515 4524	trục_xuất
+E35	Transport:T80 
+T81	Pardon 415 420	ân_xá
+E36	Pardon:T81 Defendant-Arg:T82
+T82	PER 323 340	Nguyễn_Thanh_Tùng
+T83	Sentence 1008 1015	lĩnh án
+E37	Sentence:T83 Sentence-Arg:T84
+T84	SEN 1016 1025	25 năm tù
+T85	Arrest-jail 1039 1046	tù_giam
+E38	Arrest-jail:T85 Time-Arg:T86 Person-Arg:T87
+T86	TIME 1032 1038	18 năm
+T87	PER 1049 1053	Tùng
+T88	Arquit 1059 1067	tha_bổng
+E39	Arquit:T88 Defendant-Arg:T87
+T89	Attack 1119 1125	xô_xát
+E40	Attack:T89 Attacker-Arg:T90
+T90	PER 1131 1142	các tù_nhân
+T91	Arrest-jail 1631 1634	bắt
+E41	Arrest-jail:T91 Agent-Arg:T95 Person-Arg:T94
+T92	Transport 1638 1644	đưa về
+E42	Transport:T92 Artifact-Arg:T94 Destination-Arg:T93 Agent-Arg:T95
+T93	GPE 1645 1653	Việt_Nam
+T94	PER 1527 1530	anh
+T95	ORG 1585 1630	Cơ_quan quản_lý Di_trú và hải_quan Mỹ ( ICE )

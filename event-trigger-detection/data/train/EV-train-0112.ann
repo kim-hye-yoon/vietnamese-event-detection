@@ -1,0 +1,58 @@
+T1	Divorce 26 32	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 45 68	ông vua trái_phiếu ' Mỹ
+T3	Start-org 136 144	sáng_lập
+E2	Start-org:T3 Agent-Arg:T5 Org-Arg:T4
+T4	ORG 145 173	công_ty quản_lý đầu_tư PIMCO
+T5	PER 88 121	ông vua trái_phiếu " , Bill_Gross
+T6	Marry 302 309	kết_hôn
+E3	Marry:T6 Person-Arg:T7 Person-Arg2:T8 Time-Arg:T9
+T7	PER 298 301	Ông
+T8	PER 314 333	vợ hai là Sue_Gross
+T9	TIME 337 345	năm 1985
+T10	Divorce 966 972	ly_hôn
+E4	Divorce:T10 Person-Arg:T12 Time-Arg:T11
+T11	TIME 936 946	22/11/2016
+T12	PER 949 958	Sue_Gross
+T13	Divorce 1225 1231	ly_hôn
+E5	Divorce:T13 Place-Arg:T30
+T14	Divorce 1255 1261	ly_hôn
+E6	Divorce:T14 Place-Arg:T30
+T15	Divorce 1484 1490	ly_hôn
+E7	Divorce:T15 
+T16	Divorce 1597 1603	ly_hôn
+E8	Divorce:T16 Person-Arg:T31
+T17	Transfer-ownership 2316 2327	bán_đấu_giá
+E9	Transfer-ownership:T17 Price-Arg:T18
+T18	MONEY 2341 2353	36 triệu USD
+T19	Transport 2793 2803	vận_chuyển
+E10	Transport:T19 Agent-Arg:T33
+T20	Divorce 2820 2826	ly_hôn
+E11	Divorce:T20 Person-Arg:T32
+T21	Transfer-money 4837 4840	trả
+E12	Transfer-money:T21 Giver-Arg:T22 Money-Arg:T23
+T22	PER 4817 4827	Bill_Gross
+T23	MONEY 4852 4864	36 triệu USD
+T24	Transfer-ownership 4909 4912	mua
+E13	Transfer-ownership:T24 Artifact-Arg:T26 Buyer-Arg:T25
+T25	PER 4890 4899	Sue_Gross
+T26	FAC 4918 4930	hai ngôi nhà
+T28	PER 4995 5005	Bill_Gross
+T29	FAC 5020 5036	một khu biệt_thự
+T30	GPE 1201 1211	California
+T31	PER 1609 1618	hai người
+T32	PER 2865 2874	hai người
+T33	PER 2766 2782	chuyên_gia thú_y
+T34	Divorce 4481 4487	ly_hôn
+E15	Divorce:T34 Person-Arg:T35
+T35	PER 4490 4499	Sue_Gross
+T36	Transfer-ownership 4510 4513	mua
+E16	Transfer-ownership:T36 Buyer-Arg:T35 Artifact-Arg:T37 Price-Arg:T38
+T37	FAC 4514 4533	nhiều biệt_thự hàng
+T38	MONEY 4534 4548	chục triệu USD
+T39	Transfer-ownership 4677 4680	mua
+E17	Transfer-ownership:T39 
+T40	PER 4661 4671	Bill_Gross
+T41	FAC 4681 4704	nhà gần tổ_hợp biệt_thự
+T27	Transfer-ownership 5011 5014	mua
+E14	Transfer-ownership:T27 Buyer-Arg:T28 Artifact-Arg:T29

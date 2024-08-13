@@ -1,0 +1,30 @@
+T1	Divorce 25 31	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 24	Dương_Mịch - Lưu_Khải_Uy
+T3	Divorce 117 122	ly_dị
+E2	Divorce:T3 Time-Arg:T6 Person-Arg:T4
+T4	PER 68 93	Dương_Mịch và Lưu_Khải_Uy
+T6	TIME 129 137	năm 2018
+T5	Divorce 611 616	ly_dị
+E3	Divorce:T5 Person-Arg:T7
+T7	PER 577 597	Dương_Mịch - Khải_Uy
+T8	Marry 673 679	hôn_lễ
+E4	Marry:T8 Time-Arg:T9 Person-Arg:T12
+T9	TIME 680 688	năm 2014
+T10	Be-born 691 695	sinh
+E5	Be-born:T10 Person-Arg:T11 Time-Arg:T9
+T11	PER 696 704	con gái 
+T12	PER 651 664	Hai diễn_viên
+T13	Be-born 955 959	sinh
+E6	Be-born:T13 Time-Arg:T15 Person-Arg:T14 Place-Arg:T16
+T14	PER 944 954	Dương_Mịch
+T15	TIME 960 968	năm 1986
+T16	GPE 971 992	Bắc_Kinh , Trung_Quốc
+T17	Be-born 1458 1462	sinh
+E7	Be-born:T17 Person-Arg:T18 Time-Arg:T19
+T18	PER 1446 1457	Lưu_Khải_Uy
+T19	TIME 1463 1471	năm 1974
+T20	Divorce 473 483	ly_dị_âm_ỉ
+E8	Divorce:T20 Person-Arg:T22 Person-Arg2:T21
+T21	PER 448 458	Dương_Mịch
+T22	PER 461 472	Lưu_Khải_Uy

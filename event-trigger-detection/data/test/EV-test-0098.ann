@@ -1,0 +1,41 @@
+T1	Transport 500 503	đến
+E1	Transport:T1 Agent-Arg:T2 Time-Arg:T3 Origin-Arg:T6
+T2	PER 496 499	Sơn
+T3	TIME 481 493	Tối 6/3/2013
+T4	Attack 541 546	ẩu_đả
+E2	Attack:T4 Attacker-Arg:T2 Target-Arg:T5
+T5	PER 551 564	em_trai chị V
+T6	LOC 504 514	nhà chị V.
+T7	Transport 678 681	đến
+E3	Transport:T7 Agent-Arg:T9 Destination-Arg:T8 Time-Arg:T10
+T8	LOC 682 691	bệnh_viện
+T9	PER 675 677	V.
+T10	TIME 651 664	22h cùng ngày
+T11	PER 713 716	Sơn
+T12	WEA 722 725	dao
+T13	Attack 726 729	đâm
+E4	Attack:T13 Attacker-Arg:T11 Instrument-Arg:T12 Target-Arg:T9 Time-Arg:T10 Place-Arg:T8
+T14	Die 749 753	chết
+E5	Die:T14 Victim-Arg:T15
+T15	PER 745 748	chị
+T17	Attack 12 15	đâm
+E6	Attack:T17 Attacker-Arg:T19
+T18	Die 16 20	chết
+E7	Die:T18 Agent-Arg:T19
+T19	PER 3 11	bạn trai
+T16	Transport 25 28	đến
+E8	Transport:T16 Destination-Arg:T20
+T20	FAC 29 38	bệnh_viện
+T21	PER 57 63	bạn gá
+T22	PER 90 93	Sơn
+T23	LOC 69 87	Bệnh_viện Triều_An
+T24	Die 52 56	giết
+E9	Die:T24 Victim-Arg:T21 Agent-Arg:T22 Place-Arg:T23
+T25	Transport 94 98	chạy
+E10	Transport:T25 Agent-Arg:T22 Destination-Arg:T26 Origin-Arg:T23
+T26	LOC 99 105	về quê
+T27	Injure 568 577	bị_thương
+E11	Injure:T27 Agent-Arg:T2
+T29	PER 518 521	chị
+T28	Transport 522 529	đi chơi
+E12	Transport:T28 Agent-Arg:T29

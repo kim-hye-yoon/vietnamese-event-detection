@@ -1,0 +1,25 @@
+T1	Pardon 9 14	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3
+T2	GPE 0 8	Hàn_Quốc
+T3	PER 19 56	lao_động Việt_Nam cư_trú bất_hợp_pháp
+T4	Fine 199 206	xử_phạt
+E2	Fine:T4 Entity-Arg:T5
+T5	PER 207 260	người lao_động và người sử_dụng lao_động bất_hợp_pháp
+T6	ORG 142 161	Bộ Tư_pháp Hàn_Quốc
+T7	Pardon 852 857	ân_xá
+E3	Pardon:T7 Defendant-Arg:T9 Adjudicator-Arg:T8 Time-Arg:T10
+T8	GPE 821 829	Hàn_Quốc
+T9	PER 862 890	lao_động cư_trú bất_hợp_pháp
+T10	TIME 894 917	1/10/2018 đến 31/3/2019
+T11	Transport 57 59	về
+E4	Transport:T11 Artifact-Arg:T3
+T12	Transport 946 948	về
+E5	Transport:T12 Artifact-Arg:T13
+T13	PER 920 935	Những người này
+T14	Transport 533 542	trục_xuất
+E6	Transport:T14 Artifact-Arg:T15
+T15	PER 456 495	lao_động nước_ngoài cư_trú bất_hợp_pháp
+T16	Arrest-jail 496 502	bị bắt
+E7	Arrest-jail:T16 Person-Arg:T15
+T17	Transport 543 545	về
+E8	Transport:T17 Artifact-Arg:T15

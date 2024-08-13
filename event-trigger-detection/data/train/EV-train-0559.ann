@@ -1,0 +1,38 @@
+T1	Phone-write 6 14	gọi điện
+E1	Phone-write:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	PER 0 5	Trump
+T3	PER 22 39	chỉ_huy chiến_hạm
+T4	Phone-write 223 233	điện_thoại
+E2	Phone-write:T4 Entity-Arg:T8 Entity-Arg2:T10
+T5	GPE 55 60	Syria
+T6	Attack 40 42	nã
+E3	Attack:T6 Place-Arg:T5 Instrument-Arg:T7
+T7	WEA 43 50	tên_lửa
+T8	PER 247 270	Tổng_thống Donald_Trump
+T9	VEH 114 204	hai tàu_khu_trục tên_lửa lớp Arleigh Burke là USS Ross ( DDG 71 ) và USS Porter ( DDG 78 )
+T10	PER 106 113	Chỉ_huy
+T11	Phone-write 300 310	điện_thoại
+E4	Phone-write:T11 Entity-Arg:T12 Entity-Arg2:T15
+T12	PER 311 324	tổng_thống Mỹ
+T13	Attack 465 468	bắn
+E5	Attack:T13 Instrument-Arg:T14 Time-Arg:T18 Place-Arg:T17
+T14	WEA 469 476	tên_lửa
+T15	PER 332 356	chỉ huy Russell Caldwell
+T16	VEH 361 401	tàu Ross và Andria_Slough của tàu Porter
+T18	TIME 514 521	hôm 7/4
+T17	LOC 481 513	sân bay Shayrat , miền tây Syria
+T19	Attack 667 675	tấn_công
+E6	Attack:T19 Instrument-Arg:T26
+T20	Die 708 712	chết
+E7	Die:T20 Victim-Arg:T21
+T21	PER 699 707	80 người
+T22	Attack 863 871	tấn_công
+E8	Attack:T22 Target-Arg:T27 Target-Arg2:T28 Target-Arg3:T29
+T23	Attack 545 550	phóng
+E9	Attack:T23 Instrument-Arg:T24 Target-Arg:T25
+T24	VEH 551 561	59 tên_lửa
+T25	FAC 566 589	căn_cứ không_quân Syria
+T26	WEA 676 690	vũ_khí_hoá_học
+T27	VEH 872 885	nhiều máy_bay
+T28	FAC 888 907	mái che cho máy_bay
+T29	FAC 919 938	khu chứa nhiên_liệu

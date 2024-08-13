@@ -1,0 +1,28 @@
+T1	Declare-bankruptcy 7 14	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	MONEY 30 40	63 tỷ đồng
+T3	GPE 45 53	Nhà_nước
+T4	Transfer-money 283 286	vay
+E2	Transfer-money:T4 Money-Arg:T5
+T5	MONEY 293 302	47.500 tỷ
+T6	Declare-bankruptcy 1352 1359	phá_sản
+E3	Declare-bankruptcy:T6 Org-Arg:T7
+T7	ORG 1275 1333	Công_ty TNHH một thành_viên công_nghiệp tàu_thuỷ Dung_Quất
+T8	Transfer-ownership 1412 1423	bán_đấu_giá
+E4	Transfer-ownership:T8 
+T9	Declare-bankruptcy 1527 1534	phá_sản
+E5	Declare-bankruptcy:T9 Org-Arg:T11
+T10	Transfer-ownership 1755 1768	chuyển_nhượng
+E6	Transfer-ownership:T10 
+T11	ORG 1549 1596	Công_ty TNHH MTV công_nghiệp tàu_thuỷ Dung_Quất
+T12	Transfer-ownership 1908 1921	chuyển_nhượng
+E7	Transfer-ownership:T12 Artifact-Arg:T13
+T13	ORG 1869 1907	Công_ty nhiên_liệu sinh_học Quảng_Ngãi
+T14	ORG 1840 1854	Bộ Công_Thương
+T16	ORG 2603 2608	PVTex
+T15	Transfer-ownership 2615 2628	chuyển_nhượng
+E8	Transfer-ownership:T15 Artifact-Arg:T16
+T17	Declare-bankruptcy 4333 4340	phá_sản
+E9	Declare-bankruptcy:T17 
+T18	Transfer-ownership 4355 4358	bán
+E10	Transfer-ownership:T18 

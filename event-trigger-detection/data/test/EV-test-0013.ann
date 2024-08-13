@@ -1,0 +1,36 @@
+T1	PER 0 8	Bảo_Trúc
+T2	Marry 9 16	kết_hôn
+E1	Marry:T2 Person-Arg:T3 Person-Arg2:T1
+T3	PER 29 43	doanh_nhân Đức
+T4	Marry 126 133	kết_hôn
+E2	Marry:T4 Person-Arg:T6
+T5	TIME 50 57	tháng 6
+T6	PER 60 68	Bảo_Trúc
+T7	Transport 69 73	sang
+E3	Transport:T7 Destination-Arg:T8 Agent-Arg:T6 Time-Arg:T5
+T8	GPE 74 77	Đức
+T9	Transport 533 537	sang
+E4	Transport:T9 Destination-Arg:T10 Agent-Arg:T11
+T10	LOC 538 545	châu_Âu
+T11	PER 522 524	họ
+T12	PER 1149 1157	Bảo_Trúc
+T13	Be-born 1158 1162	sinh
+E5	Be-born:T13 Place-Arg:T15 Time-Arg:T14 Person-Arg:T12
+T14	TIME 1167 1171	1986
+T15	GPE 1180 1188	Bạc_Liêu
+T16	TIME 1364 1372	Năm 2011
+T17	Marry 1376 1383	kết_hôn
+E6	Marry:T17 Time-Arg:T16 Person-Arg:T27 Person-Arg2:T25
+T18	Divorce 1386 1394	chia_tay
+E7	Divorce:T18 Person-Arg:T25 Person-Arg2:T27 Time-Arg:T26
+T19	Transport 479 485	đưa đi
+E8	Transport:T19 Artifact-Arg:T20 Artifact-Arg2:T21
+T20	PER 463 478	chồng tương_lai
+T21	PER 455 457	Cô
+T22	Meet 716 719	gặp
+E9	Meet:T22 Entity-Arg:T23 Time-Arg:T24
+T23	PER 713 715	Họ
+T24	TIME 739 752	hồi tháng hai
+T26	TIME 1401 1427	sau hơn một năm chung sống
+T25	PER 1395 1400	chồng
+T27	PER 1373 1375	cô

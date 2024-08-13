@@ -1,0 +1,8 @@
+T1	Declare-bankruptcy 2 9	Phá_sản
+E1	Declare-bankruptcy:T1 
+T4	PER 195 198	Tôi
+T7	Declare-bankruptcy 233 240	phá_sản
+E2	Declare-bankruptcy:T7 
+T2	Start-org 836 838	mở
+E3	Start-org:T2 
+T3	PER 225 228	Tôi

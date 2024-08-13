@@ -1,0 +1,15 @@
+T1	PER 0 14	Bé gái 12 tuổi
+T2	Die 38 42	chết
+E1	Die:T2 Victim-Arg:T1
+T3	PER 189 191	em
+T4	Die 192 196	chết
+E2	Die:T4 Place-Arg:T5 Victim-Arg:T3
+T5	LOC 197 209	bên vệ đường
+T6	PER 314 394	Q ( SN 2002 , trú thôn 1 Khe_Gát , xã Xuân_Trạch , huyện Bố_Trạch , Quảng_Bình )
+T7	Die 427 431	chết
+E3	Die:T7 Place-Arg:T8 Victim-Arg:T6
+T8	LOC 432 444	bên vệ đường
+T9	PER 869 873	cháu
+T10	Die 878 882	chết
+E4	Die:T10 Place-Arg:T11 Victim-Arg:T9
+T11	LOC 883 895	bên vệ đường

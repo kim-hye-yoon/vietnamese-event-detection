@@ -1,0 +1,5 @@
+T1	TIME 241 250	ngày 30/5
+T2	Trial-hearing 253 273	phiên xét_xử sơ_thẩm
+E1	Trial-hearing:T2 Time-Arg:T1 Defendant-Arg:T3 Crime-Arg:T4
+T3	PER 280 312	Nguyễn_Đức_Kiên và 8 bị_cáo khác
+T4	CRIME 329 489	" kinh_doanh trái_phép " , " cố_ý làm trái quy_định của Nhà_nước về quản_lý kinh_tế gây hậu_quả nghiêm_trọng " , " lừa_đảo chiếm_đoạt tài_sản " và " trốn_thuế "

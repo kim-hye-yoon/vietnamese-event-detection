@@ -1,0 +1,39 @@
+T1	PER 0 19	Ông Phạm_Quang_Tùng
+T2	Elect 20 28	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 33 55	Hội_đồng_quản_trị BIDV
+T4	Start-position 406 414	bổ_nhiệm
+E2	Start-position:T4 Person-Arg:T6 Position-Arg:T7 Entity-Arg:T5
+T5	ORG 342 373	Hội_đồng_quản_trị ( HĐQT ) BIDV
+T6	PER 415 434	ông Phạm_Quang_Tùng
+T7	JOB 439 456	vị_trí thành_viên
+T8	End-position 469 479	miễn_nhiệm
+E3	End-position:T8 Person-Arg:T9
+T9	PER 480 545	hai thành_viên khác là ông Nguyễn_Huy_Tựa và bà Lê_Thị_Kim_Khuyên
+T10	TIME 874 890	từ 2006 đến 2010
+T12	JOB 900 938	Giám_đốc Công_ty Bảo_hiểm BIDV ( BIC )
+T13	PER 836 839	Ông
+T14	Elect 1058 1061	bầu
+E5	Elect:T14 Person-Arg:T15 Position-Arg:T16
+T15	PER 1067 1074	nhân_sự
+T16	JOB 1083 1087	HĐQT
+T17	Start-position 1273 1281	bổ_nhiệm
+E6	Start-position:T17 Position-Arg:T18
+T18	JOB 1282 1308	Chủ_tịch Hội_đồng_quản_trị
+T19	End-position 1368 1376	nghỉ hưu
+E7	End-position:T19 Person-Arg:T20 Time-Arg:T21
+T20	PER 1352 1367	ông Trần_Bắc_Hà
+T21	TIME 1381 1393	tháng 9/2016
+T22	PER 548 562	Cả hai nhân_sự
+T23	JOB 572 589	Hội_đồng_quản_trị
+T24	End-position 606 614	nghỉ hưu
+E8	End-position:T24 Position-Arg:T23 Person-Arg:T22
+T25	End-position 563 571	rời khỏi
+E9	End-position:T25 Position-Arg:T23 Person-Arg:T22
+T26	PER 1404 1410	ông Hà
+T27	PER 1420 1457	ông Trần_Anh_Tuấn - Uỷ_viên HĐQT BIDV
+T28	Elect 1458 1466	được bầu
+E10	Elect:T28 Person-Arg:T27 Position-Arg:T29
+T11	End-position 1411 1417	về hưu
+E4	End-position:T11 Person-Arg:T26
+T29	JOB 1467 1510	phụ_trách điều_hành hoạt_động của ngân_hàng

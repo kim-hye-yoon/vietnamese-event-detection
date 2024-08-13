@@ -1,0 +1,6 @@
+T1	Pardon 292 297	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2
+T2	PER 312 318	Guaido
+T3	Die 1858 1862	chết
+E2	Die:T3 Victim-Arg:T4
+T4	PER 1837 1850	300.000 người

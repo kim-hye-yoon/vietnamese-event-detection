@@ -1,0 +1,30 @@
+T1	PER 153 183	nhiều lính thuỷ_quân_lục_chiến
+T2	WEA 189 203	pháo hạng nặng
+T3	Transport 212 216	điều
+E1	Transport:T3 Destination-Arg:T4 Artifact-Arg:T2 Artifact-Arg2:T1
+T4	GPE 221 226	Syria
+T5	Attack 284 292	tấn công
+E2	Attack:T5 Target-Arg:T6
+T6	FAC 293 356	thành trì Raqqa của phiến quân Nhà_nước Hồi_giáo tự_xưng ( IS )
+T7	PER 502 534	lực_lượng thuỷ_quân_lục_chiến Mỹ
+T8	Transport 538 541	đến
+E3	Transport:T8 Destination-Arg:T9 Agent-Arg:T7
+T9	GPE 542 547	Syria
+T10	GPE 934 936	Mỹ
+T11	Transport 942 951	điều_động
+E4	Transport:T11 Destination-Arg:T13 Artifact-Arg:T12 Agent-Arg:T10
+T12	PER 956 974	100 lính đặc_nhiệm
+T13	GPE 979 1018	khu_vực tỉnh Manbij , cách Raqqa 112 km
+T14	PER 596 617	quan_chức quân_đội Mỹ
+T15	Transport 660 664	điều
+E5	Transport:T15 Artifact-Arg:T16 Destination-Arg:T17 Agent-Arg:T14
+T16	PER 665 684	lực_lượng pháo_binh
+T17	GPE 689 694	Syria
+T18	WEA 0 14	Pháo hạng nặng
+T19	PER 18 40	thuỷ_quân_lục_chiến Mỹ
+T20	GPE 45 50	Syria
+T21	Transport 41 44	đến
+E6	Transport:T21 Destination-Arg:T20 Artifact-Arg:T19 Artifact-Arg2:T18
+T22	Attack 1101 1109	đánh_bại
+E7	Attack:T22 Target-Arg:T23
+T23	ORG 1110 1112	IS

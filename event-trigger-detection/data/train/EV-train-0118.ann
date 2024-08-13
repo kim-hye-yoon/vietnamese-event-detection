@@ -1,0 +1,21 @@
+T1	PER 163 168	Trump
+T2	Start-position 169 178	nhậm_chức
+E1	Start-position:T2 Person-Arg:T1 Time-Arg:T3
+T3	TIME 179 191	tháng 1/2017
+T4	PER 824 837	Bà Theresa Ma
+T5	Meet 868 876	tới thăm
+E2	Meet:T5 Entity-Arg:T4 Entity-Arg2:T6 Place-Arg:T7
+T6	PER 877 882	Trump
+T7	LOC 885 895	Washington
+T8	PER 904 907	ông
+T9	Start-position 908 917	nhậm_chức
+E3	Start-position:T9 Person-Arg:T8 Time-Arg:T10
+T10	TIME 922 933	tháng 1/201
+T11	PER 1024 1033	người Anh
+T12	Demonstrate 1044 1053	biểu_tình
+E4	Demonstrate:T12 Entity-Arg:T11
+T13	PER 530 536	bà May
+T14	Meet 559 562	gặp
+E5	Meet:T14 Entity-Arg:T13 Entity-Arg2:T15 Place-Arg:T16
+T15	PER 563 568	Trump
+T16	FAC 573 581	Checkers

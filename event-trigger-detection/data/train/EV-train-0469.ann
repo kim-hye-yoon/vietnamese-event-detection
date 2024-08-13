@@ -1,0 +1,32 @@
+T1	End-position 23 32	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 19	Phó bí_thư Đồng_Nai
+T3	End-position 43 52	bãi_nhiệm
+E2	End-position:T3 Person-Arg:T2 Position-Arg:T4
+T4	JOB 53 70	đại_biểu Quốc_hội
+T5	Meet 98 101	họp
+E3	Meet:T5 Time-Arg:T6 Entity-Arg:T8 Entity-Arg2:T7
+T6	TIME 73 81	Ngày 4/5
+T7	PER 122 150	Tổng_bí_thư Nguyễn_Phú_Trọng
+T8	ORG 84 94	Ban_bí_thư
+T9	End-position 355 359	cách
+E4	End-position:T9 Person-Arg:T11 Entity-Arg:T10
+T10	ORG 333 343	Ban_bí_thư
+T11	PER 394 414	bà Phan_Thị_Mỹ_Thanh
+T12	End-position 494 503	bãi_nhiệm
+E5	End-position:T12 Position-Arg:T13 Person-Arg:T14 Entity-Arg:T15
+T13	JOB 504 521	đại_biểu Quốc_hội
+T14	PER 530 536	bà này
+T15	ORG 425 443	Đảng_đoàn Quốc_hội
+T16	Sue 1036 1046	khiếu_kiện
+E6	Sue:T16 
+T17	Transport 2337 2339	đi
+E7	Transport:T17 Artifact-Arg:T18
+T18	PER 2191 2211	bà Phan_Thị_Mỹ_Thanh
+T19	Meet 2700 2706	kỳ họp
+E8	Meet:T19 Entity-Arg:T22 Time-Arg:T23
+T20	Appeal 2891 2900	khiếu_nại
+E9	Appeal:T20 Prosecutor-Arg:T21
+T21	PER 2868 2876	Bà Thanh
+T22	ORG 2714 2740	Uỷ_ban Kiểm_tra Trung_ương
+T23	TIME 2743 2755	tháng 7/2017

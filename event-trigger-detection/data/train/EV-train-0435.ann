@@ -1,0 +1,16 @@
+T1	Declare-bankruptcy 26 33	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	ORG 0 13	Vinashinlines
+T3	Declare-bankruptcy 163 170	phá_sản
+E2	Declare-bankruptcy:T3 
+T4	ORG 175 207	Toà_án nhân_dân thành_phố Hà_Nội
+T5	Declare-bankruptcy 411 418	phá_sản
+E3	Declare-bankruptcy:T5 Org-Arg:T7 Time-Arg:T6
+T6	TIME 422 431	ngày 25/2
+T7	ORG 303 316	Vinashinlines
+T8	Declare-bankruptcy 807 814	phá_sản
+E4	Declare-bankruptcy:T8 Org-Arg:T9
+T9	ORG 824 875	Vinashinlines và Công_ty Vận_tải Dầu_khí ( Falcon )
+T10	ORG 646 681	Tổng_công_ty Hàng_hải ( Vinalines )
+T11	TIME 686 698	cuối tháng 2
+T12	PER 701 745	Bộ_trưởng Giao_thông Vận_tải - Đinh_La_Thăng

@@ -1,0 +1,5 @@
+T1	Transfer-money 70 74	tặng
+E1	Transfer-money:T1 Recipient-Arg:T2 Time-Arg:T3 Money-Arg:T4
+T2	PER 48 61	Khách mua_sắm
+T3	TIME 168 183	từ nay đến 19/5
+T4	MONEY 154 165	1,5 tỷ đồng

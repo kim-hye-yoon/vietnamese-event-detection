@@ -1,0 +1,19 @@
+T1	Meet 295 302	họp báo
+E1	Meet:T1 
+T2	Attack 1276 1286	không_kích
+E2	Attack:T2 Attacker-Arg:T3
+T3	GPE 1291 1293	Mỹ
+T4	Attack 1231 1239	tấn_công
+E3	Attack:T4 
+T7	Attack 685 690	phóng
+E5	Attack:T7 Instrument-Arg:T8 Time-Arg:T9 Target-Arg:T11 Place-Arg:T12
+T8	WEA 691 712	59 tên_lửa hành_trình
+T9	TIME 634 642	Ngày 7/4
+T10	VEH 645 661	hai tàu_chiến Mỹ
+T11	FAC 717 742	căn_cứ không_quân Shayrat
+T12	GPE 745 762	tỉnh Homs , Syria
+T5	Attack 1137 1145	tấn_công
+E4	Attack:T5 Instrument-Arg:T6 Time-Arg:T14 Place-Arg:T13
+T6	WEA 1151 1165	vũ_khí_hoá_học
+T13	GPE 1168 1178	tỉnh Idlib
+T14	TIME 1179 1186	hôm 4/4

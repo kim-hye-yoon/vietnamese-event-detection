@@ -1,0 +1,15 @@
+T1	Transport 33 36	chở
+E1	Transport:T1 Vehicle-Arg:T3
+T3	VEH 16 32	xe taxi Mai_Linh
+T2	Arrest-jail 12 15	Bắt
+E2	Arrest-jail:T2 
+T4	Transport 661 664	chở
+E3	Transport:T4 Agent-Arg:T5 Origin-Arg:T6 Destination-Arg:T7
+T5	PER 656 660	Khắc
+T6	GPE 668 677	Đồng_Tháp
+T7	GPE 681 688	Bến_Tre
+T8	GPE 0 9	Đồng_Tháp
+T9	Transport 189 203	đang lưu_thông
+E4	Transport:T9 Vehicle-Arg:T10 Origin-Arg:T11
+T10	VEH 153 188	xe ôtô taxi Mai_Linh_BKS 63 K -1602
+T11	LOC 209 259	quốc_lộ 30 đoạn đi qua xã Mỹ_Hiệp , huyện Cao_Lãnh

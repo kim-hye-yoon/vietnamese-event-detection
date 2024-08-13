@@ -1,0 +1,11 @@
+T1	Attack 1181 1189	xung_đột
+E1	Attack:T1 Place-Arg:T2
+T2	LOC 1192 1201	miền đông
+T3	Elect 2401 2409	được bầu
+E2	Elect:T3 Position-Arg:T5 Person-Arg:T4 Time-Arg:T6
+T4	PER 2390 2400	Poroshenko
+T5	JOB 2414 2424	tổng_thống
+T6	TIME 2425 2433	năm 2014
+T7	Elect 2630 2636	đắc_cử
+E3	Elect:T7 Position-Arg:T8
+T8	JOB 2637 2647	tổng_thống

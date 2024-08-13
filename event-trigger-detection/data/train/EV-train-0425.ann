@@ -1,0 +1,62 @@
+T1	Attack 13 21	tấn_công
+E1	Attack:T1 Attacker-Arg:T2
+T2	ORG 0 2	IS
+T3	Attack 24 32	đánh bom
+E2	Attack:T3 Place-Arg:T4
+T4	GPE 42 47	Syria
+T5	PER 50 59	215 người
+T6	Die 60 64	chết
+E3	Die:T6 Victim-Arg:T5
+T7	Attack 82 90	đánh bom
+E4	Attack:T7 Attacker-Arg:T8 Place-Arg:T10 Time-Arg:T9
+T8	ORG 102 104	IS
+T9	TIME 130 134	25/7
+T10	FAC 109 125	khu chợ ở Sweida
+T11	Attack 228 236	tấn_công
+E5	Attack:T11 Attacker-Arg:T12 Target-Arg:T13
+T12	PER 153 209	Các tay súng phiến quân Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T13	FAC 237 252	nhiều ngôi làng
+T14	Attack 273 281	đánh bom
+E6	Attack:T14 Target-Arg:T15
+T15	FAC 293 312	thủ phủ tỉnh Sweida
+T16	Attack 424 432	đánh bom
+E7	Attack:T16 Place-Arg:T41 Attacker-Arg:T43
+T17	Attack 757 765	tấn_công
+E8	Attack:T17 Attacker-Arg:T18 Target-Arg:T19
+T18	PER 736 751	Các tay súng IS
+T19	FAC 780 824	một_số ngôi làng ở đông bắc thành_phố Sweida
+T20	Attack 862 869	đụng_độ
+E9	Attack:T20 
+T21	Die 949 959	thiệt_mạng
+E10	Die:T21 Victim-Arg:T24 Agent-Arg:T23
+T22	Injure 1009 1018	bị_thương
+E11	Injure:T22 Victim-Arg:T25
+T23	ORG 927 929	IS
+T24	PER 939 948	215 người
+T25	PER 999 1008	180 người
+T26	Attack 900 908	tấn_công
+E12	Attack:T26 Attacker-Arg:T23
+T27	Attack 1359 1368	phản_công
+E13	Attack:T27 Attacker-Arg:T28 Target-Arg:T38
+T28	ORG 1334 1348	quân_đội Syria
+T29	Attack 1107 1115	tấn_công
+E14	Attack:T29 Attacker-Arg:T30
+T30	ORG 1132 1134	IS
+T31	Attack 1070 1074	giết
+E15	Attack:T31 Attacker-Arg:T34 Target-Arg:T33
+T32	Die 1075 1079	chết
+E16	Die:T32 Victim-Arg:T33 Agent-Arg:T34
+T33	PER 1084 1093	100 người
+T34	ORG 1021 1023	IS
+T35	Attack 1491 1499	tấn công
+E17	Attack:T35 Time-Arg:T36 Place-Arg:T37
+T36	TIME 1504 1508	25/7
+T37	GPE 1425 1436	Tỉnh Sweida
+T38	ORG 1412 1414	IS
+T39	ORG 444 446	IS
+T40	Die 433 439	tự_sát
+E18	Die:T40 Agent-Arg:T43 Victim-Arg:T43
+T41	GPE 398 414	thành_phố Sweida
+T42	Attack 452 458	nổ bom
+E19	Attack:T42 Attacker-Arg:T43
+T43	PER 417 423	hai kẻ

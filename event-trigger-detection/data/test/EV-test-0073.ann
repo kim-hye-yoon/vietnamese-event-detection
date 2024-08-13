@@ -1,0 +1,42 @@
+T1	Divorce 56 62	ly_hôn
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T3
+T2	PER 0 9	Brad_Pitt
+T3	PER 13 29	Jennifer_Aniston
+T4	Divorce 287 293	ly_hôn
+E2	Divorce:T4 Person-Arg:T5
+T5	PER 261 267	cả hai
+T6	Divorce 355 361	ly_hôn
+E3	Divorce:T6 Person-Arg:T9 Person-Arg2:T7 Time-Arg:T8
+T7	PER 362 376	Angelina_Jolie
+T8	TIME 377 385	năm 2016
+T9	PER 348 354	tài_tử
+T10	Divorce 663 678	đường ai_nấy đi
+E4	Divorce:T10 Person-Arg:T11
+T11	PER 650 662	Ông bà Smith
+T12	Divorce 849 855	ly hôn
+E5	Divorce:T12 Person-Arg:T13 Time-Arg:T14
+T13	PER 836 848	vợ_chồng Jen
+T14	TIME 856 877	hồi tháng 2 năm_ngoái
+T15	Divorce 1269 1274	đổ_vỡ
+E6	Divorce:T15 Person-Arg:T16 Person-Arg2:T17
+T16	PER 1257 1261	Brad
+T17	PER 1265 1268	Jen
+T18	Divorce 1647 1653	ly_hôn
+E7	Divorce:T18 Person-Arg:T19
+T19	PER 1644 1646	họ
+T20	Divorce 1711 1725	hôn_nhân đổ_vỡ
+E8	Divorce:T20 
+T22	PER 1786 1797	vợ_chồng cô
+T23	Divorce 2196 2202	ly_hôn
+E10	Divorce:T23 Person-Arg:T25 Person-Arg2:T24
+T24	PER 2207 2210	Jen
+T25	PER 2149 2153	Brad
+T26	Divorce 2300 2322	kết_thúc cuộc hôn_nhân
+E11	Divorce:T26 Person-Arg:T27 Person-Arg2:T28
+T27	PER 2270 2279	Brad_Pitt
+T28	PER 2327 2343	Jennifer_Aniston
+T30	PER 2492 2495	tôi
+T31	Die 436 443	qua_đời
+E13	Die:T31 Victim-Arg:T32 Time-Arg:T33
+T32	PER 399 433	mẹ Jennifer_Aniston - bà Nancy_Dow
+T33	TIME 388 396	Cùng năm

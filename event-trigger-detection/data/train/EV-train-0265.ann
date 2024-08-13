@@ -1,0 +1,4 @@
+T1	Start-org 481 490	thành_lập
+E1	Start-org:T1 Time-Arg:T2 Org-Arg:T3
+T2	TIME 494 512	cuối tháng 10/2008
+T3	ORG 515 526	Nhựa Hà_Nội

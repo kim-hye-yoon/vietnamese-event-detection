@@ -1,0 +1,41 @@
+T1	End-position 22 31	cách_chức
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 18	Ông Nguyễn_Bắc_Son
+T3	JOB 32 58	Uỷ_viên Trung_ương khoá XI
+T4	Meet 65 73	Hội_nghị
+E2	Meet:T4 Place-Arg:T5 Time-Arg:T6 Entity-Arg:T7
+T5	GPE 115 121	Hà_Nội
+T6	TIME 124 142	từ ngày 2 đến 6/10
+T7	ORG 147 171	Ban_chấp_hành Trung ương
+T8	End-position 366 375	cách_chức
+E3	End-position:T8 Position-Arg:T10 Person-Arg:T9
+T9	PER 344 362	ông Nguyễn_Bắc_Son
+T10	JOB 376 480	Uỷ_viên Trung_ương Đảng khoá XI và Bí_thư Ban cán_sự đảng Bộ Thông_tin Truyền_thông nhiệm_kỳ 2011 - 2016
+T11	Meet 970 974	họp 
+E4	Meet:T11 Entity-Arg:T12 Time-Arg:T13
+T12	ORG 954 966	Bộ_Chính_trị
+T13	TIME 942 951	ngày 12/7
+T14	Transfer-ownership 1143 1146	mua
+E5	Transfer-ownership:T14 Buyer-Arg:T16 Seller-Arg:T15 Price-Arg:T18
+T16	ORG 1110 1142	Tổng_công_ty Viễn_thông MobiFone
+T17	PER 0 3	Ông
+T15	ORG 1164 1212	Công_ty_cổ_phần nghe nhìn Toàn_Cầu AVG ( dự_án )
+T18	MONEY 1147 1159	95 % cổ_phần
+T19	Be-born 2127 2131	sinh
+E6	Be-born:T19 Time-Arg:T20 Place-Arg:T22 Person-Arg:T21
+T20	TIME 2132 2140	năm 1953
+T21	PER 2108 2126	Ông Nguyễn_Bắc_Son
+T22	GPE 2152 2158	Hà_Nội
+T23	Transfer-ownership 2691 2700	giao_dịch
+E7	Transfer-ownership:T23 
+T24	Charge-indict 3249 3256	khởi_tố
+E8	Charge-indict:T24 Defendant-Arg:T26 Prosecutor-Arg:T31 Time-Arg:T30 Crime-Arg:T29
+T25	Arrest-jail 3266 3274	tạm giam
+E9	Arrest-jail:T25 Person-Arg:T26 Time-Arg:T30 Crime-Arg:T29 Person-Arg2:T27
+T26	PER 3275 3289	ông Lê_Nam_Trà
+T27	PER 3354 3373	ông Phạm_Đình_Trọng
+T28	Charge-indict 3051 3058	khởi_tố
+E10	Charge-indict:T28 Prosecutor-Arg:T31 Time-Arg:T30 Crime-Arg:T29
+T29	CRIME 3065 3246	Vi_phạm quy_định về quản_lý và sử_dụng vốn đầu_tư công gây hậu_quả nghiêm_trọng ( điều 220 Bộ luật_Hình_sự 2015 ) xảy ra tại Tổng_công_ty Viễn_thông MobiFone và các đơn_vị liên_quan
+T30	TIME 3013 3022	Ngày 10/7
+T31	ORG 3025 3050	Cơ_quan Cảnh_sát điều_tra

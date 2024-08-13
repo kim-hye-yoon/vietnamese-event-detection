@@ -1,0 +1,12 @@
+T1	PER 0 9	Đại_sứ Mỹ
+T2	Demonstrate 19 28	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 1399 1405	Maduro
+T4	Transport 1406 1409	bay
+E2	Transport:T4 Destination-Arg:T5 Agent-Arg:T3
+T5	GPE 1414 1421	New_Yor
+T6	PER 2043 2058	1,6 triệu người
+T7	Transport 2062 2065	rời
+E3	Transport:T7 Origin-Arg:T8 Time-Arg:T9 Artifact-Arg:T6
+T8	LOC 2066 2075	quê_hương
+T9	TIME 2079 2090	từ năm 2015

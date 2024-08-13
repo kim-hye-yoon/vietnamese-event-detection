@@ -1,0 +1,93 @@
+T1	Sentence 11 19	tuyên_án
+E1	Sentence:T1 Sentence-Arg:T2 Adjudicator-Arg:T5 Defendant-Arg:T3
+T2	SEN 20 27	tử_hình
+T3	PER 28 43	công_dân Canada
+T4	Transfer-ownership 44 48	buôn
+E2	Transfer-ownership:T4 Seller-Arg:T3
+T5	GPE 0 10	Trung_Quốc
+T6	Sentence 200 208	tuyên_án
+E3	Sentence:T6 Sentence-Arg:T8 Defendant-Arg:T9 Adjudicator-Arg:T7 Crime-Arg:T10
+T7	ORG 127 191	Toà thượng_thẩm thành_phố Đại_Liên , tỉnh Liêu_Ninh , Trung_Quốc
+T8	SEN 209 216	tử_hình
+T9	PER 221 262	công_dân Canada_Robert_Lloyd_Schellenberg
+T10	CRIME 266 281	tội buôn ma_tuý
+T11	Transfer-ownership 270 274	buôn
+E4	Transfer-ownership:T11 Seller-Arg:T9
+T12	Sentence 451 460	hình_phạt
+E5	Sentence:T12 Sentence-Arg:T13
+T13	SEN 461 472	15 năm tù l
+T14	Trial-hearing 634 636	xử
+E6	Trial-hearing:T14 
+T15	Transfer-ownership 855 859	buôn
+E7	Transfer-ownership:T15 Seller-Arg:T16
+T16	PER 837 840	Tôi
+T17	Transport 889 897	tới thăm
+E8	Transport:T17 Agent-Arg:T19 Destination-Arg:T18
+T18	GPE 898 908	Trung_Quốc
+T19	PER 869 872	Tôi
+T20	Appeal 977 986	kháng_cáo
+E9	Appeal:T20 Defendant-Arg:T21 Adjudicator-Arg:T23
+T21	PER 955 967	Schellenberg
+T22	ORG 939 945	Toà_án
+T23	ORG 991 1002	cấp cao hơn
+T24	Arrest-jail 1021 1024	bắt
+E10	Arrest-jail:T24 Person-Arg:T25 Place-Arg:T26 Time-Arg:T27
+T25	PER 1005 1017	Schellenberg
+T26	GPE 1029 1039	Trung_Quốc
+T27	TIME 1043 1056	cuối năm 2014
+T28	Trial-hearing 1065 1071	xét_xử
+E11	Trial-hearing:T28 Time-Arg:T29 Defendant-Arg:T25
+T29	TIME 1092 1100	năm 2016
+T30	Sentence 1144 1150	kết_án
+E12	Sentence:T30 Defendant-Arg:T31 Adjudicator-Arg:T35 Sentence-Arg:T32 Time-Arg:T36
+T31	PER 1151 1163	Schellenberg
+T32	SEN 1164 1173	15 năm tù
+T33	Fine 1177 1186	phạt tiền
+E13	Fine:T33 Money-Arg:T34 Entity-Arg:T31 Adjudicator-Arg:T35 Time-Arg:T36
+T34	MONEY 1187 1197	22.000 USD
+T35	ORG 1140 1143	toà
+T36	TIME 1123 1137	hôm 20/11/2018
+T37	Appeal 1214 1222	kháng_án
+E14	Appeal:T37 Time-Arg:T38 Defendant-Arg:T39
+T38	TIME 1256 1272	một tháng sau đó
+T39	PER 1200 1206	Bị_cáo
+T40	Arrest-jail 1482 1485	bắt
+E15	Arrest-jail:T40 Person-Arg:T41
+T41	PER 1486 1503	công_dân của nhau
+T42	Arrest-jail 1522 1525	bắt
+E16	Arrest-jail:T42 Person-Arg:T45 Agent-Arg:T43 Time-Arg:T44
+T43	GPE 1506 1512	Canada
+T44	TIME 1513 1521	hôm 1/12
+T45	PER 1526 1584	giám_đốc tài_chính tập_đoàn viễn_thông Huawei Mạnh_Vãn_Chu
+T46	Convict 1610 1618	cáo_buộc
+E17	Convict:T46 Defendant-Arg:T48 Adjudicator-Arg:T47 Crime-Arg:T49
+T47	GPE 1607 1609	Mỹ
+T48	PER 1619 1626	bà Mạnh
+T49	CRIME 1627 1682	vi_phạm lệnh trừng_phạt mà Washington áp_đặt với Tehran
+T50	Transport 1698 1707	tại_ngoại
+E18	Transport:T50 Agent-Arg:T51 Time-Arg:T52
+T51	PER 1685 1692	Bà Mạnh
+T52	TIME 1708 1717	hôm 11/12
+T53	Fine 1726 1729	nộp
+E19	Fine:T53 Money-Arg:T54 Entity-Arg:T51
+T54	MONEY 1730 1743	7,5 triệu USD
+T55	Transport 1830 1833	đến
+E20	Transport:T55 Agent-Arg:T56
+T56	ORG 1798 1829	nhiều hãng thông_tấn nước_ngoài
+T57	Trial-hearing 1848 1850	xử
+E21	Trial-hearing:T57 Defendant-Arg:T58
+T58	PER 1855 1867	Schellenberg
+T59	Execute 2070 2077	tử_hình
+E22	Execute:T59 Person-Arg:T60 Time-Arg:T61 Crime-Arg:T62
+T60	PER 2047 2063	một công_dân Anh
+T61	TIME 2036 2044	Năm 2009
+T62	CRIME 2081 2111	đưa 4 kg heroin vào Trung_Quốc
+T63	Transport 2097 2100	vào
+E23	Transport:T63 Agent-Arg:T60 Destination-Arg:T64
+T64	GPE 2101 2111	Trung_Quốc
+T65	Transport 2149 2159	vận_chuyển
+E24	Transport:T65 Agent-Arg:T66
+T66	PER 2124 2136	Schellenberg
+T67	Transfer-ownership 2328 2336	buôn bán
+E25	Transfer-ownership:T67 Seller-Arg:T68
+T68	PER 2277 2289	Schellenberg

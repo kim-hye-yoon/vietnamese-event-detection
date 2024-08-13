@@ -1,0 +1,12 @@
+T1	Meet 58 67	phiên họp
+E1	Meet:T1 Entity-Arg:T6
+T3	Meet 443 452	phiên họp
+E2	Meet:T3 Time-Arg:T4 Time-Arg2:T2
+T2	TIME 486 494	năm 2017
+T4	TIME 505 514	ngày 29/6
+T5	Transfer-ownership 1117 1120	bán
+E3	Transfer-ownership:T5 
+T6	ORG 68 100	Đại_hội_đồng cổ_đông thường_niên
+T7	ORG 453 485	Đại_hội_đồng cổ_đông thường_niên
+T8	Meet 978 987	phiên họp
+E4	Meet:T8 

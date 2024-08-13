@@ -1,0 +1,88 @@
+T1	PER 54 62	Hung_thủ
+T2	Die 63 67	giết
+E1	Die:T2 Agent-Arg:T1 Victim-Arg:T3 Place-Arg:T4
+T3	PER 68 77	người_yêu
+T4	LOC 78 93	trong phòng trọ
+T5	Die 134 141	sát_hại
+E2	Die:T5 Agent-Arg:T1 Victim-Arg:T6
+T6	PER 142 152	cô_gái trẻ
+T7	PER 246 256	cô_gái trẻ
+T8	PER 260 269	người_yêu
+T9	Die 270 274	giết
+E3	Die:T9 Victim-Arg:T7 Agent-Arg:T8 Place-Arg:T10
+T10	LOC 275 290	trong phòng trọ
+T11	PER 303 329	hung_thủ Nguyễn_Trọng_Nhân
+T12	ORG 426 440	công_an Gò_Vấp
+T13	Transport 462 473	chuyển_giao
+E4	Transport:T13 Agent-Arg:T12 Artifact-Arg:T14 Destination-Arg:T15
+T14	PER 474 483	đối_tượng
+T15	LOC 488 523	phòng cảnh_sát hình_sự , công_an TP
+T16	TIME 1207 1215	đêm 29/4
+T17	PER 1218 1222	Nhân
+T18	Transport 1223 1229	trở về
+E5	Transport:T18 Agent-Arg:T17 Time-Arg:T16 Destination-Arg:T19
+T19	LOC 1230 1239	phòng trọ
+T20	PER 1954 1958	Nhân
+T21	PER 1800 1804	Nhân
+T22	Attack 1813 1817	xông
+E6	Attack:T22 Attacker-Arg:T21 Target-Arg:T24
+T23	Attack 1833 1839	bóp_cổ
+E7	Attack:T23 Attacker-Arg:T21 Target-Arg:T24
+T24	PER 1840 1845	chị T
+T25	Die 1851 1858	tử_vong
+E8	Die:T25 Victim-Arg:T24
+T26	PER 1878 1886	người_yê
+T27	Die 1891 1895	chết
+E9	Die:T27 Victim-Arg:T26
+T28	PER 1900 1906	anh ta
+T29	Die 1924 1930	tự vẫn
+E10	Die:T29 Agent-Arg:T28
+T30	TIME 1942 1951	sáng 30/4
+T31	Attack 2017 2024	treo_cổ
+E11	Attack:T31 Attacker-Arg:T20 Time-Arg:T30
+T32	PER 2283 2290	anh này
+T33	Transport 2332 2334	đi
+E12	Transport:T33 Agent-Arg:T32 Vehicle-Arg:T34
+T34	VEH 2295 2317	xe_gắn_máy hiệu Yamaha
+T35	Die 2379 2383	chết
+E13	Die:T35 Agent-Arg:T32
+T36	PER 2523 2527	Nhân
+T37	Transport 2627 2636	di_chuyển
+E14	Transport:T37 Agent-Arg:T36 Vehicle-Arg:T39 Destination-Arg:T38
+T38	GPE 2643 2682	huyện Châu_Đức , tỉnh Bà_Rịa - Vũng_Tàu
+T39	VEH 2594 2604	xe_gắn_máy
+T40	TIME 2729 2737	đêm 29/4
+T41	PER 2740 2750	gia_đình T
+T42	Phone-write 2755 2769	không liên_lạc
+E15	Phone-write:T42 Entity-Arg:T41 Entity-Arg2:T43 Time-Arg:T40
+T43	PER 2779 2782	chị
+T44	TIME 2785 2795	Sau 2 ngày
+T45	Phone-write 2804 2812	gọi điện
+E16	Phone-write:T45 Entity-Arg:T47 Time-Arg:T44
+T46	TIME 2832 2848	lúc 18h ngày 1/5
+T47	PER 2851 2886	chị C. ( SN 1994 , em ruột chị T. )
+T48	Transport 2887 2889	đi
+E17	Transport:T48 Agent-Arg:T47 Origin-Arg:T49 Destination-Arg:T50
+T49	GPE 2893 2910	Bà_Rịa - Vũng_Tàu
+T50	LOC 2915 2938	phòng trọ ở quận Gò_Vấp
+T51	PER 2979 2999	chị C. cùng hàng_xóm
+T52	Attack 3000 3016	phá cửa xông vào
+E18	Attack:T52 Attacker-Arg:T51
+T53	PER 3045 3050	chị T
+T54	Die 3052 3059	tử_vong
+E19	Die:T54 Victim-Arg:T53 Place-Arg:T55
+T55	LOC 3060 3075	trong phòng trọ
+T56	PER 3105 3109	Nhân
+T57	VEH 3115 3125	xe_gắn_máy
+T58	Transport 3110 3114	chạy
+E20	Transport:T58 Agent-Arg:T56 Vehicle-Arg:T57 Destination-Arg:T59
+T59	LOC 3126 3139	về nhà chị T.
+T60	PER 3175 3184	đối_tượng
+T61	Transport 3185 3189	quay
+E21	Transport:T61 Agent-Arg:T60 Vehicle-Arg:T62 Destination-Arg:T63
+T62	VEH 3190 3192	xe
+T63	GPE 3200 3207	Sài_Gòn
+T64	TIME 3213 3229	đến 10h sáng 2/5
+T65	Transport 3234 3237	đến
+E22	Transport:T65 Agent-Arg:T60 Time-Arg:T64 Destination-Arg:T66
+T66	LOC 3238 3269	công_an phường 11 , quận Gò_Vấp

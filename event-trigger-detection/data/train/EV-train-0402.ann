@@ -1,0 +1,5 @@
+T1	Marry 106 110	sinh
+E1	Marry:T1 Time-Arg:T3 Person-Arg:T2 Place-Arg:T4
+T2	PER 92 105	Justin_Bieber
+T3	TIME 111 124	ngày 1/3/1994
+T4	GPE 127 133	Canada

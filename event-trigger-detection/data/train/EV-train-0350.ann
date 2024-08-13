@@ -1,0 +1,11 @@
+T1	PER 0 30	Hai con_gái ông Trần_Quí_Thanh
+T2	Start-org 31 33	mở
+E1	Start-org:T2 
+T3	ORG 34 52	công_ty mua_bán nợ
+T4	ORG 110 139	Công_ty TNHH Mua_bán nợ VNAMC
+T5	Start-org 140 149	thành_lập
+E2	Start-org:T5 Org-Arg:T4 Time-Arg:T6
+T6	TIME 154 169	tháng 3 năm nay
+T7	Start-org 737 746	thành_lập
+E3	Start-org:T7 Org-Arg:T8
+T8	ORG 747 752	VNAMC

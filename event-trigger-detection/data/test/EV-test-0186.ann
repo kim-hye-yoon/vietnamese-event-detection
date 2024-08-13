@@ -1,0 +1,28 @@
+T1	Transfer-ownership 25 33	giao_nộp
+E1	Transfer-ownership:T1 
+T2	Transfer-ownership 126 134	giao_nộp
+E2	Transfer-ownership:T2 Seller-Arg:T3
+T3	PER 137 146	chúng_tôi
+T4	Transfer-money 867 872	hưởng
+E3	Transfer-money:T4 Beneficiary-Arg:T5
+T5	PER 840 854	Người tìm thấy
+T6	Transfer-money 1195 1200	hưởng
+E4	Transfer-money:T6 Beneficiary-Arg:T7
+T7	PER 1175 1189	người tìm thấy
+T8	Transfer-money 1513 1518	hưởng
+E5	Transfer-money:T8 Beneficiary-Arg:T9
+T9	PER 1406 1418	gia_đình bạn
+T10	Fine 2065 2069	phạt
+E6	Fine:T10 Entity-Arg:T12 Money-Arg:T11
+T11	MONEY 2075 2111	từ 2.000.000 đồng đến 5.000.000 đồng
+T12	PER 1995 2058	người có hành_vi “ chiếm_giữ trái_phép tài_sản của người khác ”
+T13	Transfer-ownership 2334 2342	giao_nộp
+E7	Transfer-ownership:T13 
+T14	Arrest-jail 2657 2665	giam_giữ
+E8	Arrest-jail:T14 
+T15	Sentence 2682 2689	phạt tù
+E9	Sentence:T15 Sentence-Arg:T16
+T16	SEN 2690 2713	từ ba tháng đến hai năm
+T17	Sentence 2858 2865	phạt tù
+E10	Sentence:T17 Sentence-Arg:T18
+T18	SEN 2866 2886	từ một năm đến 5 năm

@@ -1,0 +1,18 @@
+T1	Meet 5 8	gặp
+E1	Meet:T1 Entity-Arg:T3 Entity-Arg2:T4
+T3	PER 36 41	Trump
+T4	ORG 45 60	truyền_thông Mỹ
+T2	Execute 24 30	xử bắn
+E2	Execute:T2 
+T5	Execute 151 157	xử bắn
+E3	Execute:T5 
+T6	Meet 207 215	cuộc gặp
+E4	Meet:T6 Place-Arg:T7
+T7	LOC 220 230	Tháp_Trump
+T8	Meet 2484 2492	cuộc gặp
+E5	Meet:T8 Entity-Arg:T9 Entity-Arg2:T10 Place-Arg:T11
+T9	PER 2497 2506	ông Trump
+T10	ORG 2511 2537	những kênh_truyền_hình lớn
+T11	LOC 2542 2552	Tháp_Trump
+T12	Attack 2723 2731	xung_đột
+E6	Attack:T12 

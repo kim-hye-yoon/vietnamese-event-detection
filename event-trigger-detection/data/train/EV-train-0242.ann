@@ -1,0 +1,140 @@
+T1	TIME 67 103	trong các ngày từ 20/2 đến 24/2/2014
+T2	ORG 106 149	lực_lượng Công_an các quận 1 và 11 , Tp HCM
+T3	Arrest-jail 153 156	tóm
+E1	Arrest-jail:T3 Person-Arg:T4 Agent-Arg:T2 Time-Arg:T1
+T4	PER 161 261	13 tên trong băng_nhóm giả_danh nhân_viên bưu_điện và cán_bộ Công_an thuộc cơ_quan Cảnh_sát điều_tra
+T5	PER 917 923	bà Huệ
+T6	Transfer-money 929 932	nộp
+E2	Transfer-money:T6 Money-Arg:T7 Giver-Arg:T5 Place-Arg:T9 Recipient-Arg:T8
+T7	MONEY 933 955	số tiền 170 triệu đồng
+T9	FAC 997 1014	ngân_hàng VP Bank
+T8	PER 974 992	một người tên Sang
+T10	PER 1310 1316	bà Huệ
+T11	Transport 1317 1320	đến
+E3	Transport:T11 Destination-Arg:T12 Artifact-Arg:T10
+T12	FAC 1321 1338	Công_an phường 12
+T13	MONEY 1602 1616	170 triệu đồng
+T14	PER 1621 1627	bà Huệ
+T15	Transfer-money 1633 1637	nhập
+E4	Transfer-money:T15 Giver-Arg:T14 Money-Arg:T13 Recipient-Arg:T16
+T16	PER 1667 1681	Đặng_Minh_Sang
+T17	TIME 1820 1840	ngay trong ngày 24/2
+T18	ORG 1843 1868	lực_lượng Công_an quận 11
+T19	Arrest-jail 1872 1875	tóm
+E5	Arrest-jail:T19 Person-Arg:T20 Agent-Arg:T18 Time-Arg:T17
+T20	PER 1880 1914	11 tên trong băng_nhóm lừa_đảo này
+T21	PER 1945 1951	bà Huệ
+T22	Transfer-money 1952 1955	nộp
+E6	Transfer-money:T22 Money-Arg:T23 Giver-Arg:T21
+T23	MONEY 1956 1970	170 triệu đồng
+T24	PER 2010 2014	Sang
+T25	Transfer-money 2070 2076	chuyển
+E7	Transfer-money:T25 Giver-Arg:T24 Money-Arg:T26 Recipient-Arg:T27 Money-Arg2:T28 Recipient-Arg2:T29 Giver-Arg2:T30 Recipient-Arg3:T31
+T26	MONEY 2077 2090	50 triệu đồng
+T27	PER 2121 2139	Trần_Thị_Kim_Hoàng
+T28	MONEY 2142 2155	50 triệu đồng
+T29	PER 2186 2205	Trần_Thị_Mộng_Trinh
+T30	PER 2208 2221	50 triệu đồng
+T31	PER 2252 2267	Nhan_Ngọc_Khanh
+T32	Transport 3608 3615	lui_tới
+E8	Transport:T32 Destination-Arg:T33
+T33	LOC 3622 3637	tụ_điểm ăn_chơi
+T36	PER 3765 3769	Hiền
+T37	Transport 3770 3773	đến
+E9	Transport:T37 Destination-Arg:T34 Artifact-Arg:T36
+T34	LOC 3774 3803	những tụ_điểm ăn_chơi cao_cấp
+T35	PER 4153 4156	Bảo
+T38	PER 4160 4163	Lực
+T39	PER 4185 4189	Hiền
+T40	Transfer-money 4169 4178	bồi_dưỡng
+E10	Transfer-money:T40 Giver-Arg:T38 Giver-Arg2:T35 Recipient-Arg:T39 Money-Arg:T41
+T41	MONEY 4190 4211	số tiền 11 triệu đồng
+T42	PER 5525 5533	nạn_nhân
+T43	Transfer-money 5534 5540	chuyển
+E11	Transfer-money:T43 Giver-Arg:T42 Money-Arg:T44 Recipient-Arg:T45
+T44	MONEY 5546 5560	170 triệu đồng
+T45	PER 5582 5587	chúng
+T46	PER 5864 5866	bà
+T47	Transfer-money 5867 5870	trả
+E12	Transfer-money:T47 Giver-Arg:T46 Money-Arg:T48
+T48	MONEY 5911 5923	9 triệu đồng
+T49	PER 6474 6476	bà
+T50	Transfer-money 6477 6483	chuyển
+E13	Transfer-money:T50 Money-Arg:T51 Giver-Arg:T49 Recipient-Arg:T52
+T51	MONEY 6484 6498	800 triệu đồng
+T52	PER 6545 6561	Nguyễn_Thành_Hải
+T53	PER 6700 6705	bà Th
+T54	Transport 6709 6712	đến
+E14	Transport:T54 Destination-Arg:T55 Artifact-Arg:T53
+T55	FAC 6713 6749	Công_an phường Phạm_Ngũ_Lão , quận 1
+T56	ORG 6783 6800	lực_lượng Công_an
+T57	PER 6813 6817	Hiếu
+T58	PER 6821 6837	Nguyễn_Thành_Hải
+T59	Arrest-jail 6804 6807	bắt
+E15	Arrest-jail:T59 Agent-Arg:T56 Person-Arg:T57 Person-Arg2:T58
+T60	PER 7290 7296	cả hai
+T61	Transport 7305 7309	trốn
+E16	Transport:T61 Artifact-Arg:T60 Destination-Arg:T62
+T62	GPE 7315 7323	Việt_Nam
+T63	PER 8200 8206	cả bọn
+T64	Transport 8207 8215	kéo nhau
+E17	Transport:T64 Destination-Arg:T65 Agent-Arg:T63
+T65	FAC 8219 8247	phòng 505 , khách_sạn Nam_Hy
+T66	PER 9370 9385	Những người này
+T67	Transfer-money 9422 9426	nhận
+E18	Transfer-money:T67 Money-Arg:T68 Recipient-Arg:T66
+T68	MONEY 9427 9464	thù_lao 500.000 đồng / 1 số tài_khoản
+T69	PER 316 327	Shih_Pao_Yu
+T70	Be-born 354 362	sinh năm
+E19	Be-born:T70 Time-Arg:T71 Person-Arg:T69
+T71	TIME 363 367	1973
+T72	PER 371 385	Hseih_Ming_Chi
+T73	Be-born 412 420	sinh năm
+E20	Be-born:T73 Time-Arg:T74 Person-Arg:T72
+T74	TIME 421 425	1961
+T75	PER 524 538	bà Lê_Hồng_Huệ
+T76	Be-born 541 549	sinh năm
+E21	Be-born:T76 Person-Arg:T75 Time-Arg:T77
+T77	TIME 550 554	1957
+T78	TIME 1162 1180	14h ngày 24/2/2014
+T79	PER 1183 1185	bà
+T80	Transport 1186 1189	đến
+E22	Transport:T80 Artifact-Arg:T79 Time-Arg:T78 Destination-Arg:T81
+T81	LOC 1190 1221	ngân_hàng VP , Nguyễn_Chí Thanh
+T82	Be-born 1684 1692	sinh năm
+E23	Be-born:T82 Time-Arg:T83 Person-Arg:T16
+T83	TIME 1693 1697	1986
+T84	PER 2308 2322	Đặng_Minh_Sang
+T85	Transfer-money 2323 2326	rút
+E24	Transfer-money:T85 Recipient-Arg:T84 Money-Arg:T86
+T86	MONEY 2289 2302	20 triệu đồng
+T87	PER 7798 7814	Nguyễn_Quốc_Tuấn
+T88	Be-born 7817 7825	sinh năm
+E25	Be-born:T88 Time-Arg:T89 Person-Arg:T87
+T89	TIME 7826 7830	1986
+T90	PER 7886 7898	Châu_Vĩ_Hiền
+T91	Be-born 7901 7909	sinh năm
+E26	Be-born:T91 Time-Arg:T92 Person-Arg:T90
+T92	TIME 7910 7914	1979
+T93	PER 8462 8474	Tuấn và Hiền
+T94	Transport 8485 8491	đi đến
+E27	Transport:T94 Artifact-Arg:T93 Destination-Arg:T95
+T95	LOC 8492 8503	chợ điện_tử
+T96	Transfer-ownership 8508 8511	mua
+E28	Transfer-ownership:T96 Buyer-Arg:T93 Place-Arg:T95
+T97	PER 8924 8943	Trần_Thị_Mộng_Trinh
+T98	Be-born 8946 8954	sinh năm
+E29	Be-born:T98 Time-Arg:T99 Person-Arg:T97
+T99	TIME 8955 8959	1958
+T100	PER 8962 8980	Trần_Thị_Kim_Hoàng
+T101	Be-born 8983 8991	sinh năm
+E30	Be-born:T101 Person-Arg:T100 Time-Arg:T102
+T102	TIME 8992 8996	1961
+T103	PER 9060 9075	Nhan_Ngọc_Khanh
+T104	Be-born 9078 9086	sinh năm
+E31	Be-born:T104 Time-Arg:T105 Person-Arg:T103
+T105	TIME 9087 9091	1984
+T106	PER 9279 9293	Đặng_Minh_Sang
+T107	Be-born 9296 9304	sinh năm
+E32	Be-born:T107 Time-Arg:T108 Person-Arg:T106
+T108	TIME 9305 9308	198

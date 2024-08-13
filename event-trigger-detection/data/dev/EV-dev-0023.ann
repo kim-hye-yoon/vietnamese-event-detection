@@ -1,0 +1,4 @@
+T1	PER 0 9	Kate_Moss
+T2	Start-org 10 12	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 13 28	công_ty quản_lý

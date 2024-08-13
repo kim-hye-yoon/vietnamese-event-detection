@@ -1,0 +1,12 @@
+T1	Transfer-ownership 289 298	nhập_khẩu
+E1	Transfer-ownership:T1 Seller-Arg:T2 Buyer-Arg:T3
+T2	ORG 311 332	doanh_nghiệp Thái_Lan
+T3	ORG 255 272	doanh_nghiệp Việt
+T4	Phone-write 560 567	liên_hệ
+E2	Phone-write:T4 Entity-Arg:T5 Entity-Arg2:T6
+T5	ORG 577 592	các đối_tác này
+T6	ORG 486 503	doanh_nghiệp Việt
+T7	Phone-write 1636 1643	liên_hệ
+E3	Phone-write:T7 Entity-Arg:T8 Entity-Arg2:T9
+T8	ORG 1648 1679	Thương_vụ Việt_Nam tại Thái_Lan
+T9	ORG 1616 1628	doanh_nghiệp

@@ -1,0 +1,34 @@
+T1	Fine 21 25	phạt
+E1	Fine:T1 Entity-Arg:T3 Money-Arg:T2 Crime-Arg:T4
+T2	MONEY 26 38	3 triệu đồng
+T3	PER 0 17	Trưởng công_an xã
+T4	CRIME 42 67	nổ_súng trong lúc đi chơi
+T5	PER 1082 1101	hai nhóm thanh_niên
+T6	Attack 1102 1107	ẩu_đả
+E2	Attack:T6 Attacker-Arg:T5 Time-Arg:T7
+T7	TIME 1013 1022	ngày 26/6
+T8	Fine 543 558	phạt hành_chính
+E3	Fine:T8 Entity-Arg:T9 Adjudicator-Arg:T10 Money-Arg:T11
+T9	PER 559 567	ông Hưng
+T10	ORG 520 541	Công_an huyện Thọ_Xuâ
+T11	MONEY 568 580	3 triệu đồng
+T12	Attack 1135 1149	đuổi đánh nhau
+E4	Attack:T12 Attacker-Arg:T13
+T13	PER 1114 1125	nhiều người
+T14	Attack 1466 1473	nổ_súng
+E5	Attack:T14 Instrument-Arg:T15 Attacker-Arg:T16
+T15	WEA 1469 1473	súng
+T16	PER 1452 1465	Người đàn_ông
+T17	WEA 45 49	súng
+T18	Attack 42 49	nổ_súng
+E6	Attack:T18 Instrument-Arg:T17 Attacker-Arg:T3
+T19	Attack 215 222	nổ_súng
+E7	Attack:T19 Attacker-Arg:T21 Instrument-Arg:T20 Place-Arg:T22
+T20	WEA 218 222	súng
+T21	PER 163 214	ông Trịnh_Văn_Hưng ( Trưởng công_an xã Thọ_Trường )
+T22	FAC 245 260	một quán ăn đêm
+T23	Attack 956 963	nổ_súng
+E8	Attack:T23 Instrument-Arg:T24 Attacker-Arg:T25 Place-Arg:T26
+T24	WEA 959 963	súng
+T25	PER 947 955	ông Hưng
+T26	FAC 970 981	quán ăn đêm

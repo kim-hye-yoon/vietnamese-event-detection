@@ -1,0 +1,13 @@
+T1	PER 0 11	Nhiều người
+T2	Arrest-jail 15 22	tạm giữ
+E1	Arrest-jail:T2 Person-Arg:T1 Crime-Arg:T3
+T3	CRIME 28 55	kêu_gọi biểu_tình trái_phép
+T4	Attack 508 512	đánh
+E2	Attack:T4 Target-Arg:T5
+T6	Attack 747 755	đánh_đập
+E3	Attack:T6 Target-Arg:T7
+T7	PER 756 771	người biểu_tình
+T8	End-org 1215 1223	giải thể
+E4	End-org:T8 Org-Arg:T9
+T9	ORG 1224 1263	đảng đối_lập Cứu nguy Dân_tộc Campuchia
+T5	PER 513 534	những người biểu_tình

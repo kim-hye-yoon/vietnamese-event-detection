@@ -1,0 +1,23 @@
+T1	Elect 4 17	được bầu_chọn
+E1	Elect:T1 Entity-Arg:T2
+T2	ORG 0 3	SHB
+T3	Transfer-ownership 994 1003	giao_dịch
+E2	Transfer-ownership:T3 
+T4	PER 1017 1027	khách_hàng
+T5	Transfer-ownership 1105 1114	giao_dịch
+E3	Transfer-ownership:T5 
+T6	Transfer-ownership 1272 1278	bán_lẻ
+E4	Transfer-ownership:T6 Seller-Arg:T7 Place-Arg:T8 Time-Arg:T9
+T7	ORG 1262 1271	ngân_hàng
+T8	GPE 1307 1315	Việt_Nam
+T9	TIME 1318 1326	năm 2016
+T10	Merge-org 1357 1365	sáp_nhập
+E5	Merge-org:T10 Org-Arg:T11 Org-Arg2:T12 Time-Arg:T9
+T11	ORG 1329 1332	SHB
+T12	ORG 1366 1404	Công_ty CP Tài_chính Vinaconex_Viettel
+T13	Start-org 1408 1417	thành_lập
+E6	Start-org:T13 Agent-Arg:T11 Org-Arg:T14 Time-Arg:T9
+T14	ORG 1418 1449	Công_ty Tài_chính tiêu_dùng SHB
+T15	Transfer-money 1582 1585	vay
+E7	Transfer-money:T15 Recipient-Arg:T16
+T16	PER 1544 1554	khách_hàng

@@ -1,0 +1,5 @@
+T1	PER 0 17	3 chàng_trai Việt
+T2	Start-org 18 20	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3 Place-Arg:T4
+T3	ORG 21 37	công_ty phần_mềm
+T4	GPE 40 48	Phần_Lan

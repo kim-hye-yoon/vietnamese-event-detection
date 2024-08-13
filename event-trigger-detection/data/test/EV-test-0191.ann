@@ -1,0 +1,42 @@
+T2	ORG 0 8	Agribank
+T3	ORG 0 283	Agribank : Phá_sản ALCII không ảnh_hưởng hoạt_động của ngân_hàng .
+Ngân_hàng Nông_nghiệp và Phát_triển nông_thôn Việt_Nam ( Agribank ) vừa phát thông_cáo về hiện_tượng công_nhân tại một_số địa_phương xin nghỉ_việc để đến ngân_hàng rút_tiền do ảnh_hưởng của tin_đồn thất_thiệt - Agrib
+T8	ORG 431 439	Agribank
+T10	Arrest-jail 489 496	bắt_giữ
+E3	Arrest-jail:T10 Person-Arg:T6
+T11	ORG 463 488	cơ_quan cảnh_sát điều_tra
+T13	ORG 615 623	Agribank
+T1	Declare-bankruptcy 11 18	Phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T14
+T14	ORG 19 24	ALCII
+T15	ORG 645 650	ALCII
+T16	ORG 663 676	BHXH Việt_Nam
+T17	Declare-bankruptcy 714 721	phá_sản
+E4	Declare-bankruptcy:T17 Org-Arg:T18
+T18	ORG 699 704	ALCII
+T19	ORG 724 732	Agribank
+T20	ORG 769 774	ALCII
+T21	ORG 854 862	Agribank
+T22	ORG 865 870	ALCII
+T24	TIME 916 925	30/5/2016
+T25	TIME 932 941	31/7/2018
+T26	ORG 944 966	Toà_án Nhân_dân TP HCM
+T27	Declare-bankruptcy 981 997	tuyên_bố phá_sản
+E6	Declare-bankruptcy:T27 Org-Arg:T28 Time-Arg:T25 Org-Arg2:T26
+T28	ORG 1006 1011	ALCII
+T38	Declare-bankruptcy 1520 1527	phá_sản
+E7	Declare-bankruptcy:T38 Org-Arg:T39
+T39	ORG 1532 1537	ALCII
+T57	ORG 2147 2169	Toà_án Nhân_dân TP HCM
+T58	ORG 2173 2187	Toà_án cấp cao
+T4	ORG 67 134	Ngân_hàng Nông_nghiệp và Phát_triển nông_thôn Việt_Nam ( Agribank )
+T5	Declare-bankruptcy 287 294	phá_sản
+E2	Declare-bankruptcy:T5 Org-Arg:T4
+T6	PER 497 571	ông Lê_Bạch_Hồng -  nguyên Tổng_giám_đốc Bảo_hiểm_xã_hội ( BHXH ) Việt_Nam
+T7	Transfer-money 753 756	trả
+E8	Transfer-money:T7 Giver-Arg:T19
+T9	Declare-bankruptcy 896 912	tuyên_bố phá_sản
+E5	Declare-bankruptcy:T9 Time-Arg:T24 Org-Arg:T22
+T12	PER 1452 1501	bà Nguyễn_Thị_Phượng - Phó tổng_giám_đốc Agribank
+T23	Trial-hearing 2193 2198	xử_lý
+E9	Trial-hearing:T23 Adjudicator-Arg:T58 Adjudicator-Arg2:T57

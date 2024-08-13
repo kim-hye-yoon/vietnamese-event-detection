@@ -1,0 +1,87 @@
+T1	Arrest-jail 32 39	bắt_giữ
+E1	Arrest-jail:T1 Person-Arg:T4 Agent-Arg:T5
+T2	Transport 40 46	trở_về
+E2	Transport:T2 Agent-Arg:T4 Destination-Arg:T3
+T3	GPE 47 52	Tokyo
+T4	PER 0 17	Công_dân Nhật_Bản
+T5	GPE 21 31	Triều_Tiên
+T6	Arrest-jail 107 115	bắt giam
+E3	Arrest-jail:T6 Person-Arg:T7 Agent-Arg:T8 Time-Arg:T9
+T7	PER 55 92	Tomoyuki_Sugimoto , công_dân Nhật_Bản
+T8	GPE 96 106	Triều_Tiên
+T9	TIME 116 129	hồi đầu tháng
+T10	Transport 132 135	tới
+E4	Transport:T10 Agent-Arg:T7 Destination-Arg:T11 Time-Arg:T12
+T11	FAC 136 154	sân_bay ở Bắc_Kinh
+T12	TIME 155 162	hôm_nay
+T13	Transport 188 194	trở_về
+E5	Transport:T13 Agent-Arg:T7 Destination-Arg:T14
+T14	GPE 195 200	Tokyo
+T15	Arrest-jail 269 276	bắt_giữ
+E6	Arrest-jail:T15 Person-Arg:T18 Agent-Arg:T17 Time-Arg:T16
+T16	TIME 277 290	hồi đầu tháng
+T17	GPE 258 268	Triều_Tiên
+T18	PER 217 254	Tomoyuki_Sugimoto , công_dân Nhật_Bản
+T19	TIME 293 300	hôm_nay
+T20	Transport 304 306	về
+E7	Transport:T20 Time-Arg:T19 Agent-Arg:T18 Destination-Arg:T21 Origin-Arg:T22
+T21	GPE 307 319	thủ_đô Tokyo
+T22	GPE 338 359	Bắc_Kinh , Trung_Quốc
+T23	Transport 412 415	tới
+E8	Transport:T23 Destination-Arg:T24 Agent-Arg:T25 Origin-Arg:T26
+T24	GPE 416 424	Bắc_Kinh
+T25	PER 386 407	người đàn_ông 39 tuổi
+T26	GPE 497 508	Bình_Nhưỡng
+T27	Transport 520 523	tới
+E9	Transport:T27 Agent-Arg:T28 Destination-Arg:T29
+T28	PER 511 519	Sugimoto
+T29	GPE 524 534	Triều_Tiên
+T30	Arrest-jail 576 583	bắt_giữ
+E10	Arrest-jail:T30 Agent-Arg:T31 Person-Arg:T28
+T31	ORG 555 575	chính_quyền nước này
+T32	Arrest-jail 669 672	bắt
+E11	Arrest-jail:T32 Person-Arg:T33
+T33	PER 662 665	anh
+T34	Arquit 778 785	tha_thứ
+E12	Arquit:T34 Adjudicator-Arg:T37 Defendant-Arg:T36
+T35	Transport 789 798	trục_xuất
+E13	Transport:T35 Artifact-Arg:T36
+T36	PER 799 807	Sugimoto
+T37	ORG 753 764	chính_quyền
+T38	Transport 992 995	tới
+E14	Transport:T38 Destination-Arg:T39 Agent-Arg:T40
+T39	LOC 996 1014	thành_phố cảng này
+T40	PER 877 885	Sugimoto
+T41	Arrest-jail 1358 1365	bắt_cóc
+E15	Arrest-jail:T41 Person-Arg:T43 Agent-Arg:T42 Time-Arg:T44
+T42	GPE 1347 1357	Triều_Tiên
+T43	PER 1366 1383	công_dân Nhật_Bản
+T44	TIME 1390 1412	thập_niên 1970 và 1980
+T45	Transport 1583 1586	tới
+E16	Transport:T45 Agent-Arg:T47 Destination-Arg:T46
+T46	GPE 1587 1597	Triều_Tiên
+T47	PER 1564 1572	công_dân
+T48	Arrest-jail 1717 1720	bắt
+E17	Arrest-jail:T48 Person-Arg:T49 Place-Arg:T50
+T49	PER 1692 1708	nhiều người Nhật
+T50	LOC 1725 1732	tới đây
+T51	Arrest-jail 1785 1793	bắt giam
+E18	Arrest-jail:T51 Agent-Arg:T55 Person-Arg:T53 Time-Arg:T54 Crime-Arg:T52
+T52	CRIME 1807 1816	gián_điệp
+T53	PER 1750 1769	một phóng_viên Nhật
+T54	TIME 1739 1747	năm 1999
+T55	GPE 1773 1784	Bình_Nhưỡng
+T56	Release-parole 1825 1834	trả tự_do
+E19	Release-parole:T56 Time-Arg:T57 Person-Arg:T53
+T57	TIME 1835 1846	sau hai năm
+T58	TIME 1853 1861	năm 2003
+T59	PER 1864 1879	một thương_nhân
+T60	Arrest-jail 1883 1886	bắt
+E20	Arrest-jail:T60 Person-Arg:T59 Crime-Arg:T61 Time-Arg:T58
+T61	CRIME 1890 1914	nghi_ngờ buôn_lậu ma_tuý
+T62	Transfer-ownership 1899 1907	buôn_lậu
+E21	Transfer-ownership:T62 Seller-Arg:T59
+T63	Transport 1945 1953	rời khỏi
+E22	Transport:T63 Origin-Arg:T64 Agent-Arg:T59 Time-Arg:T65
+T64	GPE 1954 1964	Triều_Tiên
+T65	TIME 1932 1941	hơn 5 năm

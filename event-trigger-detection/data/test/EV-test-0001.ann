@@ -1,0 +1,14 @@
+T1	PER 480 489	người_dân
+T2	Demonstrate 501 510	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 558 576	Hơn 5.000 cảnh_sát
+T4	Transport 591 594	tới
+E2	Transport:T4 Artifact-Arg:T3
+T5	ORG 1889 1907	Dự_án tượng Sardar
+T6	Transfer-money 1912 1919	chi_phí
+E3	Transfer-money:T6 Giver-Arg:T5 Money-Arg:T7
+T7	MONEY 1920 1933	430 triệu USD
+T8	PER 2368 2383	Khách tham_quan
+T9	Transfer-ownership 2391 2408	đặt vé trực_tuyến
+E4	Transfer-ownership:T9 Buyer-Arg:T8 Time-Arg:T10
+T10	TIME 2417 2424	4,8 USD

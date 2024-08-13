@@ -1,0 +1,58 @@
+T1	PER 4 6	mẹ
+T2	Attack 0 3	Đâm
+E1	Attack:T2 Target-Arg:T1
+T3	Die 79 83	chết
+E2	Die:T3 Victim-Arg:T4
+T4	PER 70 78	người mẹ
+T5	Attack 176 185	khống_chế
+E3	Attack:T5 Target-Arg:T6
+T6	PER 143 168	Bản_thân hung_thủ ngáo đá
+T7	Die 270 274	giết
+E4	Die:T7 Victim-Arg:T9 Agent-Arg:T8
+T8	PER 258 269	con ngáo đá
+T9	PER 275 277	mẹ
+T10	PER 359 366	mẹ ruột
+T11	PER 350 353	con
+T12	Die 354 358	giết
+E5	Die:T12 Victim-Arg:T10 Agent-Arg:T11 Time-Arg:T14 Place-Arg:T13
+T13	LOC 278 327	Xóm chợ Nhật_Tảo ( phường 4 , quận 10 , TP. HCM )
+T14	TIME 367 376	trong đêm
+T15	Die 720 724	giết
+E6	Die:T15 Agent-Arg:T17 Victim-Arg:T16
+T16	PER 725 727	mẹ
+T17	PER 586 696	gã trai hiền_lành Tô_Minh_Nhật_Hải ( SN 1981 , tên thường gọi là Sỉn , ngụ 100 Nhật_Tảo , phường 4 , quận 10 )
+T18	Attack 1183 1186	đâm
+E7	Attack:T18 Instrument-Arg:T20 Target-Arg:T22 Attacker-Arg:T21
+T19	Die 1187 1191	chết
+E8	Die:T19 Victim-Arg:T22 Agent-Arg:T21
+T20	WEA 1179 1182	dao
+T21	PER 1098 1101	Sỉn
+T22	PER 1125 1132	mẹ mình
+T23	Attack 1334 1337	đâm
+E9	Attack:T23 Instrument-Arg:T26 Attacker-Arg:T25 Target-Arg:T24
+T24	PER 1372 1379	mẹ mình
+T25	PER 1305 1308	Sỉn
+T26	WEA 1321 1324	dao
+T27	Injure 2803 2812	bị_thương
+E10	Injure:T27 Victim-Arg:T30
+T28	Die 2762 2766	chết
+E11	Die:T28 Victim-Arg:T29
+T29	PER 2751 2756	bà H.
+T30	PER 2783 2786	Sỉn
+T31	Arrest-jail 2971 2978	bắt_giữ
+E12	Arrest-jail:T31 Person-Arg:T32 Agent-Arg:T33 Time-Arg:T34
+T32	PER 2979 2987	hung_thủ
+T33	ORG 2881 2970	lực_lượng Công_an phường phối_hợp cùng Công_an quận 10 và phòng nghiệp_vụ Công_an TP. HCM
+T34	TIME 2866 2878	Ngay_lập_tức
+T35	Arrest-jail 3126 3133	tạm giữ
+E13	Arrest-jail:T35 Person-Arg:T36
+T36	PER 3089 3122	Hung_thủ ngáo đá Tô_Minh_Nhật_Hải
+T37	PER 3486 3491	bà H.
+T38	Attack 3498 3501	đâm
+E14	Attack:T38 Target-Arg:T37
+T39	Die 3502 3506	chết
+E15	Die:T39 Victim-Arg:T37
+T40	Attack 4004 4007	đâm
+E16	Attack:T40 Target-Arg:T42 Attacker-Arg:T41
+T41	PER 3991 3994	Sỉn
+T42	PER 4032 4040	anh Công

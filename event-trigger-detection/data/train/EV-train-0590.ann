@@ -1,0 +1,31 @@
+T1	Attack 35 45	không kích
+E1	Attack:T1 Target-Arg:T2 Place-Arg:T3
+T2	ORG 46 57	căn_cứ Iran
+T3	GPE 60 65	Syria
+T4	Attack 470 475	phóng
+E2	Attack:T4 Instrument-Arg:T5 Target-Arg:T6 Place-Arg:T8 Instrument-Arg2:T7
+T5	WEA 486 493	tên_lửa
+T6	FAC 506 540	mục_tiêu và cơ_sở_hạ_tầng của Iran
+T8	GPE 545 550	Syria
+T9	ORG 592 617	các lực_lượng của Teheran
+T10	Attack 621 626	phóng
+E3	Attack:T10 Attacker-Arg:T9 Instrument-Arg:T11 Target-Arg:T12 Place-Arg:T13
+T11	WEA 634 647	20 quả rocket
+T12	FAC 652 679	căn_cứ_quân_sự của Tel_Aviv
+T13	LOC 682 698	cao_nguyên Golan
+T17	Attack 1398 1406	tấn_công
+E5	Attack:T17 Target-Arg:T18 Place-Arg:T19 Instrument-Arg:T20 Time-Arg:T21 Attacker-Arg:T14
+T18	FAC 1407 1419	sân_bay T -4
+T19	GPE 1422 1427	Syria
+T20	WEA 1433 1451	tên_lửa hành_trình
+T21	TIME 1452 1459	hôm 9/4
+T22	Die 1484 1494	thiệt_mạng
+E6	Die:T22 Victim-Arg:T23
+T23	PER 1468 1483	7 công_dân Iran
+T7	VEH 436 455	chiến_đấu cơ Israel
+T24	Attack 740 747	phá_huỷ
+E7	Attack:T24 Target-Arg:T25 Target-Arg2:T26 Target-Arg3:T27
+T25	FAC 775 808	một trại đóng quân ở bắc Damascus
+T26	FAC 811 846	một kho vũ_khí tại sân_bay Damascus
+T27	VEH 850 877	một xe phóng rocket di_động
+T14	GPE 1379 1385	Israel

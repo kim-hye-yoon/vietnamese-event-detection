@@ -1,0 +1,25 @@
+T1	Demonstrate 0 9	Biểu_tình
+E1	Demonstrate:T1 Place-Arg:T2
+T2	LOC 30 63	trước cơ_quan chính_phủ Trung_Quố
+T3	Demonstrate 67 76	Biểu_tình
+E2	Demonstrate:T3 Place-Arg:T4 Time-Arg:T5 Place-Arg2:T6
+T4	FAC 78 110	rước trụ_sở Uỷ_ban Y_tế Quốc_gia
+T5	TIME 111 119	hôm 30/7
+T6	GPE 124 132	Bắc_Kinh
+T7	PER 291 314	hơn 20 người Trung_Quốc
+T8	Demonstrate 315 321	tụ_tập
+E3	Demonstrate:T8 Entity-Arg:T7 Place-Arg:T9 Time-Arg:T10 Place-Arg2:T11 Time-Arg2:T12
+T9	FAC 322 355	ngoài trụ_sở Uỷ_ban Y_tế Quốc_gia
+T10	TIME 356 364	hôm 30/7
+T11	LOC 368 406	Cục Quản_lý Dược Quốc_gia tại Bắc_Kinh
+T12	TIME 407 415	hôm 31/7
+T13	ORG 1189 1195	Đơn_vị
+T14	Transfer-ownership 1203 1206	bán
+E4	Transfer-ownership:T14 Seller-Arg:T13 Buyer-Arg:T15 Buyer-Arg2:T16 Time-Arg:T17
+T15	GPE 1250 1261	tỉnh Hà_Bắc
+T16	GPE 1265 1286	thành_phố Trùng_Khánh
+T17	TIME 1291 1309	tháng 11 năm_ngoái
+T18	ORG 1392 1470	công_ty công_nghệ_sinh_học Trường_Sinh ở thành_phố Trường_Xuân , tỉnh Sơn_Đông
+T19	Transfer-ownership 1480 1486	đã bán
+E5	Transfer-ownership:T19 Seller-Arg:T18 Buyer-Arg:T20
+T20	GPE 1536 1549	tỉnh Sơn_Đông

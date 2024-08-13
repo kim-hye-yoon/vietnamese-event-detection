@@ -1,0 +1,41 @@
+T1	PER 968 982	Sataya_Nadella
+T2	Nominate 991 999	bổ_nhiệm
+E1	Nominate:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 1004 1007	CEO
+T5	PER 1153 1163	Anshu_Jain
+T6	Be-born 1164 1168	sinh
+E2	Be-born:T6 Place-Arg:T7 Person-Arg:T5
+T7	GPE 1176 1182	Jaipur
+T8	PER 1196 1207	Indra_Nooyi
+T9	Be-born 1224 1228	sinh
+E3	Be-born:T9 Place-Arg:T10 Person-Arg:T8
+T10	GPE 1236 1243	Chennai
+T11	PER 3626 3631	Nooyi
+T12	Start-position 3632 3640	gia_nhập
+E4	Start-position:T12 Entity-Arg:T13 Person-Arg:T11 Time-Arg:T14
+T13	ORG 3641 3646	Pepsi
+T14	TIME 3650 3658	năm 1994
+T15	PER 3661 3665	Jain
+T16	Start-position 3674 3682	làm_việc
+E5	Start-position:T16 Person-Arg:T15 Entity-Arg:T17 Time-Arg:T18
+T17	ORG 3687 3700	Deutsche_Bank
+T18	TIME 3701 3715	một năm sau đó
+T19	PER 3719 3726	Menezes
+T20	ORG 3731 3737	Diageo
+T21	Start-position 3727 3730	vào
+E6	Start-position:T21 Entity-Arg:T20 Person-Arg:T19 Time-Arg:T22
+T22	TIME 3741 3749	năm 1997
+T23	PER 3752 3759	Narayen
+T24	ORG 3765 3770	Adobe
+T25	TIME 3783 3790	năm1998
+T26	Start-position 3776 3779	vào
+E7	Start-position:T26 Time-Arg:T25 Entity-Arg:T24 Person-Arg:T23
+T27	PER 3797 3804	Nadella
+T28	Start-position 3808 3817	cống_hiến
+E8	Start-position:T28 Entity-Arg:T29 Person-Arg:T27
+T29	ORG 3822 3831	Microsoft
+T30	Start-org 1416 1425	thành_lập
+E9	Start-org:T30 Agent-Arg:T32 Org-Arg:T31 Time-Arg:T33
+T31	ORG 1381 1391	trường_học
+T32	ORG 1397 1406	Chính_phủ
+T33	TIME 1429 1441	thập_niên 60

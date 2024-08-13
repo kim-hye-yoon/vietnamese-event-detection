@@ -1,0 +1,4 @@
+T1	Transfer-money 1600 1607	trợ_cấp
+E1	Transfer-money:T1 Giver-Arg:T2 Time-Arg:T3
+T2	PER 1580 1583	ông
+T3	TIME 1614 1631	những năm gần đây

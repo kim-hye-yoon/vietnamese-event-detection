@@ -1,0 +1,8 @@
+T1	Transfer-ownership 931 934	bán
+E1	Transfer-ownership:T1 Seller-Arg:T2 Artifact-Arg:T3
+T2	PER 907 916	Chúng_tôi
+T3	VEH 935 942	máy_bay
+T4	Transfer-ownership 1159 1162	bán
+E2	Transfer-ownership:T4 Artifact-Arg:T5 Seller-Arg:T6
+T5	VEH 1163 1167	A380
+T6	ORG 1127 1133	Airbus

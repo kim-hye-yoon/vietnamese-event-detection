@@ -1,0 +1,42 @@
+T1	PER 78 118	nguyên Chánh thanh_tra Sở Y_tế Quảng_Nam
+T2	Die 146 157	thương_vong
+E1	Die:T2 Victim-Arg:T3 Agent-Arg:T1
+T3	PER 138 145	2 người
+T4	TIME 186 195	Ngày 10/2
+T5	ORG 198 227	HĐXX sơ_thẩm TAND TP. Đà_Nẵng
+T7	Sentence 231 241	tuyên_phạt
+E2	Sentence:T7 Defendant-Arg:T6 Crime-Arg:T8 Adjudicator-Arg:T5 Time-Arg:T4 Sentence-Arg:T9
+T6	PER 249 371	Trần_Quang_Hiền ( SN 1959 , trú xã Duy_Hoà , huyện Duy_Xuyên , tỉnh Quảng_Nam ) , nguyên Chánh thanh_tra Sở Y_tế Quảng_Nam
+T9	SEN 480 502	mức án 9 tháng tù_treo
+T10	VEH 663 689	ô_tô mang BKS 51 A -074.15
+T11	TIME 607 632	khoảng 20h25 tối 5/6/2013
+T12	PER 635 654	ông Trần_Quang_Hiền
+T13	Transport 711 713	đi
+E3	Transport:T13 Vehicle-Arg:T10 Agent-Arg:T12 Time-Arg:T11 Destination-Arg:T14
+T14	LOC 726 748	đường Nguyễn_Tất_Thành
+T15	PER 1055 1063	Anh Hiếu
+T16	Injure 1064 1073	bị_thương
+E4	Injure:T16 Victim-Arg:T15
+T17	PER 1410 1419	chị Trang
+T18	Die 1420 1427	tử_vong
+E5	Die:T18 Victim-Arg:T17 Place-Arg:T33
+T19	ORG 1707 1711	HĐXX
+T20	Fine 1715 1725	tuyên buộc
+E6	Fine:T20 Adjudicator-Arg:T19 Entity-Arg:T22 Money-Arg:T21
+T21	MONEY 1771 1785	215 triệu đồng
+T22	PER 1726 1732	bị_cáo
+T8	CRIME 381 473	vi_phạm các quy_định khi điều_khiển phương_tiện giao_thông đường_bộ gây hậu_quả nghiêm_trọng
+T23	PER 764 772	ông Hiền
+T25	LOC 783 805	đường Nguyễn_Tất_Thành
+T26	VEH 777 779	xe
+T24	Transport 773 776	lùi
+E7	Transport:T24 Agent-Arg:T23 Vehicle-Arg:T26 Destination-Arg:T25
+T27	VEH 1239 1261	xe_máy BKS 43 S 1-2330
+T29	Transport 1337 1347	điều_khiển
+E8	Transport:T29 Vehicle-Arg:T27 Agent-Arg:T28
+T30	VEH 913 935	xe_máy BKS 43 S 4-1880
+T28	PER 1265 1292	chị Nguyễn_Nhật_Huyền_Trang
+T31	PER 939 956	anh Phạm_Văn_Hiếu
+T32	Transport 969 979	điều_khiển
+E9	Transport:T32 Vehicle-Arg:T30 Agent-Arg:T31
+T33	LOC 1428 1435	tại_chỗ

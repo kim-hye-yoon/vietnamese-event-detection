@@ -1,0 +1,5 @@
+T1	Attack 262 272	không kích
+E1	Attack:T1 Time-Arg:T2 Attacker-Arg:T3 Target-Arg:T4
+T2	TIME 273 282	ngày 14/4
+T3	GPE 246 261	Mỹ , Anh , Pháp
+T4	FAC 171 217	Trung_tâm nghiên_cứu Barzah ở ngoại_ô Damascus

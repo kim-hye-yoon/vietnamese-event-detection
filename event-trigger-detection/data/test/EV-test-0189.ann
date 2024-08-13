@@ -1,0 +1,6 @@
+T1	Sue 1658 1667	khiếu_nại
+E1	Sue:T1 
+T2	Meet 2519 2533	buổi đối_thoại
+E2	Meet:T2 Entity-Arg:T3 Entity-Arg2:T4
+T3	PER 2501 2509	ông Thuỷ
+T4	PER 2564 2573	người_dân

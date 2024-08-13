@@ -1,0 +1,19 @@
+T1	PER 64 78	Alexei_Navalny
+T2	Arrest-jail 97 100	bắt
+E1	Arrest-jail:T2 Place-Arg:T3 Person-Arg:T1
+T3	GPE 105 111	Moskva
+T4	PER 458 465	Navalny
+T5	PER 532 539	Navalny
+T6	Sentence 475 479	chịu
+E2	Sentence:T6 Defendant-Arg:T4 Sentence-Arg:T7 Crime-Arg:T8
+T7	SEN 480 495	án tù một tháng
+T8	CRIME 499 529	tổ_chức biểu_tình bất_hợp_pháp
+T9	Demonstrate 548 557	biểu_tình
+E3	Demonstrate:T9 Entity-Arg:T5
+T10	PER 911 931	những người tham_gia
+T11	Arrest-jail 942 945	bắt
+E4	Arrest-jail:T11 Person-Arg:T10
+T12	PER 1651 1658	Navalny
+T13	Pardon 1664 1673	trả tự_do
+E5	Pardon:T13 Defendant-Arg:T12 Time-Arg:T14
+T14	TIME 1674 1682	hôm 14/6

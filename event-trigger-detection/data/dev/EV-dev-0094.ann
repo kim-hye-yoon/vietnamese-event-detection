@@ -1,0 +1,17 @@
+T1	PER 975 978	anh
+T3	PER 0 8	Lan Khuê
+T4	Marry 13 20	kết_hôn
+E2	Marry:T4 Person-Arg:T3 Person-Arg2:T5
+T5	PER 25 45	doanh_nhân Việt_kiều
+T6	PER 478 487	Tuấn John
+T7	Transport 495 502	đưa_đón
+E3	Transport:T7 Agent-Arg:T6 Artifact-Arg:T8
+T8	PER 503 505	cô
+T2	Nominate 990 994	giao
+E1	Nominate:T2 Person-Arg:T1 Agent-Arg:T10 Position-Arg:T9
+T9	JOB 995 1013	quản_lý một resort
+T10	PER 984 989	bố_mẹ
+T11	PER 1052 1061	Tuấn John
+T12	Start-position 1062 1065	giữ
+E4	Start-position:T12 Person-Arg:T11 Position-Arg:T13
+T13	JOB 1071 1119	Phó chủ_tịch Hiệp_hội quảng_bá du_lịch Nha_Trang

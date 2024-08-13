@@ -1,0 +1,15 @@
+T1	End-position 42 51	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 30	Trưởng_ban tuyên_giáo huyện_uỷ
+T3	End-position 379 383	cách
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5 Entity-Arg:T6
+T4	JOB 388 406	chức_vụ trong Đảng
+T5	PER 285 367	ông Nguyễn_Tiến_Cảnh , uỷ_viên Ban thường_vụ , Trưởng_ban tuyên_giáo huyện Quỳ_Hợp
+T6	ORG 409 430	Ban thường_vụ Tỉnh_uỷ
+T7	End-position 540 543	cắt
+E3	End-position:T7 Position-Arg:T8 Entity-Arg:T9
+T8	JOB 548 653	chức_vụ trong Đảng với Bí_thư đảng_uỷ xã Nam_Sơn , Chủ_tịch mặt_trận ; Trưởng công_an ; Bí_thư xã Bắc_Sơn
+T9	ORG 517 539	Ban thường_vụ Huyện_uỷ
+T10	End-position 706 715	cách_chức
+E4	End-position:T10 Person-Arg:T11
+T11	PER 656 702	Hai cán_bộ ban quản_lý rừng_phòng_hộ của huyện

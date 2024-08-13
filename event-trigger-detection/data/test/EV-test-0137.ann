@@ -1,0 +1,20 @@
+T1	End-position 939 948	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 951 959	ông Châu
+T3	Start-position 965 977	chuyển xuống
+E2	Start-position:T3 Person-Arg:T2 Position-Arg:T4 Entity-Arg:T5
+T4	JOB 982 991	công_chức
+T5	ORG 996 1030	Trung_tâm văn_hoá thị_xã Hồng_Lĩnh
+T6	Attack 500 504	đánh
+E3	Attack:T6 Attacker-Arg:T8 Target-Arg:T7 Time-Arg:T9
+T7	PER 505 529	một nữ viên_chức 34 tuổi
+T8	PER 488 496	ông Châu
+T9	TIME 452 462	chiều 24/7
+T10	End-position 30 39	cách_chức
+E4	End-position:T10 Person-Arg:T11
+T11	PER 0 26	Giám_đốc trung_tâm văn_hoá
+T12	TIME 63 73	Ngày 13/10
+T13	End-position 119 128	cách_chức
+E5	End-position:T13 Position-Arg:T14 Person-Arg:T15 Time-Arg:T12
+T14	JOB 129 175	Giám_đốc Trung_tâm Văn_hoá thể_thao và Du_lịch
+T15	PER 184 202	ông Trần_Ngọc_Châu

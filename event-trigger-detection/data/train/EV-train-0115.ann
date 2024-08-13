@@ -1,0 +1,48 @@
+T1	ORG 0 18	Ngân_hàng Nhà_nước
+T2	Declare-bankruptcy 41 48	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T3
+T3	ORG 49 65	ngân_hàng Đông Á
+T13	TIME 595 603	ngày 4/4
+T14	PER 606 637	Phó giám_đốc Ngân_hàng Nhà_nước
+T15	PER 659 680	ông Nguyễn_Hoàng_Minh
+T16	ORG 697 726	Ngân_hàng Nhà_nước trung_ương
+T17	ORG 738 747	Chính_phủ
+T18	ORG 765 781	Ngân_hàng Đông_Á
+T19	PER 877 885	ông Minh
+T20	PER 928 948	ông Trần_Phương_Bình
+T21	ORG 971 981	DongA_Bank
+T22	ORG 991 1009	Ngân_hàng Nhà_nước
+T23	ORG 1410 1420	DongA_Bank
+T24	PER 1520 1528	ông Minh
+T25	ORG 1555 1573	Ngân_hàng Nhà_nước
+T26	ORG 1665 1675	DongA_Bank
+T27	ORG 1970 1986	Ngân_hàng Đông_Á
+T28	TIME 2113 2121	năm 2016
+T29	Charge-indict 2052 2059	truy_tố
+E2	Charge-indict:T29 Defendant-Arg:T27 Time-Arg:T28
+T30	ORG 2230 2240	DongA_Bank
+T31	ORG 2282 2292	DongA_Bank
+T32	TIME 2325 2337	tháng 3/2018
+T33	ORG 2376 2394	Ngân_hàng Nhà_nước
+T34	NUM 2434 2439	19,65
+T35	NUM 2456 2458	10
+T36	TIME 2490 2497	30 ngày
+T37	GPE 2506 2514	Việt_Nam
+T38	NUM 2523 2527	78,9
+T39	NUM 2552 2554	50
+T40	NUM 2579 2584	74,46
+T41	NUM 2601 2603	10
+T42	PER 2612 2621	Chúng_tôi
+T43	ORG 2800 2810	DongA_Bank
+T44	TIME 2875 2883	Năm 2017
+T45	MONEY 2914 2929	7.500 tỷ đồng
+T46	MONEY 2962 2977	5.400 tỷ đồng
+T47	MONEY 2987 3000	2.100 tỷ đồng
+T48	MONEY 3038 3052	12.000 tỷ đồng
+T49	TIME 3083 3092	13/8/2015
+T50	TIME 3107 3119	quý I / 2018
+T51	ORG 3122 3138	Ngân_hàng Đông_Á
+T52	MONEY 3175 3186	900 tỷ đồng
+T53	MONEY 3210 3221	870 tỷ đồng
+T54	NUM 3235 3238	106
+T55	TIME 3261 3273	quý I / 2018

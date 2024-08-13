@@ -1,0 +1,53 @@
+T1	Release-parole 34 45	phóng_thích
+E1	Release-parole:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	GPE 25 33	Malaysia
+T3	PER 46 60	Đoàn_Thị_Hương
+T5	PER 271 279	Kim_Chol
+T4	Die 280 290	thiệt_mạng
+E2	Die:T4 Place-Arg:T6 Time-Arg:T7 Victim-Arg:T5
+T6	FAC 295 326	sân_bay Kuala_Lumpur , Malaysia
+T7	TIME 331 343	tháng 2/2017
+T8	Release-parole 397 406	trả tự_do
+E3	Release-parole:T8 Entity-Arg:T9
+T9	PER 411 413	cô
+T10	Release-parole 625 634	trả tự_do
+E4	Release-parole:T10 
+T11	Release-parole 690 701	phóng_thích
+E5	Release-parole:T11 Entity-Arg:T12
+T12	PER 672 677	Hương
+T13	Attack 738 742	giết
+E6	Attack:T13 Target-Arg:T14
+T14	PER 743 748	người
+T15	Attack 1083 1090	sát_hại
+E7	Attack:T15 Target-Arg:T17 Attacker-Arg:T16
+T16	PER 997 1038	Hương và Siti_Aisyah , công_dân Indonesia
+T17	PER 1091 1217	Kim_Chol , người mà Mỹ và Hàn_Quốc cho_rằng chính là Kim_Jong - nam , anh cùng cha khác mẹ của lãnh_đạo Triều_Tiên_Kim_Jong-un
+T18	Trial-hearing 1353 1359	xét_xử
+E8	Trial-hearing:T18 Adjudicator-Arg:T20 Time-Arg:T19
+T19	TIME 1360 1369	ngày 11/3
+T20	ORG 1374 1422	toà thượng_thẩm Shah_Alam ở ngoại_ô Kuala_Lumpur
+T21	Attack 1464 1468	giết
+E9	Attack:T21 Attacker-Arg:T22
+T22	PER 1479 1485	Aisyah
+T23	Release-parole 1518 1529	phóng_thích
+E10	Release-parole:T23 Entity-Arg:T24
+T24	PER 1510 1512	Cô
+T25	Release-parole 1744 1755	phóng_thích
+E11	Release-parole:T25 Entity-Arg:T26
+T26	PER 1700 1705	Hương
+T27	Attack 1803 1807	giết
+E12	Attack:T27 Attacker-Arg:T28
+T28	PER 1758 1763	Hương
+T29	Sentence 1854 1861	kết_tội
+E13	Sentence:T29 Sentence-Arg:T30 Defendant-Arg:T28
+T30	SEN 1836 1846	án tử_hình
+T31	Attack 2008 2014	ám_sát
+E14	Attack:T31 
+T32	Die 2112 2119	tử_vong
+E15	Die:T32 Place-Arg:T33
+T33	GPE 2124 2136	Kuala_Lumpur
+T34	Trial-hearing 2410 2416	xét_xử
+E16	Trial-hearing:T34 Defendant-Arg:T35
+T35	PER 2390 2404	Đoàn_Thị_Hương
+T36	Release-parole 2448 2457	trả tự_do
+E17	Release-parole:T36 Entity-Arg:T35

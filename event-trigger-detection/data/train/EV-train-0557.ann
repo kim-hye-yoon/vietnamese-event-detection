@@ -1,0 +1,8 @@
+T1	Release-parole 53 67	được trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 52	Hành_khách trên phi cơ Ai_Cập bị không tặc không chế
+T3	Arrest-jail 113 123	bị bắt_cóc
+E2	Arrest-jail:T3 Place-Arg:T5 Person-Arg:T4 Time-Arg:T6
+T4	PER 70 112	Greta_Ramelli ( trái ) và Vanessa_Marzullo
+T5	GPE 126 131	Syria
+T6	TIME 132 145	hồi đầu tháng

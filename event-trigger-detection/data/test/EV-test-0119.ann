@@ -1,0 +1,39 @@
+T1	Sentence 72 82	tuyên_phạt
+E1	Sentence:T1 Adjudicator-Arg:T6 Defendant-Arg:T2 Sentence-Arg:T3
+T2	PER 83 101	bị_cáo Hồ_Ngọc_Nhờ
+T3	SEN 102 116	18 năm tù_giam
+T4	Fine 167 177	bồi_thường
+E2	Fine:T4 Entity-Arg:T7 Money-Arg:T5
+T5	MONEY 200 214	100 triệu đồng
+T6	ORG 67 71	HĐXX
+T7	PER 129 152	gia_đình bà Hồ_Ngọc_Anh
+T8	Die 540 548	cái chết
+E3	Die:T8 Victim-Arg:T9 Agent-Arg:T10
+T9	PER 553 562	cháu Long
+T11	Sentence 4556 4566	tuyên_phạt
+E4	Sentence:T11 Defendant-Arg:T13 Sentence-Arg:T14
+T12	ORG 4551 4555	HĐXX
+T13	PER 4567 4585	bị_cáo Hồ_Ngọc_Nhờ
+T14	SEN 4586 4595	18 năm tù
+T15	Fine 4647 4657	bồi_thường
+E5	Fine:T15 Money-Arg:T16 Entity-Arg:T17
+T16	MONEY 4681 4695	100 triệu đồng
+T17	ORG 4609 4632	gia_đình bà Hồ_Ngọc_Anh
+T18	Die 4435 4442	tử_vong
+E6	Die:T18 Victim-Arg:T19
+T19	PER 4425 4434	cháu Long
+T20	Trial-hearing 4062 4068	xét_xử
+E7	Trial-hearing:T20 Defendant-Arg:T21 Adjudicator-Arg:T22
+T21	PER 4069 4087	bị_cáo Hồ_Ngọc_Nhờ
+T22	ORG 4050 4061	toà sơ_thẩm
+T23	Sentence 3966 3976	tuyên_phạt
+E8	Sentence:T23 Adjudicator-Arg:T25 Defendant-Arg:T24 Sentence-Arg:T26 Crime-Arg:T27
+T24	PER 3977 3987	bị_cáo Nhờ
+T25	ORG 3962 3965	Toà
+T26	SEN 3988 3997	18 năm tù
+T27	CRIME 4005 4015	giết người
+T28	Die 3580 3584	chết
+E9	Die:T28 Victim-Arg:T30 Agent-Arg:T29
+T29	PER 3554 3560	bị_cáo
+T30	PER 3570 3579	cháu Long
+T10	PER 498 509	bảo_mẫu này

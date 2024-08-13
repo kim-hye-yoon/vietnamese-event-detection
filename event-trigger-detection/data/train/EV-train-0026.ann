@@ -1,0 +1,21 @@
+T1	Declare-bankruptcy 51 58	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 44 50	Hanjin
+T3	GPE 9 13	Việt
+T4	Declare-bankruptcy 325 341	tuyên_bố phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T5
+T5	ORG 291 324	đại_gia vận_tải lớn nhất Hàn_Quốc
+T6	GPE 316 324	Hàn_Quốc
+T7	Transport 997 1007	chuyên_chở
+E3	Transport:T7 
+T8	ORG 1021 1027	Hanjin
+T9	VEH 1013 1016	tàu
+T10	ORG 1087 1093	Hanjin
+T11	GPE 1098 1106	Việt_Nam
+T12	Declare-bankruptcy 1877 1884	phá_sản
+E4	Declare-bankruptcy:T12 
+T13	LOC 1936 1944	thế_giới
+T14	Declare-bankruptcy 1959 1966	phá_sản
+E5	Declare-bankruptcy:T14 Org-Arg:T15 Time-Arg:T16
+T15	ORG 1976 1995	United_States_Lines
+T16	TIME 2000 2008	năm 1986

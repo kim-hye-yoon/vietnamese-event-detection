@@ -1,0 +1,122 @@
+T1	Attack 229 232	đâm
+E1	Attack:T1 Target-Arg:T3
+T2	Die 235 242	tử_vong
+E2	Die:T2 Victim-Arg:T3
+T3	PER 207 215	Nạn_nhân
+T4	Die 680 684	giết
+E3	Die:T4 Agent-Arg:T6 Victim-Arg:T5
+T5	PER 685 690	cụ bà
+T6	PER 604 654	Ada_Taylor ( 25 tuổi ) và Joseph_White ( 26 tuổi )
+T7	Arrest-jail 718 721	bắt
+E4	Arrest-jail:T7 Person-Arg:T8 Crime-Arg:T9
+T8	PER 693 706	Hai người này
+T9	CRIME 725 769	sống giang_hồ , cùng sản_xuất phim khiêu_dâm
+T10	Die 1315 1319	giết
+E5	Die:T10 Victim-Arg:T11
+T11	PER 1320 1325	người
+T12	Attack 1452 1460	hiếp_dâm
+E6	Attack:T12 Attacker-Arg:T13 Target-Arg:T16
+T13	PER 1430 1442	Joseph_White
+T14	Attack 1380 1393	cầm gối đè mặ
+E7	Attack:T14 Attacker-Arg:T15 Target-Arg:T16
+T15	PER 1340 1350	Ada_Taylor
+T16	PER 1395 1403	nạn_nhân
+T17	Arrest-jail 1708 1715	bắt_giữ
+E8	Arrest-jail:T17 Person-Arg:T18
+T18	PER 1659 1702	Nghi_phạm thứ tư là Debra_Shelden , 30 tuổi
+T19	Arrest-jail 2616 2619	bắt
+E9	Arrest-jail:T19 Person-Arg:T20
+T20	PER 2571 2588	Nhóm Beatrice_Sáu
+T21	Convict 2796 2802	kết_án
+E10	Convict:T21 Defendant-Arg:T22 Adjudicator-Arg:T23 Crime-Arg:T24
+T22	PER 2803 2815	Joseph_White
+T23	PER 2778 2791	bồi_thẩm đoàn
+T24	CRIME 2816 2844	phạm_tội Giết người cấp_độ I
+T25	Die 2825 2829	Giết
+E11	Die:T25 Victim-Arg:T26
+T26	PER 2830 2835	người
+T27	Sentence 2847 2854	chịu án
+E12	Sentence:T27 Sentence-Arg:T28 Adjudicator-Arg:T23 Defendant-Arg:T22 Crime-Arg:T24
+T28	SEN 2855 2877	chung_thân không ân_xá
+T29	Pardon 2872 2877	ân_xá
+E13	Pardon:T29 
+T30	Convict 2904 2911	kết_tội
+E14	Convict:T30 Crime-Arg:T31 Defendant-Arg:T32
+T31	CRIME 2912 2942	đồng_phạm Giết người cấp_độ II
+T32	PER 2880 2896	Những người khác
+T33	Die 2922 2926	Giết
+E15	Die:T33 Victim-Arg:T34 Agent-Arg:T35
+T34	PER 2927 2932	người
+T35	PER 2912 2921	đồng_phạm
+T36	Sentence 2969 2976	chịu án
+E16	Sentence:T36 Sentence-Arg:T38 Defendant-Arg:T37 Sentence-Arg2:T40 Defendant-Arg2:T39 Defendant-Arg3:T41 Sentence-Arg3:T42
+T37	PER 2954 2968	Thomas_Winslow
+T38	SEN 2977 2986	50 năm tù
+T39	PER 2989 2999	Ada_Taylor
+T40	SEN 3000 3006	40 năm
+T41	PER 3009 3025	ba người còn lại
+T42	SEN 3026 3042	mỗi người 10 năm
+T43	Appeal 3084 3093	kháng_cáo
+E17	Appeal:T43 Defendant-Arg:T44
+T44	PER 3055 3067	Joseph_White
+T45	Die 3550 3554	chết
+E18	Die:T45 Victim-Arg:T46 Place-Arg:T47 Time-Arg:T48
+T46	PER 3537 3546	người này
+T47	FAC 3561 3581	nhà_tù bang Oklahoma
+T48	TIME 3585 3589	1992
+T49	Convict 3720 3727	kết_tội
+E19	Convict:T49 Adjudicator-Arg:T50
+T50	PER 3602 3614	công_tố_viên
+T51	Release-parole 3793 3802	trả tự_do
+E20	Release-parole:T51 Time-Arg:T52 Person-Arg:T54 Person-Arg2:T53
+T52	TIME 3807 3811	2008
+T53	PER 3757 3769	Joseph_White
+T54	PER 3773 3787	Thomas_Winslow
+T55	Arquit 3873 3879	vô_tội
+E21	Arquit:T55 Defendant-Arg:T57 Time-Arg:T56
+T56	TIME 3884 3888	2009
+T57	PER 3845 3861	Những người khác
+T58	Die 4169 4172	mất
+E22	Die:T58 Victim-Arg:T59 Time-Arg:T60
+T59	PER 4153 4165	Joseph_White
+T60	TIME 4197 4206	năm trước
+T61	Sue 4374 4378	kiện
+E23	Sue:T61 Plaintiff-Arg:T62 Adjudicator-Arg:T63 Defendant-Arg:T64 Time-Arg:T65
+T62	PER 4347 4359	Beatrice Sáu
+T63	ORG 4383 4399	toà_án liên_bang
+T64	ORG 4411 4431	chính_quyền hạt Gage
+T65	TIME 4336 4344	Năm 2014
+T66	Transfer-money 4592 4596	được
+E24	Transfer-money:T66 Beneficiary-Arg:T72 Money-Arg:T73
+T67	Transfer-money 4243 4247	được
+E25	Transfer-money:T67 Beneficiary-Arg:T68 Money-Arg:T70 Beneficiary-Arg2:T69 Money-Arg2:T71
+T68	PER 4209 4219	Ada_Taylor
+T69	PER 4223 4233	James_Dean
+T70	MONEY 4248 4255	500.000
+T71	MONEY 4259 4272	300.000 USD ,
+T72	PER 4539 4581	Joseph_White , Thomas_Winslow , Ada_Taylor
+T73	MONEY 4597 4610	7,3 triệu USD
+T74	PER 4613 4641	James_Dean và Kathy_Gonzalez
+T75	Transfer-money 4652 4656	được
+E26	Transfer-money:T75 Beneficiary-Arg:T74 Money-Arg:T76
+T76	MONEY 4657 4671	2,19 triệu USD
+T77	PER 4674 4687	Debra_Shelden
+T78	Transfer-money 4688 4693	hưởng
+E27	Transfer-money:T78 Beneficiary-Arg:T77 Money-Arg:T79
+T79	MONEY 4694 4707	1,8 triệu USD
+T80	Appeal 4731 4740	kháng_cáo
+E28	Appeal:T80 Defendant-Arg:T81 Adjudicator-Arg:T82
+T81	ORG 4710 4730	Chính_quyền hạt Gage
+T82	ORG 4745 4768	toà phúc_thẩm liên_bang
+T83	Appeal 4820 4829	kháng_cáo
+E29	Appeal:T83 Defendant-Arg:T84 Adjudicator-Arg:T85 Time-Arg:T86
+T84	GPE 4802 4810	hạt Gage
+T85	ORG 4834 4855	toà tối_cao liên_bang
+T86	TIME 4786 4799	Tháng 11/2018
+T87	Appeal 4908 4917	kháng_cáo
+E30	Appeal:T87 
+T88	Transfer-money 4986 4993	chi_trả
+E31	Transfer-money:T88 
+T89	Transfer-money 5108 5115	chi_trả
+E32	Transfer-money:T89 Time-Arg:T90
+T90	TIME 5136 5140	2027

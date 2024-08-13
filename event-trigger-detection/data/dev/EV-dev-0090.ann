@@ -1,0 +1,85 @@
+T1	PER 17 32	công_dân Canada
+T2	GPE 55 65	Trung_Quốc
+T3	Sentence 36 44	tuyên_án
+E1	Sentence:T3 Sentence-Arg:T4 Defendant-Arg:T1 Place-Arg:T2
+T4	SEN 45 52	tử_hình
+T5	Transport 214 217	tới
+E2	Transport:T5 Agent-Arg:T7 Destination-Arg:T8 Time-Arg:T6
+T6	TIME 162 179	hơn một năm trước
+T7	PER 182 213	Thủ_tướng Canada_Justin_Trudeau
+T8	GPE 218 228	Trung_Quốc
+T9	Arrest-jail 550 553	bắt
+E3	Arrest-jail:T9 Person-Arg:T10 Agent-Arg:T11 Person-Arg2:T12
+T10	PER 514 532	Ba công_dân Canada
+T11	GPE 539 549	Trung_Quốc
+T12	PER 564 618	Michael_Kovrig , Michael_Spavor và Robert_Schellenberg
+T13	Sentence 735 743	tuyên_án
+E4	Sentence:T13 Sentence-Arg:T14 Crime-Arg:T15 Defendant-Arg:T17 Time-Arg:T18
+T14	SEN 744 751	tử_hình
+T15	CRIME 755 770	buôn_bán ma_tuý
+T16	Transfer-ownership 755 763	buôn_bán
+E5	Transfer-ownership:T16 
+T17	PER 706 718	Schellenberg
+T18	TIME 719 727	tuần qua
+T19	Arrest-jail 1036 1039	bắt
+E6	Arrest-jail:T19 Person-Arg:T20 Place-Arg:T21
+T20	PER 1020 1032	Mạnh_Vãn_Chu
+T21	GPE 1042 1048	Canada
+T22	Arrest-jail 1276 1279	bắt
+E7	Arrest-jail:T22 Person-Arg:T23
+T23	PER 1270 1272	họ
+T24	Trial-hearing 1735 1741	xét_xử
+E8	Trial-hearing:T24 Defendant-Arg:T25
+T25	PER 1742 1754	Schellenberg
+T26	Trial-hearing 1997 2003	xét_xử
+E9	Trial-hearing:T26 Place-Arg:T30
+T27	Die 2035 2039	giết
+E10	Die:T27 Victim-Arg:T28
+T28	PER 2040 2045	người
+T29	Trial-hearing 2141 2147	xét_xử
+E11	Trial-hearing:T29 Place-Arg:T31
+T30	GPE 1966 1976	Trung_Quốc
+T31	GPE 2103 2113	Trung_Quốc
+T32	Transfer-ownership 2178 2182	buôn
+E12	Transfer-ownership:T32 
+T33	Phone-write 2373 2376	gửi
+E13	Phone-write:T33 Entity-Arg:T34 Entity-Arg2:T37
+T34	ORG 2361 2372	chính_quyền
+T35	PER 2393 2401	những kẻ
+T36	Transfer-ownership 2402 2406	buôn
+E14	Transfer-ownership:T36 Seller-Arg:T35
+T37	PER 2393 2413	những kẻ buôn ma_tuý
+T38	Sentence 2487 2495	tuyên_án
+E15	Sentence:T38 Sentence-Arg:T39 Defendant-Arg:T40 Time-Arg:T41 Crime-Arg:T42 Adjudicator-Arg:T43 Place-Arg:T44
+T39	SEN 2496 2503	tử_hình
+T40	PER 2471 2483	Schellenberg
+T41	TIME 2508 2517	ngày 14/1
+T42	CRIME 2521 2536	tội buôn ma_tuý
+T43	ORG 2541 2547	toà_án
+T44	GPE 2550 2559	Liêu_Ninh
+T45	Arrest-jail 2578 2581	bắt
+E16	Arrest-jail:T45 Person-Arg:T46 Time-Arg:T47 Crime-Arg:T48
+T46	PER 2562 2574	Schellenberg
+T47	TIME 2586 2594	năm 2014
+T48	CRIME 2608 2639	vận_chuyển hơn 200 kg ma_tuý đá
+T49	Transfer-ownership 2525 2529	buôn
+E17	Transfer-ownership:T49 Seller-Arg:T40
+T50	Convict 2599 2607	cáo_buộc
+E18	Convict:T50 Crime-Arg:T48 Defendant-Arg:T46
+T51	Transport 2608 2618	vận_chuyển
+E19	Transport:T51 Agent-Arg:T46
+T52	Sentence 2689 2697	tuyên_án
+E20	Sentence:T52 Sentence-Arg:T53 Defendant-Arg:T54 Place-Arg:T55
+T53	SEN 2698 2700	tử
+T54	PER 2670 2685	công_dân Canada
+T55	GPE 2705 2715	Trung_Quốc
+T56	Transfer-ownership 2763 2767	buôn
+E21	Transfer-ownership:T56 Place-Arg:T57
+T57	GPE 2788 2803	tỉnh Quảng_Đông
+T58	Transport 2868 2871	vào
+E22	Transport:T58 Agent-Arg:T59 Destination-Arg:T60
+T59	PER 2858 2867	Một người
+T60	GPE 2872 2882	Trung_Quốc
+T61	Transport 2916 2919	đến
+E23	Transport:T61 Agent-Arg:T62
+T62	PER 2906 2915	người kia

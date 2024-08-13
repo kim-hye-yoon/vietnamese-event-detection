@@ -1,0 +1,68 @@
+T1	Attack 29 32	đâm
+E1	Attack:T1 Instrument-Arg:T6 Attacker-Arg:T5 Target-Arg:T4
+T2	Attack 35 39	chém
+E2	Attack:T2 Instrument-Arg:T6 Attacker-Arg:T5 Target-Arg:T4
+T3	Die 40 47	tử_vong
+E3	Die:T3 Victim-Arg:T4 Agent-Arg:T5
+T4	PER 48 53	bố đẻ
+T5	PER 2 11	Nghịch_tử
+T6	WEA 25 28	dao
+T7	Arrest-jail 333 336	bắt
+E4	Arrest-jail:T7 Agent-Arg:T9 Time-Arg:T10 Person-Arg:T8 Crime-Arg:T11
+T9	ORG 206 253	Cơ_quan Cảnh_sát điều_tra Công_an tỉnh Lạng_Sơn
+T10	TIME 194 203	Ngày 29/5
+T8	PER 354 452	Lâm_Văn_Chuyên ( SN 1990 , trú tại thôn Pác_Sàn , xã Xuân_Dương , huyện Lộc_Bình , tỉnh Lạng_Sơn )
+T11	CRIME 462 472	Giết người
+T12	Attack 167 170	đâm
+E5	Attack:T12 Target-Arg:T15 Attacker-Arg:T16 Instrument-Arg:T17
+T13	Attack 173 177	chém
+E6	Attack:T13 Target-Arg:T15 Attacker-Arg:T16 Instrument-Arg:T17
+T14	Die 184 191	tử_vong
+E7	Die:T14 Victim-Arg:T15 Agent-Arg:T16
+T15	PER 178 183	bố đẻ
+T16	PER 129 138	nghịch_tử
+T17	WEA 163 166	dao
+T18	Die 587 594	tử_vong
+E8	Die:T18 Victim-Arg:T19
+T19	PER 579 586	ông này
+T20	Attack 885 888	đâm
+E9	Attack:T20 Instrument-Arg:T23 Target-Arg:T21 Attacker-Arg:T22
+T21	PER 889 897	ông Phẩm
+T22	PER 859 865	Chuyên
+T23	WEA 878 881	dao
+T24	Attack 996 1000	chém
+E10	Attack:T24 Target-Arg:T25 Attacker-Arg:T26
+T25	PER 1023 1030	bố mình
+T26	PER 971 977	Chuyên
+T27	PER 1039 1047	ông Phẩm
+T28	Injure 1052 1061	bị_thương
+E11	Injure:T28 Victim-Arg:T27 Agent-Arg:T26
+T29	Transport 1097 1104	bỏ chạy
+E12	Transport:T29 Artifact-Arg:T30
+T30	PER 1090 1096	Chuyên
+T31	Die 1221 1225	giết
+E13	Die:T31 Victim-Arg:T32 Agent-Arg:T33
+T32	PER 1226 1234	ông Phẩm
+T33	PER 1168 1186	cậu con quý_tử này
+T34	Attack 1320 1324	chém
+E14	Attack:T34 Target-Arg:T35 Attacker-Arg:T36 Time-Arg:T37
+T35	PER 1346 1348	bố
+T36	PER 1301 1307	Chuyên
+T37	TIME 1238 1263	Cuối buổi chiều ngày 23/5
+T38	Die 1365 1372	tử_vong
+E15	Die:T38 Victim-Arg:T39
+T39	PER 1357 1364	ông này
+T41	PER 1405 1419	Lâm_Văn_Chuyên
+T40	Transport 1423 1430	bỏ trốn
+E16	Transport:T40 Artifact-Arg:T41 Origin-Arg:T47
+T42	Arrest-jail 1574 1577	bắt
+E17	Arrest-jail:T42 Agent-Arg:T44 Person-Arg:T43
+T43	PER 1587 1611	đối_tượng Lâm_Văn_Chuyên
+T44	ORG 1503 1560	Công_an tỉnh Lạng_Sơn phối_hợp với Công_an huyện Lộc_Bình
+T45	Transport 1627 1635	lẩn_trốn
+E18	Transport:T45 Artifact-Arg:T43 Origin-Arg:T46
+T46	LOC 1641 1651	địa_phương
+T47	LOC 1436 1447	hiện_trường
+T48	Attack 1069 1073	Chém
+E19	Attack:T48 Target-Arg:T49 Attacker-Arg:T30
+T49	PER 1079 1087	ông Phẩm

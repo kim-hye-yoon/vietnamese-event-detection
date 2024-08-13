@@ -1,0 +1,31 @@
+T1	Declare-bankruptcy 31 38	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 8 20	doanh_nghiệp
+T3	Declare-bankruptcy 77 84	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4 Org-Arg2:T5 Org-Arg3:T6
+T4	ORG 101 113	doanh_nghiệp
+T5	ORG 117 127	hợp_tác_xã
+T6	ORG 130 150	liên_hiệp hợp_tác_xã
+T7	Declare-bankruptcy 357 373	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T8 Org-Arg2:T9
+T8	ORG 271 283	doanh_nghiệp
+T9	ORG 286 296	hợp_tác_xã
+T10	Declare-bankruptcy 563 570	phá_sản
+E4	Declare-bankruptcy:T10 Org-Arg:T11
+T11	ORG 591 603	doanh_nghiệp
+T12	Meet 998 1006	Hội_nghị
+E5	Meet:T12 Entity-Arg:T13
+T13	PER 1007 1013	chủ_nợ
+T14	Declare-bankruptcy 1106 1113	phá_sản
+E6	Declare-bankruptcy:T14 Org-Arg:T15
+T15	ORG 1093 1105	doanh_nghiệp
+T16	Declare-bankruptcy 1251 1267	tuyên_bố phá_sản
+E7	Declare-bankruptcy:T16 Org-Arg:T17 Org-Arg2:T18
+T17	ORG 1284 1296	doanh_nghiệp
+T18	ORG 1299 1309	hợp_tác_xã
+T19	Declare-bankruptcy 2859 2866	phá_sản
+E8	Declare-bankruptcy:T19 Org-Arg:T21 Org-Arg2:T20
+T20	ORG 2833 2845	doanh_nghiệp
+T21	ORG 2848 2858	hợp_tác_xã
+T22	Execute 2914 2922	thi_hành
+E9	Execute:T22 Agent-Arg:T20 Agent-Arg2:T21

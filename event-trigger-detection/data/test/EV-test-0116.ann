@@ -1,0 +1,17 @@
+T1	Declare-bankruptcy 280 295	công_bố phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Transfer-money 465 473	hoàn_trả
+E2	Transfer-money:T2 Giver-Arg:T3 Beneficiary-Arg:T4 Recipient-Arg:T5
+T3	PER 462 464	cô
+T4	PER 483 498	thân_chủ của họ
+T5	ORG 384 414	Hãng tư_vấn luật Child & Child
+T6	Arrest-jail 687 694	bắt_giữ
+E3	Arrest-jail:T6 Person-Arg:T7 Crime-Arg:T8 Time-Arg:T9 Agent-Arg:T10
+T7	PER 695 699	Lilo
+T8	CRIME 707 715	trộm_cắp
+T9	TIME 651 658	mới_đây
+T10	PER 670 678	cảnh_sát
+T11	Attack 1891 1899	đánh_đập
+E4	Attack:T11 Attacker-Arg:T12 Target-Arg:T13
+T12	PER 1883 1890	hôn_phu
+T13	PER 1900 1913	Lindsay_Lohan

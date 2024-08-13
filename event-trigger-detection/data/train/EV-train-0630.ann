@@ -1,0 +1,49 @@
+T1	Pardon 30 35	ân_xá
+E1	Pardon:T1 Defendant-Arg:T2
+T2	PER 36 56	tù_nhân từ Australia
+T3	Transfer-money 81 89	hoàn_trả
+E2	Transfer-money:T3 Giver-Arg:T4 Recipient-Arg:T5
+T4	GPE 59 68	Indonesia
+T5	GPE 103 112	Australia
+T6	Demonstrate 170 179	biểu_tình
+E3	Demonstrate:T6 Entity-Arg:T7 Time-Arg:T8
+T7	PER 118 144	Người_dân ở thủ_đô Jakarta
+T8	TIME 145 152	hôm_nay
+T9	Transfer-money 279 287	hoàn_trả
+E4	Transfer-money:T9 Money-Arg:T10 Recipient-Arg:T11
+T10	MONEY 306 320	hàng triệu USD
+T11	GPE 324 333	Australia
+T12	Transfer-money 334 342	dành cho
+E5	Transfer-money:T12 Giver-Arg:T11 Recipient-Arg:T13
+T13	GPE 343 352	Indonesia
+T14	Die 495 502	tử_hình
+E6	Die:T14 Victim-Arg:T17
+T15	Sentence 488 494	bản_án
+E7	Sentence:T15 Sentence-Arg:T16 Defendant-Arg:T17
+T16	SEN 495 502	tử_hình
+T17	PER 511 536	hai công_dân của nước này
+T18	Transfer-money 561 567	hỗ_trợ
+E8	Transfer-money:T18 Giver-Arg:T19 Recipient-Arg:T20
+T19	GPE 547 555	Canberra
+T20	GPE 587 594	Jakarta
+T21	Die 900 907	tử_hình
+E9	Die:T21 Victim-Arg:T24
+T22	Sentence 910 916	bản_án
+E10	Sentence:T22 Sentence-Arg:T23 Defendant-Arg:T24
+T23	SEN 900 907	tử_hình
+T24	PER 927 946	hững kẻ buôn ma_tuý
+T25	Demonstrate 983 992	biểu_tình
+E11	Demonstrate:T25 Entity-Arg:T26
+T26	PER 977 982	người
+T27	Arrest-jail 1011 1014	bắt
+E12	Arrest-jail:T27 Agent-Arg:T29 Person-Arg:T28 Crime-Arg:T30 Time-Arg:T31
+T28	PER 1015 1037	hai công_dân Australia
+T29	GPE 1001 1010	Indonesia
+T30	CRIME 1038 1053	buôn_lậu ma_tuý
+T31	TIME 1058 1066	năm 2005
+T32	Sentence 1076 1084	tuyên_án
+E13	Sentence:T32 Sentence-Arg:T33 Adjudicator-Arg:T29
+T33	SEN 1085 1092	tử_hình
+T34	Pardon 1216 1226	khoan_hồng
+E14	Pardon:T34 Adjudicator-Arg:T35
+T35	GPE 1137 1144	Jakarta

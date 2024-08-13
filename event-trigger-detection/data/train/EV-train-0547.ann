@@ -1,0 +1,23 @@
+T1	Die 16 21	tự_tử
+E1	Die:T1 Agent-Arg:T3 Victim-Arg:T3
+T2	End-position 28 37	cách_chức
+E2	End-position:T2 Person-Arg:T3
+T3	PER 0 15	Quan_chức Ấn_Độ
+T4	Nominate 232 240	bổ_nhiệm
+E3	Nominate:T4 Person-Arg:T5
+T5	PER 241 244	ông
+T6	Die 275 280	tự_tử
+E4	Die:T6 Agent-Arg:T7 Victim-Arg:T7
+T7	PER 265 271	Ông ấy
+T8	Start-position 719 727	kế_nhiệm
+E5	Start-position:T8 Person-Arg:T10 Time-Arg:T11 Entity-Arg:T13
+T9	PER 728 732	Tuki
+T10	PER 715 718	Ông
+T11	TIME 737 744	tháng 2
+T12	Nominate 783 791	bổ_nhiệm
+E6	Nominate:T12 Agent-Arg:T13 Person-Arg:T10
+T13	ORG 750 781	chính_phủ Thủ_tướng Narenda_Mod
+T14	Nominate 841 849	bổ_nhiệm
+E7	Nominate:T14 Agent-Arg:T15 Person-Arg:T16
+T15	ORG 806 826	Toà_án Tối_cao Ấn_Độ
+T16	PER 876 879	Pul

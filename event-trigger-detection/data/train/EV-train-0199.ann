@@ -1,0 +1,6 @@
+T1	Attack 408 416	đòn đánh
+E1	Attack:T1 Attacker-Arg:T2
+T2	GPE 394 396	Mỹ
+T3	Attack 2679 2687	tấn_công
+E2	Attack:T3 Attacker-Arg:T4
+T4	GPE 2676 2678	Mỹ

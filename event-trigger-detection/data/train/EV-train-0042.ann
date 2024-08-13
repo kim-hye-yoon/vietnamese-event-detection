@@ -1,0 +1,62 @@
+T1	End-position 23 32	bãi_nhiệm
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 19	Bà Châu_Thị_Thu_Nga
+T3	JOB 41 58	đại_biểu Quốc_hội
+T4	End-position 140 149	bãi_nhiệm
+E2	End-position:T4 Person-Arg:T5 Entity-Arg:T6
+T5	PER 150 175	đại_biểu Châu_Thị_Thu_Nga
+T6	ORG 99 107	Quốc_hội
+T7	End-position 378 387	bãi_nhiệm
+E3	End-position:T7 Position-Arg:T9 Person-Arg:T8
+T8	PER 309 328	Bà Châu_Thị_Thu_Nga
+T9	JOB 396 404	đại_biểu
+T10	Charge-indict 477 484	khởi_tố
+E4	Charge-indict:T10 Defendant-Arg:T11 Time-Arg:T13 Prosecutor-Arg:T14
+T11	PER 503 522	bà Châu_Thị_Thu_Nga
+T12	CRIME 544 627	lừa_đảo chiếm_đoạt tài_sản khi triển_khai dự_án nhà chung_cư - biệt_thự B5 Cầu_Diễn
+T13	TIME 407 414	Tối 7/1
+T14	ORG 417 453	Cơ_quan cảnh_sát điều_tra Bộ Công_an
+T15	Arrest-jail 494 502	tạm giam
+E5	Arrest-jail:T15 Person-Arg:T11 Agent-Arg:T14 Time-Arg:T13 Crime-Arg:T12
+T16	Meet 850 858	hội_nghị
+E6	Meet:T16 Entity-Arg:T18 Time-Arg:T17
+T17	TIME 780 789	Ngày 16/5
+T18	PER 792 838	Đoàn_chủ_tịch Uỷ_ban Mặt_trận tổ_quốc Việt_Nam
+T19	End-position 908 917	bãi_nhiệm
+E7	End-position:T19 Position-Arg:T22 Person-Arg:T21 Entity-Arg:T20
+T20	ORG 899 907	Quốc_hội
+T21	PER 939 958	bà Châu_Thị_Thu_Nga
+T22	JOB 926 934	đại_biểu
+T23	Convict 1027 1035	tuyên_án
+E8	Convict:T23 Defendant-Arg:T26 Adjudicator-Arg:T27
+T24	End-position 1134 1144	miễn_nhiệm
+E9	End-position:T24 Person-Arg:T25
+T25	PER 1065 1071	bà Nga
+T26	PER 1008 1014	bà Nga
+T27	PER 961 989	Các thành_viên đoàn_chủ_tịch
+T28	End-position 1320 1329	bãi_nhiệm
+E10	End-position:T28 Entity-Arg:T29 Person-Arg:T30
+T29	ORG 1299 1307	Quốc_hội
+T30	PER 1206 1214	đại_biểu
+T31	End-position 1381 1390	bãi_nhiệm
+E11	End-position:T31 Entity-Arg:T32
+T32	ORG 1372 1380	Quốc_hội
+T33	End-position 1423 1432	bãi_nhiệm
+E12	End-position:T33 Person-Arg:T34
+T34	PER 1414 1422	đại_biểu
+T35	Elect 1407 1410	bầu
+E13	Elect:T35 Entity-Arg:T40
+T36	TIME 1744 1758	ngày 26/5/2012
+T37	End-position 1734 1743	bãi_nhiệm
+E14	End-position:T37 Time-Arg:T36 Position-Arg:T39 Person-Arg:T38
+T38	PER 1676 1697	bà Đặng_Thị_Hoàng_Yến
+T39	JOB 1700 1730	đại_biểu Quốc_hội tỉnh Long_An
+T40	PER 1396 1402	cử_tri
+T41	End-position 1646 1655	bãi_nhiệm
+E15	End-position:T41 Person-Arg:T42
+T42	PER 1564 1583	Bà Châu_Thị_Thu_Nga
+T43	Elect 1543 1546	bầu
+E16	Elect:T43 Person-Arg:T44 Entity-Arg:T45 Entity-Arg2:T46
+T44	PER 1550 1558	đại_biểu
+T45	PER 1532 1538	cử_tri
+T46	ORG 1450 1522	Trung_ương Mặt_trận tổ_quốc Việt_Nam , Mặt_trận tổ_quốc tỉnh , thành_phố

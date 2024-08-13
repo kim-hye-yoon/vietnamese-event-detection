@@ -1,0 +1,16 @@
+T1	PER 0 11	Hoàng_Quyên
+T2	Marry 12 19	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 24 45	bạn_trai kiến_trúc_sư
+T4	PER 274 283	Chúng_tôi
+T5	Phone-write 288 296	trao_đổi
+E2	Phone-write:T5 Entity-Arg:T4
+T6	PER 1133 1171	Hoàng_Quyên tên thật là Hoàng_Lệ_Quyên
+T7	Be-born 1174 1178	sinh
+E3	Be-born:T7 Person-Arg:T6 Time-Arg:T8
+T8	TIME 1179 1186	năm 199
+T12	PER 83 92	Tuấn_Việt
+T13	Be-born 95 99	sinh
+E5	Be-born:T13 Person-Arg:T12 Time-Arg:T14 Place-Arg:T15
+T14	TIME 100 108	năm 1992
+T15	GPE 113 119	Hà_Nội

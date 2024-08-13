@@ -1,0 +1,62 @@
+T2	Declare-bankruptcy 41 48	phá_sản
+E1	Declare-bankruptcy:T2 
+T1	PER 0 37	Chủ_đầu_tư cao_tốc Hà_Nội - Hải_Phòng
+T3	ORG 74 145	Tổng_công_ty phát_triển hạ_tầng và đầu_tư tài_chính Việt_Nam ( Vidifi )
+T4	PER 168 177	Thủ_tướng
+T6	TIME 342 350	năm 2007
+T7	PER 391 400	Thủ_tướng
+T8	FAC 428 466	tuyến đường_cao_tốc Hà_Nội - Hải_Phòng
+T9	FAC 359 368	quốc_lộ 5
+T12	FAC 902 928	Cao_tốc Hà_Nội - Hải_Phòng
+T13	FAC 969 978	quốc_lộ 5
+T14	FAC 1009 1035	cao_tốc Hà_Nội - Hải_Phòng
+T16	MONEY 1120 1133	4.069 tỷ đồng
+T17	MONEY 1182 1196	300 triệu USD 
+T18	TIME 1210 1219	13-30 năm
+T19	PER 1297 1306	Thủ_tướng
+T20	ORG 1319 1325	Vidifi
+T21	MONEY 1339 1352	4.723 tỷ đồng
+T22	LOC 1374 1392	khu đô_thị Gia_Lâm
+T23	LOC 1579 1597	Khu_đô_thị Gia_Lâm
+T24	Declare-bankruptcy 1694 1701	phá_sản
+E2	Declare-bankruptcy:T24 Org-Arg:T25
+T25	ORG 1681 1693	doanh_nghiệp
+T26	ORG 1763 1769	Vidifi
+T27	ORG 1781 1788	Công_ty
+T28	LOC 1806 1824	khu_đô_thị Gia_Lâm
+T29	ORG 2019 2025	Vidifi
+T30	PER 2036 2045	Thủ_tướng
+T31	GPE 2054 2060	Hà_Nội
+T32	MONEY 2098 2111	4.723 tỷ đồng
+T33	ORG 2138 2146	Nhà_nước
+T37	ORG 2305 2313	Nhà_nước
+T39	MONEY 2388 2401	nghìn tỷ đồng
+T50	GPE 3019 3025	Hà_Nội
+T51	GPE 3028 3036	Hưng_Yên
+T52	GPE 3039 3048	Hải_Dương
+T53	GPE 3051 3060	Hải_Phòng
+T59	TIME 3204 3210	30 năm
+T5	PER 297 339	ông Nguyễn_Văn_Tỉnh , Tổng_giám_đốc Vidifi
+T10	Transfer-money 774 777	trả
+E3	Transfer-money:T10 
+T11	Transfer-ownership 829 833	thuê
+E4	Transfer-ownership:T11 
+T63	FAC 888 899	tuyến đường
+T15	Transfer-money 1067 1077	thanh_toán
+E5	Transfer-money:T15 Money-Arg:T16
+T64	Transfer-money 1136 1142	trả nợ
+E6	Transfer-money:T64 Money-Arg:T17 Time-Arg:T18
+T65	Merge-org 1463 1470	hợp_tác
+E7	Merge-org:T65 
+T66	Transfer-money 1729 1731	nợ
+E8	Transfer-money:T66 
+T67	Transfer-money 2065 2069	nhận
+E9	Transfer-money:T67 Money-Arg:T32 Recipient-Arg:T31
+T68	Transfer-money 2376 2382	trả nợ
+E10	Transfer-money:T68 Money-Arg:T39 Giver-Arg:T38
+T38	PER 2335 2365	chủ cao_tốc Hà_Nội - Hải_Phòng
+T69	Transfer-money 2466 2469	vay
+E11	Transfer-money:T69 
+T47	Transfer-money 3147 3150	vay
+E12	Transfer-money:T47 Money-Arg:T49 Time-Arg:T59
+T49	MONEY 3104 3135	45.000 tỷ đồng ( hơn 2 tỷ USD )

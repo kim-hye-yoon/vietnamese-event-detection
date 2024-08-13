@@ -1,0 +1,32 @@
+T1	Elect 23 26	bầu
+E1	Elect:T1 Position-Arg:T2
+T2	JOB 27 43	ban lãnh_đạo mới
+T3	Transfer-ownership 903 906	bán
+E2	Transfer-ownership:T3 Time-Arg:T4
+T4	TIME 851 860	ngày 28/3
+T5	Phone-write 1049 1052	gửi
+E3	Phone-write:T5 Entity-Arg:T6 Entity-Arg2:T7
+T6	ORG 1018 1027	Vinaconex
+T7	ORG 1053 1111	Chánh_án toà_án Nhân_dân TP Hà_Nội và Chánh_án toà Đống_Đa
+T8	Transfer-ownership 1645 1648	mua
+E4	Transfer-ownership:T8 Seller-Arg:T10 Buyer-Arg:T9 Time-Arg:T11
+T9	ORG 1596 1620	Công_ty TNHH An_Quý_Hưng
+T10	ORG 1656 1660	SCIC
+T11	TIME 1681 1694	cuối năm 2018
+T12	Transfer-money 1721 1724	chi
+E5	Transfer-money:T12 Money-Arg:T13 Giver-Arg:T9
+T13	MONEY 1740 1753	1.900 tỷ đồng
+T14	Elect 1925 1928	bầu
+E6	Elect:T14 Entity-Arg:T15 Person-Arg:T16 Position-Arg:T17
+T15	ORG 1914 1921	đại_hội
+T16	PER 1929 2072	ông Đào_Ngọc_Thanh - người từng giữ chức Tổng_giám_đốc Công_ty_cổ_phần Đầu_tư và Phát_triển Việt_Hưng - chủ_đầu_tư dự_án Khu_đô_thị ( Ecopark )
+T17	JOB 2084 2107	Chủ_tịch HĐQT Vinaconex
+T18	Nominate 2711 2718	đề_xuất
+E7	Nominate:T18 Agent-Arg:T19 Person-Arg:T20 Position-Arg:T23
+T19	ORG 2681 2710	Công_ty Bất_động_sản Cường_Vũ
+T20	PER 2615 2653	ông Nguyễn_Xuân_Đại , ông Lê_Đình_Vinh
+T21	Elect 2745 2748	bầu
+E8	Elect:T21 Position-Arg:T22
+T22	JOB 2749 2787	Hội_đồng_quản_trị và Ban kiểm_soát mới
+T23	JOB 2579 2610	Ban kiểm_soát mới của Vinaconex
+T24	PER 2851 2862	các cổ_đông

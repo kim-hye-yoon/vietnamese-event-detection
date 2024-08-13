@@ -1,0 +1,32 @@
+T1	End-position 18 27	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 14	Bí_thư Đảng_uỷ
+T3	Trial-hearing 86 92	xét xử
+E2	Trial-hearing:T3 Crime-Arg:T4 Defendant-Arg:T5
+T4	CRIME 96 104	đánh_bạc
+T5	PER 66 75	Ông Dương
+T6	TIME 124 132	Ngày 7/5
+T7	ORG 135 162	Văn_phòng Tỉnh_uỷ Quảng_Trị
+T8	End-position 189 192	cắt
+E3	End-position:T8 Position-Arg:T10 Person-Arg:T11 Entity-Arg:T7 Time-Arg:T6
+T9	JOB 197 215	chức_vụ trong Đảng
+T10	JOB 244 296	Bí_thư Đảng_uỷ phường Đông_Giang , thành_phố Đông_Hà
+T11	PER 220 241	ông Nguyễn_Xuân_Dương
+T12	Sentence 458 463	tuyên
+E4	Sentence:T12 Adjudicator-Arg:T16 Defendant-Arg:T17 Crime-Arg:T15
+T13	Fine 490 494	phạt
+E5	Fine:T13 Money-Arg:T14 Crime-Arg:T15 Entity-Arg:T17 Adjudicator-Arg:T16
+T14	MONEY 495 508	35 triệu đồng
+T15	CRIME 473 481	Đánh_bạc
+T16	ORG 438 456	TAND tỉnh Quảng_Tr
+T17	PER 421 430	Ông Dương
+T18	Arrest-jail 735 738	bắt
+E6	Arrest-jail:T18 Person-Arg:T19 Crime-Arg:T20 Agent-Arg:T24 Time-Arg:T25
+T19	PER 748 774	ông Dương cùng nhiều người
+T20	CRIME 780 788	đánh_bạc
+T21	MONEY 805 823	hơn 200 triệu đồng
+T22	Injure 895 906	chấn_thương
+E7	Injure:T22 Victim-Arg:T23
+T23	PER 826 835	Ông Dương
+T24	ORG 664 681	Công_an Quảng_Trị
+T25	TIME 649 661	Tháng 4/2017

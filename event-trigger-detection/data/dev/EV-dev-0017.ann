@@ -1,0 +1,37 @@
+T1	Transfer-money 24 27	chi
+E1	Transfer-money:T1 Giver-Arg:T2
+T2	PER 0 23	Hai hoàng_tử Arab_Saudi
+T3	Release-parole 36 50	được trả tự_do
+E2	Release-parole:T3 Person-Arg:T2
+T4	Release-parole 139 150	phóng_thích
+E3	Release-parole:T4 Person-Arg:T5 Time-Arg:T7 Entity-Arg:T6
+T5	PER 151 241	hoàng tử Meshaal bin Abdullah và Faisal bin Abdullah ,  hai con_trai của cố vương Abdullah
+T6	PER 102 130	Bộ_trưởng Tư_pháp Arab_Saudi
+T7	TIME 131 138	hôm_nay
+T8	Trial-hearing 384 394	bị bắt_giữ
+E4	Trial-hearing:T8 Defendant-Arg:T9
+T9	PER 329 383	các thành_viên hoàng_gia và các bộ_trưởng , doanh_nhân
+T10	Transport 548 551	rời
+E5	Transport:T10 Origin-Arg:T11 Artifact-Arg:T12
+T11	FAC 557 597	khách sạn Ritz - Carlton ở thủ_đô Riyadh
+T12	PER 524 537	Hai người này
+T13	Arrest-jail 691 698	bắt_giữ
+E6	Arrest-jail:T13 
+T14	PER 936 954	Những người bị giữ
+T15	Arrest-jail 948 954	bị giữ
+E7	Arrest-jail:T15 Person-Arg:T18
+T16	Transfer-money 970 973	chi
+E8	Transfer-money:T16 Giver-Arg:T14
+T17	Release-parole 982 996	được trả tự_do
+E9	Release-parole:T17 Person-Arg:T14
+T18	PER 936 947	Những người
+T19	Release-parole 1057 1073	được phóng_thích
+E10	Release-parole:T19 Person-Arg:T21 Time-Arg:T20
+T20	TIME 1023 1036	cuối tháng 12
+T21	PER 1039 1053	hơn 20 cá_nhân
+T22	Release-parole 1211 1225	được trả tự_do
+E11	Release-parole:T22 Person-Arg:T25
+T23	Transfer-money 1234 1237	chi
+E12	Transfer-money:T23 Giver-Arg:T25 Money-Arg:T24
+T24	MONEY 1238 1246	1 tỷ USD
+T25	PER 1092 1205	Hoàng tử Miteb bin Abdullah ,  con_trai của cố quốc_vương Abdullah , đồng_thời là người đứng đầu Vệ_binh Quốc_gia

@@ -1,0 +1,78 @@
+T1	Attack 36 44	tấn_công
+E1	Attack:T1 Place-Arg:T2
+T2	GPE 45 57	căn_cứ Syria
+T3	Attack 194 202	khai_hoả
+E2	Attack:T3 Instrument-Arg:T4 Place-Arg:T5 Time-Arg:T6
+T4	WEA 203 230	tên_lửa hành_trình Tomahawk
+T5	LOC 259 293	căn_cứ Shayrat , tỉnh Homs , Syria
+T6	TIME 296 304	sáng 7/4
+T7	Attack 674 682	tấn_công
+E3	Attack:T7 Instrument-Arg:T8 Place-Arg:T9
+T8	WEA 683 690	hoá_học
+T9	LOC 693 733	thị_trấn Khan_Sheikhoun , phía bắc Syria
+T10	PER 746 754	80 người
+T11	Die 755 765	thiệt_mạng
+E4	Die:T11 Victim-Arg:T10
+T12	PER 771 780	400 người
+T13	Injure 781 790	bị_thương
+E5	Injure:T13 Victim-Arg:T12
+T14	Meet 2031 2040	thảo_luận
+E6	Meet:T14 Entity-Arg:T16 Entity-Arg2:T15
+T15	ORG 1976 1985	Nhà_Trắng
+T16	ORG 1989 2000	Lầu_Năm_Góc
+T17	PER 2280 2306	Tổng_thống Mỹ Donald_Trump
+T18	Meet 2327 2334	họp_báo
+E7	Meet:T18 Entity-Arg:T17 Entity-Arg2:T19 Time-Arg:T20
+T19	PER 2345 2367	Vua_Jordan_Abdullah II
+T20	TIME 2368 2376	ngày 5/4
+T21	Transport 3460 3463	tới
+E8	Transport:T21 Time-Arg:T24 Destination-Arg:T22 Artifact-Arg:T23
+T22	GPE 3464 3474	Palm_Beach
+T23	PER 3329 3345	Tổng_thống Trump
+T24	TIME 3414 3439	vào_khoảng 13h30 ngày 6/4
+T25	Meet 3495 3503	tiếp_đón
+E9	Meet:T25 Entity-Arg:T23 Entity-Arg2:T26 Place-Arg:T27
+T26	PER 3504 3536	Chủ_tịch Trung_Quốc Tập_Cận_Bình
+T27	FAC 3541 3572	khu nghỉ_dưỡng Mar - a - Lago .
+T28	Meet 3870 3873	họp
+E10	Meet:T28 Time-Arg:T29 Entity-Arg:T30 Entity-Arg2:T31 Entity-Arg3:T32 Entity-Arg4:T33 Entity-Arg5:T34 Place-Arg:T35
+T29	TIME 3697 3707	Khoảng 16h
+T30	PER 3728 3744	Tổng_thống Trump
+T31	PER 3747 3773	Ngoại_trưởng Rex_Tillerson
+T32	PER 3776 3803	Bộ_trưởng Quốc_phòng Mattis
+T33	PER 3806 3838	Cố_vấn An_ninh Quốc_gia McMaster
+T34	PER 3850 3860	người khác
+T35	FAC 3882 3897	căn phòng riêng
+T36	VEH 4024 4049	tàu USS Ross và USS Poter
+T37	TIME 3990 4017	Vào_khoảng 19h40 ( giờ Mỹ )
+T38	Attack 4071 4076	phóng
+E11	Attack:T38 Instrument-Arg:T39 Place-Arg:T40 Time-Arg:T37 Instrument-Arg2:T36
+T39	WEA 4077 4107	59 tên_lửa hành_trình Tomahawk
+T40	LOC 4121 4150	mục_tiêu thuộc căn_cứ Shayrat
+T41	PER 4210 4226	Tổng_thống Trump
+T42	PER 4230 4254	đệ nhất phu_nhân Melania
+T43	Transport 4255 4258	đưa
+E12	Transport:T43 Agent-Arg:T42 Artifact-Arg:T44 Artifact-Arg2:T45 Agent-Arg2:T41
+T44	PER 4259 4291	Chủ_tịch Trung_Quốc Tập_Cận_Bình
+T45	PER 4297 4318	phu_nhân Bành_Lệ_Viện
+T46	PER 4398 4423	Phó tổng_thống Mike_Pence
+T47	PER 4426 4448	Ngoại_trưởng Tillerson
+T48	PER 4451 4478	Bộ_trưởng Quốc_phòng Mattis
+T49	PER 4481 4533	Cố_vấn An_ninh Quốc_gia McMaster và những người khác
+T50	Phone-write 4542 4550	gọi điện
+E13	Phone-write:T50 Entity-Arg:T49 Entity-Arg2:T48 Entity-Arg3:T47 Entity-Arg4:T46
+T51	Attack 4683 4691	tấn_công
+E14	Attack:T51 Instrument-Arg:T52
+T52	WEA 4697 4704	tên_lửa
+T53	PER 4742 4747	Trump
+T54	Transport 4748 4759	quay trở_về
+E15	Transport:T54 Destination-Arg:T55 Artifact-Arg:T53
+T55	FAC 4760 4795	căn phòng bí_mật tại Mar - a - Lago
+T56	GPE 5363 5365	Mỹ
+T57	Attack 5366 5374	tấn_công
+E16	Attack:T57 Attacker-Arg:T56 Target-Arg:T60
+T59	GPE 597 611	thị_trấn Syria
+T60	FAC 5328 5351	Căn_cứ không_quân Syria
+T58	Attack 615 623	tấn_công
+E17	Attack:T58 Place-Arg:T59 Instrument-Arg:T61
+T61	WEA 624 631	hoá_học

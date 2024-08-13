@@ -1,0 +1,19 @@
+T1	Trial-hearing 8 14	xét_xử
+E1	Trial-hearing:T1 Defendant-Arg:T3 Time-Arg:T2 Adjudicator-Arg:T4
+T2	TIME 0 7	Hai năm
+T3	PER 15 29	Đoàn_Thị_Hương
+T4	ORG 34 49	toà_án Malaysia
+T5	PER 52 60	Kim_Chol
+T6	Attack 82 93	bị tấn_công
+E2	Attack:T6 Target-Arg:T5 Place-Arg:T7 Time-Arg:T8
+T7	FAC 98 118	sân_bay Kuala_Lumpur
+T8	TIME 119 131	tháng 2/2017
+T9	Die 374 381	tử_vong
+E3	Die:T9 
+T10	PER 331 334	Ông
+T11	Transport 339 351	được đưa đến
+E4	Transport:T11 Artifact-Arg:T10 Destination-Arg:T12
+T12	FAC 352 370	phòng_khám sân_bay
+T13	PER 525 589	Đoàn_Thị_Hương , người Việt_Nam và Siti_Aishah , người Indonesia
+T14	Arrest-jail 592 598	bị bắt
+E5	Arrest-jail:T14 

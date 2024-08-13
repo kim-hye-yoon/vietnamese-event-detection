@@ -1,0 +1,33 @@
+T1	Attack 6 10	chém
+E1	Attack:T1 Target-Arg:T2 Attacker-Arg:T3
+T2	PER 11 17	tài_xế
+T3	PER 0 5	Người
+T4	PER 0 46	Người chém tài_xế sau vụ cẩu ôtô ở BOT Cai_Lậy
+T5	Release-parole 47 61	được trả tự_do
+E2	Release-parole:T5 Person-Arg:T4
+T6	Charge-indict 171 178	khởi_tố
+E3	Charge-indict:T6 Crime-Arg:T10 Defendant-Arg:T7 Prosecutor-Arg:T9 Time-Arg:T8
+T7	PER 179 269	ông Lê_Tấn_Tú ( 36 tuổi , Giám_đốc công_ty dịch_vụ cứu_hộ tại quận Cái_Răng , TP Cần_Thơ )
+T8	TIME 64 74	Ngày 20/12
+T9	PER 77 129	tài_xế Vương_Quốc_Tân ( 34 tuổi , ở quận Ninh_Kiều )
+T10	CRIME 273 301	hành_vi Cố_ý gây thương_tích
+T11	Release-parole 633 642	trả tự_do
+E4	Release-parole:T11 Entity-Arg:T13 Person-Arg:T12
+T12	PER 647 653	ông Tú
+T13	ORG 590 611	Công_an quận Cái_Răng
+T14	Meet 705 708	gặp
+E5	Meet:T14 Entity-Arg:T19 Place-Arg:T18 Entity-Arg2:T16 Time-Arg:T15
+T15	TIME 669 678	trưa 3/12
+T16	PER 681 692	nhóm tài_xế
+T17	Transport 693 696	đến
+E6	Transport:T17 Artifact-Arg:T16 Destination-Arg:T18
+T18	GPE 697 704	Cần_Thơ
+T19	PER 709 720	giám_đốc Tú
+T20	Meet 726 736	nói_chuyện
+E7	Meet:T20 Entity-Arg:T19 Entity-Arg2:T16
+T21	Charge-indict 940 950	bị khởi_tố
+E8	Charge-indict:T21 Defendant-Arg:T24 Time-Arg:T23
+T22	Arrest-jail 953 965	bắt tạm giam
+E9	Arrest-jail:T22 Person-Arg:T24
+T23	TIME 918 930	Hơn tuần sau
+T24	PER 933 939	ông Tú

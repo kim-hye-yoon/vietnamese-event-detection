@@ -1,0 +1,19 @@
+T1	PER 164 176	hai phi_công
+T2	Die 181 191	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1 Time-Arg:T3
+T3	TIME 152 161	ngày 12/4
+T4	PER 339 359	Thi_thể hai phi_công
+T5	Transport 368 374	đưa về
+E2	Transport:T5 Destination-Arg:T6 Artifact-Arg:T4
+T6	GPE 375 408	căn_cứ không_quân Hmeymim ở Syria
+T8	Die 1015 1025	thiệt_mạng
+E3	Die:T8 Victim-Arg:T7
+T9	PER 1133 1142	cơ_trưởng
+T10	Die 1143 1153	thiệt_mạng
+E4	Die:T10 Victim-Arg:T9
+T12	GPE 20 23	Nga
+T13	GPE 30 35	Syria
+T7	PER 992 1014	Một trong hai phi_công
+T11	Attack 328 336	tấn_công
+E5	Attack:T11 Target-Arg:T14
+T14	VEH 308 318	trực_thăng

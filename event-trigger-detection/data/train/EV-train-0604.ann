@@ -1,0 +1,19 @@
+T1	Release-parole 13 22	trả tự_do
+E1	Release-parole:T1 Entity-Arg:T2
+T2	ORG 0 12	Chính_phủ Mỹ
+T3	Release-parole 259 262	thả
+E2	Release-parole:T3 Place-Arg:T4 Time-Arg:T5 Place-Arg2:T6
+T4	LOC 266 281	các khu bảo_tồn
+T5	TIME 165 178	Hai năm trước
+T6	GPE 233 235	Mỹ
+T7	Transport 487 494	đưa tới
+E3	Transport:T7 Destination-Arg:T8 Time-Arg:T10
+T8	LOC 495 510	các khu bảo_tồn
+T9	Release-parole 573 578	tự_do
+E4	Release-parole:T9 Time-Arg:T10
+T10	TIME 585 598	thời_gian tới
+T11	Release-parole 940 949	trả tự_do
+E5	Release-parole:T11 Time-Arg:T12
+T12	TIME 954 962	năm 2013
+T13	Injure 1626 1636	tổn_thương
+E6	Injure:T13 

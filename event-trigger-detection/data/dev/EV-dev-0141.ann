@@ -1,0 +1,8 @@
+T1	Be-born 13 17	sinh
+E1	Be-born:T1 Person-Arg:T2
+T2	PER 18 30	con đầu_lòng
+T3	Marry 405 412	kết hôn
+E2	Marry:T3 Person-Arg:T6 Person-Arg2:T5 Time-Arg:T4
+T4	TIME 413 424	đầu tháng 5
+T5	PER 372 384	Diệp_Lâm_Anh
+T6	PER 388 404	chồng doanh nhân

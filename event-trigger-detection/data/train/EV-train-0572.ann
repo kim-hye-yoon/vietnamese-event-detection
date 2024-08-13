@@ -1,0 +1,17 @@
+T2	ORG 68 109	Công_an huyện Việt_Yên ( tỉnh Bắc_Giang )
+T3	PER 145 191	Hoàng_Ngọc_Minh ( 42 tuổi , người địa_phương )
+T4	CRIME 212 238	lừa_đảo chiếm_đoạt tài_sản
+T6	MONEY 466 480	300 triệu đồng
+T7	PER 428 432	Minh
+T9	PER 560 566	anh ta
+T10	MONEY 579 592	50 triệu đồng
+T11	Transfer-money 659 667	hoàn_trả
+E4	Transfer-money:T11 Giver-Arg:T12
+T12	PER 637 651	trưởng công_an
+T1	Charge-indict 137 144	khởi_tố
+E1	Charge-indict:T1 Prosecutor-Arg:T2 Time-Arg:T13 Defendant-Arg:T3 Crime-Arg:T4
+T13	TIME 57 65	Ngày 6/1
+T5	Transfer-money 433 437	nhận
+E2	Transfer-money:T5 Money-Arg:T6 Recipient-Arg:T7
+T8	Transfer-money 570 574	nhận
+E3	Transfer-money:T8 Recipient-Arg:T9 Money-Arg:T10

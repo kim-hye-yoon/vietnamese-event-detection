@@ -1,0 +1,13 @@
+T1	Transport 109 112	qua
+E1	Transport:T1 Artifact-Arg:T2 Destination-Arg:T3
+T2	PER 94 97	tôi
+T3	GPE 113 119	Canada
+T4	Transport 170 172	về
+E2	Transport:T4 Destination-Arg:T5 Artifact-Arg:T6 Time-Arg:T7
+T5	GPE 173 181	Việt_Nam
+T6	PER 166 169	tôi
+T7	TIME 150 165	Một tháng trước
+T8	Transport 210 212	về
+E3	Transport:T8 Artifact-Arg:T10 Destination-Arg:T9
+T9	GPE 213 221	Việt_Nam
+T10	PER 202 205	tôi

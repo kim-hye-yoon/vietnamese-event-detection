@@ -1,0 +1,21 @@
+T1	End-position 8 17	cách_chức
+E1	End-position:T1 Person-Arg:T2 Entity-Arg:T3
+T2	PER 18 35	tư_lệnh Hạm_đội 7
+T3	ORG 0 2	Mỹ
+T4	Meet 80 87	họp_báo
+E2	Meet:T4 Entity-Arg:T5
+T5	PER 62 79	Ông Joseph_Aucoin
+T6	End-position 214 223	cách_chức
+E3	End-position:T6 Time-Arg:T7 Position-Arg:T9 Person-Arg:T8
+T7	TIME 228 237	ngày 23/8
+T8	PER 144 168	Phó đô_đốc Joseph_Aucoin
+T9	JOB 171 200	tư_lệnh Hạm_đội 7 hải_quân Mỹ
+T10	End-position 687 696	cách_chức
+E4	End-position:T10 Person-Arg:T11
+T11	PER 697 707	ông Aucoin
+T12	End-position 851 858	sa_thải
+E5	End-position:T12 Person-Arg:T13
+T13	PER 859 876	phó đô_đốc Aucoin
+T14	End-position 968 977	cách_chức
+E6	End-position:T14 Person-Arg:T15
+T15	PER 926 957	Các sĩ_quan chỉ_huy hải_quân Mỹ

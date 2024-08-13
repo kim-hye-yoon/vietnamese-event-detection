@@ -1,0 +1,41 @@
+T1	PER 1 13	Lính Ukraine
+T2	Attack 24 32	tấn_công
+E1	Attack:T2 Place-Arg:T3 Attacker-Arg:T1
+T3	LOC 33 59	Mariupol và Konstantinovka
+T4	ORG 156 172	quân_đội Ukraine
+T5	Attack 198 206	tấn_công
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6 Place-Arg:T7 Place-Arg2:T8 Time-Arg:T11
+T6	PER 207 233	những người ủng_hộ độc_lập
+T7	LOC 236 276	thành_phố Mariupol vùng Đông_Nam_Ukraine
+T8	LOC 280 322	thị_trấn Konstantinovka thuộc vùng Donetsk
+T9	PER 2022 2036	một_số binh_sỹ
+T10	Injure 2040 2049	bị_thương
+E3	Injure:T10 Victim-Arg:T9
+T11	TIME 146 153	đêm 3/5
+T12	Attack 741 749	tấn_công
+E4	Attack:T12 Attacker-Arg:T27
+T13	Phone-write 1034 1044	điện_thoại
+E5	Phone-write:T13 Entity-Arg:T14 Entity-Arg2:T15
+T14	ORG 1027 1029	RT
+T15	PER 984 1018	bà Tatyana , một cư_dân địa_phương
+T16	Transport 955 961	đi vào
+E6	Transport:T16 Destination-Arg:T17
+T17	LOC 962 979	khu_vực trung_tâm
+T18	Attack 1393 1402	phóng_hoả
+E7	Attack:T18 Target-Arg:T19
+T19	FAC 1354 1386	một toà nhà ngân_hàng ở Mariupol
+T20	Die 1698 1708	thiệt_mạng
+E8	Die:T20 Victim-Arg:T21
+T21	PER 1677 1694	Ít_nhất hai người
+T22	Attack 1720 1728	tấn_công
+E9	Attack:T22 
+T23	PER 1845 1890	quyền Bộ_trưởng Nội_vụ Ukraine , Arsen_Avakov
+T24	ORG 1910 1927	quân_đội nước này
+T25	GPE 1979 2002	thị_trấn Konstantinovka
+T26	Attack 1956 1965	hoạt_động
+E10	Attack:T26 Attacker-Arg:T24 Place-Arg:T25
+T27	ORG 673 699	lực_lượng quân_đội Ukraine
+T28	Attack 460 467	bao_vây
+E11	Attack:T28 Attacker-Arg:T29 Place-Arg:T30
+T29	ORG 397 413	Quân_đội Ukraine
+T30	FAC 468 553	toà nhà chính_quyền thành_phố , vốn đang bị người biểu_tình chống chính_phủ chiếm_giữ

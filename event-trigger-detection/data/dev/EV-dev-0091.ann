@@ -1,0 +1,41 @@
+T1	ORG 0 2	IS
+T2	Attack 7 16	tiêu_diệt
+E1	Attack:T2 Target-Arg:T3 Attacker-Arg:T1 Place-Arg:T4
+T3	ORG 17 20	Nga
+T4	GPE 23 28	Syria
+T5	ORG 143 146	Nga
+T6	Attack 153 162	tiêu_diệt
+E2	Attack:T6 Target-Arg:T5
+T7	PER 333 347	người Hồi_giáo
+T8	Attack 359 367	tấn_công
+E3	Attack:T8 Target-Arg:T9 Target-Arg2:T10 Attacker-Arg:T7
+T9	PER 368 377	người Nga
+T10	PER 381 389	người Mỹ
+T11	GPE 707 709	Mỹ
+T12	Attack 744 754	không_kích
+E4	Attack:T12 Target-Arg:T13 Place-Arg:T14 Place-Arg2:T15 Time-Arg:T16 Attacker-Arg:T11
+T13	ORG 761 763	IS
+T14	GPE 766 770	Iraq
+T15	GPE 774 779	Syria
+T16	TIME 783 792	năm_ngoái
+T18	Die 997 1007	thiệt_mạng
+E5	Die:T18 Victim-Arg:T17
+T17	PER 944 991	Abu_Mutaz al - Qurashi , thủ_lĩnh số hai của IS
+T19	PER 1134 1180	Qurashi , tên thật là Fadhil_Ahmad al - Hayali
+T20	Die 1186 1195	tiêu_diệt
+E6	Die:T20 Time-Arg:T21 Victim-Arg:T19 Place-Arg:T22
+T21	TIME 1196 1204	hôm 18/8
+T22	GPE 1211 1242	thành_phố Mosul , phía bắc Iraq
+T23	Transport 1359 1368	di_chuyển
+E7	Transport:T23 Artifact-Arg:T24 Artifact-Arg2:T25 Artifact-Arg3:T26 Artifact-Arg4:T27 Origin-Arg:T28 Destination-Arg:T29 Destination-Arg2:T28 Origin-Arg2:T29
+T24	WEA 1369 1375	vũ_khí
+T25	WEA 1378 1389	thiết_bị nổ
+T26	VEH 1392 1397	xe_cộ
+T27	PER 1401 1410	người_dân
+T28	GPE 1416 1420	Iraq
+T29	GPE 1424 1429	Syria
+T30	Attack 892 902	không_kích
+E8	Attack:T30 Place-Arg:T31 Time-Arg:T32 Attacker-Arg:T33
+T31	GPE 907 912	Syria
+T32	TIME 913 921	hôm 30/9
+T33	GPE 795 798	Nga

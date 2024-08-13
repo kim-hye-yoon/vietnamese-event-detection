@@ -1,0 +1,32 @@
+T1	GPE 11 16	Syria
+T2	Attack 17 20	bắn
+E1	Attack:T2 Target-Arg:T3 Instrument-Arg:T4 Attacker-Arg:T1
+T3	WEA 36 55	trinh_sát cơ Il -20
+T4	WEA 21 31	20 tên_lửa
+T5	Attack 236 242	bắn hạ
+E2	Attack:T5 Target-Arg:T6 Attacker-Arg:T17
+T6	VEH 243 254	máy_bay Nga
+T7	Transport 368 371	rời
+E3	Transport:T7 Vehicle-Arg:T8
+T8	VEH 346 353	máy_bay
+T9	ORG 455 469	Quân_đội Syria
+T11	Attack 492 498	bắn rơ
+E4	Attack:T11 Target-Arg:T12 Attacker-Arg:T9 Time-Arg:T10
+T12	VEH 500 524	máy_bay trinh_sát Il -20
+T13	Attack 579 589	không kích
+E5	Attack:T13 Place-Arg:T14 Instrument-Arg:T18
+T14	GPE 601 613	tỉnh Latakia
+T16	Attack 1410 1417	bắn rơi
+E6	Attack:T16 Target-Arg:T15
+T17	ORG 170 210	hệ_thống phòng_không liều_lĩnh của Syria
+T10	TIME 470 483	đêm_ngày 17/9
+T18	WEA 562 578	tiêm_kích Israel
+T19	Attack 902 910	tấn_công
+E7	Attack:T19 Instrument-Arg:T20
+T20	WEA 874 893	các tiêm_kích F -16
+T21	Transport 1303 1306	tới
+E8	Transport:T21 Artifact-Arg:T24 Time-Arg:T23 Destination-Arg:T22
+T22	GPE 1307 1313	Moskva
+T23	TIME 1228 1237	ngày 20/9
+T24	PER 1241 1302	phái_đoàn cấp cao do Tư_lệnh không_quân Amikam_Norkin dẫn_đầu
+T15	VEH 1394 1406	chiếc Il -20

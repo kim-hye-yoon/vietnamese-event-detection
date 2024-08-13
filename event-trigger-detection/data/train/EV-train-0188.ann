@@ -1,0 +1,29 @@
+T1	PER 82 87	Khiêm
+T2	PER 105 112	đối_tác
+T3	Attack 100 104	đánh
+E1	Attack:T3 Target-Arg:T2 Attacker-Arg:T1
+T4	Convict 150 160	tuyên_phạt
+E2	Convict:T4 Defendant-Arg:T5 Adjudicator-Arg:T6 Time-Arg:T7 Crime-Arg:T22
+T6	ORG 137 149	TAND TP. HCM
+T7	TIME 125 134	Ngày 10-3
+T5	PER 168 256	Lê_Thành_Khiêm ( SN 1976 ) 21 năm tù và Nguyễn_Tấn_Đạt ( SN 1993 , cùng ngụ TP Cần_Thơ )
+T8	PER 1181 1186	Khiêm
+T9	VEH 1194 1198	ô_tô
+T10	Attack 1199 1203	tông
+E3	Attack:T10 Attacker-Arg:T8 Target-Arg:T11 Instrument-Arg:T9
+T11	PER 1226 1230	Tuấn
+T12	PER 1395 1398	Đạt
+T13	WEA 1413 1416	dao
+T14	Attack 1417 1421	chém
+E4	Attack:T14 Attacker-Arg:T12 Target-Arg:T15 Instrument-Arg:T13
+T15	PER 1447 1451	Tuấn
+T16	Die 1510 1517	tử_vong
+E5	Die:T16 Victim-Arg:T18
+T17	Injure 1496 1503	cấp_cứu
+E6	Injure:T17 Victim-Arg:T18
+T18	PER 1479 1483	Tuấn
+T19	Convict 1616 1623	xử_phạt
+E7	Convict:T19 Adjudicator-Arg:T20 Defendant-Arg:T21
+T20	ORG 1598 1602	TAND
+T21	PER 1582 1591	kẻ thủ_ác
+T22	CRIME 270 284	tội giết người

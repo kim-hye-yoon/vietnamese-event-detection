@@ -1,0 +1,11 @@
+T1	Marry 31 38	kết_hôn
+E1	Marry:T1 
+T2	PER 0 8	Bạn_trai
+T3	Marry 1603 1610	kết_hôn
+E2	Marry:T3 Person-Arg:T4
+T4	PER 1578 1581	anh
+T5	Marry 1729 1737	hôn_nhân
+E3	Marry:T5 
+T6	Phone-write 762 772	điện_thoại
+E4	Phone-write:T6 Entity-Arg:T7
+T7	PER 780 783	anh

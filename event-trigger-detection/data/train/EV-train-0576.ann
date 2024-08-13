@@ -1,0 +1,31 @@
+T1	Start-org 10 21	khởi_nghiệp
+E1	Start-org:T1 Agent-Arg:T4 Org-Arg:T2
+T2	ORG 40 58	công_ty khoáng_sản
+T3	JOB 36 39	CEO
+T4	PER 36 58	CEO công_ty khoáng_sản
+T6	LOC 1057 1072	nước láng_giềng
+T7	PER 974 977	ông
+T11	End-position 1849 1855	xin ra
+E4	End-position:T11 Person-Arg:T12
+T12	PER 1836 1844	ông Dũng
+T13	Start-position 1906 1913	xin vào
+E5	Start-position:T13 Entity-Arg:T14 Person-Arg:T15
+T14	ORG 1914 1963	một công_ty chuyên khai_thác và chế_biến bột Talc
+T15	PER 1891 1894	ông
+T16	Nominate 2080 2086	đề_bạt
+E6	Nominate:T16 Position-Arg:T17 Person-Arg:T18
+T17	JOB 2098 2111	Tổng_giám_đốc
+T18	PER 2059 2062	tôi
+T19	Transfer-money 2379 2385	đầu_tư
+E7	Transfer-money:T19 Money-Arg:T20 Giver-Arg:T21
+T20	MONEY 2391 2403	chục tỷ đồng
+T21	ORG 2406 2418	doanh_nghiệp
+T22	Declare-bankruptcy 2587 2594	phá_sản
+E8	Declare-bankruptcy:T22 Org-Arg:T23
+T23	ORG 2561 2568	công_ty
+T24	Transfer-ownership 2625 2628	bán
+E9	Transfer-ownership:T24 Seller-Arg:T25
+T25	PER 2613 2624	các cổ_đông
+T30	Transfer-ownership 3830 3833	mua
+E11	Transfer-ownership:T30 Buyer-Arg:T31
+T31	PER 3826 3829	tôi

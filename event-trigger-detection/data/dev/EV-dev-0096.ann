@@ -1,0 +1,19 @@
+T1	Start-org 36 38	mở
+E1	Start-org:T1 Org-Arg:T2
+T2	ORG 39 52	công_ty riêng
+T3	PER 66 69	tôi
+T4	End-position 73 81	nghỉ làm
+E2	End-position:T4 Person-Arg:T3 Position-Arg:T5
+T5	JOB 84 96	công_việc cũ
+T6	Start-org 577 579	mở
+E3	Start-org:T6 Org-Arg:T7
+T7	ORG 580 587	công_ty
+T8	Transport 671 674	lên
+E4	Transport:T8 Agent-Arg:T9 Destination-Arg:T10 Time-Arg:T11
+T9	PER 662 665	tôi
+T10	LOC 675 681	Hà_Nội
+T11	TIME 682 698	ít_nhất một tuần
+T12	Transport 763 765	về
+E5	Transport:T12 Agent-Arg:T13 Destination-Arg:T14
+T13	PER 747 750	tôi
+T14	LOC 766 775	Hải_Phòng

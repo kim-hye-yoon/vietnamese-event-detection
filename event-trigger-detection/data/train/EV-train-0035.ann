@@ -1,0 +1,54 @@
+T1	PER 0 18	Chánh thanh_tra Sở
+T4	PER 40 48	thiếu_nữ
+T5	TIME 283 292	Sáng 10.2
+T6	ORG 295 325	TAND quận Hải_Châu ( Đà_Nẵng )
+T7	Sentence 326 336	tuyên_phạt
+E3	Sentence:T7 Defendant-Arg:T8 Adjudicator-Arg:T6 Time-Arg:T5 Sentence-Arg:T9 Sentence-Arg2:T10 Crime-Arg:T11
+T8	PER 337 418	bị_cáo Trần_Quang_Hiền ( 55 tuổi , ngụ xã Duy_Hoà , huyện Duy_Xuyên , Quảng_Nam )
+T9	SEN 421 436	9 tháng tù_giam
+T10	SEN 447 460	hưởng án_treo
+T11	CRIME 468 534	Vi_phạm các quy_định về điều_khiển phương_tiện giao_thông đường_bộ
+T12	TIME 635 654	20h25 ngày 5.6.2013
+T13	PER 725 733	ông Hiền
+T14	VEH 743 782	chiếc Ford_Fiesta biển kiểm_soát TP HCM
+T15	Transport 786 789	lùi
+E4	Transport:T15 Destination-Arg:T16 Vehicle-Arg:T14 Agent-Arg:T13 Time-Arg:T12
+T16	LOC 809 819	lòng_đường
+T17	PER 885 897	Hai nạn_nhân
+T18	Injure 915 928	bị_thương nhẹ
+E5	Injure:T18 Victim-Arg:T17
+T19	PER 1085 1094	Chị Trang
+T20	Die 1095 1102	tử_vong
+E6	Die:T20 Victim-Arg:T19
+T21	PER 1168 1176	Ông Hiền
+T22	LOC 1186 1197	hiện_trường
+T23	Transport 1177 1185	rời khỏi
+E7	Transport:T23 Artifact-Arg:T21 Destination-Arg:T22
+T24	Transport 1213 1216	đến
+E8	Transport:T24 Artifact-Arg:T21 Destination-Arg:T25 Time-Arg:T26
+T25	FAC 1217 1224	công_an
+T26	TIME 1201 1208	hôm sau
+T27	PER 1309 1325	Thiếu_nữ 23 tuổi
+T28	Die 1369 1376	tử_vong
+E9	Die:T28 Victim-Arg:T27 Place-Arg:T29
+T29	LOC 1377 1384	tại_chỗ
+T30	ORG 1799 1802	toà
+T32	SEN 1816 1831	9 tháng tù_treo
+T31	Sentence 1803 1808	tuyên
+E10	Sentence:T31 Sentence-Arg:T32 Adjudicator-Arg:T30
+T2	Die 30 39	tông chết
+E1	Die:T2 Victim-Arg:T4 Agent-Arg:T1
+T3	PER 194 201	ông này
+T33	Divorce 202 207	ly_dị
+E2	Divorce:T33 Person-Arg:T3 Person-Arg2:T34
+T34	PER 208 210	vợ
+T35	Transport 258 261	đến
+E11	Transport:T35 Artifact-Arg:T3 Destination-Arg:T36
+T36	LOC 262 271	bệnh_viện
+T37	PER 1552 1559	ông này
+T38	Divorce 1560 1565	ly_dị
+E12	Divorce:T38 Person-Arg:T37 Person-Arg2:T39
+T39	PER 1566 1568	vợ
+T40	Transport 1616 1619	đến
+E13	Transport:T40 Destination-Arg:T41 Artifact-Arg:T37
+T41	LOC 1620 1629	bệnh_viện

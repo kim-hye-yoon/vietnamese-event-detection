@@ -1,0 +1,16 @@
+T1	End-position 25 34	cách_chức
+E1	End-position:T1 Entity-Arg:T2 Person-Arg:T3
+T2	ORG 40 61	Chính hiệp Trung_Quốc
+T3	PER 0 21	Cựu chủ_tịch Interpol
+T4	End-position 221 230	cách_chức
+E2	End-position:T4 Position-Arg:T6 Entity-Arg:T5 Person-Arg:T7
+T5	ORG 139 204	Hội_nghị Chính_trị Hiệp_thương Nhân_dân ( Chính hiệp ) Trung_Quốc
+T6	JOB 231 258	thành_viên Uỷ_ban đối_ngoại
+T7	PER 263 298	cựu chủ_tịch Interpol_Mạnh_Hoành_Vĩ
+T8	Charge-indict 634 641	truy_tố
+E3	Charge-indict:T8 
+T9	Elect 739 742	bầu
+E4	Elect:T9 Position-Arg:T10 Time-Arg:T11 Person-Arg:T12
+T10	JOB 747 764	Chủ_tịch Interpol
+T11	TIME 765 773	năm 2016
+T12	PER 776 789	Mạnh_Hoành_Vĩ

@@ -1,0 +1,6 @@
+T1	Execute 43 50	tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 24 32	du_khách
+T3	LOC 0 17	Bãi biển Thái_Lan
+T4	Transport 55 58	tới
+E2	Transport:T4 Agent-Arg:T2 Destination-Arg:T3

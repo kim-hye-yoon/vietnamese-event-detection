@@ -1,0 +1,45 @@
+T1	PER 40 71	Một nam thanh_niên ở Trung_Quốc
+T2	Arrest-jail 78 81	bắt
+E1	Arrest-jail:T2 Crime-Arg:T3 Person-Arg:T1
+T3	CRIME 85 105	giả_mạo bắt_cóc mình
+T4	PER 267 270	Anh
+T5	Transport 287 289	đi
+E2	Transport:T5 Destination-Arg:T6 Artifact-Arg:T4
+T6	LOC 293 308	lễ_hội mùa_xuân
+T7	PER 398 404	Anh ta
+T8	Transfer-money 405 408	cho
+E3	Transfer-money:T8 Recipient-Arg:T9 Giver-Arg:T7 Money-Arg:T10
+T9	PER 409 429	một người bạn tên Wu
+T10	MONEY 430 436	500 Tệ
+T11	PER 459 461	Wu
+T12	PER 487 500	cha của Zhang
+T13	Phone-write 462 470	gọi điện
+E4	Phone-write:T13 Entity-Arg:T11 Entity-Arg2:T12
+T14	Phone-write 474 482	nhắn_tin
+E5	Phone-write:T14 Entity-Arg:T12 Entity-Arg2:T11
+T15	PER 556 559	ông
+T16	Transport 566 569	đưa
+E6	Transport:T16 Agent-Arg:T15 Destination-Arg:T18
+T18	LOC 625 636	nơi đã định
+T17	PER 762 767	Zhang
+T19	Transport 768 771	đến
+E7	Transport:T19 Destination-Arg:T20 Artifact-Arg:T17
+T20	LOC 772 784	địa_điểm hẹn
+T21	PER 828 833	Zhang
+T22	Phone-write 844 847	gọi
+E8	Phone-write:T22 Entity-Arg:T23 Entity-Arg2:T21
+T23	PER 852 855	cha
+T24	PER 890 921	một người bạn của Zhang tên Guo
+T25	Transport 925 928	đến
+E9	Transport:T25 Artifact-Arg:T24 Time-Arg:T27
+T26	Transfer-money 929 938	nhận tiền
+E10	Transfer-money:T26 Recipient-Arg:T24 Time-Arg:T27
+T27	TIME 883 889	sau đó
+T28	PER 950 953	Guo
+T29	Transfer-money 954 957	lấy
+E11	Transfer-money:T29 Recipient-Arg:T28 Money-Arg:T30
+T30	MONEY 958 968	tiền chuộc
+T31	PER 971 979	cảnh_sát
+T32	Arrest-jail 980 983	tóm
+E12	Arrest-jail:T32 Agent-Arg:T31 Person-Arg:T33
+T33	PER 989 995	anh ta

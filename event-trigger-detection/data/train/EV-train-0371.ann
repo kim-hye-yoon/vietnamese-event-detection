@@ -1,0 +1,7 @@
+T1	Meet 253 256	họp
+E1	Meet:T1 Place-Arg:T2 Entity-Arg:T3
+T2	GPE 261 286	Thượng_Hải ( Trung_Quốc )
+T3	PER 289 355	bộ_trưởng tài_chính và thống_đốc ngân_hàng trung_ương các nước G20
+T4	Meet 2483 2491	cuộc họp
+E2	Meet:T4 Entity-Arg:T5
+T5	ORG 2492 2495	G20

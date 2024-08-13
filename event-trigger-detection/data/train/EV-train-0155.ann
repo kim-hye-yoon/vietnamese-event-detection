@@ -1,0 +1,16 @@
+T1	Die 71 81	thiệt_mạng
+E1	Die:T1 Time-Arg:T2 Place-Arg:T3 Agent-Arg:T4 Victim-Arg:T5
+T2	TIME 91 99	ngày 9/2
+T3	GPE 155 176	Florida và California
+T4	PER 188 194	tài_xế
+T5	PER 58 66	11 người
+T6	Die 847 857	thiệt_mạng
+E2	Die:T6 Instrument-Arg:T7 Victim-Arg:T8 Place-Arg:T9
+T7	VEH 862 865	ôtô
+T8	PER 829 836	6 người
+T9	GPE 904 925	phía đông Los_Angeles
+T10	VEH 615 639	ôtô Ford_Expecdition_SUV
+T11	PER 700 745	tài_xế chiếc SUV và 4 người trên chiếc Sonata
+T12	Die 747 753	tử_nạn
+E3	Die:T12 Victim-Arg:T11 Time-Arg:T13
+T13	TIME 680 693	rạng sáng 9-2

@@ -1,0 +1,4 @@
+T1	PER 963 975	50 đặc_nhiệm
+T2	Transport 976 979	tới
+E1	Transport:T2 Artifact-Arg:T1 Destination-Arg:T3
+T3	GPE 980 985	Syria

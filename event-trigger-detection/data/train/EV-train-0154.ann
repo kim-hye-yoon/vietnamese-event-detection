@@ -1,0 +1,46 @@
+T1	Demonstrate 159 166	bao_vây
+E1	Demonstrate:T1 Entity-Arg:T3 Place-Arg:T2 Time-Arg:T4
+T2	FAC 148 158	quốc_lộ 51
+T3	ORG 188 221	cảnh_sát trật_tự huyện Long_Thành
+T4	TIME 65 73	Sáng 4-5
+T5	Demonstrate 528 535	bao_vây
+E2	Demonstrate:T5 Time-Arg:T8 Place-Arg:T6 Entity-Arg:T7
+T6	LOC 536 546	hiện_trườn
+T7	ORG 556 573	cơ_quan_chức_năng
+T8	TIME 480 501	Đến gần 15g cùng ngày
+T9	PER 776 779	ông
+T10	Transport 783 787	chạy
+E3	Transport:T10 Agent-Arg:T9 Destination-Arg:T11
+T11	LOC 788 803	tới hiện_trường
+T12	PER 759 763	Hạnh
+T13	Injure 764 773	bị_thương
+E4	Injure:T13 Victim-Arg:T12
+T14	PER 816 822	em tôi
+T15	PER 828 835	công_an
+T16	Transport 836 842	chở đi
+E5	Transport:T16 Agent-Arg:T15 Artifact-Arg:T14 Destination-Arg:T17
+T17	LOC 843 852	bệnh_viện
+T18	PER 1328 1336	cảnh_sát
+T19	Attack 1358 1362	đánh
+E6	Attack:T19 Attacker-Arg:T18 Instrument-Arg:T20 Target-Arg:T21
+T20	WEA 1341 1348	dùi_cui
+T21	PER 1367 1372	người
+T22	PER 1423 1431	cảnh_sát
+T23	Attack 1436 1439	ném
+E7	Attack:T23 Attacker-Arg:T22 Target-Arg:T25 Instrument-Arg:T24
+T24	WEA 1445 1452	dùi_cui
+T25	PER 1457 1462	người
+T26	TIME 1584 1591	10 phút
+T27	PER 1598 1618	các chiến_sĩ công_an
+T28	Transport 1619 1622	đưa
+E8	Transport:T28 Agent-Arg:T27 Artifact-Arg:T29 Time-Arg:T26 Vehicle-Arg:T30
+T29	PER 1623 1631	anh Hạnh
+T30	VEH 1636 1646	xe công_vụ
+T31	Phone-write 1662 1670	Trao_đổi
+E9	Phone-write:T31 Entity-Arg:T33 Entity-Arg2:T32
+T32	PER 1675 1684	chúng_tôi
+T33	PER 1703 1724	trung_tá Huỳnh_Văn_Tà
+T34	Injure 255 264	bị_thương
+E10	Injure:T34 Victim-Arg:T35 Place-Arg:T36
+T35	PER 240 254	một thanh_niên
+T36	LOC 267 281	đoạn đường này

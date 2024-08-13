@@ -1,0 +1,27 @@
+T1	ORG 287 298	cơ_quan này
+T2	Arrest-jail 304 311	tạm giữ
+E1	Arrest-jail:T2 Agent-Arg:T1 Person-Arg:T3 Place-Arg:T4 Time-Arg:T22
+T3	PER 320 379	3 đối_tượng liên_quan đến vụ trộm_cắp tài_sản hơn 1 tỷ đồng
+T4	LOC 385 392	địa_bàn
+T5	ORG 924 946	Công_an thị_xã Bắc_Kạn
+T6	Arrest-jail 947 954	bắt_giữ
+E2	Arrest-jail:T6 Agent-Arg:T5 Person-Arg:T7 Crime-Arg:T8 Time-Arg:T13
+T7	PER 955 978	đối_tượng Lương_Văn_Đàm
+T8	CRIME 1051 1076	gây_rối trật_tự công_cộng
+T9	TIME 1403 1423	Ngay trong ngày 10/5
+T10	ORG 1426 1436	Phòng PC45
+T11	Arrest-jail 1437 1444	bắt_giữ
+E3	Arrest-jail:T11 Agent-Arg:T10 Person-Arg:T12 Time-Arg:T9
+T12	PER 1445 1467	đối_tượng La_Văn_Thắng
+T13	TIME 912 921	Cùng ngày
+T14	PER 1619 1631	Phan_Thế_Anh
+T15	PER 1634 1645	Đỗ_Văn_Ngọc
+T16	Transport 1646 1653	bỏ trốn
+E4	Transport:T16 Agent-Arg:T15 Agent-Arg2:T14
+T19	Arrest-jail 1772 1775	bắt
+E5	Arrest-jail:T19 Agent-Arg:T17 Agent-Arg2:T18 Person-Arg:T20 Person-Arg2:T21
+T20	PER 1781 1788	Thế_Anh
+T21	PER 1791 1799	Văn_Ngọc
+T17	ORG 1708 1728	Công_an tỉnh Bắc_Kạn
+T18	ORG 1738 1759	Công_an quận Cầu_Giấy
+T22	TIME 226 235	Ngày 30/5

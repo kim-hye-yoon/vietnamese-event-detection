@@ -1,0 +1,27 @@
+T1	Pardon 9 14	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3
+T2	PER 0 5	Putin
+T3	PER 19 43	người từng giàu nhất Nga
+T4	Pardon 1520 1525	ân_xá
+E2	Pardon:T4 Defendant-Arg:T7 Time-Arg:T6 Adjudicator-Arg:T5
+T5	ORG 1483 1494	Hạ_viện Nga
+T6	TIME 1495 1504	hôm 18/12
+T7	PER 1538 1552	20.000 tù_nhân
+T8	Pardon 1836 1841	ân_xá
+E3	Pardon:T8 Defendant-Arg:T10 Adjudicator-Arg:T9
+T9	PER 1645 1654	Ông Putin
+T10	PER 1664 1753	hai thành_viên của ban nhạc phản_đối chính_phủ Pussy_Riot và các nhà hoạt_động Greenpeace
+T11	Phone-write 511 515	viết
+E4	Phone-write:T11 Entity-Arg:T13
+T12	PER 546 549	tôi
+T13	PER 501 507	anh ta
+T14	Pardon 550 556	xá tội
+E5	Pardon:T14 Defendant-Arg:T13 Adjudicator-Arg:T12
+T15	Pardon 796 801	ân_xá
+E6	Pardon:T15 Defendant-Arg:T16
+T16	PER 806 812	anh ta
+T17	Convict 1262 1273	bị buộc_tội
+E7	Convict:T17 Defendant-Arg:T20 Crime-Arg:T18 Time-Arg:T19
+T18	CRIME 1274 1305	lừa_đảo , trốn_thuế và rửa tiền
+T19	TIME 1306 1314	năm 2010
+T20	PER 1207 1259	Khodorkovsky , 50 tuổi , và đồng_phạm Platon_Lebedev

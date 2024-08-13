@@ -1,0 +1,12 @@
+T1	Divorce 17 23	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 11	Nam 38 tuổi
+T3	PER 295 298	Anh
+T4	Be-born 299 303	sinh
+E2	Be-born:T4 Person-Arg:T3 Time-Arg:T5
+T5	TIME 304 312	năm 1981
+T6	Meet 1204 1208	gặp 
+E3	Meet:T6 Entity-Arg:T7
+T7	PER 1213 1215	em
+T8	Phone-write 1235 1238	gọi
+E4	Phone-write:T8 

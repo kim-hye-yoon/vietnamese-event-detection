@@ -1,0 +1,67 @@
+T1	Transport 186 192	trở_về
+E1	Transport:T1 Time-Arg:T3 Artifact-Arg:T2
+T2	PER 165 176	Siti_Aisyah
+T3	TIME 177 185	hôm 11/3
+T4	TIME 264 271	hai năm
+T5	Arrest-jail 272 283	bị giam_giữ
+E2	Arrest-jail:T5 Time-Arg:T4 Person-Arg:T2
+T6	Attack 400 404	giết
+E3	Attack:T6 
+T7	Release-parole 414 425	phóng thích
+E4	Release-parole:T7 Person-Arg:T9 Person-Arg2:T8
+T8	PER 309 311	cô
+T9	PER 325 382	thẩm phán Toà án Tối_cao Shah_Alam ở ngoại_ô Kuala_Lumpur
+T10	Transport 543 546	đến
+E5	Transport:T10 Destination-Arg:T13 Origin-Arg:T12
+T11	PER 521 527	cha_mẹ
+T12	GPE 531 542	tỉnh Banten
+T13	GPE 547 561	thủ_đô Jakarta
+T14	Transport 577 583	trở_về
+E6	Transport:T14 Artifact-Arg:T17 Agent-Arg:T11
+T15	ORG 493 516	Bộ Ngoại_giao Indonesia
+T16	Transport 517 520	đưa
+E7	Transport:T16 Artifact-Arg:T11 Agent-Arg:T15 Origin-Arg:T12 Destination-Arg:T13
+T17	PER 569 576	con_gái
+T18	Release-parole 654 662	được thả
+E8	Release-parole:T18 Person-Arg:T19
+T19	PER 646 653	con_gái
+T20	Release-parole 784 795	phóng_thích
+E9	Release-parole:T20 Entity-Arg:T22 Person-Arg:T21
+T21	PER 796 807	con_gái tôi
+T22	ORG 756 775	chính_phủ Indonesia
+T23	PER 975 982	con_gái
+T24	Release-parole 983 993	được tự_do
+E10	Release-parole:T24 Person-Arg:T23
+T25	PER 1324 1367	Siti và nghi_phạm người Việt_Đoàn_Thị_Hương
+T26	GPE 1371 1379	Malaysia
+T27	Arrest-jail 1380 1387	bắt_giữ
+E11	Arrest-jail:T27 Time-Arg:T28 Agent-Arg:T26 Person-Arg:T25
+T28	TIME 1392 1404	tháng 2/2017
+T29	Attack 1418 1425	sát_hại
+E12	Attack:T29 Target-Arg:T30 Attacker-Arg:T25
+T30	PER 1426 1445	công_dân Triều_Tiên
+T32	PER 1655 1663	nạn_nhân
+T31	Die 1678 1685	tử_vong
+E13	Die:T31 Victim-Arg:T32 Place-Arg:T33 Agent-Arg:T34
+T33	FAC 1702 1722	sân_bay Kuala_Lumpur
+T34	PER 1588 1601	Hai nghi_phạm
+T35	Trial-hearing 1741 1747	xét_xử
+E14	Trial-hearing:T35 Time-Arg:T36 Defendant-Arg:T37
+T36	TIME 1756 1767	hai năm qua
+T37	PER 1773 1786	Siti và Hương
+T38	PER 1893 1897	Siti
+T39	Release-parole 1898 1914	được phóng_thích
+E15	Release-parole:T39 Person-Arg:T38
+T40	Release-parole 2346 2354	được thả
+E16	Release-parole:T40 Person-Arg:T41
+T41	PER 2341 2345	Siti
+T42	Release-parole 2453 2459	xét_xử
+E17	Release-parole:T42 Person-Arg:T43 Time-Arg:T44
+T43	PER 2460 2480	nghi phạm người Việt
+T44	TIME 2498 2507	ngày 14/3
+T45	Charge-indict 2565 2572	truy_tố
+E18	Charge-indict:T45 Defendant-Arg:T46
+T46	PER 2573 2578	Hương
+T47	Attack 2592 2596	giết
+E19	Attack:T47 Attacker-Arg:T46 Target-Arg:T48
+T48	PER 2597 2602	người

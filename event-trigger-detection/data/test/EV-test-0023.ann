@@ -1,0 +1,57 @@
+T2	GPE 0 3	Nga
+T3	PER 18 56	người_mẫu tự nhận_biết bí_mật về Trump
+T4	Transport 103 106	tới
+E2	Transport:T4 Artifact-Arg:T5 Destination-Arg:T6 Time-Arg:T7
+T5	PER 80 102	người_mẫu Nastya_Rybka
+T6	GPE 121 127	Moskva
+T7	TIME 128 136	hôm 22/1
+T8	GPE 182 185	Nga
+T10	PER 219 271	người_mẫu Belarus_Nastya_Rybka và Alexander_Kirillov
+T11	FAC 364 384	sân_bay Sheremetyevo
+T12	Arrest-jail 353 359	bị bắt
+E4	Arrest-jail:T12 Person-Arg:T14 Place-Arg:T11 Time-Arg:T13
+T13	TIME 385 393	hôm 18/1
+T14	PER 330 352	họ cùng hai người khác
+T17	PER 421 438	Rybka và Kirillov
+T16	Trial-hearing 541 547	xét_xử
+E6	Trial-hearing:T16 Time-Arg:T19 Adjudicator-Arg:T18 Defendant-Arg:T20 Crime-Arg:T21
+T18	GPE 523 531	Thái_Lan
+T19	TIME 532 540	hôm 15/1
+T20	PER 548 562	nhóm người này
+T21	CRIME 567 635	nhiều tội_danh , bao_gồm dụ_dỗ quan_hệ tình_dục và hoạt_động mại_dâm
+T22	Transport 653 662	trục_xuất
+E7	Transport:T22 Agent-Arg:T18 Artifact-Arg:T20
+T23	Arrest-jail 668 674	bị bắt
+E8	Arrest-jail:T23 Person-Arg:T24 Place-Arg:T25
+T24	PER 665 667	Họ
+T25	GPE 679 682	Nga
+T27	PER 859 875	công_dân Belarus
+T29	PER 1107 1112	Rybka
+T30	Meet 1078 1086	đàm_phán
+E11	Meet:T30 Entity-Arg:T32 Entity-Arg2:T31
+T31	GPE 1091 1094	Nga
+T32	PER 1056 1077	Bộ Ngoại_giao Belarus
+T33	PER 1153 1170	Rybka và Kirillov
+T34	ORG 1213 1230	cảnh_sát Thái_Lan
+T35	Arrest-jail 1231 1234	bắt
+E12	Arrest-jail:T35 Agent-Arg:T34 Person-Arg:T33 Time-Arg:T36
+T36	TIME 1239 1251	tháng 2/2018
+T37	Sue 1706 1710	kiện
+E13	Sue:T37 Plaintiff-Arg:T39 Defendant-Arg:T38
+T38	PER 1714 1731	Rybka và Kirillov
+T39	PER 1660 1669	Deripaska
+T40	Transfer-money 1755 1765	bồi_thường
+E14	Transfer-money:T40 Money-Arg:T42 Recipient-Arg:T41 Giver-Arg:T43
+T41	PER 1770 1776	tỷ_phú
+T42	MONEY 1777 1786	8.000 USD
+T43	PER 1740 1749	mỗi người
+T1	Release-parole 4 13	trả tự_do
+E1	Release-parole:T1 Entity-Arg:T2 Person-Arg:T3
+T9	Release-parole 205 214	trả tự_do
+E3	Release-parole:T9 Person-Arg:T10
+T15	Release-parole 439 447	được thả
+E5	Release-parole:T15 Person-Arg:T17
+T26	Release-parole 847 858	phóng_thích
+E9	Release-parole:T26 Person-Arg:T27
+T28	Release-parole 1103 1106	thả
+E10	Release-parole:T28 Person-Arg:T29

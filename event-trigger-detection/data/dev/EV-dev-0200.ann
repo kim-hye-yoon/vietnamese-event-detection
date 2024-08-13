@@ -1,0 +1,8 @@
+T1	PER 167 169	Họ
+T2	Marry 185 193	đám_cưới
+E1	Marry:T2 Person-Arg:T1 Time-Arg:T3
+T3	TIME 194 208	trong tháng 10
+T4	Transport 1806 1809	đưa
+E2	Transport:T4 Artifact-Arg:T5 Destination-Arg:T6
+T5	PER 1810 1813	tôi
+T6	LOC 1818 1830	phòng bảo_vệ

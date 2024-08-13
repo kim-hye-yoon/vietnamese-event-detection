@@ -1,0 +1,14 @@
+T1	Pardon 18 23	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T3 Defendant-Arg:T2
+T2	PER 28 42	Edward_Snowden
+T3	ORG 0 9	Nhà_Trắng
+T4	Trial-hearing 242 248	xét_xử
+E2	Trial-hearing:T4 Adjudicator-Arg:T7 Defendant-Arg:T5 Place-Arg:T6
+T5	PER 189 195	Anh ta
+T6	GPE 217 219	Mỹ
+T7	PER 228 241	bồi_thẩm đoàn
+T11	Transport 214 216	về
+E5	Transport:T11 Artifact-Arg:T5 Destination-Arg:T6
+T12	FAC 208 211	nhà
+T10	Transport 205 207	về
+E4	Transport:T10 Destination-Arg:T12 Artifact-Arg:T5

@@ -1,0 +1,24 @@
+T1	GPE 0 6	Israel
+T2	Attack 29 36	phá_huỷ
+E1	Attack:T2 Target-Arg:T3 Attacker-Arg:T1
+T3	FAC 37 57	cơ_sở hạt_nhân Syria
+T5	TIME 107 140	Trong hai đêm 5/9 và 6/9 năm 2007
+T6	ORG 143 160	không_quân Israel
+T7	Attack 161 168	phá_huỷ
+E2	Attack:T7 Attacker-Arg:T6 Target-Arg:T8 Place-Arg:T9 Place-Arg2:T10 Time-Arg:T5
+T8	FAC 169 227	một cơ_sở hạt_nhân đang trong giai_đoạn xây_dựng cuối_cùng
+T9	GPE 230 248	tỉnh Deir ez - Zor
+T10	LOC 251 311	cách thủ_đô Damascus của Syria khoảng 450 km về phía tây bắc
+T11	Attack 979 986	phá_huỷ
+E3	Attack:T11 Target-Arg:T12
+T12	FAC 992 1006	cơ_sở hạt_nhân
+T13	VEH 1629 1638	tiêm_kích
+T15	FAC 1647 1670	một mục_tiêu quan_trọng
+T16	GPE 1694 1699	Syria
+T18	Transport 1624 1628	điều
+E5	Transport:T18 Artifact-Arg:T13 Agent-Arg:T19
+T19	GPE 1544 1552	Tel_Aviv
+T14	Attack 1639 1646	ném bom
+E4	Attack:T14 Instrument-Arg:T13 Target-Arg:T15 Place-Arg:T16
+T4	Attack 21 28	ném bom
+E6	Attack:T4 Attacker-Arg:T1 Target-Arg:T3

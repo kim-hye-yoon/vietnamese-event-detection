@@ -1,0 +1,32 @@
+T1	End-position 43 52	cách_chức
+E1	End-position:T1 Entity-Arg:T2 Person-Arg:T3
+T2	GPE 30 39	Hải_Phòng
+T3	PER 0 27	Hiệu_trưởng trường tiểu_học
+T4	TIME 55 66	Chiều 28/11
+T5	ORG 69 88	UBND huyện An_Dương
+T6	End-position 103 112	cách_chức
+E2	End-position:T6 Entity-Arg:T5 Time-Arg:T4 Person-Arg:T7 Position-Arg:T8
+T7	PER 113 131	bà Lê_Thị_Thu_Thuỷ
+T8	JOB 134 172	Hiệu_trưởng Trường tiểu_học Đặng_Cương
+T9	Start-position 175 186	điều_chuyển
+E3	Start-position:T9 Entity-Arg:T10 Person-Arg:T7
+T10	ORG 190 221	Phòng Giáo_dục và Đào_tạo huyện
+T11	Meet 484 492	cuộc họp
+E4	Meet:T11 Entity-Arg:T14
+T12	PER 531 533	bà
+T13	End-position 568 577	nghỉ_việc
+E5	End-position:T13 Entity-Arg:T14 Person-Arg:T12
+T14	ORG 549 563	lãnh_đạo huyện
+T15	Attack 1148 1157	hành_hung
+E6	Attack:T15 Attacker-Arg:T17 Target-Arg:T18 Time-Arg:T19
+T16	Injure 1168 1177	nhập_viện
+E7	Injure:T16 Victim-Arg:T18 Victim-Arg2:T17
+T17	PER 1125 1134	phụ_huynh
+T18	PER 1074 1113	cô_giáo Phạm_Thị_Hải , chủ_nhiệm lớp 2C
+T19	TIME 1063 1071	gày 28/9
+T20	Charge-indict 1232 1239	khởi_tố
+E8	Charge-indict:T20 Time-Arg:T22 Prosecutor-Arg:T21
+T21	ORG 1193 1215	Công_an huyện An_Dương
+T22	TIME 1180 1190	Ngày 17/11
+T23	Injure 1310 1321	thương_tích
+E9	Injure:T23 

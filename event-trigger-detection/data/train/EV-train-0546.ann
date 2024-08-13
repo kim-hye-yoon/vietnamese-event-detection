@@ -1,0 +1,15 @@
+T1	End-position 41 50	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 28 37	Bí_thư xã
+T3	End-position 269 273	cách
+E2	End-position:T3 Person-Arg:T5 Position-Arg:T4
+T4	JOB 274 296	các chức_vụ trong Đảng
+T5	PER 176 194	ông Huỳnh_Minh_Gọn
+T6	Meet 93 96	họp
+E3	Meet:T6 Entity-Arg:T7
+T7	ORG 53 88	Đảng_bộ huyện Đông_Hải ( Bạc_Liêu )
+T8	ORG 123 155	Uỷ_ban Kiểm_tra Tỉnh_uỷ Bạc_Liêu
+T9	Charge-indict 374 380	tố_cáo
+E4	Charge-indict:T9 Defendant-Arg:T10 Prosecutor-Arg:T11
+T10	PER 381 388	ông Gọn
+T11	PER 343 373	nguyên cán_bộ thuế xã An_Trạch

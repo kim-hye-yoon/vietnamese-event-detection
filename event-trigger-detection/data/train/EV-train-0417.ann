@@ -1,0 +1,43 @@
+T1	Divorce 16 22	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 7	Bà Thảo
+T3	Divorce 89 95	ly_hôn
+E2	Divorce:T3 Person-Arg:T4
+T4	PER 100 132	vợ_chồng chủ cà_phê Trung_Nguyên
+T5	Divorce 335 341	ly_hôn
+E3	Divorce:T5 Person-Arg:T6
+T6	PER 319 326	bà Thảo
+T8	PER 371 378	bà Thảo
+T9	PER 382 388	ông Vũ
+T11	PER 458 465	Bà Thảo
+T12	PER 476 482	ông Vũ
+T13	Divorce 731 737	ly_hôn
+E6	Divorce:T13 Person-Arg:T14
+T14	PER 720 722	bà
+T15	Sue 1734 1738	kiện
+E7	Sue:T15 
+T16	Divorce 3742 3748	ly_hôn
+E8	Divorce:T16 Person-Arg:T17
+T17	PER 3700 3706	ông Vũ
+T18	Divorce 4301 4307	ly_hôn
+E9	Divorce:T18 Person-Arg:T19
+T19	PER 4310 4317	bà Thảo
+T20	Transfer-money 4777 4780	đưa
+E10	Transfer-money:T20 Giver-Arg:T22 Recipient-Arg:T21
+T21	PER 4785 4787	Vũ
+T22	PER 4702 4713	vợ_chồng bà
+T23	Transfer-ownership 4719 4722	bán
+E11	Transfer-ownership:T23 Seller-Arg:T22
+T24	Divorce 5095 5101	ly_hôn
+E12	Divorce:T24 Person-Arg:T27 Person-Arg2:T28
+T25	Sue 5090 5094	kiện
+E13	Sue:T25 Adjudicator-Arg:T26 Plaintiff-Arg:T27 Defendant-Arg:T28
+T26	ORG 5110 5121	TAND TP HCM
+T27	PER 5124 5131	bà Thảo
+T28	PER 5174 5180	ông Vũ
+T29	Marry 5283 5291	hôn_nhân
+E14	Marry:T29 
+T7	Transfer-ownership 821 825	giao
+E4	Transfer-ownership:T7 Seller-Arg:T14 Buyer-Arg:T10 Artifact-Arg:T30
+T10	PER 851 857	ông Vũ
+T30	ORG 834 846	doanh_nghiệp

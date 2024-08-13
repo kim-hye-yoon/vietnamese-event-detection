@@ -1,0 +1,26 @@
+T1	Die 19 27	tự_thiêu
+E1	Die:T1 Agent-Arg:T2 Victim-Arg:T2 Place-Arg:T3
+T2	PER 0 18	Người tị_nạn Syria
+T3	FAC 34 57	văn_phòng Liên_Hợp_Quốc
+T4	Die 208 216	tự_thiêu
+E2	Die:T4 Agent-Arg:T5 Victim-Arg:T5 Place-Arg:T6
+T5	PER 185 202	Ryad_Khalaf_Zibou
+T6	FAC 229 298	khu phức_hợp của Liên_Hợp_Quốc ở thành_phố Tripoli , miền bắc Lebanon
+T7	TIME 301 309	hôm 10/1
+T8	PER 328 351	Nhân_viên Liên_Hợp_Quốc
+T9	Injure 405 409	bỏng
+E3	Injure:T9 Victim-Arg:T10
+T10	PER 396 401	Zibou
+T11	Injure 548 552	bỏng
+E4	Injure:T11 Victim-Arg:T12
+T12	PER 539 544	Zibou
+T13	Transport 1206 1212	sơ_tán
+E5	Transport:T13 Destination-Arg:T14 Artifact-Arg:T15
+T14	GPE 1218 1225	Lebanon
+T15	PER 1172 1197	gần một triệu người Syria
+T16	Transport 683 686	đến
+E6	Transport:T16 Origin-Arg:T17 Artifact-Arg:T18
+T17	GPE 690 714	thành_phố Aleppo , Syria
+T18	PER 671 682	gia_đình họ
+T19	Injure 360 366	sơ_cứu
+E7	Injure:T19 Victim-Arg:T8

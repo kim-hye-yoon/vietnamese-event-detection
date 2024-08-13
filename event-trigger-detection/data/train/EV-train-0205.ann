@@ -1,0 +1,4 @@
+T1	Start-position 197 205	rẽ ngang
+E1	Start-position:T1 Person-Arg:T2 Time-Arg:T3
+T2	PER 141 164	doanh_nhân Vũ_Thị_Hương
+T3	TIME 237 245	năm 2009

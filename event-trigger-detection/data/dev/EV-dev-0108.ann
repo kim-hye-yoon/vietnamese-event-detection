@@ -1,0 +1,16 @@
+T1	Attack 11 19	tấn_công
+E1	Attack:T1 Place-Arg:T3 Instrument-Arg:T2
+T2	VEH 0 10	Trực_thăng
+T3	GPE 20 23	Nga
+T4	Die 181 191	thiệt_mạng
+E2	Die:T4 Victim-Arg:T5 Time-Arg:T6 Time-Arg2:T8
+T5	PER 164 176	hai phi_công
+T6	TIME 152 161	ngày 12/4
+T7	VEH 73 96	Một trực_thăng Mi -28 N
+T8	TIME 132 151	1h29 ( giờ Moscow )
+T9	Die 1015 1025	thiệt_mạng
+E3	Die:T9 Victim-Arg:T10
+T10	PER 992 1014	Một trong hai phi_công
+T11	Die 1143 1153	thiệt_mạng
+E4	Die:T11 Victim-Arg:T12
+T12	PER 1133 1142	cơ_trưởng

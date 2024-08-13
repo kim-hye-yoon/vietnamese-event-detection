@@ -1,0 +1,43 @@
+T1	Phone-write 122 126	điện
+E1	Phone-write:T1 Entity-Arg:T2 Entity-Arg2:T34
+T2	PER 92 118	một đối_tượng Việt_kiều Mỹ
+T3	Sentence 8566 8576	tuyên_phạt
+E2	Sentence:T3 Defendant-Arg:T4 Adjudicator-Arg:T13 Sentence-Arg:T5 Defendant-Arg2:T6 Sentence-Arg2:T7 Defendant-Arg3:T8 Sentence-Arg3:T9 Sentence-Arg4:T10 Crime-Arg:T12
+T4	PER 8579 8612	Huỳnh_Thái_S. ( S . “ bịch mũ ” )
+T5	SEN 8613 8624	24 tháng tù
+T6	PER 8627 8642	Đoàn_Ngọc_Phăng
+T7	SEN 8643 8654	18 tháng tù
+T8	PER 8657 8670	Đặng_Văn_Lành
+T9	SEN 8671 8682	15 tháng tù
+T10	SEN 8685 8696	Đoàn_Văn_Tứ
+T11	SEN 8697 8708	12 tháng tù
+T12	CRIME 8740 8770	xâm_phạm thi_thể mồ_mả hài_cốt
+T13	ORG 8550 8565	Hội_đồng xét_xử
+T14	Fine 8785 8795	bồi_thường
+E3	Fine:T14 Money-Arg:T16
+T16	MONEY 8818 8835	hơn 12 triệu đồng
+T15	Trial-hearing 8428 8434	xét_xử
+E4	Trial-hearing:T15 Prosecutor-Arg:T18 Crime-Arg:T17 Time-Arg:T19
+T17	CRIME 8449 8462	trộm sọ người
+T18	ORG 8397 8424	TAND H. Bến_Lức ( Long_An )
+T19	TIME 8380 8394	Ngày 28/3/2006
+T20	Trial-hearing 8287 8293	xét_xử
+E5	Trial-hearing:T20 Defendant-Arg:T22 Crime-Arg:T21
+T21	CRIME 8303 8319	xâm_phạm xác_chế
+T22	PER 8224 8269	Đối_tượng Đoàn_Ngọc_Dưỡng và những tên phu mộ
+T24	Transport 7098 7104	đi làm
+E6	Transport:T24 Artifact-Arg:T23
+T23	PER 7058 7081	Trần_Văn_Cu ( 41 tuổi )
+T25	Transport 6339 6340	ế
+E7	Transport:T25 Destination-Arg:T27 Artifact-Arg:T26
+T26	PER 6323 6325	Tứ
+T27	FAC 6342 6354	nhà ông Rạng
+T28	Meet 5112 5115	gặp
+E8	Meet:T28 Entity-Arg:T31 Entity-Arg2:T29 Place-Arg:T30
+T29	PER 5116 5130	S. “ bịch mũ ”
+T30	LOC 5092 5099	Bến_Lức
+T31	PER 5102 5107	Phăng
+T32	Phone-write 4905 4909	điện
+E9	Phone-write:T32 Entity-Arg:T33
+T33	PER 4899 4901	Gã
+T34	PER 143 153	người_thân

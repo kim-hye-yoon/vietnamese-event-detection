@@ -1,0 +1,41 @@
+T1	Start-org 33 40	lập mới
+E1	Start-org:T1 Time-Arg:T3 Org-Arg:T2
+T2	ORG 12 32	hơn 300 doanh_nghiệp
+T3	TIME 0 8	Mỗi ngày
+T4	Start-org 157 166	thành_lập
+E2	Start-org:T4 Org-Arg:T5 Time-Arg:T6
+T5	ORG 129 148	10.079 doanh_nghiệp
+T6	TIME 177 189	tháng 1/2019
+T7	Start-org 267 276	thành_lập
+E3	Start-org:T7 Org-Arg:T8 Time-Arg:T9
+T8	ORG 245 261	325 doanh_nghiệp
+T9	TIME 233 241	mỗi ngày
+T10	Start-org 361 368	lập mới
+E4	Start-org:T10 Org-Arg:T11
+T11	ORG 348 360	doanh_nghiệp
+T12	Start-org 722 731	thành_lập
+E5	Start-org:T12 Org-Arg:T13
+T13	ORG 701 713	doanh_nghiệp
+T14	Start-org 849 858	thành_lập
+E6	Start-org:T14 Org-Arg:T15 Time-Arg:T16
+T15	ORG 828 840	doanh_nghiệp
+T16	TIME 874 892	tháng đầu năm 2019
+T17	End-org 1050 1054	chết
+E7	End-org:T17 Org-Arg:T18
+T18	ORG 1035 1047	doanh_nghiệp
+T19	End-org 1177 1193	ngừng kinh_doanh
+E8	End-org:T19 Org-Arg:T20 Time-Arg:T21
+T20	ORG 1149 1172	hơn 10.800 doanh_nghiệp
+T21	TIME 1130 1139	tháng này
+T22	End-org 1296 1304	giải_thể
+E9	End-org:T22 Org-Arg:T23
+T23	ORG 1256 1279	gần 12.300 doanh_nghiệp
+T24	End-org 1490 1509	không còn hoạt_động
+E10	End-org:T24 Org-Arg:T25
+T25	ORG 1435 1447	doanh_nghiệp
+T26	Start-org 1451 1460	thành_lập
+E11	Start-org:T26 Org-Arg:T25 Time-Arg:T27
+T27	TIME 1461 1470	trước_đây
+T28	End-org 1548 1556	giải_thể
+E12	End-org:T28 Org-Arg:T29
+T29	ORG 1557 1573	hơn 1.800 đơn_vị

@@ -1,0 +1,44 @@
+T1	Declare-bankruptcy 22 29	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	VEH 4 7	tàu
+T3	Transport 410 413	đến
+E2	Transport:T3 Time-Arg:T5 Artifact-Arg:T4 Destination-Arg:T7
+T4	PER 278 402	ông Phạm_Viết_Thuật , Phó giám_đốc công_ty TNHH Hải_Đông ( trụ_sở đóng tại phường Đông_Khê , quận Ngô_Quyền , TP Hải_Phòng )
+T5	TIME 265 275	chiều 27/1
+T6	GPE 353 400	phường Đông_Khê , quận Ngô_Quyền , TP Hải_Phòng
+T7	FAC 414 428	đồn biên_phòng
+T8	Declare-bankruptcy 1023 1030	phá_sản
+E3	Declare-bankruptcy:T8 Org-Arg:T9
+T9	ORG 977 984	công_ty
+T10	Transport 1852 1855	chở
+E4	Transport:T10 Vehicle-Arg:T12 Origin-Arg:T13 Destination-Arg:T14 Time-Arg:T11
+T11	TIME 1802 1817	ngày 27/12/2012
+T12	VEH 1820 1835	tàu Hai_Dong 27
+T13	GPE 1880 1889	Indonesia
+T14	GPE 1897 1905	Việt_Nam
+T15	Transport 1996 1999	rời
+E5	Transport:T15 Vehicle-Arg:T16 Time-Arg:T17 Origin-Arg:T18 Destination-Arg:T19
+T16	VEH 1992 1995	tàu
+T17	TIME 1982 1991	ngày 15/1
+T18	GPE 2000 2008	Vũng_Tàu
+T19	GPE 2012 2021	Hải_Phòng
+T20	Transport 2298 2304	đưa về
+E6	Transport:T20 Vehicle-Arg:T24 Destination-Arg:T25 Artifact-Arg:T21
+T21	PER 2135 2146	13 thuỷ_thủ
+T22	VEH 2157 2172	tàu Hai_Dong 27
+T23	PER 2183 2235	Thuyền_trưởng Bùi_Duy_Trực ( 54 tuổi , quê Nghệ_An )
+T24	VEH 2276 2290	tàu Phú_Sơn 26
+T25	GPE 2305 2314	Hải_Phòng
+T26	Transport 2505 2515	vận_chuyển
+E7	Transport:T26 Vehicle-Arg:T27
+T27	VEH 2364 2367	tàu
+T28	PER 2342 2351	ông Thuật
+T29	GPE 2401 2411	Quảng_Bình
+T30	VEH 2464 2471	con tàu
+T31	Transfer-money 2947 2950	trả
+E8	Transfer-money:T31 Money-Arg:T33 Recipient-Arg:T32
+T32	PER 2955 2962	ngư_dân
+T33	MONEY 2979 2986	tỷ đồng
+T34	Declare-bankruptcy 3138 3145	phá_sản
+E9	Declare-bankruptcy:T34 Org-Arg:T35
+T35	ORG 3121 3128	công_ty

@@ -1,0 +1,48 @@
+T1	Attack 34 38	chém
+E1	Attack:T1 Target-Arg:T3 Attacker-Arg:T2 Instrument-Arg:T13
+T2	PER 0 13	Người đàn_ông
+T3	PER 39 56	trưởng công_an xã
+T4	Attack 513 517	chém
+E2	Attack:T4 Attacker-Arg:T6 Target-Arg:T5 Instrument-Arg:T14
+T5	PER 421 461	Ông Nguyễn_Phụng_Huy – Trưởng Công_an xã
+T6	PER 500 504	Tiến
+T7	Attack 614 618	chém
+E3	Attack:T7 Target-Arg:T9 Attacker-Arg:T8
+T8	PER 601 605	Tiến
+T9	PER 632 639	ông Huy
+T10	Attack 702 706	chém
+E4	Attack:T10 Attacker-Arg:T12 Target-Arg:T11
+T11	PER 643 670	phó công_an xã Vũ_Đồng_Hiệu
+T12	PER 697 701	Tiến
+T13	WEA 19 22	dao
+T14	WEA 509 512	dao
+T15	Transport 558 562	chạy
+E5	Transport:T15 Artifact-Arg:T16
+T16	PER 536 543	ông Huy
+T17	Charge-indict 164 171	khởi_tố
+E6	Charge-indict:T17 Defendant-Arg:T19 Prosecutor-Arg:T21 Time-Arg:T20 Crime-Arg:T22
+T18	Arrest-jail 174 186	bắt tạm giam
+E7	Arrest-jail:T18 Person-Arg:T19 Agent-Arg:T21 Crime-Arg:T22
+T19	PER 187 246	Đỗ_Đình_Tiến ( 48 tuổi ) trú tại xã Minh_Đức , huyện Mỹ_Hào
+T20	TIME 103 112	Ngày 14/3
+T21	ORG 115 149	cơ_quan CSĐT Công_an tỉnh Hưng_Yên
+T22	CRIME 262 290	hành_vi Cố_ý gây thương_tích
+T23	Transport 370 376	đi vào
+E8	Transport:T23 Artifact-Arg:T25 Time-Arg:T26
+T24	ORG 377 388	Ban công_an
+T25	PER 339 343	Tiến
+T26	TIME 318 336	lúc 8h30 ngày 13/3
+T27	Arrest-jail 779 786	bắt_giữ
+E9	Arrest-jail:T27 Agent-Arg:T31 Person-Arg:T28
+T28	PER 731 735	Tiến
+T29	Transport 739 746	chạy về
+E10	Transport:T29 Destination-Arg:T30 Artifact-Arg:T28
+T30	FAC 747 750	nhà
+T31	ORG 758 778	công_an huyện Mỹ_Hào
+T32	Transport 909 915	chuyển
+E11	Transport:T32 Artifact-Arg:T35 Destination-Arg:T33
+T33	GPE 920 945	bệnh_viện Việt_Đức Hà_Nội
+T34	Transport 832 834	đi
+E12	Transport:T34 Artifact-Arg:T35 Destination-Arg:T36
+T35	PER 789 822	Trưởng và phó công_an xã Minh_Đức
+T36	GPE 847 880	bệnh_viện Đa_khoa khu_vực Phố_Nối

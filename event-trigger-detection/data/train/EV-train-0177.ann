@@ -1,0 +1,21 @@
+T1	Merge-org 0 8	Sáp_nhập
+E1	Merge-org:T1 Org-Arg:T2 Org-Arg2:T3
+T2	ORG 9 12	VVF
+T3	ORG 15 18	SHB
+T4	Start-org 19 21	mở
+E2	Start-org:T4 Agent-Arg:T3 Org-Arg:T5
+T5	ORG 22 39	công_ty tài_chính
+T6	ORG 55 87	Ngân_hàng Sài_Gòn Hà_Nội ( SHB )
+T7	Merge-org 111 119	sáp_nhập
+E3	Merge-org:T7 Org-Arg:T6 Org-Arg2:T8
+T8	ORG 120 163	Công_ty Tài_chính Vinaconex_Viettel ( VVF )
+T9	ORG 907 910	VVF
+T10	Transfer-ownership 918 921	mua
+E4	Transfer-ownership:T10 Buyer-Arg:T9
+T11	ORG 1011 1014	VVF
+T12	Transfer-ownership 1015 1018	mua
+E5	Transfer-ownership:T12 Buyer-Arg:T11
+T13	ORG 1568 1571	SHB
+T14	Start-org 1576 1579	lập
+E6	Start-org:T14 Agent-Arg:T13 Org-Arg:T15
+T15	ORG 1580 1611	Công_ty Tài_chính Tiêu_dùng SHB

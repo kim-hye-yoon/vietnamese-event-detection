@@ -1,0 +1,38 @@
+T1	PER 31 36	vệ_sĩ
+T2	Attack 37 41	đánh
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 42 57	người biểu_tình
+T4	PER 287 313	một vệ_sĩ thân_cận của ông
+T5	Attack 314 323	hành_hung
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6 Place-Arg:T7 Time-Arg:T8
+T6	PER 324 339	người biểu_tình
+T7	GPE 359 373	ở thủ_đô Paris
+T8	TIME 374 381	hôm 1/5
+T9	PER 734 779	Benalla , vệ_sĩ cấp cao của Tổng_thống Macron
+T10	Attack 716 720	đánh
+E3	Attack:T10 Target-Arg:T11 Attacker-Arg:T9
+T11	PER 721 731	dân_thường
+T12	PER 1714 1721	Benalla
+T13	Arrest-jail 1725 1735	bị bắt_giữ
+E4	Arrest-jail:T13 Crime-Arg:T14 Person-Arg:T12
+T14	CRIME 1768 1817	hành_hung người khác và mạo danh sĩ_quan cảnh_sát
+T15	PER 2125 2132	Benalla
+T16	Attack 2133 2137	đánh
+E5	Attack:T16 Attacker-Arg:T15 Target-Arg:T17 Time-Arg:T18
+T17	PER 2138 2162	người tham_gia biểu_tình
+T18	TIME 2169 2190	ngày Quốc_tế Lao_động
+T19	PER 60 91	Tổng_thống Pháp Emmanuel_Macron
+T20	PER 114 146	vệ_sĩ thân_cận Alexandre_Benalla
+T21	TIME 147 159	tháng 6/2017
+T22	Meet 101 109	trao_đổi
+E6	Meet:T22 Entity-Arg:T19 Entity-Arg2:T20 Time-Arg:T21
+T23	PER 856 863	Benalla
+T24	End-position 871 878	sa_thải
+E7	End-position:T24 Person-Arg:T23
+T25	PER 936 942	anh ta
+T26	Attack 943 947	đánh
+E8	Attack:T26 Attacker-Arg:T25 Target-Arg:T27 Target-Arg2:T28
+T27	PER 948 964	một người phụ_nữ
+T28	PER 968 986	một nam thanh_niên
+T29	Demonstrate 987 996	biểu_tình
+E9	Demonstrate:T29 Entity-Arg:T28

@@ -1,0 +1,5 @@
+T1	TIME 287 299	Tháng 2/2014
+T2	ORG 302 344	cửa_hàng đồ ăn nhanh McDonald ' s đầu_tiên
+T3	Start-org 350 352	mở
+E1	Start-org:T3 Place-Arg:T4 Org-Arg:T2 Time-Arg:T1
+T4	GPE 357 365	Việt_Nam

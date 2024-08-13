@@ -1,0 +1,13 @@
+T1	End-position 18 26	mất chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 17	Trưởng công_an xã
+T3	End-position 184 193	cách_chức
+E2	End-position:T3 Time-Arg:T4 Person-Arg:T6
+T4	TIME 56 65	Ngày 21/6
+T5	PER 68 142	ông Lê_Xuân_Lộc , Chủ_nhiệm Uỷ_ban kiểm_tra Huyện_uỷ Hậu_Lộc ( Thanh_Hoá )
+T6	PER 202 251	ông Nguyễn_Văn_Quân - Trưởng công_an xã Phong_Lộc
+T7	Sue 379 386	tố_giác
+E3	Sue:T7 Plaintiff-Arg:T9 Defendant-Arg:T8 Crime-Arg:T10
+T8	PER 387 395	ông Quân
+T9	PER 339 370	anh Nguyễn ( trú xã Phong_Lộc )
+T10	CRIME 396 429	lén_lút vào nhà_nghỉ cùng vợ mình

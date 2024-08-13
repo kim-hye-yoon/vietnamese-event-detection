@@ -1,0 +1,24 @@
+T1	Die 24 28	chết
+E1	Die:T1 Victim-Arg:T2 Place-Arg:T3
+T2	PER 10 23	Người đàn_ông
+T3	FAC 46 55	phòng trọ
+T4	Die 118 125	tắt_thở
+E2	Die:T4 Victim-Arg:T5
+T5	PER 105 114	anh Thắng
+T6	Die 228 232	chết
+E3	Die:T6 Victim-Arg:T7 Place-Arg:T8
+T7	PER 214 227	người đàn_ông
+T8	FAC 186 199	Căn phòng trọ
+T9	Die 419 426	tử_vong
+E4	Die:T9 Victim-Arg:T10 Place-Arg:T13
+T10	PER 366 418	anh Hàn_Văn_Thắng ( SN 1978 , quê ở tỉnh Vĩnh_Phúc )
+T11	Die 908 915	tắt_thở
+E5	Die:T11 Victim-Arg:T12
+T12	PER 895 904	anh Thắng
+T13	FAC 431 460	1 phòng trọ trên địa_bàn quận
+T14	PER 1191 1200	anh Thắng
+T15	PER 1206 1242	3 người đàn_ông ( chưa rõ lai_lịch )
+T16	FAC 1250 1259	phòng trọ
+T17	Transport 1243 1246	chở
+E6	Transport:T17 Destination-Arg:T16 Agent-Arg:T15 Artifact-Arg:T14 Time-Arg:T18
+T18	TIME 1166 1180	sáng cùng ngày

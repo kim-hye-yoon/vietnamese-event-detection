@@ -1,0 +1,9 @@
+T1	PER 1709 1712	Anh
+T2	Start-org 1742 1744	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3 Time-Arg:T4
+T3	ORG 1745 1758	công_ty riêng
+T4	TIME 1764 1769	2 năm
+T5	PER 2113 2120	Độc_giả
+T6	Phone-write 2121 2129	gọi điện
+E2	Phone-write:T6 Entity-Arg:T7 Entity-Arg2:T5
+T7	PER 2141 2154	biên_tập_viên

@@ -1,0 +1,38 @@
+T1	Pardon 17 22	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2
+T2	PER 0 16	Tổng_thống Obama
+T3	Demonstrate 42 51	biểu_tình
+E2	Demonstrate:T3 Entity-Arg:T4
+T4	PER 36 41	Người
+T5	ORG 79 88	chính_phủ
+T6	Pardon 69 74	ân_xá
+E3	Pardon:T6 Adjudicator-Arg:T5
+T7	Demonstrate 111 120	biểu_tình
+E4	Demonstrate:T7 Entity-Arg:T8 Time-Arg:T9 Place-Arg:T10
+T8	PER 100 110	Đoàn người
+T9	TIME 121 128	hôm_qua
+T10	FAC 149 173	trụ_sở quốc_hội Thái_Lan
+T11	Demonstrate 391 400	biểu_tình
+E5	Demonstrate:T11 Entity-Arg:T14 Time-Arg:T15
+T12	Demonstrate 280 289	biểu_tình
+E6	Demonstrate:T12 Entity-Arg:T13 Entity-Arg2:T14
+T13	PER 274 279	người
+T14	ORG 293 330	Liên_minh Vì Dân_chủ Nhân_dân ( PDA )
+T15	TIME 438 446	năm 2006
+T16	Pardon 541 546	ân_xá
+E7	Pardon:T16 Adjudicator-Arg:T17 Defendant-Arg:T18
+T17	ORG 449 473	Đảng cầm_quyền Pheu_Thai
+T18	PER 551 588	các tù_nhân chính_trị trong 6 năm qua
+T19	Demonstrate 612 621	biểu_tình
+E8	Demonstrate:T19 
+T20	Sentence 1126 1132	kết_án
+E9	Sentence:T20 Adjudicator-Arg:T24 Time-Arg:T25 Defendant-Arg:T21 Sentence-Arg:T22 Crime-Arg:T23
+T21	PER 1133 1136	ông
+T22	SEN 1137 1147	hai năm tù
+T23	CRIME 1155 1165	tham_nhũng
+T24	ORG 1112 1122	một toà_án
+T25	TIME 1101 1109	Năm 2008
+T26	Transport 1183 1187	trốn
+E10	Transport:T26 Agent-Arg:T27 Destination-Arg:T28
+T27	PER 1172 1179	Thaksin
+T28	LOC 1191 1201	nước_ngoài

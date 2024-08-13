@@ -1,0 +1,24 @@
+T1	Transport 352 359	đi chơi
+E1	Transport:T1 Agent-Arg:T2 Agent-Arg2:T3
+T2	PER 277 290	sao hành_động
+T3	PER 368 375	bạn_đời
+T4	PER 1123 1125	Cô
+T5	Transport 1176 1180	sang
+E2	Transport:T5 Destination-Arg:T6 Artifact-Arg:T4
+T6	GPE 1181 1184	Anh
+T7	Marry 41 48	kết_hôn
+E3	Marry:T7 
+T8	PER 81 93	Uông_Thi_Thi
+T9	Transport 96 103	du_lịch
+E4	Transport:T9 Destination-Arg:T10 Artifact-Arg:T8
+T10	GPE 104 109	Kenya
+T11	Marry 668 675	kết_hôn
+E5	Marry:T11 
+T12	PER 562 582	Vợ_chồng Chân_Tử_Đan
+T13	Transport 583 590	du_lịch
+E6	Transport:T13 Artifact-Arg:T12 Destination-Arg:T14
+T14	GPE 591 599	Việt_Nam
+T15	PER 741 744	anh
+T16	Transport 755 757	về
+E7	Transport:T16 Artifact-Arg:T15 Destination-Arg:T17
+T17	FAC 758 761	nhà

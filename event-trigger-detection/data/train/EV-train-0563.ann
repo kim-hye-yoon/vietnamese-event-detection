@@ -1,0 +1,21 @@
+T1	Extradite 30 36	dẫn_độ
+E1	Extradite:T1 Person-Arg:T4 Agent-Arg:T3
+T2	PER 0 21	Thẩm_phán Tây_Ban_Nha
+T3	GPE 27 29	Mỹ
+T4	PER 37 69	nhóm đột_nhập sứ_quán Triều_Tiên
+T5	Extradite 416 422	dẫn dộ
+E2	Extradite:T5 Person-Arg:T7 Agent-Arg:T6 Destination-Arg:T8
+T6	GPE 413 415	Mỹ
+T7	PER 423 438	những người này
+T8	GPE 443 454	Tây_Ban_Nha
+T9	Transport 439 442	đến
+E3	Transport:T9 Destination-Arg:T8 Artifact-Arg:T7 Agent-Arg:T6
+T10	Meet 620 628	liên_lạc
+E4	Meet:T10 Entity-Arg:T13 Entity-Arg2:T11 Place-Arg:T12
+T11	ORG 633 666	Cục Điều_tra Liên_bang Mỹ ( FBI )
+T12	GPE 671 679	New_York
+T13	PER 577 612	Adrian Hong_Chang , công_dân Mexico
+T14	Extradite 1004 1010	dẫn_độ
+E5	Extradite:T14 
+T15	Attack 2236 2244	đánh_đập
+E6	Attack:T15 

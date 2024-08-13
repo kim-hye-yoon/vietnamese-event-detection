@@ -1,0 +1,33 @@
+T1	Release-parole 3 12	trả tự_do
+E1	Release-parole:T1 Person-Arg:T3 Entity-Arg:T2
+T2	ORG 0 2	IS
+T3	PER 17 35	hơn 300 người Iraq
+T4	Release-parole 78 92	được trả tự_do
+E2	Release-parole:T4 Person-Arg:T5
+T5	PER 38 64	Người già và trẻ_em Yazidi
+T6	Transport 151 154	rời
+E3	Transport:T6 Artifact-Arg:T7
+T7	PER 134 150	350 người Yazidi
+T8	Transport 180 183	đến
+E4	Transport:T8 Destination-Arg:T9 Artifact-Arg:T7
+T9	GPE 184 209	thành phố Kirkuk của Iraq
+T10	Transport 535 538	tới
+E5	Transport:T10 Artifact-Arg:T13 Agent-Arg:T12 Destination-Arg:T11
+T11	GPE 539 546	Shirqat
+T12	ORG 520 527	nhóm IS
+T13	PER 532 534	họ
+T14	Transport 569 571	đi
+E6	Transport:T14 Artifact-Arg:T16 Destination-Arg:T15
+T15	GPE 576 582	Kirkuk
+T16	PER 559 561	họ
+T17	Transport 723 726	đến
+E7	Transport:T17 Destination-Arg:T18 Artifact-Arg:T19
+T18	LOC 727 756	địa_bàn tự_trị của người Kurd
+T19	PER 700 722	Những người trốn thoát
+T20	Arrest-jail 1288 1295	bắt_giữ
+E8	Arrest-jail:T20 Person-Arg:T22 Agent-Arg:T21
+T21	ORG 1246 1269	Giới_chức Mỹ và châu_Âu
+T22	PER 1309 1410	một_số  kẻ cực_đoan được cho là có liên_hệ với IS do âm_mưu hoặc thực_hiện kế_hoạch tấn_công khủng_bố
+T23	Attack 1393 1401	tấn_công
+E9	Attack:T23 Attacker-Arg:T24
+T24	PER 1309 1328	một_số  kẻ cực_đoan

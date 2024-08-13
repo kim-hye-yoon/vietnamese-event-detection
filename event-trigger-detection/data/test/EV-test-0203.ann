@@ -1,0 +1,62 @@
+T4	ORG 75 98	hãng chia_sẻ xe_đạp Ofo
+T5	ORG 198 201	Ofo
+T6	Declare-bankruptcy 223 230	phá_sản
+E2	Declare-bankruptcy:T6 Org-Arg:T5
+T7	GPE 327 337	Thượng_Hải
+T8	GPE 340 348	Bắc_Kinh
+T13	PER 680 683	anh
+T14	End-org 701 709	giải_thể
+E4	End-org:T14 Org-Arg:T15
+T15	ORG 710 713	Ofo
+T24	PER 1027 1037	khách_hàng
+T29	GPE 1090 1098	Bắc_Kinh
+T33	ORG 1210 1213	Ofo
+T32	PER 1190 1209	12 triệu người dùng
+T50	ORG 2026 2029	Ofo
+T51	Declare-bankruptcy 2054 2061	phá_sản
+E8	Declare-bankruptcy:T51 Org-Arg:T50
+T73	ORG 3269 3273	Didi
+T74	ORG 3286 3293	Bluegoo
+T102	ORG 4829 4850	Bộ Giao_thông vận_tải
+T103	GPE 4851 4861	Trung_Quốc
+T105	ORG 4886 4889	Ofo
+T1	ORG 0 39	Hãng chia_sẻ xe_đạp hàng_đầu Trung_Quốc
+T2	Declare-bankruptcy 44 51	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	Start-org 147 154	startup
+E10	Start-org:T3 Org-Arg:T4
+T106	End-org 383 389	sụp_đổ
+E11	End-org:T106 Place-Arg:T8 Place-Arg2:T7 Org-Arg:T30
+T9	PER 615 641	Dai_Wei – nhà sáng_lập Ofo
+T10	Declare-bankruptcy 729 736	phá_sản
+E3	Declare-bankruptcy:T10 Org-Arg:T15
+T11	Transfer-money 1110 1113	trả
+E5	Transfer-money:T11 Money-Arg:T16 Recipient-Arg:T24
+T12	FAC 1065 1085	trụ_sở chính của Ofo
+T16	MONEY 1134 1169	99 đến 199 NDT ( khoảng 14-28 USD )
+T17	Transfer-money 1230 1233	trả
+E6	Transfer-money:T17 Giver-Arg:T33 Recipient-Arg:T32
+T18	Declare-bankruptcy 1984 1991	phá_sản
+E7	Declare-bankruptcy:T18 Org-Arg:T19
+T19	ORG 1965 1983	nhiều doanh_nghiệp
+T20	PER 2327 2378	Tu_Le – nhà sáng_lập hãng tư_vấn Sino_Auto_Insights
+T21	ORG 3200 3204	Didi
+T23	ORG 3212 3260	một doanh_nghiệp chia_sẻ xe_đạp khác là Bluegogo
+T22	Transfer-ownership 3208 3211	mua
+E9	Transfer-ownership:T22 Buyer-Arg:T21 Artifact-Arg:T23
+T25	Transfer-ownership 3282 3285	mua
+E12	Transfer-ownership:T25 Buyer-Arg:T73 Artifact-Arg:T74
+T26	PER 4864 4874	Wu_Chungen
+T27	Transfer-money 4914 4922	trả tiền
+E13	Transfer-money:T27 Giver-Arg:T105 Recipient-Arg:T28
+T28	PER 4927 4937	người dùng
+T30	ORG 406 417	startup này
+T31	Merge-org 2639 2647	gia_nhập
+E14	Merge-org:T31 Org-Arg:T34 Org-Arg2:T35
+T34	ORG 2629 2638	Hellobike
+T35	ORG 2652 2741	đội_ngũ của đại_gia thanh_toán điện_tử Ant_Financial ( công_ty_con của Tập_đoàn Alibaba )
+T36	Transfer-ownership 4771 4774	bán
+E15	Transfer-ownership:T36 Artifact-Arg:T37 Price-Arg:T38 Seller-Arg:T39
+T37	VEH 4742 4761	một_số chiếc xe_đạp
+T38	MONEY 4783 4788	2 USD
+T39	ORG 4635 4642	công_ty

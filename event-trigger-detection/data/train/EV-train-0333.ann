@@ -1,0 +1,53 @@
+T1	Declare-bankruptcy 37 44	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	JOB 22 32	doanh_nhân
+T3	Die 276 280	chết
+E2	Die:T3 
+T4	Die 1154 1161	tử_vong
+E3	Die:T4 Victim-Arg:T5
+T5	PER 1091 1099	nạn_nhân
+T6	Attack 1103 1111	tấn_công
+E4	Attack:T6 
+T7	Die 1196 1200	chết
+E5	Die:T7 Agent-Arg:T8
+T8	PER 1187 1195	nạn_nhân
+T9	Die 1323 1327	giết
+E6	Die:T9 
+T11	PER 1358 1365	Ông Hậu
+T10	Die 1366 1370	chết
+E7	Die:T10 Victim-Arg:T11
+T12	Phone-write 1508 1518	điện_thoại
+E8	Phone-write:T12 Entity-Arg:T13 Time-Arg:T14
+T13	PER 1500 1507	ông Hậu
+T14	TIME 1483 1497	ngày 13/4/2013
+T15	GPE 1560 1582	Chăm_Mát , TP Hoà_Bình
+T16	Phone-write 1708 1716	liên_lạc
+E9	Phone-write:T16 
+T19	PER 2108 2112	Minh
+T20	Attack 2222 2229	sát_hại
+E12	Attack:T20 Place-Arg:T22 Attacker-Arg:T21
+T21	PER 2261 2265	Minh
+T22	FAC 2165 2200	Trại tạm giam Công_an tỉnh Hoà_Bình
+T23	Attack 2351 2358	sát_hại
+E13	Attack:T23 Attacker-Arg:T25 Target-Arg:T24
+T24	PER 2359 2366	ông Hậu
+T25	PER 2316 2319	hắn
+T26	Transfer-money 2447 2450	vay
+E14	Transfer-money:T26 
+T27	PER 2439 2446	ông Hậu
+T28	Transfer-money 2531 2534	trả
+E15	Transfer-money:T28 
+T29	PER 2540 2544	Minh
+T30	Die 2561 2565	giết
+E16	Die:T30 Agent-Arg:T29 Victim-Arg:T31
+T31	PER 2566 2569	bạn
+T32	Pardon 3107 3112	ân_xá
+E17	Pardon:T32 Defendant-Arg:T34
+T34	PER 3038 3041	hắn
+T17	Sue 2116 2124	tuyên_án
+E10	Sue:T17 Defendant-Arg:T19
+T33	Die 3156 3160	chết
+E18	Die:T33 
+T35	PER 3132 3135	hắn
+T18	Die 2125 2132	tử_hình
+E11	Die:T18 Victim-Arg:T19

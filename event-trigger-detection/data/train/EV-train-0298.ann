@@ -1,0 +1,26 @@
+T1	PER 112 124	người phụ_nữ
+T2	Transport 128 136	trèo lên
+E1	Transport:T2 Artifact-Arg:T1 Destination-Arg:T3
+T3	LOC 137 159	nóc nhà trụ_sở công_an
+T4	PER 508 516	bà Thị_V
+T5	Be-born 520 522	SN
+E2	Be-born:T5 Person-Arg:T4 Time-Arg:T6
+T6	TIME 523 527	1976
+T7	PER 661 663	bà
+T8	PER 674 680	bảo_vệ
+T9	Attack 728 732	đánh
+E3	Attack:T9 Attacker-Arg:T8 Target-Arg:T7
+T10	PER 1040 1044	bà V
+T11	Transport 1046 1054	trèo lên
+E4	Transport:T11 Destination-Arg:T12 Agent-Arg:T10
+T12	LOC 1055 1077	nóc nhà trụ_sở công_an
+T13	PER 1391 1414	Công_an phường Bình_Thọ
+T14	Transport 1418 1421	đưa
+E5	Transport:T14 Agent-Arg:T13 Artifact-Arg:T15 Destination-Arg:T16
+T15	PER 1422 1428	bà này
+T16	LOC 1432 1438	trụ_sở
+T17	TIME 1586 1599	giữa năm 2013
+T18	PER 1600 1604	bà V
+T19	PER 1609 1667	một_số bảo_vệ làm_việc ở bệnh_viện đa_khoa Khu_Vực Thủ_Đức
+T20	Injure 1672 1683	thương_tích
+E6	Injure:T20 Agent-Arg:T19 Victim-Arg:T18 Time-Arg:T17

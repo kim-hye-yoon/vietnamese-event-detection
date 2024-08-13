@@ -1,0 +1,4 @@
+T1	Die 15 19	chết
+E1	Die:T1 Victim-Arg:T2 Place-Arg:T3
+T2	PER 0 14	Bé gái chăn bò
+T3	LOC 20 32	bên vệ đường

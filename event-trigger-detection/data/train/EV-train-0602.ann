@@ -1,0 +1,18 @@
+T1	Elect 40 48	được bầu
+E1	Elect:T1 Person-Arg:T3 Position-Arg:T2
+T2	JOB 53 63	Ban_bí_thư
+T3	PER 0 39	Ông Phan_Đình_Trạc và Nguyễn_Xuân_Thắng
+T4	Elect 219 222	bầu
+E2	Elect:T4 Position-Arg:T5
+T5	JOB 231 261	hai Uỷ_viên Ban_bí_thư khoá 12
+T6	Elect 637 645	được bầu
+E3	Elect:T6 Person-Arg:T8 Position-Arg:T7
+T7	JOB 650 684	Ban_bí_thư Trung_ương Đảng khoá 12
+T8	PER 588 636	Ông Nguyễn_Xuân_Thắng ( trái ) và Phan_Đình_Trạc
+T9	Elect 1232 1239	được cử
+E4	Elect:T9 Person-Arg:T10 Time-Arg:T12 Position-Arg:T11
+T10	PER 1228 1231	ông
+T11	JOB 1244 1270	Phó trưởng_ban thường_trực
+T12	TIME 1213 1225	Tháng 1/2015
+T14	PER 1732 1735	ông
+T15	JOB 1754 1860	Phó chủ_tịch , rồi Chủ_tịch Viện Khoa_học_Xã_hội Việt_Nam ( nay là Viện_Hàn_lâm Khoa_học_Xã_hội Việt_Nam )

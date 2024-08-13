@@ -1,0 +1,50 @@
+T1	Pardon 6 11	ân_xá
+E1	Pardon:T1 Place-Arg:T3 Defendant-Arg:T5
+T2	Demonstrate 22 31	biểu_tình
+E2	Demonstrate:T2 Entity-Arg:T4
+T3	GPE 0 5	Syria
+T4	PER 16 21	người
+T5	PER 16 31	người biểu_tình
+T6	Demonstrate 74 83	biểu_tình
+E3	Demonstrate:T6 Entity-Arg:T7 Place-Arg:T8
+T7	PER 88 115	những người chống chính_phủ
+T8	GPE 118 151	thành_phố Hama , miền trung Syria
+T9	Transfer-ownership 277 285	buôn_bán
+E4	Transfer-ownership:T9 Artifact-Arg:T12
+T10	Transfer-ownership 310 313	mua
+E5	Transfer-ownership:T10 Artifact-Arg:T12
+T11	Transfer-ownership 345 348	mua
+E6	Transfer-ownership:T11 Artifact-Arg:T12
+T12	WEA 349 355	vũ_khí
+T13	Die 384 388	giết
+E7	Die:T13 Victim-Arg:T30
+T14	Pardon 498 503	ân_xá
+E8	Pardon:T14 
+T15	Pardon 511 516	ân_xá
+E9	Pardon:T15 Time-Arg:T16
+T16	TIME 532 549	hôm_nay đến 12/11
+T17	Pardon 591 596	ân_xá
+E10	Pardon:T17 
+T18	Pardon 803 808	ân_xá
+E11	Pardon:T18 
+T19	Pardon 888 893	ân_xá
+E12	Pardon:T19 Time-Arg:T20
+T20	TIME 926 942	từ 31/5 đến 20/6
+T21	Pardon 954 959	ân_xá
+E13	Pardon:T21 
+T22	Demonstrate 1359 1368	biểu_tình
+E14	Demonstrate:T22 Entity-Arg:T23
+T23	PER 1353 1358	người
+T24	Die 1390 1394	giết
+E15	Die:T24 Victim-Arg:T25
+T25	PER 1371 1383	Hơn 20 người
+T26	Demonstrate 1698 1707	biểu_tình
+E16	Demonstrate:T26 Time-Arg:T27
+T27	TIME 1733 1746	giữa tháng ba
+T28	Die 1768 1778	thiệt_mạng
+E17	Die:T28 Victim-Arg:T29
+T29	PER 1749 1764	Hơn 3.000 người
+T30	PER 389 394	người
+T31	Arrest-jail 1419 1425	bị bắt
+E18	Arrest-jail:T31 Person-Arg:T32
+T32	PER 1398 1418	hàng chục người khác

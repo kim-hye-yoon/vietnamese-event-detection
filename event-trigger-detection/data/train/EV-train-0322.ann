@@ -1,0 +1,94 @@
+T1	Attack 1 9	Thảm_sát
+E1	Attack:T1 
+T2	Demonstrate 93 102	biểu_tình
+E2	Demonstrate:T2 Entity-Arg:T3 Place-Arg:T8 Time-Arg:T39
+T3	PER 77 91	hàng trăm ngườ
+T4	Attack 189 197	thảm_sát
+E3	Attack:T4 Time-Arg:T5 Target-Arg:T6
+T5	TIME 206 213	hôm 2/5
+T6	PER 222 230	46 người
+T7	Die 231 241	thiệt_mạng
+E4	Die:T7 Victim-Arg:T6
+T8	LOC 120 142	cổng Cục Nội_vụ Odessa
+T9	PER 250 255	người
+T10	Attack 259 267	đốt cháy
+E5	Attack:T10 Target-Arg:T9 Place-Arg:T11 Time-Arg:T40
+T11	LOC 278 304	toà nhà Công_đoàn ở Odessa
+T12	PER 711 726	hàng chục người
+T13	Die 727 731	chết
+E6	Die:T13 Victim-Arg:T12
+T14	PER 764 783	kẻ dân_tộc cực_đoan
+T15	Attack 784 792	đốt cháy
+E7	Attack:T15 Attacker-Arg:T14 Target-Arg:T16
+T17	Die 1363 1367	chết
+E8	Die:T17 Instrument-Arg:T19 Victim-Arg:T18
+T18	PER 1340 1359	một_nửa trong số họ
+T19	WEA 1385 1392	đạn bắn
+T20	PER 1450 1458	20 người
+T21	Die 1462 1466	chết
+E9	Die:T21 Victim-Arg:T20
+T22	PER 2044 2055	kẻ tấn_công
+T23	Attack 2056 2064	đốt cháy
+E10	Attack:T23 Target-Arg:T24 Attacker-Arg:T22
+T24	PER 2067 2092	thường_dân không vũ_trang
+T25	Nominate 2473 2481	bổ_nhiệm
+E11	Nominate:T25 Person-Arg:T26
+T27	PER 3427 3438	kẻ tấn_công
+T28	Attack 3444 3465	ném chai xăng Molotov
+E12	Attack:T28 Attacker-Arg:T27 Target-Arg:T30
+T29	Attack 3482 3485	bắn
+E13	Attack:T29 Target-Arg:T30 Attacker-Arg:T27
+T30	PER 3492 3502	dân_thường
+T31	Die 3574 3578	chết
+E14	Die:T31 Victim-Arg:T32
+T32	PER 3583 3591	40 người
+T33	PER 4307 4324	nạn_nhân đầu_tiên
+T34	Injure 4364 4378	bị_thương nặng
+E15	Injure:T34 Victim-Arg:T33
+T35	Die 4384 4391	đã chết
+E16	Die:T35 Victim-Arg:T33
+T36	PER 4640 4675	tiểu_đoàn đặc_biệt Vostok và Shtorm
+T37	Attack 4731 4753	giết người và đánh_đập
+E17	Attack:T37 Attacker-Arg:T36 Target-Arg:T38
+T38	PER 4760 4781	người phản_đối Maidan
+T39	TIME 66 74	Ngày 4/5
+T40	TIME 305 312	hôm 2/5
+T42	LOC 381 399	toà nhà Cục Nội_vụ
+T43	End-position 447 454	từ_chức
+E19	End-position:T43 Person-Arg:T44
+T44	PER 410 446	Thống_đốc Odessa_Vladimir_Nemirovsky
+T16	FAC 793 879	toà nhà nơi có hàng trăm người hoạt_động ủng_hộ quyền tự_chủ của Odessa đang tập_trung
+T41	Demonstrate 677 686	đổ_xô đến
+E18	Demonstrate:T41 Place-Arg:T46 Entity-Arg:T45
+T45	PER 610 666	hàng trăm người_dân ở thành_phố cảng nằm bên bờ Biển_Đen
+T46	FAC 687 704	toà nhà Công_đoàn
+T47	Demonstrate 346 361	người biểu_tình
+E20	Demonstrate:T47 Place-Arg:T42
+T48	Die 561 569	thảm_sát
+E21	Die:T48 
+T49	Attack 545 552	bạo_lực
+E22	Attack:T49 
+T51	FAC 931 948	toà nhà Công_đoàn
+T52	Die 1255 1262	thi_thể
+E24	Die:T52 
+T53	Injure 1371 1381	vết_thương
+E25	Injure:T53 Victim-Arg:T18 Instrument-Arg:T19
+T54	Die 1534 1538	chết
+E26	Die:T54 Victim-Arg:T55
+T55	PER 1507 1530	8 trong số các nạn_nhân
+T56	Meet 1688 1697	phiên họp
+E27	Meet:T56 Entity-Arg:T58 Time-Arg:T57
+T57	TIME 1711 1719	ngày 5/5
+T58	ORG 1666 1672	Odessa
+T59	Die 2175 2179	giết
+E28	Die:T59 Victim-Arg:T60
+T60	PER 2166 2168	Họ
+T61	Meet 2249 2258	phiên họp
+E29	Meet:T61 Entity-Arg:T62
+T62	PER 2219 2248	ông Skorik , người khởi_xướng
+T26	PER 2396 2455	quyền Chánh_Văn_phòng Tổng_thống Ukraine , Sergey_Pashinsky
+T63	Attack 2904 2914	vụ đụng_độ
+E30	Attack:T63 
+T50	Attack 918 926	đột_nhập
+E23	Attack:T50 
+T64	PER 882 906	Một nhóm người biểu_tình

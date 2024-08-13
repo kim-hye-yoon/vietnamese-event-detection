@@ -1,0 +1,37 @@
+T2	WEA 234 240	vũ_khí
+T3	ORG 203 218	Mỹ và đồng_minh
+T4	ORG 245 251	Ankara
+T5	Transfer-ownership 362 365	mua
+E2	Transfer-ownership:T5 Artifact-Arg:T6
+T6	WEA 366 372	vũ_khí
+T7	Transport 754 757	gửi
+E3	Transport:T7 Agent-Arg:T8 Artifact-Arg:T26
+T8	ORG 693 703	Washington
+T9	LOC 826 848	khu_vực phía bắc Syria
+T10	TIME 1042 1060	Tháng 12 năm_ngoái
+T11	PER 1063 1089	Tổng_thống Mỹ Donald_Trump
+T12	Transfer-money 1101 1109	cung_cấp
+E4	Transfer-money:T12 Giver-Arg:T11 Time-Arg:T10 Money-Arg:T13 Recipient-Arg:T14
+T13	MONEY 1121 1142	trị_giá 393 triệu USD
+T14	ORG 1147 1170	các " đối_tác " ở Syria
+T15	GPE 1215 1217	Mỹ
+T16	Start-org 1235 1244	thành_lập
+E5	Start-org:T16 Agent-Arg:T15 Org-Arg:T17 Place-Arg:T18
+T17	ORG 1249 1269	tiểu_đoàn người Kurd
+T18	LOC 1319 1347	dọc biên_giới với Thổ_Nhĩ_Kỳ
+T19	Attack 1467 1473	lật_đổ
+E6	Attack:T19 Target-Arg:T20 Place-Arg:T21 Time-Arg:T29
+T20	ORG 1474 1486	quân_đội SDF
+T21	GPE 1489 1511	khu_vực đông bắc Syria
+T22	GPE 20 22	Mỹ
+T23	Transport 23 26	đưa
+E7	Transport:T23 Agent-Arg:T22 Artifact-Arg:T24 Destination-Arg:T25
+T24	VEH 27 46	5.000 xe_tải vũ_khí
+T25	GPE 51 56	Syria
+T1	Transfer-ownership 230 233	bán
+E1	Transfer-ownership:T1 Seller-Arg:T3 Artifact-Arg:T2 Buyer-Arg:T4
+T26	VEH 764 771	đoàn xe
+T27	Transport 786 789	gửi
+E8	Transport:T27 Destination-Arg:T9 Agent-Arg:T8 Artifact-Arg:T28
+T28	VEH 790 817	5.000 xe_tải chở đầy vũ_khí
+T29	TIME 1392 1401	Ngày 20/1

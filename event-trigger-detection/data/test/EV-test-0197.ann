@@ -1,0 +1,27 @@
+T1	Transfer-money 22 32	bồi_thường
+E1	Transfer-money:T1 Money-Arg:T2 Beneficiary-Arg:T3
+T2	MONEY 33 45	21 triệu USD
+T3	PER 0 16	Người đàn_ông Mỹ
+T4	Convict 172 180	buộc_tội
+E2	Convict:T4 Defendant-Arg:T9 Crime-Arg:T8 Time-Arg:T7
+T5	Die 181 185	giết
+E3	Die:T5 Victim-Arg:T6 Agent-Arg:T9
+T6	PER 186 227	Rhonda_Wicht , 24 tuổi và con_trai Donald
+T7	TIME 228 236	năm 1978
+T8	CRIME 181 236	giết Rhonda_Wicht , 24 tuổi và con_trai Donald năm 1978
+T9	PER 145 165	Craig_Coley , 71 tuổ
+T10	Sentence 243 249	kết_án
+E4	Sentence:T10 Sentence-Arg:T11 Time-Arg:T12 Defendant-Arg:T9 Crime-Arg:T8
+T11	SEN 250 263	tù chung_thân
+T12	TIME 264 272	năm 1980
+T13	Release-parole 299 310	c trả tự_do
+E5	Release-parole:T13 Person-Arg:T15 Time-Arg:T14
+T14	TIME 275 289	Gần 40 năm sau
+T15	PER 292 295	ông
+T16	PER 319 366	thống_đốc bang California lúc đó là Jerry_Brown
+T17	Pardon 367 372	ân_xá
+E6	Pardon:T17 Adjudicator-Arg:T16 Defendant-Arg:T15 Time-Arg:T14
+T18	Transfer-money 501 504	trả
+E7	Transfer-money:T18 Money-Arg:T19 Giver-Arg:T20
+T19	MONEY 505 517	21 triệu USD
+T20	GPE 460 481	thành_phố Simi_Valley

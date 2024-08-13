@@ -1,0 +1,7 @@
+T1	Elect 11 19	được bầu
+E1	Elect:T1 
+T2	Transport 1179 1187	lưu lạc
+E2	Transport:T2 Agent-Arg:T3 Destination-Arg:T4
+T3	PER 1141 1145	Thor
+T4	LOC 1193 1209	thế giới khác
+T5	PER 3260 3267	Lam_Anh

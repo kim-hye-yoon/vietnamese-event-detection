@@ -1,0 +1,122 @@
+T1	Divorce 47 53	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 23 42	các tỷ_phú thế_giới
+T3	Marry 93 99	lấy vợ
+E2	Marry:T3 Person-Arg:T5
+T4	Divorce 120 126	ly_hôn
+E3	Divorce:T4 Person-Arg:T5
+T5	PER 60 81	Tỷ_phú Rupert_Murdoch
+T6	Divorce 130 136	ly_hôn
+E4	Divorce:T6 Person-Arg:T7 Person-Arg2:T8 Time-Arg:T9
+T7	PER 150 174	ông trùm truyền_thông Mỹ
+T8	PER 179 234	người vợ Patricia_Booker , một cựu tiếp_viên hàng_không
+T9	TIME 243 251	năm 1966
+T10	Marry 390 397	kết_hôn
+E5	Marry:T10 Person-Arg:T12 Person-Arg2:T13 Time-Arg:T11
+T11	TIME 349 360	Một năm sau
+T12	PER 363 387	Murdoch , khi đó 38 tuổi
+T13	PER 402 515	Anna ( tên thường gọi Torv ) , một nhà_báo Scotland , mới 18 tuổi , làm cho một tờ_báo ở Australia do ông làm_chủ
+T14	Divorce 569 575	ly_hôn
+E6	Divorce:T14 Person-Arg:T15 Person-Arg2:T77
+T15	PER 556 563	Murdoch
+T16	Attack 792 796	giết
+E7	Attack:T16 
+T17	Die 797 801	chết
+E8	Die:T17 Victim-Arg:T18
+T18	PER 700 710	ông Rupert
+T19	Divorce 920 926	ly_hôn
+E9	Divorce:T19 Person-Arg:T20 Time-Arg:T21
+T20	PER 939 945	Rupert
+T21	TIME 950 958	năm 1998
+T22	Divorce 1151 1157	ly_hôn
+E10	Divorce:T22 
+T23	PER 1363 1366	Ông
+T24	Marry 1367 1371	cưới
+E11	Marry:T24 Person-Arg:T23 Person-Arg2:T25
+T25	PER 1372 1403	Wendi_Deng , một phụ_nữ gốc Hoa
+T26	Divorce 1426 1431	ly_dị
+E12	Divorce:T26 Person-Arg:T23 Person-Arg2:T27
+T27	PER 1432 1438	vợ hai
+T28	PER 1643 1646	ông
+T29	Divorce 1656 1661	ly_dị
+E13	Divorce:T29 Person-Arg:T28 Person-Arg2:T30 Time-Arg:T32
+T30	PER 1662 1669	bà Deng
+T32	TIME 1615 1623	năm 2013
+T31	Divorce 1842 1848	ly_hôn
+E14	Divorce:T31 Person-Arg:T33
+T33	PER 1789 1806	Silvio_Berlusconi
+T34	Divorce 2199 2205	ly_hôn
+E15	Divorce:T34 Person-Arg:T35 Time-Arg:T36
+T35	PER 2192 2198	Silvio
+T36	TIME 2217 2225	năm 1985
+T37	TIME 2333 2346	Cuối năm 1990
+T38	Marry 2367 2374	kết_hôn
+E16	Marry:T38 Time-Arg:T37
+T40	PER 2399 2410	3 người con
+T42	Transfer-money 3084 3091	cho vay
+E18	Transfer-money:T42 
+T43	TIME 2963 2971	Năm 2017
+T44	ORG 2974 2987	 Toà_án Milan
+T45	MONEY 3037 3070	16 triệu euro ( hơn 400 tỷ đồng )
+T46	PER 2997 3008	bà Veronica
+T48	PER 3186 3188	Bà
+T49	PER 3208 3216	chồng cũ
+T47	Transfer-money 3196 3199	trả
+E19	Transfer-money:T47 Giver-Arg:T48 Recipient-Arg:T49 Money-Arg:T50
+T50	MONEY 3266 3295	60 triệu euro ( 1.563 tỷ đồng
+T51	Marry 3698 3705	kết_hôn
+E20	Marry:T51 Person-Arg:T52 Person-Arg2:T53 Time-Arg:T54
+T52	PER 3682 3697	Ông chủ Chelsea
+T53	PER 3710 3727	người vợ đầu Olga
+T54	TIME 3728 3736	năm 1987
+T55	Transfer-ownership 3911 3919	buôn_bán
+E21	Transfer-ownership:T55 Seller-Arg:T41
+T56	Marry 4742 4749	kết_hôn
+E22	Marry:T56 Person-Arg:T58 Person-Arg2:T57 Time-Arg:T59
+T57	PER 4762 4767	Irina
+T58	PER 4731 4741	tỷ_phú Nga
+T59	TIME 4720 4728	Năm 1991
+T60	Divorce 4925 4930	ly_dị
+E23	Divorce:T60 Time-Arg:T61 Person-Arg:T62
+T61	TIME 4931 4939	năm 2007
+T62	PER 4885 4890	Irina
+T63	Divorce 5108 5114	ly_hôn
+E24	Divorce:T63 Person-Arg:T66 Person-Arg2:T65
+T64	FAC 5120 5140	4 căn biệt_thự ở Anh
+T65	PER 5042 5052	Abramovich
+T66	PER 5071 5076	Irina
+T67	MONEY 5085 5099	150 triệu bảng
+T68	Marry 5312 5319	kết_hôn
+E25	Marry:T68 Time-Arg:T69 Person-Arg:T70
+T69	TIME 5320 5328	năm 2007
+T70	PER 5347 5350	ông
+T71	Divorce 5368 5373	ly_dị
+E26	Divorce:T71 Person-Arg:T70 Person-Arg2:T72
+T72	PER 5378 5394	người vợ thứ hai
+T73	PER 5435 5451	Abramovich và vợ
+T74	Divorce 5468 5474	ly_hôn
+E27	Divorce:T74 Person-Arg:T73
+T75	Divorce 5993 5998	ly_dị
+E28	Divorce:T75 Person-Arg:T76 Person-Arg2:T78
+T76	PER 6004 6014	Abramovich
+T77	PER 576 582	vợ đầu
+T39	Be-born 2389 2393	sinh
+E17	Be-born:T39 Person-Arg:T40
+T41	PER 3887 3890	ông
+T78	PER 5999 6001	vợ
+T79	Marry 295 303	hôn_nhân
+E29	Marry:T79 Person-Arg:T80 Time-Arg:T81
+T80	PER 308 310	họ
+T81	TIME 319 325	11 năm
+T82	Marry 1291 1299	hôn_nhân
+E30	Marry:T82 
+T83	Marry 4071 4079	hôn_nhân
+E31	Marry:T83 
+T84	Marry 4814 4822	hôn_nhân
+E32	Marry:T84 Person-Arg:T85
+T85	PER 4833 4836	ông
+T86	Marry 5170 5178	hôn_nhân
+E33	Marry:T86 Person-Arg:T88 Person-Arg2:T89 Time-Arg:T87
+T87	TIME 5143 5151	Năm 2005
+T88	PER 5183 5188	Irina
+T89	PER 5207 5217	Abramovich

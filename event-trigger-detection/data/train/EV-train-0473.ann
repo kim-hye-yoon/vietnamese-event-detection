@@ -1,0 +1,63 @@
+T1	PER 1 22	Doanh_nhân Trung_Quốc
+T2	Attack 26 35	phục_kích
+E1	Attack:T2 Target-Arg:T1 Place-Arg:T4
+T3	Die 38 46	bắn chết
+E2	Die:T3 Victim-Arg:T1 Place-Arg:T4
+T4	GPE 49 60	Philippines
+T5	PER 61 86	Một doanh_nhân Trung_Quốc
+T6	Die 90 101	bị bắn chết
+E3	Die:T6 Victim-Arg:T5 Place-Arg:T9
+T7	PER 105 126	3 công_dân Trung_Quốc
+T8	Injure 127 136	bị_thương
+E4	Injure:T8 Victim-Arg:T7 Place-Arg:T9
+T9	LOC 168 199	thủ_đô Manila của Philippines .
+T10	PER 468 498	Các tay súng chưa rõ danh_tính
+T11	Attack 502 509	nổ_súng
+E5	Attack:T11 Attacker-Arg:T10 Target-Arg:T12
+T12	VEH 514 530	một chiếc xe ôtô
+T13	Transport 531 534	chở
+E6	Transport:T13 Artifact-Arg:T12 Agent-Arg:T14
+T14	PER 535 555	“ 4 người Trung_Quốc
+T15	PER 614 643	Một trong những người trên xe
+T16	Die 647 657	thiệt_mạng
+E7	Die:T16 Victim-Arg:T15
+T17	PER 661 681	ít_nhất 3 người khác
+T18	Injure 682 691	bị_thương
+E8	Injure:T18 Victim-Arg:T17
+T19	PER 737 745	nạn_nhân
+T20	Die 746 756	thiệt_mạng
+E9	Die:T20 Victim-Arg:T19
+T21	PER 760 780	Chen_Lijun , 27 tuổi
+T22	Transport 783 786	đến
+E10	Transport:T22 Agent-Arg:T19 Origin-Arg:T23 Origin-Arg2:T24
+T23	LOC 790 816	Đặc_khu_Kinh_tế Thâm_Quyến
+T24	GPE 823 860	tỉnh Quảng_Đông , miền Nam Trung_Quốc
+T25	PER 863 879	Một trong 3 ngườ
+T26	Injure 881 890	bị_thương
+E11	Injure:T26 Victim-Arg:T25
+T27	Transport 908 911	đến
+E12	Transport:T27 Agent-Arg:T25 Origin-Arg:T28
+T28	GPE 915 925	Thượng_Hải
+T29	PER 1044 1066	một trong các nạn_nhân
+T30	Injure 1067 1076	bị_thương
+E13	Injure:T30 Victim-Arg:T29
+T31	PER 1172 1193	một trong những người
+T32	Injure 1194 1203	bị_thương
+E14	Injure:T32 Victim-Arg:T31
+T33	PER 1247 1266	một người_phát_ngôn
+T34	ORG 1305 1312	cơ_quan
+T35	Meet 1320 1327	liên_hệ
+E15	Meet:T35 Entity-Arg:T34 Entity-Arg2:T36 Place-Arg:T37
+T36	ORG 1332 1354	Đại_sứ_quán Trung_Quốc
+T37	GPE 1357 1368	Philippines
+T38	PER 1447 1459	Một_số người
+T39	Transport 1460 1462	đi
+E16	Transport:T39 Agent-Arg:T38 Vehicle-Arg:T40
+T40	VEH 1468 1480	chiếc xe ôtô
+T41	PER 2169 2186	8 người Hong_Kong
+T42	Die 2187 2197	thiệt_mạng
+E17	Die:T42 Victim-Arg:T41
+T43	PER 2030 2037	con_tin
+T44	Arrest-jail 2022 2029	bắt_cóc
+E18	Arrest-jail:T44 Person-Arg:T43 Place-Arg:T46
+T46	GPE 2053 2059	Manila

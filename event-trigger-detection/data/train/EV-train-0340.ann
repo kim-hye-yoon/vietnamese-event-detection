@@ -1,0 +1,45 @@
+T1	PER 4 17	20 thanh_niên
+T2	WEA 22 28	mã_tấu
+T3	Attack 29 37	truy sát
+E1	Attack:T3 Instrument-Arg:T2 Place-Arg:T5 Target-Arg:T4 Attacker-Arg:T1
+T4	PER 38 43	người
+T5	LOC 44 52	giữa phố
+T6	PER 104 121	nghi_phạm 35 tuổi
+T7	WEA 164 170	mã_tấu
+T8	PER 180 188	nạn_nhân
+T9	Attack 171 179	truy sát
+E2	Attack:T9 Instrument-Arg:T7 Place-Arg:T10 Attacker-Arg:T6 Target-Arg:T8
+T10	LOC 194 202	giữa phố
+T11	PER 217 220	Nam
+T12	PER 224 232	đồng_bọn
+T13	WEA 205 213	Hung_khí
+T14	Attack 244 252	truy_sát
+E3	Attack:T14 Instrument-Arg:T13 Attacker-Arg:T12 Attacker-Arg2:T11
+T15	TIME 255 264	Ngày 30/5
+T16	ORG 267 303	công_an huyện Tĩnh_Gia ( Thanh_Hoá )
+T17	Arrest-jail 340 343	bắt
+E4	Arrest-jail:T17 Person-Arg:T18 Agent-Arg:T16 Time-Arg:T15 Crime-Arg:T34
+T18	PER 353 418	đối_tượng Lê_Sỹ_Nam ( 35 tuổi , trú xã Hải_Hoà , huyện Tĩnh_Gia )
+T19	PER 512 530	bị_can 35 tuổi này
+T20	WEA 554 560	mã_tấu
+T21	WEA 563 566	dao
+T22	WEA 567 571	kiếm
+T23	Attack 572 580	truy_sát
+E5	Attack:T23 Instrument-Arg:T22 Instrument-Arg2:T21 Instrument-Arg3:T20 Attacker-Arg:T19 Target-Arg:T24
+T24	PER 581 631	anh Võ_Văn_Nam ( 26 tuổi , trú thị_trấn Tĩnh_Gia )
+T25	PER 806 809	Nam
+T26	PER 813 821	đồng_bọn
+T27	Attack 856 865	hành_hung
+E6	Attack:T27 Target-Arg:T28 Attacker-Arg:T26 Attacker-Arg2:T25
+T28	PER 866 895	một_số người_dân vào can_ngăn
+T29	ORG 926 948	công_an huyện Tĩnh_Gia
+T30	Arrest-jail 967 976	vây bắt đ
+E7	Arrest-jail:T30 Person-Arg:T31 Agent-Arg:T29
+T31	PER 980 1008	toàn_bộ số thanh_niên gây án
+T32	ORG 1076 1092	cơ_quan điều_tra
+T33	Arrest-jail 1111 1114	bắt
+E8	Arrest-jail:T33 Agent-Arg:T32
+T34	CRIME 442 467	gây_rối trật_tự công_cộng
+T35	Attack 1061 1069	truy_sát
+E9	Attack:T35 Attacker-Arg:T36
+T36	PER 1020 1029	Lê_Sỹ_Nam

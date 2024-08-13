@@ -1,0 +1,32 @@
+T1	GPE 0 6	Ai_Cập
+T2	Sentence 7 12	tuyên
+E1	Sentence:T2 Adjudicator-Arg:T1 Sentence-Arg:T3 Defendant-Arg:T4
+T4	PER 21 56	75 người tham_gia biểu_tình bạo_lực
+T5	PER 21 29	75 người
+T3	SEN 13 20	tử_hình
+T7	ORG 175 195	Toà_án hình_sự Cairo
+T8	TIME 196 205	ngày 28/7
+T9	Sentence 206 214	tuyên_án
+E2	Sentence:T9 Adjudicator-Arg:T7 Defendant-Arg:T11 Time-Arg:T8 Sentence-Arg:T10 Crime-Arg:T12
+T10	SEN 215 222	tử_hình
+T11	PER 231 240	75 bị_cáo
+T13	GPE 359 365	Ai_Cập
+T14	TIME 366 374	năm 2013
+T12	CRIME 315 374	tham_gia vào làn_sóng biểu_tình bạo_lực tại Ai_Cập năm 2013
+T15	Demonstrate 337 346	biểu_tình
+E4	Demonstrate:T15 Place-Arg:T13 Time-Arg:T14
+T16	PER 786 801	660 bị_cáo khác
+T17	Sentence 810 820	phán_quyết
+E5	Sentence:T17 Defendant-Arg:T16 Time-Arg:T18
+T18	TIME 825 833	ngày 8/9
+T19	PER 1153 1169	hơn 100 cảnh_sát
+T20	Die 1172 1182	thiệt_mạng
+E6	Die:T20 Victim-Arg:T19
+T21	PER 606 615	75 bị_cáo
+T22	Charge-indict 668 675	truy_tố
+E7	Charge-indict:T22 Prosecutor-Arg:T23 Defendant-Arg:T21 Crime-Arg:T24 Time-Arg:T25
+T23	PER 646 667	nhà_chức_trách Ai_Cập
+T24	CRIME 680 745	cáo_buộc giết người và phá_hoại tài_sản công trong cuộc biểu_tình
+T25	TIME 746 754	năm 2013
+T6	Demonstrate 39 48	biểu_tình
+E3	Demonstrate:T6 Entity-Arg:T5

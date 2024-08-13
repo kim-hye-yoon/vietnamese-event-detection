@@ -1,0 +1,40 @@
+T4	PER 227 244	Trịnh_Hoàng_Dương
+T5	Die 298 303	tự_tử
+E2	Die:T5 Place-Arg:T22 Agent-Arg:T7
+T9	PER 702 707	Dương
+T10	Die 711 718	tử_vong
+E4	Die:T10 Time-Arg:T14 Victim-Arg:T9
+T14	TIME 629 641	Ngay_lập_tức
+T12	ORG 919 955	Cơ_quan điều_tra Công_an TP Hoà_Bình
+T13	TIME 1034 1047	ngày 101/2014
+T15	Execute 984 992	tạm giam
+E5	Execute:T15 Agent-Arg:T12 Time-Arg:T13 Crime-Arg:T18 Person-Arg:T11
+T17	TIME 1064 1078	ngày 7/10/2013
+T18	CRIME 1000 1030	tàng_trữ trái_phép chất ma_tuý
+T22	FAC 310 323	trại tạm giam
+T23	FAC 1085 1122	nhà tạm giam của công_an tỉnh Phú_Yên
+T24	Die 25 30	tự_tử
+E7	Die:T24 Agent-Arg:T25 Place-Arg:T26
+T25	PER 0 6	Bị_can
+T26	FAC 37 47	buồng giam
+T2	FAC 127 137	buồng giam
+T1	PER 61 71	Một bị_can
+T3	Die 115 120	tự_tử
+E1	Die:T3 Agent-Arg:T1 Place-Arg:T2
+T6	PER 502 514	bị_can Dương
+T7	PER 220 294	bị_can Trịnh_Hoàng_Dương , sinh năm 1991 , trú tại huyện Đà_Bắc , Hoà_Bình
+T21	GPE 271 294	huyện Đà_Bắc , Hoà_Bình
+T8	Die 605 611	tự vẫn
+E3	Die:T8 Agent-Arg:T6
+T27	PER 644 664	cán_bộ trại tạm giam
+T28	FAC 656 664	tạm giam
+T29	Transport 668 671	đưa
+E8	Transport:T29 Agent-Arg:T27 Artifact-Arg:T30
+T30	PER 672 684	bị_can Dương
+T11	PER 886 910	bị_can Trịnh_Hoàng_Dương
+T16	PER 1125 1203	bị_can Trần_Thị_Hải_Yến ( SN 1982 , ở xã An_Cư , huyện Tuy_An , tỉnh Phú_Yên )
+T31	PER 1125 1148	bị_can Trần_Thị_Hải_Yến
+T32	GPE 1163 1201	xã An_Cư , huyện Tuy_An , tỉnh Phú_Yên
+T20	Die 1287 1292	tự_tử
+E6	Die:T20 Time-Arg:T17 Place-Arg:T23 Agent-Arg:T16
+T19	GPE 1110 1122	tỉnh Phú_Yên

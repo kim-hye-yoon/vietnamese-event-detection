@@ -1,0 +1,12 @@
+T1	End-position 35 44	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 31	Nguyên Bí_thư Tỉnh_uỷ Quảng_Nam
+T3	Meet 72 75	họp
+E2	Meet:T3 Entity-Arg:T4 Entity-Arg2:T5 Time-Arg:T6
+T4	PER 96 124	Tổng_bí_thư Nguyễn_Phú_Trọng
+T5	ORG 58 68	Ban_Bí_thư
+T6	TIME 47 55	Ngày 5/2
+T7	End-position 372 381	cách_chức
+E3	End-position:T7 Person-Arg:T9 Position-Arg:T8
+T8	JOB 382 415	Bí_thư Tỉnh_uỷ_nhiệm_kỳ 2010-2015
+T9	PER 349 368	 ông Lê_Phước_Thanh

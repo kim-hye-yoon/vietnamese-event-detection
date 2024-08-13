@@ -1,0 +1,14 @@
+T1	End-position 38 47	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 26	Chủ_tịch tập_đoàn hoá_chất
+T3	End-position 203 207	cách
+E2	End-position:T3 Person-Arg:T7 Position-Arg:T4 Entity-Arg:T6 Time-Arg:T5
+T4	JOB 208 394	tất_cả các chức_vụ trong Đảng ( bao_gồm cách_chức Uỷ_viên Ban_chấp_hành Đảng_bộ Khối doanh_nghiệp Trung_ương ; Uỷ_viên Ban_chấp_hành Đảng_bộ , Bí_thư Đảng_uỷ Tập_đoàn Hoá_chất Việt_Nam )
+T5	TIME 50 59	Ngày 20/9
+T6	ORG 62 72	Ban_bí_thư
+T7	PER 93 112	ông Nguyễn_Anh_Dũng
+T8	End-position 1726 1735	cách_chức
+E3	End-position:T8 Position-Arg:T9 Person-Arg:T10
+T9	JOB 1736 1765	tất_cả các chức_vụ trong Đảng
+T10	PER 1770 1790	ông Nguyễn_Quốc_Tuấn
+T11	TIME 1587 1596	ngày 18/9

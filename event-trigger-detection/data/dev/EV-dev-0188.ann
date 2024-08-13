@@ -1,0 +1,20 @@
+T1	Transfer-ownership 559 562	bán
+E1	Transfer-ownership:T1 Seller-Arg:T2
+T2	PER 554 558	mình
+T3	Transfer-ownership 633 636	bán
+E2	Transfer-ownership:T3 
+T4	Attack 1452 1469	lạm_dụng tình_dục
+E3	Attack:T4 Attacker-Arg:T6 Target-Arg:T5
+T6	PER 1427 1451	một nhà_sản_xuất âm_nhạc
+T5	PER 1421 1423	cô
+T7	Injure 2267 2278	chấn_thương
+E4	Injure:T7 Agent-Arg:T8
+T8	PER 2173 2175	cô
+T9	Start-org 2567 2573	ra_mắt
+E5	Start-org:T9 Agent-Arg:T11 Org-Arg:T10
+T10	ORG 2574 2595	Tổ_chức Born_This_Way
+T11	PER 2549 2558	Lady_Gaga
+T12	Phone-write 3526 3530	viết
+E6	Phone-write:T12 Entity-Arg:T13
+T13	PER 3523 3525	cô
+T14	TIME 3512 3520	năm 2017

@@ -1,0 +1,40 @@
+T1	PER 0 13	Phó thủ_tướng
+T2	Declare-bankruptcy 59 66	phá_sản
+E1	Declare-bankruptcy:T2 
+T11	ORG 658 672	Bộ Công_Thương
+T12	TIME 688 699	hơn một năm
+T14	ORG 1032 1045	nhà_thầu PVC 
+T15	Declare-bankruptcy 1235 1242	phá_sản
+E2	Declare-bankruptcy:T15 Org-Arg:T16
+T16	ORG 1243 1255	doanh_nghiệp
+T17	ORG 1261 1266	PVOil
+T18	PER 1338 1383	ông Hoàng_Quốc_Vượng - Thứ_trưởng Công_Thương
+T25	ORG 1722 1727	PVOil
+T26	ORG 1786 1791	PVOil
+T31	End-org 2302 2310	giải_thể
+E3	End-org:T31 Org-Arg:T32
+T32	ORG 2311 2318	nhà_máy
+T33	PER 2327 2335	ông Hùng
+T34	PER 2406 2461	ông Đặng_Quyết_Tiến - Cục_trưởng Tài_chính doanh_nghiệp
+T39	ORG 2464 2476	Bộ Tài_chính
+T40	Declare-bankruptcy 2544 2551	phá_sản
+E4	Declare-bankruptcy:T40 
+T44	TIME 2999 3012	tháng 12/2015
+T45	MONEY 3017 3028	830 tỷ đồng
+T3	End-org 580 588	giải_thể
+E5	End-org:T3 
+T4	Transfer-money 629 631	nợ
+E6	Transfer-money:T4 
+T5	Transfer-ownership 849 862	chuyển_nhượng
+E7	Transfer-ownership:T5 
+T7	PER 1304 1315	các cổ_đông
+T6	Transfer-money 2979 2981	nợ
+E8	Transfer-money:T6 Time-Arg:T44 Money-Arg:T45
+T8	Transfer-money 3123 3126	bán
+E9	Transfer-money:T8 Recipient-Arg:T19
+T9	Transfer-ownership 1759 1772	chuyển_nhượng
+E10	Transfer-ownership:T9 Seller-Arg:T25 Seller-Arg2:T26
+T10	Transfer-money 3064 3071	cho vay
+E11	Transfer-money:T10 Giver-Arg:T13
+T13	ORG 3054 3063	ngân_hàng
+T19	ORG 3132 3136	VAMC

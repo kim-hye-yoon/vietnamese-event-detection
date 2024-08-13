@@ -1,0 +1,10 @@
+T1	PER 77 82	Người
+T2	Demonstrate 83 92	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1 Place-Arg:T3 Time-Arg:T4
+T3	GPE 105 128	thủ_đô Seoul , Hàn_Quốc
+T4	TIME 129 137	hôm 18/8
+T5	PER 280 299	khoảng 20.000 người
+T6	Demonstrate 303 312	tập_trung
+E2	Demonstrate:T6 Entity-Arg:T5 Place-Arg:T7 Time-Arg:T8
+T7	LOC 317 350	trung_tâm thủ_đô Seoul , Hàn_Quốc
+T8	TIME 353 361	hôm 18/8

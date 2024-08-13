@@ -1,0 +1,20 @@
+T1	End-position 31 40	cách_chức
+E1	End-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 27	Chủ_tịch thành_phố Trà_Vinh
+T3	JOB 41 51	Phó bí_thư
+T4	End-position 296 305	cách_chức
+E2	End-position:T4 Person-Arg:T6 Position-Arg:T5
+T5	JOB 306 385	Phó bí_thư và Uỷ_viên Ban thường_vụ Thành_uỷ các nhiệm_kỳ 2010-2015 , 2015-2020
+T6	PER 226 292	ông Diệp_Văn_Thạnh - Phó bí_thư Thành_uỷ , Chủ_tịch UBND thành_phố
+T7	Meet 764 770	kỳ họp
+E3	Meet:T7 Entity-Arg:T8
+T8	ORG 782 808	Uỷ_ban Kiểm_tra Trung_ương
+T9	Meet 2939 2945	kỳ họp
+E4	Meet:T9 Entity-Arg:T10 Time-Arg:T11
+T10	ORG 2957 2983	Uỷ_ban Kiểm_tra Trung_ương
+T11	TIME 2986 3000	từ 10 đến 12/9
+T12	End-position 3417 3426	cách_chức
+E5	End-position:T12 Position-Arg:T13 Person-Arg:T15 Entity-Arg:T14
+T13	JOB 3438 3456	chức_vụ trong Đảng
+T14	ORG 3381 3397	Cơ_quan kiểm_tra
+T15	PER 3465 3482	ông Hồ_Xuân_Vượng

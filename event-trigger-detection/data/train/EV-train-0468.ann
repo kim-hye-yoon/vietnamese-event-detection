@@ -1,0 +1,31 @@
+T1	PER 75 97	3 người đàn_ông lạ_mặt
+T2	Transport 98 101	đưa
+E1	Transport:T2 Agent-Arg:T1 Artifact-Arg:T4 Destination-Arg:T3
+T3	FAC 102 114	về phòng trọ
+T4	PER 137 146	anh Thắng
+T5	Die 150 157	tử_vong
+E2	Die:T5 Victim-Arg:T4
+T7	PER 679 688	anh Thắng
+T8	Die 692 696	chết
+E3	Die:T8 Victim-Arg:T7
+T9	PER 988 1006	3 người đàn_ông lạ
+T10	Transport 1011 1014	đưa
+E4	Transport:T10 Agent-Arg:T9 Artifact-Arg:T11
+T11	PER 973 982	anh Thắng
+T12	PER 20 27	chủ nhà
+T13	Die 28 32	chết
+E5	Die:T13 Victim-Arg:T12
+T6	Die 337 341	chết
+E6	Die:T6 Victim-Arg:T14
+T14	PER 361 402	Hàn_Văn_Thắng ( 37 tuổi , quê Vĩnh_Phúc )
+T15	PER 429 438	anh Thắng
+T16	Die 439 446	tử_vong
+E7	Die:T16 Victim-Arg:T15
+T17	PER 817 826	anh Thắng
+T18	Injure 836 847	thương_tích
+E8	Injure:T18 Victim-Arg:T17
+T19	PER 1162 1164	họ
+T20	Transport 1172 1175	đưa
+E9	Transport:T20 Agent-Arg:T19 Artifact-Arg:T21 Destination-Arg:T22
+T21	PER 1176 1185	anh Thắng
+T22	FAC 1189 1198	phòng trọ

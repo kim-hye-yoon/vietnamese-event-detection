@@ -1,0 +1,15 @@
+T1	Transfer-ownership 24 34	kinh_doanh
+E1	Transfer-ownership:T1 Seller-Arg:T2
+T2	PER 0 9	Kiến_trúc
+T3	Transfer-ownership 110 120	kinh_doanh
+E2	Transfer-ownership:T3 Seller-Arg:T5 Artifact-Arg:T4
+T4	FAC 121 135	chuỗi cửa_hàng
+T5	PER 66 80	Trần_Công_Danh
+T6	Start-org 748 757	thành_lập
+E3	Start-org:T6 
+T8	Transfer-ownership 3082 3085	đặt
+E4	Transfer-ownership:T8 Buyer-Arg:T9
+T9	ORG 3057 3081	Mercedes - Benz Việt_Nam
+T10	Transfer-money 3800 3806	đầu_tư
+E5	Transfer-money:T10 Money-Arg:T11
+T11	MONEY 3832 3850	300-500 triệu đồng

@@ -1,0 +1,20 @@
+T1	Die 0 4	Chết
+E1	Die:T1 Time-Arg:T2
+T2	TIME 11 22	giờ học bơi
+T3	TIME 166 177	lúc học bơi
+T4	PER 73 152	Quách_Gia_Phú ( HS lớp 6/3 trường THCS Trần_Quang_Khải - Q. Tân_Phú , TP. HCM )
+T5	Die 153 159	tử_nạn
+E2	Die:T5 Victim-Arg:T4 Time-Arg:T3
+T6	TIME 1211 1226	Hơn 8g ngày 6/3
+T7	Transport 1227 1230	đưa
+E3	Transport:T7 Artifact-Arg:T8 Time-Arg:T6 Destination-Arg:T9
+T8	PER 1231 1234	con
+T9	FAC 1239 1267	hồ bơi Trường THPT Tây_Thạnh
+T10	PER 1425 1428	Phú
+T11	TIME 1402 1422	sau khi sự_cố xảy ra
+T12	Transport 1434 1437	đưa
+E4	Transport:T12 Destination-Arg:T13 Artifact-Arg:T10 Time-Arg:T11
+T13	FAC 1442 1500	Phòng_khám đa_khoa Thành_Công ( Khu_công_nghiệp Tân_Bình )
+T14	PER 1546 1549	Phú
+T15	Die 1550 1557	tử_vong
+E5	Die:T15 Victim-Arg:T14

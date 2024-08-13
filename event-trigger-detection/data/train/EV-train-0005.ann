@@ -1,0 +1,36 @@
+T1	Transport 11 17	chuyển
+E1	Transport:T1 Artifact-Arg:T3 Agent-Arg:T2
+T2	GPE 0 3	Nga
+T3	WEA 18 35	8 hệ_thống S -300
+T4	GPE 387 393	Moskva
+T5	Transport 397 403	chuyển
+E2	Transport:T5 Agent-Arg:T4 Artifact-Arg:T6 Destination-Arg:T7 Time-Arg:T11
+T6	WEA 408 423	hệ_thống S -300
+T7	GPE 428 436	Damascus
+T8	Transport 1588 1591	chở
+E3	Transport:T8 Artifact-Arg:T9 Agent-Arg:T10
+T9	PER 1595 1600	người
+T10	PER 1568 1587	trinh_sát cơ Il -20
+T11	TIME 443 455	hai tuần tới
+T12	Transport 476 482	chuyển
+E4	Transport:T12 Time-Arg:T13 Artifact-Arg:T14
+T13	TIME 489 498	tương_lai
+T14	WEA 458 468	số còn lại
+T15	Attack 717 726	tiêu_diệt
+E5	Attack:T15 
+T16	Transfer-ownership 1511 1519	cung_cấp
+E6	Transfer-ownership:T16 Artifact-Arg:T17 Buyer-Arg2:T18 Seller-Arg:T19
+T17	WEA 1520 1526	S -300
+T18	GPE 1531 1536	Syria
+T19	GPE 1542 1545	Nga
+T20	Attack 1773 1783	không kích
+E7	Attack:T20 Place-Arg:T21
+T21	GPE 1797 1802	Syria
+T22	Attack 1849 1852	bắn
+E8	Attack:T22 Attacker-Arg:T23 Target-Arg:T24
+T23	ORG 1811 1831	phòng_không nước này
+T24	ORG 1857 1866	đồng_minh
+T25	Attack 1974 1977	bắn
+E9	Attack:T25 Target-Arg:T26 Attacker-Arg:T27
+T26	VEH 1964 1970	Il -20
+T27	GPE 2029 2032	Nga

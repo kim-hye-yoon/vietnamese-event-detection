@@ -1,0 +1,46 @@
+T1	Pardon 16 22	ân xá
+E1	Pardon:T1 Defendant-Arg:T3 Adjudicator-Arg:T2
+T2	PER 0 5	Trump
+T3	PER 27 39	nữ tù nhân
+T4	Pardon 315 320	ân_xá
+E2	Pardon:T4 Defendant-Arg:T5 Adjudicator-Arg:T6
+T5	PER 290 297	tù_nhân
+T6	PER 232 245	tổng_thống Mỹ
+T7	Pardon 398 405	giảm án
+E3	Pardon:T7 Defendant-Arg:T8
+T8	PER 349 371	bà Alice Marie_Johnson
+T10	Meet 445 448	gặp
+E4	Meet:T10 Entity-Arg:T11 Entity-Arg2:T12 Time-Arg:T13 Place-Arg:T14
+T11	PER 413 422	ông Trump
+T12	PER 449 481	ngôi_sao truyền_hình thực_tế này
+T13	TIME 482 490	hôm 30/5
+T14	FAC 493 502	Nhà_Trắng
+T17	PER 505 525	Bà Johnson , 62 tuổi
+T18	CRIME 557 596	câu_kết với tội_phạm ma_tuý và rửa tiền
+T19	Sentence 605 611	kết_án
+E6	Sentence:T19 Sentence-Arg:T20 Time-Arg:T21 Defendant-Arg:T22
+T20	SEN 612 634	chung_thân không ân_xá
+T21	TIME 639 647	năm 1996
+T22	PER 599 601	Bà
+T23	Pardon 769 774	ân_xá
+E7	Pardon:T23 Defendant-Arg:T24
+T24	PER 779 789	bà Johnson
+T25	PER 998 1014	Bà Alice_Johnson
+T26	Sentence 1015 1022	lĩnh_án
+E8	Sentence:T26 Sentence-Arg:T27 Defendant-Arg:T25 Time-Arg:T28 Crime-Arg:T29
+T27	SEN 1023 1033	chung_thân
+T28	TIME 1034 1042	năm 1996
+T29	CRIME 1050 1089	câu_kết với tội_phạm ma_tuý và rửa tiền
+T30	Pardon 1418 1423	ân_xá
+E9	Pardon:T30 Adjudicator-Arg:T32 Defendant-Arg:T31
+T31	PER 1428 1438	bà Johnson
+T32	PER 1407 1417	tổng_thống
+T33	Pardon 1602 1607	ân_xá
+E10	Pardon:T33 Defendant-Arg:T34
+T34	PER 1612 1622	bà Johnson
+T9	Pardon 1705 1710	ân_xá
+E11	Pardon:T9 
+T35	Phone-write 1865 1873	viết thư
+E12	Phone-write:T35 Entity-Arg:T37 Entity-Arg2:T36
+T36	PER 1878 1890	ngôi_sao này
+T37	PER 1851 1861	nữ tù_nhân

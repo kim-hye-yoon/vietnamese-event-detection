@@ -1,0 +1,33 @@
+T1	Transfer-ownership 425 432	đấu_giá
+E1	Transfer-ownership:T1 Seller-Arg:T2
+T2	ORG 375 387	PetroVietnam
+T3	Transfer-money 599 602	trả
+E2	Transfer-money:T3 Money-Arg:T4 Giver-Arg:T5
+T4	MONEY 611 628	gần 7.500 tỷ đồng
+T5	ORG 443 487	Nhà_máy đóng tàu Dung_Quất được PetroVietnam
+T6	ORG 505 568	Tổng_công_ty công_nghiệp tàu_thuỷ ( SBIC , tên cũ là Vinashin )
+T7	Declare-bankruptcy 878 885	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T8
+T8	ORG 866 877	nhà_máy này
+T9	Transfer-ownership 1097 1100	bán
+E4	Transfer-ownership:T9 
+T10	Transfer-ownership 1201 1208	rao_bán
+E5	Transfer-ownership:T10 Seller-Arg:T11 Artifact-Arg:T12
+T11	ORG 1188 1200	PetroVietnam
+T12	ORG 1209 1235	Nhà_máy đóng tàu Dung_Quất
+T13	Transfer-ownership 1649 1657	thanh_lý
+E6	Transfer-ownership:T13 Seller-Arg:T15 Time-Arg:T14
+T14	TIME 1572 1579	tháng 8
+T15	ORG 1537 1549	PetroVietnam
+T17	ORG 1730 1738	Tập_đoàn
+T16	Phone-write 1759 1762	gửi
+E7	Phone-write:T16 Entity-Arg:T17 Entity-Arg2:T18
+T18	ORG 1767 1789	các đơn_vị trong ngành
+T19	Meet 2252 2265	buổi làm_việc
+E8	Meet:T19 Entity-Arg:T21 Entity-Arg2:T20 Time-Arg:T22
+T20	ORG 2270 2284	Bộ Công_Thương
+T21	ORG 2219 2245	Nhà_máy đóng tàu Dung_Quất
+T22	TIME 2285 2303	cách đây một tháng
+T23	Transfer-money 2613 2616	trả
+E9	Transfer-money:T23 Money-Arg:T24
+T24	MONEY 2617 2630	6.910 tỷ đồng

@@ -1,0 +1,43 @@
+T1	Attack 56 66	không_kích
+E1	Attack:T1 Place-Arg:T2 Instrument-Arg:T3
+T2	GPE 67 72	Syria
+T3	WEA 0 36	Dàn chiến_hạm , máy_bay mang tên_lửa
+T4	Attack 333 341	tấn_công
+E2	Attack:T4 Place-Arg:T5 Attacker-Arg:T24
+T5	GPE 342 347	Syria
+T6	Attack 515 523	tấn_công
+E3	Attack:T6 Place-Arg:T7
+T7	GPE 524 529	Syria
+T8	Attack 859 867	tấn_công
+E4	Attack:T8 Place-Arg:T9
+T9	LOC 872 890	mục_tiêu ở Bắc_Phi
+T10	Attack 1142 1149	bắn rơi
+E5	Attack:T10 Target-Arg:T11 Place-Arg:T12
+T11	PER 1127 1138	phi_công Mỹ
+T12	GPE 1155 1169	lãnh_thổ Syria
+T13	Attack 2145 2155	không kích
+E6	Attack:T13 Place-Arg:T14
+T14	GPE 2156 2161	Syria
+T15	Transport 2357 2360	đến
+E7	Transport:T15 Destination-Arg:T16 Artifact-Arg:T26
+T16	LOC 2365 2378	bờ biển Syria
+T17	Attack 2729 2737	tấn_công
+E8	Attack:T17 Place-Arg:T18
+T18	GPE 2749 2754	Syria
+T19	Attack 2871 2879	tấn_công
+E9	Attack:T19 Attacker-Arg:T20 Instrument-Arg:T21
+T20	GPE 2844 2848	Pháp
+T21	WEA 2911 2998	trang_bị 16 tên lửa hành_trình và 16 tên_lửa đất đối không , hoặc điều tiêm_kích Rafale
+T22	Transport 3065 3068	đến
+E10	Transport:T22 Destination-Arg:T23
+T23	GPE 3069 3074	Syria
+T24	PER 301 324	Tổng_thống Donald_Trump
+T25	Attack 1268 1278	không_kích
+E11	Attack:T25 
+T26	VEH 2339 2351	một tàu_ngầm
+T27	VEH 2381 2398	các tiêm_kích Anh
+T28	Attack 2462 2472	không kích
+E12	Attack:T28 Instrument-Arg:T27 Place-Arg:T29
+T29	GPE 2473 2478	Syria
+T30	Attack 3078 3088	không_kích
+E13	Attack:T30 

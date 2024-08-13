@@ -1,0 +1,23 @@
+T1	PER 0 11	Hoàng_Quyên
+T2	Marry 12 19	kết_hôn
+E1	Marry:T2 Person-Arg:T3 Person-Arg2:T1
+T3	PER 24 45	bạn_trai kiến_trúc_sư
+T4	PER 83 92	Tuấn_Việt
+T5	Be-born 95 99	sinh
+E2	Be-born:T5 Person-Arg:T4 Time-Arg:T6 Place-Arg:T7
+T6	TIME 104 108	1992
+T7	GPE 113 119	Hà_Nội
+T8	Phone-write 288 311	trao_đổi qua điện_thoại
+E3	Phone-write:T8 Entity-Arg:T15
+T9	Phone-write 380 388	liên_lạc
+E4	Phone-write:T9 Entity-Arg:T17 Time-Arg:T16
+T10	PER 1133 1144	Hoàng_Quyên
+T11	Be-born 1174 1178	sinh
+E5	Be-born:T11 Person-Arg:T10 Time-Arg:T12
+T12	TIME 1183 1187	1992
+T13	Marry 169 177	hôn_nhân
+E6	Marry:T13 Person-Arg:T14
+T14	PER 122 131	Hai người
+T15	PER 274 283	Chúng_tôi
+T16	TIME 362 379	Sau một thời_gian
+T17	PER 391 397	cả hai

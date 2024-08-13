@@ -1,0 +1,54 @@
+Hoàng_Cường là kỹ_sư xây_dựng tại Hà_Nội .
+Năm 2016 , anh nghỉ_việc để ở nhà trông con cho vợ đi làm .
+Lần đầu lên chức cha , Cường cũng lóng_ngóng như bao người khác .
+Anh lên mạng lùng_sục và tham_khảo nhiều thông_tin để giúp cho việc chăm_sóc con tốt hơn .
+Những lần tra_cứu đó đã biến Cường thành chuyên_gia trong vai_trò “ ông bố bỉm sữa ” .
+Anh tìm được nhiều tài_liệu đắt , hữu_ích và rất mong_muốn chia_sẻ những bí kíp này cho cộng_đồng .
+Vào thời_điểm đó , Cường có dịp trò_chuyện với Đỗ_Nguyễn_Duy_Khang , đồng sáng_lập eHubly .
+Đây là nền_tảng giúp mọi người tạo ứng_dụng trên di_động và xuất_bản nội_dung số mà không cần kiến_thức sâu về công_nghệ .
+Khang gợi_ý Cường thử tạo ứng_dụng trên eHubly , hai tháng đầu đã có gần 20.000 lượt tải .
+Thành_công đó khiến Cường mạnh_dạn đầu_tư làm khoá học online thu phí cũng trên ứng_dụng , có lúc kiếm được trên 5.000 USD một tháng .
+Câu_chuyện thành_công của Cường trở_thành ví_dụ điển_hình của eHubly do Khang cùng anh Nguyễn_Lưu_Quốc đồng sáng_lập năm 2015 .
+Quốc đã có gần 20 năm kinh_nghiệm làm giám_đốc công_ty phần_mềm cũng như cố_vấn cho nhiều công_ty lớn .
+Khang từng học công_nghệ_thông_tin nhưng có năm năm kinh_nghiệm trong lĩnh_vực kinh_doanh và marketing .
+Hai người với những thế mạnh khác nhau bắt_tay cùng xây_dựng một nền_tảng còn rất mới tại Việt_Nam , theo mô_hình SMAC ( xã_hội , di_động , phân_tích , đám mây ) .
+Lý_do chọn ứng_dụng rất thức_thời .
+Như lời Khang nói , sau kỷ_nguyên web sẽ là di_động và tiếp đến là chat bot , trí_tuệ_nhân_tạo .
+“ Tuy_nhiên , tại Việt_Nam hiện chưa có nền_tảng hỗ_trợ xuất_bản nội_dung số để giúp cho hoạt_động marketing , kinh_doanh hay phát_triển thương_hiệu .
+Nhiều người không biết code không_thể tiếp_cận với mô_hình này .
+Vì_vậy chúng_tôi quyết_định xây_dựng nền_tảng ” .
+Chỉ cần động_tác kéo thả đơn_giản , người dùng có_thể ngay_lập_tức tạo một ứng_dụng cho riêng mình .
+Các tính_năng có_thể được tuỳ chọn dựa vào nhu_cầu của từng đối_tượng khách_hàng .
+Đội_ngũ của eHubly sẽ hỗ_trợ trực_tuyến trong khâu thiết_kế , xây_dựng , xuất_bản , quảng_cáo cũng như duy_trì tương_tác với người dùng .
+Điểm nổi_trội của ứng_dụng chính là tính_năng thông_báo .
+“ 80 % khách_hàng sẽ nhận được thông_báo mới từ app của bạn ngay tức_thì vì chính bản_thân họ đã chấp_nhận khi được gợi_ý .
+Liên_tục có nội_dung mới và thú_vị sẽ giúp khách_hàng của chúng_tôi duy_trì độ ổn_định và có khả_năng thu tiền từ hoạt_động trên app ” , Khang cho biết .
+Đồng sáng_lập chia_sẻ toàn_bộ hệ_thống nền_tảng được đặt trên hệ_thống Cloud_Microsoft để mang lại tính ổn_định , an_toàn , bảo_mật và hỗ_trợ tối_đa từ công_ty công_nghệ số_một thế_giới .
+Cái khó nằm ở chỗ thuyết_phục người dùng với một xu_hướng khá mới_mẻ tại Việt_Nam .
+Nhiều người còn hồ_nghi trong việc tự tạo app mà không cần có kiến_thức hay kỹ_năng chuyên_sâu về công_nghệ .
+Kinh_nghiệm tiếp_xúc với khách_hàng của Khang cho thấy mọi người khá thú_hút với cái hay của ứng_dụng nhưng còn đặt ra nhiều dấu_hỏi về độ thực_tế .
+“ Bởi khách_hàng cần sự an_toàn , đảm_bảo về giá_trị , quyền_lợi và nhiều yếu_tố khác ở một sản_phẩm hoàn_toàn mới mà trước đó chưa có ai làm ” , anh giải_thích .
+Để giải_quyết , Khang và cộng_sự tổ_chức nhiều buổi giới_thiệu và chạy thử sản_phẩm .
+Họ tìm được nhiều khách_hàng như ca_sĩ Mỹ_Tâm , FaMiEdu , Kho sách nói , Hiểu về trái_tim , Manh_Hung_Wedding … Dù phát_triển tại thị_trường Việt_Nam , họ cũng có vài khách_hàng nước_ngoài đến từ Mỹ và Thuỵ_Điển .
+Tất_cả nguồn quỹ của dự_án đều do hai nhà đồng sáng_lập bỏ tiền_túi .
+Họ không có nhả đầu_tư và hiện chưa có ý_định kêu_gọi nhà_đầu_tư .
+Không phải thiếu tham_vọng , EHubly là giấc_mơ vươn tầm quốc_tế của Quốc và Khang .
+Nhưng chiến_lược của họ là hoàn_thiện sản_phẩm tới thang điểm 8-9 , trong khi tự nhận mình đang ở mức 6-7 .
+“ Đến khi nền_tảng và mọi thứ đủ mạnh mới là lúc cần tiền để bùng lên mạnh_mẽ .
+Đó là cả quá_trình chứ không phải một cú nhảy trong một ngày bởi sẽ rất dễ vỡ trận .
+Vì_vậy chúng_tôi cần thêm thời_gian để hoàn_thiện mình trước khi kêu_gọi nhà_đầu_tư ” , đồng sáng_lập chia_sẻ .
+Đến tháng thứ 18 , công_ty mới có lợi_nhuận ở bước ban_đầu .
+Hành_trình dài hơi vẫn chỉ mới bắt_đầu nhưng giờ đội_ngũ của eHubly đã có 20 người so với con_số tám ít_ỏi ban_đầu .
+Mục_tiêu hiện_tại là ngày_càng hoàn_thiện về nền_tảng và hạ_tầng bởi họ tâm_niệm với ứng_dụng điều quan_trọng nhất là ở trải_nghiệm của người dùng .
+Tiếp đến sẽ đẩy_mạnh bán hàng hay marketing .
+Lộ_trình được vạch ra cụ_thể để đi đến thang điểm 8-9 , mốc son tìm_kiếm nhà_đầu_tư .
+Hai nhà đồng sáng_lập không ngả_nghiêng về con_đường này , dù cơ_hội được đầu_tư là rất khả_dĩ trong thời_điểm hiện_tại .
+“ Phải làm sản_phẩm tốt thật_sự đã rồi mới nghĩ xa .
+Một_khi đã tốt thì khách_hàng sẽ tìm đến mình .
+Lúc đó việc thu_hút đầu_tư và mở_rộng kinh_doanh là rất dễ_dàng , không cần phải quá vội ” , Khang lý_giải .
+eHubly nằm trong Top 25 đơn_vị nổi_bật của chương_trình bình_chọn Startup_Việt 2017 do tổ_chức .
+Buổi chung_kết diễn ra vào ngày 24/10 tại Hà_Nội .
+Tại đây , 5 startup nổi_bật sẽ được lựa_chọn để thuyết_trình trực_tiếp trước Hội_đồng chuyên_môn , giành danh_hiệu Startup_Việt 2017 .
+Chương_trình có sự đồng_hành của Công_ty CP Tập_đoàn Asanzo và Ngân_hàng TMCP An_Bình ( ABBank ) .
+Đây là năm thứ hai liên_tiếp VnExpress tổ_chức bình_chọn Startup_Việt , thu_hút hơn 200 hồ_sơ đăng_ký tham_dự .
+Các dự_án tham_gia đều góp_phần giải_quyết những vấn_đề tồn_tại trong thực_tế , dựa trên nền_tảng công_nghệ hiện_đại .

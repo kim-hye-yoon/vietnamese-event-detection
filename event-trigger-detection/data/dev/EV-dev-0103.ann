@@ -1,0 +1,28 @@
+T1	Attack 150 156	bắn hạ
+E1	Attack:T1 Target-Arg:T2 Instrument-Arg:T3 Attacker-Arg:T4
+T2	WEA 161 180	chiến_đấu cơ_Sukhoi
+T3	WEA 112 146	hệ_thống phòng_thủ tên_lửa Patriot
+T4	ORG 68 83	Quân_đội Israel
+T5	VEH 419 435	phi_cơ của Syria
+T8	ORG 599 614	quân_đội Israel
+T9	Attack 753 761	tấn_công
+E4	Attack:T9 Target-Arg:T10 Attacker-Arg:T11 Place-Arg:T12
+T10	VEH 762 774	chiến_đấu cơ
+T11	ORG 695 701	Israel
+T12	LOC 809 823	bầu_trời Syria
+T16	Attack 1181 1194	vụ không_kích
+E6	Attack:T16 Target-Arg:T17 Place-Arg:T18
+T17	ORG 1204 1218	lực_lượng Iran
+T18	LOC 1229 1243	lãnh_thổ Syria
+T19	Attack 42 45	bắn
+E7	Attack:T19 Instrument-Arg:T20
+T20	WEA 22 41	tên_lửa phòng_không
+T7	Attack 631 634	bắn
+E3	Attack:T7 Target-Arg:T13 Attacker-Arg:T8
+T13	WEA 635 645	cường_kích
+T6	Transport 439 442	bay
+E2	Transport:T6 Vehicle-Arg:T5
+T14	Attack 515 524	trúng đạn
+E5	Attack:T14 Target-Arg:T15 Place-Arg:T21
+T15	VEH 527 534	máy_bay
+T21	GPE 553 567	lãnh_thổ Syria

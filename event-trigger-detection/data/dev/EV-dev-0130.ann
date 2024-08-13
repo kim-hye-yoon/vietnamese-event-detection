@@ -1,0 +1,4 @@
+T1	Transfer-ownership 2193 2197	xuất
+E1	Transfer-ownership:T1 Buyer-Arg:T3 Place-Arg:T2
+T2	LOC 2202 2220	thị_trường châu_Âu
+T3	PER 2163 2180	nông_dân miền Tây

@@ -1,0 +1,14 @@
+T1	Fine 19 23	phạt
+E1	Fine:T1 Crime-Arg:T3 Entity-Arg:T2
+T2	ORG 6 15	Thép Việt
+T3	CRIME 27 54	công_bố thông_tin giao_dịch
+T4	ORG 72 110	Uỷ_ban Chứng_khoán Nhà_nước ( UBCKNN )
+T5	TIME 55 69	Ngày 29/4/2014
+T6	Fine 152 159	xử_phạt
+E2	Fine:T6 Entity-Arg:T7 Adjudicator-Arg:T4 Time-Arg:T5
+T7	ORG 187 232	Công_ty TNHH Thương_mại và Sản_xuất Thép_Việt
+T8	ORG 244 289	Công_ty TNHH Thương_mại và Sản_xuất Thép_Việt
+T9	Fine 293 302	phạt tiền
+E3	Fine:T9 Money-Arg:T10 Entity-Arg:T8 Crime-Arg:T11
+T10	MONEY 303 316	40 triệu đồng
+T11	CRIME 320 770	báo_cáo không đúng thời_hạn về lý_do không thực_hiện hết khối_lượng đăng_ký ( đăng_ký mua 6,527,552 cổ_phiếu POM của CTCP Thép_Pomina từ ngày 4/4/2013 đến ngày 3/5/2013 và đã khớp lệnh mua tổng_cộng 233,220 cổ_phiếu POM nhưng đến ngày 5/6/2013 , Công_ty mới báo_cáo về lý_do không thực_hiện hết khối_lượng đăng_ký ) và không báo_cáo trước khi thực_hiện giao_dịch ( mua 117,950 cổ_phiếu POM trong khoảng thời_gian từ ngày 6/5/2013 đến ngày 28/5/2013 )

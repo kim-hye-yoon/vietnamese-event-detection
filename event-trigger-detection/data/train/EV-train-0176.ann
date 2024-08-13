@@ -1,0 +1,43 @@
+T1	Die 175 182	tử_vong
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T3
+T2	PER 168 174	cô_gái
+T3	PER 103 127	tài_xế Nguyễn_Minh_Triều
+T4	PER 197 211	nam thanh_niên
+T5	Injure 229 238	nguy_kịch
+E2	Injure:T5 Victim-Arg:T4 Agent-Arg:T3
+T6	Transport 676 678	đi
+E3	Transport:T6 Origin-Arg:T7 Destination-Arg:T8 Agent-Arg:T9 Artifact-Arg:T10
+T7	GPE 691 707	TP Buôn_Ma_Thuột
+T8	GPE 710 724	thị_xã Buôn_Hồ
+T9	PER 512 529	Anh Lê_Ngọc_Hoàng
+T10	PER 644 666	em_gái Lê_Thị_Minh_Tâm
+T11	Attack 850 854	tông
+E4	Attack:T11 Attacker-Arg:T13 Instrument-Arg:T12
+T12	VEH 732 761	xe ô_tô mang BKS 47A – 021.45
+T13	PER 765 789	tài_xế Nguyễn_Minh_Triều
+T14	Die 1116 1123	tử_vong
+E5	Die:T14 Victim-Arg:T17 Agent-Arg:T18
+T15	Injure 1172 1181	nguy_kịch
+E6	Injure:T15 Victim-Arg:T16 Agent-Arg:T18
+T16	PER 1141 1150	anh Hoàng
+T17	PER 1102 1120	em Lê_Thị_Minh_Tâm
+T18	PER 992 1020	tài_xế của chiếc xe ô_tô này
+T19	Arrest-jail 1454 1461	bắt_giữ
+E7	Arrest-jail:T19 Person-Arg:T20 Agent-Arg:T21
+T20	PER 1469 1493	lái_xe Nguyễn_Minh_Triều
+T21	PER 1388 1426	lực_lượng chức_năng CATP Buôn_Ma_Thuột
+T22	Attack 1541 1544	cán
+E8	Attack:T22 Target-Arg:T24 Attacker-Arg:T20
+T23	Die 1545 1549	chết
+E9	Die:T23 Victim-Arg:T24 Agent-Arg:T20
+T24	PER 1557 1565	nạn_nhân
+T25	Attack 145 148	cán
+E10	Attack:T25 Attacker-Arg:T3 Target-Arg:T2 Target-Arg2:T4
+T26	Attack 32 35	cán
+E11	Attack:T26 Target-Arg:T27 Attacker-Arg:T28
+T27	PER 36 44	nạn_nhân
+T28	PER 9 23	kẻ gây tai_nạn
+T29	Arrest-jail 1 8	Bắt_giữ
+E12	Arrest-jail:T29 Person-Arg:T28
+T30	Die 49 53	chết
+E13	Die:T30 Victim-Arg:T27 Agent-Arg:T28

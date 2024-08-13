@@ -1,0 +1,38 @@
+T1	PER 0 11	Tàn_quân IS
+T2	Transport 12 16	chạy
+E1	Transport:T2 Destination-Arg:T3 Agent-Arg:T1
+T3	GPE 20 32	thủ_đô Syria
+T4	PER 132 150	nhóm phiến quân IS
+T5	Transport 156 163	bỏ chạy
+E2	Transport:T5 Agent-Arg:T4 Destination-Arg:T6
+T6	GPE 167 196	hướng tây tới thủ_đô Damascus
+T7	Transport 973 982	di_chuyển
+E3	Transport:T7 
+T8	Charge-indict 1231 1239	cáo_buộc
+E4	Charge-indict:T8 Defendant-Arg:T9 Prosecutor-Arg:T10
+T9	GPE 1253 1255	Mỹ
+T10	GPE 1207 1210	Nga
+T11	Transport 83 91	rút chạy
+E5	Transport:T11 Origin-Arg:T13 Agent-Arg:T12
+T12	ORG 66 77	Tàn_quân IS
+T13	GPE 96 101	Syria
+T14	Transport 590 597	bỏ trốn
+E6	Transport:T14 Artifact-Arg:T15 Origin-Arg:T16 Origin-Arg2:T17
+T15	PER 520 575	tàn_quân thuộc tổ_chức Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T16	GPE 512 517	Syria
+T17	GPE 504 508	Iraq
+T18	Attack 678 687	truy_kích
+E7	Attack:T18 Target-Arg:T20 Place-Arg:T19
+T19	LOC 701 743	những khu_vực do chính_phủ Syria kiểm_soát
+T20	PER 688 698	phiến quân
+T21	Attack 930 938	tấn_công
+E8	Attack:T21 Target-Arg:T22 Attacker-Arg:T23
+T22	PER 939 952	phiến quân IS
+T23	ORG 869 915	chính_quyền Tổng_thống Syria_Bashar al - Assad
+T24	Die 1698 1708	nghiền nát
+E9	Die:T24 Victim-Arg:T25
+T25	PER 1687 1689	IS
+T26	Attack 1296 1305	tiêu_diệt
+E10	Attack:T26 Target-Arg:T27 Place-Arg:T28
+T27	PER 1306 1319	phiến quân IS
+T28	LOC 1338 1421	khu_vực sông Euphrates ngăn_cách vùng hoạt_động giữa không_quân Nga và Mỹ tại Syria

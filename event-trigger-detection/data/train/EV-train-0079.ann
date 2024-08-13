@@ -1,0 +1,46 @@
+T1	Execute 36 42	xử bắn
+E1	Execute:T1 
+T2	SEN 23 30	tử_hình
+T3	Execute 67 78	thi_hành án
+E2	Execute:T3 
+T4	Execute 137 156	thi_hành án tử_hình
+E3	Execute:T4 
+T5	Execute 224 243	thi_hành án tử_hình
+E4	Execute:T5 
+T6	Execute 346 357	thi_hành án
+E5	Execute:T6 
+T7	Execute 780 799	thi_hành án tử_hình
+E6	Execute:T7 
+T8	Convict 1137 1146	bị kết_án
+E7	Convict:T8 Defendant-Arg:T9
+T9	PER 1127 1136	508 người
+T10	SEN 1147 1154	tử_hình
+T11	Sentence 1157 1163	bản_án
+E8	Sentence:T11 Sentence-Arg:T10 Defendant-Arg:T9
+T12	PER 1232 1239	3 người
+T13	Die 1240 1244	chết
+E9	Die:T13 Victim-Arg:T12
+T15	PER 1259 1266	3 người
+T14	Die 1267 1273	tự_sát
+E10	Die:T14 Victim-Arg:T15
+T16	Execute 1312 1323	thi_hành án
+E11	Execute:T16 
+T17	Execute 1385 1396	thi_hành án
+E12	Execute:T17 
+T18	Arrest-jail 1431 1439	giam_giữ
+E13	Arrest-jail:T18 
+T19	Execute 1745 1764	thi_hành án tử_hình
+E14	Execute:T19 
+T20	Execute 1780 1786	xử bắn
+E15	Execute:T20 
+T21	Execute 1820 1839	thi_hành án tử_hình
+E16	Execute:T21 
+T22	Execute 2287 2306	thi_hành án tử_hình
+E17	Execute:T22 
+T23	Execute 2549 2560	thi_hành án
+E18	Execute:T23 Person-Arg:T24
+T24	PER 2524 2539	hàng trăm tử_tù
+T25	Execute 3178 3197	thi_hành án tử_hình
+E19	Execute:T25 
+T26	Execute 3440 3451	thi_hành án
+E20	Execute:T26 

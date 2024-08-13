@@ -1,0 +1,49 @@
+T1	Charge-indict 85 92	khởi_tố
+E1	Charge-indict:T1 Prosecutor-Arg:T2 Time-Arg:T3
+T2	ORG 44 79	Công_an TP. Bảo_Lộc ( tỉnh Lâm_Đồng
+T3	TIME 32 41	Ngày 10/3
+T4	Charge-indict 101 108	khởi_tố
+E2	Charge-indict:T4 Prosecutor-Arg:T2 Defendant-Arg:T5
+T5	PER 109 115	bị_can
+T6	Transport 374 377	đến
+E3	Transport:T6 Agent-Arg:T10 Agent-Arg2:T8 Agent-Arg3:T9 Destination-Arg:T7 Time-Arg:T35
+T7	LOC 378 387	phòng trọ
+T8	PER 180 194	Ngô_Đình_Thuận
+T9	PER 270 286	Thái_Thị_Minh_Lý
+T10	PER 308 328	Phương_Thị_Thanh_Lan
+T11	Be-born 197 201	sinh
+E4	Be-born:T11 Time-Arg:T12 Person-Arg:T8
+T12	TIME 202 210	năm 1996
+T13	Be-born 289 293	sinh
+E5	Be-born:T13 Person-Arg:T9 Time-Arg:T14
+T14	TIME 294 302	năm 1997
+T15	Be-born 331 335	sinh
+E6	Be-born:T15 Person-Arg:T10 Time-Arg:T16
+T16	TIME 336 344	năm 1999
+T17	PER 709 717	2 cô_gái
+T18	Transport 721 724	đến
+E7	Transport:T18 Agent-Arg:T17 Destination-Arg:T19
+T20	Sue 745 751	tố_cáo
+E8	Sue:T20 Plaintiff-Arg:T17
+T19	LOC 725 744	Công_an TP. Bảo_Lộc
+T21	Attack 15 23	hãm_hiếp
+E9	Attack:T21 Target-Arg:T22
+T22	PER 24 31	bạn gái
+T24	Attack 673 681	hãm_hiếp
+E10	Attack:T24 Target-Arg:T33 Attacker-Arg:T34
+T25	Attack 868 876	hãm_hiếp
+E11	Attack:T25 Target-Arg:T26 Attacker-Arg:T27
+T26	PER 877 880	Lan
+T27	PER 862 867	Thuận
+T28	PER 855 857	Lý
+T29	Attack 846 854	hãm_hiếp
+E12	Attack:T29 Target-Arg:T28 Attacker-Arg:T30
+T30	PER 838 842	Minh
+T31	Transport 957 961	trốn
+E13	Transport:T31 Agent-Arg:T32
+T32	PER 945 950	Thuận
+T33	PER 682 692	hai cô_gái
+T34	PER 641 654	Thuận và Minh
+T35	TIME 158 177	khoảng 10h ngày 9/3
+T23	Attack 136 144	hiếp_dâm
+E14	Attack:T23 Attacker-Arg:T5

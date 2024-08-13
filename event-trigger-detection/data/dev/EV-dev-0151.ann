@@ -1,0 +1,57 @@
+T1	Attack 24 26	xả
+E1	Attack:T1 Attacker-Arg:T6 Instrument-Arg:T2 Place-Arg:T3
+T2	WEA 27 31	súng
+T3	GPE 34 45	New_Zealand
+T4	Execute 54 61	tử_hình
+E2	Execute:T4 Person-Arg:T6
+T5	PER 0 10	Người_thân
+T6	PER 15 23	hung_thủ
+T7	PER 307 316	nghi phạm
+T8	Die 317 324	sát_hại
+E3	Die:T8 Agent-Arg:T7 Victim-Arg:T9 Place-Arg:T10 Time-Arg:T11
+T9	PER 325 333	50 người
+T10	GPE 336 358	thành_phố Christchurch
+T11	TIME 359 367	hôm 15/3
+T12	Attack 423 431	tấn_công
+E4	Attack:T12 Attacker-Arg:T13
+T13	PER 372 379	Tarrant
+T14	Attack 870 872	xả
+E5	Attack:T14 Instrument-Arg:T15
+T15	WEA 873 877	súng
+T16	Arrest-jail 923 931	tạm giam
+E6	Arrest-jail:T16 Agent-Arg:T18 Person-Arg:T17
+T17	PER 887 908	Bà và em_gái , Lauren
+T18	PER 914 922	cảnh_sát
+T19	Phone-write 960 968	liên_lạc
+E7	Phone-write:T19 Entity-Arg:T20 Entity-Arg2:T17
+T20	PER 973 982	người_nhà
+T21	Die 1119 1126	qua_đời
+E8	Die:T21 Victim-Arg:T23 Time-Arg:T22
+T22	TIME 1138 1146	năm 2010
+T23	PER 1086 1116	bố , một công_nhân thu_gom rác
+T24	Transport 1165 1175	đi du_lịch
+E9	Transport:T24 Agent-Arg:T26 Destination-Arg:T25
+T25	GPE 1182 1189	châu_Âu
+T26	PER 1149 1156	Tarrant
+T27	Attack 1497 1499	xả
+E10	Attack:T27 Instrument-Arg:T28 Time-Arg:T29 Attacker-Arg:T30 Target-Arg:T31
+T28	WEA 1500 1504	súng
+T29	TIME 1505 1520	cuối tuần trước
+T30	PER 1368 1375	Tarrant
+T31	PER 1441 1483	những người nhập_cư không phải là da trắng
+T32	Die 1633 1637	giết
+E11	Die:T32 Victim-Arg:T33 Agent-Arg:T34
+T33	PER 1638 1643	người
+T34	PER 1523 1524	Y
+T35	Execute 1672 1679	tử_hình
+E12	Execute:T35 Person-Arg:T36
+T36	PER 1648 1654	Cậu ta
+T37	Attack 2074 2077	đấm
+E13	Attack:T37 Target-Arg:T38 Attacker-Arg:T39
+T38	PER 2086 2092	cậu ta
+T39	PER 2067 2070	tôi
+T40	Attack 2338 2346	tấn_công
+E14	Attack:T40 
+T41	Attack 2634 2636	xả
+E15	Attack:T41 Instrument-Arg:T42
+T42	WEA 2637 2641	súng

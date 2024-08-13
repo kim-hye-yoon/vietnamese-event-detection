@@ -1,0 +1,52 @@
+T1	PER 248 252	Linh
+T2	LOC 266 269	Nam
+T3	Transport 262 265	vào
+E1	Transport:T3 Destination-Arg:T2 Agent-Arg:T1
+T4	PER 555 559	Linh
+T5	PER 572 574	T.
+T6	Phone-write 560 568	gọi điện
+E2	Phone-write:T6 Entity-Arg:T5 Entity-Arg2:T4
+T7	PER 602 607	cô_bé
+T8	GPE 664 674	Bình_Dương
+T9	Transport 660 663	lên
+E3	Transport:T9 Destination-Arg:T8 Artifact-Arg:T7
+T10	PER 690 694	Linh
+T11	PER 699 704	bé T.
+T12	FAC 709 730	một khách_sạn ở Dĩ_An
+T13	Transport 695 698	đưa
+E4	Transport:T13 Artifact-Arg:T11 Agent-Arg:T10 Destination-Arg:T12
+T14	PER 1030 1034	Linh
+T15	Phone-write 1044 1052	gọi điện
+E5	Phone-write:T15 Entity-Arg:T16 Entity-Arg2:T14
+T16	PER 1057 1062	bà H.
+T17	PER 1565 1569	Linh
+T18	PER 1573 1575	T.
+T19	Transport 1584 1587	vào
+E6	Transport:T19 Destination-Arg:T20 Artifact-Arg:T17 Artifact-Arg2:T18
+T20	FAC 1602 1611	khách_sạn
+T21	PER 1628 1633	bà H.
+T22	Transport 1641 1644	đến
+E7	Transport:T22 Destination-Arg:T23 Artifact-Arg:T21
+T23	FAC 1645 1663	công_an địa_phương
+T24	PER 2001 2020	bị_cáo Mai_Văn_Linh
+T25	Sentence 2024 2034	tuyên_phạt
+E8	Sentence:T25 Defendant-Arg:T24 Sentence-Arg:T26 Crime-Arg:T27 Sentence-Arg2:T28 Crime-Arg2:T29
+T26	SEN 2035 2046	42 tháng tù
+T27	CRIME 2050 2076	hành_vi cưỡng_đoạt tài_sản
+T28	SEN 2079 2090	36 tháng tù
+T29	CRIME 2094 2121	hành_vi giao_cấu với trẻ_em
+T30	PER 1953 1966	đối_tượng này
+T31	ORG 1973 1976	toà
+T32	Trial-hearing 1984 1990	xét_xử
+E9	Trial-hearing:T32 Adjudicator-Arg:T31 Defendant-Arg:T30
+T33	PER 156 168	Mai_Văn_Linh
+T34	Be-born 171 173	SN
+E10	Be-born:T34 Person-Arg:T33 Time-Arg:T35
+T35	TIME 174 178	1988
+T36	PER 374 387	cô_bé tên V.T
+T37	Be-born 391 393	SN
+E11	Be-born:T37 Person-Arg:T36 Time-Arg:T38
+T38	TIME 394 398	2000
+T39	PER 1917 1921	Linh
+T40	Arrest-jail 1925 1931	bị bắt
+E12	Arrest-jail:T40 Person-Arg:T39

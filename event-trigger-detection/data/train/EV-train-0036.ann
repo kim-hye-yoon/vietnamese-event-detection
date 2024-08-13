@@ -1,0 +1,32 @@
+T1	Divorce 29 35	ly_hôn
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T3
+T2	PER 0 9	Brad_Pitt
+T3	PER 36 52	Jennifer_Aniston
+T4	Divorce 125 131	ly_hôn
+E2	Divorce:T4 Person-Arg:T6 Person-Arg2:T5
+T5	PER 136 152	Jennifer_Aniston
+T6	PER 72 81	Brad_Pitt
+T7	Divorce 234 256	kết_thúc cuộc hôn_nhân
+E3	Divorce:T7 Person-Arg:T9 Person-Arg2:T8
+T8	PER 261 277	Jennifer_Aniston
+T9	PER 204 213	Brad_Pitt
+T10	Divorce 725 747	kết_thúc cuộc hôn_nhân
+E4	Divorce:T10 Person-Arg:T11 Person-Arg2:T12 Time-Arg:T13
+T11	PER 715 724	Brad_Pitt
+T12	PER 752 768	Jennifer_Aniston
+T13	TIME 699 712	Tháng 10/2005
+T14	Divorce 1004 1010	ly_hôn
+E5	Divorce:T14 Person-Arg:T15
+T15	PER 947 963	Jennifer Aniston
+T16	Marry 1128 1135	kết_hôn
+E6	Marry:T16 Person-Arg:T17 Person-Arg2:T18 Time-Arg:T19
+T17	PER 1111 1127	Jennifer_Aniston
+T18	PER 1136 1150	Justin_Theroux
+T19	TIME 1151 1159	năm 2015
+T21	TIME 1176 1184	năm 2018
+T22	Divorce 1103 1108	ly_dị
+E8	Divorce:T22 Person-Arg:T17
+T23	Divorce 1211 1217	ly_hôn
+E9	Divorce:T23 Person-Arg:T24 Person-Arg2:T25
+T24	PER 1187 1196	Brad_Pitt
+T25	PER 1231 1245	Angelina_Jolie

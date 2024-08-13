@@ -1,0 +1,23 @@
+T1	Die 30 34	chết
+E1	Die:T1 Agent-Arg:T2
+T2	PER 1 24	Chánh thanh_tra Sở Y_tế
+T3	Convict 41 48	lãnh_án
+E2	Convict:T3 Crime-Arg:T4 Defendant-Arg:T2
+T4	CRIME 25 39	tông chết ngườ
+T5	Die 166 173	tử_vong
+E3	Die:T5 Victim-Arg:T6 Agent-Arg:T7
+T6	PER 151 165	cô_gái 23 tuổi
+T7	PER 49 82	Chánh Thanh_tra Sở Y_tế Quảng_Nam
+T8	Sentence 223 233	tuyên_phạt
+E4	Sentence:T8 Adjudicator-Arg:T10 Time-Arg:T11 Defendant-Arg:T9 Sentence-Arg:T12 Crime-Arg:T13
+T9	PER 234 249	Trần_Quang_Hiền
+T10	ORG 188 219	TAND quận Hải_Châu , TP Đà_Nẵng
+T11	TIME 176 185	Ngày 10-2
+T12	SEN 355 383	9 tháng tù cho hưởng án_treo
+T13	CRIME 393 459	Vi_phạm các quy_định về điều_khiển phương_tiện giao_thông đường_bộ
+T14	Fine 505 515	bồi_thường
+E5	Fine:T14 Adjudicator-Arg:T15
+T15	ORG 475 479	HĐXX
+T16	PER 520 535	gia_đình bị hại
+T17	MONEY 536 550	215 triệu đồng
+T18	PER 496 504	ông Hiền

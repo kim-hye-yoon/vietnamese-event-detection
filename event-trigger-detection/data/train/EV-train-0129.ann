@@ -1,0 +1,45 @@
+T1	Die 146 157	thương_vong
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T3
+T2	PER 138 145	2 người
+T3	PER 78 118	nguyên Chánh thanh_tra Sở Y_tế Quảng_Nam
+T4	TIME 186 195	Ngày 10/2
+T5	Sentence 231 241	tuyên_phạt
+E2	Sentence:T5 Defendant-Arg:T6 Time-Arg:T4 Adjudicator-Arg:T7 Crime-Arg:T8 Sentence-Arg:T9
+T6	PER 242 371	bị_cáo Trần_Quang_Hiền ( SN 1959 , trú xã Duy_Hoà , huyện Duy_Xuyên , tỉnh Quảng_Nam ) , nguyên Chánh thanh_tra Sở Y_tế Quảng_Nam
+T7	ORG 198 227	HĐXX sơ_thẩm TAND TP. Đà_Nẵng
+T8	CRIME 381 473	vi_phạm các quy_định khi điều_khiển phương_tiện giao_thông đường_bộ gây hậu_quả nghiêm_trọng
+T9	SEN 487 502	9 tháng tù_treo
+T10	Trial-hearing 550 559	phiên_toà
+E3	Trial-hearing:T10 Defendant-Arg:T11
+T11	PER 505 545	Nguyên Chánh thanh_tra Sở y_tế Quảng_Nam
+T13	TIME 603 632	vào_khoảng 20h25 tối 5/6/2013
+T14	PER 635 654	ông Trần_Quang_Hiền
+T15	VEH 660 707	xe ô_tô mang BKS 51 A -074.15 của một người bạn
+T16	Transport 711 713	đi
+E4	Transport:T16 Destination-Arg:T17 Vehicle-Arg:T15 Agent-Arg:T14 Time-Arg:T13
+T17	FAC 721 748	trên đường Nguyễn_Tất_Thành
+T12	Transport 773 779	lùi xe
+E5	Transport:T12 Destination-Arg:T19 Agent-Arg:T18
+T18	PER 764 772	ông Hiền
+T19	FAC 783 805	đường Nguyễn_Tất_Thành
+T20	Attack 902 906	tông
+E6	Attack:T20 Target-Arg:T22 Instrument-Arg:T21
+T21	VEH 875 898	xe ô_tô do ông Hiền lùi
+T22	VEH 911 1051	2 xe_máy BKS 43 S 4-1880 do anh Phạm_Văn_Hiếu ( SN 1990 ) điều_khiển và 43 R 2-4754 do chị Trần_Thị_Minh_Nguyệt ( SN 1987 ) điều_khiển khiển
+T23	Injure 1063 1072	bị_thương
+E7	Injure:T23 Victim-Arg:T24
+T24	PER 1054 1062	Anh Hiếu
+T25	Attack 1229 1232	đâm
+E8	Attack:T25 Target-Arg:T26 Instrument-Arg:T28 Attacker-Arg:T27
+T26	VEH 1237 1345	xe_máy BKS 43 S 1-2330 do chị Nguyễn_Nhật_Huyền_Trang ( SN 1990 , trú quận Sơn_Trà , TP Đà_Nẵng ) điều_khiển
+T27	PER 1170 1178	Ông Hiền
+T28	VEH 1209 1216	xe ô_tô
+T29	Die 1418 1425	tử_vong
+E9	Die:T29 Victim-Arg:T30
+T30	PER 1408 1417	chị Trang
+T31	Fine 1734 1744	bồi_thường
+E10	Fine:T31 Entity-Arg:T34 Adjudicator-Arg:T35 Money-Arg:T33
+T32	PER 1749 1766	gia_đình nạn_nhân
+T33	MONEY 1767 1781	215 triệu đồng
+T34	PER 1722 1728	bị_cáo
+T35	ORG 1703 1707	HĐXX

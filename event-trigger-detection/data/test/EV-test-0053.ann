@@ -1,0 +1,27 @@
+T1	Die 19 27	tự_thiêu
+E1	Die:T1 Agent-Arg:T2 Victim-Arg:T2 Place-Arg:T3
+T2	PER 0 18	Người tị_nạn Syria
+T3	GPE 34 57	văn_phòng Liên_Hợp_Quốc
+T4	PER 161 180	người đàn_ông Syria
+T5	Injure 208 216	tự_thiêu
+E2	Injure:T5 Agent-Arg:T4 Victim-Arg:T4 Place-Arg:T6 Time-Arg:T7
+T6	GPE 246 298	Liên_Hợp_Quốc ở thành_phố Tripoli , miền bắc Lebanon
+T7	TIME 305 309	10/1
+T8	Injure 405 414	bỏng nặng
+E3	Injure:T8 Victim-Arg:T9
+T9	PER 396 401	Zibou
+T10	PER 539 544	Zibou
+T11	Injure 548 552	bỏng
+E4	Injure:T11 Victim-Arg:T10
+T12	Transport 1206 1212	sơ_tán
+E5	Transport:T12 Destination-Arg:T13 Artifact-Arg:T14
+T13	GPE 1218 1225	Lebanon
+T16	PER 374 379	Zibou
+T17	Transport 370 373	đưa
+E7	Transport:T17 Artifact-Arg:T16 Artifact-Arg2:T18 Destination-Arg:T15
+T18	PER 328 351	Nhân_viên Liên_Hợp_Quốc
+T15	LOC 384 393	bệnh_viện
+T14	PER 1172 1197	gần một triệu người Syria
+T19	Attack 1229 1237	xung_đột
+E6	Attack:T19 Place-Arg:T20
+T20	LOC 1240 1247	quê_nhà

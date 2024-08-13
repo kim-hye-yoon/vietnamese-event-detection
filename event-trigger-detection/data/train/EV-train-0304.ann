@@ -1,0 +1,19 @@
+T1	PER 1 11	Công_an xã
+T2	Die 12 15	chế
+E1	Die:T2 Victim-Arg:T1
+T3	PER 278 294	một công_an_viên
+T4	GPE 295 328	xã Trà_Giang ( huyện Bắc_Trà_My )
+T5	TIME 156 164	Trưa 4/5
+T6	Die 329 333	chết
+E2	Die:T6 Time-Arg:T5 Victim-Arg:T3 Place-Arg:T4
+T7	TIME 491 512	khoảng 16h30 ngày 3/5
+T8	PER 535 596	ông N.T . M . ( 28 tuổi , hiện là công_an_viên xã Trà_Giang )
+T9	Die 597 601	chết
+E3	Die:T9 Victim-Arg:T8 Time-Arg:T7 Place-Arg:T10
+T10	LOC 623 672	ở vườn cây phía sau nhà tại thôn 4 , xã Trà_Giang
+T11	PER 932 937	bà X.
+T12	PER 1031 1047	Một_số người_dân
+T13	Transport 1051 1054	đưa
+E4	Transport:T13 Agent-Arg:T12 Artifact-Arg:T14 Destination-Arg:T15
+T14	PER 1055 1059	bà X
+T15	FAC 1061 1082	vào bệnh_viện cấp_cứu

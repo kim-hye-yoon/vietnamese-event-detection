@@ -1,0 +1,82 @@
+T1	Attack 11 15	chém
+E1	Attack:T1 Target-Arg:T3 Time-Arg:T4
+T2	Die 16 20	chết
+E2	Die:T2 Victim-Arg:T3 Time-Arg:T4
+T3	PER 21 35	vợ và con_trai
+T4	TIME 0 8	Giữa đêm
+T5	Attack 175 179	chém
+E3	Attack:T5 Target-Arg:T7 Attacker-Arg:T8 Instrument-Arg:T9
+T6	Die 180 184	chết
+E4	Die:T6 Victim-Arg:T7 Agent-Arg:T8 Instrument-Arg:T9
+T7	PER 185 204	vợ và con_trai mình
+T8	PER 134 158	Phạm_Văn_Hải ( SN 1957 )
+T9	WEA 167 174	dao_rựa
+T10	Attack 319 323	chém
+E5	Attack:T10 Attacker-Arg:T13 Target-Arg:T12
+T11	Die 324 328	chết
+E6	Die:T11 Agent-Arg:T13 Victim-Arg:T12
+T12	PER 329 338	vợ và con
+T13	PER 268 290	Nghi_phạm Phạm_Văn_Hải
+T14	Transport 662 668	đi đến
+E7	Transport:T14 Agent-Arg:T16 Artifact-Arg:T15 Destination-Arg:T17 Origin-Arg:T18 Time-Arg:T19
+T15	PER 595 661	con_trai bà Vông là anh Phạm_Tuấn_Anh ( SN 1981 , là con ông Hải )
+T16	PER 384 395	Phạm_Văn_Độ
+T17	LOC 669 696	huyện Gia_Lộc ( Hải_Dương )
+T18	LOC 447 460	thôn Trạch_Lộ
+T19	TIME 492 509	5 giờ 30 ngày 3/5
+T20	Die 951 958	nằm gục
+E8	Die:T20 Victim-Arg:T21
+T21	PER 938 945	bà Vông
+T22	Die 1246 1250	chết
+E9	Die:T22 Victim-Arg:T23
+T23	PER 1183 1190	bà Vông
+T24	Die 1349 1356	tắt_thở
+E10	Die:T24 Victim-Arg:T25
+T25	PER 1303 1311	Tuấn_Anh
+T26	Attack 1403 1406	cắt
+E11	Attack:T26 Target-Arg:T27
+T27	PER 1382 1390	Tuấn_Anh
+T28	WEA 1469 1476	dao_rựa
+T29	Attack 1477 1481	chém
+E12	Attack:T29 Attacker-Arg:T32 Target-Arg:T31 Instrument-Arg:T28
+T30	Die 1482 1486	chết
+E13	Die:T30 Victim-Arg:T31 Agent-Arg:T32
+T31	PER 1487 1496	vợ và con
+T32	PER 1436 1443	ông Hải
+T33	Die 1803 1810	sát_hại
+E14	Die:T33 Victim-Arg:T34 Agent-Arg:T35 Instrument-Arg:T55
+T34	PER 1811 1825	vợ và con_trai
+T35	PER 1723 1730	ông Hải
+T36	Attack 1984 1988	chém
+E15	Attack:T36 Attacker-Arg:T37 Target-Arg:T39 Instrument-Arg:T38 Time-Arg:T56
+T37	PER 1961 1968	ông Hải
+T38	WEA 1976 1983	dao_rựa
+T39	PER 2023 2032	vợ và con
+T40	Attack 2091 2094	cắt
+E16	Attack:T40 Attacker-Arg:T43 Target-Arg:T42 Instrument-Arg:T41
+T41	WEA 2087 2090	dao
+T42	PER 2102 2115	vợ , con mình
+T43	PER 2065 2072	ông Hải
+T44	Attack 2161 2165	chém
+E17	Attack:T44 Attacker-Arg:T46 Target-Arg:T47
+T45	Die 2166 2170	chết
+E18	Die:T45 Agent-Arg:T46 Victim-Arg:T47
+T46	PER 2155 2160	chồng
+T47	PER 2171 2180	vợ và con
+T48	Attack 2638 2642	chém
+E19	Attack:T48 Target-Arg:T49 Target-Arg2:T50 Instrument-Arg:T51
+T49	PER 2627 2634	Bà Vông
+T50	PER 2656 2664	Tuấn_Anh
+T51	WEA 2682 2689	dao_rựa
+T52	Arrest-jail 4424 4439	tạm giữ hình_sự
+E20	Arrest-jail:T52 Agent-Arg:T54 Person-Arg:T53 Time-Arg:T60 Crime-Arg:T61
+T53	PER 4470 4482	Phạm_Văn_Hải
+T54	ORG 4357 4382	Cơ_quan CSĐT Công_an tỉnh
+T55	WEA 1799 1802	dao
+T56	TIME 1909 1923	3 giờ sáng 3-5
+T57	PER 3532 3539	ông Hải
+T58	Transport 3540 3543	đem
+E21	Transport:T58 Agent-Arg:T57 Destination-Arg:T59
+T59	FAC 3569 3577	giữa sân
+T60	TIME 4242 4251	Chiều 3-5
+T61	CRIME 4443 4461	hành_vi giết người

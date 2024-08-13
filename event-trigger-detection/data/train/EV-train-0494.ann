@@ -1,0 +1,12 @@
+T1	Sue 249 255	tố_cáo
+E1	Sue:T1 Defendant-Arg:T5 Adjudicator-Arg:T4 Time-Arg:T3 Crime-Arg:T2
+T2	CRIME 256 296	quan_hệ bất_chính với phụ_nữ đã có chồng
+T3	TIME 53 62	Ngày 18/5
+T4	ORG 149 177	cơ_quan_chức_năng địa_phương
+T5	PER 200 243	ông Nguyễn_Văn_Quân - Trưởng công_an xã này
+T6	Sue 428 435	tố_giác
+E2	Sue:T6 Plaintiff-Arg:T7 Defendant-Arg:T8 Crime-Arg:T9 Time-Arg:T10
+T7	PER 388 419	anh Nguyễn ( trú xã Phong_Lộc )
+T8	PER 436 444	ông Quân
+T9	CRIME 445 478	lén_lút vào nhà_nghỉ cùng vợ mình
+T10	TIME 371 385	Hai ngày_trước

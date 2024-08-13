@@ -1,0 +1,40 @@
+T1	Release-parole 7 16	trả tự_do
+E1	Release-parole:T1 Place-Arg:T3 Person-Arg:T2
+T2	PER 21 45	tư_lệnh hải_quân Ukraine
+T3	GPE 0 6	Crimea
+T4	Release-parole 177 186	trả tự_do
+E2	Release-parole:T4 Person-Arg:T7 Time-Arg:T5 Place-Arg:T6
+T5	TIME 187 195	sáng nay
+T6	GPE 200 241	khu_vực làng Chongar thuộc bán_đảo Crimea
+T7	PER 106 168	Chuẩn_đô đốc Gaiduk và 7 người ủng_hộ chính_phủ Ukraine ở Kiev
+T8	Release-parole 360 369	trả tự_do
+E3	Release-parole:T8 Person-Arg:T9 Person-Arg2:T10
+T9	PER 343 354	những người
+T10	PER 374 440	có con_trai của cựu bộ_trưởng Quốc_phòng Ukraine Anatoly Gritsenko
+T11	Release-parole 487 498	phóng_thích
+E4	Release-parole:T11 
+T12	Phone-write 553 556	gọi
+E5	Phone-write:T12 Entity-Arg:T13
+T13	PER 537 549	Con_trai tôi
+T14	Release-parole 625 636	phóng_thích
+E6	Release-parole:T14 Person-Arg:T15
+T15	PER 605 616	Các con_tin
+T16	TIME 641 648	Hôm_qua
+T17	PER 651 661	ông Gaiduk
+T18	Arrest-jail 665 672	bắt_giữ
+E7	Arrest-jail:T18 Person-Arg:T17 Time-Arg:T16
+T19	Transport 812 819	đưa đến
+E8	Transport:T19 Artifact-Arg:T20 Destination-Arg:T21
+T20	PER 803 806	ông
+T21	FAC 820 856	cơ_quan công_tố thành_phố Sevastopol
+T22	Release-parole 1055 1063	trao_trả
+E9	Release-parole:T22 Person-Arg:T23 Entity-Arg:T29
+T23	PER 1064 1087	Tư_lệnh hải_quân Gaiduk
+T24	Release-parole 1233 1242	trả tự_do
+E10	Release-parole:T24 Person-Arg:T25 Entity-Arg:T28
+T25	PER 1247 1260	đô_đốc Gaiduk
+T26	Transport 1287 1290	rời
+E11	Transport:T26 Origin-Arg:T27 Agent-Arg:T25
+T27	LOC 1291 1298	bán_đảo
+T28	ORG 1214 1232	chính_quyền Crimea
+T29	GPE 1048 1054	Crimea

@@ -1,0 +1,48 @@
+T1	Declare-bankruptcy 28 35	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 18	Các hãng bán_lẻ Mỹ
+T3	Declare-bankruptcy 73 80	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4 Place-Arg:T5 Time-Arg:T6
+T4	ORG 61 72	hãng bán_lẻ
+T5	GPE 85 87	Mỹ
+T6	TIME 94 105	3 tháng qua
+T7	Transfer-ownership 271 274	bán
+E3	Transfer-ownership:T7 Buyer-Arg:T8
+T8	ORG 262 270	cửa_hàng
+T9	Declare-bankruptcy 459 466	phá_sản
+E4	Declare-bankruptcy:T9 Org-Arg:T10 Time-Arg:T11
+T10	ORG 430 449	hãng bán_lẻ Payless
+T11	TIME 420 427	Hôm 4/4
+T12	End-org 473 487	dừng hoạt_động
+E5	End-org:T12 Org-Arg:T13
+T13	ORG 488 500	400 cửa_hàng
+T14	End-org 538 552	dừng hoạt_động
+E6	End-org:T14 Org-Arg:T15
+T15	ORG 514 532	các hãng bán_lẻ Mỹ
+T16	GPE 530 532	Mỹ
+T17	GPE 16 18	Mỹ
+T18	End-org 1583 1597	dừng hoạt_động
+E7	End-org:T18 Org-Arg:T19
+T19	ORG 1565 1577	các cửa_hàng
+T20	Declare-bankruptcy 1847 1854	phá_sản
+E8	Declare-bankruptcy:T20 Org-Arg:T22 Time-Arg:T21
+T21	TIME 1722 1729	đầu năm
+T22	ORG 1732 1831	4 hãng bán_lẻ quần_áo bao_gồm The_Limited , Wet_Seal , BCBG Max_Azria và Vanity_Shop of Grand_Forks
+T23	End-org 1929 1943	dừng hoạt_động
+E9	End-org:T23 Org-Arg:T24 Time-Arg:T25
+T24	ORG 1944 1956	400 cửa_hàng
+T25	TIME 1886 1893	Hôm 4/4
+T26	Declare-bankruptcy 1915 1922	phá_sản
+E10	Declare-bankruptcy:T26 Org-Arg:T27 Time-Arg:T25
+T27	ORG 1896 1904	hãng này
+T28	Declare-bankruptcy 2061 2068	phá_sản
+E11	Declare-bankruptcy:T28 Time-Arg:T29 Org-Arg:T30
+T29	TIME 2075 2084	tháng này
+T30	ORG 1991 2053	Rue 21 - hãng thời_trang nổi_tiếng dành cho thanh , thiếu_niên
+T31	Declare-bankruptcy 2167 2174	phá_sản
+E12	Declare-bankruptcy:T31 Time-Arg:T32 Org-Arg:T33
+T32	TIME 2178 2193	đầu tháng 6 tới
+T33	ORG 2118 2146	hãng quần_áo trẻ_em Gymboree
+T34	Declare-bankruptcy 2286 2293	phá_sản
+E13	Declare-bankruptcy:T34 Org-Arg:T35
+T35	ORG 2232 2274	các cửa_hàng bách_hoá , đồ điện và quần_áo

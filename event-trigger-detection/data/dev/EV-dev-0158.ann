@@ -1,0 +1,25 @@
+T1	PER 54 89	CEO của gần mười tập_đoàn lớn từ Mỹ
+T2	PER 100 129	Bộ_trưởng Thương_mại nước này
+T3	GPE 134 142	Việt_Nam
+T4	Transport 90 99	tháp_tùng
+E1	Transport:T4 Agent-Arg:T1 Artifact-Arg:T2 Destination-Arg:T3
+T5	TIME 181 196	Hôm_nay ( 2/6 )
+T6	PER 199 248	đoàn các CEO thuộc Hội_đồng Kinh_doanh Mỹ - ASEAN
+T7	Meet 267 271	thăm
+E2	Meet:T7 Place-Arg:T8 Entity-Arg:T6 Time-Arg:T5
+T8	GPE 288 296	Việt_Nam
+T9	PER 499 507	Đoàn CEO
+T10	Transport 513 522	tháp_tùng
+E3	Transport:T10 Artifact-Arg:T11 Agent-Arg:T9
+T11	PER 523 564	bà Bộ_trưởng Thương_mại Mỹ_Penny_Pritzker
+T12	PER 578 590	bà Bộ_trưởng
+T13	Meet 599 605	gặp_gỡ
+E4	Meet:T13 Entity-Arg:T12 Entity-Arg2:T14 Entity-Arg3:T15 Entity-Arg4:T16
+T14	PER 606 619	Chủ_tịch nước
+T15	PER 622 631	Thủ_tướng
+T16	PER 635 659	Bộ_trưởng Bộ Công_Thương
+T17	PER 668 675	các CEO
+T18	Meet 693 696	gặp
+E5	Meet:T18 Entity-Arg:T17 Entity-Arg2:T19 Entity-Arg3:T20
+T19	PER 701 755	Chủ_tịch Mặt_trận Tổ_quốc Việt_Nam - Nguyễn_Thiện_Nhân
+T20	PER 758 801	lãnh_đạo Bộ Tài_chính và Bộ Kế_hoạch Đầu_tư

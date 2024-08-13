@@ -1,0 +1,18 @@
+T1	GPE 0 3	Nga
+T2	Transport 4 8	điều
+E1	Transport:T2 Artifact-Arg:T3 Agent-Arg:T1 Destination-Arg:T4
+T3	VEH 9 42	hai tàu hộ_vệ mang tên_lửa Kalibr
+T4	LOC 47 63	ngoài khơi Syria
+T5	GPE 1655 1657	Mỹ
+T6	Transport 1661 1665	điều
+E2	Transport:T6 Artifact-Arg:T7 Agent-Arg:T5 Destination-Arg:T8
+T7	VEH 1666 1697	tàu_khu_trục USS The_Sulliavans
+T8	LOC 1702 1713	vịnh Persia
+T9	ORG 1352 1376	quân_đội chính_phủ Syria
+T10	Attack 1399 1407	tấn_công
+E3	Attack:T10 Attacker-Arg:T9 Place-Arg:T11
+T11	GPE 1423 1433	tỉnh Idlib
+T12	VEH 9 22	hai tàu hộ_vệ
+T13	Transport 23 27	mang
+E4	Transport:T13 Vehicle-Arg:T14 Vehicle-Arg2:T12
+T14	WEA 28 42	tên_lửa Kalibr

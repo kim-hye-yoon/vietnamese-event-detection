@@ -1,0 +1,56 @@
+T1	Attack 40 50	không_kích
+E1	Attack:T1 Place-Arg:T2 Attacker-Arg:T44
+T2	GPE 51 56	Syria
+T3	Transport 4 8	điều
+E2	Transport:T3 Agent-Arg:T4 Artifact-Arg:T5
+T4	GPE 0 3	Nga
+T5	WEA 9 21	17 tàu_chiến
+T6	Transport 99 102	tới
+E3	Transport:T6 Artifact-Arg:T7 Destination-Arg:T8 Time-Arg:T9
+T7	WEA 59 87	Tàu hộ_vệ Đô_đốc Grigorovich
+T8	GPE 103 116	Địa_Trung_Hải
+T9	TIME 121 129	năm 2017
+T10	Transport 306 308	đi
+E4	Transport:T10 Time-Arg:T12 Destination-Arg:T13 Artifact-Arg:T11
+T11	VEH 153 262	Bốn tàu_chiến của hải_quân Nga bao_gồm một tàu quét mìn thuộc Đề_án 226M Valentin_Pikul 770 và một tàu cứu_hộ
+T12	TIME 293 302	ngày 26/8
+T13	LOC 344 370	quân_cảng Tartus do Moskva
+T14	ORG 422 434	hải_quân Nga
+T15	TIME 435 444	ngày 25/8
+T16	Transport 450 454	điều
+E5	Transport:T16 Time-Arg:T15 Agent-Arg:T14 Artifact-Arg:T17 Origin-Arg:T18 Destination-Arg:T19
+T17	VEH 455 526	hai tàu hộ_vệ mang tên_lửa Kalibr là Đô_đốc Grigorovich và Đô_đốc Essen
+T18	LOC 530 550	quân_cảng Sevastopol
+T19	LOC 555 579	khu_vực ngoài khơi Syria
+T20	VEH 831 851	17 tàu_chiến của Nga
+T21	Transport 883 886	tới
+E6	Transport:T21 Artifact-Arg:T20 Origin-Arg:T22 Destination-Arg:T23 Time-Arg:T24
+T22	LOC 862 879	eo biển Bosphorus
+T23	GPE 887 892	Syria
+T24	TIME 899 907	tuần qua
+T25	Attack 1048 1058	không_kích
+E7	Attack:T25 Place-Arg:T26 Attacker-Arg:T45
+T26	GPE 1072 1077	Syria
+T27	Attack 1124 1132	tấn_công
+E8	Attack:T27 Instrument-Arg:T28 Target-Arg:T29 Attacker-Arg:T30
+T28	WEA 1101 1123	sử_dụng vũ_khí_hoá_học
+T29	PER 1133 1143	dân_thường
+T30	PER 1092 1100	Damascus
+T32	ORG 1411 1434	Washington và đồng_minh
+T31	Attack 1448 1458	không_kích
+E9	Attack:T31 Attacker-Arg:T32 Place-Arg:T33
+T33	GPE 1459 1473	lãnh_thổ Syria
+T34	TIME 1577 1590	ngày 7/4/2017
+T35	ORG 1597 1608	hải_quân Mỹ
+T36	Attack 1609 1614	phóng
+E10	Attack:T36 Attacker-Arg:T35 Time-Arg:T34 Instrument-Arg:T37 Place-Arg:T38
+T37	WEA 1615 1645	59 tên_lửa hành_trình Tomahawk
+T38	FAC 1650 1665	sân_bay Shayrat
+T39	TIME 1668 1682	Ngày 14/4/2018
+T40	GPE 1685 1701	Mỹ , Anh và Pháp
+T41	Attack 1711 1721	không_kích
+E11	Attack:T41 Attacker-Arg:T40 Time-Arg:T39 Instrument-Arg:T42 Place-Arg:T43
+T42	WEA 1738 1760	105 tên_lửa hành_trình
+T43	FAC 1774 1851	cơ_sở bị nghi là nơi nghiên_cứu , tích_trữ vũ_khí_hoá_học của chính_phủ Syria
+T44	GPE 30 32	Mỹ
+T45	GPE 1015 1025	Washington

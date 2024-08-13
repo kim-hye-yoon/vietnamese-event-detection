@@ -1,0 +1,59 @@
+T1	Meet 448 455	họp_báo
+E1	Meet:T1 Entity-Arg:T4 Time-Arg:T2 Place-Arg:T3
+T2	TIME 456 464	hôm 26/6
+T3	GPE 469 485	Tokyo , Nhật_Bản
+T4	PER 380 424	Giám_đốc_điều_hành Takata , Shigehisa_Takada
+T5	ORG 399 405	Takata
+T6	JOB 380 398	Giám_đốc_điều_hành
+T7	Sue 533 537	kiện
+E2	Sue:T7 Time-Arg:T8
+T8	TIME 538 552	cách đây 8 năm
+T9	Attack 606 609	bắn
+E3	Attack:T9 Instrument-Arg:T10 Target-Arg:T11
+T10	WEA 616 632	mảnh vỡ kim_loại
+T11	PER 637 653	những hành_khách
+T12	Die 693 700	tử_vong
+E4	Die:T12 Victim-Arg:T13 Place-Arg:T14
+T13	PER 679 681	17
+T14	LOC 706 719	toàn thế_giới
+T15	Transfer-ownership 781 784	bán
+E5	Transfer-ownership:T15 Seller-Arg:T16 Buyer-Arg:T17
+T16	ORG 749 755	Takata
+T17	ORG 793 935	đối_thủ sản_xuất túi khí KSS ( Key_Safety_Systems ) , thuộc Tập_đoàn điện_tử Ningbo_Joyson_Electronic , nhà_sản_xuất phụ_kiện lớn ở Trung_Quốc
+T18	GPE 925 935	Trung_Quốc
+T19	Start-org 953 962	thành_lập
+E6	Start-org:T19 Agent-Arg:T20 Org-Arg:T17
+T20	PER 939 952	Wang_Jianfeng
+T21	Meet 1146 1158	cuộc họp_báo
+E7	Meet:T21 Entity-Arg:T22 Time-Arg:T25
+T22	PER 1074 1131	chủ_tịch kiêm tổng_giám_đốc Takata , ông Shigehisa_Takada
+T23	ORG 1102 1108	Takata
+T24	JOB 1074 1101	chủ_tịch kiêm tổng_giám_đốc
+T25	TIME 1167 1188	hôm thứ 2 , ngày 26/6
+T26	End-position 1220 1227	từ_chức
+E8	End-position:T26 Person-Arg:T27
+T27	PER 1191 1204	Người đàn_ông
+T28	Transfer-ownership 1236 1246	trao quyền
+E9	Transfer-ownership:T28 Seller-Arg:T27 Buyer-Arg:T29
+T29	ORG 1259 1270	công_ty mới
+T30	Transfer-ownership 1278 1281	bán
+E10	Transfer-ownership:T30 Artifact-Arg:T31 Buyer-Arg:T32 Time-Arg:T33
+T31	ORG 1282 1288	Takata
+T32	ORG 1293 1296	KSS
+T33	TIME 1343 1355	đầu năm 2018
+T34	Die 1867 1877	thiệt_mạng
+E11	Die:T34 Victim-Arg:T35
+T35	PER 1858 1866	16 người
+T36	PER 1885 1894	180 người
+T37	Injure 1895 1904	bị_thương
+E12	Injure:T37 Victim-Arg:T36
+T38	Attack 1972 1975	găm
+E13	Attack:T38 Instrument-Arg:T39 Target-Arg:T40
+T39	WEA 1955 1971	mảnh vỡ kim_loại
+T41	VEH 1991 1993	xe
+T40	PER 1980 1993	người trên xe
+T42	Transfer-money 2113 2116	vay
+E14	Transfer-money:T42 Money-Arg:T43 Giver-Arg:T44 Recipient-Arg:T45
+T43	MONEY 2122 2137	223,4 triệu USD
+T44	ORG 2141 2166	ngân_hàng Sumitomo_Mitsui
+T45	ORG 2085 2105	nhà_sản_xuất túi khí

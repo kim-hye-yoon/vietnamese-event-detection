@@ -1,0 +1,3 @@
+T1	Execute 35 44	bị xử bắn
+E1	Execute:T1 Person-Arg:T2
+T2	PER 0 9	Thu_Trang

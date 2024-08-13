@@ -1,0 +1,33 @@
+T2	PER 0 3	Anh
+T3	Transport 135 137	đi
+E2	Transport:T3 Agent-Arg:T6 Time-Arg:T5
+T4	Transport 167 169	về
+E3	Transport:T4 Agent-Arg:T6 Time-Arg:T5 Destination-Arg:T10
+T5	TIME 76 99	29 Tháng Ba 2012 11:32
+T6	PER 110 113	anh
+T7	Transport 194 196	về
+E4	Transport:T7 Agent-Arg:T8 Destination-Arg:T9
+T8	PER 176 179	Anh
+T9	LOC 197 200	nhà
+T10	LOC 170 173	nhà
+T11	PER 767 770	anh
+T12	Transport 771 776	ra đi
+E5	Transport:T12 Agent-Arg:T11
+T13	Start-org 869 871	mở
+E6	Start-org:T13 Org-Arg:T14 Agent-Arg:T15
+T14	ORG 877 895	một cửa_hàng riêng
+T15	PER 841 844	anh
+T16	Transport 1373 1378	ra đi
+E7	Transport:T16 Agent-Arg:T17
+T17	PER 1381 1384	anh
+T1	Phone-write 2133 2141	gọi điện
+E1	Phone-write:T1 Entity-Arg:T18
+T18	PER 2146 2148	em
+T19	Transport 2236 2238	đi
+E8	Transport:T19 
+T20	Transport 2336 2338	đi
+E9	Transport:T20 Vehicle-Arg:T21
+T21	VEH 2339 2341	xe
+T22	Transport 2644 2646	đi
+E10	Transport:T22 Agent-Arg:T23
+T23	PER 2637 2639	em

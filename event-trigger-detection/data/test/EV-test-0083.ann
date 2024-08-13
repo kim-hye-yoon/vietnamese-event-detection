@@ -1,0 +1,23 @@
+T1	Demonstrate 0 9	Biểu_tình
+E1	Demonstrate:T1 Place-Arg:T2
+T2	GPE 44 51	Romania
+T3	PER 57 76	nghìn người Romania
+T4	Demonstrate 92 101	biểu_tình
+E2	Demonstrate:T4 Entity-Arg:T3 Time-Arg:T5
+T5	TIME 108 116	ngày 6/4
+T6	Demonstrate 398 406	phản_đối
+E3	Demonstrate:T6 Entity-Arg:T8 Place-Arg:T9
+T8	PER 298 319	Những người biểu_tình
+T9	GPE 330 373	tại quảng_trường Đại_học ở thủ_đô Bucharest
+T10	Demonstrate 690 698	phản_đối
+E4	Demonstrate:T10 Place-Arg:T12 Entity-Arg:T11
+T11	PER 665 674	người_dân
+T12	GPE 621 662	nhiều thị_trấn và tỉnh_thành khắp Romania
+T13	Start-org 785 794	khởi_công
+E5	Start-org:T13 Agent-Arg:T14 Place-Arg:T15
+T14	ORG 774 781	Chevron
+T15	GPE 833 846	làng Pungesti
+T16	Demonstrate 1299 1308	biểu_tình
+E6	Demonstrate:T16 Place-Arg:T17 Time-Arg:T18
+T17	GPE 1322 1329	Romania
+T18	TIME 1333 1346	tháng 9/2013.

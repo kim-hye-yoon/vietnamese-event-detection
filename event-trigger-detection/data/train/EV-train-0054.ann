@@ -1,0 +1,21 @@
+T1	Attack 145 155	giao_tranh
+E1	Attack:T1 
+T2	ORG 161 179	quân_đội chính_phủ
+T3	Die 1256 1266	thiệt_mạng
+E2	Die:T3 Victim-Arg:T4
+T4	PER 1239 1252	500.000 người
+T5	Die 882 892	thiệt_mạng
+E3	Die:T5 Victim-Arg:T6
+T6	PER 861 878	nhiều tay súng IS
+T7	Attack 907 915	tấn_công
+E4	Attack:T7 Attacker-Arg:T8 Target-Arg:T6
+T8	ORG 920 938	quân_đội chính_phủ
+T9	ORG 183 193	phiến quân
+T10	Transport 544 552	rời khỏi
+E5	Transport:T10 Origin-Arg:T13 Vehicle-Arg:T11 Destination-Arg:T12 Agent-Arg:T16
+T11	VEH 568 575	xe_buýt
+T12	GPE 580 595	phía đông Syria
+T13	GPE 553 562	thành_phố
+T14	PER 302 319	tướng Ali_Mayhoub
+T15	JOB 322 351	phát_ngôn_viên quân_đội Syria
+T16	PER 513 528	Một_số tay súng

@@ -1,0 +1,31 @@
+T1	Attack 3 14	gây thảm_án
+E1	Attack:T1 
+T2	PER 0 24	Kẻ gây thảm_án ở Nghệ_An
+T3	Pardon 25 41	xin tha_tội chết
+E2	Pardon:T3 
+T4	Sentence 69 77	tuyên_án
+E3	Sentence:T4 Adjudicator-Arg:T5 Defendant-Arg:T6
+T5	ORG 64 68	HĐXX
+T6	PER 44 54	Vi_Văn_Hai
+T8	PER 417 423	bị hại
+T7	Appeal 403 412	kháng_cáo
+E4	Appeal:T7 Prosecutor-Arg:T8
+T9	PER 1307 1310	Hai
+T10	Attack 1329 1333	chém
+E5	Attack:T10 Attacker-Arg:T9 Target-Arg:T11
+T11	PER 1287 1290	Thọ
+T12	PER 1351 1354	anh
+T13	Die 1355 1362	tử_vong
+E6	Die:T13 Victim-Arg:T12 Agent-Arg:T9
+T14	Attack 1515 1521	hạ_sát
+E7	Attack:T14 Target-Arg:T15 Attacker-Arg:T16
+T15	PER 1522 1536	mẹ_con chị Yến
+T16	PER 1477 1480	Hai
+T17	Meet 1444 1447	Gặp
+E8	Meet:T17 Entity-Arg:T18
+T18	PER 1448 1458	mẹ anh Thọ
+T19	Attack 1481 1494	ra_tay gây án
+E9	Attack:T19 Attacker-Arg:T16 Target-Arg:T18
+T20	Attack 1669 1673	giết
+E10	Attack:T20 Target-Arg:T21
+T21	PER 1678 1685	4 người

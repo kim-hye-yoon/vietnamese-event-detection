@@ -1,0 +1,7 @@
+T1	Transport 480 489	trục_xuất
+E1	Transport:T1 Artifact-Arg:T2 Agent-Arg:T4 Time-Arg:T3
+T2	PER 490 503	hơn 200 người
+T3	TIME 418 433	ngày 4 đến 26/4
+T4	ORG 436 463	cơ_quan_chức_năng huyện này
+T5	Transfer-ownership 552 559	thu_giữ
+E2	Transfer-ownership:T5 Beneficiary-Arg:T4 Time-Arg:T3

@@ -1,0 +1,85 @@
+T1	Die 33 40	sát_hại
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T3
+T2	PER 41 50	thiếu phụ
+T3	PER 0 8	Nam sinh
+T4	Execute 22 29	tử_hình
+E2	Execute:T4 Person-Arg:T3
+T5	Die 238 242	Giết
+E3	Die:T5 Victim-Arg:T6 Agent-Arg:T7
+T6	PER 243 248	người
+T7	PER 151 226	Phạm_Thanh_Tùng ( 23 tuổi , cựu sinh_viên Đại_học Thể_dục thể_thao Hà_Nội )
+T8	Transport 441 444	tới
+E4	Transport:T8 Agent-Arg:T9 Time-Arg:T10 Destination-Arg:T11
+T9	PER 436 440	Tùng
+T10	TIME 385 400	Sáng 31/10/2017
+T11	FAC 445 502	căn_hộ của chị này tại chung_cư cao_cấp ở quận Thanh_Xuân
+T12	Attack 589 592	đâm
+E5	Attack:T12 Attacker-Arg:T13 Instrument-Arg:T14 Time-Arg:T15
+T13	PER 584 588	Tùng
+T14	WEA 593 596	dao
+T15	TIME 505 508	13h
+T16	Transfer-ownership 706 709	bán
+E6	Transfer-ownership:T16 Seller-Arg:T17 Price-Arg:T18
+T17	PER 701 705	Tùng
+T18	MONEY 715 732	hơn 70 triệu đồng
+T19	Transfer-money 740 743	trả
+E7	Transfer-money:T19 Giver-Arg:T17
+T20	Trial-hearing 803 806	bắt
+E8	Trial-hearing:T20 Defendant-Arg:T21
+T21	PER 795 799	Tùng
+T22	Die 991 998	sát_hại
+E9	Die:T22 Victim-Arg:T23 Agent-Arg:T25
+T23	PER 999 1009	người_tình
+T24	Transfer-money 1020 1023	vay
+E10	Transfer-money:T24 Recipient-Arg:T25 Giver-Arg:T23
+T25	PER 885 889	Tùng
+T26	Transfer-money 1095 1098	đưa
+E11	Transfer-money:T26 Giver-Arg:T28 Money-Arg:T27 Recipient-Arg:T29
+T27	MONEY 1099 1113	một triệu đồng
+T28	PER 1088 1094	chị Lệ
+T29	PER 1116 1120	Tùng
+T30	Transport 1126 1128	về
+E12	Transport:T30 Agent-Arg:T29
+T31	Transfer-money 1186 1189	trả
+E13	Transfer-money:T31 
+T32	Die 1219 1226	sát_hại
+E14	Die:T32 Agent-Arg:T34 Victim-Arg:T33
+T33	PER 1227 1233	chị Lệ
+T34	PER 1195 1201	bị_cáo
+T35	Sentence 1271 1281	tuyên_phạt
+E15	Sentence:T35 Sentence-Arg:T38 Defendant-Arg:T37 Adjudicator-Arg:T36
+T36	ORG 1259 1270	Cấp sơ_thẩm
+T37	PER 1282 1286	Tùng
+T38	SEN 1290 1297	tử_hình
+T39	Execute 1325 1332	tử_hình
+E16	Execute:T39 Person-Arg:T40
+T40	PER 1300 1311	Bị_cáo Tùng
+T41	Appeal 1339 1348	kháng_cáo
+E17	Appeal:T41 Defendant-Arg:T40
+T42	Appeal 1433 1442	kháng_cáo
+E18	Appeal:T42 Defendant-Arg:T43
+T43	PER 1410 1414	Tùng
+T44	PER 1485 1491	Bị_cáo
+T45	Die 1508 1515	sát_hại
+E19	Die:T45 Victim-Arg:T46 Agent-Arg:T44
+T46	PER 1516 1522	chị ấy
+T47	Pardon 1743 1748	ân_xá
+E20	Pardon:T47 Adjudicator-Arg:T48 Defendant-Arg:T49
+T48	PER 1753 1766	Chủ_tịch nước
+T49	PER 1721 1727	bị_cáo
+T50	Appeal 1812 1821	kháng_cáo
+E21	Appeal:T50 Defendant-Arg:T51
+T51	PER 1788 1792	Tùng
+T52	Appeal 1874 1883	kháng_cáo
+E22	Appeal:T52 Defendant-Arg:T53
+T53	PER 1838 1864	đại_diện gia_đình nạn_nhân
+T54	Appeal 2053 2062	kháng_cáo
+E23	Appeal:T54 Defendant-Arg:T55
+T55	PER 2018 2022	Tùng
+T56	Trial-hearing 1940 1946	xét_xử
+E24	Trial-hearing:T56 Adjudicator-Arg:T57
+T57	PER 1914 1921	Chủ_toạ
+T58	Trial-hearing 2090 2096	xét_xử
+E25	Trial-hearing:T58 Defendant-Arg:T59 Adjudicator-Arg:T60
+T59	PER 2104 2110	bị_cáo
+T60	ORG 2067 2080	toà phúc_thẩm

@@ -1,0 +1,17 @@
+T1	Transfer-money 53 59	đầu_tư
+E1	Transfer-money:T1 Money-Arg:T2
+T2	MONEY 60 74	200 triệu đồng
+T3	Start-org 659 667	xây_dựng
+E2	Start-org:T3 Org-Arg:T4
+T4	ORG 672 688	trung_tâm rửa xe
+T5	Start-org 740 745	mở ra
+E3	Start-org:T5 Org-Arg:T6
+T6	ORG 750 761	tiệm rửa xe
+T7	Transfer-money 1455 1462	chi_phí
+E4	Transfer-money:T7 Money-Arg:T9 Time-Arg:T8
+T8	TIME 1469 1474	4 năm
+T9	MONEY 1504 1519	hơn một tỷ đồng
+T10	PER 4771 4776	Nghĩa
+T11	MONEY 4786 4799	70 triệu đồng
+T12	Transfer-ownership 4803 4806	mua
+E5	Transfer-ownership:T12 Buyer-Arg:T10 Price-Arg:T11

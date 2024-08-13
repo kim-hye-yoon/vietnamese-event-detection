@@ -1,0 +1,25 @@
+T1	Meet 69 72	họp
+E1	Meet:T1 Entity-Arg:T2 Time-Arg:T3
+T2	ORG 82 111	Hội_đồng Bảo_an Liên_Hợp_Quốc
+T3	TIME 112 121	ngày 14/4
+T4	Meet 161 164	họp
+E2	Meet:T4 Entity-Arg:T5 Time-Arg:T6
+T5	ORG 174 203	Hội_đồng Bảo_an Liên_Hợp_Quốc
+T6	TIME 220 229	ngày 14/4
+T7	ORG 921 945	ba cường_quốc phương Tây
+T8	Attack 951 959	tấn_công
+E3	Attack:T8 Attacker-Arg:T7 Place-Arg:T9
+T9	GPE 960 972	một quốc_gia
+T10	PER 1653 1676	Tổng_thống Donald_Trump
+T11	Meet 1680 1688	trao_đổi
+E4	Meet:T11 Entity-Arg:T12 Entity-Arg2:T10
+T12	PER 1693 1695	bà
+T13	GPE 1704 1706	Mỹ
+T14	Attack 1716 1724	tấn_công
+E5	Attack:T14 Attacker-Arg:T13
+T15	Attack 46 54	tấn_công
+E6	Attack:T15 Place-Arg:T16
+T16	GPE 55 60	Syria
+T17	Attack 2262 2270	tấn_công
+E7	Attack:T17 Place-Arg:T18
+T18	GPE 2280 2285	Syria

@@ -1,0 +1,12 @@
+T2	GPE 0 11	Thị_trấn Mỹ
+T3	JOB 23 33	thị_trưởng
+T1	Elect 12 15	bầu
+E1	Elect:T1 Place-Arg:T2 Position-Arg:T3
+T4	Elect 120 126	bầu_cử
+E2	Elect:T4 Time-Arg:T5 Place-Arg:T6
+T5	TIME 131 134	5/3
+T6	GPE 137 171	thị_trấn Fair_Haven , bang Vermont
+T7	Elect 571 577	bầu_cử
+E3	Elect:T7 
+T8	Elect 1107 1113	bầu_cử
+E4	Elect:T8 

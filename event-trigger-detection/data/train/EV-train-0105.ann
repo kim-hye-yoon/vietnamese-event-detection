@@ -1,0 +1,14 @@
+T1	Attack 35 43	tấn_công
+E1	Attack:T1 Target-Arg:T4
+T2	PER 646 658	các tay súng
+T3	Attack 662 670	tấn_công
+E2	Attack:T3 Attacker-Arg:T2 Target-Arg:T8
+T8	VEH 671 688	chiếc máy_bay này
+T4	VEH 1 17	Máy_bay Malaysia
+T5	VEH 1324 1331	máy_bay
+T6	Attack 1335 1343	tấn_công
+E3	Attack:T6 Target-Arg:T5
+T7	VEH 1438 1445	máy_bay
+T9	Transport 1449 1457	quay lại
+E4	Transport:T9 Artifact-Arg:T7 Destination-Arg:T10
+T10	GPE 1458 1477	thủ_đô Kuala_Lumpur

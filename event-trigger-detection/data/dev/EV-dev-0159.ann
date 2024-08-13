@@ -1,0 +1,53 @@
+T1	Pardon 43 49	ân xá
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3
+T2	PER 37 42	Trump
+T3	PER 18 30	nữ tù nhân
+T4	Meet 111 114	gặp
+E2	Meet:T4 Entity-Arg:T6 Entity-Arg2:T5 Time-Arg:T7
+T5	PER 52 66	Kim Kardashian
+T6	PER 81 106	bà bà Alice_Marie Johnson
+T7	TIME 120 128	hôm 13/6
+T8	Meet 154 157	gặp
+E3	Meet:T8 Time-Arg:T9 Place-Arg:T10
+T9	TIME 166 173	hôm_qua
+T10	FAC 178 246	nhà của bà Alice_Marie_Johnson ở Memphis , bang Tennessee , theo Sun
+T11	Meet 544 547	gặp
+E4	Meet:T11 
+T12	Sentence 602 609	lĩnh án
+E5	Sentence:T12 Sentence-Arg:T13 Defendant-Arg:T14 Crime-Arg:T15
+T13	SEN 610 620	chung_thân
+T14	PER 573 593	bà Johnson , 62 tuổi
+T15	CRIME 628 660	câu_kết với tội_phạm buôn ma_tuý
+T16	Pardon 695 706	phóng_thích
+E6	Pardon:T16 Time-Arg:T18 Adjudicator-Arg:T17 Defendant-Arg:T14
+T17	PER 676 685	ông Trump
+T18	TIME 663 670	hôm 6/6
+T19	Arrest-jail 896 903	ngồi tù
+E7	Arrest-jail:T19 Time-Arg:T20 Person-Arg:T21
+T20	TIME 904 914	hơn 20 năm
+T21	PER 882 892	Bà Johnson
+T22	Convict 947 953	kết_án
+E8	Convict:T22 Time-Arg:T23
+T23	TIME 958 966	năm 1993
+T24	Pardon 1067 1075	tha_bổng
+E9	Pardon:T24 Defendant-Arg:T27
+T25	Arrest-jail 1087 1089	tù
+E10	Arrest-jail:T25 Time-Arg:T26 Person-Arg:T27
+T26	TIME 1080 1086	10 năm
+T27	PER 995 1019	10 trong số 15 đồng_phạm
+T28	PER 1844 1854	Kardashian
+T29	Pardon 1146 1156	khoan_hồng
+E11	Pardon:T29 Defendant-Arg:T30 Adjudicator-Arg:T31
+T30	PER 1118 1128	bà Johnson
+T31	PER 1162 1184	ổng_thống Barack_Obama
+T32	Meet 514 521	gặp_mặt
+E12	Meet:T32 Entity-Arg:T33
+T33	PER 527 536	hai người
+T34	Arquit 1467 1478	phóng_thích
+E13	Arquit:T34 Defendant-Arg:T35 Adjudicator-Arg:T36
+T35	PER 1479 1481	bà
+T36	PER 1540 1549	ông Trump
+T37	Phone-write 1649 1664	Cuộc điện_thoại
+E14	Phone-write:T37 Entity-Arg:T38 Entity-Arg2:T39
+T38	PER 1669 1672	tôi
+T39	PER 1677 1685	bà Alice

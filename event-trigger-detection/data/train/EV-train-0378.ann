@@ -1,0 +1,9 @@
+T1	End-org 3047 3055	đào_thải
+E1	End-org:T1 Time-Arg:T3 Org-Arg:T2
+T3	TIME 3015 3023	năm 2014
+T4	Merge-org 3121 3129	sáp_nhập
+E2	Merge-org:T4 Org-Arg:T2
+T2	ORG 3056 3092	những doanh_nghiệp không đủ năng_lực
+T5	Transfer-money 3466 3473	cho vay
+E3	Transfer-money:T5 Giver-Arg:T6
+T6	ORG 3477 3481	BIDV

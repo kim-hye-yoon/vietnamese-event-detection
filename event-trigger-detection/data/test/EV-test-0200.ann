@@ -1,0 +1,10 @@
+T1	Marry 100 107	kết_hôn
+E1	Marry:T1 Person-Arg:T3 Person-Arg2:T2 Time-Arg:T4
+T2	PER 73 76	Tôi
+T3	PER 87 89	vợ
+T4	TIME 112 120	năm 2007
+T5	Declare-bankruptcy 924 931	phá_sản
+E2	Declare-bankruptcy:T5 
+T6	Phone-write 4865 4873	Gọi điện
+E3	Phone-write:T6 Entity-Arg:T7
+T7	PER 4878 4891	biên_tập_viên

@@ -1,0 +1,30 @@
+T1	Attack 49 59	không_kích
+E1	Attack:T1 Target-Arg:T2 Attacker-Arg:T4 Attacker-Arg2:T3
+T2	ORG 60 65	Syria
+T3	ORG 0 2	Mỹ
+T4	ORG 6 15	đồng_minh
+T5	Attack 91 99	tấn_công
+E2	Attack:T5 Instrument-Arg:T7 Target-Arg:T6
+T6	ORG 100 105	Syria
+T7	VEH 68 80	Máy_bay Pháp
+T8	Transport 81 90	xuất_kích
+E3	Transport:T8 Vehicle-Arg:T7
+T9	Attack 975 978	bắn
+E4	Attack:T9 Target-Arg:T11 Attacker-Arg:T10
+T10	ORG 969 974	Syria
+T11	WEA 982 1013	ít_nhất 71 trong số 103 tên_lửa
+T12	Attack 1085 1093	tấn_công
+E5	Attack:T12 
+T13	Die 821 831	thiệt_mạng
+E6	Die:T13 Victim-Arg:T14 Time-Arg:T15 Place-Arg:T16
+T14	PER 812 820	70 người
+T15	TIME 793 796	7/4
+T17	Attack 678 688	không_kích
+E7	Attack:T17 Attacker-Arg:T18
+T18	ORG 641 664	Liên_quân do Mỹ dẫn_đầu
+T19	ORG 712 729	chính_quyền Syria
+T20	Attack 740 748	tấn_công
+E8	Attack:T20 Instrument-Arg:T21 Target-Arg:T22 Attacker-Arg:T19
+T21	WEA 749 756	hoá_học
+T16	LOC 774 787	Douma , Syria
+T22	PER 761 771	dân_thường

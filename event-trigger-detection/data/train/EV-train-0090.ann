@@ -1,0 +1,17 @@
+T1	Attack 25 32	nổ_súng
+E1	Attack:T1 Attacker-Arg:T3 Instrument-Arg:T2
+T2	WEA 28 32	súng
+T3	PER 0 21	Nguyên trưởng công_an
+T4	Attack 425 428	bắn
+E2	Attack:T4 Instrument-Arg:T5 Attacker-Arg:T6
+T5	WEA 410 424	khẩu súng rulo
+T6	PER 339 394	ông Trần_Văn_Tám ( nguyên Trưởng công_an xã Tân_Phong )
+T7	Sue 485 494	trình_báo
+E3	Sue:T7 Adjudicator-Arg:T8 Plaintiff-Arg:T9
+T8	ORG 495 517	chính_quyền địa_phương
+T9	PER 449 469	Người_dân địa_phương
+T10	Attack 640 647	nổ_súng
+E4	Attack:T10 Instrument-Arg:T12 Attacker-Arg:T11
+T11	PER 636 639	ông
+T12	WEA 643 647	súng
+T13	PER 734 740	An_Nam

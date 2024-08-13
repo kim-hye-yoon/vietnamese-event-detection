@@ -1,0 +1,43 @@
+T1	Elect 27 30	bầu
+E1	Elect:T1 Position-Arg:T2
+T2	JOB 31 57	tân Chủ_tịch HĐQT Eximbank
+T3	Transfer-ownership 70 84	Xuất_Nhập_khẩu
+E2	Transfer-ownership:T3 
+T4	Elect 150 158	được bầu
+E3	Elect:T4 Person-Arg:T6 Position-Arg:T5 Time-Arg:T7
+T5	JOB 163 227	Chủ_tịch Hội_đồng quản trị  ( HĐQT ) nhiệm_kỳ VI ( 2015 - 2020 )
+T6	PER 107 149	bà Lương_Thị_Cẩm_Tú ( cựu CEO Nam_A_Bank )
+T7	TIME 241 250	ngày 22/3
+T8	End-position 325 334	bãi_nhiệm
+E4	End-position:T8 Person-Arg:T9 Position-Arg:T10
+T9	PER 293 309	ông Lê_Minh_Quốc
+T10	JOB 335 348	Chủ_tịch HĐQT
+T11	Phone-write 631 634	gửi
+E5	Phone-write:T11 Entity-Arg:T12 Time-Arg:T13
+T12	PER 593 596	ông
+T13	TIME 581 590	Ngày 19/3
+T14	Phone-write 877 880	gửi
+E6	Phone-write:T14 Entity-Arg:T15
+T15	PER 793 876	Chánh Thanh_tra , Giám_sát Ngân_hàng Nhà_nước yêu_cầu Chủ_tịch HĐQT , HĐQT Eximbank
+T16	Elect 1268 1271	bầu
+E7	Elect:T16 Entity-Arg:T18 Person-Arg:T17 Position-Arg:T19
+T17	PER 1272 1291	bà Lương_Thị_Cẩm_Tú
+T18	PER 1223 1243	nhóm thành_viên HĐQT
+T19	JOB 1309 1331	Chủ_tịch HĐQT Eximbank
+T20	Start-position 1693 1702	trở_thành
+E8	Start-position:T20 Person-Arg:T21 Position-Arg:T22 Time-Arg:T23
+T21	PER 1632 1692	bà Lương_Thị_Cẩm_Tú ( nguyên Tổng_giám_đốc Ngân_hàng Nam_Á )
+T22	JOB 1703 1727	thành_viên HĐQT Eximbank
+T23	TIME 1732 1744	tháng 4/2018
+T24	End-position 2015 2022	từ_chức
+E9	End-position:T24 Person-Arg:T25
+T25	PER 1976 2000	một trong hai thành_viên
+T26	Elect 3788 3791	bầu
+E10	Elect:T26 Position-Arg:T27
+T27	JOB 3792 3818	chủ_tịch của ngân_hàng này
+T28	Transfer-ownership 4530 4539	giao_dịch
+E11	Transfer-ownership:T28 
+T29	Transfer-ownership 4599 4608	giao_dịch
+E12	Transfer-ownership:T29 Seller-Arg:T30 Time-Arg:T31
+T30	ORG 4590 4593	EIB
+T31	TIME 4542 4560	Từ đầu năm đến nay

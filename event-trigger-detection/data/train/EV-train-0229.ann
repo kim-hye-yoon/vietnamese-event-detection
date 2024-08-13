@@ -1,0 +1,17 @@
+T1	MONEY 6 19	1.500 tỷ đồng
+T2	Transfer-ownership 372 375	mua
+E1	Transfer-ownership:T2 Buyer-Arg:T3
+T3	ORG 361 368	công_ty
+T4	Transfer-ownership 456 459	mua
+E2	Transfer-ownership:T4 Artifact-Arg:T5
+T5	VEH 460 466	45 tàu
+T6	Transport 477 483	về đến
+E3	Transport:T6 Destination-Arg:T7 Time-Arg:T8
+T7	LOC 484 492	Việt_Nam
+T8	TIME 499 506	quý III
+T9	Transfer-ownership 975 978	mua
+E4	Transfer-ownership:T9 Buyer-Arg:T10
+T10	PER 958 969	thuyền_viên
+T11	Transfer-ownership 580 588	tiêu_thụ
+E5	Transfer-ownership:T11 Place-Arg:T12
+T12	FAC 591 606	các chợ đầu_mối

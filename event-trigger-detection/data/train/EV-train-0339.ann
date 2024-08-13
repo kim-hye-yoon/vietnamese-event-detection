@@ -1,0 +1,26 @@
+T1	PER 42 57	Ông Seokhee_Won
+T2	Start-position 58 67	tiếp_nhận
+E1	Start-position:T2 Person-Arg:T1
+T3	ORG 463 509	Công_ty_cổ_phần Tập_đoàn Ma_San ( MSN - HOSE )
+T4	Nominate 533 541	bổ_nhiệm
+E2	Nominate:T4 Person-Arg:T5 Agent-Arg:T3 Position-Arg:T6
+T5	PER 542 556	ông Seokee_Won
+T6	JOB 561 631	Tổng_giám_đốc Công_ty_cổ_phần Hàng_tiêu_dùng Ma_San ( Masan_Consumer )
+T7	End-position 127 135	từ_nhiệm
+E3	End-position:T7 Person-Arg:T8
+T8	PER 98 119	ông Trương_Công_Thắng
+T9	PER 634 654	Ông Seokhee_Won cũng
+T10	Start-position 658 661	giữ
+E4	Start-position:T10 Position-Arg:T11 Person-Arg:T9
+T11	JOB 669 702	Phó Tổng_Giám_đốc của Masan_Group
+T12	PER 972 975	ông
+T13	Start-position 976 985	đảm_nhiệm
+E5	Start-position:T13 Person-Arg:T12 Position-Arg:T14
+T14	JOB 993 1143	Phó Chủ_Tịch cấp cao , phụ_trách quản_lý thương_hiệu các sản_phẩm chăm_sóc da của Unilever ở khu_vực Châu_Á và thương_hiệu Ponds trên phạm_vi toàn_cầu
+T15	PER 1561 1576	Ông Seokhee_Won
+T16	Start-position 1591 1600	tiếp_nhận
+E6	Start-position:T16 Time-Arg:T17 Person-Arg:T15
+T17	TIME 1622 1634	đầu năm 2014
+T18	PER 1686 1707	ông Trương_Công_Thắng
+T19	End-position 1715 1723	từ_nhiệm
+E7	End-position:T19 Person-Arg:T18

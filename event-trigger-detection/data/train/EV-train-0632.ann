@@ -1,0 +1,47 @@
+T1	Release-parole 36 50	được trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 35	Con_gái bạn thân cựu tổng_thống Hàn
+T3	Arrest-jail 227 230	bắt
+E2	Arrest-jail:T3 Crime-Arg:T7 Agent-Arg:T4 Time-Arg:T6 Person-Arg:T5
+T4	GPE 218 226	Đan_Mạch
+T5	PER 195 200	Chung
+T6	TIME 205 214	tháng một
+T7	CRIME 234 253	cư_trú bất_hợp_pháp
+T8	Extradite 264 273	bị dẫn_độ
+E3	Extradite:T8 Origin-Arg:T9 Person-Arg:T10
+T9	GPE 277 285	Đan_Mạch
+T10	PER 289 294	Chung
+T11	TIME 295 304	ngày 31/5
+T12	Arrest-jail 305 311	bị bắt
+E4	Arrest-jail:T12 Time-Arg:T11 Person-Arg:T10
+T13	GPE 365 374	Amsterdam
+T14	Arrest-jail 473 476	giữ
+E5	Arrest-jail:T14 Time-Arg:T17 Agent-Arg:T16 Person-Arg:T15
+T15	PER 450 455	Chung
+T16	PER 459 472	giới_chức Hàn
+T17	TIME 480 492	từ ngày 31/5
+T18	Release-parole 530 539	trả tự_do
+E6	Release-parole:T18 Person-Arg:T20 Entity-Arg:T19
+T19	ORG 495 513	Một toà_án ở Seoul
+T20	PER 544 549	Chung
+T21	Transfer-money 794 801	chi_trả
+E7	Transfer-money:T21 
+T22	Transfer-money 897 908	chuyển tiền
+E8	Transfer-money:T22 Giver-Arg:T23
+T23	PER 875 880	Chung
+T24	Arrest-jail 1115 1121	bị bắt
+E9	Arrest-jail:T24 Time-Arg:T25 Person-Arg:T26
+T25	TIME 1122 1131	ngày 31/5
+T26	PER 1100 1114	Chung_Yoo - ra
+T27	Trial-hearing 1527 1536	bị xét_xử
+E10	Trial-hearing:T27 Crime-Arg:T29 Defendant-Arg:T28
+T28	PER 1484 1521	Cựu tổng_thống Hàn_Quốc_Park_Geun-hye
+T29	CRIME 1541 1710	18 cáo_buộc bao_gồm tham_nhũng , cưỡng_ép doanh_nghiệp và lạm_dụng quyền_lực vì đưa ra chính_sách ưu_tiên cho những tài_phiệt đã hối_lộ bạn thân của bà , Choi_Soon - sil
+T30	Trial-hearing 2120 2129	bị xét_xử
+E11	Trial-hearing:T30 Crime-Arg:T32 Defendant-Arg:T31
+T31	PER 2110 2114	Choi
+T32	CRIME 2133 2173	cáo_buộc ăn_hối_lộ và lạm_dụng quyền_lực
+T33	Trial-hearing 2235 2244	bị xét_xử
+E12	Trial-hearing:T33 Crime-Arg:T34 Defendant-Arg:T35
+T34	CRIME 2249 2264	cáo_buộc hối_lộ
+T35	PER 2176 2227	Lee_Jae - yong , người thừa_kế của tập_đoàn Samsung

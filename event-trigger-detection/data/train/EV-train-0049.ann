@@ -1,0 +1,13 @@
+T1	PER 0 5	Trump
+T2	Meet 6 15	thảo_luận
+E1	Meet:T2 Entity-Arg:T1 Entity-Arg2:T3
+T3	PER 44 54	vua Jordan
+T4	PER 100 123	Tổng_thống Donald_Trump
+T5	Meet 132 135	gặp
+E2	Meet:T5 Entity-Arg:T4 Entity-Arg2:T6 Place-Arg:T7
+T6	PER 145 159	nhà_vua Jordan
+T7	LOC 164 174	Washington
+T8	PER 461 473	người tị_nạn
+T9	Transport 474 477	đến
+E3	Transport:T9 Artifact-Arg:T8 Origin-Arg:T10
+T10	GPE 481 486	Syria

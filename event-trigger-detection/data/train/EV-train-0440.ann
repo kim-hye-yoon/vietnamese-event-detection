@@ -1,0 +1,5 @@
+T1	Transfer-money 209 215	đầu_tư
+E1	Transfer-money:T1 Giver-Arg:T2 Time-Arg:T3 Beneficiary-Arg:T4
+T2	ORG 201 208	Viettel
+T3	TIME 190 198	Năm 2011
+T4	ORG 220 335	trung_tâm an_ninh mạng để bảo_vệ cho hệ_thống công_nghệ_thông_tin và viễn_thông của tập_đoàn trên phạm_vi toàn_quốc

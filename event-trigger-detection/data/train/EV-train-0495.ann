@@ -1,0 +1,32 @@
+T1	Declare-bankruptcy 27 34	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	ORG 39 43	Uber
+T3	PER 0 15	Lance Armstrong
+T10	MONEY 401 413	100.000 đôla
+T11	ORG 422 441	quỹ đầu_tư mạo_hiểm
+T12	ORG 455 468	ứng_dụng Uber
+T13	TIME 469 477	năm 2010
+T19	TIME 628 640	tháng 4/2018
+T20	PER 643 652	Armstrong
+T21	MONEY 664 678	năm triệu đôla
+T22	ORG 683 697	chính_quyền Mỹ
+T23	MONEY 760 774	100 triệu đôla
+T29	PER 1038 1047	Armstrong
+T30	ORG 1057 1061	Uber
+T31	TIME 1073 1081	năm 2009
+T32	Start-org 1064 1072	sáng_lập
+E3	Start-org:T32 Agent-Arg:T30 Time-Arg:T31
+T33	MONEY 1092 1106	3,7 triệu đôla
+T41	ORG 1389 1393	Uber
+T42	PER 1410 1421	Chris_Sacca
+T43	PER 1424 1434	doanh_nhân
+T44	Start-org 1435 1443	sáng_lập
+E4	Start-org:T44 Agent-Arg:T42 Org-Arg:T45 Time-Arg:T46
+T45	ORG 1444 1461	Lowercase_Capital
+T46	TIME 1466 1474	năm 2010
+T47	PER 1339 1346	Tay_đua
+T4	PER 365 384	Cựu tay_đua 47 tuổi
+T5	Transfer-money 397 400	đưa
+E5	Transfer-money:T5 Giver-Arg:T4 Money-Arg:T10 Recipient-Arg:T11 Beneficiary-Arg:T12 Time-Arg:T13
+T6	Transfer-money 660 663	trả
+E2	Transfer-money:T6 Time-Arg:T19 Money-Arg:T21 Giver-Arg:T20 Recipient-Arg:T22

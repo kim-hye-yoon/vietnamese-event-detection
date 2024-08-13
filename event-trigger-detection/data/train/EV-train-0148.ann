@@ -1,0 +1,28 @@
+T1	Transport 291 294	vào
+E1	Transport:T1 Agent-Arg:T2 Origin-Arg:T3 Destination-Arg:T4
+T2	PER 253 268	Bố_mẹ Nam_Cường
+T3	GPE 271 277	Hà_Nội
+T4	GPE 295 301	TP HCM
+T5	Transport 485 494	chuyển về
+E2	Transport:T5 Agent-Arg:T6 Destination-Arg:T7 Time-Arg:T8
+T6	PER 466 484	Gia_đình Nam_Cường
+T7	GPE 508 523	quận 4 , TP HCM
+T8	TIME 524 539	hơn nửa năm nay
+T9	Transport 849 856	đưa_đón
+E3	Transport:T9 Agent-Arg:T10 Artifact-Arg:T11 Destination-Arg:T12
+T10	PER 831 834	Anh
+T11	PER 857 863	bé Rio
+T12	FAC 867 874	nhà_trẻ
+T13	Be-born 936 940	sinh
+E4	Be-born:T13 Time-Arg:T15 Place-Arg:T16 Person-Arg:T14
+T14	PER 926 935	Nam_Cường
+T15	TIME 941 949	năm 1985
+T16	GPE 956 963	Đà_Nẵng
+T17	Marry 1245 1252	kết_hôn
+E5	Marry:T17 Person-Arg:T18 Time-Arg:T19
+T18	PER 1235 1244	Nam_Cường
+T19	TIME 1253 1261	năm 2016
+T20	Be-born 1295 1299	sinh
+E6	Be-born:T20 Person-Arg:T21 Time-Arg:T22
+T21	PER 1264 1292	Vợ Nam_Cường tên Phương_Thảo
+T22	TIME 1300 1308	năm 1993

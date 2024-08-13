@@ -1,0 +1,9 @@
+T1	PER 0 19	Diễn_viên Diệu_Thuý
+T2	Marry 20 27	kết_hôn
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 32 47	doanh_nhân Pháp
+T4	PER 383 392	Diệu_Thuý
+T5	Marry 393 400	kết_hôn
+E2	Marry:T5 Person-Arg:T4 Person-Arg2:T6 Place-Arg:T7
+T6	PER 405 414	chồng Tây
+T7	GPE 417 426	Quảng_Trị

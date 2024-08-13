@@ -1,0 +1,49 @@
+T1	PER 19 26	4 người
+T2	PER 34 40	4 ngườ
+T3	Injure 42 51	bị_thương
+E1	Injure:T3 Victim-Arg:T2
+T4	Die 27 31	chết
+E2	Die:T4 Victim-Arg:T1
+T5	Attack 0 7	Xả súng
+E3	Attack:T5 Place-Arg:T6
+T6	GPE 12 14	Mỹ
+T7	Attack 61 68	Xả súng
+E4	Attack:T7 Time-Arg:T8 Place-Arg:T9
+T8	TIME 79 94	hôm_qua ( 3/5 )
+T9	GPE 99 117	tiểu_bang Arkansas
+T10	PER 174 191	một người đàn_ông
+T11	Transport 192 196	mang
+E5	Transport:T11 Agent-Arg:T10 Artifact-Arg:T12 Destination-Arg:T18
+T12	WEA 202 206	súng
+T13	PER 174 206	một người đàn_ông mang theo súng
+T14	Attack 273 276	bắn
+E6	Attack:T14 Attacker-Arg:T13 Target-Arg:T15 Place-Arg:T19
+T15	PER 277 284	6 người
+T16	PER 310 317	2 người
+T17	Die 318 322	chết
+E7	Die:T17 Victim-Arg:T16
+T18	FAC 214 270	một căn nhà ở khu_vực Jonesboro , phía Đông_Bắc_Arkansas
+T19	FAC 291 303	ngôi nhà này
+T20	PER 365 372	2 người
+T21	Injure 373 382	bị_thương
+E8	Injure:T21 Victim-Arg:T20
+T22	PER 417 428	Kẻ tấn_công
+T23	TIME 429 449	sau khi dời ngôi nhà
+T24	Transport 453 456	tới
+E9	Transport:T24 Artifact-Arg:T22 Time-Arg:T23 Destination-Arg:T25
+T25	FAC 457 469	một cửa_hàng
+T26	Attack 482 485	bắn
+E10	Attack:T26 Attacker-Arg:T22 Target-Arg:T28 Place-Arg:T25
+T27	Die 486 490	chết
+E11	Die:T27 Agent-Arg:T22 Victim-Arg:T28 Place-Arg:T25
+T28	PER 491 500	một người
+T29	PER 511 518	Tên này
+T30	Die 544 548	chết
+E12	Die:T30 Victim-Arg:T29 Place-Arg:T31
+T31	LOC 555 568	ô_tô của mình
+T32	WEA 575 578	đạn
+T33	Attack 579 582	bắn
+E13	Attack:T33 Instrument-Arg:T32 Target-Arg:T29
+T34	PER 630 637	tên này
+T35	Die 641 647	tự_sát
+E14	Die:T35 Agent-Arg:T34 Victim-Arg:T34

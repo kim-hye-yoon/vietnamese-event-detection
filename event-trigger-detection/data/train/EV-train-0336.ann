@@ -1,0 +1,17 @@
+T1	Declare-bankruptcy 15 22	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2 Place-Arg:T3
+T2	ORG 0 7	Toshiba
+T3	GPE 46 48	Mỹ
+T4	Transfer-money 400 403	vay
+E2	Transfer-money:T4 Giver-Arg:T6
+T5	Transfer-ownership 335 338	bán
+E3	Transfer-ownership:T5 
+T6	ORG 407 425	một nhóm ngân_hàng
+T7	Transfer-ownership 865 868	mua
+E4	Transfer-ownership:T7 Buyer-Arg:T8 Price-Arg:T11 Time-Arg:T10
+T8	ORG 857 864	Toshiba
+T9	ORG 869 881	Westinghouse
+T10	TIME 846 854	Năm 2006
+T11	MONEY 890 900	5,4 tỷ USD
+T12	Transfer-ownership 1069 1072	vay
+E5	Transfer-ownership:T12 

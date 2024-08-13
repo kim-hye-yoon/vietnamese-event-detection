@@ -1,0 +1,16 @@
+T1	End-position 4 13	cách_chức
+E1	End-position:T1 Place-Arg:T3 Position-Arg:T2
+T2	JOB 14 36	đội_trưởng bảo_vệ rừng
+T3	GPE 39 51	huyện A_Lưới
+T4	End-position 183 192	cách_chức
+E2	End-position:T4 Position-Arg:T5 Person-Arg:T6 Time-Arg:T7 Entity-Arg:T8
+T5	JOB 193 222	đội_trưởng bảo_vệ rừng Mỏ_Quạ
+T6	PER 231 247	ông Lê_Văn_Thoại
+T7	TIME 54 64	Chiều 8/10
+T8	ORG 91 153	Ban quản_lý rừng_phòng_hộ huyện A_Lưới ( tỉnh Thừa_Thiên_Huế )
+T9	End-position 663 672	cách_chức
+E3	End-position:T9 Entity-Arg:T12 Position-Arg:T10 Person-Arg:T11
+T10	JOB 673 714	đội_trưởng đội quản_lý bảo_vệ rừng Mỏ_Quạ
+T11	PER 723 732	ông Thoại
+T12	ORG 632 658	hội_đồng_kỷ_luật của đơn_v
+T13	TIME 621 629	Sáng nay

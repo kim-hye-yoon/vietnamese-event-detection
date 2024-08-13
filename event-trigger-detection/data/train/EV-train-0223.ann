@@ -1,0 +1,23 @@
+T1	Arrest-jail 14 17	bắt
+E1	Arrest-jail:T1 Agent-Arg:T2 Person-Arg:T3 Place-Arg:T4
+T2	ORG 0 13	Bộ Quốc_phòng
+T3	PER 18 44	cựu nhân_viên trốn truy_nã
+T4	GPE 47 51	Cuba
+T5	Extradite 251 257	dẫn độ
+E2	Extradite:T5 Person-Arg:T6 Origin-Arg:T7 Destination-Arg:T8
+T6	PER 258 276	Lê_Quang_Hiếu_Hùng
+T7	GPE 280 284	Cuba
+T8	GPE 288 296	Việt_Nam
+T9	Charge-indict 726 733	khởi_tố
+E3	Charge-indict:T9 Defendant-Arg:T10
+T10	PER 736 754	Lê_Quang_Hiếu_Hùng
+T11	Transport 763 765	ra
+E4	Transport:T11 Destination-Arg:T12 Artifact-Arg:T10
+T12	LOC 766 776	nước_ngoài
+T13	Arrest-jail 917 924	bắt_giữ
+E5	Arrest-jail:T13 Person-Arg:T15 Agent-Arg:T17
+T15	PER 946 964	Lê_Quang_Hiếu_Hùng
+T16	GPE 968 976	Việt_Nam
+T14	Extradite 928 934	dẫn_độ
+E6	Extradite:T14 Person-Arg:T15 Destination-Arg:T16
+T17	ORG 885 898	Bộ Quốc_phòng

@@ -1,0 +1,10 @@
+T1	Transport 112 122	vận_chuyển
+E1	Transport:T1 Origin-Arg:T2 Destination-Arg:T3
+T2	GPE 152 160	Việt_Nam
+T3	GPE 166 189	Đài_Loan ( Trung_Quốc )
+T4	PER 629 646	7 người liên_quan
+T5	Arrest-jail 650 657	bắt_giữ
+E2	Arrest-jail:T5 Person-Arg:T4
+T6	Arrest-jail 911 918	bắt_giữ
+E3	Arrest-jail:T6 Agent-Arg:T7
+T7	ORG 893 910	cảnh_sát Đài_Loan

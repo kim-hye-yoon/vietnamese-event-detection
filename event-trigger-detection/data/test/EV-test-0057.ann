@@ -1,0 +1,7 @@
+T1	Release-parole 65 81	được phóng_thích
+E1	Release-parole:T1 Entity-Arg:T2
+T2	PER 0 48	Nghi_phạm Indonesia trong nghi_án Kim_Jong - nam
+T3	Release-parole 138 149	phóng_thích
+E2	Release-parole:T3 Entity-Arg:T5 Entity-Arg2:T4
+T4	ORG 154 169	toà_án Malaysia
+T5	PER 84 106	Bị_cáo người Indonesia

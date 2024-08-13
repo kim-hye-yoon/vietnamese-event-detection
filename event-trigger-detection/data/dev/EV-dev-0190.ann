@@ -1,0 +1,13 @@
+T1	Divorce 45 51	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 15 36	bà Lê_Hoàng_Diệp_Thảo
+T4	TIME 75 85	chiều 21/2
+T5	PER 88 109	bà Lê_Hoàng_Diệp_Thảo
+T6	ORG 124 128	HĐXX
+T3	Phone-write 145 153	gọi điện
+E2	Phone-write:T3 Entity-Arg:T7 Entity-Arg2:T9
+T7	PER 136 144	con_trai
+T8	GPE 157 166	Australia
+T9	PER 176 178	bà
+T10	Divorce 389 395	ly_hôn
+E3	Divorce:T10 

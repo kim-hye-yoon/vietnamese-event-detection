@@ -1,0 +1,16 @@
+T1	PER 0 24	Hàng trăm_nghìn người Mỹ
+T2	Demonstrate 25 34	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 368 374	phụ_nữ
+T4	Demonstrate 385 397	đi tuần_hành
+E2	Demonstrate:T4 Entity-Arg:T3
+T5	PER 821 837	Hàng nghìn người
+T6	Demonstrate 855 864	biểu_tình
+E3	Demonstrate:T6 Entity-Arg:T5 Place-Arg:T7 Place-Arg2:T8 Place-Arg3:T9 Place-Arg4:T10
+T7	GPE 869 879	Washington
+T8	GPE 882 893	Los_Angeles
+T9	GPE 896 903	Chicago
+T10	GPE 906 918	Philadelphia
+T11	PER 921 933	Nhiều phụ_nữ
+T12	Transport 943 952	tuần_hành
+E4	Transport:T12 Artifact-Arg:T11

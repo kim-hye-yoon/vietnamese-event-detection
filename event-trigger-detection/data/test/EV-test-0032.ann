@@ -1,0 +1,19 @@
+T1	PER 0 18	Ông Thào_Xuân_Sùng
+T2	Elect 19 27	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 32 62	Chủ_tịch Hội Nông_dân Việt_Nam
+T4	TIME 65 74	Ngày 12/1
+T5	ORG 77 155	Hội_nghị Ban_chấp_hành Trung_ương Hội Nông_dân Việt_Nam lần thứ 13 ( khoá VI )
+T6	Elect 156 162	đã bầu
+E2	Elect:T6 Person-Arg:T7 Position-Arg:T8 Entity-Arg:T5 Time-Arg:T4
+T7	PER 163 259	ông Thào_Xuân_Sùng - Uỷ_viên Trung_ương Đảng , Bí_thư Đảng_đoàn Trung_ương Hội Nông_dân Việt_Nam
+T8	JOB 271 302	Chủ_tịch hội nhiệm_kỳ 2013-2018
+T9	End-position 864 872	thôi giữ
+E3	End-position:T9 Position-Arg:T11 Person-Arg:T10
+T10	PER 845 863	ông Thào_Xuân_Sùng
+T11	JOB 878 927	Phó trưởng_Ban thường_trực Ban dân_vận Trung_ương
+T12	PER 1094 1112	Ông Thào_Xuân_Sùng
+T13	Be-born 1113 1117	sinh
+E4	Be-born:T13 Time-Arg:T14 Person-Arg:T12 Place-Arg:T15
+T14	TIME 1118 1126	năm 1958
+T15	GPE 1155 1161	Sơn_La

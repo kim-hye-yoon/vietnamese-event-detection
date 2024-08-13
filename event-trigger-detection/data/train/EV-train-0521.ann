@@ -1,0 +1,7 @@
+T1	End-position 11 20	cách_chức
+E1	End-position:T1 Entity-Arg:T2 Person-Arg:T3
+T2	GPE 0 10	Trung_Quốc
+T3	PER 21 55	Cục_trưởng Cục Năng_lượng Quốc_gia
+T4	Arrest-jail 305 308	bắt
+E2	Arrest-jail:T4 Person-Arg:T5
+T5	PER 288 301	Quan_chức này

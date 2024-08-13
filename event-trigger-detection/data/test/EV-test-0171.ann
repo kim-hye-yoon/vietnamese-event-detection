@@ -1,0 +1,122 @@
+T2	GPE 67 72	Syria
+T3	Attack 116 124	tấn_công
+E2	Attack:T3 Instrument-Arg:T4 Time-Arg:T6 Place-Arg:T5
+T4	WEA 135 149	vũ_khí_hoá_học
+T6	TIME 190 193	4/4
+T7	PER 214 222	80 người
+T8	Die 226 236	thiệt_mạng
+E3	Die:T8 Victim-Arg:T7
+T9	Attack 243 254	vụ tấn_công
+E4	Attack:T9 Place-Arg:T10 Time-Arg:T11
+T10	LOC 259 267	thị_trấn
+T11	TIME 297 300	4/4
+T12	GPE 303 305	Mỹ
+T13	Charge-indict 306 314	cáo_buộc
+E5	Charge-indict:T13 Defendant-Arg:T14 Prosecutor-Arg:T12
+T14	GPE 315 332	chính_quyền Syria
+T15	GPE 362 365	Nga
+T16	Appeal 366 372	bác_bỏ
+E6	Appeal:T16 Defendant-Arg:T15
+T18	Die 836 846	thiệt_mạng
+E7	Die:T18 Agent-Arg:T17
+T19	PER 1082 1085	ông
+T20	Injure 1091 1100	ngã khuỵu
+E8	Injure:T20 Victim-Arg:T19
+T22	Die 1419 1429	thiệt_mạng
+E9	Die:T22 Agent-Arg:T21
+T23	Attack 1609 1624	cuộc không_kích
+E10	Attack:T23 Time-Arg:T53 Target-Arg:T54
+T25	Die 1691 1701	thiệt_mạng
+E11	Die:T25 Agent-Arg:T56
+T26	Transport 1844 1853	vượt biển
+E12	Transport:T26 Agent-Arg:T27 Origin-Arg:T28 Destination-Arg:T29
+T27	PER 1803 1821	Mẹ và ba em của cô
+T28	GPE 1857 1867	Thổ_Nhĩ_Kỳ
+T29	GPE 1873 1876	Đức
+T32	PER 2778 2796	anh_em họ của Alaa
+T33	Die 2800 2804	chết
+E14	Die:T33 Place-Arg:T34 Victim-Arg:T32
+T34	LOC 2809 2821	một sân bóng
+T35	Attack 3531 3541	không_kích
+E15	Attack:T35 Attacker-Arg:T36
+T36	ORG 3502 3520	quân_đội chính_phủ
+T37	Transport 4234 4252	băng qua biên_giới
+E16	Transport:T37 
+T38	PER 4139 4172	Bác_sĩ phẫu_thuật Osama_Abo_Elezz
+T39	Transport 4493 4502	di_chuyển
+E17	Transport:T39 Artifact-Arg:T41 Agent-Arg:T40
+T40	PER 4442 4456	nhân_viên y_tế
+T41	PER 4509 4516	thi_thể
+T1	Attack 50 58	tấn_công
+E1	Attack:T1 Instrument-Arg:T42 Place-Arg:T2
+T42	WEA 59 66	hoá_học
+T5	GPE 152 183	thị trấn Khan Sheikhoun , Syria
+T43	Transport 524 531	bỏ chạy
+E18	Transport:T43 Artifact-Arg:T44
+T44	PER 512 523	nhiều người
+T45	Die 660 670	thiệt_mạng
+E19	Die:T45 Victim-Arg:T46
+T46	PER 648 659	Những người
+T47	Attack 780 788	tấn_công
+E20	Attack:T47 Target-Arg:T48
+T17	PER 809 832	người em họ và người cô
+T48	FAC 746 772	một ngôi nhà gần trung_tâm
+T49	Die 739 743	chết
+E21	Die:T49 Place-Arg:T48
+T50	Die 1299 1306	qua_đời
+E22	Die:T50 Victim-Arg:T51
+T51	PER 1288 1293	Cô_bé
+T52	Attack 1342 1350	tấn_công
+E23	Attack:T52 
+T21	PER 1369 1415	25 người trong đại_gia_đình của cô_gái 24 tuổi
+T53	TIME 1587 1598	ngày hôm đó
+T54	FAC 1536 1568	cơ_sở y_tế duy_nhất của thị_trấn
+T55	Attack 1711 1719	tấn_công
+E24	Attack:T55 
+T56	PER 1670 1687	hai con song_sinh
+T24	Die 1731 1734	mất
+E25	Die:T24 Victim-Arg:T57
+T57	PER 1735 1791	vợ , hai anh_em trai , các cháu và nhiều người_thân khác
+T58	Transport 1935 1939	sang
+E26	Transport:T58 Destination-Arg:T60 Artifact-Arg:T59
+T59	PER 1932 1934	họ
+T60	GPE 1940 1943	Đức
+T61	Die 2078 2082	chết
+E27	Die:T61 Victim-Arg:T62
+T62	PER 2071 2074	tôi
+T64	Attack 2285 2296	vụ tấn_công
+E29	Attack:T64 
+T63	Attack 2098 2109	vụ tấn_công
+E28	Attack:T63 
+T65	Die 2571 2574	mất
+E30	Die:T65 Victim-Arg:T66
+T66	PER 2575 2615	vợ và hai đứa con song_sinh 9 tháng tuổi
+T30	Die 2730 2740	thiệt_mạng
+E13	Die:T30 Victim-Arg:T31
+T31	PER 2710 2726	những người_thân
+T67	Die 2903 2910	thi_thể
+E31	Die:T67 
+T68	Attack 3714 3725	vụ tấn_công
+E32	Attack:T68 Instrument-Arg:T69
+T69	WEA 3735 3755	một hoá_chất rất độc
+T70	Transport 4085 4088	đến
+E33	Transport:T70 Destination-Arg:T71 Artifact-Arg:T72
+T71	LOC 4094 4103	bệnh_viện
+T72	PER 4073 4081	chúng_ta
+T73	Die 4066 4070	chết
+E34	Die:T73 Victim-Arg:T74
+T74	PER 4051 4059	chúng_ta
+T75	Die 4829 4843	không qua khỏi
+E35	Die:T75 Victim-Arg:T76
+T76	PER 4818 4824	tất_cả
+T77	Die 4952 4956	chết
+E36	Die:T77 
+T78	Attack 4963 4974	vụ tấn_công
+E37	Attack:T78 
+T79	Attack 4663 4674	vụ tấn_công
+E38	Attack:T79 
+T80	Die 5280 5287	tử_vong
+E39	Die:T80 
+T81	Die 5338 5348	thiệt_mạng
+E40	Die:T81 Victim-Arg:T82
+T82	PER 5307 5318	người Syria

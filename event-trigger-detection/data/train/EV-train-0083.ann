@@ -1,0 +1,23 @@
+T1	Elect 8 16	được bầu
+E1	Elect:T1 Person-Arg:T2 Position-Arg:T3
+T2	PER 0 7	Ông Tập
+T3	JOB 21 70	Tổng_bí_thư đảng Cộng_sản Trung_Quốc nhiệm_kỳ hai
+T4	Elect 262 270	được bầu
+E2	Elect:T4 Person-Arg:T5 Place-Arg:T8 Position-Arg:T6 Time-Arg:T7
+T5	PER 233 249	ông Tập_Cận_Bình
+T6	JOB 275 316	Tổng_bí_thư , Chủ_tịch Quân_uỷ_Trung_ương
+T7	TIME 211 219	sáng nay
+T8	GPE 222 230	Bắc_Kinh
+T9	Elect 641 649	được bầu
+E3	Elect:T9 Person-Arg:T10 Position-Arg:T11
+T10	PER 628 640	Triệu Lạc_Tế
+T11	JOB 654 752	Chủ_nhiệm Uỷ_ban Kiểm_tra Kỷ_luật Trung_ương , cơ_quan chống tham_nhũng đảng Cộng_sản Trung_Quốc .
+T12	End-position 798 806	nghỉ hưu
+E4	End-position:T12 Person-Arg:T13
+T13	PER 772 784	Vương_Kỳ_Sơn
+T14	Elect 903 906	bầu
+E5	Elect:T14 Person-Arg:T15
+T15	PER 933 958	204 thành_viên chính_thức
+T16	Elect 1059 1062	bầu
+E6	Elect:T16 Person-Arg:T17
+T17	PER 1120 1134	133 thành_viên

@@ -1,0 +1,9 @@
+T1	End-position 23 32	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Chủ_tịch xã
+T3	Transfer-ownership 117 121	thuê
+E2	Transfer-ownership:T3 Artifact-Arg:T4 Seller-Arg:T5
+T4	FAC 55 71	Khu_vực đất công
+T5	PER 101 112	chủ_tịch xã
+T6	End-position 260 269	cách_chức
+E3	End-position:T6 

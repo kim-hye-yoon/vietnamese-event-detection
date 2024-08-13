@@ -1,0 +1,6 @@
+T1	Elect 12 25	được bầu_chọn
+E1	Elect:T1 
+T2	ORG 0 11	Vietcombank
+T3	Transfer-ownership 2899 2908	giao_dịch
+E2	Transfer-ownership:T3 Seller-Arg:T4
+T4	ORG 2889 2898	Ngân_hàng

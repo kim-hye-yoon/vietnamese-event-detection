@@ -1,0 +1,34 @@
+T1	PER 11 24	19 người_thân
+T2	Die 7 10	mất
+E1	Die:T2 Victim-Arg:T1
+T3	Attack 31 39	tấn_công
+E2	Attack:T3 Instrument-Arg:T4 Place-Arg:T5
+T4	WEA 40 47	hoá_học
+T5	GPE 50 55	Syria
+T6	PER 58 63	Yusif
+T7	Transport 69 75	chuyển
+E3	Transport:T7 Destination-Arg:T8 Time-Arg:T9 Artifact-Arg:T6
+T8	FAC 80 98	bệnh_viện Reyhanli
+T9	TIME 99 106	hôm 5/4
+T10	PER 136 144	30 người
+T11	Transport 145 148	tới
+E4	Transport:T11 Agent-Arg:T10 Destination-Arg:T12
+T12	LOC 149 177	thị_trấn phía nam Thổ_Nhĩ_Kỳ
+T13	PER 292 307	ít_nhất 70 ngườ
+T14	Die 309 319	thiệt_mạng
+E5	Die:T14 Victim-Arg:T13
+T15	PER 848 852	Cháu
+T16	Transport 853 856	lao
+E6	Transport:T16 Destination-Arg:T17 Artifact-Arg:T15
+T17	FAC 861 864	nhà
+T18	PER 1713 1748	các anh_em của cậu bé và con_cái họ
+T19	Die 1756 1760	chết
+E7	Die:T19 Victim-Arg:T18
+T20	PER 1833 1842	thân_nhân
+T21	Die 1846 1853	bỏ_mạng
+E8	Die:T21 Victim-Arg:T20
+T22	Attack 1768 1776	tấn_công
+E9	Attack:T22 
+T23	Attack 2081 2089	tấn_công
+E10	Attack:T23 Instrument-Arg:T24
+T24	WEA 2090 2097	hoá_học

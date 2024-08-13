@@ -1,0 +1,9 @@
+T1	ORG 0 9	Sacombank
+T2	Merge-org 27 35	sáp_nhập
+E1	Merge-org:T2 Org-Arg:T1 Org-Arg2:T3
+T3	ORG 40 50	Phương_Nam
+T4	ORG 95 115	Ngân_hàng Phương_Nam
+T5	ORG 120 129	Sacombank
+T6	Merge-org 86 94	sáp_nhập
+E2	Merge-org:T6 Org-Arg:T4 Org-Arg2:T5 Time-Arg:T7
+T7	TIME 193 202	ngày 25-3

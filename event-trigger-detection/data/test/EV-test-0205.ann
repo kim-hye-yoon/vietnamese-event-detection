@@ -1,0 +1,27 @@
+T1	Attack 628 636	tấn_công
+E1	Attack:T1 Attacker-Arg:T2 Place-Arg:T3 Place-Arg2:T16
+T2	ORG 568 586	quân_đội chính_phủ
+T3	LOC 641 676	thành_trì cuối_cùng của phe nổi_dậy
+T4	Attack 1331 1350	chiến_dịch tấn_công
+E2	Attack:T4 Attacker-Arg:T6 Target-Arg:T5
+T5	ORG 1355 1360	Idlib
+T6	ORG 1365 1379	quân_đội Syria
+T7	Attack 1532 1540	tấn_công
+E3	Attack:T7 Attacker-Arg:T8 Place-Arg:T18
+T8	GPE 1503 1511	Damascus
+T9	Start-org 11 20	thành_lập
+E4	Start-org:T9 Agent-Arg:T10 Org-Arg:T17
+T10	GPE 0 10	Thổ_Nhĩ_Kỳ
+T12	Start-org 212 221	thành_lập
+E5	Start-org:T12 Org-Arg:T13 Place-Arg:T14 Agent-Arg:T15
+T13	ORG 222 279	một lực_lượng_vũ_trang mới mang tên " quân_đội quốc_gia "
+T14	GPE 194 208	miền bắc Syria
+T15	GPE 151 161	Thổ_Nhĩ_Kỳ
+T16	GPE 679 719	tỉnh Idlib giáp biên_giới với Thổ_Nhĩ_Kỳ
+T11	GPE 48 53	Syria
+T17	ORG 21 45	lực_lượng_vũ_trang riêng
+T18	LOC 1545 1556	khu_vực này
+T19	Start-org 1630 1639	thành_lập
+E6	Start-org:T19 Org-Arg:T20 Agent-Arg:T21
+T20	ORG 1640 1653	lực_lượng mới
+T21	GPE 1599 1609	Thổ_Nhĩ_Kỳ

@@ -1,0 +1,42 @@
+T1	PER 1 8	Bảo_mẫu
+T2	Attack 9 17	đạp chết
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 18 21	trẻ
+T4	Sentence 25 33	tuyên_án
+E2	Sentence:T4 Defendant-Arg:T1 Sentence-Arg:T5
+T5	SEN 34 43	18 năm tù
+T6	TIME 52 69	Vào 11g ngày 30-5
+T7	ORG 72 84	TAND TP. HCM
+T8	Sentence 88 98	tuyên_phạt
+E3	Sentence:T8 Adjudicator-Arg:T7 Defendant-Arg:T9 Sentence-Arg:T10 Crime-Arg:T11
+T9	PER 99 113	bị_cáo Hồ_Ngọc
+T10	SEN 118 127	18 năm tù
+T11	CRIME 128 145	về tội giết người
+T12	Charge-indict 149 153	buộc
+E4	Charge-indict:T12 Adjudicator-Arg:T7 Defendant-Arg:T13
+T13	PER 154 187	bị_cáo cùng với gia_đình liên_đới
+T14	Fine 188 198	bồi_thường
+E5	Fine:T14 Entity-Arg:T13 Adjudicator-Arg:T15 Money-Arg:T16
+T15	PER 203 220	gia_đình nạn_nhân
+T16	MONEY 221 235	100 triệu đồng
+T17	PER 381 387	Bị_cáo
+T18	Attack 452 460	đạp mạnh
+E6	Attack:T18 Attacker-Arg:T17 Target-Arg:T19
+T19	PER 461 476	vào bụng , ngực
+T20	ORG 1082 1085	toà
+T21	Sentence 1086 1090	phạt
+E7	Sentence:T21 Adjudicator-Arg:T20 Defendant-Arg:T22 Sentence-Arg:T23
+T22	PER 1091 1097	bị_cáo
+T23	SEN 1102 1117	mức án như trên
+T24	Transport 1376 1379	đưa
+E8	Transport:T24 Artifact-Arg:T25
+T25	PER 1353 1367	cháu Long khóc
+T26	PER 1493 1499	bị_cáo
+T27	Attack 1504 1507	đạp
+E9	Attack:T27 Attacker-Arg:T26 Target-Arg:T28
+T28	PER 1512 1534	bụng và ngực cháu Long
+T29	PER 1789 1801	đại_diện VKS
+T30	PER 2221 2228	luật_sư
+T31	Appeal 2229 2237	bào_chữa
+E10	Appeal:T31 
+T32	PER 2242 2248	bị_cáo

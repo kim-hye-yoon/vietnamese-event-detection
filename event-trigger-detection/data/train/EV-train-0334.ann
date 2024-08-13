@@ -1,0 +1,43 @@
+T1	Attack 100 104	đánh
+E1	Attack:T1 Attacker-Arg:T3 Target-Arg:T2
+T2	PER 105 112	đối_tác
+T3	PER 82 87	Khiêm
+T4	ORG 137 149	TAND TP. HCM
+T5	Sentence 150 160	tuyên_phạt
+E2	Sentence:T5 Adjudicator-Arg:T4 Defendant-Arg:T6 Sentence-Arg:T7 Defendant-Arg2:T8 Sentence-Arg2:T9 Crime-Arg:T10
+T6	PER 161 182	bị_cáo Lê_Thành_Khiêm
+T7	SEN 195 204	21 năm tù
+T8	PER 208 222	Nguyễn_Tấn_Đạt
+T9	SEN 257 266	16 năm tù
+T10	CRIME 274 284	giết người
+T11	Phone-write 1037 1047	điện_thoại
+E3	Phone-write:T11 Entity-Arg:T16 Entity-Arg2:T15
+T12	PER 758 766	anh Tuấn
+T13	PER 775 791	chị Thoại_Phương
+T14	Meet 771 774	gặp
+E4	Meet:T14 Entity-Arg:T12 Entity-Arg2:T13
+T15	PER 997 1002	Khiêm
+T16	PER 1052 1056	Tuấn
+T17	Attack 1142 1146	chém
+E5	Attack:T17 Instrument-Arg:T19 Target-Arg:T18
+T18	PER 1158 1168	đối_phương
+T19	WEA 1138 1141	dao
+T20	Attack 1202 1206	tông
+E6	Attack:T20 Instrument-Arg:T23 Attacker-Arg:T21 Target-Arg:T22
+T21	PER 1184 1189	Khiêm
+T22	VEH 1217 1233	đuôi xe của Tuấn
+T23	VEH 1197 1201	ô_tô
+T24	Attack 1421 1425	chém
+E7	Attack:T24 Instrument-Arg:T26 Attacker-Arg:T25 Target-Arg:T27
+T25	PER 1399 1402	Đạt
+T26	WEA 1417 1420	dao
+T27	PER 1451 1455	Tuấn
+T28	Transport 1494 1497	đưa
+E8	Transport:T28 Artifact-Arg:T29
+T29	PER 1480 1488	Anh Tuấn
+T30	Die 1515 1522	tử_vong
+E9	Die:T30 Victim-Arg:T29
+T31	Sentence 1621 1628	xử_phạt
+E10	Sentence:T31 Adjudicator-Arg:T33 Sentence-Arg:T32
+T32	SEN 1629 1638	21 năm tù
+T33	ORG 1603 1616	TAND cùng cấp

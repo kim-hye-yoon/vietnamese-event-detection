@@ -1,0 +1,23 @@
+T1	Transport 399 408	lên_đường
+E1	Transport:T1 Agent-Arg:T3 Time-Arg:T2 Destination-Arg:T4
+T2	TIME 350 358	sáng 4/5
+T3	PER 361 395	Thủ_tướng Trung_Quốc_Lý_Khắc_Cường
+T4	GPE 438 474	Ethiopia , Nigeria , Angola và Kenya
+T5	PER 498 504	ông Lý
+T6	Transport 505 508	tới
+E2	Transport:T6 Agent-Arg:T5 Destination-Arg:T7
+T7	GPE 509 517	châu_Phi
+T8	PER 738 740	Bà
+T9	Be-born 741 745	sinh
+E3	Be-born:T9 Person-Arg:T8 Time-Arg:T10 Place-Arg:T11
+T10	TIME 746 754	năm 1957
+T11	GPE 759 791	Trịnh_Châu , thủ_phủ tỉnh Hà_Nam
+T12	Elect 1223 1231	bầu_chọn
+E4	Elect:T12 Person-Arg:T13 Entity-Arg:T14 Position-Arg:T15
+T13	PER 1192 1194	Bà
+T14	PER 1213 1222	sinh_viên
+T15	JOB 1235 1272	một trong 10 giảng_viên xuất_sắc nhất
+T16	PER 951 953	bà
+T17	Meet 954 957	gặp
+E5	Meet:T17 Entity-Arg:T16 Entity-Arg2:T18
+T18	PER 958 975	ông Lý_Khắc_Cường

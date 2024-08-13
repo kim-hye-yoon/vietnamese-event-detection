@@ -1,0 +1,34 @@
+T1	Divorce 21 27	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 7	Bà Thảo
+T3	Sue 201 208	vụ kiện
+E2	Sue:T3 Plaintiff-Arg:T4
+T4	PER 189 191	bà
+T5	Divorce 402 408	ly_hôn
+E3	Divorce:T5 Person-Arg:T6
+T6	PER 384 387	tôi
+T7	Trial-hearing 476 482	xét_xử
+E4	Trial-hearing:T7 Adjudicator-Arg:T8
+T8	ORG 463 466	toà
+T9	Transfer-ownership 988 993	hưởng
+E5	Transfer-ownership:T9 Beneficiary-Arg:T10 Price-Arg:T11 Beneficiary-Arg2:T12
+T10	PER 975 982	bà Thảo
+T11	MONEY 1013 1026	2.114 tỷ đồng
+T12	PER 1031 1037	ông Vũ
+T13	Transfer-money 2021 2025	nhận
+E6	Transfer-money:T13 Money-Arg:T14 Beneficiary-Arg:T15
+T14	MONEY 2026 2036	10 tỷ đồng
+T15	PER 2006 2013	bà Thảo
+T16	Divorce 2150 2156	ly_hôn
+E7	Divorce:T16 Person-Arg:T17
+T17	PER 2134 2141	bà Thảo
+T18	Trial-hearing 2722 2730	phiên xử
+E8	Trial-hearing:T18 
+T20	ORG 2798 2802	HĐXX
+T21	Divorce 2899 2905	ly_hôn
+E10	Divorce:T21 Person-Arg:T22 Person-Arg2:T23
+T22	PER 2868 2875	Bà Thảo
+T23	PER 2912 2918	ông Vũ
+T19	Phone-write 158 166	gọi điện
+E9	Phone-write:T19 Entity-Arg:T24 Entity-Arg2:T4
+T24	PER 149 157	con_trai

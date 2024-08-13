@@ -1,0 +1,14 @@
+T1	End-position 32 41	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 28	Hạt phó kiểm_lâm ở Quảng_Nam
+T3	End-position 566 575	cách_chức
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5
+T4	JOB 518 552	Hạt phó Hạt kiểm_lâm Nam_Quảng_Nam
+T5	PER 497 515	ông Huỳnh_Ngọc_Tân
+T6	End-position 1426 1435	cách_chức
+E3	End-position:T6 Person-Arg:T7 Position-Arg:T8 Entity-Arg:T9 Person-Arg2:T10 Position-Arg2:T11
+T7	PER 1436 1453	ông Võ_Hồng_Nhiệm
+T8	JOB 1456 1477	Chủ_tịch xã Tiên_Lãnh
+T9	ORG 1402 1418	Huyện Tiên_Phước
+T10	PER 1481 1494	ông Võ_Tấn_Sỹ
+T11	JOB 1497 1516	cán_bộ địa_chính xã

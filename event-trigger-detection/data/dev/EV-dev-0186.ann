@@ -1,0 +1,77 @@
+T1	PER 8 18	công_an xã
+T2	Die 19 24	tự_tử
+E1	Die:T2 Victim-Arg:T1
+T3	PER 67 86	Một phụ_nữ độc_thân
+T4	Die 90 97	sát_hại
+E2	Die:T4 Victim-Arg:T3
+T5	PER 135 170	Công_an_viên trước đó đã hẹn gặp bà
+T6	Die 186 191	tự_tử
+E3	Die:T6 Victim-Arg:T5
+T7	PER 225 232	anh này
+T8	Die 304 309	tự xử
+E4	Die:T8 Victim-Arg:T7
+T9	TIME 715 738	khoảng 15 giờ cùng ngày
+T10	PER 741 801	Nguyễn_Thành_Minh ( SN 1986 , là công_an_viên xã Trà_Giang )
+T11	Transport 807 810	đưa
+E5	Transport:T11 Artifact-Arg:T10 Time-Arg:T9
+T12	Die 835 839	chết
+E6	Die:T12 Victim-Arg:T10 Time-Arg:T9
+T13	PER 915 919	Minh
+T14	Die 920 924	chết
+E7	Die:T14 Victim-Arg:T13
+T15	PER 1165 1169	Minh
+T16	Die 1194 1198	chết
+E8	Die:T16 Place-Arg:T17 Victim-Arg:T15
+T17	LOC 1213 1217	rừng
+T18	PER 1257 1261	Minh
+T19	Transport 1265 1268	dời
+E9	Transport:T19 Agent-Arg:T18 Time-Arg:T20
+T20	TIME 1274 1296	khoảng 14 giờ ngày 3-5
+T21	PER 1362 1369	mẹ Minh
+T22	LOC 1374 1378	rừng
+T23	Transport 1370 1373	lên
+E10	Transport:T23 Artifact-Arg:T21 Destination-Arg:T22
+T24	PER 1397 1401	Minh
+T25	Die 1405 1412	treo_cổ
+E11	Die:T25 Victim-Arg:T24
+T26	PER 1715 1719	Minh
+T27	Die 1720 1725	tự_tử
+E12	Die:T27 Victim-Arg:T26
+T28	PER 1743 1750	bà Xuân
+T29	Die 1754 1758	giết
+E13	Die:T29 Victim-Arg:T28
+T30	PER 2114 2118	Minh
+T31	Transport 2126 2129	chở
+E14	Transport:T31 Artifact-Arg:T32 Agent-Arg:T30 Destination-Arg:T33 Time-Arg:T34
+T32	PER 2130 2137	bà Xuân
+T33	LOC 2141 2147	qua xã
+T34	TIME 2090 2111	Khoảng 7 giờ sáng 2-5
+T35	PER 2266 2270	Minh
+T36	Transport 2274 2277	đưa
+E15	Transport:T36 Artifact-Arg:T37 Agent-Arg:T35 Destination-Arg:T38
+T37	PER 2278 2285	bà Xuân
+T38	FAC 2290 2303	một quán nước
+T39	PER 2441 2448	Bà Xuân
+T40	PER 2492 2496	Minh
+T41	Transport 2497 2503	chở đi
+E16	Transport:T41 Agent-Arg:T40 Artifact-Arg:T39
+T42	Transport 2449 2451	đi
+E17	Transport:T42 Vehicle-Arg:T43 Agent-Arg:T39 Destination-Arg:T44
+T43	VEH 2452 2463	xe_đạp điện
+T44	LOC 2468 2470	xã
+T45	PER 2641 2645	Minh
+T46	Die 2666 2670	giết
+E18	Die:T46 Victim-Arg:T47 Agent-Arg:T45
+T47	PER 2671 2678	bà Xuân
+T49	Be-born 511 513	SN
+E19	Be-born:T49 Time-Arg:T50 Person-Arg:T48
+T48	PER 490 508	bà Trương_Thị_Xuân
+T50	TIME 514 518	1956
+T51	PER 741 758	Nguyễn_Thành_Minh
+T52	Be-born 761 763	SN
+E20	Be-born:T52 Time-Arg:T53 Person-Arg:T51
+T53	TIME 764 768	1986
+T54	PER 2885 2933	Ông Đoàn_Ngọc_Minh , Trưởng Công_an xã Trà_Giang
+T55	Transport 2959 2961	đi
+E21	Transport:T55 Agent-Arg:T54 Destination-Arg:T56
+T56	LOC 2962 2982	du_lịch cùng cơ_quan

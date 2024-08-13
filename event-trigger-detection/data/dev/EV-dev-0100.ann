@@ -1,0 +1,84 @@
+T1	PER 28 39	ông Đỗ_Mười
+T2	Elect 40 48	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 58 67	Thủ_tướng
+T4	Elect 329 332	bầu
+E2	Elect:T4 Entity-Arg:T5 Position-Arg:T6 Time-Arg:T7 Person-Arg:T8
+T5	ORG 320 328	Quốc_hội
+T6	JOB 342 383	Chủ_tịch Hội_đồng_Bộ_trưởng ( Thủ_tướng )
+T7	TIME 388 396	năm 1988
+T8	PER 269 295	Đỗ_Mười và ông Võ_Văn_Kiệt
+T9	TIME 512 526	Ngày 10/3/1988
+T10	PER 529 566	Chủ_tịch Hội_đồng_Bộ_trưởng Phạm_Hùng
+T11	Die 576 583	qua_đời
+E3	Die:T11 Victim-Arg:T10 Time-Arg:T9
+T12	Nominate 686 688	cử
+E4	Nominate:T12 Person-Arg:T15 Agent-Arg:T14 Time-Arg:T13 Position-Arg:T16
+T13	TIME 616 630	ngày 11/3/1988
+T14	PER 633 671	Chủ_tịch Hội_đồng_Nhà_nước Võ_Chí_Công
+T15	PER 689 704	ông Võ_Văn_Kiệt
+T16	JOB 774 791	Chủ_tịch Hội_đồng
+T17	ORG 804 812	Quốc_hội
+T18	Elect 813 816	bầu
+E5	Elect:T18 Position-Arg:T19 Entity-Arg:T17
+T19	JOB 817 839	lãnh_đạo Chính_phủ mới
+T20	ORG 1089 1097	Quốc_hội
+T21	Elect 1098 1101	bầu
+E6	Elect:T21 Entity-Arg:T20 Position-Arg:T23 Person-Arg:T22
+T22	PER 998 1085	ông Đỗ_Mười ( khi đó đang là Thường_trực Ban_Bí_thư , Phó chủ_tịch Hội_đồng_Bộ_trưởng )
+T23	JOB 1116 1143	Chủ_tịch Hội_đồng_Bộ_trưởng
+T25	PER 1542 1632	đồng_chí Võ_Văn_Kiệt , người mà nhân_dân miền Nam , nhất_là nhân_dân TP HCM rất kính_trọng
+T26	PER 1475 1507	đại_biểu Ba_Thi - Nguyễn_Thị_Ráo
+T27	PER 1516 1525	Chúng_tôi
+T24	Nominate 1536 1541	đề_cử
+E7	Nominate:T24 Person-Arg:T25 Agent-Arg:T27
+T28	Elect 1770 1776	bầu_cử
+E8	Elect:T28 
+T29	Elect 1845 1851	bầu_cử
+E9	Elect:T29 
+T30	Nominate 2020 2025	đề_cử
+E10	Nominate:T30 Person-Arg:T31 Person-Arg2:T32 Position-Arg:T34
+T31	PER 2026 2041	ông Võ_Văn_Kiệt
+T32	PER 2076 2087	ông Đỗ_Mười
+T34	JOB 2097 2124	Chủ_tịch Hội_đồng_Bộ_trưởng
+T33	Elect 2093 2096	bầu
+E11	Elect:T33 Position-Arg:T34
+T37	PER 3004 3030	ông Đỗ_Mười và Võ_Văn_Kiệt
+T38	Elect 2876 2879	bầu
+E13	Elect:T38 Entity-Arg:T40
+T39	TIME 2841 2855	Ngày 22/6/1988
+T40	ORG 2858 2866	Quốc_hội
+T35	ORG 2938 2962	Ban_chấp_hành Trung_ương
+T36	PER 2977 2994	đại_biểu Quốc_hội
+T41	Nominate 2995 3000	đề_cử
+E12	Nominate:T41 Agent-Arg:T36 Agent-Arg2:T35 Person-Arg:T37
+T42	Elect 3940 3943	bầu
+E14	Elect:T42 Position-Arg:T44 Entity-Arg:T43
+T43	ORG 3931 3939	Quốc_hội
+T44	JOB 3944 3981	chức_danh Chủ_tịch Hội_đồng_Bộ_trưởng
+T45	Die 4416 4423	từ trần
+E15	Die:T45 Victim-Arg:T46 Time-Arg:T47 Place-Arg:T48
+T46	PER 4389 4415	Nguyên Tổng_bí_thư Đỗ_Mười
+T47	TIME 4424 4443	hồi 23h12 ngày 1/10
+T48	FAC 4450 4483	Bệnh_viện Trung_ương Quân_đội 108
+T49	PER 4838 4849	ông Đỗ_Mười
+T50	Elect 4855 4858	bầu
+E16	Elect:T50 Position-Arg:T51 Person-Arg:T49 Time-Arg:T52
+T51	JOB 4862 4899	Uỷ_viên Ban_Chấp_hành Trung_ương Đảng
+T52	TIME 4751 4763	Tháng 9/1960
+T53	Elect 4957 4960	bầu
+E17	Elect:T53 Position-Arg:T56 Person-Arg:T55 Time-Arg:T54
+T54	TIME 4902 4915	Tháng 12/1986
+T55	PER 4948 4951	ông
+T56	JOB 4965 5038	Ban_chấp_hành Trung_ương , Uỷ_viên Bộ_chính_trị và Thường_trực Ban_bí_thư
+T57	Elect 5064 5067	bầu
+E18	Elect:T57 Person-Arg:T60 Entity-Arg:T59 Time-Arg:T58 Position-Arg:T61
+T58	TIME 5041 5052	Hai năm sau
+T59	ORG 5055 5063	Quốc_hội
+T60	PER 5068 5071	ông
+T61	JOB 5081 5108	Chủ_tịch Hội_đồng_Bộ_trưởng
+T62	PER 5150 5161	ông Đỗ_Mười
+T63	Elect 5167 5170	bầu
+E19	Elect:T63 Position-Arg:T64 Position-Arg2:T65 Person-Arg:T62
+T64	JOB 5175 5222	Ban_chấp_hành Trung_ương , Uỷ_viên Bộ_chính_trị
+T65	JOB 5234 5294	Tổng_bí_thư Ban_chấp_hành Trung_ương Đảng (6/1991 - 12/1997)

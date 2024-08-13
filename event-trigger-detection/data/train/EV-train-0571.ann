@@ -1,0 +1,70 @@
+T1	Release-parole 8 22	được trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 7	Hào Anh
+T3	Trial-hearing 130 132	xử
+E2	Trial-hearing:T3 Time-Arg:T4 Adjudicator-Arg:T5 Defendant-Arg:T6 Defendant-Arg2:T7 Crime-Arg:T9
+T4	TIME 79 88	Ngày 23/2
+T5	ORG 91 129	TAND huyện Đơn_Dương ( tỉnh Lâm_Đồng )
+T6	PER 149 204	Nguyễn Hoàng_Anh ( tức Hào_Anh , 20 tuổi , quê Cà_Mau )
+T7	PER 210 256	Phan_Thảo_Duy ( 20 tuổi , chị họ của Hào_Anh )
+T8	SEN 257 275	6 tháng 15 ngày tù
+T9	CRIME 279 299	tội Trộm_cắp tài_sản
+T10	Sentence 143 149	tuyên 
+E3	Sentence:T10 Time-Arg:T4 Adjudicator-Arg:T5 Defendant-Arg:T6 Defendant-Arg2:T7 Sentence-Arg:T8 Crime-Arg:T9
+T11	Arrest-jail 331 342	bị tạm giam
+E4	Arrest-jail:T11 Person-Arg:T12
+T12	PER 347 353	cả hai
+T13	Release-parole 354 368	được trả tự_do
+E5	Release-parole:T13 Person-Arg:T12
+T14	Transport 685 688	tới
+E6	Transport:T14 Artifact-Arg:T17 Artifact-Arg2:T16 Time-Arg:T15
+T15	TIME 654 667	Đêm 15/5/2015
+T16	PER 670 677	Hào_Anh
+T17	PER 681 684	Duy
+T18	TIME 876 888	Ngày hôm sau
+T19	PER 891 898	Hào_Anh
+T20	PER 904 910	chị họ
+T21	Arrest-jail 911 917	bị bắt
+E7	Arrest-jail:T21 Person-Arg:T20 Person-Arg2:T19 Time-Arg:T18
+T22	Transfer-ownership 1613 1616	bán
+E8	Transfer-ownership:T22 Seller-Arg:T23
+T23	PER 1550 1557	Hào Anh
+T24	Release-parole 1700 1714	được trả tự_do
+E9	Release-parole:T24 Person-Arg:T27
+T26	FAC 1771 1774	nhà
+T27	PER 1717 1724	Hào_Anh
+T25	Transport 1764 1770	trở_về
+E10	Transport:T25 Destination-Arg:T26 Artifact-Arg:T27
+T28	Transport 1866 1868	về
+E11	Transport:T28 Destination-Arg:T30 Artifact-Arg:T29
+T29	PER 1807 1813	Cả hai
+T30	GPE 1869 1875	Cà_Mau
+T31	Attack 1926 1937	bị bạo_hành
+E12	Attack:T31 Place-Arg:T34 Target-Arg:T33 Time-Arg:T32
+T32	TIME 1878 1889	6 năm trước
+T33	PER 1892 1899	Hào_Anh
+T34	FAC 1944 1997	trại tôm giống Minh_Đức ở huyện Đầm_Dơi , tỉnh Cà_Mau
+T35	Injure 2004 2018	bị thương_tích
+E13	Injure:T35 Victim-Arg:T36 Instrument-Arg:T37 Instrument-Arg2:T38
+T36	PER 2000 2003	Cậu
+T37	WEA 2073 2080	kìm_kẹp
+T38	WEA 2087 2100	đũa than nóng
+T39	Transfer-ownership 2294 2297	bán
+E14	Transfer-ownership:T39 Seller-Arg:T40
+T40	PER 2322 2325	cậu
+T41	Transport 2565 2567	về
+E15	Transport:T41 Artifact-Arg:T42 Destination-Arg:T43
+T42	PER 2561 2564	cậu
+T43	GPE 2568 2597	khóm 4 , phường 8 , TP Cà_Mau
+T44	Transfer-ownership 2598 2601	mua
+E16	Transfer-ownership:T44 Buyer-Arg:T42 Price-Arg:T45 Place-Arg:T43
+T45	MONEY 2618 2627	300 triệu
+T46	Fine 2818 2825	xử_phạt
+E17	Fine:T46 Money-Arg:T47 Entity-Arg:T52
+T47	MONEY 2826 2838	200.000 đồng
+T48	Transport 2793 2800	ra khỏi
+E18	Transport:T48 Time-Arg:T50 Origin-Arg:T49 Artifact-Arg:T51
+T49	FAC 2801 2804	nhà
+T50	TIME 2703 2715	Tháng 8/2014
+T51	PER 2770 2792	mẹ ruột cùng cha dượng
+T52	PER 2737 2744	Hào_Anh

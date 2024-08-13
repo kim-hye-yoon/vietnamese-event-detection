@@ -1,0 +1,75 @@
+T1	PER 21 33	công_an_viên
+T2	Attack 34 42	đánh_đập
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 49 57	hàng_xóm
+T4	PER 132 141	ông Phước
+T6	PER 162 170	ông Dũng
+T7	PER 183 192	ông Phước
+T8	Attack 204 207	đẩy
+E3	Attack:T8 Attacker-Arg:T7 Target-Arg:T9
+T9	PER 208 216	ông Dũng
+T10	TIME 255 264	ngày 24/1
+T11	PER 267 285	ông Nguyễn_Sỹ_Dũng
+T12	Transport 350 352	về
+E4	Transport:T12 Agent-Arg:T11 Time-Arg:T10
+T13	Meet 357 360	gặp
+E5	Meet:T13 Entity-Arg:T11 Entity-Arg2:T14
+T14	PER 361 381	ông Nguyễn_Hữu_Phước
+T15	PER 649 658	ông Phước
+T17	PER 679 687	ông Dũng
+T18	PER 690 699	Ông Phước
+T19	Transport 727 730	chở
+E7	Transport:T19 Agent-Arg:T18 Artifact-Arg:T20 Destination-Arg:T21 Vehicle-Arg:T55
+T20	PER 704 712	ông Dũng
+T21	LOC 735 749	chỗ trang_trại
+T22	PER 781 790	ông Phước
+T24	PER 806 814	ông Dũng
+T26	PER 850 858	Ông Dũng
+T27	Transport 862 867	bò ra
+E9	Transport:T27 Artifact-Arg:T26
+T28	PER 879 888	ông Phước
+T29	Transport 909 912	lên
+E10	Transport:T29 Agent-Arg:T28 Vehicle-Arg:T30
+T30	VEH 913 919	xe_máy
+T31	Transport 921 925	ỏ đi
+E11	Transport:T31 Agent-Arg:T28 Vehicle-Arg:T30
+T32	PER 994 1002	ông Dũng
+T33	Transport 1006 1011	tự bò
+E12	Transport:T33 Agent-Arg:T32
+T34	PER 1139 1147	ông Dũng
+T35	Injure 1148 1164	bị bỏng rất nặng
+E13	Injure:T35 Victim-Arg:T34
+T36	Transport 1172 1174	đi
+E14	Transport:T36 Destination-Arg:T37 Artifact-Arg:T34
+T37	LOC 1175 1196	Bệnh_viện Bỏng Hà_Nội
+T38	TIME 1207 1220	Đến ngày 26/1
+T39	PER 1255 1263	gia_đình
+T40	Transport 1267 1273	chuyển
+E15	Transport:T40 Agent-Arg:T39 Artifact-Arg:T41 Destination-Arg:T42
+T41	PER 1274 1292	ông Nguyễn_Sỹ_Dũng
+T42	LOC 1296 1335	Viện bỏng Quốc_Gia ( Hà_Đông – Hà_Nội )
+T43	PER 1360 1378	ông Nguyễn_Sỹ_Dũng
+T44	Injure 1379 1386	bị bỏng
+E16	Injure:T44 Victim-Arg:T43
+T45	PER 1632 1638	ông ta
+T46	Attack 1643 1652	hành_hung
+E17	Attack:T46 Attacker-Arg:T45 Target-Arg:T47
+T47	PER 1653 1660	anh tôi
+T48	PER 1770 1790	ông Nguyễn_Sỹ_Chương
+T49	PER 1765 1767	PV
+T50	Meet 1752 1760	Trao_đổi
+E18	Meet:T50 Entity-Arg:T49 Entity-Arg2:T48
+T51	PER 1841 1846	Phước
+T52	Attack 1867 1875	đánh_đập
+E19	Attack:T52 Attacker-Arg:T51 Target-Arg:T53
+T53	PER 1884 1892	ông Dũng
+T5	Attack 153 161	đánh_đập
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6
+T16	Attack 670 678	đánh_đập
+E6	Attack:T16 Attacker-Arg:T15 Target-Arg:T17
+T55	VEH 717 723	xe_máy
+T23	Attack 802 805	đẩy
+E8	Attack:T23 Attacker-Arg:T22 Target-Arg:T24
+T25	PER 953 961	ông Dũng
+T56	Injure 962 971	bị_thương
+E20	Injure:T56 Victim-Arg:T25

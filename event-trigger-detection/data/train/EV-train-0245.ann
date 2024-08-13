@@ -1,0 +1,24 @@
+T1	Declare-bankruptcy 30 37	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 8 29	vận_tải_biển Hàn_Quốc
+T3	PER 0 29	Đại_gia vận_tải_biển Hàn_Quốc
+T4	GPE 21 29	Hàn_Quốc
+T5	Meet 56 64	cuộc gặp
+E2	Meet:T5 Entity-Arg:T6 Entity-Arg2:T7 Time-Arg:T8
+T6	PER 78 88	các chủ_nợ
+T7	PER 93 99	Hanjin
+T8	TIME 116 128	ngày 1/6 tới
+T9	Transfer-ownership 162 170	thanh_lý
+E3	Transfer-ownership:T9 
+T10	Declare-bankruptcy 226 233	phá_sản
+E4	Declare-bankruptcy:T10 
+T11	Declare-bankruptcy 419 426	phá_sản
+E5	Declare-bankruptcy:T11 Time-Arg:T12
+T12	TIME 430 437	hôm_nay
+T13	PER 401 407	Hanjin
+T14	Declare-bankruptcy 886 893	phá_sản
+E6	Declare-bankruptcy:T14 Org-Arg:T15
+T15	ORG 864 881	một hãng tàu_biển
+T16	ORG 1425 1443	đội tàu của Hanjin
+T17	End-org 1447 1466	không_thể hoạt_động
+E7	End-org:T17 Org-Arg:T16

@@ -1,0 +1,88 @@
+T1	PER 11 34	gã ' mặt_người_dạ_thú '
+T2	Die 35 42	sát_hại
+E1	Die:T2 Victim-Arg:T3 Victim-Arg2:T1
+T3	PER 43 56	bé gái 5 tuổi
+T4	PER 171 180	đối_tượng
+T5	Attack 193 199	bóp_cổ
+E2	Attack:T5 Target-Arg:T7 Attacker-Arg:T4
+T6	Die 237 241	chết
+E3	Die:T6 Victim-Arg:T7 Agent-Arg:T4
+T7	PER 209 217	nạn_nhân
+T8	PER 617 626	đối_tượng
+T9	Attack 639 645	bóp_cổ
+E4	Attack:T9 Target-Arg:T11 Attacker-Arg:T8
+T10	Die 683 687	chết
+E5	Die:T10 Victim-Arg:T11 Agent-Arg:T8
+T11	PER 655 663	nạn_nhân
+T12	PER 801 812	người tứ_xứ
+T13	Transport 813 819	kéo về
+E6	Transport:T13 Destination-Arg:T14 Artifact-Arg:T12
+T14	FAC 820 835	miếu Bà Trà_Men
+T15	PER 943 995	bà Nguyễn_Thị_Sáu ( 50 tuổi , ngụ tại địa_chỉ trên )
+T16	Transport 1001 1005	mang
+E7	Transport:T16 Agent-Arg:T15 Destination-Arg:T17
+T17	LOC 1031 1039	cửa miếu
+T18	PER 1055 1102	Bé gái Danh_Thị_Ái ( 5 tuổi , cháu nội bà Sáu )
+T19	Transport 1116 1118	ra
+E8	Transport:T19 Destination-Arg:T20 Artifact-Arg:T18
+T20	FAC 1119 1123	miếu
+T21	PER 1270 1275	Cô bé
+T22	Transport 1321 1323	ra
+E9	Transport:T22 Destination-Arg:T23 Artifact-Arg:T21
+T23	LOC 1324 1337	phía sau miếu
+T24	PER 1716 1722	bà Sáu
+T25	Transport 1723 1725	đi
+E10	Transport:T25 Artifact-Arg:T24
+T26	PER 2709 2718	mọi người
+T27	FAC 2729 2732	đây
+T28	Transport 2725 2728	đến
+E11	Transport:T28 Destination-Arg:T27 Agent-Arg:T26
+T29	PER 3019 3026	cháu bé
+T30	Die 3027 3034	tử_vong
+E12	Die:T30 Victim-Arg:T29
+T31	PER 3379 3388	Kẻ thủ ác
+T32	Die 3407 3416	chôn sống
+E13	Die:T32 Victim-Arg:T33 Agent-Arg:T31
+T33	PER 3417 3424	cháu bé
+T34	PER 4484 4487	Cần
+T35	Transport 4506 4509	đến
+E14	Transport:T35 Destination-Arg:T36 Agent-Arg:T34
+T36	LOC 4527 4546	sau miếu Bà Trà_Men
+T37	PER 4942 4945	Cần
+T38	Transport 4969 4971	đi
+E15	Transport:T38 Destination-Arg:T39 Agent-Arg:T37
+T39	LOC 4990 4998	sau miếu
+T40	PER 5403 5412	đối_tượng
+T41	Attack 5432 5438	bóp cổ
+E16	Attack:T41 Target-Arg:T42 Attacker-Arg:T40
+T42	PER 5439 5447	nạn_nhân
+T43	PER 5494 5506	tên sát_nhân
+T44	Transport 5565 5573	quay vào
+E17	Transport:T44 Destination-Arg:T45 Artifact-Arg:T43
+T45	FAC 5580 5584	miếu
+T46	TIME 5621 5640	Ngay trong đêm 22/5
+T47	PER 5643 5646	Cần
+T48	Transport 5655 5660	di_lý
+E18	Transport:T48 Destination-Arg:T49 Artifact-Arg:T47 Time-Arg:T46
+T49	FAC 5664 5688	Công_an huyện Châu_Thành
+T50	PER 6218 6226	cháu tôi
+T51	Die 6231 6235	chết
+E19	Die:T51 Victim-Arg:T50
+T52	PER 6556 6563	cháu bé
+T53	Die 6567 6575	giết_hại
+E20	Die:T53 Victim-Arg:T52
+T54	PER 7319 7327	hung_thủ
+T55	Die 7335 7339	giết
+E21	Die:T55 Victim-Arg:T56 Agent-Arg:T54
+T56	PER 7340 7347	cháu bé
+T57	PER 348 364	Nguyễn_Trung_Cần
+T58	Be-born 367 369	SN
+E22	Be-born:T58 Person-Arg:T57 Time-Arg:T59
+T59	TIME 370 374	1983
+T60	PER 1961 1969	người bà
+T61	Transport 1990 1997	chạy đi
+E23	Transport:T61 Artifact-Arg:T60
+T62	PER 2094 2134	công_an địa_phương và người_thân cháu bé
+T63	Transport 2135 2141	toả đi
+E24	Transport:T63 Artifact-Arg:T62 Destination-Arg:T64
+T64	LOC 2142 2150	khắp_nơi

@@ -1,0 +1,15 @@
+T1	ORG 0 4	BIDV
+T3	ORG 16 33	công_ty tài_chính
+T4	GPE 36 43	Myanmar
+T2	Start-org 13 15	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3 Place-Arg:T4
+T5	ORG 46 94	Ngân_hàng Đầu_tư và Phát_triển Việt_Nam ( BIDV )
+T6	Start-org 109 118	thành_lập
+E2	Start-org:T6 Agent-Arg:T5 Org-Arg:T7 Place-Arg:T8
+T7	ORG 119 157	Công_ty tài_chính BIDV Myanmar ( BMF )
+T8	GPE 162 169	Myanmar
+T9	ORG 546 580	Tổng_Công_ty Bảo_hiểm BIDV ( BIC )
+T10	Start-org 589 600	khai_trương
+E3	Start-org:T10 Org-Arg:T11 Agent-Arg:T9 Place-Arg:T12
+T11	ORG 601 619	Văn_phòng đại_diện
+T12	GPE 624 631	Myanmar

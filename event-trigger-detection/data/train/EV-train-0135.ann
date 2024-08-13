@@ -1,0 +1,66 @@
+T1	Elect 33 41	được bầu
+E1	Elect:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 32	Ông Trần_Thanh_Mẫn , Trần_Cẩm_Tú
+T3	JOB 46 56	Ban_bí_thư
+T4	End-position 237 245	thôi giữ
+E2	End-position:T4 Position-Arg:T8 Time-Arg:T5 Entity-Arg:T6 Person-Arg:T7
+T5	TIME 59 67	Sáng 9/5
+T6	ORG 70 104	Hội_nghị Trung_ương 7 ( khoá XII )
+T7	PER 130 236	ông Trần_Quốc_Vượng - Uỷ_viên Bộ_Chính_trị , Thường_trực Ban_bí_thư , Chủ_nhiệm Uỷ_ban Kiểm_tra Trung_ương
+T8	JOB 251 334	Uỷ_viên Uỷ_ban Kiểm_tra Trung_ương và Chủ_nhiệm Uỷ_ban Kiểm_tra Trung_ương khoá XII
+T9	ORG 337 352	Trung_ương Đảng
+T10	Elect 361 364	bầu
+E3	Elect:T10 Person-Arg:T11 Entity-Arg:T9 Position-Arg:T12
+T11	PER 365 461	ông Trần_Cẩm_Tú - Uỷ_viên Trung_ương Đảng , Phó chủ_nhiệm thường_trực Uỷ_ban Kiểm_tra Trung_ương
+T12	JOB 473 494	Chủ_nhiệm cơ_quan này
+T13	Elect 497 500	bầu
+E4	Elect:T13 Position-Arg:T15 Person-Arg:T14
+T14	PER 501 605	ông Hoàng_Văn_Trà - Phó bí_thư Tỉnh_uỷ , Chủ_tịch UBND tỉnh , Trưởng_đoàn đại_biểu Quốc_hội tỉnh Phú_Yên
+T15	JOB 615 658	Uỷ_viên Uỷ_ban Kiểm_tra Trung_ương khoá XII
+T16	TIME 672 680	sáng nay
+T17	ORG 683 693	Trung_ương
+T18	Elect 694 700	đã bầu
+E5	Elect:T18 Entity-Arg:T17 Time-Arg:T16 Person-Arg:T19 Position-Arg:T20
+T19	PER 709 846	ông Trần_Thanh_Mẫn - Uỷ_viên Trung_ương Đảng , Bí_thư Đảng_đoàn , Chủ_tịch Uỷ_ban Trung_ương Mặt_trận Tổ_quốc Việt_Nam và ông Trần_Cẩm_Tú
+T20	JOB 851 878	Uỷ viên Ban_bí_thư khoá XII
+T22	TIME 1495 1506	hai năm sau
+T23	PER 1455 1458	ông
+T24	JOB 1519 1543	Bí_thư Tỉnh_đoàn Cần_Thơ
+T25	TIME 1801 1813	Đến năm 2011
+T26	PER 1816 1820	ông 
+T28	JOB 1829 1878	Bí_thư Thành_uỷ , Chủ_tịch UBND thành_phố Cần_Thơ
+T29	TIME 2445 2457	Đầu năm 2011
+T30	PER 2460 2463	ông
+T31	Elect 2464 2472	được bầu
+E8	Elect:T31 Position-Arg:T32 Person-Arg:T30 Time-Arg:T29
+T32	JOB 2477 2517	Phó chủ_nhiệm Uỷ_ban Kiểm_tra Trung_ương
+T33	TIME 2601 2613	Tháng 3/2015
+T34	PER 2616 2631	ông Trần_Cẩm_Tú
+T35	End-position 2632 2640	thôi giữ
+E9	End-position:T35 Position-Arg:T36 Person-Arg:T34 Time-Arg:T33
+T36	JOB 2646 2670	Bí_thư Tỉnh_uỷ Thái_Bình
+T37	TIME 2744 2763	Từ năm 2016 đến nay
+T38	PER 2766 2769	ông
+T39	Start-position 2770 2778	giữ chức
+E10	Start-position:T39 Position-Arg:T40 Person-Arg:T38 Time-Arg:T37
+T40	JOB 2779 2831	Phó chủ_nhiệm thường_trực Uỷ_ban Kiểm_tra Trung_ương
+T41	TIME 3009 3017	Năm 2014
+T42	PER 3069 3072	ông
+T43	ORG 3078 3088	Trung_ương
+T45	JOB 3162 3218	hó bí_thư Tỉnh_uỷ Phú_Yên khoá XV ( nhiệm_kỳ 2010-2015 )
+T46	PER 3284 3291	ông Trà
+T47	Elect 3301 3309	được bầu
+E12	Elect:T47 Position-Arg:T48 Person-Arg:T46
+T48	JOB 3319 3337	Phó bí_thư Tỉnh_uỷ
+T49	PER 3401 3404	ông
+T50	Elect 3405 3413	được bầu
+E13	Elect:T50 Position-Arg:T51 Person-Arg:T49
+T51	JOB 3418 3455	Chủ_tịch UBND tỉnh nhiệm_kỳ 2011-2016
+T53	TIME 2368 2380	đầu năm 2009
+T54	PER 2383 2386	ông
+T55	Elect 2387 2395	được bầu
+E15	Elect:T55 Position-Arg:T56 Person-Arg:T54 Time-Arg:T53
+T56	JOB 2408 2442	Uỷ_viên Uỷ_ban Kiểm_tra Trung_ương
+T57	Start-position 2689 2700	trở_lại làm
+E16	Start-position:T57 Position-Arg:T58 Person-Arg:T34 Time-Arg:T33
+T58	JOB 2701 2741	Phó chủ_nhiệm Uỷ_ban Kiểm_tra Trung_ương

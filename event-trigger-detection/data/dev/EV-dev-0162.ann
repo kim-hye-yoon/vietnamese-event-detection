@@ -1,0 +1,45 @@
+T1	Pardon 8 13	ân_xá
+E1	Pardon:T1 Defendant-Arg:T3 Place-Arg:T2
+T2	GPE 0 7	Ukraine
+T3	PER 18 49	người biểu_tình chống chính_phủ
+T4	Demonstrate 99 108	biểu_tình
+E2	Demonstrate:T4 Entity-Arg:T5 Place-Arg:T6 Place-Arg2:T7
+T5	PER 93 98	người
+T6	FAC 118 131	Toà thị_chính
+T7	GPE 132 136	Kiev
+T8	Demonstrate 372 381	biểu_tình
+E3	Demonstrate:T8 Entity-Arg:T9 Place-Arg:T10 Place-Arg2:T11
+T9	PER 366 371	người
+T10	FAC 391 404	Toà thị_chính
+T11	GPE 405 409	Kiev
+T12	Demonstrate 464 473	biểu_tình
+E4	Demonstrate:T12 
+T13	Demonstrate 647 655	bạo_động
+E5	Demonstrate:T13 Place-Arg:T14
+T14	GPE 660 664	Kiev
+T15	Demonstrate 713 722	biểu_tình
+E6	Demonstrate:T15 Entity-Arg:T20
+T16	Demonstrate 790 799	biểu_tình
+E7	Demonstrate:T16 Entity-Arg:T17
+T17	PER 747 767	Ông Vitali_Klitschko
+T18	Demonstrate 1054 1063	biểu_tình
+E8	Demonstrate:T18 Entity-Arg:T19 Place-Arg:T21
+T19	PER 1048 1053	người
+T20	PER 707 712	người
+T21	FAC 1091 1104	Toà thị_chính
+T22	Transport 1224 1227	đến
+E9	Transport:T22 Destination-Arg:T23 Time-Arg:T25 Artifact-Arg:T24
+T23	GPE 1228 1234	Berlin
+T24	PER 1176 1205	hai lãnh_đạo phe đối_lập khác
+T25	TIME 1206 1213	hôm_nay
+T26	Demonstrate 1356 1365	biểu_tình
+E10	Demonstrate:T26 Place-Arg:T28 Time-Arg:T27
+T27	TIME 1405 1423	cuối tháng 11/2013
+T28	GPE 1391 1398	Ukraine
+T29	Transfer-money 1575 1578	vay
+E11	Transfer-money:T29 Money-Arg:T32 Recipient-Arg:T31 Giver-Arg:T30
+T30	GPE 1545 1551	Moscow
+T31	GPE 1567 1574	Ukraine
+T32	MONEY 1579 1588	15 tỷ USD
+T33	Demonstrate 1668 1677	biểu_tình
+E12	Demonstrate:T33 

@@ -1,0 +1,24 @@
+T1	Marry 76 83	kết_hôn
+E1	Marry:T1 Person-Arg:T2 Person-Arg2:T3 Place-Arg:T4
+T2	PER 61 75	Một cô_gái Anh
+T3	PER 88 96	bạn_trai
+T4	LOC 108 117	bệnh_viện
+T5	PER 130 132	cô
+T6	Transport 138 144	chuyển
+E2	Transport:T6 Destination-Arg:T7 Artifact-Arg:T5
+T7	LOC 149 159	cơ_sở khác
+T8	PER 677 679	cô
+T9	Transport 685 691	chuyển
+E3	Transport:T9 Destination-Arg:T10 Artifact-Arg:T8
+T10	LOC 696 732	một bệnh_viện ở thành_phố Manchester
+T11	Marry 202 210	Đám_cưới
+E4	Marry:T11 Person-Arg:T12 Person-Arg2:T13 Place-Arg:T14 Place-Arg2:T15 Place-Arg3:T16
+T12	PER 224 241	Hayley_Ann_Thomas
+T13	PER 255 267	David_Clarke
+T14	FAC 291 300	bệnh_viện
+T15	GPE 303 319	thành_phố Bangor
+T16	GPE 327 339	tây nước Anh
+T17	Marry 569 577	Đám_cưới
+E5	Marry:T17 Person-Arg:T18 Time-Arg:T19
+T18	PER 582 588	Thomas
+T19	TIME 614 621	tháng 5

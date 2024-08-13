@@ -1,0 +1,4 @@
+T1	Transport 10 15	đổ ra
+E1	Transport:T1 Agent-Arg:T2 Destination-Arg:T3
+T2	PER 0 9	Người_dân
+T3	LOC 16 20	đồng

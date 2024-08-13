@@ -1,0 +1,21 @@
+T1	PER 0 33	' Tổng_thống tự phong ' Venezuela
+T2	Pardon 43 48	ân_xá
+E1	Pardon:T2 Defendant-Arg:T3 Adjudicator-Arg:T1
+T3	PER 55 61	Maduro
+T4	Demonstrate 145 154	biểu_tình
+E2	Demonstrate:T4 Time-Arg:T7
+T7	TIME 187 191	23/1
+T8	Pardon 299 304	ân_xá
+E4	Pardon:T8 
+T9	Pardon 527 532	ân_xá
+E5	Pardon:T9 Defendant-Arg:T10 Adjudicator-Arg:T11
+T10	PER 489 514	Tổng_thống Nicolas_Maduro
+T11	PER 468 474	Guaido
+T12	Pardon 561 566	ân_xá
+E6	Pardon:T12 
+T13	End-position 70 77	từ_chức
+E7	End-position:T13 Person-Arg:T3
+T14	End-position 544 551	từ_chức
+E8	End-position:T14 Person-Arg:T10
+T5	Demonstrate 1658 1667	biểu_tình
+E3	Demonstrate:T5 

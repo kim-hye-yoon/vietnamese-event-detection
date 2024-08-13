@@ -1,0 +1,38 @@
+T1	Attack 1 8	Xả súng
+E1	Attack:T1 Place-Arg:T2
+T2	GPE 9 15	tại Mỹ
+T3	PER 18 25	4 người
+T4	Die 26 36	thiệt_mạng
+E2	Die:T4 Victim-Arg:T3 Place-Arg:T2
+T5	Attack 139 146	xả súng
+E3	Attack:T5 Attacker-Arg:T8 Time-Arg:T7 Place-Arg:T6 Target-Arg:T9
+T6	GPE 67 86	bang Arkasas của Mỹ
+T7	TIME 87 95	ngày 3/5
+T8	PER 105 117	một tay súng
+T9	PER 151 158	6 người
+T10	PER 192 198	2 ngườ
+T11	Die 200 210	thiệt_mạng
+E4	Die:T11 Victim-Arg:T10
+T12	PER 214 221	4 người
+T13	Injure 222 231	bị_thương
+E5	Injure:T13 Victim-Arg:T12 Time-Arg:T7 Place-Arg:T6 Agent-Arg:T8
+T14	PER 246 254	2 trẻ_em
+T15	Injure 255 269	bị_thương nặng
+E6	Injure:T15 Victim-Arg:T14 Time-Arg:T7 Place-Arg:T6 Agent-Arg:T8
+T16	Meet 476 485	Phát_biểu
+E7	Meet:T16 Entity-Arg:T17
+T17	ORG 490 502	cuộc họp_báo
+T18	PER 563 575	3 trường_hợp
+T19	Die 576 583	tử_vong
+E8	Die:T19 Victim-Arg:T18
+T20	PER 627 635	tay súng
+T21	Die 641 651	thiệt_mạng
+E9	Die:T21 Agent-Arg:T20 Place-Arg:T22
+T22	LOC 658 679	một ô_tô đỗ bên đường
+T23	PER 730 737	tên này
+T24	Die 738 742	chết
+E10	Die:T24 Agent-Arg:T23
+T25	Attack 760 766	bị bắn
+E11	Attack:T25 Target-Arg:T23
+T26	Die 749 755	tự_sát
+E12	Die:T26 Agent-Arg:T23

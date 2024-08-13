@@ -1,0 +1,20 @@
+T1	Transport 453 463	vận_chuyển
+E1	Transport:T1 Time-Arg:T3 Origin-Arg:T4 Destination-Arg:T5
+T3	TIME 503 518	ngày 16/11/2013
+T4	FAC 531 551	sân_bay Tân_Sơn_Nhất
+T5	GPE 567 575	Đài_Loan
+T2	ORG 578 604	Cơ_quan_chức_năng Đài_Loan
+T6	Arrest-jail 608 615	bắt_giữ
+E2	Arrest-jail:T6 Person-Arg:T7 Agent-Arg:T2
+T7	PER 616 627	8 nghi_phạm
+T8	Transport 801 811	vận_chuyển
+E3	Transport:T8 Destination-Arg:T9
+T9	GPE 816 824	Việt_Nam
+T10	TIME 841 847	sau đó
+T11	Transport 848 851	đưa
+E4	Transport:T11 Time-Arg:T10 Destination-Arg:T12
+T12	GPE 856 862	TP.HCM
+T13	PER 877 891	một nhóm người
+T14	Transport 988 991	chở
+E5	Transport:T14 Agent-Arg:T13 Destination-Arg:T15
+T15	FAC 995 1050	kho hàng của Công_ty TNHH dịch_vụ hàng_hoá Tân_Sơn_Nhất

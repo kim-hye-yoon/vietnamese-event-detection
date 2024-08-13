@@ -1,0 +1,86 @@
+T1	Release-parole 52 60	được thả
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 14	Đoàn_Thị_Hương
+T3	Transport 93 96	rời
+E2	Transport:T3 Origin-Arg:T5 Time-Arg:T6 Artifact-Arg:T4
+T4	PER 63 77	Đoàn_Thị_Hương
+T5	FAC 97 135	toà thượng_thẩm ở ngoại ô Kuala_Lumpur
+T6	TIME 136 144	sáng nay
+T7	Trial-hearing 169 175	xét_xử
+E3	Trial-hearing:T7 Place-Arg:T8 Time-Arg:T9 Adjudicator-Arg:T10 Defendant-Arg:T12 Crime-Arg:T13
+T8	FAC 178 226	toà thượng_thẩm Shah_Alam , ngoại_ô Kuala_Lumpur
+T9	TIME 227 235	sáng nay
+T10	PER 238 259	công_tố_viên Malaysia
+T11	Charge-indict 268 275	truy_tố
+E4	Charge-indict:T11 Defendant-Arg:T12 Adjudicator-Arg:T10 Crime-Arg:T13
+T12	PER 276 290	Đoàn_Thị_Hương
+T13	CRIME 293 358	i " cố_ý gây thương_tích bằng hung_khí hoặc cách_thức nguy_hiểm "
+T14	Attack 372 376	giết
+E5	Attack:T14 Target-Arg:T18
+T15	PER 395 423	công_dân Triều_Tiên_Kim_Chol
+T16	Die 424 431	tử_vong
+E6	Die:T16 Victim-Arg:T15 Time-Arg:T17
+T17	TIME 432 448	cách đây hai năm
+T18	PER 377 382	người
+T19	Sentence 482 490	tuyên_bố
+E7	Sentence:T19 Defendant-Arg:T21 Adjudicator-Arg:T20 Sentence-Arg:T22
+T20	PER 451 474	Thẩm_phán Azmin_Ariffin
+T21	PER 502 516	Đoàn_Thị_Hương
+T22	SEN 520 536	3 năm 4 tháng tù
+T23	PER 549 551	cô
+T24	Release-parole 555 563	được thả
+E8	Release-parole:T24 Person-Arg:T23 Time-Arg:T25
+T25	TIME 568 580	tháng 6/2020
+T26	PER 599 604	Hương
+T27	Arrest-jail 605 612	bị giam
+E9	Arrest-jail:T27 Place-Arg:T29 Person-Arg:T26 Time-Arg:T30
+T28	Trial-hearing 617 623	xét_xử
+E10	Trial-hearing:T28 Place-Arg:T29 Defendant-Arg:T26 Time-Arg:T30
+T29	GPE 628 636	Malaysia
+T30	TIME 640 649	15/2/2017
+T31	Release-parole 793 804	phóng_thích
+E11	Release-parole:T31 Time-Arg:T33 Person-Arg:T32
+T32	PER 779 784	Hương
+T33	TIME 809 817	ngày 4/5
+T34	PER 882 887	Hương
+T35	Release-parole 967 975	được thả
+E12	Release-parole:T35 Person-Arg:T34
+T36	Attack 1454 1458	giết
+E13	Attack:T36 Target-Arg:T37
+T37	PER 1459 1464	người
+T38	Attack 1569 1573	giết
+E14	Attack:T38 Target-Arg:T39
+T39	PER 1574 1579	người
+T40	Sentence 1768 1776	tuyên_án
+E15	Sentence:T40 Adjudicator-Arg:T41 Sentence-Arg:T42
+T41	PER 1737 1759	thẩm_phán Azmi_Ariffin
+T42	SEN 1667 1732	mức án tối_đa chỉ 10 năm tù , hay nhẹ hơn là phạt tiền , phạt roi
+T44	PER 1954 2059	Kim_Chol , người mà Mỹ và Hàn_Quốc khẳng_định là anh cùng cha khác mẹ của lãnh_đạo Triều_Tiên_Kim_Jong-un
+T45	FAC 2066 2097	sân_bay Kuala_Lumpur , Malaysia
+T46	TIME 2098 2110	tháng 2/2017
+T43	Attack 1946 1953	sát_hại
+E16	Attack:T43 Target-Arg:T44 Place-Arg:T45 Time-Arg:T46 Instrument-Arg:T47 Attacker-Arg:T48
+T47	WEA 1921 1942	chất_độc thần_kinh VX
+T48	PER 1860 1901	Hương và Siti_Aisyah , công_dân Indonesia
+T49	Transport 2179 2182	rời
+E17	Transport:T49 Artifact-Arg:T50 Origin-Arg:T51 Time-Arg:T52
+T50	PER 2112 2175	4 người Triều_Tiên được cảnh_sát Malaysia xác_định là nghi_phạm
+T51	GPE 2183 2191	Malaysia
+T52	TIME 2192 2203	vài giờ sau
+T53	Attack 2218 2225	sát_hại
+E18	Attack:T53 
+T54	Trial-hearing 2260 2266	xét_xử
+E19	Trial-hearing:T54 Time-Arg:T55 Adjudicator-Arg:T56
+T55	TIME 2267 2276	ngày 11/3
+T56	PER 2279 2300	công_tố_viên Malaysia
+T57	Attack 2318 2322	giết
+E20	Attack:T57 Target-Arg:T58
+T58	PER 2323 2328	người
+T59	PER 2364 2366	Cô
+T60	Release-parole 2367 2383	được phóng_thích
+E21	Release-parole:T60 Person-Arg:T59
+T62	LOC 2421 2425	nước
+T61	Transport 2418 2420	về
+E22	Transport:T61 Artifact-Arg:T59 Destination-Arg:T62
+T63	Release-parole 2598 2609	phóng_thích
+E23	Release-parole:T63 

@@ -1,0 +1,23 @@
+T1	Elect 22 30	được bầu
+E1	Elect:T1 Person-Arg:T3 Position-Arg:T2
+T2	JOB 35 41	bí_thư
+T3	PER 0 21	Phó chủ_tịch Đồng_Nai
+T4	Elect 396 404	được bầu
+E2	Elect:T4 Person-Arg:T6 Position-Arg:T5
+T5	JOB 409 423	Bí_thư Tỉnh_uỷ
+T6	PER 295 393	Ông Nguyễn_Phú_Cường - Uỷ_viên dự_khuyết Trung_ương Đảng khoá XI , Phó Chủ_tịch UBND tỉnh Đồng_Nai
+T7	Elect 492 500	được bầu
+E3	Elect:T7 Position-Arg:T8 Person-Arg:T11 Person-Arg2:T10 Person-Arg3:T9
+T8	JOB 505 523	Phó bí_thư Tỉnh_uỷ
+T9	PER 462 482	bà Phan_Thị_Mỹ_Thanh
+T10	PER 444 458	Đinh_Quốc_Thái
+T11	PER 426 441	Ông Trần_Văn_Tư
+T12	Be-born 609 613	sinh
+E4	Be-born:T12 Person-Arg:T13 Time-Arg:T14
+T13	PER 599 608	Ông Cường
+T14	TIME 614 622	năm 1967
+T15	Elect 806 814	được bầu
+E5	Elect:T15 Person-Arg:T17 Time-Arg:T18 Position-Arg:T16
+T16	JOB 828 871	Phó chủ_tịch UBND tỉnh , nhiệm_kỳ 2011-2016
+T17	PER 796 805	ông Cường
+T18	TIME 781 793	Tháng 9/2014

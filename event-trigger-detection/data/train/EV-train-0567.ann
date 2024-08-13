@@ -1,0 +1,39 @@
+T1	Charge-indict 4 12	cáo_buộc
+E1	Charge-indict:T1 Prosecutor-Arg:T2
+T2	GPE 0 3	Nga
+T3	ORG 168 185	Bộ Quốc_phòng Nga
+T4	Charge-indict 197 206	thông_cáo
+E2	Charge-indict:T4 Prosecutor-Arg:T3
+T5	Transport 452 457	phóng
+E3	Transport:T5 Artifact-Arg:T6 Origin-Arg:T7 Destination-Arg:T8
+T6	WEA 458 478	8 tên_lửa hành_trình
+T7	GPE 482 500	không_phận Lebanon
+T8	GPE 509 514	Syria
+T9	PER 853 858	người
+T10	Die 889 899	thiệt_mạng
+E4	Die:T10 Victim-Arg:T9
+T11	PER 903 911	30 người
+T12	Injure 912 921	bị_thương
+E5	Injure:T12 Victim-Arg:T11
+T13	Attack 1720 1729	chiến_đấu
+E6	Attack:T13 Target-Arg:T15 Attacker-Arg:T14
+T14	ORG 1705 1719	quân_đội Syria
+T15	ORG 1736 1746	phiến quân
+T16	FAC 48 68	căn_cứ_quân_sự Syria
+T17	VEH 13 29	tiêm_kích Israel
+T18	Attack 30 35	phóng
+E7	Attack:T18 Instrument-Arg:T19 Place-Arg:T16
+T19	WEA 36 43	tên_lửa
+T20	Attack 1044 1052	tấn_công
+E8	Attack:T20 Attacker-Arg:T21 Target-Arg:T22
+T21	GPE 1057 1063	Israel
+T22	FAC 1017 1028	căn_cứ T -4
+T23	Attack 1006 1016	không_kích
+E9	Attack:T23 Target-Arg:T22
+T24	Attack 1233 1243	không_kích
+E10	Attack:T24 Instrument-Arg:T25 Target-Arg:T26
+T25	WEA 1249 1267	tên_lửa hành_trình
+T26	FAC 1207 1229	căn_cứ không_quân T -4
+T27	Attack 1346 1354	tấn_công
+E11	Attack:T27 Attacker-Arg:T28
+T28	GPE 1312 1318	Israel

@@ -1,0 +1,3 @@
+T1	Transport 302 308	đi_lại
+E1	Transport:T1 Destination-Arg:T2
+T2	GPE 313 322	Biển_Đông

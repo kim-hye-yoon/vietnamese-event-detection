@@ -1,0 +1,53 @@
+T1	Die 35 43	tự_thiêu
+E1	Die:T1 Agent-Arg:T2 Victim-Arg:T2 Victim-Arg2:T3
+T2	PER 23 25	mẹ
+T3	PER 49 56	hai con
+T4	PER 80 88	người mẹ
+T5	Die 136 144	tự_thiêu
+E2	Die:T5 Agent-Arg:T4 Victim-Arg:T4
+T6	PER 480 493	cháu T. và H.
+T7	Injure 551 560	bỏng nặng
+E3	Injure:T7 Victim-Arg:T6 Time-Arg:T23
+T8	PER 1965 1970	chị C
+T9	Die 1975 1982	tử_vong
+E4	Die:T9 Victim-Arg:T8
+T11	Injure 2019 2028	bỏng nặng
+E5	Injure:T11 Victim-Arg:T10
+T12	PER 2068 2070	C.
+T13	TIME 2057 2065	năm 2003
+T14	Marry 2071 2080	lấy chồng
+E6	Marry:T14 Person-Arg:T12 Time-Arg:T13
+T15	Be-born 2084 2088	sinh
+E7	Be-born:T15 Person-Arg:T16
+T17	PER 2152 2160	vợ_chồng
+T18	Divorce 2203 2209	ly_hôn
+E8	Divorce:T18 Person-Arg:T17
+T19	ORG 2481 2498	TAND tỉnh Đắk_Lắk
+T20	Sentence 2499 2509	tuyên_phạt
+E9	Sentence:T20 Adjudicator-Arg:T19 Defendant-Arg:T21 Time-Arg:T27 Crime-Arg:T29 Sentence-Arg:T28
+T22	Injure 494 503	nhập_viện
+E10	Injure:T22 Victim-Arg:T6 Time-Arg:T23
+T23	TIME 508 533	ngày 30/1/2014 ( 30 Tết )
+T10	PER 1987 2015	hai cháu ngoại của ông Vương
+T16	PER 2094 2124	hai con ( một trai , một gái )
+T24	Marry 2345 2356	đi_bước_nữa
+E11	Marry:T24 Person-Arg:T25 Time-Arg:T26
+T25	PER 2338 2344	chị C.
+T26	TIME 2315 2335	Cách đây hơn hai năm
+T21	PER 2453 2477	người chồng thứ 2 của C.
+T27	TIME 2435 2450	Mấy tháng trước
+T28	SEN 2510 2525	bảy năm tù_giam
+T29	CRIME 2529 2553	tội cố_ý gây thương_tích
+T30	Transfer-ownership 2760 2763	mua
+E12	Transfer-ownership:T30 Seller-Arg:T31 Artifact-Arg:T32
+T31	PER 2750 2756	chị C.
+T32	WEA 2764 2782	bốn lít dầu_diesel
+T33	Transport 1582 1592	bỏ đi chơi
+E13	Transport:T33 Artifact-Arg:T34
+T34	PER 1571 1577	chị C.
+T35	Injure 1074 1084	vết_thương
+E14	Injure:T35 Victim-Arg:T36
+T36	PER 1038 1051	cháu T. và Q.
+T37	Injure 911 920	bỏng nặng
+E15	Injure:T37 Victim-Arg:T38
+T38	PER 843 860	Hai cháu T. và Q.

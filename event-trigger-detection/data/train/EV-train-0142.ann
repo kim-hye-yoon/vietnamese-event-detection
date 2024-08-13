@@ -1,0 +1,26 @@
+T1	PER 0 11	Tàn_quân IS
+T2	Transport 12 16	chạy
+E1	Transport:T2 Destination-Arg:T3 Artifact-Arg:T1
+T3	GPE 20 32	thủ_đô Syria
+T4	PER 66 77	Tàn_quân IS
+T5	Transport 83 91	rút chạy
+E2	Transport:T5 Origin-Arg:T6 Artifact-Arg:T4
+T6	GPE 96 101	Syria
+T7	PER 125 150	Một_số nhóm phiến quân IS
+T8	Transport 159 163	chạy
+E3	Transport:T8 Destination-Arg:T9 Artifact-Arg:T7
+T9	LOC 167 196	hướng tây tới thủ_đô Damascus
+T10	Attack 289 298	tiêu diệt
+E4	Attack:T10 Target-Arg:T11 Place-Arg:T12
+T11	PER 299 309	phiến quân
+T12	LOC 318 356	khu_vực do lực_lượng đối_tác kiểm_soát
+T13	ORG 35 47	liên_quân Mỹ
+T14	Attack 54 63	truy_kích
+E5	Attack:T14 Attacker-Arg:T13
+T15	PER 520 575	tàn_quân thuộc tổ_chức Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T16	Transport 590 597	bỏ trốn
+E6	Transport:T16 Artifact-Arg:T15
+T17	ORG 869 915	chính_quyền Tổng_thống Syria_Bashar al - Assad
+T18	Attack 930 938	tấn_công
+E7	Attack:T18 Attacker-Arg:T17 Target-Arg:T19
+T19	ORG 939 952	phiến quân IS

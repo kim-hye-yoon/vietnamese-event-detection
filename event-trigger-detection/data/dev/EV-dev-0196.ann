@@ -1,0 +1,12 @@
+T1	PER 0 14	Không_quân Nga
+T2	Attack 15 19	diệt
+E1	Attack:T2 Attacker-Arg:T1 Place-Arg:T3
+T3	GPE 50 55	Syria
+T4	PER 229 243	không_quân Nga
+T5	Attack 247 255	tiêu_diệ
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6
+T6	VEH 261 305	3.000 xe chở dầu và trên 200 nhà_máy lọc dầu
+T7	VEH 58 99	Máy_bay ném bom chiến_lược Tu -22 của Nga
+T8	Attack 100 108	tấn_công
+E3	Attack:T8 Place-Arg:T9 Instrument-Arg:T7
+T9	GPE 146 151	Syria

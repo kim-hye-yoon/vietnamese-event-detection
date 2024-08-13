@@ -1,0 +1,13 @@
+T1	PER 300 303	Tôi
+T2	Meet 307 317	nói_chuyện
+E1	Meet:T2 Entity-Arg:T1 Entity-Arg2:T3 Time-Arg:T4
+T3	PER 322 325	anh
+T4	TIME 357 368	hai năm qua
+T5	PER 1427 1430	Chị
+T6	Meet 1448 1455	chia_sẻ
+E2	Meet:T6 Entity-Arg:T5 Entity-Arg2:T7
+T7	PER 1460 1463	anh
+T8	PER 1599 1602	chị
+T9	Meet 1607 1614	bàn_bạc
+E3	Meet:T9 Entity-Arg:T8 Entity-Arg2:T10
+T10	PER 1620 1623	anh

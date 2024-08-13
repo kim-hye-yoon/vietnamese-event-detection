@@ -1,0 +1,24 @@
+T1	PER 948 953	Thuận
+T2	Transport 957 964	bỏ trốn
+E1	Transport:T2 Origin-Arg:T3 Agent-Arg:T1
+T3	LOC 970 977	địa_bàn
+T4	PER 180 194	Ngô_Đình_Thuận
+T5	Be-born 197 201	sinh
+E2	Be-born:T5 Person-Arg:T4 Time-Arg:T6
+T6	TIME 202 210	năm 1996
+T7	PER 270 286	Thái_Thị_Minh_Lý
+T8	Be-born 289 293	sinh
+E3	Be-born:T8 Person-Arg:T7 Time-Arg:T9
+T9	TIME 294 302	năm 1997
+T10	PER 308 328	Phương_Thị_Thanh_Lan
+T11	Be-born 331 335	sinh
+E4	Be-born:T11 Person-Arg:T10 Time-Arg:T12
+T12	TIME 336 344	năm 1999
+T13	PER 408 423	Vương_Hồng_Minh
+T14	Be-born 426 430	sinh
+E5	Be-born:T14 Person-Arg:T13 Time-Arg:T15
+T15	TIME 431 439	năm 2000
+T16	PER 711 719	2 cô_gái
+T17	Transport 723 726	đến
+E6	Transport:T17 Agent-Arg:T16 Destination-Arg:T18
+T18	LOC 727 746	Công_an TP. Bảo_Lộc

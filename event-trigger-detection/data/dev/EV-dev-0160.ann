@@ -1,0 +1,47 @@
+T1	Declare-bankruptcy 22 29	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 7	Sỹ Ngàn
+T3	Declare-bankruptcy 120 127	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4
+T4	ORG 136 159	Công_ty_cổ_phần Sỹ_Ngàn
+T5	ORG 32 64	Toà_án nhân_dân thành_phố Hà_Nội
+T6	GPE 197 250	( hồ Đồng_Mô , xã Kim_Sơn , thị_xã Sơn_Tây , Hà_Nội )
+T7	Declare-bankruptcy 325 332	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T9
+T8	Sue 320 324	kiện
+E4	Sue:T8 Defendant-Arg:T9
+T9	ORG 271 316	doanh_nghiệp bất_động_sản đầu_tiên tại Hà_Nội
+T10	GPE 310 316	Hà_Nội
+T11	Declare-bankruptcy 1546 1553	phá_sản
+E5	Declare-bankruptcy:T11 Org-Arg:T12
+T12	ORG 1456 1463	Sỹ_Ngàn
+T13	ORG 1387 1419	Toà_án nhân_dân thành_phố Hà_Nội
+T14	Start-org 1605 1614	thành_lập
+E6	Start-org:T14 Org-Arg:T17 Time-Arg:T15
+T15	TIME 1615 1623	năm 2010
+T16	MONEY 1643 1654	100 tỷ đồng
+T17	ORG 1576 1599	Công_ty_cổ_phần Sỹ_Ngàn
+T18	Transfer-ownership 2037 2040	mua
+E7	Transfer-ownership:T18 Buyer-Arg:T19 Time-Arg:T20
+T19	ORG 2019 2033	tập_đoàn Archi
+T20	TIME 2008 2016	năm 2011
+T21	Transfer-money 2240 2243	trả
+E8	Transfer-money:T21 Giver-Arg:T23 Money-Arg:T22
+T22	MONEY 2262 2273	vài tỷ đồng
+T23	ORG 2181 2204	Công_ty_cổ_phần Sỹ_Ngàn
+T24	PER 2091 2204	ông Nguyễn_Tương_Như , Chủ_tịch Hội_đồng_quản_trị Beverly_Investment , kiêm Tổng_giám_đốc Công_ty_cổ_phần Sỹ_Ngàn
+T25	Transfer-money 2341 2344	trả
+E9	Transfer-money:T25 Giver-Arg:T26
+T26	ORG 2354 2361	Sỹ_Ngàn
+T27	PER 2320 2327	ông Như
+T28	Transfer-money 2441 2444	trả
+E10	Transfer-money:T28 
+T29	Start-org 2774 2783	thành_lập
+E11	Start-org:T29 Time-Arg:T30 Org-Arg:T31
+T30	TIME 2784 2797	trong 3-5 năm
+T31	ORG 2744 2760	các doanh_nghiệp
+T32	Declare-bankruptcy 2929 2936	phá_sản
+E12	Declare-bankruptcy:T32 
+T33	Sue 2924 2928	kiện
+E13	Sue:T33 Defendant-Arg:T34
+T34	ORG 2851 2858	Sỹ_Ngàn

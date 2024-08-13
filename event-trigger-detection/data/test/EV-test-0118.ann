@@ -1,0 +1,25 @@
+T1	PER 31 39	34 người
+T2	Die 40 44	chết
+E1	Die:T2 Victim-Arg:T1
+T3	PER 59 67	đám_cưới
+T4	Attack 71 75	đánh
+E2	Attack:T4 Target-Arg:T3 Instrument-Arg:T5 Place-Arg:T6
+T5	WEA 76 79	bom
+T6	LOC 82 97	Hasakeh , Syria
+T7	PER 451 462	nhiều người
+T8	Die 463 467	chết
+E3	Die:T8 Victim-Arg:T7
+T9	PER 539 547	34 người
+T10	Die 551 561	thiệt_mạng
+E4	Die:T10 Victim-Arg:T9
+T11	PER 564 579	khoảng 90 người
+T12	Injure 580 589	bị_thương
+E5	Injure:T12 Victim-Arg:T11
+T13	PER 652 691	cha và một người anh_em trai của chú_rể
+T14	Die 695 705	thiệt_mạng
+E6	Die:T14 Victim-Arg:T13
+T15	ORG 0 2	IS
+T16	Attack 3 7	đánh
+E7	Attack:T16 Attacker-Arg:T15 Instrument-Arg:T17 Place-Arg:T18
+T17	WEA 8 11	bom
+T18	GPE 23 28	Syria

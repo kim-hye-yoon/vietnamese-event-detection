@@ -1,0 +1,21 @@
+T1	ORG 295 303	Agribank
+T2	Transfer-money 304 311	cho vay
+E1	Transfer-money:T2 Money-Arg:T3 Giver-Arg:T1
+T3	MONEY 312 333	tổng_cộng 331 tỷ đồng
+T4	PER 345 407	Công_ty TNHH sản_xuất thương_mại dịch_vụ Thuận_An ( Tafishco )
+T5	Transfer-money 413 416	vay
+E2	Transfer-money:T5 Recipient-Arg:T4 Money-Arg:T6
+T6	MONEY 417 428	234 tỷ đồng
+T7	ORG 550 591	Công_ty TNHH thương_mại đầu_tư Tín_Thương
+T8	Transfer-money 597 600	vay
+E3	Transfer-money:T8 Recipient-Arg:T7 Money-Arg:T9
+T9	MONEY 601 611	25 tỷ đồng
+T10	ORG 774 816	Công_ty_cổ_phần rau_quả thực_phẩm An_Giang
+T11	Transfer-money 822 825	vay
+E4	Transfer-money:T11 Money-Arg:T12 Recipient-Arg:T10
+T12	MONEY 826 836	72 tỷ đồng
+T13	ORG 1012 1061	Công_ty_cổ_phần xuất_nhập_khẩu Thịnh_Phú_An_Giang
+T14	ORG 1067 1078	Vietcombank
+T15	Transfer-money 1079 1086	cho vay
+E5	Transfer-money:T15 Giver-Arg:T14 Recipient-Arg:T13 Money-Arg:T16
+T16	MONEY 1087 1097	19 tỷ đồng

@@ -1,0 +1,18 @@
+T1	PER 271 294	Tổng_thống Donald_Trump
+T2	Attack 295 298	bắn
+E1	Attack:T2 Instrument-Arg:T3 Target-Arg:T4 Attacker-Arg:T1
+T3	WEA 299 318	59 tên_lửa Tomahawk
+T4	FAC 323 361	căn_cứ không_quân thuộc quân_đội Syria
+T6	Attack 637 642	phóng
+E2	Attack:T6 Target-Arg:T9 Instrument-Arg:T7
+T7	WEA 643 650	tên_lửa
+T8	Attack 651 659	tấn_công
+E3	Attack:T8 Target-Arg:T9 Instrument-Arg:T7
+T9	FAC 660 672	căn_cứ Syria
+T5	GPE 712 714	Mỹ
+T10	Attack 715 725	không kích
+E4	Attack:T10 Attacker-Arg:T5 Target-Arg:T11
+T11	FAC 726 750	căn_cứ_quân_sự của Syria
+T12	Attack 1096 1105	không kíc
+E5	Attack:T12 Target-Arg:T13
+T13	ORG 1107 1139	Nhà_nước Hồi_giáo tự_xưng ( IS )

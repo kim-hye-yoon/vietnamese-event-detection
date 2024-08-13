@@ -1,0 +1,37 @@
+T1	Sentence 45 51	kết_án
+E1	Sentence:T1 Defendant-Arg:T5
+T2	Pardon 22 27	ân_xá
+E2	Pardon:T2 Defendant-Arg:T5 Adjudicator-Arg:T4
+T3	GPE 0 2	Mỹ
+T4	GPE 11 21	Triều_Tiên
+T5	PER 32 41	sinh_viên
+T6	Sentence 503 509	kết_án
+E3	Sentence:T6 Adjudicator-Arg:T9 Defendant-Arg:T8 Sentence-Arg:T7 Time-Arg:T10 Crime-Arg:T11
+T7	SEN 510 533	15 năm lao_động khổ sai
+T8	PER 431 457	Sinh_viên Mỹ_Otto_Warmbier
+T9	ORG 477 502	toà_án tối_cao Triều_Tiên
+T10	TIME 538 550	tháng 3/2016
+T11	CRIME 573 668	lấy trộm biểu_ngữ tuyên_truyền trong khu_vực dành cho nhân_viên tại một khách_sạn ở Bình_Nhưỡng
+T12	Pardon 368 373	ân_xá
+E4	Pardon:T12 Defendant-Arg:T14 Adjudicator-Arg:T13
+T13	GPE 357 367	Triều_Tiên
+T14	PER 378 384	cậu ấy
+T15	Arquit 396 407	phóng_thích
+E5	Arquit:T15 Defendant-Arg:T14
+T16	Arrest-jail 863 867	giam
+E6	Arrest-jail:T16 Person-Arg:T18 Place-Arg:T17
+T17	GPE 872 882	Triều_Tiên
+T18	PER 844 859	các công_dân Mỹ
+T19	Transport 1051 1054	đến
+E7	Transport:T19 Artifact-Arg:T22 Destination-Arg:T21
+T20	Meet 1055 1059	thăm
+E8	Meet:T20 Place-Arg:T21 Entity-Arg:T22
+T21	GPE 1060 1093	Nhật_Bản , Hàn_Quốc và Trung_Quốc
+T22	PER 1005 1034	Ngoại_trưởng Mỹ Rex_Tillerson
+T23	Sentence 1320 1326	kết_án
+E9	Sentence:T23 Time-Arg:T25 Adjudicator-Arg:T24 Defendant-Arg:T26 Sentence-Arg:T27 Crime-Arg:T28
+T24	GPE 1292 1302	Triều_Tiên
+T25	TIME 1303 1315	tháng 4/2016
+T26	PER 1327 1373	Kim_Dong - chul , người Mỹ gốc Hàn hơn 60 tuổi
+T27	SEN 1376 1399	10 năm lao_động khổ sai
+T28	CRIME 1403 1416	tội gián_điệp

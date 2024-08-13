@@ -1,0 +1,84 @@
+T1	Attack 41 51	không_kích
+E1	Attack:T1 Place-Arg:T2
+T2	GPE 52 57	Syria
+T3	Attack 206 216	không_kích
+E2	Attack:T3 Place-Arg:T4 Attacker-Arg:T5
+T4	GPE 217 222	Syria
+T5	GPE 227 252	liên_minh Mỹ - Anh - Pháp
+T6	Attack 954 962	tấn_công
+E3	Attack:T6 Attacker-Arg:T9 Attacker-Arg2:T8 Attacker-Arg3:T7 Target-Arg:T36
+T7	ORG 916 927	quân_đội Mỹ
+T8	GPE 942 945	Anh
+T9	GPE 949 953	Pháp
+T10	Attack 1116 1124	tấn_công
+E4	Attack:T10 Attacker-Arg:T15 Place-Arg:T11 Time-Arg:T12
+T11	GPE 1125 1154	thành_phố Douma , Đông_Ghouta
+T13	PER 1174 1182	70 người
+T14	Die 1183 1193	thiệt_mạng
+E5	Die:T14 Victim-Arg:T13
+T15	GPE 1075 1080	Syria
+T16	Charge-indict 1081 1092	bị_cáo buộc
+E6	Charge-indict:T16 Defendant-Arg:T15
+T17	GPE 1196 1201	Syria
+T18	Appeal 1202 1217	bác bỏ cáo_buộc
+E7	Appeal:T18 Defendant-Arg:T17
+T19	Attack 1290 1296	bắn hạ
+E8	Attack:T19 Target-Arg:T20
+T20	WEA 1255 1276	13 tên_lửa hành_trình
+T21	Attack 1574 1582	tấn_công
+E9	Attack:T21 Place-Arg:T23 Attacker-Arg:T22
+T22	GPE 1568 1570	Mỹ
+T23	GPE 1583 1588	Syria
+T24	Attack 1771 1790	vụ tấn_công hoá_học
+E10	Attack:T24 
+T25	Attack 1955 1963	xâm_lược
+E11	Attack:T25 Place-Arg:T26
+T26	GPE 1964 1968	Iraq
+T27	Attack 2260 2270	không_kích
+E12	Attack:T27 Place-Arg:T28
+T28	GPE 2271 2276	Syria
+T30	GPE 3678 3683	Syria
+T31	GPE 3687 3689	Mỹ
+T33	GPE 5137 5142	Syria
+T34	Attack 534 540	đe_doạ
+E15	Attack:T34 Target-Arg:T35
+T35	PER 517 525	chúng_ta
+T36	FAC 977 1033	mục_tiêu liên_quan đến năng_lực vũ_khí_hoá_học của Syria
+T12	TIME 1155 1163	ngày 7/4
+T37	Attack 2380 2393	cuộc tấn_công
+E16	Attack:T37 Instrument-Arg:T38 Attacker-Arg:T40
+T38	WEA 2411 2418	tên_lửa
+T39	Attack 2424 2429	phóng
+E17	Attack:T39 Instrument-Arg:T38
+T40	GPE 2364 2366	Mỹ
+T41	Attack 2459 2472	uộc không_kíc
+E18	Attack:T41 
+T42	Attack 3639 3652	cuộc tấn_công
+E19	Attack:T42 
+T29	Attack 3664 3677	Cuộc tấn_công
+E13	Attack:T29 Place-Arg:T30 Attacker-Arg:T31
+T43	Attack 4206 4219	cuộc tấn_công
+E20	Attack:T43 Place-Arg:T44
+T44	GPE 4233 4252	Đông_Ghouta , Syria
+T45	Attack 4330 4338	tấn_công
+E21	Attack:T45 Target-Arg:T46 Instrument-Arg:T47 Attacker-Arg:T48
+T46	PER 4339 4349	dân thường
+T47	WEA 4355 4369	vũ_khí_hoá_học
+T48	ORG 4312 4329	chính_quyền Assad
+T49	Attack 5008 5021	cuộc tấn_công
+E22	Attack:T49 Attacker-Arg:T50
+T32	Attack 5122 5136	cuộc nội_chiến
+E14	Attack:T32 Place-Arg:T33
+T50	ORG 5025 5035	Mỹ dẫn_đầu
+T51	Attack 3205 3220	cuộc không_kích
+E23	Attack:T51 Target-Arg:T52
+T52	ORG 3256 3307	Iran , Syria và nhóm phiến quân Hezbollah ở Lebanon
+T53	Attack 3572 3580	xâm_lược
+E24	Attack:T53 Attacker-Arg:T54 Place-Arg:T55
+T54	ORG 3546 3569	ba nước Mỹ - Anh - Pháp
+T55	GPE 3583 3588	Syria
+T56	ORG 4374 4428	Chúng_tôi sẽ tiếp_tục phối_hợp với các đối_tác quốc_tế
+T57	Trial-hearing 4432 4440	điều_tra
+E25	Trial-hearing:T57 Place-Arg:T59 Crime-Arg:T58 Adjudicator-Arg:T56
+T58	CRIME 4451 4473	sử_dụng vũ_khí_hoá_học
+T59	GPE 4476 4481	Syria

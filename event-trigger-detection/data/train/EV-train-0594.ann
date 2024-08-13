@@ -1,0 +1,7 @@
+T1	PER 14 17	tôi
+T2	Transport 22 25	đưa
+E1	Transport:T2 Agent-Arg:T1 Artifact-Arg:T3
+T3	PER 26 28	vợ
+T4	PER 53 56	Tôi
+T5	Marry 79 86	kết_hôn
+E2	Marry:T5 Person-Arg:T4

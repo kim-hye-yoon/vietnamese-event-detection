@@ -1,0 +1,8 @@
+T1	PER 2050 2053	anh
+T2	Transfer-money 2059 2065	hỗ_trợ
+E1	Transfer-money:T2 Giver-Arg:T1 Money-Arg:T3
+T3	MONEY 2066 2083	3,5 triệu / tháng
+T4	PER 2888 2895	Độc_giả
+T5	Phone-write 2896 2904	gọi điện
+E2	Phone-write:T5 Entity-Arg:T6 Entity-Arg2:T4
+T6	PER 2916 2929	biên_tập_viên

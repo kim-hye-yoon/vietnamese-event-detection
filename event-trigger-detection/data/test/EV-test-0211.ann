@@ -1,0 +1,93 @@
+T1	End-position 34 43	bãi_nhiệm
+E1	End-position:T1 Entity-Arg:T3 Person-Arg:T2
+T2	PER 0 21	Bà Đặng_Thị_Hoàng_Yến
+T3	ORG 25 33	Quốc_hội
+T4	Meet 156 165	thảo_luận
+E2	Meet:T4 Entity-Arg:T5
+T5	PER 168 176	các đoàn
+T6	End-position 185 194	bãi_nhiệm
+E3	End-position:T6 Position-Arg:T7 Person-Arg:T8 Entity-Arg:T10
+T7	JOB 195 211	tư_cách đại_biểu
+T8	PER 216 237	bà Đặng_Thị_Hoàng_Yến
+T9	TIME 46 53	9h sáng
+T10	ORG 111 136	Uỷ_ban Thường_vụ_Quốc_hội
+T11	Meet 518 524	kỳ họp
+E4	Meet:T11 Entity-Arg:T13
+T12	PER 493 513	à Đặng_Thị_Hoàng_Yến
+T13	ORG 533 549	Quốc_hội khoá 13
+T14	ORG 1135 1142	Quốc_hộ
+T15	End-position 1161 1170	bãi_nhiệm
+E5	End-position:T15 Position-Arg:T16 Entity-Arg:T14 Person-Arg:T17
+T16	JOB 1171 1196	tư_cách đại_biểu Quốc_hội
+T17	PER 1205 1226	bà Đặng_Thị_Hoàng_Yến
+T18	End-position 1380 1389	bãi_nhiệm
+E6	End-position:T18 Entity-Arg:T19 Person-Arg:T21
+T19	ORG 1359 1367	Quốc_hội
+T20	PER 1373 1379	cử_tri
+T21	PER 1266 1274	đại_biểu
+T22	End-position 1699 1708	bãi_nhiệm
+E7	End-position:T22 Position-Arg:T32 Person-Arg:T35
+T23	End-position 1450 1459	bãi_nhiệm
+E8	End-position:T23 Entity-Arg:T24
+T24	ORG 1441 1449	Quốc_hội
+T25	Elect 1476 1479	bầu
+E9	Elect:T25 Person-Arg:T26 Entity-Arg:T27
+T26	PER 1483 1491	đại_biểu
+T27	PER 1465 1471	cử_tri
+T28	End-position 1492 1501	bãi_nhiệm
+E10	End-position:T28 Person-Arg:T26
+T29	Elect 1588 1591	bầu
+E11	Elect:T29 Person-Arg:T30 Entity-Arg:T31
+T30	PER 1595 1603	đại_biểu
+T31	PER 1577 1583	cử_tri
+T32	JOB 1709 1725	tư_cách đại_biểu
+T33	End-position 1839 1848	bãi_nhiệm
+E12	End-position:T33 Entity-Arg:T34 Person-Arg:T35
+T34	ORG 1830 1838	Quốc_hội
+T35	PER 1624 1636	bà Hoàng_Yến
+T36	TIME 1728 1737	ngày 23/5
+T37	End-position 1993 2002	bãi_nhiệm
+E13	End-position:T37 Entity-Arg:T40 Person-Arg:T39 Person-Arg2:T38
+T38	PER 1922 1952	Mạc_Kim_Tôn ( tỉnh Thái_Bình )
+T39	PER 1956 1980	Lê_Minh_Hoàng ( TP HCM )
+T40	ORG 1984 1992	Quốc_hội
+T41	Be-born 2116 2120	sinh
+E14	Be-born:T41 Time-Arg:T42 Person-Arg:T43
+T42	TIME 2121 2129	năm 1959
+T43	PER 2092 2113	Bà Đặng_Thị_Hoàng_Yến
+T44	Start-org 2172 2180	sáng_lập
+E15	Start-org:T44 Org-Arg:T45 Time-Arg:T46 Agent-Arg:T50
+T45	ORG 2181 2231	Công_ty_cổ_phần đầu_tư công_nghiệp Tân_Tạo ( ITA )
+T46	TIME 2235 2243	năm 1993
+T47	Start-position 2253 2256	giữ
+E16	Start-position:T47 Person-Arg:T50 Position-Arg:T48 Time-Arg:T49
+T48	JOB 2257 2279	chức Chủ_tịch HĐQT ITA
+T49	TIME 2283 2302	từ năm 1996 tới nay
+T50	PER 2246 2252	bà Yến
+T51	Elect 2513 2521	trúng_cử
+E17	Elect:T51 Position-Arg:T53 Person-Arg:T52 Position-Arg2:T55 Time-Arg:T54
+T52	PER 2452 2458	bà Yến
+T53	JOB 2522 2547	đại_biểu Quốc_hội khoá 13
+T54	TIME 2437 2449	Tháng 5/2011
+T55	JOB 2563 2620	uỷ_viên Uỷ_ban Văn_hoá giáo_dục thanh_thiếu_niên Quốc_hội
+T56	End-position 2692 2701	bãi_nhiệm
+E18	End-position:T56 Position-Arg:T59 Person-Arg:T58 Time-Arg:T57
+T57	TIME 2625 2637	Tháng 4/2012
+T58	PER 2732 2753	bà Đặng_Thị_Hoàng_Yến
+T59	JOB 2710 2727	đại_biểu Quốc_hội
+T60	End-position 2998 3006	bãi_miễn
+E19	End-position:T60 Position-Arg:T64
+T61	End-position 2952 2960	từ_nhiệm
+E20	End-position:T61 Person-Arg:T63 Time-Arg:T62
+T63	PER 2932 2938	bà Yến
+T62	TIME 2919 2931	Tháng 5/2012
+T64	JOB 3015 3032	đại_biểu Quốc_hội
+T65	Meet 2982 2985	họp
+E21	Meet:T65 
+T66	JOB 2973 2981	Quốc_hội
+T67	End-position 3193 3202	bãi_nhiệm
+E22	End-position:T67 Person-Arg:T68 Position-Arg:T69 Entity-Arg:T70 Time-Arg:T71
+T68	PER 3224 3245	bà Đặng_Thị_Hoàng_Yến
+T69	JOB 3211 3219	đại_biểu
+T70	ORG 3167 3175	Quốc_hội
+T71	TIME 3116 3130	Ngày 26/5/2012

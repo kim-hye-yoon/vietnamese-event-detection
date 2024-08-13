@@ -1,0 +1,24 @@
+T1	Sentence 89 97	tuyên_án
+E1	Sentence:T1 Sentence-Arg:T2 Defendant-Arg:T4 Defendant-Arg2:T3 Crime-Arg:T5 Time-Arg:T16
+T2	SEN 98 111	8 năm tù_giam
+T3	ORG 48 75	Toà_án quốc_gia Tây_Ban_Nha
+T4	PER 120 142	Mudhar_Hussein_Almalki
+T5	CRIME 187 221	tội_danh tham_gia tổ_chức khủng_bố
+T6	Arrest-jail 1661 1668	bắt_giữ
+E2	Arrest-jail:T6 Agent-Arg:T7 Person-Arg:T8 Place-Arg:T9 Time-Arg:T10
+T7	ORG 1637 1657	cảnh_sát Tây_Ban_Nha
+T8	PER 1669 1676	Almalki
+T9	LOC 1681 1699	thành_phố Valencia
+T10	TIME 1622 1634	Tháng 3/2012
+T11	Sentence 360 368	tuyên_án
+E3	Sentence:T11 Sentence-Arg:T12 Time-Arg:T17 Defendant-Arg:T15 Defendant-Arg2:T13 Sentence-Arg2:T14
+T12	SEN 369 382	8 năm tù_giam
+T13	PER 391 413	Mudhar_Hussein_Almalki
+T14	SEN 458 492	tội_danh tham_gia tổ_chức khủng_bố
+T15	ORG 319 346	Toà_án quốc_gia Tây_Ban_Nha
+T16	TIME 76 85	ngày 29/5
+T17	TIME 347 356	ngày 29/5
+T18	PER 1188 1210	Mudhar Hussein_Almalki
+T19	Arrest-jail 1220 1226	bị bắt
+E4	Arrest-jail:T19 Place-Arg:T20 Person-Arg:T18
+T20	GPE 1231 1255	Valencia , Tây_Ban_Nha .

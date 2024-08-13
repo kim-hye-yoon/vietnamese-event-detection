@@ -1,0 +1,25 @@
+T1	Elect 24 32	được bầu
+E1	Elect:T1 Person-Arg:T3 Position-Arg:T2
+T2	JOB 37 50	chủ_tịch HĐND
+T3	PER 0 23	Bí_thư Tỉnh_uỷ Đồng_Nai
+T4	Elect 144 152	trúng_cử
+E2	Elect:T4 Person-Arg:T5 Time-Arg:T6 Position-Arg:T7
+T5	PER 123 134	86 đại_biểu
+T6	TIME 53 62	Ngày 15/6
+T7	JOB 163 219	các chức_danh chủ_chốt của tỉnh trong nhiệm_kỳ 2016-2021
+T8	Elect 254 262	được bầu
+E3	Elect:T8 Person-Arg:T10 Position-Arg:T9
+T9	JOB 267 293	Chủ_tịch HĐND tỉnh khoá IX
+T10	PER 222 253	Bí_thư Tỉnh_uỷ Nguyễn_Phú_Cường
+T11	Elect 423 429	tái_cử
+E4	Elect:T11 Person-Arg:T12
+T12	PER 354 413	Ông Đinh_Quốc_Thái - Chủ_tịch UBND tỉnh cùng 4 phó chủ_tịch
+T13	Elect 1004 1012	được bầu
+E5	Elect:T13 Person-Arg:T14 Position-Arg:T16 Time-Arg:T15
+T14	PER 1000 1003	ông
+T15	TIME 985 997	Tháng 9/2014
+T16	JOB 1026 1069	Phó chủ_tịch UBND tỉnh , nhiệm_kỳ 2011-2016
+T17	Elect 1154 1162	được bầu
+E6	Elect:T17 Person-Arg:T19 Position-Arg:T18
+T18	JOB 1167 1191	chức_danh Bí_thư Tỉnh_uỷ
+T19	PER 1150 1153	ông

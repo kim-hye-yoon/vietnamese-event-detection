@@ -1,0 +1,5 @@
+T1	VEH 60 84	Nhóm tàu_chiến Australia
+T2	Transport 96 105	di chuyển
+E1	Transport:T2 Destination-Arg:T3 Time-Arg:T4 Artifact-Arg:T1
+T3	LOC 110 119	Biển_Đông
+T4	TIME 124 136	tháng 9/2017

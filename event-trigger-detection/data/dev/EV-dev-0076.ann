@@ -1,0 +1,13 @@
+T1	Attack 852 856	trói
+E1	Attack:T1 Attacker-Arg:T3 Target-Arg:T2
+T2	PER 826 832	chị P.
+T3	PER 836 851	4 người đàn_ông
+T4	Phone-write 2115 2125	điện_thoại
+E2	Phone-write:T4 Entity-Arg:T6 Entity-Arg2:T5
+T5	PER 2130 2132	mẹ
+T6	PER 2101 2104	chị
+T7	Meet 2674 2678	thăm
+E3	Meet:T7 Entity-Arg:T8 Entity-Arg2:T9 Entity-Arg3:T10
+T8	PER 2679 2687	bà ngoại
+T9	PER 2663 2670	hai con
+T10	PER 2641 2650	chồng chị

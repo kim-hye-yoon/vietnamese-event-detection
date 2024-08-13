@@ -1,0 +1,26 @@
+T1	Marry 22 29	kết_hôn
+E1	Marry:T1 Person-Arg:T3 Place-Arg:T2
+T2	GPE 32 34	Mỹ
+T3	PER 0 21	Con_gái NSND Hồng_Vân
+T4	PER 47 57	Hoàng_Châu
+T5	PER 62 71	Khôi_Trần
+T6	Transport 610 612	về
+E2	Transport:T6 
+T7	TIME 577 584	Tháng 8
+T8	PER 587 606	vợ_chồng Hoàng_Châu
+T9	GPE 613 617	nước
+T10	Be-born 647 651	sinh
+E3	Be-born:T10 Time-Arg:T12 Person-Arg:T11
+T11	PER 636 646	Hoàng_Châu
+T12	TIME 652 660	năm 1994
+T13	Transport 1013 1017	sang
+E4	Transport:T13 Artifact-Arg:T14 Destination-Arg:T15 Time-Arg:T16
+T14	PER 1002 1012	Hoàng_Châu
+T15	GPE 1018 1020	Mỹ
+T16	TIME 991 999	Năm 2011
+T17	Marry 296 304	Đám_cưới
+E5	Marry:T17 Person-Arg:T18
+T18	PER 309 325	con_gái Hồng_Vân
+T19	Transport 411 415	sang
+E6	Transport:T19 Destination-Arg:T20
+T20	GPE 416 418	Mỹ

@@ -1,0 +1,23 @@
+T1	Transfer-ownership 785 788	mua
+E1	Transfer-ownership:T1 Buyer-Arg:T2
+T2	PER 743 762	ông Thẩm và bà Thuỳ
+T3	Sue 1388 1397	khởi_kiện
+E2	Sue:T3 Plaintiff-Arg:T4 Defendant-Arg:T5
+T4	PER 1357 1376	vợ_chồng ông Nguyên
+T5	PER 1311 1330	ông Thẩm và bà Thuỳ
+T6	Transfer-ownership 4467 4480	chuyển_nhượng
+E3	Transfer-ownership:T6 Seller-Arg:T8 Beneficiary-Arg:T7
+T7	PER 4537 4549	người em_gái
+T8	PER 4448 4466	ông Thẩm , bà Thuỳ
+T9	Transfer-ownership 937 940	vay
+E4	Transfer-ownership:T9 Price-Arg:T10 Seller-Arg:T11 Buyer-Arg:T12
+T10	MONEY 941 954	30 lượng vàng
+T11	PER 958 977	vợ_chồng ông Nguyên
+T12	PER 906 923	vợ_chồng ông Thẩm
+T13	Appeal 3952 3961	kháng_cáo
+E5	Appeal:T13 Adjudicator-Arg:T15 Defendant-Arg:T14
+T14	PER 3925 3943	ông Thẩm , bà Thuỳ
+T15	ORG 3966 3999	toà phúc_thẩm do TAND TP. Cần_Thơ
+T17	SEN 2618 2731	ông Trần_Thái_Thẩm , bà Triệu_Thị_Phương_Thuỳ phải trả hơn 100 lượng vàng cho ông Nguyên , bà Hạnh cách đây 7 năm
+T16	Sentence 2585 2591	Bản_án
+E6	Sentence:T16 Sentence-Arg:T17

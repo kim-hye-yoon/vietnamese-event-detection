@@ -1,0 +1,5 @@
+T1	Phone-write 906 909	gửi
+E1	Phone-write:T1 Entity-Arg:T2 Time-Arg:T3
+T2	ORG 910 918	quốc_hội
+T3	TIME 919 927	hôm 24/3
+T4	PER 930 944	Bộ_trưởng Barr

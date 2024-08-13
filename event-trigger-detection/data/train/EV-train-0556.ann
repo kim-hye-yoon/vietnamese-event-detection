@@ -1,0 +1,21 @@
+T1	End-position 45 54	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 27 41	chủ_tịch huyện
+T3	Meet 120 128	hội_nghị
+E2	Meet:T3 Entity-Arg:T4
+T4	ORG 144 165	Ban thường_vụ Tỉnh_uỷ
+T5	Start-position 204 215	điều_chuyển
+E3	Start-position:T5 Person-Arg:T6 Entity-Arg:T7 Place-Arg:T8
+T6	PER 225 239	nhiều lãnh_đạo
+T7	ORG 168 179	Cơ_quan này
+T8	GPE 244 258	huyện Minh_Hoá
+T9	End-position 317 326	cách_chức
+E4	End-position:T9 Position-Arg:T11 Person-Arg:T12
+T10	Start-position 338 349	điều_chuyển
+E5	Start-position:T10 Position-Arg:T13 Person-Arg:T12
+T11	JOB 327 335	chủ_tịch
+T12	PER 270 287	ông Đinh_Hữu_Niên
+T13	JOB 350 363	công_tác khác
+T14	Be-born 469 473	sinh
+E6	Be-born:T14 Person-Arg:T15
+T15	PER 474 477	con

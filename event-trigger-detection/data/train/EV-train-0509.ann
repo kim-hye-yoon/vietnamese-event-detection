@@ -1,0 +1,29 @@
+T1	Pardon 11 16	ân_xá
+E1	Pardon:T1 Place-Arg:T2 Defendant-Arg:T3
+T2	GPE 0 10	Triều_Tiên
+T3	PER 17 24	tù_nhân
+T4	Pardon 230 235	ân_xá
+E2	Pardon:T4 Defendant-Arg:T5 Time-Arg:T6 Adjudicator-Arg:T7
+T5	PER 236 243	tù_nhân
+T6	TIME 247 258	từ ngày 1/2
+T7	ORG 203 220	quốc_hội nước này
+T8	Pardon 422 432	khoan_hồng
+E3	Pardon:T8 Defendant-Arg:T9
+T9	PER 403 410	tù_nhân
+T10	Arquit 550 559	trả tự_do
+E4	Arquit:T10 Defendant-Arg:T12
+T11	Pardon 569 574	ân_xá
+E5	Pardon:T11 Defendant-Arg:T12
+T12	PER 537 544	tù_nhân
+T13	Arrest-jail 659 667	giam_giữ
+E6	Arrest-jail:T13 Place-Arg:T14 Person-Arg:T15
+T14	FAC 674 695	các nhà_tù Triều_Tiên
+T15	PER 638 655	hơn 200.000 người
+T16	Die 767 774	qua_đời
+E7	Die:T16 Victim-Arg:T17 Time-Arg:T18
+T17	PER 729 762	cố chủ_tịch Kim_Jong - il , người
+T18	TIME 791 796	17/12
+T19	Meet 1322 1330	mít_tinh
+E8	Meet:T19 Entity-Arg:T20 Place-Arg:T21
+T20	PER 1257 1295	các thành_viên của quân_đội Triều_Tiên
+T21	GPE 1335 1346	Bình_Nhưỡng

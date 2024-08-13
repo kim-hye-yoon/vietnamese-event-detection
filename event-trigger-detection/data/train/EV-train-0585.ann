@@ -1,0 +1,56 @@
+T1	PER 0 5	Tử_tù
+T2	Release-parole 11 20	trả tự_do
+E1	Release-parole:T2 Person-Arg:T1 Time-Arg:T3
+T3	TIME 21 31	sau 45 năm
+T4	Die 36 40	chết
+E2	Die:T4 
+T5	Release-parole 70 86	ra khỏi nhà_giam
+E3	Release-parole:T5 Person-Arg:T6
+T6	PER 43 60	Ông Iwao_Hakamada
+T7	Convict 165 173	buộc_tội
+E4	Convict:T7 Defendant-Arg:T8 Crime-Arg:T11
+T8	PER 148 161	Iwao_Hakamada
+T9	Die 174 182	giết_hại
+E5	Die:T9 Victim-Arg:T10 Agent-Arg:T8
+T10	PER 183 229	cả gia_đình giám_đốc công_ty nơi mình làm_việc
+T11	CRIME 174 229	giết_hại cả gia_đình giám_đốc công_ty nơi mình làm_việc
+T12	Attack 239 248	phóng_hoả
+E6	Attack:T12 Time-Arg:T13 Target-Arg:T14 Attacker-Arg:T8
+T13	TIME 268 276	năm 1966
+T14	FAC 257 267	nhà của họ
+T15	Sentence 306 312	kết_án
+E7	Sentence:T15 Defendant-Arg:T17 Sentence-Arg:T16 Time-Arg:T18
+T16	SEN 313 320	tử_hình
+T17	PER 294 302	Hakamada
+T18	TIME 283 291	năm 1968
+T19	Execute 340 345	xử_tử
+E8	Execute:T19 Person-Arg:T20
+T20	PER 323 331	Hakamada
+T21	Appeal 359 367	kháng_án
+E9	Appeal:T21 Defendant-Arg:T20
+T22	Trial-hearing 545 551	xét_xử
+E10	Trial-hearing:T22 
+T23	Arrest-jail 911 919	giam_giữ
+E11	Arrest-jail:T23 Person-Arg:T24
+T24	PER 920 926	bị_cáo
+T25	Release-parole 1033 1043	trả tự cho
+E12	Release-parole:T25 Person-Arg:T26 Person-Arg2:T27
+T26	PER 1047 1055	Hakamada
+T27	PER 1015 1024	Thẩm_phán
+T28	Appeal 1202 1211	kháng_cáo
+E13	Appeal:T28 Prosecutor-Arg:T29
+T29	PER 1168 1180	công_tố_viên
+T30	Transport 1251 1263	bước ra khỏi
+E14	Transport:T30 Agent-Arg:T32 Origin-Arg:T31
+T31	FAC 1264 1270	nhà_tù
+T32	PER 1242 1250	Hakamada
+T33	Transport 1397 1401	bước
+E15	Transport:T33 Agent-Arg:T35 Vehicle-Arg:T34
+T34	VEH 1406 1410	ô_tô
+T35	PER 1302 1323	Người đàn_ông 78 tuổi
+T36	Arquit 2042 2050	trắng_án
+E16	Arquit:T36 Defendant-Arg:T37
+T37	PER 2015 2033	bốn phạm_nhân khác
+T38	Execute 2405 2416	thi_hành án
+E17	Execute:T38 Person-Arg:T39
+T39	PER 2387 2395	Hakamada

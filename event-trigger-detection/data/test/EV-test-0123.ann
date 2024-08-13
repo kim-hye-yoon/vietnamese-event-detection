@@ -1,0 +1,15 @@
+T1	End-position 48 57	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Hiệu_trưởng
+T3	PER 15 22	cô_giáo
+T4	PER 35 44	phụ_huynh
+T5	End-position 201 210	cách_chức
+E2	End-position:T5 Person-Arg:T6 Position-Arg:T7 Entity-Arg:T8
+T6	PER 219 237	ông Huỳnh_Công_Sơn
+T7	JOB 240 278	Hiệu_trưởng Trường Tiểu_học Bình_Chánh
+T8	ORG 143 148	huyện
+T9	Transport 1052 1055	đến
+E3	Transport:T9 Destination-Arg:T10 Artifact-Arg:T12 Time-Arg:T11
+T10	FAC 1056 1082	Trường Tiểu_học Bình_Chánh
+T11	TIME 1007 1019	Cuối tháng 2
+T12	PER 1022 1050	ông Thuận cùng nhóm phụ_huyn

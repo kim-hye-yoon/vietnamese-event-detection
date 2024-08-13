@@ -1,0 +1,11 @@
+T1	Pardon 19 24	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T6 Defendant-Arg:T5
+T2	Pardon 212 217	ân_xá
+E2	Pardon:T2 
+T3	Pardon 786 791	ân_xá
+E3	Pardon:T3 Adjudicator-Arg:T7
+T4	Pardon 817 822	Ân_xá
+E4	Pardon:T4 
+T5	PER 25 31	trợ_lý
+T6	PER 0 5	Trump
+T7	PER 754 764	tổng_thống

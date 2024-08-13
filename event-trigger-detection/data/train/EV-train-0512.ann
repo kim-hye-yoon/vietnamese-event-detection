@@ -1,0 +1,10 @@
+T1	Transport 931 935	chạy
+E1	Transport:T1 Vehicle-Arg:T4
+T2	Transport 865 877	chuyển_hướng
+E2	Transport:T2 Vehicle-Arg:T3
+T3	VEH 844 856	tàu_chiến Mỹ
+T4	VEH 899 922	tàu hải_quân Trung_Quốc
+T5	Meet 1237 1246	thảo_luận
+E3	Meet:T5 Entity-Arg:T7 Entity-Arg2:T6
+T6	PER 1226 1229	tôi
+T7	PER 1251 1265	các đối_tác Mỹ

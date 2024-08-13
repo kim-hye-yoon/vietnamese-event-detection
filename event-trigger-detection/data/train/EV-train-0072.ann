@@ -1,0 +1,3 @@
+T1	Transfer-ownership 496 499	mua
+E1	Transfer-ownership:T1 Price-Arg:T2
+T2	MONEY 526 547	10 tỷ crown Thuỵ_Điển

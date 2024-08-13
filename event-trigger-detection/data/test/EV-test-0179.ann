@@ -1,0 +1,32 @@
+T1	Declare-bankruptcy 79 86	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2 Time-Arg:T3
+T2	ORG 63 75	doanh_nghiệp
+T3	TIME 56 62	10 năm
+T4	Declare-bankruptcy 659 666	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T5
+T5	ORG 646 658	doanh_nghiệp
+T6	Declare-bankruptcy 1102 1109	phá_sản
+E3	Declare-bankruptcy:T6 Org-Arg:T7
+T7	ORG 1057 1069	doanh_nghiệp
+T8	Transfer-ownership 1113 1126	chuyển_nhượng
+E4	Transfer-ownership:T8 Beneficiary-Arg:T9 Buyer-Arg:T7
+T9	ORG 1131 1138	đối_tác
+T10	Transfer-ownership 1070 1074	thuê
+E5	Transfer-ownership:T10 Seller-Arg:T7 Time-Arg:T12
+T11	Transfer-ownership 1205 1209	thuê
+E6	Transfer-ownership:T11 Time-Arg:T13
+T12	TIME 1079 1085	99 năm
+T13	TIME 1221 1227	99 năm
+T14	Transfer-ownership 1423 1427	thuê
+E7	Transfer-ownership:T14 Time-Arg:T15
+T15	TIME 1439 1445	99 năm
+T16	Transfer-ownership 1711 1715	thuê
+E8	Transfer-ownership:T16 Time-Arg:T17
+T17	TIME 1727 1733	99 năm
+T18	Transfer-ownership 2428 2432	thuê
+E9	Transfer-ownership:T18 Buyer-Arg:T19
+T19	GPE 2305 2313	Việt_Nam
+T20	Transfer-money 3514 3522	truy_thu
+E10	Transfer-money:T20 Money-Arg:T21 Beneficiary-Arg:T22
+T21	MONEY 3528 3541	nghìn tỷ đồng
+T22	ORG 3459 3471	cơ_quan thuế

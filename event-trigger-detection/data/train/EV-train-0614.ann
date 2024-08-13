@@ -1,0 +1,91 @@
+T1	Sentence 0 7	Lĩnh án
+E1	Sentence:T1 Sentence-Arg:T2 Crime-Arg:T4
+T2	SEN 8 15	tử_hình
+T3	Transfer-ownership 40 44	buôn
+E2	Transfer-ownership:T3 
+T4	CRIME 40 51	buôn ma_tuý
+T5	Trial-hearing 87 93	xét_xử
+E3	Trial-hearing:T5 Defendant-Arg:T6 Adjudicator-Arg:T9 Crime-Arg:T7
+T6	PER 94 183	Nguyễn_Mạnh_Hùng ( 39 tuổi ) , Ngô_Văn_Duy ( 22 tuổi ) và Phạm_Hà_Trang_Huyền ( 24 tuổi )
+T7	CRIME 196 225	Mua_bán trái_phép chất ma_tuý
+T8	Transfer-ownership 196 203	Mua_bán
+E4	Transfer-ownership:T8 
+T9	ORG 54 65	TAND Hà_Nội
+T10	Sentence 729 739	tuyên_phạt
+E5	Sentence:T10 Sentence-Arg:T11 Crime-Arg:T15 Adjudicator-Arg:T12 Defendant-Arg:T14 Time-Arg:T13
+T11	SEN 740 751	20 tháng tù
+T12	ORG 710 728	TAND quận Cầu_Giấy
+T13	TIME 689 697	Năm 2016
+T14	PER 700 706	anh ta
+T15	CRIME 759 789	Tàng_trữ trái_phép chất ma_tuý
+T18	Transfer-ownership 1168 1175	mua_bán
+E7	Transfer-ownership:T18 
+T19	Transfer-ownership 1226 1229	bán
+E8	Transfer-ownership:T19 Seller-Arg:T20 Buyer-Arg:T21 Place-Arg:T22
+T20	PER 1198 1210	Duy và Huyền
+T21	PER 1241 1246	khách
+T22	GPE 1277 1283	Hà_Nội
+T23	Phone-write 1303 1318	nhận điện_thoại
+E9	Phone-write:T23 Time-Arg:T24 Entity-Arg:T25
+T24	TIME 1286 1300	Ngày 17/1/2018
+T25	PER 1323 1325	Đá
+T26	Transport 1326 1329	vào
+E10	Transport:T26 Destination-Arg:T27
+T27	GPE 1330 1337	Nghệ_An
+T28	GPE 1357 1363	Hà_Nội
+T29	Transport 1349 1356	mang về
+E11	Transport:T29 Origin-Arg:T27 Destination-Arg:T28
+T30	Transport 1452 1455	vào
+E12	Transport:T30 Destination-Arg:T34 Vehicle-Arg:T31 Agent-Arg:T32 Time-Arg:T33
+T31	VEH 1448 1451	ôtô
+T32	PER 1439 1443	Hùng
+T33	TIME 1417 1436	Rạng sáng cùng ngày
+T34	GPE 1456 1463	Nghệ_An
+T35	Transport 1488 1491	tới
+E13	Transport:T35 Destination-Arg:T36 Agent-Arg:T32 Time-Arg:T33
+T36	GPE 1492 1521	cửa_khẩu Cầu_Treo ( Hà_Tĩnh )
+T37	Transport 1656 1658	về
+E14	Transport:T37 Destination-Arg:T38 Vehicle-Arg:T39 Agent-Arg:T40 Origin-Arg:T41
+T38	LOC 1659 1696	trung_tâm huyện Quế_Phong ( Nghệ_An )
+T39	VEH 1653 1656	xe 
+T40	PER 1552 1556	Hùng
+T41	GPE 1541 1549	Cầu_Treo
+T42	Meet 1731 1734	gặp
+E15	Meet:T42 Entity-Arg:T44 Entity-Arg2:T45
+T43	LOC 1699 1706	Tại đây
+T44	PER 1709 1726	một đàn_em của Đá
+T45	PER 1735 1739	Hùng
+T46	Transport 1871 1879	phóng về
+E16	Transport:T46 Destination-Arg:T47 Vehicle-Arg:T48 Agent-Arg:T49 Time-Arg:T50
+T47	GPE 1880 1886	Hà_Nội
+T48	VEH 1863 1866	ôtô
+T49	PER 1796 1807	Hùng và Duy
+T50	TIME 1781 1793	Sáng hôm sau
+T51	Transport 1905 1908	tới
+E17	Transport:T51 Agent-Arg:T54 Vehicle-Arg:T53 Agent-Arg2:T52
+T52	GPE 1909 1949	thị_trấn Văn_Điển ( Thanh_Trì , Hà_Nội )
+T53	VEH 1893 1895	xe
+T54	PER 1900 1904	Hùng
+T55	Arrest-jail 1998 2001	bắt
+E18	Arrest-jail:T55 Person-Arg:T54 Agent-Arg:T56 Place-Arg:T52
+T56	ORG 1957 1985	lực_lượng công_an liên_ngành
+T57	Transfer-ownership 2398 2404	bán_lẻ
+E19	Transfer-ownership:T57 Seller-Arg:T58 Seller-Arg2:T59
+T58	PER 2354 2359	Huyền
+T59	PER 2387 2397	người_tình
+T60	Arrest-jail 2595 2598	bắt
+E20	Arrest-jail:T60 Person-Arg:T61 Person-Arg2:T62
+T61	PER 2571 2576	chồng
+T62	PER 2582 2591	nhân_tình
+T63	Trial-hearing 2608 2614	xét_xử
+E21	Trial-hearing:T63 Defendant-Arg:T62 Defendant-Arg2:T61
+T65	ORG 2637 2640	toà
+T66	PER 2652 2663	Hùng và Duy
+T67	SEN 2671 2678	tử_hình
+T68	PER 2681 2686	Huyền
+T69	SEN 2687 2697	tám năm tù
+T64	Sentence 2641 2651	tuyên_phạt
+E22	Sentence:T64 Adjudicator-Arg:T65 Defendant-Arg:T66 Defendant-Arg2:T68 Sentence-Arg:T67 Sentence-Arg2:T69
+T16	Release-parole 855 860	Ra tù
+E6	Release-parole:T16 Person-Arg:T17
+T17	PER 863 867	Hùng

@@ -1,0 +1,20 @@
+T1	GPE 0 6	Hà_Lan
+T2	Attack 15 25	không kích
+E1	Attack:T2 Place-Arg:T3 Target-Arg:T4 Attacker-Arg:T1
+T3	GPE 29 36	ở Syria
+T4	ORG 26 28	IS
+T5	Attack 287 297	không_kích
+E2	Attack:T5 Place-Arg:T6 Target-Arg:T7
+T6	LOC 325 341	vị_trí chiến_đấu
+T7	WEA 344 387	trang_thiết_bị quân_sự và vũ_khí chiến_lược
+T8	Attack 685 706	chiến_dịch không_kích
+E3	Attack:T8 Place-Arg:T9
+T9	GPE 720 735	miền đông Syria
+T10	Attack 838 846	tấn_công
+E4	Attack:T10 Attacker-Arg:T13 Target-Arg:T11 Instrument-Arg:T12 Time-Arg:T14
+T11	ORG 847 849	IS
+T12	WEA 814 828	4 phi cơ F -16
+T13	GPE 799 805	Hà_Lan
+T14	TIME 857 873	từ tháng 10/2014
+T15	Attack 580 587	ném bom
+E5	Attack:T15 

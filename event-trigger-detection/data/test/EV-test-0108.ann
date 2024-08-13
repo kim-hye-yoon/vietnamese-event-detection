@@ -1,0 +1,43 @@
+T1	ORG 0 20	Casino tỷ USD của Mỹ
+T2	GPE 18 20	Mỹ
+T3	Declare-bankruptcy 21 28	phá_sản
+E1	Declare-bankruptcy:T3 Org-Arg:T1
+T4	Declare-bankruptcy 127 134	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T6 Time-Arg:T5
+T5	TIME 31 40	Ngày 26/3
+T6	ORG 43 111	Revel , một sòng bạc tại thành_phố Atlantic , bang New_Jersey ( Mỹ )
+T7	GPE 68 111	thành_phố Atlantic , bang New_Jersey ( Mỹ )
+T8	Transfer-money 303 305	nợ
+E3	Transfer-money:T8 Money-Arg:T10 Money-Arg2:T9 Recipient-Arg:T13
+T9	MONEY 272 280	1 tỷ USD
+T10	MONEY 292 302	1,5 tỷ USD
+T11	ORG 218 255	Toà_án phụ_trách phá_sản ở New_Jersey
+T12	GPE 245 255	New_Jersey
+T13	ORG 258 263	Revel
+T14	Declare-bankruptcy 726 733	phá_sản
+E4	Declare-bankruptcy:T14 Org-Arg:T15
+T15	ORG 680 705	Sòng bạc Revel ở Atlantic
+T16	GPE 697 705	Atlantic
+T17	Declare-bankruptcy 1129 1136	phá_sản
+E5	Declare-bankruptcy:T17 Org-Arg:T18
+T18	ORG 1141 1168	Trump_Entertainment_Resorts
+T19	PER 1196 1208	Donald_Trump
+T20	GPE 1193 1195	Mỹ
+T21	ORG 1085 1091	Toà_án
+T22	GPE 1096 1104	Atlantic
+T23	Start-org 1282 1288	mở_cửa
+E6	Start-org:T23 Time-Arg:T28 Time-Arg2:T24 Place-Arg:T27 Org-Arg:T26
+T24	TIME 1289 1306	tháng 4 năm_ngoái
+T25	MONEY 1319 1329	2,6 tỷ USD
+T26	ORG 1227 1232	Revel
+T27	GPE 1256 1264	Atlantic
+T28	TIME 1271 1279	năm 2003
+T29	End-org 1361 1369	đóng_cửa
+E7	End-org:T29 
+T30	Start-org 1983 1989	mở_cửa
+E8	Start-org:T30 
+T31	Transfer-money 2023 2027	nhận
+E9	Transfer-money:T31 Money-Arg:T34 Recipient-Arg:T32 Time-Arg:T33
+T32	ORG 2013 2018	Revel
+T33	TIME 1992 2010	Tháng 12 năm_ngoái
+T34	MONEY 2033 2046	150 triệu USD

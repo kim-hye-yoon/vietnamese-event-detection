@@ -1,0 +1,27 @@
+T1	Attack 5 12	đụng_độ
+E1	Attack:T1 
+T2	Attack 173 190	xung_đột vũ_trang
+E2	Attack:T2 Attacker-Arg:T4 Target-Arg:T3
+T3	ORG 195 205	Trung_Quốc
+T4	ORG 129 140	Philippines
+T5	Attack 517 525	xung_đột
+E3	Attack:T5 Place-Arg:T6
+T6	LOC 528 537	biển Đông
+T7	Meet 883 891	đàm_phán
+E4	Meet:T7 Entity-Arg:T9 Entity-Arg2:T8
+T8	GPE 820 831	Philippines
+T9	GPE 835 837	Mỹ
+T10	Meet 1003 1011	đối_thoạ
+E5	Meet:T10 Place-Arg:T11 Entity-Arg:T19 Time-Arg:T20
+T11	LOC 1017 1023	Manila
+T14	GPE 1112 1122	Trung_Quốc
+T15	GPE 1097 1108	Philippines
+T16	GPE 1186 1197	Philippines
+T17	Sue 1198 1200	tố
+E7	Sue:T17 Plaintiff-Arg:T18 Plaintiff-Arg2:T16
+T18	PER 1201 1223	tàu công_vụ Trung_Quốc
+T19	ORG 972 979	hai bên
+T20	TIME 1028 1037	tháng này
+T13	LOC 1164 1173	biển Đông
+T12	Attack 1142 1161	tranh_chấp lãnh_hải
+E6	Attack:T12 Place-Arg:T13 Attacker-Arg:T14 Attacker-Arg2:T15

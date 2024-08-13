@@ -1,0 +1,22 @@
+T1	PER 0 14	Phạm_Băng_Băng
+T2	Marry 32 39	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	PER 86 93	Lý_Thần
+T4	Marry 118 126	đám_cưới
+E2	Marry:T4 Person-Arg:T3 Place-Arg:T5 Time-Arg:T6
+T5	FAC 131 147	lâu_đài cổ ở Anh
+T6	TIME 72 83	đầu năm nay
+T7	TIME 474 497	ba tháng trước đám_cưới
+T8	PER 500 514	Phạm_Băng_Băng
+T9	PER 518 555	MC kiêm nhà_sản_xuất Thôi_Vĩnh_Nguyên
+T10	Charge-indict 556 562	tố_cáo
+E3	Charge-indict:T10 Prosecutor-Arg:T9 Time-Arg:T7 Defendant-Arg:T8 Crime-Arg:T11
+T11	CRIME 563 581	dính_líu trốn_thuế
+T12	PER 839 841	cô
+T13	Transfer-money 847 850	nộp
+E4	Transfer-money:T13 Giver-Arg:T12 Money-Arg:T14
+T14	MONEY 864 903	883 triệu nhân_dân_tệ ( 128 triệu USD )
+T15	PER 1380 1383	anh
+T16	Transfer-money 1384 1387	chi
+E5	Transfer-money:T16 Money-Arg:T17 Giver-Arg:T15
+T17	MONEY 1388 1401	300 nghìn USD

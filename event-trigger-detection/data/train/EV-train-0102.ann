@@ -1,0 +1,49 @@
+T1	PER 0 17	Chủ_tịch Quốc_hội
+T2	PER 22 38	Chủ doanh_nghiệp
+T3	TIME 83 93	Chiều 13/3
+T4	ORG 96 121	Uỷ_ban Thường_vụ_Quốc_hội
+T7	ORG 360 369	Chính_phủ
+T8	ORG 396 420	cơ_quan thuế và hải_quan
+T9	TIME 433 446	cuối năm 2017
+T10	MONEY 451 465	78.500 tỷ đồng
+T11	ORG 496 508	cơ_quan thuế
+T12	MONEY 527 541	73.000 tỷ đồng
+T13	MONEY 670 684	31.500 tỷ đồng
+T16	MONEY 951 965	27.800 tỷ đồng
+T17	PER 981 1018	Chủ_tịch Quốc_hội Nguyễn_Thị_Kim_Ngân
+T18	PER 1377 1394	Chủ_tịch Quốc_hội
+T25	MONEY 2127 2141	21.850 tỷ đồng
+T28	ORG 2768 2776	Quốc_hội
+T29	TIME 2976 2989	ngày 1/1/2019
+T30	Declare-bankruptcy 2908 2915	phá_sản
+E2	Declare-bankruptcy:T30 
+T31	ORG 3072 3098	Uỷ_ban Tài_chính ngân_sách
+T32	PER 3138 3147	Thủ_tướng
+T33	PER 3166 3185	Bộ_trưởng Tài_chính
+T44	Transfer-money 71 73	nợ
+E3	Transfer-money:T44 Recipient-Arg:T2
+T45	Transfer-money 174 176	nợ
+E4	Transfer-money:T45 Recipient-Arg:T5 Time-Arg:T3
+T5	PER 235 339	người nộp thuế đã phá_sản , giải_thể , không còn sản_xuất kinh_doanh và không còn khả_năng nộp ngân_sách
+T6	Transfer-money 385 387	nợ
+E1	Transfer-money:T6 Time-Arg:T9 Money-Arg:T10
+T46	Transfer-money 485 487	nợ
+E5	Transfer-money:T46 Money-Arg:T12
+T47	Transfer-money 565 567	nợ
+E6	Transfer-money:T47 Money-Arg:T13
+T48	End-org 643 651	giải_thể
+E7	End-org:T48 Org-Arg:T49
+T49	ORG 635 642	tổ_chức
+T50	Declare-bankruptcy 654 661	phá_sản
+E8	Declare-bankruptcy:T50 Org-Arg:T49
+T14	Transfer-money 1300 1308	nộp thuế
+E9	Transfer-money:T14 Giver-Arg:T15
+T15	ORG 1263 1275	doanh_nghiệp
+T21	Transfer-money 2112 2119	nợ_đọng
+E10	Transfer-money:T21 Money-Arg:T25
+T24	Transfer-money 2593 2595	nợ
+E11	Transfer-money:T24 
+T26	Trial-hearing 2755 2763	thẩm_tra
+E12	Trial-hearing:T26 Adjudicator-Arg:T28
+T19	End-org 2897 2905	giải_thể
+E13	End-org:T19 

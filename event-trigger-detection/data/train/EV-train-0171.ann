@@ -1,0 +1,16 @@
+T1	End-position 12 20	mất chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Chủ_tịch xã
+T3	End-position 142 151	cách_chức
+E2	End-position:T3 Person-Arg:T5 Position-Arg:T6 Entity-Arg:T4
+T4	ORG 105 137	Huyện_uỷ Bố_Trạch ( Quảng_Bình )
+T5	PER 152 173	ông Hoàng_Quang_Trung
+T6	JOB 176 198	Chủ_tịch xã Hoàn_Trạch
+T7	Transfer-ownership 319 322	mua
+E3	Transfer-ownership:T7 Artifact-Arg:T8 Buyer-Arg:T9
+T8	FAC 310 318	mảnh đất
+T9	PER 266 275	Ông Trung
+T10	End-position 557 566	cách_chức
+E4	End-position:T10 Position-Arg:T12 Person-Arg:T11
+T11	PER 502 520	ông Hoàng_Minh_Tài
+T12	JOB 523 550	cán_bộ Ban Kiểm_tra Đảng_uỷ

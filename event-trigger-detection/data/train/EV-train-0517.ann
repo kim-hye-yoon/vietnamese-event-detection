@@ -1,0 +1,6 @@
+T1	Attack 1342 1350	tấn_công
+E1	Attack:T1 Place-Arg:T2 Attacker-Arg:T3
+T2	LOC 1355 1360	Idlib
+T3	ORG 1365 1379	quân_đội Syria
+T4	Attack 628 636	tấn_công
+E2	Attack:T4 

@@ -1,0 +1,49 @@
+T1	Pardon 11 16	ân_xá
+E1	Pardon:T1 Defendant-Arg:T3 Place-Arg:T2
+T2	GPE 0 10	California
+T3	PER 21 38	ba người gốc Việt
+T4	Pardon 135 140	ân_xá
+E2	Pardon:T4 Defendant-Arg:T5
+T5	PER 65 86	Ông Nguyen_Thanh_Tung
+T6	Pardon 219 224	ân_xá
+E3	Pardon:T6 Time-Arg:T8 Adjudicator-Arg:T7 Defendant-Arg:T9
+T7	PER 155 193	Thống_đốc bang California_Edmund_Brown
+T8	TIME 194 204	ngày 21/11
+T9	PER 229 352	38 người và giảm án cho 70 người , trong đó có ba người gốc Việt là Tung_Thanh_Nguyen , Truong_Quang_Ly và Hai Trong Nguyen
+T10	Convict 996 1002	kết_án
+E4	Convict:T10 Defendant-Arg:T12 Place-Arg:T11
+T11	GPE 1005 1007	Mỹ
+T12	PER 952 975	những người Việt tị_nạn
+T13	Convict 1317 1323	kết_án
+E5	Convict:T13 
+T14	Pardon 1738 1743	ân_xá
+E6	Pardon:T14 Defendant-Arg:T15
+T15	PER 1711 1728	ba người gốc Việt
+T16	Arrest-jail 455 459	giam
+E7	Arrest-jail:T16 Agent-Arg:T17 Person-Arg:T18
+T17	ORG 440 454	chính_quyền Mỹ
+T18	PER 393 405	Ba người này
+T19	Start-position 781 797	bắt_đầu nhiệm_kỳ
+E8	Start-position:T19 Person-Arg:T20
+T20	PER 749 768	Tổng_thống Mỹ_Trump
+T21	Transport 53 62	trục_xuất
+E9	Transport:T21 Artifact-Arg:T3
+T22	Transport 651 660	trục_xuất
+E10	Transport:T22 
+T23	Transport 467 476	trục_xuất
+E11	Transport:T23 Artifact-Arg:T18
+T24	Transport 1655 1664	trục_xuất
+E12	Transport:T24 
+T26	PER 1475 1495	những người gốc Việt
+T25	Transport 1465 1474	trục_xuất
+E13	Transport:T25 Artifact-Arg:T26
+T27	Transport 1254 1263	trục_xuất
+E14	Transport:T27 Artifact-Arg:T28
+T28	PER 1218 1243	10.000 người Việt nhập_cư
+T29	Transport 1338 1346	rời khỏi
+E15	Transport:T29 Origin-Arg:T30 Time-Arg:T31 Artifact-Arg:T33
+T30	GPE 1347 1355	Việt_Nam
+T31	TIME 1362 1376	ngày 12/7/1995
+T32	Arrest-jail 1450 1457	bắt_giữ
+E16	Arrest-jail:T32 
+T33	PER 1326 1337	Những người

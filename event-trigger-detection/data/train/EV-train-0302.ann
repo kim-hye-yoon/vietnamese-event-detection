@@ -1,0 +1,12 @@
+T1	Declare-bankruptcy 29 36	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 20	Sàn Bitcoin Hàn_Quốc
+T3	GPE 12 20	Hàn_Quốc
+T4	End-org 151 159	đóng_cửa
+E2	End-org:T4 Org-Arg:T5
+T5	ORG 72 134	Youbit - một rong những sàn giao_dịch Bitcoin lớn tại Hàn_Quốc
+T6	GPE 126 134	Hàn_Quốc
+T7	Declare-bankruptcy 690 697	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T8
+T8	ORG 616 623	Công_ty
+T10	ORG 718 725	công_ty

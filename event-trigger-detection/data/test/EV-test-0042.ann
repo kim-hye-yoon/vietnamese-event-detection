@@ -1,0 +1,7 @@
+T1	Divorce 14 23	đơn ly_dị
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T3
+T2	PER 0 5	Chồng
+T3	PER 27 29	vợ
+T4	Divorce 168 177	đơn ly_dị
+E2	Divorce:T4 Person-Arg:T5
+T5	PER 132 156	1 người đàn_ông Hàn_Quốc

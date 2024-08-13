@@ -1,0 +1,19 @@
+T1	End-position 32 41	bãi_nhiệm
+E1	End-position:T1 Position-Arg:T3 Entity-Arg:T2
+T2	ORG 0 16	Mặt_trận Tổ_quốc
+T3	JOB 42 59	đại_biểu Quốc_hội
+T4	Meet 1161 1167	kỳ họp
+E2	Meet:T4 
+T5	End-position 1589 1598	bãi_nhiệm
+E3	End-position:T5 Position-Arg:T7 Entity-Arg:T6
+T6	ORG 1569 1573	MTTQ
+T7	JOB 1599 1616	đại_biểu Quốc_hội
+T8	Elect 2053 2056	bầu
+E4	Elect:T8 Entity-Arg:T13 Person-Arg:T14
+T9	Elect 1735 1738	bầu
+E5	Elect:T9 Entity-Arg:T11 Entity-Arg2:T10 Person-Arg:T12
+T10	ORG 1706 1714	Quốc_hội
+T11	ORG 1717 1734	Hội_đồng_nhân_dân
+T12	PER 1685 1702	người giữ chức_vụ
+T13	ORG 2035 2052	Hội_đồng_nhân_dân
+T14	PER 2014 2031	người giữ chức_vụ

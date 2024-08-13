@@ -1,0 +1,17 @@
+T1	Declare-bankruptcy 14 21	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 0 13	Người đàn_ông
+T3	Be-born 487 491	sinh
+E2	Be-born:T3 Time-Arg:T4 Person-Arg:T5
+T4	TIME 492 506	ngày 5 tháng 5
+T5	PER 481 484	cậu
+T6	Marry 509 515	lấy vợ
+E3	Marry:T6 Time-Arg:T7 Person-Arg:T5
+T7	TIME 521 526	5 năm
+T8	Be-born 529 533	sinh
+E4	Be-born:T8 Person-Arg:T9
+T9	PER 539 551	5 cô con_gái
+T10	Transport 1314 1318	chạy
+E5	Transport:T10 Agent-Arg:T12 Vehicle-Arg:T11
+T11	VEH 1332 1344	chiếc xe_hơi
+T12	PER 1303 1308	Rosie

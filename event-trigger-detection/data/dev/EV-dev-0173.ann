@@ -1,0 +1,32 @@
+T1	ORG 0 14	Quân_đội Syria
+T2	Attack 28 31	bắn
+E1	Attack:T2 Target-Arg:T3 Attacker-Arg:T1
+T3	VEH 37 55	xe_tăng phiến quân
+T4	WEA 121 138	tên_lửa dẫn đường
+T5	Attack 139 145	bắn hạ
+E2	Attack:T5 Target-Arg:T6 Instrument-Arg:T4 Place-Arg:T7 Time-Arg:T9 Attacker-Arg:T8
+T6	VEH 146 179	một xe_tăng của lực_lượng nổi_dậy
+T7	LOC 184 226	khu_vực thành_phố Daraa , tây nam nước này
+T8	ORG 58 82	Quân_đội chính_phủ Syria
+T9	TIME 83 92	ngày 29/3
+T10	WEA 299 306	tên_lửa
+T11	Attack 310 313	bắn
+E3	Attack:T11 Target-Arg:T12 Instrument-Arg:T10
+T12	VEH 320 374	tháp pháo của chiếc xe_tăng do quân nổi_dậy điều_khiển
+T13	PER 447 467	4 thành_viên kíp lái
+T14	Die 486 496	thiệt_mạng
+E4	Die:T14 Victim-Arg:T13
+T15	Transport 506 511	thoát
+E5	Transport:T15 Artifact-Arg:T13 Destination-Arg:T16
+T16	LOC 517 525	ra ngoài
+T17	ORG 548 572	quân_đội chính_phủ Syria
+T18	VEH 588 621	một xe_tăng của lực_lượng nổi_dậy
+T19	Attack 573 582	tiêu_diệt
+E6	Attack:T19 Target-Arg:T18 Attacker-Arg:T17
+T20	ORG 624 667	Phiến quân Nhà_nước Hồi_giáo tự_xưng ( IS )
+T21	ORG 671 687	các nhóm nổi_dậy
+T22	WEA 713 724	tên_lửa TOW
+T23	Attack 725 732	phá_huỷ
+E7	Attack:T23 Target-Arg:T24 Target-Arg2:T25 Instrument-Arg:T22 Attacker-Arg:T20 Attacker-Arg2:T21
+T24	VEH 739 746	xe_tăng
+T25	VEH 749 760	xe_bọc_thép

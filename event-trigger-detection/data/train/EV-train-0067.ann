@@ -1,0 +1,51 @@
+T1	Declare-bankruptcy 25 32	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 0 21	Chủ tàu bến Bạch_Đằng
+T3	Declare-bankruptcy 632 639	phá_sản
+E2	Declare-bankruptcy:T3 
+T4	End-position 661 681	mất công_ăn_việc_làm
+E3	End-position:T4 Person-Arg:T5
+T5	PER 647 657	80 nhân_sự
+T6	Declare-bankruptcy 923 930	phá_sản
+E4	Declare-bankruptcy:T6 
+T8	PER 912 919	chủ tàu
+T9	Transport 1051 1060	di_chuyển
+E5	Transport:T9 Destination-Arg:T10 Vehicle-Arg:T12
+T10	LOC 1064 1076	các miền quê
+T11	PER 992 999	ông Lâm
+T12	VEH 1025 1036	phương_tiện
+T13	VEH 4 7	tàu
+T7	FAC 962 975	bến Bạch_Đằng
+T14	FAC 1102 1115	bến Bạch_Đằng
+T15	Declare-bankruptcy 2038 2045	phá_sản
+E6	Declare-bankruptcy:T15 Org-Arg:T16
+T16	ORG 1850 1896	Doanh_nghiệp tư_nhân Ngọc_Phong ( River_Tour )
+T17	Transport 2099 2102	chở
+E7	Transport:T17 Artifact-Arg:T18 Time-Arg:T19 Agent-Arg:T20 Vehicle-Arg:T21
+T18	PER 2103 2116	200-300 khách
+T19	TIME 2090 2098	mỗi ngày
+T20	ORG 2057 2067	River_Tour
+T21	VEH 2071 2087	8 chiếc tàu cano
+T22	End-position 2342 2350	mất việc
+E8	End-position:T22 Person-Arg:T23
+T23	PER 2303 2333	mấy chục nhân_sự trong công_ty
+T24	Transport 2804 2814	vận_chuyển
+E9	Transport:T24 Time-Arg:T26 Artifact-Arg:T25 Vehicle-Arg:T27 Agent-Arg:T29
+T25	PER 2815 2828	khách du_lịch
+T26	TIME 2833 2845	tháng 5/2015
+T27	VEH 2645 2673	7 chiếc tàu và một du_thuyền
+T28	PER 2676 2730	ông Võ_Hoàng_Nhật , Giám_đốc Công_ty Du_lịch Sông_Xanh
+T29	ORG 2705 2729	Công_ty Du_lịch Sông_Xan
+T30	End-position 3062 3071	nghỉ_việc
+E10	End-position:T30 Person-Arg:T31
+T31	PER 3036 3053	toàn_bộ nhân_viên
+T32	Declare-bankruptcy 3961 3968	phá_sản
+E11	Declare-bankruptcy:T32 
+T33	ORG 4051 4064	Sở Giao_thông
+T34	ORG 4068 4082	UBND Thành_phố
+T35	Transport 4921 4924	chở
+E12	Transport:T35 Vehicle-Arg:T37 Vehicle-Arg2:T36 Artifact-Arg:T39
+T36	VEH 4901 4914	tàu_cánh_ngầm
+T37	VEH 4917 4920	tàu
+T39	PER 4925 4938	khách du_lịch
+T38	VEH 4942 4954	tàu nhà_hàng

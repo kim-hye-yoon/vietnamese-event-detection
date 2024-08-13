@@ -1,0 +1,51 @@
+T1	Release-parole 9 18	trả tự_do
+E1	Release-parole:T1 Person-Arg:T3 Entity-Arg:T2
+T2	GPE 0 8	Pakistan
+T3	PER 23 42	vệ_sĩ của bin Laden
+T4	Arrest-jail 335 338	bắt
+E2	Arrest-jail:T4 Agent-Arg:T8 Person-Arg:T7 Place-Arg:T5 Time-Arg:T6
+T5	GPE 341 347	Lahore
+T6	TIME 348 359	3 năm trước
+T7	PER 300 301	Y
+T8	ORG 305 334	cơ_quan tình_báo của Pakistan
+T9	PER 493 501	al - Haq
+T10	Arrest-jail 532 535	thả
+E3	Arrest-jail:T10 Person-Arg:T9 Time-Arg:T11
+T11	TIME 540 555	đầu tháng 9 này
+T12	Arrest-jail 580 583	bắt
+E4	Arrest-jail:T12 Person-Arg:T13
+T13	PER 560 573	Amin al - Haq
+T14	ORG 677 683	toà_án
+T15	Release-parole 687 696	trả tự_do
+E5	Release-parole:T15 Entity-Arg:T14 Person-Arg:T13
+T16	Transport 863 866	tới
+E6	Transport:T16 Agent-Arg:T19 Agent-Arg2:T20 Destination-Arg:T17 Time-Arg:T18
+T17	GPE 867 872	Sudan
+T18	TIME 873 881	năm 1996
+T19	PER 825 826	Y
+T20	ORG 841 862	phái_đoàn Afghanistan
+T21	Attack 968 976	tấn_công
+E7	Attack:T21 Target-Arg:T23 Time-Arg:T22
+T22	TIME 977 986	11/9/2001
+T23	FAC 996 1040	Trung_tâm thương_mại thế_giới và Lầu_Năm_Góc
+T24	Transport 1162 1172	trốn thoát
+E8	Transport:T24 Agent-Arg:T26 Destination-Arg:T25
+T25	GPE 1177 1185	Pakistan
+T26	PER 1142 1161	thủ_lĩnh al - Qaeda
+T27	Injure 1284 1293	bị_thương
+E9	Injure:T27 Victim-Arg:T28
+T28	PER 1282 1283	y
+T29	Transport 1329 1338	vượt_biên
+E10	Transport:T29 Destination-Arg:T30 Agent-Arg:T28
+T30	GPE 1344 1352	Pakistan
+T31	Arrest-jail 1364 1367	bắt
+E11	Arrest-jail:T31 Time-Arg:T33 Person-Arg:T32
+T32	PER 1359 1360	y
+T33	TIME 1368 1386	hơn 4 tháng sau đó
+T34	Convict 1432 1439	kết_tội
+E12	Convict:T34 Place-Arg:T35 Defendant-Arg:T36
+T35	GPE 1389 1397	Pakistan
+T36	PER 1440 1455	các kẻ khủng_bố
+T37	Release-parole 1993 1996	thả
+E13	Release-parole:T37 Person-Arg:T38
+T38	PER 1997 2005	al - Haq

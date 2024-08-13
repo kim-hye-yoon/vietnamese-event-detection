@@ -1,0 +1,16 @@
+T1	Execute 40 49	bị xử bắn
+E1	Execute:T1 Person-Arg:T2
+T2	PER 13 37	phó thủ_tướng Triều_Tiên
+T3	PER 107 126	Ông Choe_Yong - gon
+T4	Execute 127 136	bị xử bắn
+E2	Execute:T4 Person-Arg:T3 Time-Arg:T5
+T5	TIME 141 148	tháng 5
+T6	Execute 858 866	bị xử_tử
+E3	Execute:T6 Time-Arg:T8 Person-Arg:T7 Crime-Arg:T10
+T7	PER 797 845	Bộ_trưởng Quốc_phòng Triều Tiên Hyon Yong - chol
+T8	TIME 850 857	tháng 4
+T9	WEA 872 888	súng phòng_không
+T10	CRIME 892 934	bất tuân lệnh và ngủ_gật trong một sự_kiện
+T11	Execute 976 981	xử_tử
+E4	Execute:T11 Person-Arg:T12
+T12	PER 982 990	ông Hyon

@@ -1,0 +1,35 @@
+T1	ORG 0 2	IS
+T2	Attack 3 12	phản_công
+E1	Attack:T2 Attacker-Arg:T1
+T3	Die 15 22	sát_hại
+E2	Die:T3 Victim-Arg:T4 Agent-Arg:T1
+T4	PER 23 43	gần 60 binh_sĩ Syria
+T5	Attack 100 108	tấn_công
+E3	Attack:T5 Place-Arg:T9 Place-Arg2:T10 Attacker-Arg:T6 Time-Arg:T7 Target-Arg:T8
+T6	ORG 113 137	Nhà_nước Hồi_giáo ( IS )
+T7	TIME 138 147	ngày 28/9
+T8	PER 165 190	lực_lượng chính_phủ Syria
+T9	LOC 193 212	quanh Deir_Ez - zor
+T10	LOC 220 275	tuyến đường hậu_cần từ phía tây Syria tới khu_vực Sukna
+T11	Attack 365 373	tấn_công
+E4	Attack:T11 Target-Arg:T12 Place-Arg:T13
+T12	FAC 392 428	các điểm kiểm_soát của binh_sĩ Syria
+T13	GPE 431 441	al - Shula
+T14	ORG 500 502	IS
+T15	Attack 503 511	tấn_công
+E5	Attack:T15 Attacker-Arg:T14 Place-Arg:T16
+T16	LOC 517 584	các điểm kiểm_soát dọc tuyến đường từ al - Shula tới phía nam Sukna
+T17	PER 589 607	Ít_nhất 58 binh_sĩ
+T18	PER 611 625	dân_quân Syria
+T19	Die 626 636	thiệt_mạng
+E6	Die:T19 Victim-Arg:T18 Victim-Arg2:T17
+T20	ORG 669 671	IS
+T21	Die 683 687	diệt
+E7	Die:T21 Victim-Arg:T22 Agent-Arg:T20
+T22	PER 688 722	hàng chục tay súng chính_phủ Syria
+T23	Attack 985 993	tấn_công
+E8	Attack:T23 Target-Arg:T24 Attacker-Arg:T25 Attacker-Arg2:T26 Attacker-Arg3:T27
+T24	FAC 1003 1048	những thành_trì cuối_cùng của nhóm phiến quân
+T25	PER 1052 1079	các tay súng được Mỹ ủng_hộ
+T26	PER 1082 1128	lực_lượng chính_phủ được Nga hậu_thuẫn ở Syria
+T27	PER 1132 1154	quân_đội Iraq tại Iraq

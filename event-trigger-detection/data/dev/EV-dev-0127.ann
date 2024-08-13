@@ -1,0 +1,12 @@
+T1	ORG 804 817	Ban chuyên_án
+T2	Start-org 823 832	thành_lập
+E1	Start-org:T2 Org-Arg:T1
+T3	Arrest-jail 1975 1987	bắt tạm giam
+E2	Arrest-jail:T3 Agent-Arg:T5 Person-Arg:T6 Time-Arg:T4
+T4	TIME 1897 1906	Ngày 29/5
+T5	ORG 1909 1940	cơ_quan CSĐT Công_an TP Đà_Nẵng
+T6	PER 1998 2030	Nguyễn_Văn_Thái , Kiều_Phước_Lâm
+T7	PER 3094 3098	Việt
+T8	Phone-write 3099 3107	nhắn_tin
+E3	Phone-write:T8 Entity-Arg:T7 Entity-Arg2:T9
+T9	PER 3127 3131	Công

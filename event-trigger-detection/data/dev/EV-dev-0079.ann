@@ -1,0 +1,18 @@
+T1	Marry 45 52	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 0 40	Ca_sĩ hát nhạc phim ' Hậu_duệ mặt_trời '
+T3	Marry 126 130	cưới
+E2	Marry:T3 Person-Arg:T4 Person-Arg2:T5 Time-Arg:T6
+T4	PER 117 122	Gummy
+T5	PER 102 113	Jo_Jung_Suk
+T6	TIME 135 150	mùa thu năm nay
+T7	Marry 331 337	hôn_lễ
+E3	Marry:T7 
+T8	Marry 504 510	hôn_lễ
+E4	Marry:T8 Person-Arg:T12 Person-Arg2:T13
+T9	Be-born 664 668	sinh
+E5	Be-born:T9 Time-Arg:T11 Person-Arg:T10
+T10	PER 655 663	Jung Suk
+T11	TIME 669 677	năm 1980
+T12	PER 475 486	Jo Jung_Suk
+T13	PER 467 468	u

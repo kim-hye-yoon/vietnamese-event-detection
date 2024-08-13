@@ -1,0 +1,31 @@
+T1	End-position 18 27	cách_chức
+E1	End-position:T1 Person-Arg:T2 Position-Arg:T3
+T2	PER 0 14	Bí_thư Đà_Nẵng
+T3	JOB 35 53	Uỷ_viên Trung_ương
+T4	End-position 143 152	Cách_chức
+E2	End-position:T4 Position-Arg:T7 Person-Arg:T10 Entity-Arg:T8 Time-Arg:T9
+T5	End-position 275 282	cho thô
+E3	End-position:T5 Position-Arg:T6 Time-Arg:T9 Person-Arg:T10 Entity-Arg:T8
+T6	JOB 293 338	Uỷ_viên Ban_chấp_hành Trung_ương Đảng khoá 12
+T7	JOB 153 269	Bí_thư Thành_uỷ Đà_Nẵng , Uỷ_viên Ban thường_vụ , Uỷ_viên Ban_chấp_hành Đảng_bộ thành_phố Đà_Nẵng nhiệm_kỳ 2015-2020
+T8	ORG 68 97	Ban_chấp_hành Trung_ương Đảng
+T9	TIME 56 65	Ngày 6/10
+T10	PER 106 125	ông Nguyễn_Xuân_Anh
+T11	Nominate 1434 1442	bổ_nhiệm
+E4	Nominate:T11 
+T12	Meet 2383 2389	kỳ họp
+E5	Meet:T12 Time-Arg:T13 Entity-Arg:T14
+T13	TIME 2367 2376	Ngày 29/9
+T14	ORG 2399 2425	Uỷ_ban Kiểm_tra Trung_ương
+T15	Transfer-ownership 3372 3376	biếu
+E6	Transfer-ownership:T15 Seller-Arg:T18 Artifact-Arg:T19 Beneficiary-Arg:T17
+T16	Transfer-ownership 3379 3383	tặng
+E7	Transfer-ownership:T16 Seller-Arg:T18 Artifact-Arg:T19 Beneficiary-Arg:T17
+T17	PER 3281 3304	Bí_thư Thành_uỷ Đà_Nẵng
+T18	ORG 3359 3371	doanh_nghiệp
+T19	VEH 3352 3355	ôtô
+T20	FAC 3395 3402	2 nhà ở
+T21	ORG 3407 3419	doanh_nghiệp
+T22	Start-position 3638 3647	nhậm_chức
+E8	Start-position:T22 Person-Arg:T23
+T23	PER 3650 3653	ông

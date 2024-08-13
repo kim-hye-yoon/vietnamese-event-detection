@@ -1,0 +1,4 @@
+T1	Start-position 117 125	giữ chức
+E1	Start-position:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 73 116	Chủ_tịch Tập_đoàn FPT - ông Trương_Gia_Bình
+T3	JOB 126 211	Trưởng_ban Nghiên_cứu phát_triển kinh_tế tư_nhân , theo quyết_định vừa được phê_duyệt

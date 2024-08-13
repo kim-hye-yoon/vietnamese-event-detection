@@ -1,0 +1,15 @@
+T1	Die 442 449	tắt_thở
+E1	Die:T1 Victim-Arg:T2
+T2	PER 433 438	Nhiền
+T3	Transport 157 160	đến
+E2	Transport:T3 Agent-Arg:T4 Time-Arg:T5
+T4	PER 62 79	Lê_Thị_Xuân_Trang
+T5	TIME 40 55	8 giờ ngày 10-3
+T6	PER 355 360	Trang
+T7	GPE 101 154	Tri_Thiện , xã Phước_Quang , H. Tuy_Phước , Bình_Định
+T8	LOC 561 575	thôn Tri_Thiện
+T9	PER 179 191	Lê_Thị_Nhiền
+T10	Die 582 586	chết
+E3	Die:T10 Victim-Arg:T11 Time-Arg:T12
+T11	PER 579 581	bà
+T12	TIME 598 613	13 giờ ngày 9-3

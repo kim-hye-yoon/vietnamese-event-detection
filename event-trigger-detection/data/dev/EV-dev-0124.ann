@@ -1,0 +1,60 @@
+T1	Release-parole 11 20	trả tự_do
+E1	Release-parole:T1 Entity-Arg:T3 Place-Arg:T2
+T2	GPE 0 10	Trung_Quốc
+T3	PER 25 44	một công_dân Canada
+T4	Release-parole 97 106	trả tự_do
+E2	Release-parole:T4 Place-Arg:T8 Entity-Arg:T7 Crime-Arg:T6
+T5	Arrest-jail 115 121	bị bắt
+E3	Arrest-jail:T5 Crime-Arg:T6 Person-Arg:T7 Agent-Arg:T8
+T6	CRIME 134 161	làm_việc không có giấy_phép
+T7	PER 47 59	Sarah_McIver
+T8	GPE 86 96	Trung_Quốc
+T9	Arrest-jail 222 229	bị giam
+E4	Arrest-jail:T9 Person-Arg:T10 Place-Arg:T11
+T10	PER 202 221	một công_dân Canada
+T11	GPE 234 244	Trung_Quốc
+T12	Release-parole 248 256	được thả
+E5	Release-parole:T12 Entity-Arg:T10 Place-Arg:T11
+T13	Transport 273 280	trở_lại
+E6	Transport:T13 Artifact-Arg:T10 Destination-Arg:T14
+T14	GPE 281 287	Canada
+T15	Release-parole 550 558	được thả
+E7	Release-parole:T15 Entity-Arg:T18 Place-Arg:T17
+T16	Transport 559 561	về
+E8	Transport:T16 Artifact-Arg:T18 Destination-Arg:T17
+T17	GPE 562 566	nước
+T18	PER 530 549	công_dân Canada này
+T20	PER 605 652	nữ giáo_viên Sarah_McIver , người bị Trung_Quốc
+T21	CRIME 684 709	" làm_việc bất_hợp_pháp "
+T22	Fine 761 768	xử_phạt
+E10	Fine:T22 Entity-Arg:T23
+T23	PER 746 752	McIver
+T24	Arrest-jail 965 968	bắt
+E11	Arrest-jail:T24 Agent-Arg:T26 Person-Arg:T25
+T25	PER 969 988	các công dân Canada
+T26	GPE 937 947	Trung_Quốc
+T28	PER 1024 1030	McIver
+T27	Arrest-jail 1031 1037	bị bắt
+E12	Arrest-jail:T27 Person-Arg:T28
+T29	PER 1059 1150	hai công_dân Canada là cựu nhân_viên ngoại_giao Michael_Kovrig và doanh_nhân Michael_Spavor
+T30	GPE 1154 1164	Trung_Quốc
+T31	Arrest-jail 1165 1168	bắt
+E13	Arrest-jail:T31 Agent-Arg:T30 Person-Arg:T29
+T32	Arrest-jail 873 876	bắt
+E14	Arrest-jail:T32 Time-Arg:T35 Agent-Arg:T34 Person-Arg:T33
+T33	PER 877 915	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T34	GPE 857 863	Canada
+T35	TIME 864 872	hôm 1/12
+T36	Arrest-jail 1238 1242	giam
+E15	Arrest-jail:T36 Person-Arg:T38
+T38	PER 1208 1224	Kovrig và Spavor
+T39	PER 1334 1350	Kovrig và Spavor
+T40	GPE 1302 1312	Trung_Quốc
+T41	Release-parole 1371 1374	thả
+E17	Release-parole:T41 Entity-Arg:T42 Time-Arg:T43
+T42	PER 1375 1383	công_dân
+T43	TIME 1384 1394	tuần trước
+T19	Release-parole 593 601	được thả
+E9	Release-parole:T19 Person-Arg:T20 Crime-Arg:T21
+T37	Release-parole 1320 1323	thả
+E16	Release-parole:T37 Person-Arg:T39

@@ -1,0 +1,10 @@
+T1	PER 191 202	Những người
+T2	Demonstrate 203 212	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 1190 1195	người
+T4	PER 1203 1205	họ
+T5	Transport 1196 1202	áp_tải
+E2	Transport:T5 Agent-Arg:T3 Artifact-Arg:T4 Destination-Arg:T7
+T6	Transport 1206 1212	trở_về
+E3	Transport:T6 Agent-Arg:T3 Artifact-Arg:T4 Destination-Arg:T7
+T7	LOC 1213 1220	quê_nhà

@@ -1,0 +1,43 @@
+T1	Die 30 37	tử_vong
+E1	Die:T1 Victim-Arg:T4 Agent-Arg:T3
+T2	Attack 25 29	chém
+E2	Attack:T2 Attacker-Arg:T3 Target-Arg:T4
+T3	PER 14 24	nhóm người
+T4	PER 0 10	Công_an xã
+T5	Sue 75 82	khởi_tố
+E3	Sue:T5 Time-Arg:T6 Plaintiff-Arg:T7 Crime-Arg:T12
+T6	TIME 40 49	Ngày 23/7
+T7	ORG 52 74	Công_an tỉnh Khánh_Hoà
+T8	Arrest-jail 85 93	bắt giam
+E4	Arrest-jail:T8 Person-Arg:T9 Agent-Arg:T7 Crime-Arg:T12
+T9	PER 94 136	Võ_Thành_Hải ( 41 tuổi ) cùng ba đồng_phạm
+T12	CRIME 140 154	tội Giết người
+T13	Attack 317 322	ẩu_đả
+E6	Attack:T13 Attacker-Arg:T14
+T14	PER 301 308	Hai bên
+T15	Attack 444 451	trả_thù
+E7	Attack:T15 Instrument-Arg:T19 Instrument-Arg2:T18 Target-Arg:T16 Attacker-Arg:T17
+T16	PER 436 443	đối_thủ
+T17	PER 384 406	Hải cùng các đồng_phạm
+T18	WEA 411 420	dao , rựa
+T19	VEH 426 428	xe
+T20	Attack 515 519	chém
+E8	Attack:T20 Attacker-Arg:T21 Target-Arg:T22
+T21	PER 490 495	chúng
+T22	PER 459 468	anh Trình
+T23	Die 539 542	gục
+E9	Die:T23 Victim-Arg:T24
+T24	PER 530 538	Nạn_nhân
+T25	Die 589 596	tử_vong
+E10	Die:T25 
+T10	Die 144 148	Giết
+E5	Die:T10 Victim-Arg:T11 Agent-Arg:T9
+T11	PER 149 154	người
+T26	PER 661 669	An_Phước
+T27	Transport 622 629	bỏ trốn
+E11	Transport:T27 Agent-Arg:T28
+T28	PER 613 621	nhóm Hải
+T29	Transport 421 425	chạy
+E12	Transport:T29 Agent-Arg:T17 Vehicle-Arg:T19
+T30	Transport 429 431	đi
+E13	Transport:T30 Agent-Arg:T17 Vehicle-Arg:T19

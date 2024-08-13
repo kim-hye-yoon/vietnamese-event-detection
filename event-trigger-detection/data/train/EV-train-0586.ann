@@ -1,0 +1,16 @@
+T1	Marry 12 19	kết_hôn
+E1	Marry:T1 Person-Arg:T4
+T2	Divorce 40 46	ly_hôn
+E2	Divorce:T2 Person-Arg:T3
+T3	PER 37 39	em
+T4	PER 24 27	tôi
+T5	Phone-write 905 913	Gọi điện
+E3	Phone-write:T5 Entity-Arg:T6
+T6	PER 918 931	biên_tập_viên
+T7	NUM 940 952	09 6658 1270
+T8	Marry 404 412	hôn_nhân
+E4	Marry:T8 Person-Arg:T9 Person-Arg2:T10
+T9	PER 367 370	Tôi
+T10	PER 417 419	em
+T11	Marry 545 553	hôn_nhân
+E5	Marry:T11 

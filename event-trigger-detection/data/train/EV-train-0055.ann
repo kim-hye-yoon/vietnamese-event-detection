@@ -1,0 +1,54 @@
+T1	PER 0 13	Người đàn_ông
+T2	Die 14 18	chết
+E1	Die:T2 Place-Arg:T3 Victim-Arg:T1
+T3	FAC 25 32	nhà_trọ
+T4	PER 133 142	anh Thắng
+T5	Die 146 153	tử_vong
+E2	Die:T5 Place-Arg:T6 Agent-Arg:T4
+T6	LOC 159 165	giường
+T8	PER 460 476	ba người đàn_ông
+T9	Transport 477 480	chở
+E4	Transport:T9 Destination-Arg:T11 Artifact-Arg:T10 Agent-Arg:T8
+T10	PER 481 498	ông Hàn_Văn_Thắng
+T11	FAC 502 560	phòng trọ tại phường Bình_Hưng_Hoà , quận Bình_Tân , TPHCM
+T12	PER 845 854	anh Thắng
+T13	Die 858 865	tử_vong
+E5	Die:T13 Place-Arg:T14 Victim-Arg:T12
+T14	LOC 871 877	giường
+T16	PER 1161 1170	anh Thắng
+T17	PER 1176 1191	3 người đàn_ông
+T18	Transport 1214 1217	chở
+E7	Transport:T18 Destination-Arg:T19 Agent-Arg:T17 Artifact-Arg:T16
+T19	FAC 1221 1230	phòng trọ
+T20	PER 2400 2402	họ
+T21	Phone-write 2403 2411	gọi điện
+E8	Phone-write:T21 Entity-Arg:T22 Entity-Arg2:T20 Time-Arg:T35
+T22	PER 2425 2433	chị Trâm
+T23	TIME 2462 2471	chiều 1/5
+T24	PER 2474 2483	người_nhà
+T25	Transport 2488 2491	đến
+E9	Transport:T25 Destination-Arg:T26 Artifact-Arg:T24 Time-Arg:T23
+T26	FAC 2492 2513	phòng trọ Trâm thuê ở
+T27	PER 2681 2684	hắn
+T28	Die 2688 2695	sát_hại
+E10	Die:T28 Victim-Arg:T29 Agent-Arg:T27
+T29	PER 2696 2732	cô bạn gái sống chung cùng phòng trọ
+T30	PER 2935 2939	Nhân
+T31	PER 2950 2959	người_yêu
+T32	Attack 2943 2949	bóp_cổ
+E11	Attack:T32 Target-Arg:T31 Attacker-Arg:T30
+T33	Die 2972 2979	tắt_thở
+E12	Die:T33 Victim-Arg:T31 Agent-Arg:T30
+T7	PER 292 309	anh Hàn_Văn_Thắng
+T15	Be-born 312 314	SN
+E3	Be-born:T15 Person-Arg:T7 Time-Arg:T34
+T34	TIME 315 319	1978
+T35	TIME 2388 2397	ngày 29/4
+T37	PER 2569 2596	đối_tượng Nguyễn_Trọng_Nhân
+T38	Be-born 2599 2601	SN
+E6	Be-born:T38 Person-Arg:T37 Time-Arg:T39
+T39	TIME 2602 2606	1993
+T40	PER 2736 2759	chị Huỳnh_Thị_Bích_Trâm
+T41	Be-born 2762 2764	SN
+E13	Be-born:T41 Person-Arg:T40 Time-Arg:T42
+T42	TIME 2765 2769	1991

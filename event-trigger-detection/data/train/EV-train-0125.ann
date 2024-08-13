@@ -1,0 +1,39 @@
+T1	Die 337 341	chết
+E1	Die:T1 Victim-Arg:T2
+T2	PER 328 336	70 người
+T3	Attack 250 258	tấn_công
+E2	Attack:T3 Instrument-Arg:T4 Attacker-Arg:T5 Place-Arg:T7 Time-Arg:T6
+T4	WEA 237 249	khí chlorine
+T5	ORG 197 223	quân_đội chính_quyền Syria
+T7	LOC 259 314	thành_phố Douma , Đông_Ghouta , ngoại_ô thủ_đô Damascus
+T8	Charge-indict 188 196	cáo_buộc
+E3	Charge-indict:T8 Defendant-Arg:T5 Prosecutor-Arg:T9
+T9	PER 142 187	Các nhà hoạt_động đối_lập và lực_lượng cứu_hộ
+T10	Attack 653 661	tấn_công
+E4	Attack:T10 
+T11	Attack 1115 1123	tấn_công
+E5	Attack:T11 
+T12	Transport 1388 1391	tới
+E6	Transport:T12 Destination-Arg:T14 Artifact-Arg:T13
+T13	PER 1371 1384	Tổng_thống Mỹ
+T14	GPE 1392 1396	Peru
+T15	TIME 1397 1406	ngày 13/4
+T6	TIME 224 231	hôm 7/4
+T16	Attack 1674 1682	tấn_công
+E7	Attack:T16 Target-Arg:T17
+T17	ORG 1687 1692	Syria
+T18	Die 2807 2817	thiệt_mạng
+E8	Die:T18 Victim-Arg:T19
+T19	PER 2798 2806	12 người
+T20	Attack 4699 4707	tấn_công
+E9	Attack:T20 Attacker-Arg:T22 Target-Arg:T21
+T21	ORG 4708 4713	Syria
+T22	ORG 4671 4688	chính_quyền Trump
+T23	PER 4159 4184	Thủ_tướng Anh Theresa_May
+T24	Phone-write 4204 4212	điện_đàm
+E10	Phone-write:T24 Time-Arg:T25 Entity-Arg:T23 Entity-Arg2:T26
+T25	TIME 4185 4192	hôm_qua
+T26	PER 4217 4230	Tổng_thống Mỹ
+T27	Attack 1969 1977	tấn_công
+E11	Attack:T27 Target-Arg:T28
+T28	ORG 2007 2012	Syria

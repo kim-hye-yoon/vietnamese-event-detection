@@ -1,0 +1,28 @@
+T1	Declare-bankruptcy 0 7	Phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 23 28	người
+T3	PER 50 53	Anh
+T4	TIME 73 84	trong 3 năm
+T5	PER 136 146	Doanh_nhân
+T6	PER 155 158	Tôi
+T7	ORG 176 188	doanh_nghiệp
+T8	PER 233 243	Phóng_viên
+T9	Transfer-money 212 220	đóng_góp
+E2	Transfer-money:T9 
+T10	PER 252 258	Anh ta
+T11	PER 270 273	tôi
+T13	PER 316 326	doanh_nhân
+T14	PER 348 351	anh
+T15	PER 371 374	tôi
+T16	TIME 363 370	bây_giờ
+T17	PER 391 397	anh ta
+T18	PER 456 466	khách_hàng
+T19	PER 470 477	Thần_Kỳ
+T20	PER 497 507	Việt_Hương
+T21	PER 538 546	Bảo_Liêm
+T22	Transfer-ownership 525 528	bán
+E4	Transfer-ownership:T22 Seller-Arg:T21
+T23	PER 547 560	Hai người bạn
+T24	Transfer-ownership 572 575	bán
+E5	Transfer-ownership:T24 Seller-Arg:T23
+T25	PER 640 642	cô

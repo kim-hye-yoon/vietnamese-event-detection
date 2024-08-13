@@ -1,0 +1,45 @@
+T2	PER 0 17	Bộ_trưởng Tư_pháp
+T3	PER 40 54	Đoàn_Thị_Hương
+T4	Phone-write 97 104	gửi thư
+E2	Phone-write:T4 Entity-Arg:T6 Time-Arg:T5 Entity-Arg2:T8
+T5	TIME 57 67	Chiều 12/3
+T6	PER 70 93	Bộ_trưởng Lê_Thành_Long
+T8	PER 109 145	Tổng Chưởng_lý Malaysia_Tommy_Thomas
+T10	PER 185 217	công_dân Việt_Nam_Đoàn_Thị_Hương
+T7	GPE 154 162	nước này
+T12	GPE 422 430	Malaysia
+T13	PER 277 307	công_dân Indonesia_Siti_Aisyah
+T15	PER 630 653	Tổng Chưởng_lý Malaysia
+T16	PER 686 709	công_dân Đoàn_Thị_Hương
+T17	Phone-write 899 907	điện_đàm
+E6	Phone-write:T17 Entity-Arg:T19 Entity-Arg2:T20 Time-Arg:T18
+T18	TIME 832 841	ngày 12/3
+T19	PER 844 895	Phó thủ_tướng , Bộ_trưởng Ngoại_giao Phạm_Bình_Minh
+T20	PER 912 952	Ngoại_trưởng Malaysia_Saifuddin_Abdullah
+T22	PER 1108 1122	Đoàn_Thị_Hương
+T23	Trial-hearing 1066 1072	xét_xử
+E8	Trial-hearing:T23 Adjudicator-Arg:T24
+T24	GPE 1049 1057	Malaysia
+T25	Attack 1301 1305	giết
+E9	Attack:T25 Target-Arg:T27 Attacker-Arg:T26 Instrument-Arg:T28
+T26	PER 1270 1283	Siti và Hương
+T27	PER 1306 1314	Kim_Chol
+T28	WEA 1403 1421	chất_độc thần_kinh
+T29	Attack 1637 1641	giết
+E10	Attack:T29 Attacker-Arg:T31 Target-Arg:T30
+T30	PER 1642 1650	Kim_Chol
+T31	PER 1563 1631	hai nghi phạm tham_gia vào " một âm_mưu được lên kế_hoạch kỹ_lưỡng "
+T32	Attack 1849 1853	giết
+E11	Attack:T32 Attacker-Arg:T33 Target-Arg:T34
+T33	PER 1864 1868	Siti
+T34	PER 1854 1859	người
+T1	Release-parole 26 35	trả tự_do
+E1	Release-parole:T1 Person-Arg:T3 Entity-Arg:T2
+T9	Release-parole 171 180	trả tự_do
+E3	Release-parole:T9 Person-Arg:T10
+T11	Release-parole 431 440	trả tự_do
+E4	Release-parole:T11 Person-Arg:T13 Entity-Arg:T12
+T14	Release-parole 672 681	trả tự_do
+E5	Release-parole:T14 Person-Arg:T16 Entity-Arg:T15
+T21	Release-parole 1094 1103	trả tự_do
+E7	Release-parole:T21 Person-Arg:T22

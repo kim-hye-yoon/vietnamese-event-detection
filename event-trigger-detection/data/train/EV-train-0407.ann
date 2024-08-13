@@ -1,0 +1,42 @@
+T1	Declare-bankruptcy 63 70	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 56 62	Hanjin
+T3	GPE 34 38	Việt
+T4	Declare-bankruptcy 230 237	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T5
+T5	ORG 181 225	Hãng tàu Hanjin_Shipping_Global ( Hàn_Quốc )
+T6	GPE 215 223	Hàn_Quốc
+T7	PER 138 167	Phó thủ_tướng Trịnh_Đình_Dũng
+T8	ORG 83 92	Chính_phủ
+T9	Declare-bankruptcy 422 429	phá_sản
+E3	Declare-bankruptcy:T9 Org-Arg:T10
+T10	ORG 373 417	Hãng tàu Hanjin_Shipping_Global ( Hàn_Quốc )
+T11	GPE 407 415	Hàn_Quốc
+T12	ORG 249 258	Chính_phủ
+T13	ORG 264 278	Bộ Công_Thương
+T14	ORG 302 323	Bộ Giao_thông vận_tải
+T15	Declare-bankruptcy 699 706	phá_sản
+E4	Declare-bankruptcy:T15 Time-Arg:T16 Org-Arg:T18
+T16	TIME 711 715	31/8
+T17	GPE 656 664	Hàn_Quốc
+T18	ORG 631 673	Đại_gia vận_tải lớn nhất Hàn_Quốc - Hanjin
+T19	Declare-bankruptcy 1450 1457	phá_sản
+E5	Declare-bankruptcy:T19 Org-Arg:T20
+T20	ORG 1443 1449	Hanjin
+T22	GPE 1533 1541	Việt_Nam
+T23	ORG 1460 1466	Hanjin
+T21	Transport 1498 1508	vận_chuyển
+E6	Transport:T21 Destination-Arg:T22
+T24	Transport 1575 1585	chuyên_chở
+E7	Transport:T24 Agent-Arg:T25 Destination-Arg:T28
+T25	ORG 1568 1574	Hanjin
+T26	VEH 1557 1563	11 tàu
+T27	FAC 1602 1606	cảng
+T28	GPE 1611 1702	TP HCM , gồm cảng Cát_Lái , Tân_Cảng_Hiệp_Phước và Cảng Container Quốc_Tế Việt_Nam ( VICT )
+T30	Transport 1815 1827	trung_chuyển
+E9	Transport:T30 
+T31	ORG 1727 1733	Hanjin
+T32	GPE 1715 1724	Hải_Phòng
+T33	VEH 1743 1746	tàu
+T29	Transport 1747 1757	vận_chuyển
+E8	Transport:T29 Vehicle-Arg:T33 Agent-Arg:T31 Destination-Arg:T32

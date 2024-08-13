@@ -1,0 +1,25 @@
+T1	End-position 4 13	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T3 Entity-Arg:T2
+T2	ORG 0 3	DNP
+T3	PER 14 29	thành_viên HĐQT
+T4	End-position 158 167	thôi chức
+E2	End-position:T4 Person-Arg:T6 Time-Arg:T5
+T5	TIME 171 180	ngày 4/12
+T6	PER 117 157	ông Nguyễn_Phú_Túc - Thành_viên HĐQT DNP
+T7	End-position 243 253	thôi_nhiệm
+E3	End-position:T7 Person-Arg:T8 Entity-Arg:T9
+T8	PER 235 242	ông Túc
+T9	ORG 183 186	DNP
+T10	Be-born 264 268	sinh
+E4	Be-born:T10 Person-Arg2:T11 Time-Arg:T12 Place-Arg:T13
+T11	PER 256 263	Ông Túc
+T12	TIME 269 277	năm 1947
+T13	GPE 284 293	Bình_Định
+T14	Start-position 421 429	Thay_thế
+E5	Start-position:T14 Person-Arg:T15
+T15	PER 444 458	ông Vũ_Đình_Độ
+T16	JOB 348 373	đại_diện phần vốn của DNP
+T17	ORG 378 418	Công_ty_cổ_phần Nhựa Đồng_Nai Miền_Trung
+T18	PER 326 333	ông Túc
+T19	End-position 334 347	không còn làm
+E6	End-position:T19 Person-Arg:T18 Position-Arg:T16 Entity-Arg:T17

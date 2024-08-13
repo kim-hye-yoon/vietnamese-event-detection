@@ -1,0 +1,35 @@
+T1	End-position 24 33	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 34 58	các bộ_trưởng lười_biếng
+T3	PER 1 19	hủ_tướng Campuchia
+T4	Meet 97 105	cuộc họp
+E2	Meet:T4 Entity-Arg:T7 Place-Arg:T5 Time-Arg:T6
+T5	GPE 108 118	Phnom_Penh
+T6	TIME 119 131	hồi tháng mộ
+T7	PER 61 88	Thủ_tướng Campuchia Hun_Sen
+T8	End-position 306 310	loại
+E3	End-position:T8 Person-Arg:T10
+T9	PER 196 207	ông Hun_Sen
+T10	PER 218 299	những bộ_trưởng không giải_quyết được các vấn_đề trong lĩnh_vực mà mình phụ_trách
+T11	Meet 1309 1317	cuộc họp
+E4	Meet:T11 Entity-Arg:T12 Time-Arg:T13
+T12	ORG 1318 1325	nội_các
+T13	TIME 1330 1342	cuối tháng 5
+T14	Die 1539 1549	thiệt_mạng
+E5	Die:T14 Place-Arg:T16 Victim-Arg:T15
+T15	PER 1480 1491	nhiều người
+T16	GPE 1494 1518	tỉnh Kratie và Mondukiri
+T17	End-position 1612 1619	sa_thải
+E6	End-position:T17 Person-Arg:T18
+T18	PER 1603 1605	họ
+T19	Meet 1658 1661	họp
+E7	Meet:T19 Time-Arg:T20 Entity-Arg:T24
+T20	TIME 1681 1689	ngày 5/9
+T21	ORG 1693 1711	Hội_đồng_Bộ_trưởng
+T22	Meet 1715 1718	họp
+E8	Meet:T22 Time-Arg:T23 Entity-Arg:T21
+T23	TIME 1723 1731	ngày 7/9
+T24	ORG 1622 1649	Quốc_hội Campuchia khoá mới
+T25	End-position 1039 1050	điều_chuyển
+E9	End-position:T25 Person-Arg:T26
+T26	PER 1006 1032	những quan_chức lười_biếng

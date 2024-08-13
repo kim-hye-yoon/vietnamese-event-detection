@@ -1,0 +1,7 @@
+T1	Elect 13 26	được bầu_chọn
+E1	Elect:T1 Person-Arg:T2
+T2	PER 0 12	Donald_Trump
+T3	Transport 533 536	đưa
+E2	Transport:T3 Agent-Arg:T4 Artifact-Arg:T5
+T4	PER 520 529	Chúng_tôi
+T5	PER 537 539	họ

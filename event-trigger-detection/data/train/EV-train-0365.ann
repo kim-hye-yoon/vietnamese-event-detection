@@ -1,0 +1,27 @@
+T1	Declare-bankruptcy 26 33	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2 Org-Arg2:T3
+T2	ORG 34 52	Đóng tàu Dung_Quất
+T3	ORG 56 71	Ethanol_Phú_Thọ
+T4	End-org 495 499	dừng
+E2	End-org:T4 Org-Arg:T8
+T5	Declare-bankruptcy 503 510	phá_sản
+E3	Declare-bankruptcy:T5 Org-Arg:T6 Org-Arg2:T7
+T6	ORG 523 549	Nhà_máy đóng tàu Dung_Quất
+T7	ORG 553 568	Ethanol_Phú_Thọ
+T8	ORG 482 494	tập_đoàn này
+T9	Meet 601 609	cuộc họp
+E4	Meet:T9 Entity-Arg:T10 Entity-Arg2:T11
+T10	ORG 571 583	PetroVietnam
+T11	PER 614 631	cổ_đông các dự_án
+T12	Declare-bankruptcy 923 930	phá_sản
+E5	Declare-bankruptcy:T12 Org-Arg:T13
+T13	ORG 870 896	Nhà_máy đóng tàu Dung_Quất
+T14	End-org 1489 1514	đóng_cửa , dừng hoạt_động
+E6	End-org:T14 Org-Arg:T15 Time-Arg:T16
+T15	ORG 1474 1485	nhà_máy này
+T16	TIME 1518 1530	tháng 4/2015
+T17	Meet 2071 2079	cuộc họp
+E7	Meet:T17 Entity-Arg:T18 Entity-Arg2:T19 Time-Arg:T20
+T18	ORG 2122 2134	PetroVietnam
+T19	ORG 2139 2153	Bộ Công_Thương
+T20	TIME 2154 2169	cách đây 2 ngày

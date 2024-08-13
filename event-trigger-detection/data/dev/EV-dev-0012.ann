@@ -1,0 +1,24 @@
+T1	Divorce 46 52	ly_hôn
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T3
+T2	PER 0 12	Song Hye_Kyo
+T3	PER 53 66	Song Joong_Ki
+T4	Divorce 688 703	đường ai_nấy đi
+E2	Divorce:T4 Person-Arg:T5 Person-Arg2:T6
+T5	PER 659 671	Song Hye_Kyo
+T6	PER 674 687	Song Joong_Ki
+T8	PER 1002 1015	đôi diễn_viên
+T9	Marry 1301 1308	kết_hôn
+E4	Marry:T9 Person-Arg:T11 Person-Arg2:T12 Time-Arg:T10
+T10	TIME 1309 1327	cuối tháng 10/2017
+T11	PER 1214 1226	Song Hye_Kyo
+T12	PER 1229 1242	Song Joong_Ki
+T13	Divorce 1813 1819	ly_hôn
+E5	Divorce:T13 
+T14	Be-born 1914 1918	sinh
+E6	Be-born:T14 Person-Arg:T15 Time-Arg:T16 Place-Arg:T17
+T15	PER 1901 1913	Song Hye_Kyo
+T16	TIME 1919 1927	năm 1981
+T17	GPE 1932 1948	Daegu , Hàn_Quốc
+T18	Marry 2282 2286	cưới
+E7	Marry:T18 Person-Arg:T19
+T19	PER 2287 2300	Song Joong_Ki

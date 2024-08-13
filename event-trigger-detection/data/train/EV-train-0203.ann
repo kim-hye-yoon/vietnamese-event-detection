@@ -1,0 +1,14 @@
+T1	ORG 194 224	oà_án nhân_dân tỉnh Ninh_Thuận
+T4	TIME 181 190	Ngày 11-4
+T5	Charge-indict 771 780	uyên_phạt
+E2	Charge-indict:T5 Adjudicator-Arg:T6 Defendant-Arg:T7 Crime-Arg:T11
+T6	PER 751 766	Hội_đồng xét_xử
+T7	PER 781 790	Dương_Duy
+T8	Trial-hearing 169 178	phiên_toà
+E3	Trial-hearing:T8 Defendant-Arg:T9
+T9	PER 148 164	Bị_cáo Dương_Duy
+T2	Trial-hearing 228 237	phiên_toà
+E1	Trial-hearing:T2 Defendant-Arg:T3 Adjudicator-Arg:T1 Time-Arg:T4 Crime-Arg:T10
+T3	PER 261 318	bị_cáo Dương_Duy ( SN 1979 ) ngụ xã Bắc_Sơn ( Thuận_Bắc )
+T10	CRIME 328 343	Hiếp_dâm trẻ_em
+T11	CRIME 791 805	14 năm tù_giam

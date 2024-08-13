@@ -1,0 +1,37 @@
+T1	Transfer-ownership 9 15	bán_lẻ
+E1	Transfer-ownership:T1 
+T2	Transfer-ownership 99 105	bán_lẻ
+E2	Transfer-ownership:T2 Seller-Arg:T5 Seller-Arg2:T6
+T3	Transfer-ownership 404 410	bán_lẻ
+E3	Transfer-ownership:T3 Seller-Arg:T4
+T4	ORG 415 428	các ngân_hàng
+T5	ORG 146 163	ngân_hàng tư_nhân
+T6	ORG 174 194	ngân_hàng quốc_doanh
+T7	Transfer-ownership 577 583	bán_lẻ
+E4	Transfer-ownership:T7 Seller-Arg:T8
+T8	ORG 567 576	ngân_hàng
+T9	Transfer-ownership 731 737	bán_lẻ
+E5	Transfer-ownership:T9 Seller-Arg:T10
+T10	ORG 721 730	ngân_hàng
+T11	Transfer-ownership 1066 1072	bán_lẻ
+E6	Transfer-ownership:T11 Seller-Arg:T12
+T12	ORG 1081 1090	ngân_hàng
+T13	Transfer-money 2081 2092	chuyển tiền
+E7	Transfer-money:T13 
+T14	Transfer-ownership 3070 3076	bán_lẻ
+E8	Transfer-ownership:T14 Seller-Arg:T15
+T15	ORG 3060 3069	ngân_hàng
+T16	ORG 3945 3954	ngân_hàng
+T17	Transfer-ownership 3955 3961	bán_lẻ
+E9	Transfer-ownership:T17 
+T18	Transfer-money 4505 4516	chuyển tiền
+E10	Transfer-money:T18 
+T19	ORG 5157 5166	Ngân_hàng
+T20	Transfer-ownership 5167 5173	bán_lẻ
+E11	Transfer-ownership:T20 Seller-Arg:T19
+T21	ORG 5211 5220	Ngân_hàng
+T22	Transfer-ownership 5221 5227	bán_lẻ
+E12	Transfer-ownership:T22 Seller-Arg:T21
+T23	ORG 5483 5492	ngân_hàng
+T24	Transfer-ownership 5493 5499	bán_lẻ
+E13	Transfer-ownership:T24 Seller-Arg:T23

@@ -1,0 +1,35 @@
+T2	TIME 227 236	Ngày 30/5
+T3	PER 252 285	Cơ_quan CSĐT Công_an tỉnh Bắc_Kạn
+T1	Arrest-jail 305 312	tạm giữ
+E1	Arrest-jail:T1 Agent-Arg:T3 Person-Arg:T4 Time-Arg:T2 Crime-Arg:T5
+T4	PER 321 332	3 đối_tượng
+T10	TIME 1413 1422	ngày 10/5
+T11	ORG 1425 1435	Phòng PC45
+T12	Arrest-jail 1436 1443	bắt_giữ
+E3	Arrest-jail:T12 Agent-Arg:T11 Person-Arg:T13 Time-Arg:T10
+T13	PER 1444 1466	đối_tượng La_Văn_Thắng
+T14	PER 1705 1725	Công_an tỉnh Bắc_Kạn
+T15	PER 1735 1765	Công_an quận Cầu_Giấy , Hà_Nội
+T16	Arrest-jail 1769 1777	bắt được
+E4	Arrest-jail:T16 Agent-Arg:T15 Agent-Arg2:T14 Person-Arg:T17
+T17	PER 1778 1796	Thế_Anh , Văn_Ngọc
+T18	Meet 1833 1841	Trao_đổi
+E5	Meet:T18 Entity-Arg:T19 Entity-Arg2:T20
+T19	PER 1846 1856	phóng_viên
+T20	PER 1859 1912	Thiếu_tướng Ma_Văn_Lả - Giám_đốc Công_an tỉnh Bắc_Kạn
+T6	PER 437 448	3 đối_tượng
+T7	Arrest-jail 452 459	tạm giữ
+E2	Arrest-jail:T7 Person-Arg:T6
+T8	PER 1616 1628	Phan_Thế_Anh
+T9	PER 1631 1642	Đỗ_Văn_Ngọc
+T21	Transport 1643 1650	bỏ trốn
+E6	Transport:T21 Artifact-Arg:T9 Artifact-Arg2:T8
+T5	CRIME 350 392	trộm_cắp tài_sản hơn 1 tỷ đồng trên địa_bà
+T22	Arrest-jail 948 955	bắt_giữ
+E7	Arrest-jail:T22 Person-Arg:T23 Agent-Arg:T25 Time-Arg:T24 Crime-Arg:T26
+T23	PER 956 1027	đối_tượng Lương_Văn_Đàm , SN 1986 , trú tại Lộc_Bình , huyện Bạch_Thông
+T24	TIME 913 922	Cùng ngày
+T25	ORG 925 947	Công_an thị_xã Bắc_Kạn
+T26	CRIME 1052 1077	gây_rối trật_tự công_cộng
+T27	Attack 6 15	đánh nhau
+E8	Attack:T27 

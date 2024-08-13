@@ -1,0 +1,57 @@
+T1	PER 29 36	1 người
+T2	Die 37 44	bỏ_mạng
+E1	Die:T2 Victim-Arg:T1
+T3	PER 165 183	một thanh_niên trẻ
+T5	PER 520 533	hai nhóm trên
+T7	LOC 549 593	đoạn đường trống trước nơi diễn ra tiệc cưới
+T8	PER 660 667	1 người
+T9	Die 668 672	chết
+E4	Die:T9 Agent-Arg:T8
+T10	PER 736 755	hơn chục thanh_niên
+T11	Attack 772 777	ẩu_đả
+E5	Attack:T11 Attacker-Arg:T10
+T12	PER 799 867	Nguyễn_Ngọc_Nghệ ( 24 tuổi , trú tại xã Giao_Yến , huyện Giao_Thuỷ )
+T13	Attack 905 908	đâm
+E6	Attack:T13 Instrument-Arg:T14 Attacker-Arg:T12 Target-Arg:T15
+T14	WEA 875 878	dao
+T15	PER 918 987	anh Trần_Văn_Nam ( 24 tuổi , trú tại xã Giao_Châu , huyện Giao_Thuỷ )
+T16	PER 1003 1010	anh Nam
+T17	Injure 1011 1020	gục xuống
+E7	Injure:T17 Victim-Arg:T16
+T18	PER 1023 1026	Anh
+T19	PER 1032 1041	người_dân
+T20	Transport 1042 1045	đưa
+E8	Transport:T20 Agent-Arg:T19 Artifact-Arg:T18
+T21	PER 1121 1129	nạn_nhân
+T22	Die 1133 1140	tử_vong
+E9	Die:T22 Place-Arg:T23 Victim-Arg:T21
+T23	FAC 1151 1167	đường đi cấp_cứu
+T24	PER 1205 1221	anh Trần_Văn_Nam
+T25	Die 1222 1226	chết
+E10	Die:T25 Victim-Arg:T24
+T26	PER 1229 1255	nghi_phạm Nguyễn_Ngọc_Nghệ
+T27	Transport 1259 1262	đến
+E11	Transport:T27 Agent-Arg:T26 Destination-Arg:T28
+T28	FAC 1263 1282	Công_an xã Giao_Yến
+T29	PER 1689 1693	Tùng
+T30	WEA 1699 1702	dao
+T31	Attack 1703 1706	đâm
+E12	Attack:T31 Instrument-Arg:T30 Attacker-Arg:T29 Target-Arg:T32
+T32	PER 1717 1733	anh Đặng_Văn_Hải
+T33	PER 1747 1754	anh Hải
+T34	Die 1755 1762	tử_vong
+E13	Die:T34 Victim-Arg:T33
+T35	PER 1769 1787	anh Khưu_Thanh_Nhã
+T36	PER 1804 1808	Tùng
+T37	Attack 1809 1812	đâm
+E14	Attack:T37 Target-Arg:T35 Attacker-Arg:T36
+T38	Injure 1820 1840	gây thương_tích nặng
+E15	Injure:T38 Victim-Arg2:T35 Agent-Arg:T36
+T39	ORG 1873 1891	công_an địa_phương
+T40	Arrest-jail 1895 1902	bắt_giữ
+E16	Arrest-jail:T40 Agent-Arg:T39 Person-Arg:T41
+T41	PER 1903 1907	Tùng
+T4	Die 192 196	chết
+E2	Die:T4 Victim-Arg:T3
+T6	Transport 537 540	kéo
+E3	Transport:T6 Destination-Arg:T7 Artifact-Arg:T5

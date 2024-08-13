@@ -1,0 +1,13 @@
+T1	End-position 22 31	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 18	Phó khoa bệnh_viện
+T3	Attack 47 51	đánh
+E2	Attack:T3 Target-Arg:T4 Attacker-Arg:T5
+T4	PER 52 63	đồng_nghiệp
+T5	PER 40 46	côn_đồ
+T6	End-position 148 157	cách_chức
+E3	End-position:T6 Person-Arg:T7 Position-Arg:T8
+T7	PER 158 178	ông Nguyễn_Minh_Toàn
+T8	JOB 181 232	Phó Khoa_Nội tim_mạch , Bệnh_viện Đa_khoa Bình_Định
+T9	End-position 917 926	cách_chức
+E4	End-position:T9 

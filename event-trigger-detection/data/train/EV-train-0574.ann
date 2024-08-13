@@ -1,0 +1,13 @@
+T1	PER 0 16	Hàng nghìn người
+T2	Demonstrate 17 26	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1 Place-Arg:T3
+T3	GPE 44 53	Hong_Kong
+T4	PER 125 151	Hàng nghìn người Hong_Kong
+T5	TIME 152 159	hôm_qua
+T6	Demonstrate 160 171	xuống_đường
+E2	Demonstrate:T6 Time-Arg:T5 Entity-Arg:T4
+T7	PER 56 66	Đoàn người
+T8	Demonstrate 67 76	biểu_tình
+E3	Demonstrate:T8 Entity-Arg:T7 Place-Arg:T9 Time-Arg:T10
+T9	LOC 82 101	đường_phố Hong_Kong
+T10	TIME 102 109	hôm 1/7

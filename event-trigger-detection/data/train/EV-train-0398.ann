@@ -1,0 +1,20 @@
+T1	Declare-bankruptcy 18 25	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 26 32	Hanjin
+T3	Transfer-money 139 142	vay
+E2	Transfer-money:T3 Money-Arg:T4 Giver-Arg:T5
+T4	MONEY 143 169	60 tỷ won ( 65 triệu USD )
+T5	ORG 52 114	Cổ_đông lớn nhất của Hanjin – hãng hàng_không Korean_Air_Lines
+T6	ORG 188 194	Hanjin
+T7	Declare-bankruptcy 234 241	phá_sản
+E3	Declare-bankruptcy:T7 Org-Arg:T6
+T8	MONEY 252 260	5 tỷ USD
+T9	Transfer-money 261 263	nợ
+E4	Transfer-money:T9 Money-Arg:T8 Recipient-Arg:T6
+T10	Transfer-ownership 985 988	trả
+E5	Transfer-ownership:T10 Artifact-Arg:T12 Artifact-Arg2:T11
+T11	ORG 978 984	Hanjin
+T12	FAC 993 996	tàu
+T13	Transfer-ownership 1008 1011	bán
+E6	Transfer-ownership:T13 Artifact-Arg:T14 Artifact-Arg2:T11
+T14	FAC 1015 1018	tàu

@@ -1,0 +1,94 @@
+T1	ORG 0 3	ACB
+T2	Appeal 4 13	kháng_cáo
+E1	Appeal:T2 Crime-Arg:T4 Prosecutor-Arg:T1
+T3	PER 17 39	' siêu_lừa ' Huyền_Như
+T5	Charge-indict 14 16	xử
+E2	Charge-indict:T5 Crime-Arg:T4 Defendant-Arg:T3
+T4	CRIME 44 50	tham_ô
+T6	ORG 51 54	ACB
+T7	Appeal 66 75	kháng_cáo
+E3	Appeal:T7 Defendant-Arg:T6 Adjudicator-Arg:T8
+T8	ORG 88 114	Toà phúc_thẩm TAND Tối_cao
+T9	Convict 123 128	tuyên
+E4	Convict:T9 Adjudicator-Arg:T8 Defendant-Arg:T10 Crime-Arg:T11
+T10	PER 129 148	Huỳnh_Thị_Huyền_Như
+T11	CRIME 160 174	tham_ô tài_sản
+T12	Appeal 398 407	kháng_cáo
+E5	Appeal:T12 Defendant-Arg:T15 Defendant-Arg2:T14 Defendant-Arg3:T13
+T13	PER 331 351	Nguyễn_Thị_Phúc_Ngân
+T14	PER 354 368	Bùi_Ngọc_Quyên
+T15	PER 372 390	Lương_Thị_Việt_Yên
+T16	PER 418 436	Các bị_cáo còn lại
+T17	Appeal 437 446	kháng_cáo
+E6	Appeal:T17 Defendant-Arg:T16
+T18	ORG 916 929	Ngân_hàng ACB
+T19	ORG 933 949	hàng_loạt đơn_vị
+T20	PER 952 959	cá_nhân
+T21	Appeal 1028 1037	kháng_cáo
+E7	Appeal:T21 Defendant-Arg:T20 Defendant-Arg2:T19 Defendant-Arg3:T18
+T22	Trial-hearing 1060 1066	xét_xử
+E8	Trial-hearing:T22 
+T23	TIME 1090 1099	sáng 27/1
+T24	ORG 1102 1114	TAND TP. HCM
+T25	Convict 1125 1133	tuyên_án
+E9	Convict:T25 Defendant-Arg:T26 Defendant-Arg2:T27 Adjudicator-Arg:T24 Time-Arg:T23 Crime-Arg:T28
+T26	PER 1137 1146	Huyền_Như
+T27	PER 1150 1159	đồng_phạm
+T28	CRIME 1160 1198	lừa_đảo , chiếm_đoạt gần 4.000 tỷ đồng
+T29	PER 1213 1231	người đại_diện ACB
+T30	TIME 1201 1210	Cùng ngày
+T31	Appeal 1242 1251	kháng_cáo
+E10	Appeal:T31 Defendant-Arg:T29 Time-Arg:T30
+T32	TIME 1676 1684	Ngày 7/2
+T33	ORG 1739 1742	ACB
+T34	Appeal 1759 1768	kháng_cáo
+E11	Appeal:T34 Defendant-Arg:T33 Time-Arg:T32
+T35	ORG 1789 1792	ACB
+T36	Appeal 1793 1802	kháng_cáo
+E12	Appeal:T36 Crime-Arg:T37 Defendant-Arg:T35
+T37	CRIME 1806 1894	tội_danh của Huỳnh_Thị_Huyền_Như trong việc chiếm_đoạt số tiền mà ACB gửi tại Vietinbank
+T38	ORG 1919 1922	ACB
+T39	Transfer-money 1946 1952	chuyển
+E13	Transfer-money:T39 Giver-Arg:T38 Money-Arg:T40
+T41	Transfer-money 1988 1994	chuyển
+E14	Transfer-money:T41 Giver-Arg:T38 Recipient-Arg:T42 Money-Arg:T40
+T40	MONEY 1953 1957	tiền
+T42	PER 1999 2008	Huyền_Như
+T43	ORG 2326 2350	TAND Tối_cao tại TP. HCM
+T44	Convict 2351 2356	tuyên
+E15	Convict:T44 Adjudicator-Arg:T43 Defendant-Arg:T45 Crime-Arg:T46
+T45	PER 2357 2376	Huỳnh_Thị_Huyền_Như
+T46	CRIME 2386 2529	tham_ô tài_sản ( tội_danh có mức hình_phạt cao nhất lên đến tử_hình - PV ) đối_với hành_vi chiếm_đoạt hơn 718 tỷ đồng mà ACB gửi tại Vietinbank
+T47	TIME 2532 2540	Trước đó
+T48	ORG 2543 2555	TAND TP. HCM
+T49	Sentence 2559 2569	tuyên_phạt
+E16	Sentence:T49 Adjudicator-Arg:T48 Defendant-Arg:T50 Time-Arg:T47 Sentence-Arg:T51 Crime-Arg:T52 Crime-Arg2:T53
+T50	PER 2570 2589	Huỳnh_Thị_Huyền_Như
+T51	SEN 2597 2610	tù chung_thân
+T52	CRIME 2624 2650	lừa_đảo chiếm_đoạt tài_sản
+T53	CRIME 2658 2706	làm giả con_dấu , tài_liệu của cơ_quan , tổ_chức
+T54	PER 2711 2728	22 bị_cáo còn lại
+T55	ORG 2732 2735	toà
+T56	Sentence 2736 2746	tuyên_phạt
+E17	Sentence:T56 Adjudicator-Arg:T55 Defendant-Arg:T54 Sentence-Arg:T57 Crime-Arg:T58 Crime-Arg2:T62 Crime-Arg3:T59 Crime-Arg4:T60 Crime-Arg5:T61
+T57	SEN 2747 2777	từ 1 năm tù đến 20 năm tù_giam
+T58	CRIME 2791 2807	cho vay nặng_lãi
+T59	CRIME 2814 2840	lừa_đảo chiếm_đoạt tài_sản
+T60	CRIME 2847 2902	lợi_dụng chức_vụ , quyền_hạn trong khi thi_hành công_vụ
+T61	CRIME 2909 2951	thiếu trách_nhiệm gây hậu_quả nghiêm_trọng
+T62	CRIME 2958 3026	vi_phạm quy_định về cho vay trong hoạt_động của các tổ_chức tín_dụng
+T63	ORG 3060 3072	TAND TP. HCM
+T64	PER 3084 3103	Huỳnh_Thị_Huyền_Như
+T65	Sentence 3073 3078	tuyên
+E18	Sentence:T65 Adjudicator-Arg:T63 Defendant-Arg:T64 Defendant-Arg2:T66 Sentence-Arg:T67
+T66	PER 3107 3126	các bị_cáo liên_đới
+T67	SEN 3127 3279	bồi_thường toàn_bộ số tiền tổng_cộng gần 4.000 tỷ đồng cho 9 công_ty , 3 ngân_hàng và 3 cá_nhân được xác_định là bị hại và nguyên_đơn dân_sự trong vụ án
+T68	ORG 3293 3297	HĐXX
+T69	Trial-hearing 3311 3318	khởi_tố
+E19	Trial-hearing:T69 Adjudicator-Arg:T68 Defendant-Arg:T70 Crime-Arg:T71
+T70	PER 3319 3333	8 cá_nhân khác
+T71	CRIME 3348 3401	giúp_sức cho Huyền_Như chiếm_đoạt 180 tỷ đồng của VIB
+T72	Trial-hearing 3447 3454	khởi_tố
+E20	Trial-hearing:T72 Defendant-Arg:T73 Crime-Arg:T74 Adjudicator-Arg:T68
+T73	PER 3463 3563	hai Phó giám_đốc Vietinbank - chi_nhánh TP. HCM là bà Nguyễn_Thị_Minh_Hương và ông Trương_Minh_Hoàng
+T74	CRIME 3575 3617	thiếu trách_nhiệm gây hậu_quả nghiêm_trọng

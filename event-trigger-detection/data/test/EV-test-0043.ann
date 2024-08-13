@@ -1,0 +1,24 @@
+T1	Declare-bankruptcy 20 36	tuyên_bố phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 19	Hãng siêu xe Spyker
+T3	ORG 55 61	Spyker
+T4	Transfer-money 104 111	phá_sản
+E2	Transfer-money:T4 Giver-Arg:T3 Time-Arg:T5
+T5	TIME 39 52	Hồi đầu tháng
+T6	Declare-bankruptcy 279 295	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T6 Org-Arg:T7
+T7	ORG 244 267	hãng xe thể_thao Hà_Lan
+T8	Start-org 334 343	Thành_lập
+E4	Start-org:T8 Time-Arg:T9 Org-Arg:T10
+T9	TIME 344 352	năm 1880
+T10	ORG 377 383	Spyker
+T11	Transfer-ownership 567 570	bán
+E5	Transfer-ownership:T11 Seller-Arg:T12 Time-Arg:T13
+T12	ORG 560 566	Spyker
+T13	TIME 683 691	năm 2010
+T14	Declare-bankruptcy 729 736	phá_sản
+E6	Declare-bankruptcy:T14 Org-Arg:T15
+T15	ORG 700 714	hãng xe Hà_Lan
+T16	Declare-bankruptcy 814 821	phá_sản
+E7	Declare-bankruptcy:T16 Org-Arg:T17
+T17	ORG 824 830	Spyker

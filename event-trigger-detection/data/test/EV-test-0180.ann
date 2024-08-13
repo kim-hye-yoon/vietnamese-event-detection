@@ -1,0 +1,12 @@
+T1	Pardon 13 18	ân_xá
+E1	Pardon:T1 Place-Arg:T2
+T2	GPE 30 39	Indonesia
+T3	Pardon 511 516	ân_xá
+E2	Pardon:T3 Adjudicator-Arg:T7
+T4	Pardon 2838 2843	ân_xá
+E3	Pardon:T4 Place-Arg:T6 Time-Arg:T5
+T5	TIME 2878 2890	tháng 3/2017
+T6	GPE 2853 2862	Indonesia
+T7	ORG 458 477	Chính_phủ Indonesia
+T8	Pardon 1033 1038	ân_xá
+E4	Pardon:T8 

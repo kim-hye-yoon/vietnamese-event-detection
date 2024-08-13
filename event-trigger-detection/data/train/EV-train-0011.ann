@@ -1,0 +1,23 @@
+T1	ORG 0 11	Vietcombank
+T2	Nominate 12 20	bổ_nhiệm
+E1	Nominate:T2 Agent-Arg:T1 Position-Arg:T3
+T3	JOB 21 38	Phó tổng_giám_đốc
+T4	TIME 52 67	Ngày 10/03/2014
+T5	ORG 70 122	Ngân_hàng TMCP Ngoại_thương Việt_Nam ( Vietcombank )
+T6	Nominate 137 145	bổ_nhiệm
+E2	Nominate:T6 Agent-Arg:T5 Time-Arg:T4 Person-Arg:T7 Position-Arg:T8
+T7	PER 146 165	ông Phạm_Mạnh_Thắng
+T8	JOB 221 250	Phó Tổng_giám_đốc Vietcombank
+T10	JOB 1270 1277	Phó TGĐ
+T9	Nominate 1261 1269	bổ_nhiệm
+E3	Nominate:T9 Position-Arg:T10
+T11	Start-position 209 212	giữ
+E4	Start-position:T11 Person-Arg:T7 Position-Arg:T8
+T12	PER 451 470	Ông Phạm_Mạnh_Thắng
+T13	Be-born 471 475	sinh
+E5	Be-born:T13 Person-Arg:T12 Time-Arg:T14
+T14	TIME 476 491	ngày 24/07/1962
+T15	Start-position 1177 1180	giữ
+E6	Start-position:T15 Position-Arg:T16 Time-Arg:T17
+T16	JOB 1189 1229	Giám_đốc Chi_nhánh Vietcombank_Hải_Dương
+T17	TIME 1233 1246	tháng 12/2002

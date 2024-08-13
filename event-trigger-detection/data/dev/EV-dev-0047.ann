@@ -1,0 +1,82 @@
+T1	Execute 21 28	tử_hình
+E1	Execute:T1 Person-Arg:T2
+T2	PER 0 17	Tài_xế Trung_Quốc
+T3	Attack 32 41	cưỡng_bức
+E2	Attack:T3 Attacker-Arg:T2 Target-Arg:T5
+T4	Die 44 51	sát_hại
+E3	Die:T4 Victim-Arg:T5 Agent-Arg:T2
+T5	PER 52 65	nữ hành_khách
+T6	Trial-hearing 100 106	xét_xử
+E4	Trial-hearing:T6 Defendant-Arg:T9 Time-Arg:T7 Place-Arg:T8
+T7	TIME 107 114	hôm 1/2
+T8	GPE 117 147	thành_phố Ôn_Châu , Trung_Quốc
+T9	PER 68 85	Tài_xế Zhong_Yuan
+T10	Sentence 258 264	kết_án
+E5	Sentence:T10 Sentence-Arg:T11 Time-Arg:T13 Crime-Arg:T12 Defendant-Arg:T19
+T11	SEN 265 272	tử_hình
+T12	CRIME 280 356	cướp tiền , cưỡng_bức và sát_hại một nữ hành_khách họ Triệu hồi tháng 8/2018
+T13	TIME 247 254	hôm_qua
+T14	Attack 280 284	cướp
+E6	Attack:T14 Target-Arg:T17 Time-Arg:T18 Attacker-Arg:T19
+T15	Attack 292 301	cưỡng_bức
+E7	Attack:T15 Target-Arg:T17 Time-Arg:T18 Attacker-Arg:T19
+T16	Die 305 312	sát_hại
+E8	Die:T16 Victim-Arg:T17 Time-Arg:T18 Agent-Arg:T19
+T17	PER 313 339	một nữ hành_khách họ Triệu
+T18	TIME 344 356	tháng 8/2018
+T19	PER 170 197	Zhong_Yuan , tài_xế 27 tuổi
+T20	Transport 451 454	tới
+E9	Transport:T20 Agent-Arg:T21 Destination-Arg:T22 Time-Arg:T23 Vehicle-Arg:T24
+T21	PER 381 397	Nạn_nhân 19 tuổi
+T22	GPE 480 516	thành_phố Ôn_Châu , tỉnh Chiết_Giang
+T23	TIME 521 535	ngày 24/8/2018
+T24	VEH 402 404	xe
+T25	Phone-write 573 576	gửi
+E10	Phone-write:T25 Entity-Arg:T26 Entity-Arg2:T27
+T26	PER 567 572	Triệu
+T27	PER 599 607	bạn mình
+T28	Transport 649 652	đưa
+E11	Transport:T28 Agent-Arg:T29 Artifact-Arg:T30 Destination-Arg:T31
+T29	PER 637 643	tài_xế
+T30	PER 653 655	cô
+T31	LOC 660 680	khu_vực núi hẻo_lánh
+T32	Arrest-jail 782 785	bắt
+E12	Arrest-jail:T32 Person-Arg:T34 Time-Arg:T33
+T33	TIME 790 806	sáng sớm hôm sau
+T34	PER 768 778	Zhong_Yuan
+T35	Attack 833 842	cưỡng_bức
+E13	Attack:T35 Target-Arg:T37 Attacker-Arg:T38
+T36	Die 846 853	sát_hại
+E14	Die:T36 Victim-Arg:T37
+T37	PER 854 859	Triệu
+T38	PER 809 819	Tài_xế này
+T39	Trial-hearing 985 991	xét_xử
+E15	Trial-hearing:T39 Defendant-Arg:T40
+T40	PER 1031 1036	Zhong
+T41	Attack 1124 1128	cướp
+E16	Attack:T41 Attacker-Arg:T44 Target-Arg:T42 Instrument-Arg:T43
+T42	PER 1138 1155	một nữ hành_khách
+T43	WEA 1096 1112	dao và băng_dính
+T44	PER 1085 1086	Y
+T45	Transfer-money 1159 1162	trả
+E17	Transfer-money:T45 Giver-Arg:T44
+T46	Die 1212 1219	sát_hại
+E18	Die:T46 Victim-Arg:T47 Agent-Arg:T48
+T47	PER 1220 1225	Triệu
+T48	PER 1228 1233	Zhong
+T49	PER 1237 1239	cô
+T50	Transfer-money 1240 1246	chuyển
+E19	Transfer-money:T50 Giver-Arg:T49 Recipient-Arg:T48 Money-Arg:T51
+T51	MONEY 1247 1278	9.000 nhân_dân_tệ ( 1.320 USD )
+T52	Transport 1305 1308	đưa
+E20	Transport:T52 Artifact-Arg:T54 Agent-Arg:T53 Destination-Arg:T55
+T53	PER 1287 1292	Zhong
+T54	PER 1309 1331	một nữ hành_khách khác
+T55	LOC 1336 1347	nơi vắng_vẻ
+T56	Attack 1351 1355	cướp
+E21	Attack:T56 Attacker-Arg:T53 Target-Arg:T54 Place-Arg:T55
+T57	Die 1579 1586	sát_hại
+E22	Die:T57 Victim-Arg:T58 Agent-Arg:T59 Time-Arg:T60
+T58	PER 1551 1568	một nữ hành_khách
+T59	PER 1572 1578	tài_xế
+T60	TIME 1542 1550	năm 2018

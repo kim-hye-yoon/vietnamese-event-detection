@@ -1,0 +1,11 @@
+T1	Die 524 531	tử_vong
+E1	Die:T1 
+T2	Transport 81 83	đi
+E2	Transport:T2 Agent-Arg:T3 Time-Arg:T4
+T3	PER 66 75	người_dân
+T4	TIME 43 63	Khoảng 10h ngày 14/7
+T5	Transport 467 469	ra
+E3	Transport:T5 Agent-Arg:T6 Destination-Arg:T7 Time-Arg:T8
+T6	PER 457 466	anh Dương
+T7	LOC 470 472	hồ
+T8	TIME 440 454	sáng cùng ngày

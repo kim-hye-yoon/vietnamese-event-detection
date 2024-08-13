@@ -1,0 +1,15 @@
+T2	Transfer-ownership 194 203	xuất_khẩu
+E2	Transfer-ownership:T2 Seller-Arg:T3 Buyer-Arg:T13 Seller-Arg2:T12
+T3	ORG 117 158	Công_ty Kato_Hitoshi_General ( Nhật_Bản )
+T4	Transfer-ownership 422 431	nhập_khẩu
+E3	Transfer-ownership:T4 Seller-Arg:T14 Buyer-Arg:T15
+T5	Transport 812 822	chuyển đến
+E4	Transport:T5 Destination-Arg:T6
+T6	LOC 823 842	thị_trường Nhật_Bản
+T7	Transport 873 880	đưa đến
+E5	Transport:T7 Destination-Arg:T8
+T8	LOC 881 898	phiên chợ đấu_giá
+T12	PER 176 193	ngư_dân Bình_Định
+T13	ORG 209 232	thị_trường Châu_Âu , Mỹ
+T14	ORG 435 470	Indonesia , Phillippines , Đài_Loan
+T15	GPE 352 360	Nhật_Bản

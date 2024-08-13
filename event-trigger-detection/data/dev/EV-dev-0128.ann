@@ -1,0 +1,137 @@
+T1	PER 7806 7815	Nguyễn_Hà
+T2	Declare-bankruptcy 26 33	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T3
+T3	ORG 3 14	thương_hiệu
+T4	MONEY 48 56	nghìn tỷ
+T5	TIME 65 76	sau một năm
+T6	Start-org 77 88	khánh_thành
+E2	Start-org:T6 Time-Arg:T5
+T7	TIME 240 248	năm 2004
+T8	MONEY 256 267	300 tỷ đồng
+T9	PER 270 298	những người đứng đầu nhà_máy
+T10	ORG 291 298	nhà_máy
+T11	Transfer-money 347 350	vay
+E3	Transfer-money:T11 Recipient-Arg:T9 Money-Arg:T12
+T12	MONEY 384 399	trên 75 tỷ đồng
+T13	ORG 435 457	Tổng_công_ty Vinaconex
+T14	ORG 493 526	Công_ty_cổ_phần Vicostone ( VCS )
+T15	ORG 565 577	tổng_công_ty
+T16	ORG 595 658	ông ty cổ_phần Vicostone - đơn_vị sản_xuất đá thạch anh cao_cấp
+T17	ORG 671 688	Tập_đoàn Phenikaa
+T19	ORG 694 733	thương_hiệu đá_ốp_lát cao_cấp Vinaconex
+T20	ORG 741 757	Tổng_công_ty này
+T21	Start-org 758 766	gây_dựng
+E5	Start-org:T21 Agent-Arg:T20 Org-Arg:T19 Time-Arg:T22
+T22	TIME 771 779	năm 2001
+T23	TIME 782 793	Hai năm sau
+T24	ORG 796 803	nhà_máy
+T25	Start-org 818 829	khánh_thành
+E6	Start-org:T25 Org-Arg:T24 Time-Arg:T23
+T26	GPE 899 904	Italy
+T27	ORG 926 935	Vinaconex
+T28	PER 962 965	ông
+T29	JOB 911 919	lãnh_đạo
+T30	JOB 1137 1145	giám_đốc
+T31	ORG 1184 1191	nhà_máy
+T32	Declare-bankruptcy 1227 1234	phá_sản
+E7	Declare-bankruptcy:T32 Org-Arg:T31
+T33	ORG 1244 1253	Vicostone
+T34	Declare-bankruptcy 1288 1295	phá_sản
+E8	Declare-bankruptcy:T34 Org-Arg:T33
+T35	ORG 1348 1360	doanh_nghiệp
+T37	JOB 1486 1494	Giám_đốc
+T38	ORG 1495 1516	nhà_máy Ford Việt_Nam
+T39	ORG 1522 1531	Vinaconex
+T41	JOB 1544 1588	Giám_đốc Nhà_máy đá_ốp_lát cao_cấp Vinaconex
+T42	ORG 1553 1588	Nhà_máy đá_ốp_lát cao_cấp Vinaconex
+T44	LOC 1726 1736	trong nước
+T45	Transfer-ownership 1752 1755	bán
+E10	Transfer-ownership:T45 Buyer-Arg:T46
+T46	ORG 1769 1778	Vinaconex
+T47	ORG 1825 1835	đơn_vị này
+T48	PER 1919 1927	ông Năng
+T49	ORG 1973 1980	nhà_máy
+T50	PER 2061 2083	Người đứng đầu nhà_máy
+T51	ORG 2076 2083	nhà_máy
+T52	LOC 2125 2135	trong nước
+T53	PER 2238 2243	người
+T54	PER 2248 2251	tôi
+T55	PER 2303 2306	tôi
+T56	ORG 2455 2462	nhà_máy
+T57	PER 2522 2543	khách_hàng nước_ngoài
+T58	ORG 2561 2578	doanh_nghiệp Việt
+T59	GPE 2574 2578	Việt
+T60	PER 2581 2594	Nhà điều_hành
+T61	PER 2701 2715	người bán hàng
+T62	ORG 2729 2736	nhà_máy
+T63	ORG 2740 2751	thương_hiệu
+T64	PER 2754 2762	ông Năng
+T65	PER 2841 2850	công_nhân
+T66	ORG 2869 2876	nhà_máy
+T67	PER 2892 2901	nhân_viên
+T68	PER 2922 2925	ông
+T69	PER 2938 2967	nhân_viên tiếp_thị , bán hàng
+T70	PER 2994 3003	nhân_viên
+T71	ORG 3043 3054	thương_hiệu
+T72	ORG 3077 3084	đối_tác
+T73	ORG 3109 3116	nhà_máy
+T74	PER 3143 3151	ông Năng
+T75	Transfer-ownership 3213 3216	bán
+E11	Transfer-ownership:T75 Buyer-Arg:T74
+T76	Meet 3175 3183	đàm_phán
+E12	Meet:T76 Entity-Arg:T74
+T77	ORG 3261 3268	nhà_máy
+T78	ORG 3341 3348	công_ty
+T79	PER 3387 3390	ông
+T36	PER 1450 1466	Ông Hồ_Xuân_Năng
+T80	PER 3401 3443	Ông Hồ_Xuân_Năng - Chủ_tịch HĐQT Vicostone
+T81	JOB 3420 3433	Chủ_tịch HĐQT
+T82	ORG 3434 3443	Vicostone
+T83	PER 3447 3452	người
+T84	ORG 3464 3471	nhà_máy
+T85	Declare-bankruptcy 3483 3490	phá_sản
+E13	Declare-bankruptcy:T85 Org-Arg:T82
+T86	LOC 3518 3529	40 quốc_gia
+T87	GPE 3555 3557	Mỹ
+T88	PER 3574 3582	ông Năng
+T89	ORG 3638 3650	doanh_nghiệp
+T90	Declare-bankruptcy 3777 3784	phá_sản
+E14	Declare-bankruptcy:T90 Org-Arg:T91
+T91	ORG 3749 3760	một nhà_máy
+T92	Transfer-ownership 3801 3804	bán
+E15	Transfer-ownership:T92 
+T93	Transport 4553 4556	chở
+E16	Transport:T93 Time-Arg:T99
+T97	TIME 4515 4527	tháng 9/2004
+T98	ORG 4435 4442	nhà_máy
+T99	TIME 4541 4549	năm 2004
+T100	Meet 6645 6660	Đại_hội cổ_đông
+E20	Meet:T100 Entity-Arg:T101
+T101	ORG 6676 6709	Công_ty_cổ_phần Vicostone ( VCS )
+T102	Merge-org 6783 6804	trở_thành công_ty_con
+E21	Merge-org:T102 Org-Arg:T103 Org-Arg2:T104
+T103	ORG 6773 6782	Vicostone
+T104	ORG 6809 6870	Công_ty_cổ_phần Tập_đoàn Phượng_Hoàng_Xanh A & A ( Phenikaa )
+T105	Transfer-ownership 7450 7453	mua
+E22	Transfer-ownership:T105 Buyer-Arg:T106 Buyer-Arg2:T107
+T106	ORG 7414 7423	Vicostone
+T107	ORG 7466 7470	hãng
+T108	Meet 7526 7530	ĐHCĐ
+E23	Meet:T108 Entity-Arg:T109
+T109	ORG 7535 7544	Vicostone
+T110	ORG 7564 7572	Phenikaa
+T111	Transfer-ownership 7578 7581	mua
+E24	Transfer-ownership:T111 Buyer-Arg:T110 Seller-Arg:T112
+T112	ORG 7601 7604	VCS
+T113	Transfer-ownership 7755 7758	mua
+E25	Transfer-ownership:T113 Buyer-Arg:T114 Seller-Arg:T115
+T114	PER 7671 7679	ông Năng
+T115	ORG 7785 7803	ông_ty_mẹ Phenikaa
+T43	Transfer-ownership 2172 2181	xuất_khẩu
+E19	Transfer-ownership:T43 
+T95	Transfer-ownership 2260 2269	xuất_khẩu
+E18	Transfer-ownership:T95 
+T94	Transfer-ownership 4482 4491	xuất_khẩu
+E17	Transfer-ownership:T94 Time-Arg:T97
+T18	Start-position 1540 1543	làm
+E4	Start-position:T18 Position-Arg:T41 Person-Arg:T36 Entity-Arg:T39

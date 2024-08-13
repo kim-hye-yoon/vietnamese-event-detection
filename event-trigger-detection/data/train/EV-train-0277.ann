@@ -1,0 +1,57 @@
+T1	PER 0 11	Vũ_Văn_Tiến
+T2	PER 16 29	Chủ_tịch nước
+T3	Pardon 30 42	tha_tội chết
+E1	Pardon:T3 Adjudicator-Arg:T2 Defendant-Arg:T1
+T4	Pardon 162 167	ân_xá
+E2	Pardon:T4 Adjudicator-Arg:T5 Defendant-Arg:T7 Time-Arg:T11
+T5	PER 129 157	Chủ_tịch nước Trần_Đại_Quang
+T6	SEN 173 183	án tử_hình
+T7	PER 188 199	Vũ_Văn_Tiến
+T8	Attack 230 238	thảm sát
+E3	Attack:T8 Target-Arg:T10 Attacker-Arg:T9
+T9	PER 213 229	Nguyễn_Hải_Dương
+T10	PER 239 294	6 người gia_đình ông Mỹ - đại_gia ngành gỗ ở Bình_Phước
+T11	TIME 45 54	Ngày 21/7
+T12	Pardon 405 410	ân_xá
+E4	Pardon:T12 
+T13	Attack 447 451	giết
+E5	Attack:T13 Target-Arg:T14
+T14	PER 452 457	người
+T15	PER 709 720	Vũ_Văn Tiến
+T16	Trial-hearing 731 737	xét_xử
+E6	Trial-hearing:T16 Defendant-Arg:T15 Place-Arg:T17 Time-Arg:T18
+T17	GPE 750 756	TP HCM
+T18	TIME 757 766	ngày 18/7
+T19	PER 945 950	Dương
+T21	PER 981 998	cả nhà bạn gái cũ
+T20	Attack 976 980	giết
+E7	Attack:T20 Target-Arg:T21 Attacker-Arg:T19
+T22	Transfer-ownership 1142 1145	mua
+E8	Transfer-ownership:T22 
+T23	Attack 1383 1390	sát_hại
+E9	Attack:T23 Target-Arg:T25 Time-Arg:T24
+T24	TIME 1333 1346	Rạng sáng 7/7
+T25	PER 1391 1398	6 người
+T26	Transport 1549 1556	bỏ trốn
+E10	Transport:T26 Artifact-Arg:T27
+T27	PER 1521 1526	Dương
+T28	Sentence 1597 1607	tuyên_phạt
+E11	Sentence:T28 Defendant-Arg:T31 Adjudicator-Arg:T30 Time-Arg:T29 Sentence-Arg:T32 Crime-Arg:T33
+T29	TIME 1559 1573	Cuối năm_ngoái
+T30	ORG 1576 1596	TAND tỉnh Bình_Phước
+T31	PER 1608 1621	Dương và Tiến
+T32	SEN 1622 1636	mức án tử_hình
+T33	CRIME 1644 1674	tội Giết người và Cướp tài_sản
+T34	Attack 1648 1652	Giết
+E12	Attack:T34 
+T35	Execute 1754 1762	thi_hành
+E13	Execute:T35 Person-Arg:T36
+T36	PER 1717 1722	Dương
+T37	Appeal 2030 2039	kháng_cáo
+E14	Appeal:T37 Adjudicator-Arg:T39 Defendant-Arg:T40 Time-Arg:T38
+T38	TIME 1945 1954	Ngày 18/7
+T39	ORG 1957 1969	TAND Tối_cao
+T40	PER 1979 1983	Tiến
+T41	Appeal 2081 2090	Kháng_cáo
+E15	Appeal:T41 Defendant-Arg:T42
+T42	PER 2095 2100	Thoại

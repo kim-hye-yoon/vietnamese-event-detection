@@ -1,0 +1,59 @@
+T1	Release-parole 25 36	phóng_thích
+E1	Release-parole:T1 Entity-Arg:T2 Entity-Arg2:T3
+T2	PER 37 51	Đoàn_Thị_Hương
+T3	GPE 16 24	Malaysia
+T4	Transport 91 94	rời
+E2	Transport:T4 Artifact-Arg:T5 Time-Arg:T6
+T5	PER 54 68	Đoàn_Thị_Hương
+T6	TIME 113 121	hôm 11/3
+T7	ORG 186 201	toà_án Malaysia
+T8	Release-parole 202 211	trả tự_do
+E3	Release-parole:T8 Entity-Arg:T7 Entity-Arg2:T10 Time-Arg:T9
+T9	TIME 212 220	hôm 11/3
+T10	PER 136 178	Siti_Aisyah , 26 tuổi , công_dân Indonesia
+T11	Release-parole 234 245	phóng_thích
+E4	Release-parole:T11 Entity-Arg:T12
+T12	ORG 250 265	toà_án Malaysia
+T13	Transport 343 346	rời
+E5	Transport:T13 Origin-Arg:T16 Artifact-Arg:T15
+T14	PER 327 332	Hương
+T15	PER 312 314	Cô
+T16	FAC 347 358	phòng xử án
+T17	Trial-hearing 575 581	xét_xử
+E6	Trial-hearing:T17 Defendant-Arg:T18
+T18	PER 582 587	Hương
+T19	Phone-write 634 642	viết thư
+E7	Phone-write:T19 Entity-Arg:T21 Entity-Arg2:T20
+T20	PER 647 680	Bộ_trưởng Tư_pháp Malaysia_Thomas
+T21	PER 609 630	Nhóm luật_sư bào_chữa
+T22	Release-parole 721 732	phóng_thích
+E8	Release-parole:T22 Person-Arg:T23
+T23	PER 733 735	cô
+T24	Release-parole 871 877	xét_xử
+E9	Release-parole:T24 Person-Arg:T25
+T25	PER 878 883	Hương
+T26	Release-parole 916 930	được trả tự_do
+E10	Release-parole:T26 Person-Arg:T27
+T27	PER 911 915	Siti
+T28	Phone-write 1036 1043	gửi thư
+E11	Phone-write:T28 Entity-Arg:T30 Entity-Arg2:T29
+T29	PER 1048 1064	Bộ_trưởng Thomas
+T30	PER 980 1032	Bộ_trưởng Luật và Nhân_quyền Indonesia_Yasonna_Laoly
+T31	Arrest-jail 1266 1273	bắt_giữ
+E12	Arrest-jail:T31 Time-Arg:T34 Agent-Arg:T33 Person-Arg:T32 Crime-Arg:T35
+T32	PER 1231 1253	Siti và Đoàn_Thị_Hương
+T33	GPE 1257 1265	Malaysia
+T34	TIME 1278 1290	tháng 2/2017
+T35	CRIME 1304 1471	sát_hại công_dân Triều_Tiên có tên trên hộ_chiếu là Kim_Chol , người mà Mỹ và Hàn_Quốc cho_rằng chính là Kim_Jong - nam , anh cùng cha khác mẹ của lãnh_đạo Kim_Jong-un
+T36	Attack 1304 1311	sát_hại
+E13	Attack:T36 Target-Arg:T37 Attacker-Arg:T32
+T37	PER 1312 1471	công_dân Triều_Tiên có tên trên hộ_chiếu là Kim_Chol , người mà Mỹ và Hàn_Quốc cho_rằng chính là Kim_Jong - nam , anh cùng cha khác mẹ của lãnh_đạo Kim_Jong-un
+T38	Die 1564 1571	tử_vong
+E14	Die:T38 Place-Arg:T40 Victim-Arg:T39 Agent-Arg:T41
+T39	PER 1556 1563	ông này
+T40	FAC 1581 1601	sân_bay Kuala_Lumpur
+T41	PER 1474 1487	Hai nghi_phạm
+T42	Trial-hearing 1620 1626	xét_xử
+E15	Trial-hearing:T42 Defendant-Arg:T43 Time-Arg:T44
+T43	PER 1652 1665	Siti và Hương
+T44	TIME 1627 1646	kéo_dài hai năm qua

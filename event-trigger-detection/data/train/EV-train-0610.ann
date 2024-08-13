@@ -1,0 +1,39 @@
+T1	Extradite 33 39	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2
+T2	PER 40 55	giám_đốc Huawei
+T3	Extradite 229 235	dẫn_độ
+E2	Extradite:T3 Person-Arg:T4
+T4	PER 236 274	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T5	Arrest-jail 283 289	bị bắt
+E3	Arrest-jail:T5 Person-Arg:T4 Place-Arg:T6 Time-Arg:T7 Crime-Arg:T8
+T6	GPE 294 303	Vancouver
+T7	TIME 308 321	tháng 12/2018
+T8	CRIME 335 395	lừa_dối các ngân_hàng quốc_tế , vi_phạm lệnh trừng_phạt Iran
+T9	Arrest-jail 621 624	bắt
+E4	Arrest-jail:T9 Person-Arg:T11 Agent-Arg:T10 Crime-Arg:T12
+T10	GPE 612 620	Bắc_Kinh
+T11	PER 625 644	hai công_dân Canada
+T12	CRIME 658 667	gián_điệp
+T13	Execute 671 681	xử tử_hình
+E5	Execute:T13 Person-Arg:T14 Crime-Arg:T15
+T14	PER 682 699	một công_dân khác
+T15	CRIME 703 718	tội buôn ma_tuý
+T16	Transfer-ownership 707 711	buôn
+E6	Transfer-ownership:T16 
+T17	Extradite 981 987	dẫn_độ
+E7	Extradite:T17 
+T18	PER 1257 1259	bà
+T19	Extradite 1266 1272	dẫn_độ
+E8	Extradite:T19 Destination-Arg:T20 Person-Arg:T18
+T20	GPE 1278 1280	Mỹ
+T21	Trial-hearing 1360 1366	xét_xử
+E9	Trial-hearing:T21 Time-Arg:T24 Defendant-Arg:T23
+T22	Extradite 1372 1378	dẫn_độ
+E10	Extradite:T22 Time-Arg:T24 Person-Arg:T23
+T23	PER 1307 1314	bà Mạnh
+T24	TIME 1327 1335	ngày 6/2
+T25	Extradite 1400 1406	dẫn_độ
+E11	Extradite:T25 
+T26	PER 1506 1513	bà Mạnh
+T27	Appeal 1523 1532	kháng_cáo
+E12	Appeal:T27 Defendant-Arg:T26

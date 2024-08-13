@@ -1,0 +1,35 @@
+T1	Pardon 13 18	ân_xá
+E1	Pardon:T1 Defendant-Arg:T3 Adjudicator-Arg:T2
+T2	GPE 0 5	Syria
+T3	PER 23 35	lính đào_ngũ
+T4	Pardon 212 217	ân_xá
+E2	Pardon:T4 Adjudicator-Arg:T12 Defendant-Arg:T13
+T5	Pardon 490 495	ân_xá
+E3	Pardon:T5 Defendant-Arg:T6 Defendant-Arg2:T14
+T6	PER 423 453	những người đã rời bỏ đất_nước
+T7	Pardon 515 520	ân_xá
+E4	Pardon:T7 
+T8	Die 1001 1011	thiệt_mạng
+E5	Die:T8 Victim-Arg:T11 Time-Arg:T10 Place-Arg:T9
+T9	GPE 942 947	Syria
+T10	TIME 961 969	năm 2011
+T11	PER 979 1000	hàng trăm_nghìn người
+T12	PER 183 211	Tổng_thống Bashar al - Assad
+T13	PER 222 328	tất_cả binh_sĩ đào_ngũ hoặc công_dân trốn nghĩa_vụ_quân_sự đang sinh_sống trong và ngoài lãnh_thổ nước này
+T14	PER 351 388	Những người lính đào_ngũ đang ở Syria
+T15	Transport 468 474	trở_về
+E6	Transport:T15 Artifact-Arg:T6 Artifact-Arg2:T14
+T16	Attack 929 937	Xung_đột
+E7	Attack:T16 Place-Arg:T9 Time-Arg:T10
+T18	PER 876 897	những binh_sĩ đào_ngũ
+T19	PER 848 866	Luật quân_sự Syria
+T17	Sentence 906 913	chịu án
+E8	Sentence:T17 Defendant-Arg:T18 Adjudicator-Arg:T19
+T20	Transport 1032 1038	rời bỏ
+E9	Transport:T20 Artifact-Arg:T21 Origin-Arg:T22
+T21	PER 1015 1031	hàng triệu người
+T22	FAC 1039 1046	nhà_cửa
+T23	Transport 1145 1152	bỏ trốn
+E10	Transport:T23 Artifact-Arg:T25 Destination-Arg:T24
+T24	GPE 1156 1166	nước_ngoài
+T25	PER 1086 1110	nhiều binh_sĩ đã đào_ngũ

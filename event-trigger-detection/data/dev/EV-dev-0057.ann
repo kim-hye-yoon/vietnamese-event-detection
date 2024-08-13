@@ -1,0 +1,21 @@
+T1	PER 0 12	80.000 người
+T2	Demonstrate 13 22	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1 Place-Arg:T3
+T3	GPE 61 68	Romania
+T4	PER 251 260	450 người
+T5	PER 274 282	30 người
+T6	Injure 261 270	bị_thương
+E2	Injure:T6 Victim-Arg:T4 Time-Arg:T9 Place-Arg:T8
+T7	Arrest-jail 286 289	bắt
+E3	Arrest-jail:T7 Person-Arg:T5 Time-Arg:T9 Place-Arg:T8
+T8	GPE 370 386	thủ_đô Bucharest
+T9	TIME 387 396	ngày 11/8
+T10	PER 539 557	Khoảng 30 cảnh_sát
+T11	Injure 563 572	bị_thương
+E4	Injure:T11 Victim-Arg:T10
+T12	PER 787 799	80.000 người
+T13	Demonstrate 888 897	biểu_tình
+E5	Demonstrate:T13 Entity-Arg:T12
+T15	End-position 1516 1525	cách_chức
+E6	End-position:T15 Person-Arg:T16
+T16	PER 1526 1534	bà Koves

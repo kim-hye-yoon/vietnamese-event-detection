@@ -1,0 +1,17 @@
+T1	GPE 0 2	Mỹ
+T2	Extradite 14 20	dẫn_độ
+E1	Extradite:T2 Person-Arg:T3 Agent-Arg:T1 Destination-Arg:T4
+T3	PER 21 34	giáo_sĩ Gulen
+T4	GPE 38 48	Thổ_Nhĩ_Kỳ
+T5	Extradite 255 261	dẫn_độ
+E2	Extradite:T5 Person-Arg:T6
+T6	PER 262 295	giáo_sĩ Gulen và những người khác
+T7	Extradite 896 902	dẫn_độ
+E3	Extradite:T7 
+T8	Extradite 1233 1239	dẫn_độ
+E4	Extradite:T8 
+T9	Attack 1374 1381	sát_hại
+E5	Attack:T9 Target-Arg:T12 Place-Arg:T10 Place-Arg2:T11
+T10	LOC 1388 1411	lãnh_sự_quán Arab_Saudi
+T11	GPE 1414 1422	Istanbul
+T12	PER 1347 1370	nhà_báo Jamal_Khashoggi

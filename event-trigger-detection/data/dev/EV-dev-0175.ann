@@ -1,0 +1,15 @@
+T1	Attack 202 209	phá_huỷ
+E1	Attack:T1 Target-Arg:T2 Attacker-Arg:T3
+T2	VEH 210 230	5 xe_tăng Thổ_Nhĩ_Kỳ
+T3	ORG 149 198	Các đơn_vị Bảo_vệ Nhân_dân ( YPG ) của người Kurd
+T5	LOC 306 349	khu_vực gần thành_phố Afrin , tây bắc Syria
+T4	Attack 293 303	giao_tranh
+E2	Attack:T4 Attacker-Arg:T3 Place-Arg:T5
+T6	Attack 753 760	phá_huỷ
+E3	Attack:T6 Instrument-Arg:T7 Target-Arg:T8
+T7	WEA 765 790	một tên_lửa 9M113 Konkurs
+T8	VEH 691 714	chiếc xe_tăng Leopard 2
+T9	Attack 5091 5094	bắn
+E4	Attack:T9 Target-Arg:T10 Attacker-Arg:T11
+T10	WEA 5095 5112	tên_lửa Metis - M
+T11	PER 5073 5085	Tay súng YPG

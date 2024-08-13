@@ -1,0 +1,18 @@
+T1	Transport 25 31	đi qua
+E1	Transport:T1 Agent-Arg:T2 Destination-Arg:T4 Vehicle-Arg:T3
+T2	GPE 0 2	Mỹ
+T3	VEH 8 24	hai tàu hải_quân
+T4	GPE 32 48	eo_biển Đài_Loan
+T5	Transport 90 93	tới
+E2	Transport:T5 Vehicle-Arg:T6 Destination-Arg:T7
+T6	VEH 51 78	Tàu_khu_trục USS McCampbell
+T7	GPE 94 110	eo_biển Đài_Loan
+T8	Transport 199 205	đi qua
+E3	Transport:T8 Vehicle-Arg:T10 Destination-Arg:T9
+T9	GPE 206 222	eo_biển Đài_Loan
+T10	VEH 131 195	Khu trục hạm USS McCampbell và tàu tiếp dầu USNS Walter_S._Diehl
+T11	Transport 896 899	qua
+E4	Transport:T11 Destination-Arg:T12 Agent-Arg:T13 Vehicle-Arg:T14
+T12	GPE 900 916	eo_biển Đài_Loan
+T13	GPE 863 865	Mỹ
+T14	VEH 886 895	tàu_chiến

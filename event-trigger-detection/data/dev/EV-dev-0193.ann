@@ -1,0 +1,81 @@
+T1	ORG 24 27	Toà
+T2	Sentence 28 33	tuyên
+E1	Sentence:T2 Adjudicator-Arg:T1 Sentence-Arg:T3
+T3	SEN 34 48	hai án tử_hình
+T8	PER 180 183	toà
+T9	Sentence 187 192	tuyên
+E4	Sentence:T9 Adjudicator-Arg:T8 Defendant-Arg:T11 Sentence-Arg:T10 Crime-Arg:T12
+T10	SEN 212 219	tử_hình
+T11	PER 228 238	hai bị_cáo
+T12	CRIME 90 135	hành_vi giết_hại người khác một_cách tàn_nhẫn
+T7	PER 333 360	người_thân của các nạn_nhân
+T13	Transport 364 373	mang theo
+E3	Transport:T13 Destination-Arg:T14 Agent-Arg:T7
+T14	FAC 395 398	toà
+T6	PER 557 567	hai bị_cáo
+T15	Die 621 628	sát_hại
+E5	Die:T15 Victim-Arg:T16 Agent-Arg:T6
+T16	PER 629 639	5 phu trầm
+T17	TIME 820 841	Sau thời_gian nghị_án
+T18	ORG 844 847	Toà
+T19	Sentence 851 856	tuyên
+E6	Sentence:T19 Time-Arg:T17 Adjudicator-Arg:T18 Defendant-Arg:T21 Sentence-Arg:T20
+T20	SEN 895 902	tử_hình
+T21	PER 881 891	hai bị_cáo
+T22	PER 915 918	Toà
+T23	Sentence 919 924	tuyên
+E7	Sentence:T23 Adjudicator-Arg:T22 Defendant-Arg:T24 Sentence-Arg:T26 Crime-Arg:T27 Sentence-Arg2:T28 Crime-Arg2:T29 Defendant-Arg2:T4 Crime-Arg3:T5 Sentence-Arg3:T30 Sentence-Arg4:T32 Defendant-Arg3:T25 Sentence-Arg5:T33 Crime-Arg5:T34 Sentence-Arg6:T35 Crime-Arg6:T36 Sentence-Arg7:T37 Crime-Arg7:T38 Sentence-Arg8:T39 Crime-Arg8:T40 Crime-Arg4:T31
+T24	PER 925 936	Hồ_Văn_Công
+T25	PER 1134 1146	Hồ_Văn_Thành
+T26	SEN 939 946	tử_hình
+T27	CRIME 954 964	giết người
+T28	SEN 967 973	10 năm
+T29	CRIME 981 993	cướp tài_sản
+T4	PER 996 1004	8 năm tù
+T5	CRIME 1012 1043	bắt_cóc nhằm chiếm_đoạt tài_sản
+T30	SEN 1047 1055	2 năm tù
+T32	SEN 1126 1133	tử_hình
+T33	SEN 1149 1156	tử_hình
+T34	CRIME 1164 1174	giết người
+T35	SEN 1177 1182	8 năm
+T36	CRIME 1190 1202	cướp tài_sản
+T37	SEN 1205 1213	7 năm tù
+T38	CRIME 1217 1252	tội bắt_cóc nhằm chiếm_đoạt tài_sản
+T39	SEN 1256 1264	1 năm tù
+T40	CRIME 1268 1318	tội tàng_trữ và sử_dụng trái_phép vũ_khí quân_dụng
+T44	PER 1946 1961	những người này
+T45	Transport 1989 1992	dẫn
+E2	Transport:T45 Artifact-Arg:T46 Agent-Arg:T44 Destination-Arg:T47
+T46	PER 1993 1995	họ
+T47	LOC 2007 2011	rừng
+T41	PER 1510 1515	Thành
+T42	Transport 1535 1544	mang theo
+E8	Transport:T42 Agent-Arg:T41 Artifact-Arg:T43
+T43	WEA 1545 1570	súng AK ( có 5 viên đạn )
+T48	TIME 2189 2204	khuya 23/3/2013
+T49	PER 2207 2211	Công
+T50	PER 2214 2219	Thành
+T51	PER 2222 2228	Nguyên
+T52	Attack 2294 2298	đánh
+E9	Attack:T52 Target-Arg:T54 Attacker-Arg:T51 Attacker-Arg2:T50 Attacker-Arg3:T49 Time-Arg:T48
+T53	Die 2299 2303	chết
+E10	Die:T53 Victim-Arg:T54 Agent-Arg:T51 Agent-Arg2:T50 Agent-Arg3:T49 Time-Arg:T48
+T54	PER 2304 2314	5 phu trầm
+T55	PER 2339 2346	5 người
+T56	Die 2350 2358	giết_hại
+E11	Die:T56 Victim-Arg:T55
+T57	PER 2641 2656	anh Đỗ_Văn_Hiền
+T58	Transport 2668 2678	trốn thoát
+E12	Transport:T58 Artifact-Arg:T57
+T59	ORG 2776 2793	Bộ_đội biên_phòng
+T60	ORG 2797 2809	Công_an tỉnh
+T61	Arrest-jail 2834 2841	vây bắt
+E13	Arrest-jail:T61 Person-Arg:T62 Agent-Arg:T60 Agent-Arg2:T59
+T62	PER 2842 2857	những kẻ thủ_ác
+T63	TIME 2860 2887	Đến khoảng gần một tuần sau
+T64	PER 2890 2894	Công
+T65	PER 2897 2902	Thành
+T66	PER 2905 2911	Nguyên
+T67	Arrest-jail 2925 2932	sa lưới
+E14	Arrest-jail:T67 Person-Arg:T66 Person-Arg2:T65 Person-Arg3:T64 Time-Arg:T63
+T31	CRIME 1063 1108	tàng_trữ , sử_dụng trái_phép vũ_khí quân_dụng

@@ -1,0 +1,67 @@
+T1	Declare-bankruptcy 57 64	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Sue 572 581	khởi_kiện
+E2	Sue:T2 Plaintiff-Arg:T3
+T3	PER 550 557	ông Huy
+T4	Declare-bankruptcy 866 873	phá_sản
+E3	Declare-bankruptcy:T4 Org-Arg:T5
+T5	ORG 882 926	Công_ty_cổ_phần Xây_lắp Dầu_khí ( PVC Land )
+T6	Transfer-ownership 1024 1027	mua
+E4	Transfer-ownership:T6 Buyer-Arg:T7
+T7	PER 1045 1112	bà Trần_Thị_Châu_Giang ( đã thắng kiện đòi khoản tiền 2,6 tỷ đồng )
+T8	Declare-bankruptcy 1192 1199	phá_sản
+E5	Declare-bankruptcy:T8 Org-Arg:T9
+T9	ORG 1200 1208	PVC Land
+T10	MONEY 1146 1160	300 triệu đồng
+T11	PER 1124 1132	bà Giang
+T12	Transfer-money 1141 1145	nhận
+E6	Transfer-money:T12 Money-Arg:T10 Recipient-Arg:T11 Giver-Arg:T13
+T13	ORG 1164 1176	doanh_nghiệp
+T14	Declare-bankruptcy 1532 1539	phá_sản
+E7	Declare-bankruptcy:T14 
+T15	ORG 1510 1516	Toà_án
+T16	TIME 1484 1490	5 ngày
+T17	Declare-bankruptcy 1724 1731	phá_sản
+E8	Declare-bankruptcy:T17 
+T18	Declare-bankruptcy 1862 1869	phá_sản
+E9	Declare-bankruptcy:T18 
+T19	ORG 1827 1833	Toà_án
+T20	ORG 1813 1821	PVC Land
+T21	Transport 2062 2068	chuyển
+E10	Transport:T21 
+T22	Transport 1971 1977	chuyển
+E11	Transport:T22 
+T23	ORG 2087 2109	Toà_án Nhân_dân TP HCM
+T24	ORG 2050 2058	PVC Land
+T25	Declare-bankruptcy 2310 2317	phá_sản
+E12	Declare-bankruptcy:T25 
+T26	Declare-bankruptcy 2551 2558	phá_sản
+E13	Declare-bankruptcy:T26 Org-Arg:T27 Time-Arg:T28
+T27	ORG 2567 2575	PVC Land
+T28	TIME 2472 2480	ngày 9/3
+T29	ORG 2483 2505	Toà_án nhân_dân TP HCM
+T30	Transfer-ownership 2977 2980	trả
+E14	Transfer-ownership:T30 
+T31	PER 2886 2899	Nữ khách_hàng
+T32	PER 2934 2944	chủ_đầu_tư
+T33	Transfer-ownership 3644 3647	bán
+E15	Transfer-ownership:T33 Time-Arg:T34 Price-Arg:T35 Price-Arg2:T36 Time-Arg2:T37
+T34	TIME 3626 3639	Năm 2009-2010
+T35	MONEY 3659 3669	23,8 triệu
+T36	MONEY 3712 3727	15,5 triệu đồng
+T37	TIME 3685 3698	tháng 10/2011
+T38	Transfer-ownership 3775 3778	trả
+E16	Transfer-ownership:T38 
+T39	PER 3739 3749	chủ_đầu_tư
+T40	Transfer-ownership 3800 3803	mua
+E17	Transfer-ownership:T40 Artifact-Arg:T41 Buyer-Arg:T42
+T41	FAC 3804 3807	nhà
+T42	PER 3794 3799	Khách
+T43	Sue 3917 3921	kiện
+E18	Sue:T43 Plaintiff-Arg:T44 Time-Arg:T45
+T44	PER 3906 3916	khách_hàng
+T45	TIME 3930 3943	năm 2013-2017
+T46	ORG 3946 3953	PVCLand
+T48	FAC 3969 3975	căn_hộ
+T47	Transfer-ownership 3965 3968	bán
+E19	Transfer-ownership:T47 Seller-Arg:T46 Artifact-Arg:T48

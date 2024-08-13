@@ -1,0 +1,40 @@
+T1	Divorce 0 6	Ly_hôn
+E1	Divorce:T1 Person-Arg:T2 Person-Arg2:T24
+T2	PER 7 16	vợ tỷ_phú
+T5	Divorce 755 760	ly_dị
+E3	Divorce:T5 Person-Arg:T6
+T6	PER 725 735	Ông Milton
+T7	Marry 1163 1170	kết_hôn
+E4	Marry:T7 Person-Arg:T8 Time-Arg:T9
+T8	PER 1153 1162	Ông và vợ
+T9	TIME 1171 1179	năm 1973
+T10	Divorce 1478 1483	ly_dị
+E5	Divorce:T10 Person-Arg:T11 Person-Arg2:T26
+T11	PER 1507 1518	bà Rinehart
+T12	Marry 1519 1523	cưới
+E6	Marry:T12 Person-Arg:T11 Person-Arg2:T13
+T13	PER 1528 1552	luật_sư kinh_tế người Mỹ
+T14	Die 1594 1601	qua_đời
+E7	Die:T14 Time-Arg:T15 Victim-Arg:T27
+T15	TIME 1602 1610	năm 1990
+T16	Sue 1698 1702	kiện
+E8	Sue:T16 Plaintiff-Arg:T19 Defendant-Arg:T18 Crime-Arg:T17 Time-Arg:T28
+T17	CRIME 1712 1747	kiểm_soát quỹ tín_thác của gia_đình
+T18	PER 1703 1705	mẹ
+T19	PER 1670 1693	ba người con lớn của bà
+T20	Transfer-money 2149 2152	trả
+E9	Transfer-money:T20 Giver-Arg:T21 Recipient-Arg:T22 Money-Arg:T23
+T21	PER 2146 2148	Bà
+T22	PER 2153 2156	con
+T23	MONEY 2157 2162	6 USD
+T24	PER 19 30	người chồng
+T3	PER 585 618	Chồng cũ của bà , ông Greg_Milton
+T4	Divorce 716 722	ly_hôn
+E2	Divorce:T4 Person-Arg:T3 Person-Arg2:T25
+T25	PER 706 715	hai người
+T26	PER 1484 1504	người chồng đầu_tiên
+T27	PER 1574 1593	Người chồng thứ hai
+T28	TIME 1654 1667	Vài năm trước
+T29	Transport 1881 1887	đi_lại
+E10	Transport:T29 Artifact-Arg:T30
+T30	VEH 1893 1900	máy_bay

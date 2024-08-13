@@ -1,0 +1,6 @@
+T1	Declare-bankruptcy 20 27	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	ORG 0 16	Doanh_nghiệp nhỏ
+T3	Declare-bankruptcy 1164 1171	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4
+T4	ORG 1133 1157	Các doanh_nghiệp gas nhỏ

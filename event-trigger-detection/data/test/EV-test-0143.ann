@@ -1,0 +1,40 @@
+T1	PER 0 12	Boris_Becker
+T6	PER 166 172	Becker
+T7	TIME 213 221	năm 2015
+T8	LOC 304 312	Mallorca
+T9	PER 350 356	Becker
+T10	Declare-bankruptcy 386 393	phá_sản
+E2	Declare-bankruptcy:T10 
+T11	PER 382 385	ông
+T15	GPE 538 549	Tây_Ban_Nha
+T16	PER 552 558	Briggs
+T17	MONEY 597 611	6,7 triệu đôla
+T18	GPE 648 651	Anh
+T20	PER 615 631	thân_chủ của ông
+T21	PER 773 779	Becker
+T22	ORG 797 811	Novak_Djokovic
+T32	PER 1121 1127	Becker
+T33	MONEY 1142 1155	20 triệu đôla
+T34	Divorce 1160 1166	ly_hôn
+E4	Divorce:T34 Person-Arg:T35 Person-Arg2:T32
+T35	PER 1171 1192	hai người vợ đầu_tiên
+T44	TIME 1521 1529	Năm 2002
+T45	PER 1532 1538	Becker
+T46	ORG 1542 1552	toà_án Đức
+T2	Declare-bankruptcy 16 32	tuyên_bố phá_sản
+E1	Declare-bankruptcy:T2 
+T3	Transfer-money 206 209	vay
+E6	Transfer-money:T3 Time-Arg:T7 Recipient-Arg:T6
+T4	PER 396 428	Luật_sư của Becker , John_Briggs
+T13	PER 444 460	thân_chủ của ông
+T14	FAC 501 535	biệt_thự chín phòng ngủ ở Mallorca
+T12	Transfer-ownership 494 497	bán
+E8	Transfer-ownership:T12 Seller-Arg:T13 Artifact-Arg:T14 Place-Arg:T15
+T5	Transfer-money 639 645	trả nợ
+E3	Transfer-money:T5 Giver-Arg:T20
+T19	End-position 836 848	dừng hợp_tác
+E7	End-position:T19 Time-Arg:T23 Person-Arg:T21 Entity-Arg:T22
+T23	TIME 853 867	cuối năm_ngoái
+T24	CRIME 1561 1589	trốn nộp thuế 1,9 triệu đôla
+T25	Sentence 1553 1560	kết_tội
+E5	Sentence:T25 Adjudicator-Arg:T46 Defendant-Arg:T45 Time-Arg:T44 Crime-Arg:T24

@@ -1,0 +1,57 @@
+T1	Transport 306 312	đi qua
+E1	Transport:T1 Vehicle-Arg:T2 Destination-Arg:T3
+T2	VEH 153 166	Bốn tàu_chiến
+T3	LOC 344 360	quân_cảng Tartus
+T4	VEH 455 468	hai tàu hộ_vệ
+T5	LOC 530 550	quân_cảng Sevastopol
+T6	LOC 555 579	khu_vực ngoài khơi Syria
+T7	Transport 469 473	mang
+E2	Transport:T7 Artifact-Arg:T8 Vehicle-Arg:T4 Origin-Arg:T5 Destination-Arg:T6
+T8	WEA 474 488	tên_lửa Kalibr
+T9	VEH 831 843	17 tàu_chiến
+T10	Transport 855 859	vượt
+E3	Transport:T10 Vehicle-Arg:T9 Destination-Arg:T11
+T11	LOC 887 892	Syria
+T12	Attack 1551 1564	Cuộc tấn_công
+E4	Attack:T12 Time-Arg:T13
+T13	TIME 1577 1590	ngày 7/4/2017
+T14	Attack 1711 1721	không_kích
+E5	Attack:T14 Instrument-Arg:T15 Attacker-Arg:T16 Time-Arg:T43 Target-Arg:T44
+T15	WEA 1738 1760	105 tên_lửa hành_trình
+T16	ORG 1685 1701	Mỹ , Anh và Pháp
+T17	Attack 40 50	không_kích
+E6	Attack:T17 Place-Arg:T18 Attacker-Arg:T19 Instrument-Arg:T21
+T18	GPE 51 56	Syria
+T19	GPE 0 3	Nga
+T21	VEH 12 21	tàu_chiến
+T20	Attack 1529 1537	tấn_công
+E7	Attack:T20 Target-Arg:T22 Instrument-Arg:T23 Attacker-Arg:T37
+T22	PER 1538 1548	dân_thường
+T23	WEA 1514 1528	vũ_khí_hoá_học
+T24	Attack 1048 1058	không_kích
+E8	Attack:T24 Place-Arg:T25 Attacker-Arg:T26
+T25	GPE 1072 1077	Syria
+T26	GPE 1015 1025	Washington
+T27	Attack 1124 1132	tấn_công
+E9	Attack:T27 Target-Arg:T28 Instrument-Arg:T29
+T28	PER 1133 1143	dân_thường
+T29	WEA 1109 1123	vũ_khí_hoá_học
+T30	Attack 1304 1312	tấn_công
+E10	Attack:T30 Instrument-Arg:T31 Attacker-Arg:T32
+T31	WEA 1313 1320	hoá_học
+T32	PER 1229 1271	các nhóm phiến quân ở Idlib miền nam Syria
+T33	Attack 1398 1408	không_kích
+E11	Attack:T33 Attacker-Arg:T34
+T34	GPE 1370 1387	Mỹ cùng đồng_minh
+T35	Attack 1448 1458	không_kích
+E12	Attack:T35 Place-Arg:T36 Attacker-Arg:T38
+T36	GPE 1459 1473	lãnh_thổ Syria
+T37	PER 1494 1502	Damascus
+T38	ORG 1411 1434	Washington và đồng_minh
+T39	Attack 1609 1614	phóng
+E13	Attack:T39 Attacker-Arg:T42 Instrument-Arg:T40 Target-Arg:T41
+T40	WEA 1615 1645	59 tên_lửa hành_trình Tomahawk
+T41	FAC 1650 1665	sân_bay Shayrat
+T42	ORG 1597 1608	hải_quân Mỹ
+T43	TIME 1668 1682	Ngày 14/4/2018
+T44	FAC 1770 1851	các cơ_sở bị nghi là nơi nghiên_cứu , tích_trữ vũ_khí_hoá_học của chính_phủ Syria

@@ -1,0 +1,7 @@
+T1	PER 505 519	169 dân_thường
+T2	Transport 523 526	rời
+E1	Transport:T2 Origin-Arg:T3 Artifact-Arg:T1
+T3	LOC 532 585	những khu_vực bị các nhóm vũ_trang phi_pháp kiểm_soát
+T4	PER 946 965	người_dân thành_phố
+T5	Die 977 981	chết
+E2	Die:T5 Victim-Arg:T4

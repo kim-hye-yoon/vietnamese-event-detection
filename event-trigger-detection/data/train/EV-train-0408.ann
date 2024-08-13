@@ -1,0 +1,41 @@
+T1	PER 5 28	một cầu_thủ V.Ninh Bình
+T2	Arrest-jail 32 35	bắt
+E1	Arrest-jail:T2 Person-Arg:T1
+T3	PER 45 73	2 cầu_thủ cùng tên Mạnh_Dũng
+T4	Arrest-jail 77 80	bắt
+E2	Arrest-jail:T4 Person-Arg:T3
+T5	ORG 306 345	cơ_quan điều_tra công_an tỉnh Ninh_Bình
+T6	Trial-hearing 349 356	khởi_tố
+E3	Trial-hearing:T6 Adjudicator-Arg:T5
+T8	ORG 535 566	Cơ_quan điều_tra tỉnh Ninh_Bình
+T9	Arrest-jail 576 579	bắt
+E4	Arrest-jail:T9 Person-Arg:T10 Agent-Arg:T8
+T10	PER 585 606	đối_tượng Đào_Đức_Lợi
+T11	Transfer-money 647 650	trả
+E5	Transfer-money:T11 Money-Arg:T12 Recipient-Arg:T13 Giver-Arg:T10
+T12	MONEY 651 680	khoản tiền 800 triệu thắng độ
+T13	PER 685 704	9 cầu_thủ Ninh_Bình
+T14	Arrest-jail 718 721	bắt
+E6	Arrest-jail:T14 Person-Arg:T15
+T15	PER 724 745	đối_tượng Đào_Đức_Lợi
+T16	PER 853 923	Tiền_đạo Phan_Anh_Tuấn ( áo cam ) là cầu_thủ thứ 3 của đội V.Ninh Bình
+T17	ORG 927 934	công_an
+T18	Arrest-jail 944 947	bắt
+E7	Arrest-jail:T18 Crime-Arg:T19 Agent-Arg:T17 Person-Arg:T16
+T19	CRIME 956 1005	liên_quan trực_tiếp vụ dàn_xếp tỉ_số AFC_Cup 2014
+T20	PER 365 475	Hai cầu_thủ trực_tiếp đứng ra rủ_rê đồng_đội cùng bắt_độ là thủ_môn Nguyễn_Mạnh_Dũng và tiền_vệ Trần_Mạnh_Dũng
+T21	ORG 483 490	cơ_quan
+T22	Arrest-jail 500 503	bắt
+E8	Arrest-jail:T22 Time-Arg:T23 Agent-Arg:T21 Person-Arg:T20
+T23	TIME 513 532	đầu tháng 5 vừa_qua
+T24	PER 1255 1271	cầu_thủ Anh_Tuấn
+T25	ORG 1210 1226	cơ_quan điều_tra
+T26	Arrest-jail 1242 1245	bắt
+E9	Arrest-jail:T26 Person-Arg:T24 Agent-Arg:T25
+T7	PER 1436 1449	Nguyễn_Văn_Sỹ
+T27	Start-position 1507 1518	ký hợp_đồng
+E10	Start-position:T27 Person-Arg:T7
+T28	TIME 1615 1631	Đầu mùa_giải 201
+T29	PER 1635 1643	Anh_Tuấn
+T30	Start-position 1686 1705	ký hợp_đồng thi_đấu
+E11	Start-position:T30 Person-Arg:T29 Time-Arg:T28

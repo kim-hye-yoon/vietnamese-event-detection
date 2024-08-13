@@ -1,0 +1,22 @@
+T1	End-position 166 175	cách_chức
+E1	End-position:T1 Position-Arg:T2 Entity-Arg:T6 Person-Arg:T5
+T2	JOB 176 200	Tổng_thư_ký Quốc vụ viện
+T3	End-position 39 48	cách_chức
+E2	End-position:T3 Person-Arg:T4
+T4	PER 0 35	Tổng_thư_ký Quốc vụ viện Trung_Quốc
+T5	PER 205 214	ông Dương
+T6	ORG 115 148	Uỷ_ban Thường_vụ_Quốc_hội khoá 12
+T7	Trial-hearing 296 304	điều_tra
+E3	Trial-hearing:T7 Defendant-Arg:T8 Adjudicator-Arg:T9
+T8	PER 305 308	ông
+T9	ORG 217 280	Uỷ_ban Kiểm_tra Kỷ_luật Trung_ương của đảng Cộng_sản Trung_Quốc
+T10	Be-born 734 738	sinh
+E4	Be-born:T10 Person-Arg:T11 Place-Arg:T13 Time-Arg:T12
+T11	PER 724 733	Ông Dương
+T12	TIME 755 763	năm 1953
+T13	LOC 741 754	vùng Nội_Mông
+T14	Nominate 827 835	bổ_nhiệm
+E5	Nominate:T14 Person-Arg:T16 Position-Arg:T15 Time-Arg:T17
+T15	JOB 840 883	uỷ_viên quốc_vụ và Tổng_thư_ký Quốc vụ viện
+T16	PER 818 821	ông
+T17	TIME 807 815	Năm 2013

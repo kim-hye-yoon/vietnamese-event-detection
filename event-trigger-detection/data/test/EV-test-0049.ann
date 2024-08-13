@@ -1,0 +1,33 @@
+T1	Divorce 36 42	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 13	Tỷ_phú Amazon
+T5	Divorce 519 525	ly_hôn
+E3	Divorce:T5 Person-Arg:T6 Person-Arg2:T16
+T6	PER 470 485	MacKenzie_Bezos
+T7	Divorce 760 766	ly_hôn
+E4	Divorce:T7 Person-Arg:T8
+T8	PER 690 711	MacKenzie , 48 tuổi ,
+T9	Divorce 1266 1272	ly_hôn
+E5	Divorce:T9 Person-Arg:T17 Time-Arg:T18
+T10	Divorce 1628 1634	ly_hôn
+E6	Divorce:T10 
+T11	Divorce 1670 1676	ly_hôn
+E7	Divorce:T11 
+T14	PER 1753 1758	Bezos
+T15	TIME 1732 1750	Hồi cuối tháng một
+T12	Divorce 1790 1795	ly_dị
+E8	Divorce:T12 Person-Arg:T14 Time-Arg:T15 Person-Arg2:T19
+T3	PER 164 167	Tôi
+T4	Divorce 228 234	ly_hôn
+E2	Divorce:T4 Person-Arg:T3 Person-Arg2:T13
+T13	PER 202 211	MacKenzie
+T16	PER 530 538	chồng cũ
+T17	PER 1277 1301	người giàu nhất thế_giới
+T18	TIME 1318 1329	gần 3 tháng
+T19	PER 1776 1778	vợ
+T20	Divorce 1959 1964	ly_dị
+E9	Divorce:T20 
+T21	Meet 2078 2081	gặp
+E10	Meet:T21 Entity-Arg:T23 Entity-Arg2:T22
+T22	PER 2060 2064	Jeff
+T23	PER 2068 2077	MacKenzie

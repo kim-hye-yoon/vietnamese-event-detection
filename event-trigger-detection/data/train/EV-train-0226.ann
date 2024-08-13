@@ -1,0 +1,6 @@
+T1	Demonstrate 61 70	biểu_tình
+E1	Demonstrate:T1 Entity-Arg:T2
+T2	PER 55 60	Người
+T3	Pardon 88 93	ân_xá
+E2	Pardon:T3 Adjudicator-Arg:T4
+T4	ORG 98 107	chính_phủ

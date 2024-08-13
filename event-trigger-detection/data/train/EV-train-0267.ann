@@ -1,0 +1,22 @@
+T1	ORG 0 34	Chuỗi siêu_thị đồ_chơi lớn nhất Mỹ
+T2	Declare-bankruptcy 35 42	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	ORG 45 58	Toys “ R ” Us
+T4	Declare-bankruptcy 81 88	phá_sản
+E2	Declare-bankruptcy:T4 Org-Arg:T3 Place-Arg:T20
+T7	MONEY 305 315	4,9 tỷ USD
+T8	TIME 363 371	năm 2005
+T9	ORG 378 425	Bain_Capital , KKR & Co và Vornado_Realty_Trust
+T10	ORG 447 460	Toys “ R ” Us
+T13	Declare-bankruptcy 617 624	phá_sản
+E3	Declare-bankruptcy:T13 
+T14	ORG 831 837	Amazon
+T20	GPE 111 113	Mỹ
+T5	Transfer-money 316 318	nợ
+E4	Transfer-money:T5 Money-Arg:T7 Recipient-Arg:T6
+T6	ORG 281 296	Hãng bán_lẻ này
+T21	Transfer-money 431 434	vay
+E5	Transfer-money:T21 Recipient-Arg:T9 Time-Arg:T8
+T22	Transfer-ownership 525 531	trả nợ
+E6	Transfer-ownership:T22 
+T23	ORG 496 507	công_ty này

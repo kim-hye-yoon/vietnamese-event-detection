@@ -1,0 +1,10 @@
+T1	Elect 9 17	được bầu
+E1	Elect:T1 Position-Arg:T3
+T2	GPE 0 8	Việt_Nam
+T3	JOB 22 48	chủ_tịch Đại_hội_đồng WIPO
+T4	Elect 310 318	được bầu
+E2	Elect:T4 Position-Arg:T5 Person-Arg:T8 Place-Arg:T7 Time-Arg:T6
+T5	JOB 323 404	chủ_tịch Đại_hội_đồng tổ_chức sở_hữu_trí_tuệ thế_giới ( WIPO ) nhiệm_kỳ 2018-2019
+T6	TIME 108 117	ngày 2/10
+T7	GPE 122 140	Geneva ( Thuỵ_Sỹ )
+T8	PER 143 204	đại_sứ Dương_Chí_Dũng - Trưởng phái_đoàn thường_trực Việt_Nam

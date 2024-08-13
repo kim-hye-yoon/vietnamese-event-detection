@@ -1,0 +1,14 @@
+T1	Attack 234 237	bắn
+E1	Attack:T1 Instrument-Arg:T3 Instrument-Arg2:T2
+T2	WEA 241 254	4 quả tên_lửa
+T3	VEH 167 187	một chiếc trực_thăng
+T4	Attack 593 602	nội_chiến
+E2	Attack:T4 
+T5	Attack 557 564	dội bom
+E3	Attack:T5 Place-Arg:T9
+T6	Attack 626 641	cuộc không_kích
+E4	Attack:T6 
+T7	Attack 402 409	phát_nổ
+E5	Attack:T7 Target-Arg:T8
+T8	FAC 391 401	4 mục_tiêu
+T9	LOC 502 553	một trong những khu_vực lực_lượng nổi_dậy kiểm_soát

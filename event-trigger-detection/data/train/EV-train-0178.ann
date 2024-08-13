@@ -1,0 +1,41 @@
+T2	PER 0 10	Hai bị_cáo
+T3	CRIME 11 19	trộm chó
+T4	Trial-hearing 166 172	xét_xử
+E2	Trial-hearing:T4 Adjudicator-Arg:T7 Time-Arg:T5 Defendant-Arg:T8 Defendant-Arg2:T10 Crime-Arg:T9 Crime-Arg2:T11
+T5	TIME 108 118	Ngày 19/11
+T7	ORG 121 140	TAND tỉnh Quảng_Trị
+T8	PER 173 247	Trần_Hoà_Tam ( 49 tuổi ) và Nguyễn_Văn_Vinh ( 50 tuổi , cùng trú Lệ_Thuỷ )
+T9	CRIME 251 271	tội Trộm_cắp tài_sản
+T10	PER 274 326	Lê_Thị_Huệ ( 51 tuổi , trú Triệu_Phong , Quảng_Trị )
+T11	CRIME 330 379	tội Tiêu_thụ tài_sản do người khác phạm_tội mà có
+T6	TIME 399 412	tối 19/7/2018
+T13	PER 415 418	Tam
+T12	PER 422 426	Vinh
+T14	Transport 427 429	đi
+E3	Transport:T14 Vehicle-Arg:T16 Destination-Arg:T17 Artifact-Arg:T12 Artifact-Arg2:T13 Time-Arg:T6
+T16	VEH 430 436	xe_máy
+T17	GPE 441 450	Quảng_Trị
+T15	Transport 824 827	đến
+E4	Transport:T15 Destination-Arg:T19 Artifact-Arg:T18 Time-Arg:T23
+T18	PER 775 786	Tam và Vinh
+T19	FAC 828 838	nhà bà Huệ
+T20	Transfer-ownership 839 842	bán
+E5	Transfer-ownership:T20 Price-Arg:T21 Buyer-Arg:T22 Seller-Arg:T18 Time-Arg:T23
+T21	MONEY 851 862	45.000 đồng
+T22	PER 832 838	bà Huệ
+T23	TIME 759 772	Đến rạng sáng
+T24	Transfer-ownership 896 899	bán
+E6	Transfer-ownership:T24 Seller-Arg:T25
+T25	PER 878 891	hai người này
+T26	Transport 892 895	đến
+E7	Transport:T26 Artifact-Arg:T25
+T27	Fine 1184 1188	phạt
+E8	Fine:T27 Adjudicator-Arg:T29 Entity-Arg:T28
+T28	PER 1189 1200	Tam và Vinh
+T29	ORG 1180 1183	toà
+T30	Fine 1260 1267	bị phạt
+E9	Fine:T30 Money-Arg:T33 Entity-Arg:T31
+T31	PER 1253 1259	Bà Huệ
+T33	MONEY 1268 1281	20 triệu đồng
+T1	Release-parole 20 34	được trả tự_do
+E1	Release-parole:T1 Person-Arg:T2 Crime-Arg:T3

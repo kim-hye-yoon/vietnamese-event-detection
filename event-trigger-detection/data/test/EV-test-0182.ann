@@ -1,0 +1,70 @@
+T1	Phone-write 118 126	nhắn_tin
+E1	Phone-write:T1 Entity-Arg:T2 Entity-Arg2:T3
+T2	PER 81 97	con rể tương_lai
+T3	PER 146 148	vợ
+T4	PER 151 162	người chồng
+T5	PER 191 193	vợ
+T6	Attack 187 190	tát
+E2	Attack:T6 Attacker-Arg:T4 Target-Arg:T5
+T7	Marry 379 387	đám_cưới
+E3	Marry:T7 Person-Arg:T9 Person-Arg2:T10 Time-Arg:T8
+T8	TIME 392 400	năm 1987
+T9	PER 420 431	Lê_Minh_Huệ
+T10	PER 447 465	Phạm_Thị_Diệu_Hiền
+T11	PER 1578 1592	người_yêu mình
+T12	PER 1618 1620	mẹ
+T13	Phone-write 1597 1605	nhắn_tin
+E4	Phone-write:T13 Entity-Arg:T11 Entity-Arg2:T12
+T14	PER 1623 1629	cô_gái
+T15	Meet 1633 1636	gặp
+E5	Meet:T15 Entity-Arg:T14 Entity-Arg2:T16
+T16	PER 1637 1647	chàng_trai
+T17	PER 1957 1964	ông Huệ
+T18	Attack 1999 2002	tát
+E6	Attack:T18 Attacker-Arg:T17 Target-Arg:T19
+T19	PER 2003 2005	bà
+T20	PER 2035 2042	bà Hiền
+T21	Phone-write 2046 2054	gọi điện
+E7	Phone-write:T21 Entity-Arg:T22 Entity-Arg2:T20
+T22	ORG 2059 2077	công_an xã An_Nhơn
+T23	TIME 2207 2219	chiều hôm đó
+T24	Transport 2250 2252	về
+E8	Transport:T24 Agent-Arg:T26 Time-Arg:T23 Destination-Arg:T25
+T25	GPE 2277 2299	ấp An_Hoà , xã An_Nhơn
+T26	PER 2222 2229	bà Hiền
+T27	Phone-write 2550 2571	nói_chuyện điện_thoại
+E9	Phone-write:T27 Entity-Arg:T28 Entity-Arg2:T29
+T28	PER 2547 2549	mẹ
+T29	PER 2602 2612	người khác
+T30	Transport 3147 3149	về
+E10	Transport:T30 Destination-Arg:T31
+T31	LOC 3150 3163	nhà cha_mẹ đẻ
+T32	PER 5556 5567	đứa con lớn
+T33	Marry 5619 5626	kết_hôn
+E11	Marry:T33 Person-Arg:T32
+T35	PER 1422 1438	anh rể tương_lai
+T34	Phone-write 1413 1421	tin nhắn
+E12	Phone-write:T34 Entity-Arg:T36 Entity-Arg2:T35
+T36	PER 1331 1333	mẹ
+T37	TIME 1304 1324	Trưa ngày 13/10/2008
+T38	Divorce 3487 3502	đường ai_nấy đi
+E13	Divorce:T38 Person-Arg:T39
+T39	PER 3462 3471	hai người
+T40	Divorce 3531 3537	ly_hôn
+E14	Divorce:T40 Person-Arg:T41
+T41	PER 3540 3552	hai vợ_chồng
+T42	Divorce 5126 5132	ly_hôn
+E15	Divorce:T42 Person-Arg:T43
+T43	PER 5133 5136	tôi
+T44	Marry 5640 5644	cưới
+E16	Marry:T44 Person-Arg:T46 Person-Arg2:T45
+T45	PER 5645 5650	vợ mớ
+T46	PER 5629 5636	Ông Huệ
+T47	Marry 5725 5729	cưới
+E17	Marry:T47 Person-Arg:T48 Person-Arg2:T49
+T48	PER 5730 5736	vợ mới
+T49	PER 5721 5724	cha
+T50	Phone-write 5994 6004	điện_thoại
+E18	Phone-write:T50 Entity-Arg:T51 Entity-Arg2:T52
+T51	PER 5987 5989	mẹ
+T52	PER 5939 5943	cháu

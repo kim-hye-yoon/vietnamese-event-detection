@@ -1,0 +1,42 @@
+T1	PER 8 27	ựu nữ kiểm_sát_viên
+T2	Attack 28 37	bị cắt_cổ
+E1	Attack:T2 Target-Arg:T1
+T3	PER 370 378	bọn cướp
+T4	Transport 382 390	đột_nhập
+E2	Transport:T4 Agent-Arg:T3 Destination-Arg:T7
+T5	Attack 402 406	cướp
+E3	Attack:T5 Attacker-Arg:T3
+T6	PER 475 483	bọn cướp
+T8	Attack 502 508	cắt_cổ
+E4	Attack:T8 Attacker-Arg:T6 Instrument-Arg:T9
+T9	WEA 489 501	dao Thái_Lan
+T10	Attack 511 519	cắt chân
+E5	Attack:T10 Attacker-Arg:T6 Instrument-Arg:T9
+T11	Die 524 532	iết chết
+E6	Die:T11 Agent-Arg:T6 Instrument-Arg:T9
+T12	PER 1751 1768	một_số người quen
+T13	Transport 1790 1793	chở
+E7	Transport:T13 Agent-Arg:T12 Artifact-Arg:T14 Destination-Arg:T15
+T14	PER 1794 1798	bà N
+T15	FAC 1804 1837	bệnh_viện đa_khoa tỉnh Ninh_Thuận
+T16	PER 2949 2961	người phụ_nữ
+T17	Die 2969 2976	tử_vong
+E8	Die:T17 Agent-Arg:T16
+T18	PER 2887 2905	người_dân hàng_xóm
+T19	Transport 2930 2936	đưa đi
+E9	Transport:T19 Agent-Arg:T18 Artifact-Arg:T16
+T20	PER 6041 6049	bọn cướp
+T21	Attack 6050 6058	đột_nhập
+E10	Attack:T21 Attacker-Arg:T20 Place-Arg:T22
+T22	FAC 6063 6066	nhà
+T23	Attack 6067 6071	cướp
+E11	Attack:T23 Attacker-Arg:T20
+T24	PER 6297 6306	người_dân
+T25	Transport 6307 6311	chạy
+E12	Transport:T25 Agent-Arg:T24
+T26	Transport 6819 6830	chuyển viện
+E13	Transport:T26 Agent-Arg:T27 Artifact-Arg:T28 Destination-Arg:T29
+T27	PER 6760 6775	gia_đình ông L.
+T28	PER 6835 6839	bà N
+T29	GPE 6845 6852	TP. HCM
+T7	FAC 395 398	nhà

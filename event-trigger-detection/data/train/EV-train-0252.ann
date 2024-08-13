@@ -1,0 +1,18 @@
+T1	Nominate 6 14	Bổ_nhiệm
+E1	Nominate:T1 Person-Arg:T2
+T2	PER 15 48	Phó tổng_giám_đốc người nước_ngoà
+T3	PER 103 117	ông Seokee_Won
+T4	Nominate 126 134	bổ_nhiệm
+E2	Nominate:T4 Person-Arg:T3 Agent-Arg:T5
+T5	PER 139 209	Tổng_giám_đốc Công_ty_cổ_phần Hàng_tiêu_dùng Ma_San ( Masan_Consumer )
+T6	End-position 388 396	từ_nhiệm
+E3	End-position:T6 Person-Arg:T7
+T7	PER 363 380	Trương_Công_Thắng
+T8	PER 212 227	Ông Seokhee_Won
+T9	Start-position 242 251	tiếp_nhận
+E4	Start-position:T9 Person-Arg:T8 Time-Arg:T10
+T10	TIME 282 294	đầu năm 2014
+T11	PER 427 442	ông Seokhee_Won
+T12	Start-position 451 454	giữ
+E5	Start-position:T12 Person-Arg:T11 Position-Arg:T13
+T13	JOB 462 495	Phó Tổng_Giám_đốc của Masan_Group

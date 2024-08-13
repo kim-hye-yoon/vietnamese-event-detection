@@ -1,0 +1,58 @@
+T1	PER 59 68	công_nhân
+T2	Demonstrate 69 78	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 1995 2010	nhiều công_nhân
+T4	End-position 2051 2057	sa_thả
+E2	End-position:T4 Person-Arg:T3
+T5	PER 4358 4369	nhiều người
+T6	Transport 4373 4379	kéo ra
+E3	Transport:T6 Time-Arg:T8 Artifact-Arg:T5 Destination-Arg:T7
+T7	LOC 4380 4447	Quốc_lộ 1 qua thị_trấn Phan_Rí_Cửa , huyện Tuy_Phong ( Bình_Thuận )
+T8	TIME 4307 4316	Ngày 10/6
+T9	PER 4476 4492	nhiều thanh_niên
+T10	Attack 4505 4513	tấn_công
+E4	Attack:T10 Attacker-Arg:T9 Target-Arg:T13
+T11	Attack 4516 4523	đập phá
+E5	Attack:T11 Attacker-Arg:T9 Target-Arg:T13
+T12	Attack 4493 4496	ném
+E6	Attack:T12 Attacker-Arg:T9 Target-Arg:T13
+T13	VEH 4524 4535	ôtô công_vụ
+T14	TIME 4538 4551	Tối cùng ngày
+T15	PER 4554 4570	hàng nghìn người
+T16	Demonstrate 4571 4580	tập_trung
+E7	Demonstrate:T16 Entity-Arg:T15 Time-Arg:T14 Place-Arg:T17
+T17	LOC 4581 4650	trước cổng UBND Bình_Thuận ở đường Hải_Thượng_Lãn_Ông , TP Phan_Thiết
+T18	PER 4653 4664	Nhiều người
+T19	Attack 4665 4672	xô cổng
+E8	Attack:T19 Attacker-Arg:T18
+T20	Attack 4675 4681	đập vỡ
+E9	Attack:T20 Attacker-Arg:T18
+T21	Attack 4709 4712	đốt
+E10	Attack:T21 Target-Arg:T22 Attacker-Arg:T18
+T22	VEH 4713 4715	xe
+T23	PER 4718 4736	Nhiều kẻ quá_khích
+T24	Attack 4781 4789	tấn_công
+E11	Attack:T24 Target-Arg:T25 Attacker-Arg:T23 Instrument-Arg:T26
+T25	PER 4790 4807	lực_lượng công_vụ
+T26	WEA 4742 4760	gạch đá , bom_xăng
+T27	PER 4827 4845	hàng chục cảnh_sát
+T28	Injure 4846 4855	bị_thương
+E12	Injure:T28 Victim-Arg:T27
+T29	TIME 4862 4871	sáng 11/6
+T30	PER 4874 4888	nhà_chức_trách
+T31	Arrest-jail 4889 4896	bắt_giữ
+E13	Arrest-jail:T31 Time-Arg:T29 Agent-Arg:T30 Person-Arg:T32 Crime-Arg:T33
+T32	PER 4897 4906	102 người
+T33	CRIME 4917 4930	việc phá_hoại
+T34	PER 4963 4972	người_dân
+T35	Demonstrate 4973 4984	xuống_đường
+E14	Demonstrate:T35 Entity-Arg:T34 Place-Arg:T36 Time-Arg:T37
+T36	LOC 5009 5058	nhiều tỉnh_thành như TP HCM , Khánh_Hoà , Đà_Nẵng
+T37	TIME 5067 5085	hai ngày cuối tuần
+T38	PER 5088 5098	Nhiều ngườ
+T39	Arrest-jail 5106 5113	tạm giữ
+E15	Arrest-jail:T39 Crime-Arg:T40 Person-Arg:T38
+T40	CRIME 5117 5188	hành_vi kêu_gọi người_dân biểu_tình trái_phép , gây_rối an_ninh trật_tự
+T41	Demonstrate 5196 5202	tụ_tập
+E16	Demonstrate:T41 Entity-Arg:T42
+T42	PER 5203 5213	đông người

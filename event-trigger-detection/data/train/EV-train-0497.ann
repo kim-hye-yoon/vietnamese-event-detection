@@ -1,0 +1,41 @@
+T2	PER 223 228	Thạnh
+T3	Attack 259 263	đánh
+E1	Attack:T3 Target-Arg:T2 Target-Arg2:T1
+T4	Attack 581 585	đánh
+E2	Attack:T4 Target-Arg:T7 Attacker-Arg:T6 Attacker-Arg2:T5 Time-Arg:T35
+T6	PER 571 580	người_nhà
+T7	PER 586 591	Thạnh
+T10	Attack 711 719	vây đánh
+E3	Attack:T10 Target-Arg:T11 Attacker-Arg2:T8 Attacker-Arg:T9
+T11	PER 620 625	Thạnh
+T12	PER 82 157	Nguyễn_Văn_Thạnh ( 23 tuổi , ở P. Trần_Hưng_Đạo , TP Quy_Nhơn , Bình_Định )
+T13	GPE 113 155	P. Trần_Hưng_Đạo , TP Quy_Nhơn , Bình_Định
+T14	FAC 180 199	BVĐK tỉnh Bình_Định
+T15	GPE 185 199	tỉnh Bình_Định
+T16	PER 401 437	Lốc ở phường Nhơn_Bình , TP Quy_Nhơn
+T17	PER 446 507	Bà_Lâm_Thị_Thu ( 46 tuổi , ở KV8 , P. Đống_Đa , TP Quy_Nhơn )
+T18	GPE 407 437	phường Nhơn_Bình , TP Quy_Nhơn
+T19	GPE 475 505	KV8 , P. Đống_Đa , TP Quy_Nhơn
+T5	PER 543 549	bà Thu
+T8	PER 673 688	gia_đình bà Thu
+T20	PER 682 688	bà Thu
+T9	PER 694 710	nhiều người khác
+T21	ORG 753 767	CA TP Quy_Nhơn
+T22	WEA 801 837	khẩu súng_ngắn có hình_dạng súng K54
+T23	WEA 801 815	khẩu súng_ngắn
+T24	WEA 829 837	súng K54
+T25	PER 841 857	Nguyễn_Văn_Thạnh
+T26	WEA 870 881	súng_hơi ga
+T27	WEA 888 899	đạn bi nhựa
+T28	WEA 930 944	súng quân_dụng
+T29	PER 956 972	Nguyễn_Văn_Thạnh
+T30	WEA 990 1003	khẩu súng này
+T31	LOC 1029 1043	CA TP Quy_Nhơn
+T32	TIME 57 66	Sáng 10/2
+T33	Injure 313 321	nằm viện
+E4	Injure:T33 Victim-Arg:T34
+T34	PER 289 294	Thạnh
+T35	TIME 347 368	khoảng 21h30 ngày 9/2
+T36	Injure 734 750	thương_tích nặng
+E5	Injure:T36 Victim-Arg:T11
+T1	WEA 234 242	súng giả

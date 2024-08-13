@@ -1,0 +1,59 @@
+T1	Attack 31 41	không_kích
+E1	Attack:T1 Instrument-Arg:T3 Place-Arg:T2
+T2	GPE 57 62	Syria
+T3	WEA 47 54	tên_lửa
+T4	Attack 121 129	tấn_công
+E2	Attack:T4 Attacker-Arg:T5 Place-Arg:T6 Target-Arg:T7
+T5	GPE 114 120	Israel
+T6	GPE 105 110	Syria
+T7	FAC 65 100	Một cơ_sở phức_hợp hậu_cần của Iran
+T8	Attack 297 305	tấn_công
+E3	Attack:T8 Instrument-Arg:T11 Place-Arg:T12 Target-Arg:T46
+T10	Attack 316 326	không_kích
+E4	Attack:T10 Time-Arg:T9 Instrument-Arg:T11 Place-Arg:T12 Target-Arg:T46
+T11	WEA 270 296	tên_lửa tên_lửa hành_trình
+T12	GPE 258 263	Syria
+T9	TIME 327 341	rạng sáng 10/5
+T13	Attack 385 393	tấn_công
+E5	Attack:T13 Target-Arg:T14 Place-Arg:T15 Target-Arg2:T16
+T14	FAC 406 460	kho vũ_khí , cơ_sở hậu_cần cũng như trung_tâm tình_báo
+T15	GPE 543 557	lãnh_thổ Syria
+T16	ORG 466 528	lực_lượng đặc_nhiệm Quds thuộc Vệ_binh Cách_mạng Hồi_giáo Iran
+T17	Attack 775 783	tấn_công
+E6	Attack:T17 Target-Arg:T20 Attacker-Arg:T18 Place-Arg:T19
+T18	GPE 768 774	Israel
+T19	GPE 759 764	Syria
+T20	FAC 727 754	Các trung_tâm tình_báo Iran
+T21	WEA 825 852	28 tiêm_kích F -15 và F -16
+T22	Attack 881 891	không_kích
+E7	Attack:T22 Place-Arg:T35 Time-Arg:T36 Instrument-Arg:T21 Target-Arg:T38 Attacker-Arg:T37
+T23	Attack 1384 1392	tấn_công
+E8	Attack:T23 Target-Arg:T24 Place-Arg:T25 Instrument-Arg:T27 Time-Arg:T26
+T24	FAC 1393 1405	sân_bay T -4
+T25	GPE 1408 1413	Syria
+T26	TIME 1438 1445	hôm 9/4
+T27	WEA 1419 1437	tên_lửa hành_trình
+T28	Die 1470 1480	thiệt_mạng
+E9	Die:T28 Victim-Arg:T29
+T29	PER 1454 1469	7 công_dân Iran
+T30	Attack 1045 1050	phóng
+E10	Attack:T30 Attacker-Arg:T34 Instrument-Arg:T31 Target-Arg:T32 Place-Arg:T33
+T31	WEA 1051 1071	khoảng 20 quả rocket
+T32	FAC 1076 1103	căn_cứ_quân_sự của Tel_Aviv
+T33	LOC 1106 1122	cao_nguyên Golan
+T34	ORG 1019 1044	lực_lượng Quds của Tehran
+T35	LOC 925 962	gần thủ_đô Damascus và miền nam Syria
+T36	TIME 963 977	rạng sáng 10/5
+T37	GPE 857 863	Israel
+T38	FAC 901 922	mục_tiêu quân_sự Iran
+T39	Attack 657 662	phóng
+E11	Attack:T39 Instrument-Arg:T40 Attacker-Arg:T41
+T40	WEA 663 693	tên_lửa tấn_công tiêm_kích IDF
+T41	ORG 639 656	quân_đội Damascus
+T42	Attack 714 724	không_kích
+E12	Attack:T42 
+T43	Attack 581 588	phá_huỷ
+E13	Attack:T43 Attacker-Arg:T44 Target-Arg:T45
+T44	GPE 560 566	Israel
+T45	FAC 589 622	một_số trận_địa phòng_không Syria
+T46	FAC 217 233	mục_tiêu quân_sự

@@ -1,0 +1,44 @@
+T1	PER 231 239	Bầu_Kiên
+T2	PER 245 297	các cá_nhân nguyên Thường_trực Hội_đồng_quản_trị ACB
+T3	Charge-indict 304 311	truy_tố
+E1	Charge-indict:T3 Crime-Arg:T4 Defendant-Arg:T2 Defendant-Arg2:T1
+T4	CRIME 315 369	hành_vi uỷ_thác gửi tiền trái pháp_luật vào Vietinbank
+T6	CRIME 126 137	vụ bầu Kiên
+T8	ORG 72 87	TAND Tp. Hà_Nội
+T9	Trial-hearing 617 633	xét_xử phúc_thẩm
+E4	Trial-hearing:T9 Crime-Arg:T10
+T10	CRIME 566 581	Vụ án Huyền_Như
+T11	TIME 1591 1606	Ngày 06/01/2014
+T12	ORG 1609 1620	TAND TP HCM
+T13	Trial-hearing 1624 1638	xét_xử sơ_thẩm
+E5	Trial-hearing:T13 Adjudicator-Arg:T12 Time-Arg:T11 Crime-Arg:T7 Crime-Arg2:T14
+T5	Trial-hearing 111 125	xét_xử sơ_thẩm
+E2	Trial-hearing:T5 Crime-Arg:T6 Adjudicator-Arg:T8
+T7	CRIME 1639 1654	vụ án Huyền_Như
+T14	CRIME 1681 1716	phạm_tội lừa_đảo chiếm_đoạt tài_sản
+T15	ORG 1785 1795	Vietinbank
+T16	Transfer-money 1796 1810	chuyển trả lại
+E3	Transfer-money:T16 Giver-Arg:T15 Recipient-Arg:T17 Money-Arg:T18
+T17	ORG 1815 1818	ACB
+T18	MONEY 1819 1837	số tiền 24 tỷ đồng
+T19	CRIME 2309 2334	vụ án Huỳnh_Thị_Huyền_Như
+T20	Trial-hearing 2340 2356	xét_xử phúc_thẩm
+E6	Trial-hearing:T20 Crime-Arg:T19
+T21	ORG 2783 2786	ACB
+T23	Appeal 2787 2796	kháng_cáo
+E7	Appeal:T23 Defendant-Arg:T21
+T22	ORG 2805 2815	Vietinbank
+T24	Transfer-money 2821 2824	trả
+E8	Transfer-money:T24 Money-Arg:T25 Giver-Arg:T22 Recipient-Arg:T21
+T25	MONEY 2825 2856	toàn_bộ 718 tỷ và lãi phát_sinh
+T26	PER 2859 2889	Hiện vụ án Huỳnh_Thị_Huyền_Như
+T27	Trial-hearing 2895 2911	xét_xử phúc_thẩm
+E9	Trial-hearing:T27 Defendant-Arg:T26
+T28	ORG 4082 4102	Toà_án ND TP. Hà_Nội
+T29	PER 4112 4147	bầu Kiên cùng các cá_nhân liên_quan
+T30	Convict 4103 4111	kết_luận
+E10	Convict:T30 Adjudicator-Arg:T28 Defendant-Arg:T29 Crime-Arg:T31
+T31	CRIME 4148 4265	gây thiệt_hại cho ACB tức gián_tiếp xử Vietinbank không phải trả tiền trong phần trách_nhiệm dân_sự ở vụ án Huyền_Như
+T32	ORG 2624 2655	tổ_chức gửi tiền tại Vietinbank
+T33	Appeal 2681 2690	kháng_cáo
+E11	Appeal:T33 Defendant-Arg:T32

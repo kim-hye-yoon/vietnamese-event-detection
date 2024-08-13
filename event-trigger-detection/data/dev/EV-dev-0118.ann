@@ -1,0 +1,37 @@
+T1	Transfer-ownership 133 139	nhượng
+E1	Transfer-ownership:T1 Seller-Arg:T4 Buyer-Arg:T3 Artifact-Arg:T2 Price-Arg:T5
+T2	ORG 152 163	87 cửa_hàng
+T3	ORG 168 179	VinCommerce
+T4	ORG 56 65	Shop & Go
+T5	MONEY 287 296	chỉ 1 USD
+T6	Declare-bankruptcy 405 425	tuyên_bố " phá_sản "
+E2	Declare-bankruptcy:T6 
+T7	End-org 2633 2641	rút khỏi
+E3	End-org:T7 Org-Arg:T8 Place-Arg:T9
+T8	ORG 2515 2524	Shop & Go
+T9	GPE 2660 2668	Việt_Nam
+T10	End-org 2703 2711	đóng_cửa
+E4	End-org:T10 Org-Arg:T12 Time-Arg:T13
+T11	ORG 2671 2677	Vissan
+T12	ORG 2716 2727	60 cửa_hàng
+T13	TIME 2678 2690	đầu năm 2018
+T14	End-org 3334 3340	rời bỏ
+E5	End-org:T14 Org-Arg:T15 Place-Arg:T16
+T15	ORG 3297 3320	Một_số thương_hiệu khác
+T16	GPE 3352 3360	Việt_Nam
+T17	End-org 3549 3557	đóng_cửa
+E6	End-org:T17 Org-Arg:T18
+T18	ORG 3558 3572	nhiều cửa_hàng
+T19	Transfer-ownership 3629 3632	mua
+E7	Transfer-ownership:T19 Buyer-Arg:T20
+T20	PER 3619 3624	khách
+T21	End-org 4567 4574	rút_lui
+E8	End-org:T21 Org-Arg:T22 Place-Arg:T23
+T22	ORG 4579 4594	một_số tên_tuổi
+T23	GPE 4615 4623	Việt_Nam
+T24	Transfer-ownership 5126 5129	bán
+E9	Transfer-ownership:T24 Seller-Arg:T25 Buyer-Arg:T26
+T26	PER 5091 5105	khách_hàng trẻ
+T25	ORG 5004 5046	Circle K , Mini_Stop , GS25 hay 7 - Eleven
+T27	Transfer-ownership 5153 5156	bán
+E10	Transfer-ownership:T27 Seller-Arg:T25 Buyer-Arg:T26

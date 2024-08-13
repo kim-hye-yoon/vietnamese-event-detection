@@ -1,0 +1,52 @@
+T1	ORG 62 79	Công_an Hải_Phòng
+T2	Arrest-jail 84 93	phát_hiện
+E1	Arrest-jail:T2 Crime-Arg:T3 Agent-Arg:T1
+T3	CRIME 94 108	nhóm đối_tượng
+T4	ORG 247 304	Phòng PC45 và Phòng Quản_lý xuất_nhập_cảnh CATP Hải_Phòng
+T5	Arrest-jail 308 317	phát_hiện
+E2	Arrest-jail:T5 Agent-Arg:T4 Time-Arg:T8 Place-Arg:T6 Crime-Arg:T7
+T6	LOC 322 375	nhà_hàng Thảo_Viên , ở xã Ngũ_Lão , huyện Thuỷ_Nguyên
+T7	CRIME 385 399	nhóm đối_tượng
+T8	TIME 186 202	12h30’ ngày 12-1
+T9	PER 477 488	Tổ công_tác
+T10	Execute 492 504	lập biên_bản
+E3	Execute:T10 Agent-Arg:T9 Person-Arg:T11 Person-Arg2:T12 Person-Arg3:T13 Person-Arg4:T14 Person-Arg5:T15 Person-Arg6:T32 Person-Arg7:T35
+T11	PER 570 583	Hoàn_Văn_Kiên
+T12	PER 640 656	Nguyễn_Đại_Thắng
+T13	PER 731 744	Đinh_Thị_Thưi
+T14	PER 770 784	Nguyễn_Thị_Ngá
+T15	PER 859 868	Vũ_Thị_Hà
+T16	Be-born 586 590	sinh
+E4	Be-born:T16 Person-Arg:T11 Time-Arg:T20 Place-Arg:T21
+T17	Be-born 659 663	sinh
+E5	Be-born:T17 Person-Arg:T12 Time-Arg:T22 Place-Arg:T23
+T18	Be-born 747 751	sinh
+E6	Be-born:T18 Person-Arg:T13 Place-Arg:T24 Place-Arg2:T26 Time-Arg:T29
+T19	Be-born 787 791	sinh
+E7	Be-born:T19 Person-Arg:T14 Time-Arg:T30 Place-Arg:T25 Place-Arg2:T26
+T20	TIME 591 595	1975
+T21	GPE 598 637	ở khu Bình_Dương 1 , Phả_Lại , Chí_Linh
+T22	TIME 664 668	1973
+T23	GPE 673 728	khu 14 , phường Hải_Tân , TP Hải_Dương , tỉnh Hải_Dương
+T24	LOC 761 767	thôn 3
+T25	LOC 801 807	thôn 7
+T26	GPE 818 856	Phả_Lễ , huyện Thuỷ_Nguyên , Hải_Phòng
+T27	TIME 876 880	1979
+T28	GPE 883 929	ở Tiền_An , thị_xã Quảng_Yên , tỉnh Quảng_Ninh
+T29	TIME 752 756	1970
+T30	TIME 792 796	1965
+T31	Be-born 871 875	sinh
+E8	Be-born:T31 Time-Arg:T27 Person-Arg:T15 Place-Arg:T28
+T32	PER 957 967	KI YUN_SEO
+T34	TIME 975 979	1974
+T33	Be-born 970 974	sinh
+E9	Be-born:T33 Person-Arg:T32 Time-Arg:T34
+T35	PER 1009 1020	JO_SUNG_JUN
+T36	Be-born 1023 1027	sinh
+E10	Be-born:T36 Person-Arg:T35 Time-Arg:T37
+T37	TIME 1028 1032	1970
+T38	PER 2067 2083	Chủ_tịch UBND TP
+T39	Fine 2101 2108	xử_phạt
+E11	Fine:T39 Adjudicator-Arg:T38 Crime-Arg:T41 Money-Arg:T40
+T41	CRIME 2150 2176	5 đối_tượng người Việt_Nam
+T40	MONEY 2120 2141	25 triệu đồng / người

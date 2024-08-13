@@ -1,0 +1,53 @@
+T1	PER 23 37	Đoàn_Thị_Hương
+T2	Attack 48 52	giết
+E1	Attack:T2 Target-Arg:T3
+T3	PER 53 58	người
+T4	Pardon 38 47	thoát tội
+E2	Pardon:T4 Defendant-Arg:T1 Crime-Arg:T5
+T5	CRIME 48 58	giết người
+T6	ORG 195 231	Toà thượng_thẩm Shah_Alam , Malaysia
+T7	TIME 232 239	hôm_nay
+T8	Sentence 240 248	tuyên_án
+E3	Sentence:T8 Time-Arg:T7 Adjudicator-Arg:T6 Sentence-Arg:T9 Defendant-Arg:T10 Crime-Arg:T11
+T9	SEN 249 265	3 năm 4 tháng tù
+T10	PER 274 288	Đoàn_Thị_Hương
+T11	CRIME 292 359	tội " cố_ý gây thương_tích bằng hung_khí hoặc cách_thức nguy_hiểm "
+T12	Attack 375 382	sát_hại
+E4	Attack:T12 Target-Arg:T13
+T13	PER 383 411	công_dân Triều_Tiên_Kim_Chol
+T14	Release-parole 460 471	phóng_thích
+E5	Release-parole:T14 Time-Arg:T16 Person-Arg:T15
+T15	PER 431 436	Hương
+T16	TIME 476 484	ngày 4/5
+T17	Charge-indict 777 784	truy_tố
+E6	Charge-indict:T17 Crime-Arg:T18
+T18	CRIME 785 799	tội giết người
+T19	Attack 789 793	giết
+E7	Attack:T19 Target-Arg:T20
+T20	PER 794 799	người
+T21	Transport 815 821	trở_về
+E8	Transport:T21 Destination-Arg:T22
+T22	FAC 822 825	nhà
+T23	Release-parole 928 938	được tự_do
+E9	Release-parole:T23 Person-Arg:T24
+T24	PER 920 927	con_gái
+T25	Phone-write 1203 1211	gọi điện
+E10	Phone-write:T25 Entity-Arg:T26
+T26	PER 1188 1197	chồng tôi
+T27	PER 1853 1858	Hương
+T28	Release-parole 1859 1873	được trả tự_do
+E11	Release-parole:T28 Person-Arg:T27
+T30	Attack 2256 2260	giết
+E13	Attack:T30 Target-Arg:T31
+T31	PER 2261 2266	người
+T32	FAC 2136 2156	sân_bay Kuala_Lumpur
+T33	TIME 2157 2170	tháng 2/2017.
+T29	Attack 2124 2131	sát_hại
+E12	Attack:T29 Place-Arg:T32 Time-Arg:T33 Target-Arg:T34
+T34	PER 2092 2120	công_dân Triều_Tiên_Kim_Chol
+T35	Attack 2536 2540	giết
+E14	Attack:T35 Target-Arg:T36
+T36	PER 2541 2546	người
+T37	PER 2589 2591	cô
+T38	Transport 2592 2598	trở_về
+E15	Transport:T38 Artifact-Arg:T37

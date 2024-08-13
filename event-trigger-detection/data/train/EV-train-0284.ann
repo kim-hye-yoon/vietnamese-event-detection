@@ -1,0 +1,88 @@
+T1	Declare-bankruptcy 8 15	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	PER 0 7	Ông chủ
+T3	ORG 18 23	Milan
+T4	PER 48 60	Lý_Dũng_Hồng
+T5	Sue 174 183	khởi_kiện
+E2	Sue:T5 Plaintiff-Arg:T6 Defendant-Arg:T7
+T6	ORG 160 173	hai ngân_hàng
+T7	PER 136 153	Ông chủ của Milan
+T8	GPE 199 204	Italy
+T9	PER 207 220	 Lý Dũng_Hồng
+T10	Declare-bankruptcy 224 240	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T10 
+T11	ORG 295 301	Taobao
+T12	ORG 343 347	Ebay
+T13	GPE 350 360	Trung_Quốc
+T14	PER 256 259	ông
+T15	PER 363 375	Lý_Dũng_Hồng
+T16	ORG 394 399	Milan
+T17	TIME 406 418	vài ngày tới
+T18	TIME 437 449	tháng 4/2017
+T19	PER 452 493	ông chủ cũ của AC Milan Silvio Berlusconi
+T20	ORG 467 493	AC Milan Silvio Berlusconi
+T21	ORG 148 153	Milan
+T22	ORG 501 504	CLB
+T24	GPE 529 539	Trung_Quốc
+T25	ORG 513 539	nhóm doanh_nhân Trung_Quốc
+T23	PER 552 564	Lý Dũng_Hồng
+T27	ORG 123 133	quỹ đầu_tư
+T28	Transfer-ownership 38 45	rao_bán
+E5	Transfer-ownership:T28 Artifact-Arg:T3
+T29	Transfer-ownership 276 283	đấu_giá
+E6	Transfer-ownership:T29 
+T30	ORG 308 332	trang thương_mại_điện_tử
+T31	Transfer-ownership 386 393	rao_bán
+E7	Transfer-ownership:T31 Seller-Arg:T15 Artifact-Arg:T16 Time-Arg:T17
+T32	Transfer-ownership 497 500	bán
+E8	Transfer-ownership:T32 Seller-Arg:T19 Buyer-Arg:T25 Artifact-Arg:T22 Time-Arg:T18
+T34	MONEY 618 632	876 triệu đôla
+T35	ORG 579 599	đội chủ sân San_Siro
+T36	FAC 587 599	sân San_Siro
+T37	Transfer-money 769 774	bỏ ra
+E9	Transfer-money:T37 Giver-Arg:T39 Money-Arg:T38
+T38	MONEY 727 738	số tiền lớn
+T39	ORG 742 768	nhóm doanh_nhân Trung_Quốc
+T40	GPE 758 768	Trung_Quốc
+T41	TIME 781 793	tháng 6/2017
+T42	PER 796 834	các quan_chức ngân_hàng của Trung_Quốc
+T43	GPE 824 834	Trung_Quốc
+T44	ORG 810 819	ngân_hàng
+T45	Transfer-ownership 906 909	mua
+E10	Transfer-ownership:T45 Artifact-Arg:T46 Time-Arg:T41
+T46	ORG 910 918	AC_Milan
+T47	MONEY 858 881	khoản đầu_tư nước_ngoài
+T48	ORG 938 943	Milan
+T49	PER 946 958	Lý_Dũng_Hồng
+T50	Transfer-money 959 962	chi
+E11	Transfer-money:T50 Money-Arg:T51 Giver-Arg:T49 Beneficiary-Arg:T52
+T51	MONEY 970 984	250 triệu đôla
+T52	ORG 988 991	CLB
+T53	Start-position 928 937	tiếp_quản
+E12	Start-position:T53 Person-Arg:T49 Entity-Arg:T48
+T54	PER 1012 1015	Ông
+T55	Transfer-money 1026 1029	trả
+E13	Transfer-money:T55 Giver-Arg:T54 Money-Arg:T56
+T56	MONEY 1030 1042	các khoản nợ
+T57	PER 1046 1056	Berlusconi
+T58	PER 1098 1110	Lý_Dũng_Hồng
+T59	MONEY 1154 1168	300 triệu đôla
+T60	ORG 1172 1201	quỹ đầu_tư Elliott_Management
+T63	ORG 1222 1244	tờ Corriere della Sera
+T64	PER 1260 1272	Lý Dũng_Hồng
+T65	PER 1300 1303	ông
+T67	MONEY 1247 1272	khoản nợ của Lý Dũng_Hồng
+T68	PER 1345 1351	Tỷ_phú
+T69	ORG 1382 1419	Uỷ ban quản_lý chứng_khoán Trung_Quốc
+T70	GPE 1409 1419	Trung_Quốc
+T71	Declare-bankruptcy 1467 1474	phá_sản
+E16	Declare-bankruptcy:T71 Org-Arg:T72
+T72	ORG 1480 1506	ông ty Thâm Quyến_Jie_Ande
+T73	CRIME 1429 1454	hành_vi bất_hợp_pháp liên
+T74	PER 1509 1517	Duy_Đoàn
+T66	Declare-bankruptcy 1309 1325	tuyên_bố phá_sản
+E15	Declare-bankruptcy:T66 
+T26	Transfer-money 112 115	vay
+E4	Transfer-money:T26 Giver-Arg:T27 Recipient-Arg:T4
+T33	Transfer-money 1127 1130	vay
+E14	Transfer-money:T33 Recipient-Arg:T58 Money-Arg:T59 Giver-Arg:T60

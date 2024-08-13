@@ -1,0 +1,16 @@
+T1	GPE 18 24	Israel
+T2	Attack 25 31	bắn hạ
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	WEA 32 56	tên_lửa phòng_không Syri
+T5	WEA 149 179	tổ_hợp phòng_thủ tên_lửa Arrow
+T6	Attack 183 192	tiêu_diệt
+E2	Attack:T6 Instrument-Arg:T5 Target-Arg:T7
+T7	WEA 193 222	một quả đạn phòng_không Syria
+T4	WEA 603 645	hệ_thống phòng_không có tầm bắn tới 300 km
+T8	Attack 671 680	tiêu_diệt
+E3	Attack:T8 Instrument-Arg:T4 Target-Arg:T9
+T9	WEA 690 703	cơ chiến_lược
+T10	Attack 1834 1843	đánh chặn
+E4	Attack:T10 Instrument-Arg:T12 Target-Arg:T11
+T11	WEA 1849 1873	tên_lửa S -200 của Syria
+T12	VEH 1796 1821	hệ_thống Arrow của Israel

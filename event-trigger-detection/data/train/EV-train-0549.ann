@@ -1,0 +1,37 @@
+T1	Divorce 40 46	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 47 68	vợ_chồng Trung_Nguyên
+T3	Divorce 120 126	ly_hôn
+E2	Divorce:T3 Time-Arg:T4 Person-Arg:T6
+T4	TIME 71 79	Ngày 5/4
+T5	ORG 82 92	TAND TPHCM
+T6	PER 131 265	bà Lê_Hoàng_Diệp_Thảo ( 46 tuổi ) và ông Đặng_Lê_Nguyên_Vũ ( 48 tuổi , Chủ_tịch HĐQT kiêm Tổng_giám_đốc Tập_đoàn cà_phê Trung_Nguyên )
+T7	Marry 991 998	kết_hôn
+E3	Marry:T7 Time-Arg:T8 Person-Arg:T9
+T8	TIME 980 990	Sau 20 năm
+T9	PER 1013 1030	bà Thảo và ông Vũ
+T10	Sue 1083 1092	khởi_kiện
+E4	Sue:T10 Plaintiff-Arg:T13 Time-Arg:T12
+T11	Divorce 1097 1103	ly_hôn
+E5	Divorce:T11 Person-Arg:T13 Time-Arg:T12
+T12	TIME 1064 1072	Năm 2015
+T13	PER 1075 1082	bà Thảo
+T14	Trial-hearing 1169 1171	xử
+E6	Trial-hearing:T14 Time-Arg:T15
+T15	TIME 1150 1154	20/2
+T16	Trial-hearing 1320 1326	xét_xử
+E7	Trial-hearing:T16 Adjudicator-Arg:T17 Time-Arg:T18
+T17	ORG 1329 1340	TAND TP HCM
+T18	TIME 1306 1319	hơn một tháng
+T19	PER 1354 1371	bà Thảo và ông Vũ
+T20	Divorce 1377 1383	ly_hôn
+E8	Divorce:T20 Person-Arg:T19 Time-Arg:T18
+T21	Transfer-money 1705 1708	trả
+E9	Transfer-money:T21 Giver-Arg:T22 Recipient-Arg:T23 Money-Arg:T24
+T22	PER 1641 1648	Bà Thảo
+T23	PER 1717 1723	ông Vũ
+T24	MONEY 1740 1752	12,5 tỷ đồng
+T25	Transfer-money 2351 2354	trả
+E10	Transfer-money:T25 Giver-Arg:T26 Recipient-Arg:T27
+T26	PER 2329 2335	Ông Vũ
+T27	PER 2364 2371	bà Thảo

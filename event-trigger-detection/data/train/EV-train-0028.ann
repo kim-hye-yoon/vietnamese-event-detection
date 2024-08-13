@@ -1,0 +1,10 @@
+T1	PER 0 21	Chủ_tịch tỉnh Phú_Thọ
+T2	Elect 22 30	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 35 49	Bí_thư Tỉnh_uỷ
+T4	TIME 52 62	Ngày 14/12
+T5	ORG 65 99	Ban_chấp_hành Đảng_bộ tỉnh Phú_Thọ
+T6	Elect 100 106	đã bầu
+E2	Elect:T6 Person-Arg:T7 Position-Arg:T8 Entity-Arg:T5 Time-Arg:T4
+T7	PER 107 140	ông Bùi_Minh_Châu - Chủ_tịch UBND
+T8	JOB 150 183	Bí_thư Tỉnh_uỷ_nhiệm_kỳ 2015-2020

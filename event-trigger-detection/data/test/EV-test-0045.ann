@@ -1,0 +1,17 @@
+T1	PER 0 18	Thạc_sĩ du_học Anh
+T2	Start-org 19 21	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 22 44	công_ty chuyên dọn nhà
+T4	ORG 47 82	Hội_đồng_quản_trị Tập_đoàn Vingroup
+T5	Start-org 124 133	thành_lập
+E2	Start-org:T5 Agent-Arg:T4 Org-Arg:T6
+T6	ORG 134 152	công_ty VinFashion
+T7	Start-org 446 455	thành_lập
+E3	Start-org:T7 Org-Arg:T8
+T8	ORG 456 466	VinE - Com
+T9	ORG 231 239	tập_đoàn
+T10	Transfer-money 240 243	góp
+E4	Transfer-money:T10 Giver-Arg:T9 Money-Arg:T11
+T11	MONEY 244 254	14 tỷ đồng
+T13	Transfer-money 875 888	8.800 tỷ đồng
+E5	Transfer-money:T13 

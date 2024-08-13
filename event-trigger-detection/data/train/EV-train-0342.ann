@@ -1,0 +1,6 @@
+T1	Declare-bankruptcy 31 38	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 23 30	công_ty
+T3	Transfer-ownership 8 11	mua
+E2	Transfer-ownership:T3 Artifact-Arg:T4 Seller-Arg:T2
+T4	VEH 16 18	xe

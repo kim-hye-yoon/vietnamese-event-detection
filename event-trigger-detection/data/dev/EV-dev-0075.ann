@@ -1,0 +1,30 @@
+T1	ORG 73 91	Toà_án ở Hong_Kong
+T2	TIME 92 101	ngày 17/1
+T3	Sentence 102 108	kết_án
+E1	Sentence:T3 Time-Arg:T2 Adjudicator-Arg:T1 Sentence-Arg:T4 Defendant-Arg:T5 Crime-Arg:T6
+T4	SEN 109 120	ba tháng tù
+T5	PER 125 136	Joshua_Wong
+T7	PER 258 360	Nhà hoạt_động Raphael_Wong_Ho - ming , phó chủ_tịch Liên_doàn Dân_chủ Xã_hội , cộng_sự của Joshua_Wong
+T8	Sentence 363 370	lĩnh án
+E2	Sentence:T8 Defendant-Arg:T7 Sentence-Arg:T9 Crime-Arg:T10
+T9	SEN 371 389	4 tháng 15 ngày tù
+T10	CRIME 393 410	coi_thường toà_án
+T11	PER 413 465	Lester_Shum , một thủ_lĩnh sinh_viên , cùng 13 người
+T12	Sentence 466 473	lĩnh_án
+E3	Sentence:T12 Sentence-Arg:T13 Defendant-Arg:T11
+T13	SEN 477 497	một đến hai tháng tù
+T14	PER 661 695	Hàng chục người ủng_hộ Joshua_Wong
+T15	Demonstrate 696 705	tập_trung
+E4	Demonstrate:T15 Place-Arg:T16 Entity-Arg:T14
+T16	LOC 706 722	bên ngoài toà_án
+T17	PER 811 938	Thủ_lĩnh biểu_tình trẻ tuổi này , cùng cựu chủ_tịch liên_đoàn sinh_viên Hong_Kong_Alex_Chow , 26 tuổi , và Nathan_Law , 24 tuổi
+T18	TIME 941 953	tháng 8/2017
+T19	Sentence 963 970	lĩnh án
+E5	Sentence:T19 Time-Arg:T18 Defendant-Arg:T17 Sentence-Arg:T20 Crime-Arg:T21
+T20	SEN 971 990	6 , 7 và 8 tháng tù
+T21	CRIME 995 1020	cáo_buộc tụ_tập trái_phép
+T22	PER 1049 1083	Edwin_Choy , luật_sư của " bộ ba "
+T23	TIME 1086 1095	ngày 16/1
+T24	Appeal 1103 1112	kháng_cáo
+E6	Appeal:T24 Time-Arg:T23 Defendant-Arg:T22
+T6	CRIME 152 240	cản_trở thực_hiện lệnh giải_tán một khu_vực cắm trại trong phong_trào biểu_tình năm 2014

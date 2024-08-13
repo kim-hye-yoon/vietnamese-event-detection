@@ -1,0 +1,13 @@
+T1	Transfer-ownership 63 71	thanh_lý
+E1	Transfer-ownership:T1 Seller-Arg:T2 Price-Arg:T3
+T2	PER 58 62	Liên
+T3	MONEY 163 183	hàng trăm triệu đồng
+T4	Start-org 232 234	mở
+E2	Start-org:T4 Org-Arg:T6 Time-Arg:T5
+T5	TIME 209 223	Cách đây 4 năm
+T6	ORG 235 259	một hai cửa_hàng quần_áo
+T7	End-org 1167 1175	đóng_cửa
+E3	End-org:T7 Org-Arg:T8
+T8	ORG 1145 1161	4 đến 5 cửa_hàng
+T9	Declare-bankruptcy 2728 2735	phá_sản
+E4	Declare-bankruptcy:T9 

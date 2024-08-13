@@ -1,0 +1,40 @@
+T1	Die 21 25	giết
+E1	Die:T1 Agent-Arg:T3 Victim-Arg:T2
+T2	PER 26 36	5 phu trầm
+T3	PER 9 20	hai sát_thủ
+T4	Execute 1 8	Tử_hình
+E2	Execute:T4 Person-Arg:T3
+T5	Execute 131 138	tử_hình
+E3	Execute:T5 Person-Arg:T6 Agent-Arg:T7
+T6	PER 80 107	Hồ_Văn_Công và Hồ_Văn_Thành
+T7	ORG 51 70	TAND tỉnh Quảng_Trị
+T8	Trial-hearing 209 215	xét_xử
+E4	Trial-hearing:T8 Adjudicator-Arg:T9 Defendant-Arg:T10 Crime-Arg:T11 Time-Arg:T25
+T9	ORG 176 195	TAND tỉnh Quảng_Trị
+T10	PER 257 317	Hồ_Văn_Công , Hồ_Văn_Thanh ( trú tại Hướng_Hoá , Quảng_Trị )
+T11	CRIME 321 429	tội “ Giết người , cướp tài_sản , bắt_cóc chiếm_đoạt tài_sản , tàng_trữ , sử_dụng vũ_khí quân_dụng trái_phép
+T12	Execute 520 527	tử_hình
+E5	Execute:T12 Person-Arg:T13 Agent-Arg:T14
+T13	PER 491 501	hai bị_cáo
+T14	ORG 444 463	TAND tỉnh Quảng_Trị
+T15	Attack 933 942	khống_chế
+E6	Attack:T15 Attacker-Arg:T18 Target-Arg:T17 Time-Arg:T16 Instrument-Arg:T19
+T16	TIME 864 873	23/3/2013
+T17	PER 892 918	7 phu trầm quê Quảng_Trạch
+T18	PER 876 881	chúng
+T19	WEA 928 932	súng
+T20	Attack 1059 1063	giết
+E7	Attack:T20 Time-Arg:T22 Attacker-Arg:T21 Target-Arg:T23
+T21	PER 1053 1058	chúng
+T22	TIME 1041 1050	23/3/2013
+T23	PER 1083 1168	Nguyễn_Văn_Sáu , Trần_Văn_Trị , Nguyễn_Văn_Thắng , Trương_Thanh_Hiền và Đinh_Văn_Thân
+T24	Die 1064 1068	chết
+E8	Die:T24 Agent-Arg:T21 Victim-Arg:T23 Time-Arg:T22
+T25	TIME 158 173	sáng nay 30 - 5
+T26	TIME 762 776	ngày 21/3/2013
+T27	PER 779 785	Nguyên
+T28	WEA 791 822	một khẩu súng AK với 5 viên đạn
+T29	PER 828 840	Thành , Công
+T30	LOC 848 852	rừng
+T31	Transport 786 790	mang
+E9	Transport:T31 Agent-Arg:T27 Time-Arg:T26 Artifact-Arg:T28 Agent-Arg2:T29 Destination-Arg:T30

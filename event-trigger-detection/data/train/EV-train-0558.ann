@@ -1,0 +1,58 @@
+T1	End-position 36 45	cách_chức
+E1	End-position:T1 Position-Arg:T2
+T2	JOB 0 32	Hiệu_trưởng trường Nam_Trung_Yên
+T3	End-position 100 109	cách_chức
+E2	End-position:T3 Person-Arg:T4 Entity-Arg:T5 Time-Arg:T6
+T4	PER 110 211	2 lãnh_đạo Trường Tiểu_học Nam_Trung_Yên là Hiệu_trưởng Tạ_Thị_Bích_Ngọc và Hiệu phó Nguyễn_Thị_Hương
+T5	ORG 61 79	UBND quận Cầu_Giấy
+T6	TIME 48 58	Chiều 20/2
+T7	Meet 83 86	họp
+E3	Meet:T7 Entity-Arg:T5 Time-Arg:T6
+T8	End-position 381 390	cách_chức
+E4	End-position:T8 Person-Arg:T9
+T9	PER 391 407	bà Ngọc và Hương
+T10	Meet 427 435	buổi họp
+E5	Meet:T10 Entity-Arg:T11 Entity-Arg2:T12 Time-Arg:T13
+T11	PER 451 469	lãnh_đạo thành_phố
+T12	ORG 473 485	các sở ngành
+T13	TIME 436 445	cùng ngày
+T14	PER 716 724	bà Hương
+T15	Phone-write 725 735	điện_thoại
+E6	Phone-write:T15 Entity-Arg:T14 Entity-Arg2:T16
+T16	PER 740 753	bảo_vệ trường
+T17	Attack 871 874	đâm
+E7	Attack:T17 Instrument-Arg:T20 Target-Arg:T18 Place-Arg:T19
+T18	PER 805 823	cháu Trần_Chí_Kiên
+T19	FAC 792 802	sân trường
+T20	VEH 867 870	ôtô
+T21	Injure 877 880	ngã
+E8	Injure:T21 Victim-Arg:T18 Place-Arg:T19
+T22	Injure 2171 2181	Vết_thương
+E9	Injure:T22 Agent-Arg:T23
+T23	PER 2193 2211	cháu Trần_Chí_Kiên
+T24	End-position 2352 2361	cách_chức
+E10	End-position:T24 Person-Arg:T25 Time-Arg:T29 Entity-Arg:T28
+T25	PER 2370 2426	Hiệu_trưởng Tạ_Thị_Bích_Ngọc , Hiệu_phó Nguyễn_Thị_Hương
+T26	Meet 2294 2297	họp
+E11	Meet:T26 Entity-Arg:T28 Entity-Arg2:T27 Time-Arg:T29
+T27	ORG 2280 2293	quận Cầu_Giấy
+T28	ORG 2298 2314	Hội_đồng_kỷ_luật
+T29	TIME 2320 2336	trong chiều 20/2
+T30	End-position 2950 2959	cách_chức
+E12	End-position:T30 Person-Arg:T31
+T31	PER 2960 2974	hai cán_bộ này
+T32	Phone-write 3586 3596	điện_thoại
+E13	Phone-write:T32 Entity-Arg:T33 Entity-Arg2:T36 Time-Arg:T37
+T33	PER 3601 3638	cô_giáo trường tiểu_học Nam_Trung_Yên
+T34	Injure 3661 3664	ngã
+E14	Injure:T34 Victim-Arg:T38
+T35	Injure 3681 3688	cấp_cứu
+E15	Injure:T35 
+T36	PER 3549 3575	gia_đình anh Trần_Chí_Dũng
+T37	TIME 3532 3546	ngày 1/12/2016
+T38	PER 3649 3657	con_trai
+T39	Transport 3928 3929	_
+E16	Transport:T39 Vehicle-Arg:T41 Artifact-Arg:T42
+T40	FAC 3942 3952	sân trường
+T41	VEH 3891 3920	xe Hyundai màu xanh nước biển
+T42	PER 3974 4010	cô hiệu_trưởng và một giáo_viên khác

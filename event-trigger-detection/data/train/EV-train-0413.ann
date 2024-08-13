@@ -1,0 +1,34 @@
+T1	Transfer-money 25 28	chi
+E1	Transfer-money:T1 Giver-Arg:T2 Place-Arg:T3 Money-Arg:T4
+T2	ORG 0 8	Tập_đoàn
+T3	GPE 13 24	Philippines
+T4	MONEY 29 41	28 triệu USD
+T5	Transfer-ownership 45 48	mua
+E2	Transfer-ownership:T5 Price-Arg:T4 Seller-Arg:T2 Artifact-Arg:T6
+T6	ORG 49 85	công_ty Thức_ăn thuỷ_sản Vĩnh_Hoàn 1
+T7	Transfer-ownership 148 151	thu
+E3	Transfer-ownership:T7 Price-Arg:T9 Beneficiary-Arg:T8 Time-Arg:T10
+T8	ORG 137 144	công_ty
+T9	MONEY 155 168	19,6 triệu đô
+T10	TIME 205 217	tháng 7/2014
+T11	Transfer-ownership 304 307	bán
+E4	Transfer-ownership:T11 Seller-Arg:T12 Buyer-Arg:T14 Artifact-Arg:T13
+T12	ORG 293 300	công_ty
+T13	ORG 308 360	Công_ty_cổ_phần Thức_ăn thuỷ_sản Vĩnh_Hoàn 1 ( VHF )
+T14	PER 365 387	một đối_tác nước_ngoài
+T15	Transfer-ownership 404 407	bán
+E5	Transfer-ownership:T15 Seller-Arg:T16 Buyer-Arg:T17
+T16	PER 400 403	VHC
+T17	ORG 433 491	Pilmico_International_Pte . Ltd. ( Pilmico_International )
+T18	PER 574 595	Pilmico_International
+T19	Transfer-money 599 602	mua
+E6	Transfer-money:T19 Recipient-Arg:T18 Time-Arg:T20
+T20	TIME 616 632	trong vòng 5 năm
+T21	ORG 905 912	công_ty
+T22	Transfer-ownership 916 919	thu
+E7	Transfer-ownership:T22 Beneficiary-Arg:T21 Price-Arg:T23
+T23	MONEY 923 936	19,6 triệu đô
+T24	Start-org 1070 1079	thành_lập
+E8	Start-org:T24 Agent-Arg:T26 Time-Arg:T25
+T25	TIME 1080 1088	năm 2007
+T26	ORG 1091 1094	VHF

@@ -1,0 +1,17 @@
+T1	Pardon 6 11	ân_xá
+E1	Pardon:T1 Adjudicator-Arg:T2 Defendant-Arg:T3
+T2	PER 0 5	Putin
+T3	PER 16 35	chiến_binh Chechnya
+T4	Die 357 361	giết
+E2	Die:T4 Victim-Arg:T5
+T5	PER 362 367	người
+T6	Attack 386 394	khủng_bố
+E3	Attack:T6 
+T7	Charge-indict 407 414	truy_tố
+E4	Charge-indict:T7 
+T8	Pardon 585 590	ân_xá
+E5	Pardon:T8 Time-Arg:T9 Adjudicator-Arg:T10 Defendant-Arg:T11
+T9	TIME 594 609	kéo_dài 6 tháng
+T10	PER 547 552	Putin
+T11	PER 635 742	những binh_sĩ Nga phạm_tội khi đóng quân tại Chechnya và một_số nước cộng_hoà khác thuộc khu_vực Bắc_Kavkaz
+T12	PER 827 835	Ngọc_Sơn

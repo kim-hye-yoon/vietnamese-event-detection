@@ -1,0 +1,13 @@
+T1	PER 0 18	Phó bí_thư Tỉnh_uỷ
+T2	Elect 19 27	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 32 56	Chủ_tịch UBND Quảng_Bình
+T4	Elect 287 290	bầu
+E2	Elect:T4 Position-Arg:T7 Entity-Arg:T6 Time-Arg:T5
+T5	TIME 132 142	Chiều 6/12
+T6	ORG 160 190	HĐND tỉnh Quảng_Bình khoá XVII
+T7	JOB 302 338	hủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T8	PER 351 435	ông Trần_Công_Thuật - Phó bí_thư thường_trực Tỉnh_uỷ , Trưởng_đoàn đại_biểu quốc_hội
+T9	Elect 436 444	được bầu
+E3	Elect:T9 Position-Arg:T10 Person-Arg:T8
+T10	JOB 449 467	Chủ_tịch UBND tỉnh

@@ -1,0 +1,3 @@
+T1	Transfer-ownership 251 254	bán
+E1	Transfer-ownership:T1 Price-Arg:T2
+T2	MONEY 255 300	666,66 USD ( tương_đương 2.772 USD hiện_nay )

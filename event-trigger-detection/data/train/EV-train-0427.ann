@@ -1,0 +1,11 @@
+T1	PER 0 5	Tử_tù
+T2	Release-parole 11 20	trả tự_do
+E1	Release-parole:T2 Person-Arg:T1 Time-Arg:T3
+T3	TIME 21 31	sau 45 năm
+T4	Die 36 40	chết
+E2	Die:T4 
+T5	Transport 77 80	tới
+E3	Transport:T5 
+T6	TIME 81 117	sân_bay thành_phố Izmir , Thổ_Nhĩ_Kỳ
+T7	TIME 118 127	hôm 12/10
+T8	PER 43 76	Mục_sư Brunson ( áp trắng ) và vợ

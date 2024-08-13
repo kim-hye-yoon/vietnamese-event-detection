@@ -1,0 +1,42 @@
+T1	ORG 506 533	Công_ty Taekwang_Industrial
+T2	ORG 563 581	hãng thời_trang Mỹ
+T3	Merge-org 550 557	hợp_tác
+E1	Merge-org:T3 Org-Arg:T1 Org-Arg2:T2 Time-Arg:T4
+T4	TIME 585 604	cuối những năm 1980
+T5	PER 1075 1081	tỷ_phú
+T6	Be-born 1082 1091	xuất_thân
+E2	Be-born:T6 Person-Arg:T5
+T7	PER 1352 1381	Cựu Tổng_thống Roh_Moo - hyun
+T8	Die 1385 1390	tự_tử
+E3	Die:T8 Agent-Arg:T7 Time-Arg:T9
+T9	TIME 1495 1503	năm 2009
+T10	PER 1515 1535	ông chủ của Taekwang
+T11	Sentence 1539 1545	kết_án
+E4	Sentence:T11 Defendant-Arg:T10 Sentence-Arg:T12 Crime-Arg:T13
+T12	SEN 1546 1562	30 tháng tù_giam
+T13	CRIME 1566 1645	các tội_danh trốn_thuế , hối_lộ giống như chủ_tịch Hyundai_Motor , SK , Samsung
+T14	PER 1677 1685	Taekwang
+T15	Transfer-money 1689 1693	thuê
+E5	Transfer-money:T15 Giver-Arg:T14 Beneficiary-Arg:T16
+T16	PER 1698 1737	quản_lý chuyên_nghiệp điều_hành công_ty
+T17	Start-org 2174 2183	thành_lập
+E6	Start-org:T17 Org-Arg:T19 Time-Arg:T18
+T18	TIME 2184 2192	năm 1971
+T19	ORG 2195 2203	Taekwang
+T20	ORG 3166 3179	nhiều công_ty
+T21	End-org 3185 3193	đóng_cửa
+E7	End-org:T21 Org-Arg:T20
+T22	ORG 3882 3890	Taekwang
+T23	Transfer-ownership 3891 3894	bán
+E8	Transfer-ownership:T23 Buyer-Arg:T25 Seller-Arg:T22 Time-Arg:T24
+T24	TIME 3913 3925	trong 25 năm
+T25	ORG 3904 3912	Việt_Nam
+T26	ORG 3940 3948	Taekwang
+T27	ORG 3968 3984	nhà_máy phân_bón
+T28	Start-org 3957 3967	triển_khai
+E9	Start-org:T28 Agent-Arg:T26 Org-Arg:T27 Place-Arg:T30
+T30	GPE 4010 4018	Việt_Nam
+T29	ORG 4041 4053	doanh_nghiệp
+T31	Transfer-ownership 4089 4092	mua
+E10	Transfer-ownership:T31 Buyer-Arg:T32 Seller-Arg:T29
+T32	ORG 4105 4165	Gemadept - nhà_khai_thác cảng biển tư_nhân lớn nhất Việt_Nam

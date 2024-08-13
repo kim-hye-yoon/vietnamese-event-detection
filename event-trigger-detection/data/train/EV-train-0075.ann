@@ -1,0 +1,12 @@
+T1	ORG 0 23	Công_ty vali thông_minh
+T2	Declare-bankruptcy 24 31	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T13	ORG 1586 1602	công_ty sản_xuất
+T14	Declare-bankruptcy 1628 1635	phá_sản
+E2	Declare-bankruptcy:T14 Org-Arg:T13
+T21	TIME 2615 2618	1/5
+T22	ORG 2630 2637	công_ty
+T23	Declare-bankruptcy 2668 2675	phá_sản
+E3	Declare-bankruptcy:T23 Org-Arg:T22 Time-Arg:T21
+T3	Transport 407 416	di_chuyển
+E4	Transport:T3 

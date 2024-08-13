@@ -1,0 +1,21 @@
+T1	PER 137 152	Hàng trăm người
+T2	Demonstrate 153 162	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1 Time-Arg:T3 Place-Arg:T5 Place-Arg2:T6 Place-Arg3:T7
+T3	TIME 163 170	hôm_nay
+T4	Transport 171 181	tràn xuống
+E2	Transport:T4 Artifact-Arg:T1 Destination-Arg:T5 Destination-Arg2:T6 Destination-Arg3:T7
+T5	LOC 182 191	đường_phố
+T6	GPE 194 206	thủ_đô Tokyo
+T7	GPE 211 219	Nhật_Bản
+T8	PER 0 9	Dân Tokyo
+T9	Demonstrate 18 27	biểu_tình
+E3	Demonstrate:T9 Entity-Arg:T8
+T10	ORG 449 466	Chính_quyền Tokyo
+T11	End-org 475 483	đóng_cửa
+E4	End-org:T11 Org-Arg:T10 Org-Arg2:T12 Time-Arg:T13
+T12	ORG 484 491	khu chợ
+T13	TIME 500 509	ngày 6/10
+T14	ORG 1840 1853	Chợ cá Toyosu
+T15	Start-org 1861 1867	mở_cửa
+E5	Start-org:T15 Time-Arg:T16 Org-Arg:T14
+T16	TIME 1872 1882	ngày 11/10

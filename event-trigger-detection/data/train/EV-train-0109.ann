@@ -1,0 +1,26 @@
+T1	PER 0 19	Sinh_viên Thuỵ_Điển
+T2	Demonstrate 36 45	biểu_tình
+E1	Demonstrate:T2 Place-Arg:T3 Entity-Arg:T1
+T3	LOC 51 58	máy_bay
+T4	PER 2126 2129	tôi
+T5	Meet 2142 2148	gặp_gỡ
+E2	Meet:T5 Entity-Arg:T4 Entity-Arg2:T6
+T6	PER 2149 2179	những người đến từ Afghanistan
+T7	PER 2149 2160	những người
+T8	Transport 2161 2164	đến
+E3	Transport:T8 Artifact-Arg:T7 Origin-Arg:T9
+T9	GPE 2168 2179	Afghanistan
+T10	Transport 1730 1733	đưa
+E4	Transport:T10 Artifact-Arg:T11 Destination-Arg:T12
+T11	PER 1734 1742	người_ta
+T12	LOC 1746 1754	địa_ngục
+T13	PER 3588 3597	chúng_tôi
+T14	VEH 3606 3621	máy_bay tư_nhân
+T15	PER 3626 3628	họ
+T17	GPE 3632 3643	Afghanistan
+T16	Transport 3622 3625	đưa
+E5	Transport:T16 Agent-Arg:T13 Artifact-Arg:T15 Vehicle-Arg:T14 Destination-Arg:T17
+T18	PER 214 216	cô
+T19	Transfer-ownership 217 223	mua vé
+E6	Transfer-ownership:T19 Buyer-Arg:T18 Time-Arg:T20
+T20	TIME 257 266	sáng 23/7

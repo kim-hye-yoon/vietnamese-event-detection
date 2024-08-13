@@ -1,0 +1,16 @@
+T1	Fine 11 18	xử_phạt
+E1	Fine:T1 Adjudicator-Arg:T2 Entity-Arg:T3
+T2	GPE 0 10	Quảng_Bình
+T3	PER 19 58	nhiều người bắn pháo dịp Tết_Nguyên_đán
+T4	Fine 227 234	xử_phạt
+E2	Fine:T4 Entity-Arg:T5 Crime-Arg:T6
+T5	PER 235 247	gần 50 người
+T6	CRIME 248 306	về các hành_vi đốt , vận_chuyển và tàng_trữ pháo trái_phép
+T7	Transport 388 398	vận_chuyển
+E3	Transport:T7 Artifact-Arg:T8
+T8	PER 364 372	48 người
+T9	Transport 470 480	vận_chuyển
+E4	Transport:T9 
+T10	Fine 517 524	xử_phạt
+E5	Fine:T10 Entity-Arg:T11
+T11	PER 536 547	nhiều người

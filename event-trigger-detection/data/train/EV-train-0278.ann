@@ -1,0 +1,37 @@
+T1	Elect 15 23	được bầu
+E1	Elect:T1 Person-Arg:T2 Position-Arg:T3
+T2	PER 0 14	Bí_thư Yên_Bái
+T3	JOB 28 54	Chủ_tịch Hội_đồng_nhân_dân
+T4	End-position 166 176	miễn_nhiệm
+E2	End-position:T4 Person-Arg:T6 Position-Arg:T5 Time-Arg:T7
+T5	JOB 187 205	Chủ_tịch UBND tỉnh
+T6	PER 210 250	bà Phạm_Thị_Thanh_Trà ( Bí_thư Tỉnh_uỷ )
+T7	TIME 57 66	Chiều 8/2
+T8	Elect 263 266	bầu
+E3	Elect:T8 Person-Arg:T6 Position-Arg:T9
+T9	JOB 279 341	Chủ_tịch Hội_đồng_nhân_dân tỉnh khoá 18 , nhiệm_kỳ 2016 - 2021
+T10	Elect 362 365	bầu
+E4	Elect:T10 Entity-Arg:T11 Person-Arg:T12 Position-Arg:T13
+T11	PER 344 356	Các đại_biểu
+T12	PER 366 403	ông Đỗ_Đức_Duy ( Phó bí_thư Tỉnh_uỷ )
+T13	JOB 413 452	Chủ_tịch UBND tỉnh nhiệm_kỳ 2016 - 2021
+T14	Elect 547 550	bầu
+E5	Elect:T14 Entity-Arg:T15 Person-Arg:T16 Person-Arg2:T17 Person-Arg3:T18
+T15	ORG 506 528	Hội_đồng_nhân_dân tỉnh
+T16	PER 586 629	ông Giàng_A_Câu ( Trưởng_Ban Dân_tộc tỉnh )
+T17	PER 632 688	ông Phạm_Sỹ_Quý ( Giám_đốc Sở Tài_nguyên và Môi_trường )
+T18	PER 689 757	, bà Lê_Thị_Thanh_Bình ( Giám_đốc Sở Văn_hoá , Thể_thao và Du_lịch )
+T19	Elect 810 818	được bầu
+E6	Elect:T19 Person-Arg:T20 Position-Arg:T21
+T20	PER 760 809	Ông Đỗ_Quang_Minh , Chủ_tịch UBND thị_xã Nghĩa_Lộ
+T21	JOB 828 861	Trưởng_ban Kinh_tế Ngân_sách tỉnh
+T22	Be-born 886 890	sinh
+E7	Be-born:T22 Person-Arg:T25 Time-Arg:T23 Place-Arg:T24
+T23	TIME 891 899	năm 1964
+T24	GPE 906 913	Nghệ_An
+T25	PER 864 885	Bà Phạm_Thị_Thanh_Trà
+T26	Be-born 1166 1170	sinh
+E8	Be-born:T26 Person-Arg:T27 Time-Arg:T28 Place-Arg:T29
+T27	PER 1151 1165	Ông Đỗ_Đức_Duy
+T28	TIME 1171 1179	năm 1970
+T29	GPE 1186 1195	Thái_Bình

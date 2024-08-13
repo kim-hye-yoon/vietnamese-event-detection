@@ -1,0 +1,40 @@
+T1	PER 0 11	Người Ấn_Độ
+T2	Demonstrate 12 21	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 82 87	người
+T4	Die 88 98	thiệt_mạng
+E2	Die:T4 Victim-Arg:T3
+T5	PER 66 98	Các gia_đình có người thiệt_mạng
+T6	Demonstrate 123 132	biểu_tình
+E3	Demonstrate:T6 Entity-Arg:T5 Place-Arg:T7 Time-Arg:T8
+T7	LOC 135 146	hiện_trường
+T8	TIME 147 154	hôm_nay
+T9	PER 169 191	Người_nhà các nạn_nhân
+T10	Demonstrate 208 217	biểu_tình
+E4	Demonstrate:T10 Entity-Arg:T9 Place-Arg:T11
+T11	LOC 220 237	khu_vực đường_ray
+T12	PER 638 654	hàng nghìn người
+T13	Die 655 659	chết
+E5	Die:T13 Victim-Arg:T12
+T14	PER 681 686	Người
+T15	Demonstrate 687 696	biểu_tình
+E6	Demonstrate:T15 Entity-Arg:T14
+T16	PER 2168 2173	người
+T17	Die 2174 2178	chết
+E7	Die:T17 Victim-Arg:T16
+T18	PER 2181 2196	Một_số gia_đình
+T19	Transport 2211 2213	đi
+E8	Transport:T19 Artifact-Arg:T18 Origin-Arg:T20 Destination-Arg:T21 Time-Arg:T22
+T20	FAC 2217 2230	bệnh_viện này
+T21	FAC 2236 2250	bệnh_viện khác
+T22	TIME 2276 2285	hôm 20/10
+T23	PER 2517 2525	90 người
+T24	Injure 2526 2540	bị_thương nặng
+E9	Injure:T24 Agent-Arg:T23
+T25	PER 2806 2842	Thủ_hiến bang Punjab_Amarinder_Singh
+T26	Transport 2877 2880	tới
+E10	Transport:T26 Agent-Arg:T25 Destination-Arg:T27
+T27	FAC 2904 2913	bệnh_viện
+T28	PER 2993 3005	15.000 người
+T29	Die 3006 3010	chết
+E11	Die:T29 Victim-Arg:T28

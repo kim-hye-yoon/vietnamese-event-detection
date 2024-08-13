@@ -1,0 +1,4 @@
+T1	Transfer-money 138 141	chi
+E1	Transfer-money:T1 Money-Arg:T3 Time-Arg:T2
+T2	TIME 63 73	Ngày 18/12
+T3	MONEY 142 159	hơn một triệu USD

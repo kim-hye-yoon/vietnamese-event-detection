@@ -1,0 +1,5 @@
+T1	Sue 447 454	tố_giác
+E1	Sue:T1 Plaintiff-Arg:T2 Defendant-Arg:T3 Crime-Arg:T4
+T2	PER 407 438	anh Nguyễn ( trú xã Phong_Lộc )
+T3	PER 455 463	ông Quân
+T4	CRIME 464 497	lén_lút vào nhà_nghỉ cùng vợ mình

@@ -1,0 +1,27 @@
+T1	Attack 92 99	đập phá
+E1	Attack:T1 Attacker-Arg:T2 Target-Arg:T3
+T2	PER 79 91	kẻ quá_khích
+T3	FAC 100 109	nhà_xưởng
+T4	Transport 252 254	về
+E2	Transport:T4 Destination-Arg:T5 Time-Arg:T6 Artifact-Arg:T20
+T5	GPE 255 263	Đài_Loan
+T6	TIME 236 243	Mỗi năm
+T7	Transport 1485 1488	đến
+E3	Transport:T7 Destination-Arg:T9 Artifact-Arg:T8
+T8	PER 1411 1467	ông Tsai_Hun_Lie , Tổng_giám_đốc Công_ty giày Thông_Dụng
+T9	GPE 1489 1520	phường An_Phú , thị_xã Thuận_An
+T10	Transfer-money 1521 1527	đầu_tư
+E4	Transfer-money:T10 Time-Arg:T11 Giver-Arg:T8
+T11	TIME 1539 1553	13 năm năm qua
+T12	Attack 1725 1728	đốt
+E5	Attack:T12 Attacker-Arg:T13 Target-Arg:T14 Time-Arg:T15
+T13	PER 1711 1721	kẻ đập phá
+T14	FAC 1729 1754	10/19 dây_chuyền sản_xuất
+T15	TIME 1691 1702	sau một đêm
+T16	Transfer-ownership 2978 2987	xuất_khẩu
+E6	Transfer-ownership:T16 Artifact-Arg:T17
+T17	FAC 2988 2992	hàng
+T18	Transfer-money 3026 3035	nhập_khẩu
+E7	Transfer-money:T18 
+T19	FAC 3036 3068	máy_móc , thiết_bị , nguyên_liệu
+T20	PER 244 247	tôi

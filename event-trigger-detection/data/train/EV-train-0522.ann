@@ -1,0 +1,4 @@
+T1	PER 0 39	Chàng_trai có biệt_danh ' kẻ đào vàng '
+T2	Marry 44 47	lấy
+E1	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T3	PER 48 62	vợ hơn 45 tuổi

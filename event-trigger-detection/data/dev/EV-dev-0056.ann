@@ -1,0 +1,31 @@
+T1	Attack 31 39	tấn_công
+E1	Attack:T1 Target-Arg:T2 Place-Arg:T3
+T2	PER 11 24	19 người_thân
+T3	GPE 50 55	Syria
+T5	Die 1846 1853	bỏ_mạng
+E3	Die:T5 Victim-Arg:T18
+T6	Die 309 319	thiệt_mạng
+E4	Die:T6 Victim-Arg:T7
+T7	PER 300 308	70 người
+T8	Attack 1768 1776	tấn_công
+E5	Attack:T8 
+T9	Die 1756 1760	chết
+E6	Die:T9 Victim-Arg:T17
+T10	Attack 1268 1276	tấn_công
+E7	Attack:T10 Instrument-Arg:T12
+T11	Attack 602 612	không_kích
+E8	Attack:T11 Time-Arg:T13
+T12	VEH 1248 1255	Máy_bay
+T13	TIME 579 590	Khoảng 6h30
+T14	Attack 696 706	không_kích
+E9	Attack:T14 
+T15	Attack 1416 1423	bắn phá
+E10	Attack:T15 Attacker-Arg:T16
+T16	ORG 1388 1414	chiến_đấu cơ_quân chính_ph
+T17	PER 1703 1748	ông nội , các anh_em của cậu bé và con_cái họ
+T18	PER 1866 1874	19 người
+T19	PER 58 63	Yusif
+T20	Transport 69 75	chuyển
+E11	Transport:T20 Artifact-Arg:T19 Destination-Arg:T21 Time-Arg:T22
+T21	FAC 80 98	bệnh_viện Reyhanli
+T22	TIME 99 106	hôm 5/4

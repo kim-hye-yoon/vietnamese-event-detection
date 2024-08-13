@@ -1,0 +1,18 @@
+T1	Attack 89 97	khai_hoả
+E1	Attack:T1 Target-Arg:T3 Attacker-Arg:T2
+T2	ORG 71 88	Phòng_không Syria
+T3	WEA 108 126	tên_lửa hành_trình
+T4	Attack 127 135	tấn_công
+E2	Attack:T4 Target-Arg:T5
+T5	FAC 136 147	căn_cứ T -4
+T6	Attack 452 457	phóng
+E3	Attack:T6 
+T7	WEA 458 478	8 tên_lửa hành_trình
+T8	Die 889 899	thiệt_mạng
+E4	Die:T8 Victim-Arg:T12
+T9	Injure 912 921	bị_thương
+E5	Injure:T9 Victim-Arg:T10
+T10	PER 903 911	30 người
+T11	Attack 931 939	tấn_công
+E6	Attack:T11 
+T12	PER 850 858	12 người

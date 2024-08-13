@@ -1,0 +1,32 @@
+T1	Elect 22 30	được bầu
+E1	Elect:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 21	Tổng_giám_đốc Ecopark
+T3	JOB 35 58	Chủ_tịch HĐQT Vinaconex
+T4	Elect 93 96	bầu
+E2	Elect:T4 Position-Arg:T5 Time-Arg:T6
+T5	JOB 97 185	thành_viên HĐQT và Ban kiểm_soát Tổng_CTCP Xuất_nhập_khẩu và Xây_dựng Việt_Nam_Vinaconex
+T6	TIME 211 220	sáng 11/1
+T7	Start-org 573 582	thành_lập
+E3	Start-org:T7 Org-Arg:T8 Time-Arg:T9
+T8	ORG 524 553	Công_ty Bất_động_sản Cường_Vũ
+T9	TIME 583 596	cuối năm 2017
+T10	Elect 631 634	bầu
+E4	Elect:T10 Person-Arg:T11 Position-Arg:T12
+T11	PER 635 758	ông Đào_Ngọc_Thanh ( Tổng_giám_đốc Công_ty_cổ_phần Đầu_tư và Phát_triển Việt_Hưng - chủ_đầu_tư dự_án Khu_đô_thị ( Ecopark )
+T12	JOB 770 793	Chủ_tịch HĐQT Vinaconex
+T13	Transfer-ownership 2625 2628	bán
+E5	Transfer-ownership:T13 Price-Arg:T15 Seller-Arg:T14
+T14	PER 2614 2616	Họ
+T15	MONEY 2647 2658	21.300 đồng
+T16	Transfer-ownership 2979 2982	mua
+E6	Transfer-ownership:T16 Price-Arg:T17 Buyer-Arg:T18
+T17	MONEY 3034 3047	1.900 tỷ đồng
+T18	ORG 2952 2963	An_Quý_Hưng
+T19	Transfer-ownership 3093 3096	mua
+E7	Transfer-ownership:T19 Buyer-Arg:T20
+T20	ORG 3050 3066	Công_ty Cường_Vũ
+T21	ORG 3179 3190	Star_Invest
+T22	MONEY 3203 3209	830 tỷ
+T23	Transfer-ownership 3213 3216	mua
+E8	Transfer-ownership:T23 Price-Arg:T22 Buyer-Arg:T21 Seller-Arg:T24
+T24	PER 3242 3260	nhà_đầu nước_ngoài

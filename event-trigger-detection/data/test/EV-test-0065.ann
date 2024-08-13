@@ -1,0 +1,15 @@
+T1	PER 32 38	trợ_lý
+T2	Attack 39 43	đánh
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T3
+T3	PER 44 59	người biểu_tình
+T4	PER 110 186	một người đàn_ông đội mũ_bảo_hiểm dành cho cảnh_sát cùng những cảnh_sát khác
+T5	Attack 187 191	đánh
+E2	Attack:T5 Attacker-Arg:T4 Target-Arg:T6 Place-Arg:T7 Time-Arg:T8
+T6	PER 192 207	người biểu_tình
+T7	LOC 213 235	đường_phố thủ_đô Paris
+T8	TIME 236 243	hôm 1/5
+T9	ORG 1246 1269	Liên_đoàn lao_động Pháp
+T10	Demonstrate 1291 1300	biểu_tình
+E3	Demonstrate:T10 Entity-Arg:T9 Time-Arg:T11 Time-Arg2:T12
+T11	TIME 1305 1332	ngày Quốc_tế Lao_động ( 1/5
+T12	TIME 1270 1278	hàng năm

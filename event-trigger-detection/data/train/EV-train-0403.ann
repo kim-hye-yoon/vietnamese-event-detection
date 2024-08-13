@@ -1,0 +1,22 @@
+T1	Transport 18 24	đi qua
+E1	Transport:T1 Destination-Arg:T4 Agent-Arg:T2 Vehicle-Arg:T3
+T2	GPE 0 2	Mỹ
+T3	VEH 8 17	tàu_chiến
+T4	GPE 25 41	eo_biển Đài_Loan
+T5	Transport 135 144	di_chuyển
+E2	Transport:T5 Destination-Arg:T7 Vehicle-Arg:T6
+T6	VEH 127 134	các tàu
+T7	GPE 149 165	eo_biển Đài_Loan
+T8	Transfer-ownership 1021 1024	bán
+E3	Transfer-ownership:T8 Seller-Arg:T9 Buyer-Arg:T10 Price-Arg:T11 Artifact-Arg:T12 Time-Arg:T13
+T9	GPE 1015 1017	Mỹ
+T10	GPE 1029 1037	Đài_Loan
+T11	MONEY 1038 1051	hơn 15 tỷ USD
+T12	WEA 1052 1058	vũ_khí
+T13	TIME 1059 1070	từ năm 2010
+T14	Transport 1254 1258	lượn
+E4	Transport:T14 Destination-Arg:T17 Vehicle-Arg:T16 Agent-Arg:T15 Time-Arg:T18
+T15	GPE 1202 1212	Trung_Quốc
+T16	VEH 1231 1253	máy_bay và tàu quân_sự
+T17	LOC 1265 1268	đảo
+T18	TIME 1293 1304	vài năm qua

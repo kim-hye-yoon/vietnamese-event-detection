@@ -1,0 +1,7 @@
+T1	Attack 1142 1150	tấn_công
+E1	Attack:T1 Target-Arg:T2 Time-Arg:T3
+T2	FAC 1155 1177	sân_bay T -4 của Syria
+T3	TIME 1179 1195	rước đó một tuần
+T4	Attack 1199 1206	phá_huỷ
+E2	Attack:T4 Target-Arg:T5
+T5	VEH 1207 1233	một xe chiến_đấu Tor - M 1

@@ -1,0 +1,71 @@
+T1	Pardon 12 17	ân_xá
+E1	Pardon:T1 Defendant-Arg:T2
+T2	PER 22 44	tử_tù Nguyễn_Đức_Nghĩa
+T3	Sentence 155 162	tử_hình
+E2	Sentence:T3 Sentence-Arg:T4 Defendant-Arg:T5
+T4	SEN 155 162	tử_hình
+T5	PER 143 148	Nghĩa
+T6	PER 276 291	hơn 360 tù_nhân
+T7	Sentence 297 299	án
+E3	Sentence:T7 Sentence-Arg:T9 Defendant-Arg:T6 Place-Arg:T11
+T8	Die 155 162	tử_hình
+E4	Die:T8 Victim-Arg:T5
+T9	SEN 300 307	tử_hình
+T10	Die 300 307	tử_hình
+E5	Die:T10 Victim-Arg:T6 Place-Arg:T11
+T11	LOC 324 336	trên cả nước
+T12	Die 406 410	giết
+E6	Die:T12 Victim-Arg:T13 Agent-Arg:T14
+T13	PER 411 416	người
+T14	PER 389 405	Nguyễn_Đức_Nghĩa
+T15	Appeal 465 474	kháng_cáo
+E7	Appeal:T15 Defendant-Arg:T14 Adjudicator-Arg:T16
+T16	ORG 350 378	HĐXX Toà_án nhân_dân tối_cao
+T17	Sentence 493 503	tuyên y_án
+E8	Sentence:T17 Sentence-Arg:T18 Defendant-Arg:T14 Time-Arg:T20 Crime-Arg:T21
+T18	SEN 504 511	tử_hình
+T19	Die 504 511	tử_hình
+E9	Die:T19 Victim-Arg:T14
+T20	TIME 475 490	trưa 11/11/2010
+T21	CRIME 519 545	giết người và cướp tài_sản
+T22	Die 519 523	giết
+E10	Die:T22 Victim-Arg:T23 Agent-Arg:T14
+T23	PER 524 529	người
+T24	Convict 563 573	phán_quyết
+E11	Convict:T24 Adjudicator-Arg:T25
+T25	ORG 578 591	Toà phúc_thẩm
+T26	TIME 548 591	Chỉ 4 ngày sau phán_quyết của Toà phúc_thẩm
+T27	PER 594 599	Nghĩa
+T28	Pardon 608 613	ân_xá
+E12	Pardon:T28 Defendant-Arg:T27 Adjudicator-Arg:T29 Time-Arg:T26
+T29	PER 622 635	Chủ_tịch nước
+T30	Sentence 935 945	tuyên y_án
+E13	Sentence:T30 Defendant-Arg:T33 Sentence-Arg:T31 Adjudicator-Arg:T34
+T31	SEN 946 953	tử_hình
+T32	Die 946 953	tử_hình
+E14	Die:T32 Victim-Arg:T33
+T33	PER 898 903	Nghĩa
+T34	ORG 921 934	Toà phúc_thẩm
+T35	Die 1027 1034	qua_đời
+E15	Die:T35 Victim-Arg:T36
+T36	PER 1003 1005	bố
+T37	Pardon 1379 1386	ân giảm
+E16	Pardon:T37 Defendant-Arg:T38 Adjudicator-Arg:T39
+T38	PER 1348 1351	Tôi
+T39	PER 1361 1378	ông Chủ_tịch nước
+T40	SEN 1390 1397	tử_hình
+T41	Sentence 1387 1389	án
+E17	Sentence:T41 Defendant-Arg:T38 Sentence-Arg:T40
+T42	Arrest-jail 1616 1620	giam
+E18	Arrest-jail:T42 Person-Arg:T43
+T43	PER 1652 1657	Nghĩa
+T44	PER 1781 1786	Nghĩa
+T45	Die 1790 1797	sát_hại
+E19	Die:T45 Agent-Arg:T44 Victim-Arg:T46 Place-Arg:T47 Time-Arg:T48
+T46	PER 1805 1840	Nguyễn_Phương_Linh ( người_yêu cũ )
+T47	FAC 1717 1778	toà nhà chung_cư thuộc phường Trung_Hoà ( Cầu_Giấy , Hà_Nội )
+T48	TIME 1698 1710	Tối 4/5/2010
+T49	Transport 2158 2162	trốn
+E20	Transport:T49 Destination-Arg:T50 Agent-Arg:T51
+T50	GPE 2167 2178	Thái_Nguyên
+T51	PER 2149 2154	Nghĩa

@@ -1,0 +1,11 @@
+T1	Execute 34 40	xử bắn
+E1	Execute:T1 Person-Arg:T3 Agent-Arg:T2
+T2	GPE 7 17	Triều_Tiên
+T3	PER 41 54	phó thủ_tướng
+T4	Execute 303 310	tử_hình
+E2	Execute:T4 Person-Arg:T5
+T5	PER 311 335	các quan_chức Triều_Tiên
+T6	Execute 579 588	bị xử bắn
+E3	Execute:T6 Time-Arg:T8 Person-Arg:T7
+T7	PER 536 564	Ông Kim_Yong - jin , 63 tuổi
+T8	TIME 593 600	tháng 7

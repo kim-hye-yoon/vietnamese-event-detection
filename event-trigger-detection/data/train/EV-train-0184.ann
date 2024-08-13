@@ -1,0 +1,18 @@
+T23	PER 1116 1124	ông Tiến
+T37	PER 1969 1977	ông Hùng
+T43	ORG 2215 2218	PVN
+T1	Declare-bankruptcy 50 57	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	Declare-bankruptcy 1028 1035	phá_sản
+E2	Declare-bankruptcy:T2 
+T3	Declare-bankruptcy 1051 1058	phá_sản
+E3	Declare-bankruptcy:T3 
+T4	Transfer-ownership 1367 1370	bán
+E4	Transfer-ownership:T4 
+T5	PER 1229 1298	ông Phùng_Văn_Hùng -  Uỷ_viên Thường_trực Uỷ_ban Kinh_tế của Quốc_hội
+T6	Transfer-ownership 1892 1895	bán
+E5	Transfer-ownership:T6 
+T7	Transfer-money 2291 2297	nợ_nần
+E6	Transfer-money:T7 Recipient-Arg:T43
+T8	Declare-bankruptcy 560 567	phá_sản
+E7	Declare-bankruptcy:T8 

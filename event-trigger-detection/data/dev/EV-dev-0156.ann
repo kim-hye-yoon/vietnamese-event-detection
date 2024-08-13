@@ -1,0 +1,44 @@
+T1	Divorce 59 65	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 32	Vợ_chồng chủ cà_phê Trung_Nguyên
+T3	Trial-hearing 99 107	phiên xử
+E2	Trial-hearing:T3 Time-Arg:T6 Adjudicator-Arg:T7
+T4	Divorce 108 114	ly_hôn
+E3	Divorce:T4 Person-Arg:T5
+T5	PER 115 147	vợ_chồng chủ cà_phê Trung_Nguyên
+T6	TIME 68 77	Ngày 20/2
+T7	ORG 80 91	TAND TP HCM
+T8	Sue 1522 1531	khởi_kiện
+E4	Sue:T8 Plaintiff-Arg:T9
+T9	PER 1492 1499	bà Thảo
+T10	Divorce 1754 1760	ly_hôn
+E5	Divorce:T10 Person-Arg:T11
+T11	PER 1656 1665	Chúng_tôi
+T12	Sue 1834 1838	kiện
+E6	Sue:T12 Plaintiff-Arg:T13
+T13	PER 1784 1791	bà Thảo
+T14	Trial-hearing 1469 1477	phiên xử
+E7	Trial-hearing:T14 Adjudicator-Arg:T15
+T15	ORG 1480 1483	toà
+T16	Divorce 1940 1946	ly_hôn
+E8	Divorce:T16 Person-Arg:T17 Person-Arg2:T18
+T17	PER 1902 1909	bà Thảo
+T18	PER 1913 1919	ông Vũ
+T19	Sue 2370 2374	kiện
+E9	Sue:T19 Plaintiff-Arg:T20
+T20	PER 2346 2353	bà Thảo
+T21	Transfer-money 3601 3610	cấp_dưỡng
+E10	Transfer-money:T21 Money-Arg:T22 Giver-Arg:T23 Beneficiary-Arg:T24
+T22	MONEY 3619 3629	10 tỷ đồng
+T23	PER 3594 3597	ông
+T24	PER 3634 3639	4 con
+T25	Sue 4163 4172	khởi_kiện
+E11	Sue:T25 Plaintiff-Arg:T26
+T26	PER 4173 4180	bà Thảo
+T27	Marry 4193 4200	kết_hôn
+E12	Marry:T27 Person-Arg:T26 Person-Arg2:T28 Time-Arg:T29
+T28	PER 4205 4211	ông Vũ
+T29	TIME 4212 4224	20 năm trước
+T30	Divorce 4354 4360	ly_hôn
+E13	Divorce:T30 Person-Arg:T31
+T31	PER 4230 4238	vợ_chồng

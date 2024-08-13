@@ -1,0 +1,12 @@
+T2	PER 944 951	Navalvy
+T1	Pardon 957 966	trả tự_do
+E1	Pardon:T1 Time-Arg:T3 Defendant-Arg:T2
+T3	TIME 971 975	15/6
+T4	Demonstrate 29 38	biểu_tình
+E2	Demonstrate:T4 
+T5	Demonstrate 383 392	biểu_tình
+E3	Demonstrate:T5 Place-Arg:T6 Time-Arg:T7
+T6	LOC 395 408	khắp đất_nước
+T7	TIME 415 423	ngày 1/7
+T8	Demonstrate 537 546	biểu_tình
+E4	Demonstrate:T8 

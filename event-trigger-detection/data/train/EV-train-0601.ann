@@ -1,0 +1,48 @@
+T1	PER 0 5	Cụ bà
+T2	Pardon 6 22	xin tha_tội chết
+E1	Pardon:T2 Defendant-Arg:T3
+T3	PER 23 43	cho kẻ giết con mình
+T4	Attack 30 34	giết
+E2	Attack:T4 Target-Arg:T5
+T5	PER 35 43	con mình
+T6	Attack 276 280	giết
+E3	Attack:T6 Target-Arg:T8 Attacker-Arg:T7
+T7	PER 255 260	Thạch
+T8	PER 281 296	núm ruột của bà
+T9	PER 625 633	con_trai
+T10	PER 643 662	thằng em đồng_hương
+T11	Attack 663 667	giết
+E4	Attack:T11 Attacker-Arg:T10 Target-Arg:T9
+T12	PER 1154 1160	anh ta
+T13	Attack 1178 1181	đâm
+E5	Attack:T13 Attacker-Arg:T12 Target-Arg:T14
+T14	PER 1199 1206	anh Hoà
+T15	Die 1207 1214	tử_vong
+E6	Die:T15 Victim-Arg:T14 Agent-Arg:T12
+T16	Transport 1228 1236	lẩn_trốn
+E7	Transport:T16 Destination-Arg:T18 Artifact-Arg:T19
+T17	TIME 1217 1227	Sau ba năm
+T18	GPE 1239 1260	Campuchia và Thái_Lan
+T19	PER 1263 1268	Thạch
+T20	Trial-hearing 1269 1275	bị bắt
+E8	Trial-hearing:T20 Defendant-Arg:T19 Time-Arg:T17
+T21	Attack 1307 1311	Giết
+E9	Attack:T21 Target-Arg:T22
+T22	PER 1312 1317	người
+T23	PER 1752 1759	con tôi
+T24	Die 1765 1769	chết
+E10	Die:T24 Victim-Arg:T23
+T25	PER 1780 1786	bị_cáo
+T26	Die 1790 1794	chết
+E11	Die:T26 Victim-Arg:T25
+T27	PER 1970 1984	gia_đình Thạch
+T28	Transfer-money 1988 1998	bồi_thường
+E12	Transfer-money:T28 Money-Arg:T29 Giver-Arg:T27
+T29	MONEY 1999 2013	100 triệu đồng
+T30	PER 2207 2213	Bị_cáo
+T31	Attack 2214 2218	giết
+E13	Attack:T31 Attacker-Arg:T30
+T32	Transport 3253 3255	về
+E14	Transport:T32 Destination-Arg:T34 Artifact-Arg:T33
+T33	PER 3198 3203	Thạch
+T34	FAC 3256 3265	trại_giam

@@ -1,0 +1,55 @@
+T1	Sentence 21 29	tuyên_án
+E1	Sentence:T1 Sentence-Arg:T2
+T2	SEN 30 32	tử
+T3	Release-parole 33 47	được trả tự_do
+E2	Release-parole:T3 Person-Arg:T4
+T4	PER 6 32	người 4 lần bị tuyên_án tử
+T5	Sentence 152 158	kết_án
+E3	Sentence:T5 Sentence-Arg:T6 Defendant-Arg:T7
+T6	SEN 159 166	tử_hình
+T7	PER 167 179	Hàn_Đức_Long
+T8	PER 137 179	người 4 lần bị kết_án tử_hình Hàn_Đức_Long
+T9	Transport 188 191	rời
+E4	Transport:T9 Artifact-Arg:T7 Origin-Arg:T10 Time-Arg:T13
+T10	FAC 192 201	trại_giam
+T11	Transport 202 208	trở_về
+E5	Transport:T11 Artifact-Arg:T8 Destination-Arg:T12 Time-Arg:T13
+T12	FAC 209 212	nhà
+T13	TIME 99 109	ngày 20/12
+T14	Charge-indict 489 496	khởi_tố
+E6	Charge-indict:T14 Defendant-Arg:T15
+T15	PER 461 469	ông Long
+T16	Attack 929 935	gây án
+E7	Attack:T16 Attacker-Arg:T17
+T17	PER 920 928	ông Long
+T18	Convict 1232 1239	kết_tội
+E8	Convict:T18 Defendant-Arg:T19
+T19	PER 1240 1248	ông Long
+T20	Release-parole 1314 1323	trả tự_do
+E9	Release-parole:T20 Person-Arg:T21
+T21	PER 1328 1344	ông Hàn_Đức_Long
+T22	Convict 1460 1467	kết_tội
+E10	Convict:T22 
+T23	Attack 1722 1726	giết
+E11	Attack:T23 Target-Arg:T26 Attacker-Arg:T25 Time-Arg:T24
+T24	TIME 1676 1691	Ngày 29/10/2005
+T25	PER 1694 1702	ông Long
+T26	PER 1727 1748	cô_bé hàng_xóm 5 tuổi
+T27	Transport 1804 1807	đến
+E12	Transport:T27 Artifact-Arg:T29 Time-Arg:T28 Destination-Arg:T32
+T28	TIME 1768 1792	chiều tối_ngày 26/6/2005
+T29	PER 1795 1803	ông Long
+T30	Transport 1906 1908	đi
+E13	Transport:T30 Artifact-Arg:T31 Destination-Arg:T33
+T31	PER 1897 1905	ông Long
+T32	FAC 1808 1835	quán của anh Diêm_Quang_Nam
+T33	FAC 1914 1927	quán bên cạnh
+T34	Meet 1932 1935	gặp
+E14	Meet:T34 Entity-Arg:T35 Entity-Arg2:T31
+T35	PER 1936 1945	bé 5 tuổi
+T36	Sentence 2204 2214	tuyên_phạt
+E15	Sentence:T36 Adjudicator-Arg:T37 Defendant-Arg:T38 Sentence-Arg:T39 Crime-Arg:T40
+T37	ORG 2127 2198	TAND tỉnh Bắc_Giang và Toà phúc_thẩm Toà_án nhân_dân tối_cao tại Hà_Nội
+T38	PER 2215 2223	ông Long
+T39	SEN 2224 2234	án tử_hình
+T40	CRIME 2238 2271	tội Hiếp_dâm trẻ_em và Giết người

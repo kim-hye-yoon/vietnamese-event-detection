@@ -1,0 +1,35 @@
+T1	End-position 35 39	cách
+E1	End-position:T1 Position-Arg:T2 Person-Arg:T3
+T2	JOB 44 62	chức_vụ trong Đảng
+T3	PER 0 31	Cựu giám_đốc Vietcombank Hà_Nội
+T4	Meet 112 115	họp
+E2	Meet:T4 Entity-Arg:T5 Time-Arg:T6
+T5	ORG 80 111	Uỷ_ban Kiểm_tra Trung_ương Đảng
+T6	TIME 65 77	Ngày 10-12/9
+T7	End-position 262 271	cách_chức
+E3	End-position:T7 Person-Arg:T10 Position-Arg:T11 Entity-Arg:T9
+T8	JOB 272 297	tất_cả chức_vụ trong Đảng
+T9	ORG 201 227	Uỷ_ban Kiểm_tra Trung_ương
+T10	PER 302 322	ông Nguyễn_Xuân_Luật
+T11	JOB 326 407	Phó trưởng Ban Giám_sát Tập_đoàn tài_chính ( Uỷ_ban Giám_sát tài_chính Quốc_gia )
+T12	Be-born 958 962	sinh
+E4	Be-born:T12 Time-Arg:T13 Person-Arg:T14
+T13	TIME 963 971	năm 1962
+T14	PER 937 957	Ông Nguyễn_Xuân_Luật
+T15	End-position 1003 1006	rời
+E5	End-position:T15 Entity-Arg:T16 Time-Arg:T17 Person-Arg:T18
+T16	ORG 1007 1034	Vietcombank chi_nhánh Hà_Nộ
+T17	TIME 1038 1046	năm 2012
+T18	PER 1049 1057	ông Luật
+T19	ORG 1061 1070	VietABank
+T20	JOB 1080 1097	Phó tổng_giám_đốc
+T21	Start-position 1071 1079	giữ chức
+E6	Start-position:T21 Entity-Arg:T19 Position-Arg:T20 Person-Arg:T18 Time-Arg:T17
+T22	End-position 1346 1354	bổ_nhiệm
+E7	End-position:T22 Position-Arg:T23 Time-Arg:T24 Entity-Arg:T25 Person-Arg:T26
+T23	JOB 1359 1401	Phó trưởng_ban Giám_sát tập_đoàn tài_chính
+T24	TIME 1406 1419	tháng 12/2017
+T25	ORG 1311 1345	Uỷ_ban Giám_sát tài_chính quốc_gia
+T26	PER 1285 1305	Ông Nguyễn_Xuân_Luật
+T27	Transfer-ownership 1699 1702	mua
+E8	Transfer-ownership:T27 

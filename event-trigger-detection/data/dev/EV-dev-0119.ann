@@ -1,0 +1,128 @@
+T1	Declare-bankruptcy 8 15	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	GPE 38 45	Iceland
+T3	Declare-bankruptcy 1018 1025	phá_sản
+E2	Declare-bankruptcy:T3 Place-Arg:T4
+T4	GPE 1002 1009	Iceland
+T5	End-org 1088 1096	đóng_cửa
+E3	End-org:T5 
+T6	End-position 1123 1131	mất việc
+E4	End-position:T6 Person-Arg:T7
+T7	PER 1099 1122	Hàng ngàn người Iceland
+T8	Transfer-money 1700 1702	nợ
+E5	Transfer-money:T8 Money-Arg:T9
+T9	MONEY 1707 1716	10 tỷ USD
+T10	ORG 1676 1695	các công_ty của ông
+T11	Declare-bankruptcy 2375 2382	phá_sản
+E6	Declare-bankruptcy:T11 
+T12	GPE 2443 2450	Iceland
+T14	ORG 2772 2803	một doanh_nghiệp nước giải_khát
+T15	PER 2747 2750	ông
+T16	GPE 2755 2758	Nga
+T17	TIME 2732 2744	Thập_niên 90
+T13	Start-org 2762 2771	thành_lập
+E7	Start-org:T13 Org-Arg:T14 Place-Arg:T16 Agent-Arg:T15 Time-Arg:T17
+T18	Transfer-ownership 2898 2901	bán
+E8	Transfer-ownership:T18 Seller-Arg:T20 Artifact-Arg:T21 Artifact-Arg2:T19 Time-Arg:T22 Price-Arg:T23
+T19	ORG 2902 2909	công_ty
+T20	PER 2882 2894	Bjorgolfsson
+T21	ORG 2923 2931	Heineken
+T22	TIME 2936 2944	năm 2002
+T23	MONEY 2953 2966	100 triệu USD
+T25	Transfer-money 3256 3259	vay
+E10	Transfer-money:T25 Recipient-Arg:T26
+T26	PER 3172 3184	Bjorgolfsson
+T27	Transfer-ownership 3406 3409	mua
+E11	Transfer-ownership:T27 Money-Arg:T31 Buyer-Arg:T29 Time-Arg:T28 Artifact-Arg:T30
+T28	TIME 3353 3361	Năm 2007
+T29	PER 3364 3367	ông
+T30	ORG 3414 3436	hãng dược_phẩm Actavis
+T31	MONEY 3445 3455	6,5 tỷ USD
+T32	Transfer-money 3538 3541	vay
+E12	Transfer-money:T32 Recipient-Arg:T34 Giver-Arg:T33
+T33	ORG 3507 3520	các ngân_hàng
+T34	PER 3534 3537	ông
+T36	MONEY 3831 3844	230 triệu USD
+T37	ORG 3854 3885	ngân_hàng của mình - Landsbanki
+T38	PER 3811 3823	Bjorgolfsson
+T35	Transfer-money 3827 3830	vay
+E13	Transfer-money:T35 Recipient-Arg:T38 Money-Arg:T36 Giver-Arg:T37
+T39	ORG 3135 3148	một ngân_hàng
+T40	PER 3120 3122	họ
+T24	Transfer-money 3123 3126	vay
+E9	Transfer-money:T24 Giver-Arg:T39 Recipient-Arg:T40
+T41	Declare-bankruptcy 4191 4198	phá_sản
+E14	Declare-bankruptcy:T41 
+T42	PER 4173 4185	Bjorgolfsson
+T43	Transfer-money 4345 4347	nợ
+E15	Transfer-money:T43 
+T44	ORG 4337 4344	Actavis
+T45	Transfer-money 4476 4478	nợ
+E16	Transfer-money:T45 Giver-Arg:T46 Money-Arg:T47
+T46	ORG 4479 4488	ngân_hàng
+T47	MONEY 4489 4500	1 triệu USD
+T48	Transfer-money 4534 4536	nợ
+E17	Transfer-money:T48 Money-Arg:T49 Giver-Arg:T46
+T49	MONEY 4537 4545	1 tỷ USD
+T51	MONEY 4981 4994	350 triệu USD
+T52	PER 4949 4952	Ông
+T50	Transfer-money 4978 4980	nợ
+E18	Transfer-money:T50 Recipient-Arg:T52 Money-Arg:T51
+T53	Declare-bankruptcy 5055 5062	phá_sản
+E19	Declare-bankruptcy:T53 
+T54	TIME 5063 5071	năm 2009
+T55	Transfer-ownership 5306 5309	bán
+E20	Transfer-ownership:T55 
+T56	Transfer-money 6784 6787	vay
+E21	Transfer-money:T56 Recipient-Arg:T59
+T57	Transfer-money 6810 6813	trả
+E22	Transfer-money:T57 Money-Arg:T58 Giver-Arg:T59
+T58	MONEY 6818 6826	1 tỷ USD
+T59	PER 6748 6760	Bjorgolfsson
+T60	Transfer-money 6878 6880	nợ
+E23	Transfer-money:T60 
+T61	Transfer-ownership 7022 7025	bán
+E24	Transfer-ownership:T61 Artifact-Arg:T62 Price-Arg:T63
+T64	PER 6996 7008	Bjorgolfsson
+T62	VEH 6959 7008	phi cơ , du_thuyền và xe Ferrari của Bjorgolfsson
+T63	MONEY 7066 7078	15 triệu USD
+T65	Transfer-money 7094 7096	nợ
+E25	Transfer-money:T65 Money-Arg:T66
+T66	MONEY 7097 7107	một tỷ USD
+T67	Transfer-ownership 7221 7224	bán
+E26	Transfer-ownership:T67 
+T68	PER 7217 7220	ông
+T69	PER 7164 7176	Bjorgolfsson
+T70	ORG 7179 7194	Actavis và Play
+T71	Merge-org 7634 7642	sáp_nhập
+E27	Merge-org:T71 Org-Arg:T73
+T72	PER 7579 7621	Olafsson và sếp của mình - CEO Paul_Bisaro
+T73	ORG 7647 7654	Actavis
+T74	Transfer-ownership 7754 7757	mua
+E28	Transfer-ownership:T74 Buyer-Arg:T75 Artifact-Arg:T77 Time-Arg:T76 Price-Arg:T78
+T75	ORG 7747 7753	Watson
+T76	TIME 7731 7744	Tháng 10/2012
+T77	ORG 7762 7769	Actavis
+T78	MONEY 7782 7790	6 tỷ USD
+T79	Transfer-ownership 7951 7954	mua
+E29	Transfer-ownership:T79 Buyer-Arg:T80
+T80	PER 7904 7916	Bjorgolfsson
+T81	Transfer-money 8044 8047	trả
+E30	Transfer-money:T81 Giver-Arg:T84 Money-Arg:T82 Time-Arg:T83
+T82	MONEY 8052 8065	330 triệu USD
+T83	TIME 8078 8086	năm 2014
+T84	PER 8040 8043	ông
+T85	Declare-bankruptcy 8233 8240	phá_sản
+E31	Declare-bankruptcy:T85 
+T86	PER 8179 8191	Bjorgolfsson
+T87	Transfer-money 8275 8278	vay
+E32	Transfer-money:T87 Recipient-Arg:T88
+T88	PER 8252 8255	Ông
+T89	Transfer-ownership 8448 8451	mua
+E33	Transfer-ownership:T89 Buyer-Arg:T91 Time-Arg:T90
+T90	TIME 8413 8428	tháng 1 năm nay
+T91	PER 8431 8443	Bjorgolfsson
+T92	Transfer-money 8523 8526	vay
+E34	Transfer-money:T92 Recipient-Arg:T93 Money-Arg:T94
+T93	PER 8516 8519	ông
+T94	MONEY 8527 8539	60 triệu USD

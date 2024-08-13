@@ -1,0 +1,18 @@
+T1	Elect 20 28	được bầu
+E1	Elect:T1 Person-Arg:T2 Position-Arg:T3
+T2	PER 0 19	Thứ_trưởng Xây_dựng
+T3	JOB 33 54	Chủ_tịch tỉnh Yên_Bái
+T4	Elect 1069 1072	bầu
+E2	Elect:T4 Position-Arg:T5 Position-Arg2:T6 Time-Arg:T7
+T5	JOB 1087 1100	Chủ_tịch HĐND
+T6	JOB 1104 1122	Chủ_tịch UBND tỉnh
+T7	TIME 997 1012	Chiều cùng ngày
+T8	Elect 1153 1161	được bầu
+E3	Elect:T8 Person-Arg:T9 Position-Arg:T10
+T9	PER 1135 1149	ông Đỗ_Đức_Duy
+T10	JOB 1171 1197	Chủ_tịch UBND tỉnh Yên_Bái
+T11	Be-born 1215 1219	sinh
+E4	Be-born:T11 Person-Arg:T14 Time-Arg:T12 Place-Arg:T13
+T12	TIME 1220 1234	ngày 20/5/1970
+T13	GPE 1241 1250	Thái_Bình
+T14	PER 1200 1214	Ông Đỗ_Đức_Duy

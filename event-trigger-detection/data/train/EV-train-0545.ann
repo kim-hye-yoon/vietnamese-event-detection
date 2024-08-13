@@ -1,0 +1,56 @@
+T1	Die 37 41	chết
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T3
+T2	PER 27 36	bệnh_nhân
+T3	PER 54 60	bác_sĩ
+T4	PER 172 181	chị Tuyền
+T5	Die 182 189	tử_vong
+E2	Die:T5 Victim-Arg:T4 Agent-Arg:T17
+T6	PER 195 221	bệnh_nhân Nguyễn_Thị_Tuyền
+T7	Die 287 294	tử_vong
+E3	Die:T7 Victim-Arg:T6 Agent-Arg:T8 Time-Arg:T9
+T8	ORG 299 321	Bệnh_viện đa_khoa tỉnh
+T9	TIME 322 331	ngày 27/5
+T10	PER 443 452	chị Tuyền
+T11	Die 453 460	tử_vong
+E4	Die:T11 Victim-Arg:T10 Agent-Arg:T19
+T12	Meet 463 471	Trao_đổi
+E5	Meet:T12 Entity-Arg:T13 Entity-Arg2:T14
+T13	PER 476 486	phóng_viên
+T14	PER 489 542	bác_sỹ Huỳnh_Quốc_Việt , Giám_đốc Sở Y_tế tỉnh Cà_Mau
+T15	ORG 658 665	Sở Y_tế
+T16	Transport 669 675	chuyển
+E6	Transport:T16 Agent-Arg:T15 Destination-Arg:T18
+T17	PER 97 152	ê_kíp bác_sỹ trực cấp_cứu Bệnh_viện Đa_khoa tỉnh Cà_Mau
+T19	PER 398 423	ê_kíp bác_sỹ trực cấp_cứu
+T18	LOC 733 774	Bệnh_viện Chợ_Rẫy , Thành_phố Hồ_Chí_Minh
+T20	Meet 909 912	họp
+E7	Meet:T20 Entity-Arg:T21
+T21	PER 913 932	Hội_đồng chuyên_môn
+T22	Die 846 854	cái chết
+E8	Die:T22 Victim-Arg:T23
+T23	PER 859 874	bệnh_nhân Tuyền
+T24	Injure 1247 1254	tai_nạn
+E9	Injure:T24 Victim-Arg:T25
+T25	PER 1217 1243	bệnh_nhân Nguyễn_Thị_Tuyền
+T26	PER 1288 1297	người_nhà
+T27	Transport 1298 1301	đưa
+E10	Transport:T27 Agent-Arg:T26 Destination-Arg:T29 Time-Arg:T30
+T28	Injure 1306 1315	nhập_viện
+E11	Injure:T28 Agent-Arg:T26 Place-Arg:T29 Time-Arg:T30
+T29	FAC 1320 1359	Khoa cấp_cứu , Bệnh_viện đa_khoa Cà_Mau
+T30	TIME 1368 1382	5h10 ngày 27/5
+T31	PER 1497 1506	bệnh_nhân
+T32	Injure 1507 1521	đa chấn_thương
+E12	Injure:T32 Victim-Arg:T31
+T34	Transport 1551 1561	chuyển đến
+E14	Transport:T34 Artifact-Arg:T31 Destination-Arg:T35
+T35	FAC 1562 1595	khoa Ngoại chấn_thương chỉnh_hình
+T39	PER 1993 2008	bệnh_nhân Tuyền
+T40	Die 2012 2019	tử_vong
+E16	Die:T40 Victim-Arg:T39 Time-Arg:T41
+T41	TIME 2024 2039	11h50 cùng ngày
+T33	Injure 1524 1541	gãy kín xương đùi
+E13	Injure:T33 Victim-Arg:T31
+T42	Die 2417 2421	chết
+E17	Die:T42 Victim-Arg:T43
+T43	PER 2426 2452	bệnh_nhân Nguyễn_Thị_Tuyền

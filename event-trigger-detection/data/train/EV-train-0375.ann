@@ -1,0 +1,65 @@
+T1	Execute 17 24	tử_hình
+E1	Execute:T1 Person-Arg:T2 Place-Arg:T6
+T2	PER 25 62	tài_xế say_xỉn gây tai_nạn chết người
+T3	Die 52 56	chết
+E2	Die:T3 Agent-Arg:T5 Victim-Arg:T4 Place-Arg:T6
+T4	PER 57 62	người
+T5	PER 25 31	tài_xế
+T6	GPE 0 8	Đài_Loan
+T7	Die 254 258	chết
+E3	Die:T7 Victim-Arg:T8 Place-Arg:T9
+T8	PER 259 264	người
+T9	GPE 149 157	Đài_Loan
+T10	Die 283 287	giết
+E4	Die:T10 Victim-Arg:T11 Place-Arg:T9
+T11	PER 288 293	người
+T12	Execute 307 314	tử_hình
+E5	Execute:T12 Place-Arg:T9
+T13	Die 449 453	chết
+E6	Die:T13 Victim-Arg:T14 Place-Arg:T16
+T14	PER 454 459	người
+T15	Sentence 361 383	quy_định mức án tối_đa
+E7	Sentence:T15 Adjudicator-Arg:T16 Place-Arg:T16 Sentence-Arg:T17
+T16	GPE 352 360	Đài_Loan
+T17	SEN 488 497	10 năm tù
+T19	PER 548 573	cá_nhân vi_phạm nhiều lần
+T20	Sentence 629 636	lĩnh án
+E9	Sentence:T20 Defendant-Arg:T21 Sentence-Arg:T22 Crime-Arg:T23 Sentence-Arg2:T24 Crime-Arg2:T25
+T21	PER 619 625	Tài_xế
+T22	SEN 637 647	chung_thân
+T23	CRIME 652 663	gây tử_vong
+T24	SEN 670 676	12 năm
+T25	CRIME 681 701	gây thương_tích nặng
+T26	Die 872 879	tử_vong
+E10	Die:T26 
+T27	Die 656 663	tử_vong
+E11	Die:T27 
+T28	Execute 1199 1212	áp_dụng án tử
+E12	Execute:T28 Person-Arg:T29 Agent-Arg:T30
+T29	PER 1217 1242	người lái_xe khi say rượu
+T30	ORG 1156 1184	Hiệp_hội Nhân_quyền Đài_Loan
+T31	Die 1494 1498	chết
+E13	Die:T31 Victim-Arg:T33 Agent-Arg:T35 Time-Arg:T36
+T32	Injure 1510 1519	bị_thương
+E14	Injure:T32 Victim-Arg:T34 Time-Arg:T36
+T33	PER 1486 1493	3 người
+T34	PER 1502 1509	3 người
+T35	PER 1400 1452	một tài_xế xe_tải Đài_Loan 40 tuổi trong lúc say_xỉn
+T36	TIME 1380 1397	tháng một năm nay
+T37	Execute 1560 1578	áp_dụng án tử_hình
+E15	Execute:T37 Place-Arg:T38 Crime-Arg:T40
+T38	LOC 1532 1540	thế_giới
+T39	LOC 1551 1559	quốc_gia
+T40	CRIME 1598 1627	gây tai_nạn trong lúc say_xỉn
+T41	Convict 1654 1662	tuyên_bố
+E16	Convict:T41 Adjudicator-Arg:T43 Place-Arg:T43
+T42	Execute 1666 1671	xử_tử
+E17	Execute:T42 Agent-Arg:T43 Place-Arg:T43 Person-Arg:T44 Place-Arg2:T45
+T43	GPE 1630 1648	Trung_Quốc đại_lục
+T44	PER 1672 1711	các tài_xế uống rượu_bia làm chết người
+T45	LOC 1715 1731	một_số bang ở Mỹ
+T46	Die 1701 1705	chết
+E18	Die:T46 Victim-Arg:T47 Place-Arg:T43
+T47	PER 1706 1711	người
+T18	Convict 601 607	kết_án
+E8	Convict:T18 Defendant-Arg:T19

@@ -1,0 +1,47 @@
+T1	Declare-bankruptcy 25 32	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	MONEY 96 109	750 triệu USD
+T3	PER 112 128	Mavis_L._Wanczyk
+T4	GPE 131 144	Massachusetts
+T5	GPE 147 149	Mỹ
+T6	PER 302 309	Wanczyk
+T7	PER 234 236	Cô
+T8	Declare-bankruptcy 455 462	phá_sản
+E2	Declare-bankruptcy:T8 
+T9	GPE 473 475	Mỹ
+T10	TIME 494 503	3 – 5 năm
+T11	NUM 658 659	1
+T12	ORG 715 730	Washington_Post
+T13	PER 742 761	Cô Mavis L._Wanczyk
+T14	PER 807 838	Nhà_kinh_tế học Jay_L._Zagorsky
+T15	ORG 875 882	US News
+T16	PER 885 888	ông
+T17	TIME 1062 1071	3 – 5 năm
+T18	Declare-bankruptcy 1031 1038	phá_sản
+E3	Declare-bankruptcy:T18 
+T19	PER 1099 1113	Jack_Whittaker
+T20	MONEY 1129 1142	315 triệu USD
+T21	GPE 1147 1159	Tây_Virginia
+T22	PER 1183 1186	ông
+T23	PER 1200 1203	Tôi
+T24	TIME 1238 1245	8 tháng
+T25	MONEY 1279 1290	545.000 USD
+T26	PER 1267 1270	ông
+T27	PER 1353 1362	Don McNay
+T28	PER 1601 1604	ông
+T29	PER 1712 1726	Charles_Conrad
+T30	ORG 1754 1770	Szarka_Financial
+T31	PER 1978 1990	Sandra_Hayes
+T32	GPE 1993 2001	Missouri
+T33	MONEY 2022 2035	224 triệu USD
+T34	NUM 2051 2053	12
+T35	PER 2070 2073	Tôi
+T36	PER 2210 2213	tôi
+T37	PER 2230 2232	cô
+T38	PER 2239 2241	Cô
+T39	PER 2322 2325	Tôi
+T40	Declare-bankruptcy 2363 2370	phá_sản
+E4	Declare-bankruptcy:T40 
+T41	PER 2414 2417	anh
+T42	PER 2477 2479	cô
+T43	TIME 1160 1168	năm 2002

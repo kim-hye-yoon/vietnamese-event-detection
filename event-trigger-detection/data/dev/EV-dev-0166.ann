@@ -1,0 +1,34 @@
+T1	Arrest-jail 0 3	Bắt
+E1	Arrest-jail:T1 Person-Arg:T2
+T2	PER 4 18	11 kẻ khủng_bố
+T3	PER 96 105	nghi_phạm
+T4	Arrest-jail 109 112	bắt
+E2	Arrest-jail:T4 Place-Arg:T5 Person-Arg:T3 Time-Arg:T15
+T5	LOC 117 152	thủ_đô Kuala_Lumpur và ở bang Kedah
+T6	Attack 1503 1511	đánh bom
+E3	Attack:T6 Place-Arg:T7 Time-Arg:T8 Attacker-Arg:T20
+T7	LOC 1514 1518	Bali
+T8	TIME 1519 1527	năm 2002
+T9	Transport 1627 1630	chở
+E4	Transport:T9 Destination-Arg:T12 Origin-Arg:T13 Artifact-Arg:T10 Time-Arg:T11
+T10	PER 1636 1654	239 người mất_tích
+T11	TIME 1655 1664	hôm 8/3 .
+T12	GPE 1616 1624	Bắc_Kinh
+T13	GPE 1599 1611	Kuala_Lumpur
+T15	TIME 153 163	tuần trước
+T16	Transport 206 214	cất_cánh
+E6	Transport:T16 Origin-Arg:T18 Vehicle-Arg:T17
+T17	VEH 166 205	Một chiếc máy_bay của Malaysia_Airlines
+T18	GPE 218 230	Kuala_Lumpur
+T19	Arrest-jail 1535 1542	bắt_giữ
+E7	Arrest-jail:T19 
+T20	PER 1487 1495	thủ_phạm
+T21	Attack 548 556	đánh bom
+E8	Attack:T21 Place-Arg:T22 Attacker-Arg:T23
+T22	LOC 561 585	một_số quốc_gia Hồi_giáo
+T23	PER 453 510	Những phần_tử này là thành_viên của một nhóm khủng_bố mới
+T24	PER 2467 2509	con rể của Osama_Bin_Laden là Saajid_Badat
+T25	Trial-hearing 2450 2459	phiên_toà
+E9	Trial-hearing:T25 Defendant-Arg:T24
+T26	Trial-hearing 2460 2466	xét_xử
+E10	Trial-hearing:T26 Defendant-Arg:T24

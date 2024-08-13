@@ -1,0 +1,9 @@
+T1	Start-org 583 589	ra_đời
+E1	Start-org:T1 Org-Arg:T2
+T2	ORG 569 578	Trung_tâm
+T3	Transfer-money 948 954	đầu_tư
+E2	Transfer-money:T3 Giver-Arg:T4
+T4	ORG 908 910	JD
+T5	Transfer-money 2837 2843	đầu_tư
+E3	Transfer-money:T5 Place-Arg:T6
+T6	GPE 2927 2939	ở Đông_Nam_Á

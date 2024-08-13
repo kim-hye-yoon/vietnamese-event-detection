@@ -1,0 +1,11 @@
+T1	PER 0 16	Nhân_viên Google
+T2	Demonstrate 17 28	xuống_đường
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	ORG 1889 1907	Dự_án tượng Sardar
+T4	Transfer-money 1912 1919	chi_phí
+E2	Transfer-money:T4 Giver-Arg:T3 Money-Arg:T5
+T5	MONEY 1920 1933	430 triệu USD
+T6	PER 2369 2383	hách tham_quan
+T7	Transfer-ownership 2391 2408	đặt vé trực_tuyến
+E3	Transfer-ownership:T7 Buyer-Arg:T6 Price-Arg:T8
+T8	MONEY 2417 2424	4,8 USD

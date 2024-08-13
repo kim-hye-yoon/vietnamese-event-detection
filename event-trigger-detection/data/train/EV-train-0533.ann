@@ -1,0 +1,116 @@
+T1	Transfer-money 1923 1930	cho vay
+E1	Transfer-money:T1 Money-Arg:T34
+T2	Attack 40 43	bắn
+E2	Attack:T2 Target-Arg:T4 Attacker-Arg:T5
+T3	PER 15 28	cụ bà 71 tuổi
+T4	PER 46 54	con_nuôi
+T5	PER 34 39	người
+T6	Sentence 83 93	tuyên_phạt
+E3	Sentence:T6 Defendant-Arg:T9 Adjudicator-Arg:T8 Time-Arg:T7 Sentence-Arg:T10 Crime-Arg:T11
+T7	TIME 59 68	Ngày 19/3
+T8	ORG 71 82	TAND TP HCM
+T9	PER 94 154	bà Huỳnh Thị_Tuyết_Hồng ( 71 tuổi , cựu cán_bộ toà quận 10 )
+T10	SEN 162 170	3 năm tù
+T11	CRIME 202 222	Cố_ý gây thương_tích
+T12	Attack 331 335	Giết
+E4	Attack:T12 Attacker-Arg:T14 Attacker-Arg2:T13 Target-Arg:T15
+T13	PER 243 268	Lê_Đăng_Quang ( 26 tuổi )
+T14	PER 286 311	Hồ_Thanh_Nhân ( 23 tuổi )
+T15	PER 336 341	người
+T17	WEA 396 400	súng
+T18	PER 414 422	nạn_nhân
+T19	PER 356 361	Quang
+T16	Attack 401 404	bắn
+E5	Attack:T16 Instrument-Arg:T17 Target-Arg:T18 Attacker-Arg:T19
+T21	PER 459 464	Quang
+T22	Charge-indict 491 498	truy_tố
+E7	Charge-indict:T22 Defendant-Arg:T21 Crime-Arg:T20
+T23	Trial-hearing 499 505	xét_xử
+E8	Trial-hearing:T23 Defendant-Arg:T21 Crime-Arg:T20
+T20	CRIME 520 534	tội Giết người
+T24	Attack 524 528	Giết
+E6	Attack:T24 Attacker-Arg:T21
+T25	Injure 678 689	thương_tích
+E9	Injure:T25 
+T26	Attack 799 803	Giết
+E10	Attack:T26 Target-Arg:T27
+T27	PER 804 809	người
+T28	Trial-hearing 1140 1146	xét_xử
+E11	Trial-hearing:T28 Adjudicator-Arg:T31
+T29	Charge-indict 1185 1192	truy_tố
+E12	Charge-indict:T29 Adjudicator-Arg:T30
+T30	ORG 1178 1181	VKS
+T31	ORG 1149 1152	toà
+T32	Trial-hearing 1219 1221	xử
+E13	Trial-hearing:T32 Defendant-Arg:T33
+T33	PER 1195 1208	Nhân và Quang
+T34	MONEY 1931 1942	một tỷ đồng
+T35	Attack 1976 1980	đánh
+E14	Attack:T35 Attacker-Arg:T37 Target-Arg:T36
+T36	PER 1981 1988	anh Nam
+T37	PER 1962 1975	Lê_Đăng_Quang
+T38	Phone-write 2102 2110	gọi điện
+E15	Phone-write:T38 Entity-Arg:T40 Entity-Arg2:T39
+T39	PER 2085 2092	bà Hồng
+T40	PER 2115 2119	Nhân
+T42	PER 2250 2253	Nam
+T43	FAC 2257 2277	nhà tại quận Tân_Phú
+T41	Transport 2254 2256	về
+E16	Transport:T41 Destination-Arg:T43 Artifact-Arg:T42
+T44	PER 2284 2291	anh này
+T45	Transport 2296 2299	đến
+E17	Transport:T45 Artifact-Arg:T44
+T46	PER 2306 2311	Quang
+T47	Attack 2312 2315	bắn
+E18	Attack:T47 Attacker-Arg:T46 Target-Arg:T49
+T48	Attack 2340 2343	bắn
+E19	Attack:T48 Attacker-Arg:T46 Target-Arg:T49
+T49	PER 2365 2379	người nạn_nhân
+T50	PER 2382 2385	Nam
+T51	PER 2391 2400	người_nhà
+T52	Transport 2401 2407	đưa đi
+E20	Transport:T52 Agent-Arg:T51 Artifact-Arg:T50
+T53	Die 2424 2428	chết
+E21	Die:T53 Victim-Arg:T50
+T54	Injure 2445 2456	thương_tích
+E22	Injure:T54 Victim-Arg:T50
+T55	Transfer-money 2476 2480	mượn
+E23	Transfer-money:T55 Recipient-Arg:T56 Giver-Arg:T57 Money-Arg:T59
+T56	PER 2464 2468	Nhân
+T57	PER 2481 2488	bà Hồng
+T58	MONEY 2489 2503	100 triệu đồng
+T59	MONEY 2538 2546	30 triệu
+T60	Transfer-money 2590 2593	đưa
+E24	Transfer-money:T60 Money-Arg:T63 Giver-Arg:T62 Recipient-Arg:T61
+T61	PER 2559 2565	anh ta
+T62	PER 2583 2589	bà lão
+T63	MONEY 2594 2605	một tỷ đồng
+T64	Arrest-jail 2654 2657	bắt
+E25	Arrest-jail:T64 Agent-Arg:T65 Person-Arg:T66
+T65	PER 2645 2653	cảnh_sát
+T66	PER 2663 2668	Quang
+T67	PER 2714 2721	Anh Nam
+T68	Transfer-money 2735 2745	bồi_thường
+E26	Transfer-money:T68 Money-Arg:T69 Recipient-Arg:T67
+T69	MONEY 2746 2760	810 triệu đồng
+T70	PER 2828 2835	Bà Hồng
+T71	Transfer-money 2839 2849	bồi_thường
+E27	Transfer-money:T71 Giver-Arg:T70 Recipient-Arg:T72 Money-Arg:T73
+T72	PER 2854 2861	anh này
+T73	MONEY 2862 2871	300 triệu
+T74	Attack 3436 3440	giết
+E28	Attack:T74 Target-Arg:T75
+T75	PER 3441 3446	người
+T76	Attack 3591 3594	bắn
+E29	Attack:T76 Target-Arg:T78 Attacker-Arg:T77
+T77	PER 3575 3580	Quang
+T78	PER 3595 3601	bị hại
+T79	Attack 3809 3812	bắn
+E30	Attack:T79 Target-Arg:T80 Attacker-Arg:T84
+T80	PER 3856 3864	nạn_nhân
+T81	Attack 3868 3883	gây thương_tích
+E31	Attack:T81 Target-Arg:T80 Attacker-Arg:T84
+T82	Attack 3899 3903	giết
+E32	Attack:T82 Target-Arg:T83 Attacker-Arg:T84
+T83	PER 3904 3909	người
+T84	PER 3797 3803	anh ta

@@ -1,0 +1,54 @@
+T1	ORG 0 2	IS
+T2	Attack 13 21	tấn_công
+E1	Attack:T2 Attacker-Arg:T1 Instrument-Arg:T3
+T3	WEA 29 47	bom tự_sát ở Syria
+T4	PER 50 59	215 người
+T5	Die 60 64	chết
+E2	Die:T5 Victim-Arg:T4
+T6	PER 153 209	Các tay súng phiến quân Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T7	TIME 210 217	hôm_qua
+T8	Attack 228 236	tấn_công
+E3	Attack:T8 Place-Arg:T9 Time-Arg:T7 Attacker-Arg:T6
+T9	LOC 237 252	nhiều ngôi làng
+T10	PER 417 446	hai kẻ đánh bom tự_sát của IS
+T11	Attack 452 454	nổ
+E4	Attack:T11 Attacker-Arg:T10 Instrument-Arg:T12 Place-Arg:T13
+T12	WEA 455 458	bom
+T13	LOC 467 491	khu chợ và khu trung_tâm
+T14	PER 527 536	người_dân
+T15	Attack 550 559	tiêu_diệt
+E5	Attack:T15 Attacker-Arg:T14 Target-Arg:T16
+T16	PER 504 523	hai phiến quân khác
+T17	PER 651 660	người_dân
+T19	Attack 678 685	treo_cổ
+E6	Attack:T19 Attacker-Arg:T17 Target-Arg:T20 Place-Arg:T18
+T20	PER 692 700	tay súng
+T18	LOC 710 733	cột biển_báo giao_thông
+T21	PER 736 751	Các tay súng IS
+T22	Attack 757 765	tấn_công
+E7	Attack:T22 Place-Arg:T23 Attacker-Arg:T21
+T23	LOC 780 824	một_số ngôi làng ở đông bắc thành_phố Sweida
+T24	PER 939 948	215 người
+T25	Die 949 959	thiệt_mạng
+E8	Die:T25 Victim-Arg:T24
+T26	PER 999 1008	180 người
+T27	Injure 1009 1018	bị_thương
+E9	Injure:T27 Victim-Arg:T26
+T28	ORG 927 929	IS
+T29	Attack 900 908	tấn_công
+E10	Attack:T29 Attacker-Arg:T28
+T30	ORG 1021 1023	IS
+T31	Attack 1070 1079	giết chết
+E11	Attack:T31 Target-Arg:T32 Attacker-Arg:T30
+T32	PER 1084 1093	100 người
+T33	ORG 1334 1348	quân_đội Syria
+T34	Attack 1359 1368	phản_công
+E12	Attack:T34 Attacker-Arg:T33
+T35	Attack 1372 1382	không_kích
+E13	Attack:T35 Attacker-Arg:T33 Place-Arg:T36
+T36	LOC 1394 1422	vị_trí cố_thủ của IS tại đây
+T37	ORG 1488 1490	IS
+T38	Attack 1491 1499	tấn công
+E14	Attack:T38 Place-Arg:T40 Attacker-Arg:T37 Time-Arg:T39
+T39	TIME 1504 1508	25/7
+T40	LOC 1459 1477	phía tây nam Syria

@@ -1,0 +1,9 @@
+T1	Meet 6 15	thảo_luận
+E1	Meet:T1 Entity-Arg:T3 Entity-Arg2:T2
+T2	PER 0 5	Trump
+T3	PER 44 54	vua Jordan
+T5	Meet 132 135	gặp
+E2	Meet:T5 Entity-Arg:T7 Entity-Arg2:T6 Place-Arg:T8
+T6	PER 100 123	Tổng_thống Donald_Trump
+T7	PER 145 159	nhà_vua Jordan
+T8	GPE 164 174	Washington

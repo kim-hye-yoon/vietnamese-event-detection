@@ -1,0 +1,8 @@
+T18	TIME 994 1002	năm 2017
+T19	MONEY 1061 1070	400 triệu
+T22	FAC 1344 1386	đầu báo cháy , nước chữa_cháy phun tự_động
+T1	End-org 31 38	phá_sản
+E1	End-org:T1 
+T2	Fine 1014 1021	xử_phạt
+E2	Fine:T2 Time-Arg:T18 Money-Arg:T19 Entity-Arg:T3
+T3	ORG 1022 1047	các chung_cư vi_phạm PCCC

@@ -1,0 +1,32 @@
+T1	End-position 6 15	cách_chức
+E1	End-position:T1 Person-Arg:T3
+T2	PER 0 5	Putin
+T3	PER 16 29	16 tướng_lĩnh
+T4	End-position 94 103	cách_chức
+E2	End-position:T4 Person-Arg:T5
+T5	PER 104 181	16 tướng_lĩnh thuộc Bộ Nội_vụ , Bộ Tình_trạng Khẩn_cấp và Uỷ_ban Điều_tra Nga
+T6	End-position 207 215	bãi miễn
+E3	End-position:T6 Person-Arg:T7 Position-Arg:T12
+T7	PER 184 199	Những người này
+T8	End-position 369 376	sa_thải
+E4	End-position:T8 Person-Arg:T9
+T9	PER 333 360	Công_tố_viên vùng Yaroslavl
+T10	End-position 260 264	đuổi
+E5	End-position:T10 Person-Arg:T11
+T11	PER 247 256	hai người
+T12	JOB 216 232	chức_vụ hiện_tại
+T13	Nominate 448 456	bổ_nhiệm
+E6	Nominate:T13 Person-Arg:T15 Position-Arg:T16 Agent-Arg:T14
+T14	PER 428 444	Tổng_thống Putin
+T15	PER 457 494	ông Vladlen_Aksenov và Pavel_Baryshev
+T16	JOB 499 532	Thứ_trưởng Bộ Tình_trạng khẩn_cấp
+T17	Start-position 568 577	đảm_nhiệm
+E7	Start-position:T17 Position-Arg:T18 Person-Arg:T19
+T18	JOB 586 610	công_tố_viên vùng Crimea
+T19	PER 545 564	ông Oleg_Kamshilova
+T20	End-position 668 677	cách_chức
+E8	End-position:T20 Person-Arg:T21
+T21	PER 678 714	4 tướng_lĩnh và một công_tố_viên Nga
+T22	End-position 723 732	cách_chức
+E9	End-position:T22 Person-Arg:T23
+T23	PER 733 746	16 tướng_lĩnh

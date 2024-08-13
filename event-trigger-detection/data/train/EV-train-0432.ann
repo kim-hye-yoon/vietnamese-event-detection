@@ -1,0 +1,12 @@
+T1	Start-org 583 592	thành_lập
+E1	Start-org:T1 Org-Arg:T2 Time-Arg:T3 Agent-Arg:T4
+T2	ORG 550 556	Proton
+T3	TIME 593 601	năm 1983
+T4	PER 606 622	Mahathir_Mohamad
+T5	Transfer-money 1990 1993	mất
+E2	Transfer-money:T5 Giver-Arg:T7 Money-Arg:T6
+T6	MONEY 2001 2013	25 triệu USD
+T7	ORG 1980 1984	hãng
+T8	Declare-bankruptcy 45 52	phá_sản
+E3	Declare-bankruptcy:T8 Org-Arg:T9
+T9	ORG 0 33	Proton - hãng xe nội_địa Malaysia

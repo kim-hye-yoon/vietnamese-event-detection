@@ -1,0 +1,81 @@
+T1	ORG 0 19	Hãng túi khí Takata
+T2	Declare-bankruptcy 32 39	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	ORG 42 48	Takata
+T4	ORG 69 87	Key_Safety_Systems
+T5	ORG 90 120	hãng túi khí và dây an_toàn Mỹ
+T6	GPE 118 120	Mỹ
+T7	Transfer-money 127 143	hỗ_trợ tài_chính
+E2	Transfer-money:T7 Recipient-Arg:T3 Giver-Arg:T4 Giver-Arg2:T5
+T8	MONEY 168 179	hàng tỷ USD
+T9	TIME 208 216	năm 2013
+T10	ORG 224 231	Reuters
+T11	ORG 246 252	Takata
+T12	Sue 253 264	bị_cáo buộc
+E3	Sue:T12 Defendant-Arg:T11 Crime-Arg:T14
+T13	Die 286 293	tử_vong
+E4	Die:T13 Agent-Arg:T11 Place-Arg:T15
+T14	CRIME 265 293	gây ra 16 trường_hợp tử_vong
+T15	LOC 299 312	khắp thế_giới
+T16	LOC 405 413	toàn_cầu
+T17	ORG 434 440	Takata
+T18	MONEY 473 486	850 triệu USD
+T19	Transfer-money 427 429	nợ
+E5	Transfer-money:T19 Recipient-Arg:T17 Money-Arg:T18
+T20	TIME 529 536	đầu năm
+T21	TIME 543 551	năm 2018
+T22	ORG 554 566	hãng túi khí
+T23	Transfer-money 572 575	trả
+E6	Transfer-money:T23 Giver-Arg:T22 Money-Arg:T24 Time-Arg:T21
+T24	MONEY 581 595	khoản tiền này
+T25	ORG 609 615	Takata
+T27	MONEY 635 647	25 triệu USD
+T28	Fine 648 657	tiền phạt
+E8	Fine:T28 Entity-Arg:T25 Money-Arg:T27
+T26	MONEY 672 685	125 triệu USD
+T29	Transfer-money 661 671	thanh_toán
+E7	Transfer-money:T29 Money-Arg:T26 Giver-Arg:T25 Beneficiary-Arg:T30
+T30	PER 701 713	các nạn_nhân
+T31	ORG 777 783	Takata
+T32	ORG 794 811	Hãng túi khí Nhật
+T33	GPE 807 811	Nhật
+T34	Declare-bankruptcy 827 834	phá_sản
+E9	Declare-bankruptcy:T34 Place-Arg:T35 Place-Arg2:T36 Org-Arg:T32
+T35	GPE 840 842	Mỹ
+T36	GPE 850 857	quê_nhà
+T37	ORG 865 879	nhiều hãng ôtô
+T38	ORG 1045 1051	Takata
+T39	Injure 1065 1075	sát_thương
+E10	Injure:T39 Agent-Arg:T38
+T40	ORG 1085 1091	Takata
+T41	Die 1222 1232	thiệt_mạng
+E11	Die:T41 Victim-Arg:T43
+T42	Injure 1250 1259	bị_thương
+E12	Injure:T42 Victim-Arg:T44 Agent-Arg:T45
+T43	PER 1205 1221	Ít_nhất 16 người
+T44	PER 1236 1249	hơn 180 người
+T45	ORG 1276 1282	Takata
+T46	PER 1335 1340	người
+T47	VEH 1346 1348	xe
+T48	WEA 1310 1326	mảnh vỡ kim_loại
+T49	GPE 1388 1390	Mỹ
+T50	ORG 1395 1397	GM
+T51	ORG 1401 1413	16 hãng khác
+T52	ORG 1497 1503	Takata
+T53	VEH 1516 1522	xe_hơi
+T54	ORG 392 399	hãng xe
+T55	GPE 1598 1600	Mỹ
+T56	ORG 1642 1652	19 hãng xe
+T57	VEH 1678 1680	xe
+T58	ORG 1716 1723	Ferrari
+T59	ORG 1748 1754	Toyota
+T60	ORG 1757 1762	Honda
+T61	ORG 1792 1798	Takata
+T62	VEH 1811 1813	xe
+T63	TIME 1837 1845	năm 2008
+T64	LOC 1908 1919	cả thế_giới
+T65	ORG 1895 1919	truyền_thông cả thế_giới
+T66	PER 1950 1960	các chủ xe
+T67	VEH 2006 2008	xe
+T68	ORG 2067 2074	Reuters
+T69	PER 2077 2083	Mỹ Anh

@@ -1,0 +1,24 @@
+T1	PER 104 121	ông Hồ_Văn_Trường
+T2	Die 184 188	chết
+E1	Die:T2 Victim-Arg:T1 Time-Arg:T3 Agent-Arg:T18
+T3	TIME 193 201	ngày 3-4
+T4	TIME 475 498	vào_khoảng 16h ngày 3-4
+T5	PER 501 518	ông Hồ_Văn_Trường
+T6	Transport 570 573	đến
+E2	Transport:T6 Agent-Arg:T5 Time-Arg:T4 Destination-Arg:T7
+T7	FAC 574 592	cửa_hàng thuốc_tây
+T8	TIME 797 812	chiều cùng ngày
+T9	PER 815 825	ông Trường
+T10	Die 901 908	tử_vong
+E3	Die:T10 Victim-Arg:T9 Time-Arg:T8
+T11	PER 945 955	ông Trường
+T12	Die 956 963	tử_vong
+E4	Die:T12 Victim-Arg:T11
+T13	PER 995 1012	gia_đình nạn_nhân
+T14	Transport 1020 1023	đến
+E5	Transport:T14 Agent-Arg:T13 Destination-Arg:T15
+T15	FAC 1024 1036	nhà ông Vinh
+T16	PER 33 42	bệnh_nhân
+T17	Die 43 50	tử_vong
+E6	Die:T17 Victim-Arg:T16
+T18	PER 64 88	dược_sĩ Nguyễn_Đình_Vinh

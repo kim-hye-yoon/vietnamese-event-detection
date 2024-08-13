@@ -1,0 +1,13 @@
+T1	GPE 11 16	Syria
+T2	Attack 17 20	bắn
+E1	Attack:T2 Attacker-Arg:T1 Instrument-Arg:T3 Target-Arg:T4
+T3	WEA 21 31	20 tên_lửa
+T4	WEA 36 59	trinh_sát cơ Il -20 Nga
+T5	ORG 455 469	Quân_đội Syria
+T6	TIME 470 483	đêm_ngày 17/9
+T7	Attack 492 499	bắn rơi
+E2	Attack:T7 Time-Arg:T6 Attacker-Arg:T5 Target-Arg:T8
+T8	WEA 500 532	máy_bay trinh_sát Il -20 của Nga
+T9	Attack 236 239	bắn
+E3	Attack:T9 Target-Arg:T10
+T10	VEH 243 254	máy_bay Nga

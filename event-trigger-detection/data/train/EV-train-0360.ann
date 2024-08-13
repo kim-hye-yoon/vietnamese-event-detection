@@ -1,0 +1,14 @@
+T2	Marry 20 27	kết_hôn
+E2	Marry:T2 Person-Arg:T1 Person-Arg2:T3
+T1	PER 0 19	Diễn_viên Diệu_Thuý
+T3	PER 32 47	doanh_nhân Pháp
+T4	PER 383 392	Diệu_Thuý
+T5	Marry 393 400	kết_hôn
+E1	Marry:T5 Person-Arg:T4 Person-Arg2:T6 Place-Arg:T7
+T6	PER 405 414	chồng Tây
+T7	LOC 417 426	Quảng_Trị
+T8	PER 1211 1220	Diệu_Thuý
+T9	End-position 1221 1223	rờ
+E3	End-position:T9 Position-Arg:T10 Person-Arg:T8 Time-Arg:T11
+T10	JOB 1225 1237	showbiz Việt
+T11	TIME 1200 1208	năm 2014

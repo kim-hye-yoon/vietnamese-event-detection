@@ -1,0 +1,34 @@
+T1	GPE 0 2	Mỹ
+T2	PER 13 17	quân
+T3	GPE 20 25	Syria
+T4	Transport 9 12	rút
+E1	Transport:T4 Artifact-Arg:T2 Destination-Arg:T3 Agent-Arg:T1
+T5	Attack 95 104	tiêu_diệt
+E2	Attack:T5 Target-Arg:T6
+T6	ORG 105 142	nhóm Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T7	ORG 185 187	IS
+T8	Die 199 207	diệt_trừ
+E3	Die:T8 
+T10	Attack 262 269	loại_bỏ
+E4	Attack:T10 Target-Arg:T11 Place-Arg:T12 Attacker-Arg:T9
+T11	PER 270 302	số nhỏ phiến quân IS còn sót lại
+T12	GPE 305 310	Syria
+T13	PER 623 626	ông
+T14	Transport 642 645	rút
+E5	Transport:T14 Agent-Arg:T13 Origin-Arg:T16 Artifact-Arg:T15
+T15	PER 646 650	quân
+T16	GPE 656 661	Syria
+T17	PER 664 669	Trump
+T18	Transport 723 726	đưa
+E6	Transport:T18 Destination-Arg:T20 Artifact-Arg:T19 Agent-Arg:T17
+T20	GPE 751 755	nước
+T19	PER 727 747	quân Mỹ đóng tại đây
+T21	Attack 1013 1022	tiêu_diệt
+E7	Attack:T21 Target-Arg:T22 Attacker-Arg:T23
+T22	ORG 1023 1025	IS
+T23	PER 988 1009	nhóm dân_quân bản_địa
+T9	GPE 232 249	Mỹ và các đối_tác
+T24	Meet 442 445	gặp
+E8	Meet:T24 Entity-Arg:T26 Entity-Arg2:T25
+T25	PER 436 441	Trump
+T26	PER 450 465	chỉ_huy quân_sự

@@ -1,0 +1,21 @@
+T1	Transfer-ownership 759 762	bán
+E1	Transfer-ownership:T1 Seller-Arg:T2 Artifact-Arg:T15 Time-Arg:T16
+T2	ORG 734 741	công_ty
+T3	Transfer-ownership 30 34	thuê
+E2	Transfer-ownership:T3 Artifact-Arg:T4 Buyer-Arg:T6 Seller-Arg:T5
+T4	WEA 35 46	thuỷ_phi_cơ
+T5	ORG 0 6	Hải_Âu
+T6	ORG 11 29	đối_tác nước_ngoài
+T7	Transfer-ownership 183 191	thuê lại
+E3	Transfer-ownership:T7 Buyer-Arg:T8 Seller-Arg:T9 Artifact-Arg:T10
+T8	ORG 157 182	một hãng bay của nước này
+T9	ORG 82 104	Hãng hàng_không Hải_Âu
+T10	VEH 47 77	Một trong ba chiếc thuỷ_phi_cơ
+T11	Transport 135 139	sang
+E4	Transport:T11 Destination-Arg:T12 Vehicle-Arg:T10 Time-Arg:T13
+T12	GPE 140 149	Indonesia
+T13	TIME 105 121	hôm_nay ( 31/7 )
+T14	Transfer-ownership 768 776	cho thuê
+E5	Transfer-ownership:T14 Seller-Arg:T2 Artifact-Arg:T15 Time-Arg:T16
+T15	VEH 781 788	máy_bay
+T16	TIME 720 733	thời_gian qua

@@ -1,0 +1,14 @@
+T1	PER 505 526	những người biểu_tình
+T2	Attack 500 504	đánh
+E1	Attack:T2 Target-Arg:T1
+T3	Attack 739 747	đánh_đập
+E2	Attack:T3 Target-Arg:T4
+T4	PER 748 763	người biểu_tình
+T6	TIME 1192 1206	cuối năm_ngoái
+T7	End-org 1207 1215	giải thể
+E3	End-org:T7 Time-Arg:T6 Org-Arg:T11
+T8	PER 22 27	người
+T9	Demonstrate 28 37	biểu_tình
+E4	Demonstrate:T9 Entity-Arg:T8 Place-Arg:T10
+T10	GPE 40 49	Australia
+T11	ORG 1216 1255	đảng đối_lập Cứu nguy Dân_tộc Campuchia

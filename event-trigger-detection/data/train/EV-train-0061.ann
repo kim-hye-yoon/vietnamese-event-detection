@@ -1,0 +1,4 @@
+T1	Transport 1233 1236	đến
+E1	Transport:T1 Origin-Arg:T2 Artifact-Arg:T3
+T2	LOC 1206 1214	miền Tây
+T3	PER 1129 1132	Tôi

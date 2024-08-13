@@ -1,0 +1,13 @@
+T1	PER 0 29	Nguyên Bí_thư Trung_ương Đoàn
+T2	Elect 30 38	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 43 69	Phó chủ_tịch tỉnh Lạng_Sơn
+T4	Elect 133 136	bầu
+E2	Elect:T4 Position-Arg:T5 Entity-Arg:T7 Time-Arg:T6
+T5	JOB 137 178	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T6	TIME 72 82	Chiều 25/1
+T7	ORG 85 103	HĐND tỉnh Lạng_Sơn
+T8	Elect 313 321	trúng_cử
+E3	Elect:T8 Person-Arg:T10 Position-Arg:T9
+T9	JOB 332 363	Phó chủ_tịch UBND tỉnh Lạng_Sơn
+T10	PER 251 309	ông Nguyễn_Long_Hải , nguyên Bí_thư Trung_ương Đoàn khoá X

@@ -1,0 +1,38 @@
+T1	Release-parole 49 58	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 43	Hơn 20 cán_bộ ' dính ' khu dân_cư trái_phép
+T3	Sentence 92 102	tuyên_phạt
+E2	Sentence:T3 Defendant-Arg:T6 Adjudicator-Arg:T4 Time-Arg:T5 Sentence-Arg:T7 Crime-Arg:T8
+T4	ORG 73 91	TAND tỉnh An_Giang
+T5	TIME 61 70	Ngày 1/11
+T6	PER 103 187	Bùi_Phước_Dũng ( nguyên Giám_đốc Văn_phòng đăng_ký quyền sử_dụng đất TP Long_Xuyên )
+T7	SEN 195 203	3 năm tù
+T8	CRIME 211 297	tội Vi_phạm các quy_định về sử_dụng đất_đai và Vi_phạm các quy_định về quản_lý đất_đai
+T9	Arrest-jail 393 396	bắt
+E3	Arrest-jail:T9 Person-Arg:T10
+T10	PER 381 389	ông Dũng
+T11	Transport 328 335	trở_lại
+E4	Transport:T11 Agent-Arg:T12 Destination-Arg:T13
+T12	PER 307 322	bị_cáo duy_nhất
+T13	FAC 336 349	trại tạm giam
+T14	Arrest-jail 590 598	giam_giữ
+E5	Arrest-jail:T14 
+T15	Release-parole 623 632	trả tự_do
+E6	Release-parole:T15 Person-Arg:T16
+T16	PER 601 617	7 bị_cáo còn lại
+T17	Sentence 641 649	tuyên_án
+E7	Sentence:T17 Sentence-Arg:T18 Adjudicator-Arg:T19
+T18	SEN 650 700	bằng với những ngày bị tạm giam ( 13-20 tháng tù )
+T19	ORG 636 640	HĐXX
+T20	Transfer-ownership 1044 1057	chuyển_nhượng
+E8	Transfer-ownership:T20 Seller-Arg:T22 Buyer-Arg:T21
+T21	PER 1062 1072	người khác
+T22	PER 985 997	nhiều cán_bộ
+T23	Transfer-ownership 1180 1183	mua
+E9	Transfer-ownership:T23 
+T24	Trial-hearing 1366 1372	xét_xử
+E10	Trial-hearing:T24 
+T25	Transport 1596 1603	trở_lại
+E11	Transport:T25 Agent-Arg:T27 Destination-Arg:T26
+T26	FAC 1604 1617	trại tạm giam
+T27	PER 1582 1590	ông Dũng

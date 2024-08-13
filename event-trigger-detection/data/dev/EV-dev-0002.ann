@@ -1,0 +1,48 @@
+T1	End-position 18 27	bãi_nhiệm
+E1	End-position:T1 Person-Arg:T3 Entity-Arg:T2
+T2	ORG 0 8	Quốc_hội
+T3	PER 28 47	bà Châu_Thị_Thu_Nga
+T4	ORG 95 103	Quốc_hội
+T5	Meet 104 107	họp
+E2	Meet:T5 Entity-Arg:T4 Time-Arg:T11
+T6	End-position 136 145	bãi_nhiệm
+E3	End-position:T6 Position-Arg:T7 Person-Arg:T8
+T7	JOB 154 162	đại_biểu
+T8	PER 171 190	bà Châu_Thị_Thu_Nga
+T9	Meet 272 281	thảo_luận
+E4	Meet:T9 Entity-Arg:T10
+T10	PER 259 271	các đại_biểu
+T11	TIME 79 92	16h ngày 17/6
+T12	Meet 479 482	họp
+E5	Meet:T12 Entity-Arg:T13 Time-Arg:T14
+T13	ORG 436 444	Quốc_hội
+T14	TIME 424 433	Ngày 18/6
+T15	End-position 510 520	miễn_nhiệm
+E6	End-position:T15 Person-Arg:T16
+T16	PER 521 546	đại_biểu Châu_Thị_Thu_Nga
+T17	Meet 601 610	thảo_luận
+E7	Meet:T17 Entity-Arg:T23
+T18	ORG 620 628	Quốc_hội
+T19	Meet 642 651	thảo_luận
+E8	Meet:T19 Entity-Arg:T18
+T20	End-position 664 673	bãi_nhiệm
+E9	End-position:T20 Position-Arg:T21 Person-Arg:T22
+T21	JOB 674 690	tư_cách đại_biểu
+T22	PER 699 705	bà Nga
+T23	PER 567 579	các đại_biểu
+T24	Meet 725 734	thảo_luận
+E10	Meet:T24 Entity-Arg:T25
+T25	ORG 708 716	Quốc_hội
+T26	Meet 1066 1072	kỳ họp
+E11	Meet:T26 
+T27	Charge-indict 2298 2305	khởi_tố
+E12	Charge-indict:T27 Defendant-Arg:T29 Crime-Arg:T30 Defendant-Arg2:T31 Time-Arg:T32
+T28	Arrest-jail 2315 2323	tạm giam
+E13	Arrest-jail:T28 Person-Arg:T29 Crime-Arg:T30 Agent-Arg:T31 Time-Arg:T32
+T29	PER 2324 2343	bà Châu_Thị_Thu_Nga
+T30	CRIME 2356 2448	tội_danh lừa_đảo chiếm_đoạt tài_sản khi triển_khai dự_án nhà chung_cư - biệt_thự B5 Cầu_Diễn
+T31	ORG 2238 2274	Cơ_quan cảnh_sát điều_tra Bộ Công_an
+T32	TIME 2228 2235	tối 7/1
+T33	Arrest-jail 2670 2673	bắt
+E14	Arrest-jail:T33 Person-Arg:T34
+T34	PER 2676 2686	bà Thu_Nga

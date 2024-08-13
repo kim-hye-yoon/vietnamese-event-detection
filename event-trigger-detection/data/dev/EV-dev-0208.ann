@@ -1,0 +1,12 @@
+T1	PER 0 7	Bạn gái
+T2	Marry 46 53	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	Marry 691 698	kết_hôn
+E2	Marry:T3 
+T4	Marry 775 782	kết_hôn
+E3	Marry:T4 
+T5	Marry 936 943	kết_hôn
+E4	Marry:T5 
+T6	Marry 1252 1259	kết_hôn
+E5	Marry:T6 Person-Arg:T7
+T7	PER 1219 1222	Tôi

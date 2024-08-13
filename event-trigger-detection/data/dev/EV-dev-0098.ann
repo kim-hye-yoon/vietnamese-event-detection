@@ -1,0 +1,55 @@
+T1	Die 19 24	tự_tử
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T2
+T2	PER 8 18	công_an xã
+T3	Attack 79 86	sát_hại
+E2	Attack:T3 Place-Arg:T5 Target-Arg:T4
+T4	PER 56 75	Một phụ_nữ độc_thân
+T5	LOC 93 101	rừng sâu
+T6	Meet 150 157	hẹn gặp
+E3	Meet:T6 Entity-Arg:T7 Entity-Arg2:T8
+T7	PER 125 137	Công_an_viên
+T8	PER 158 160	bà
+T9	Die 176 181	tự_tử
+E4	Die:T9 Agent-Arg:T7 Victim-Arg:T7 Place-Arg:T34
+T10	Die 825 829	chết
+E5	Die:T10 Victim-Arg:T12 Time-Arg:T11
+T11	TIME 705 728	khoảng 15 giờ cùng ngày
+T12	PER 731 791	Nguyễn_Thành_Minh ( SN 1986 , là công_an_viên xã Trà_Giang )
+T13	Die 911 915	chết
+E6	Die:T13 Victim-Arg:T14
+T14	PER 906 910	Minh
+T15	Die 1712 1717	tự_tử
+E7	Die:T15 Victim-Arg:T16 Agent-Arg:T16
+T16	PER 1707 1711	Minh
+T17	Attack 1746 1750	giết
+E8	Attack:T17 Target-Arg:T18
+T18	PER 1735 1742	bà Xuân
+T19	Marry 2773 2777	cưới
+E9	Marry:T19 Person-Arg:T20 Person-Arg2:T21
+T20	PER 2768 2772	Minh
+T21	PER 2778 2786	vợ thứ 2
+T22	VEH 2449 2460	xe_đạp điện
+T23	PER 2438 2445	Bà Xuân
+T24	Transport 2446 2448	đi
+E10	Transport:T24 Vehicle-Arg:T22 Agent-Arg:T23
+T25	Transport 2494 2497	chở
+E11	Transport:T25 Agent-Arg:T26
+T26	PER 2489 2493	Minh
+T27	Transport 2121 2124	chở
+E12	Transport:T27 Artifact-Arg:T29 Agent-Arg:T28 Time-Arg:T30
+T28	PER 2110 2111	i
+T29	PER 2125 2132	bà Xuân
+T30	TIME 2085 2106	Khoảng 7 giờ sáng 2-5
+T31	Meet 2114 2117	hẹn
+E13	Meet:T31 Entity-Arg:T28 Entity-Arg2:T29
+T32	Transport 2958 2960	đi
+E14	Transport:T32 Artifact-Arg:T33
+T33	PER 2949 2952	ông
+T34	LOC 188 192	rừng
+T35	Die 294 299	tự xử
+E15	Die:T35 Agent-Arg:T36 Victim-Arg:T36
+T36	PER 215 222	anh này
+T37	Die 1135 1139	chết
+E16	Die:T37 Victim-Arg:T39 Place-Arg:T38
+T38	LOC 1154 1158	rừng
+T39	PER 1106 1110	Minh

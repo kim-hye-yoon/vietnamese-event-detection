@@ -1,0 +1,26 @@
+T1	Divorce 56 62	ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 0 17	Vợ ông chủ Amazon
+T3	Divorce 254 260	ly_hôn
+E2	Divorce:T3 Time-Arg:T6
+T4	Divorce 240 246	ly_hôn
+E3	Divorce:T4 Person-Arg:T5
+T5	PER 101 161	vợ_chồng tỷ_phú giàu nhất thế_giới – Jeff và MacKenzie_Bezos
+T6	TIME 284 295	90 ngày nữa
+T7	Divorce 657 663	ly_hôn
+E4	Divorce:T7 Person-Arg:T8
+T8	PER 686 691	Bezos
+T9	Divorce 1272 1278	ly_hôn
+E5	Divorce:T9 
+T10	TIME 1302 1310	Năm 2014
+T12	PER 1313 1340	ông trùm dầu_mỏ Harold_Hamm
+T13	PER 1357 1374	bà Sue_Ann_Arnall
+T11	Transfer-money 1349 1352	trả
+E6	Transfer-money:T11 Giver-Arg:T12 Recipient-Arg:T13 Money-Arg:T14 Time-Arg:T10
+T14	MONEY 1375 1388	972 triệu USD
+T15	Trial-hearing 1396 1402	xét_xử
+E7	Trial-hearing:T15 Time-Arg:T18
+T16	Divorce 1554 1560	ly_hôn
+E8	Divorce:T16 Person-Arg:T17
+T17	PER 1490 1495	Bezos
+T18	TIME 1411 1416	2 năm

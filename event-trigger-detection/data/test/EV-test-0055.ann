@@ -1,0 +1,28 @@
+T1	PER 39 47	11 người
+T2	Die 48 58	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1 Place-Arg:T3
+T3	GPE 1 3	Mỹ
+T4	PER 59 67	11 người
+T5	Die 71 81	thiệt_mạng
+E2	Die:T5 Time-Arg:T7 Victim-Arg:T4 Place-Arg:T6 Agent-Arg:T22
+T6	GPE 156 184	Florida và California ( Mỹ )
+T7	TIME 82 100	rạng sáng ngày 9/2
+T8	PER 336 343	5 người
+T9	Die 344 354	thiệt_mạng
+E3	Die:T9 Victim-Arg:T8 Place-Arg:T15 Place-Arg2:T17
+T10	PER 830 837	6 người
+T11	Die 846 856	thiệt_mạng
+E4	Die:T11 Victim-Arg:T10 Place-Arg:T13
+T12	GPE 817 827	California
+T13	GPE 905 926	phía đông Los_Angeles
+T14	Die 371 378	tử_vong
+E5	Die:T14 Victim-Arg:T16 Agent-Arg:T17
+T15	GPE 319 326	Florida
+T16	PER 358 365	6 người
+T17	GPE 416 426	California
+T18	Die 747 753	tử_nạn
+E6	Die:T18 Victim-Arg:T19 Victim-Arg2:T20 Time-Arg:T21
+T19	PER 721 728	4 người
+T20	PER 701 707	tài_xế
+T21	TIME 681 694	rạng sáng 9-2
+T22	PER 189 195	tài_xế

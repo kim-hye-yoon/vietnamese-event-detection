@@ -1,0 +1,12 @@
+T1	Elect 27 35	được bầu
+E1	Elect:T1 Person-Arg:T2
+T2	PER 0 17	Người chuyển giới
+T3	Elect 228 234	bầu_cử
+E2	Elect:T3 Person-Arg:T5 Place-Arg:T4
+T4	GPE 235 246	tỉnh Bataan
+T5	PER 143 181	ứng_cử_viên Đảng_Tự do Geraldine Roman
+T6	Nominate 1407 1415	tranh_cử
+E3	Nominate:T6 Place-Arg:T7
+T7	GPE 1418 1429	tỉnh Bataan
+T8	Be-born 1624 1631	Sinh ra
+E4	Be-born:T8 

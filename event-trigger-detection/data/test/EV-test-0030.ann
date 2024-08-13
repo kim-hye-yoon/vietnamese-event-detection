@@ -1,0 +1,13 @@
+T1	PER 0 9	Kate_Moss
+T2	Start-org 10 12	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3
+T3	ORG 13 28	công_ty quản_lý
+T4	PER 1143 1145	Cô
+T5	End-position 1146 1149	rời
+E2	End-position:T5 Entity-Arg:T6 Person-Arg:T4 Time-Arg:T7
+T6	ORG 1150 1198	công_ty quản_lý lâu năm - Storm_Model_Management
+T7	TIME 1204 1215	đầu năm nay
+T8	PER 1364 1376	Sarah_Doukas
+T9	Start-org 1385 1393	sáng_lập
+E3	Start-org:T9 
+T10	ORG 1394 1416	Storm_Model_Management

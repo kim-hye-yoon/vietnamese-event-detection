@@ -1,0 +1,20 @@
+T1	Die 495 507	bị trói chặt
+E1	Die:T1 Victim-Arg:T4 Time-Arg:T2
+T2	TIME 326 334	ngày 4/3
+T4	PER 403 415	Lưu_Vĩnh_Đạt
+T3	Transport 653 659	đi học
+E2	Transport:T3 Agent-Arg:T5 Time-Arg:T6 Artifact-Arg:T7
+T5	PER 649 652	Đạt
+T6	TIME 624 632	tối 26/2
+T7	WEA 665 671	xe_máy
+T8	Phone-write 739 753	gọi điện_thoại
+E3	Phone-write:T8 Entity-Arg:T9 Time-Arg:T10
+T9	PER 736 738	Lệ
+T10	TIME 685 701	22 giờ cùng ngày
+T11	Phone-write 935 956	nói_chuyện điện_thoại
+E4	Phone-write:T11 Entity-Arg:T12 Time-Arg:T13
+T12	PER 917 934	một người đàn_ông
+T13	TIME 893 914	Sáng hôm sau ( 27/2 )
+T14	Phone-write 1516 1524	nhắn_tin
+E5	Phone-write:T14 Entity-Arg:T15
+T15	ORG 1489 1504	Nhóm bắt_cóc đã

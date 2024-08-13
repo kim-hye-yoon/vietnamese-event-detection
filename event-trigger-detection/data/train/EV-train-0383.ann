@@ -1,0 +1,25 @@
+T1	End-position 54 63	cách_chức
+E1	End-position:T1 Place-Arg:T2 Person-Arg:T3
+T2	GPE 41 50	Hải_Dương
+T3	PER 0 38	Giám_đốc Trung_tâm bồi_dưỡng chính_trị
+T4	End-position 112 121	cách_chức
+E2	End-position:T4 Person-Arg:T5 Position-Arg:T6 Person-Arg2:T7 Position-Arg2:T8 Entity-Arg:T9
+T5	PER 130 153	bà Nguyễn_Thị_Bách_Diệp
+T6	JOB 156 226	Giám_đốc trung_tâm bồi_dưỡng chính_trị , huyện_uỷ_viên huyện Kim_Thành
+T7	PER 230 249	ông Đồng_Xuân_Thành
+T8	JOB 252 274	Phó giám_đốc Trung_tâm
+T9	ORG 66 99	Uỷ_ban Kiểm_tra Tỉnh_uỷ Hải_Dương
+T10	Meet 759 767	hội_nghị
+E3	Meet:T10 
+T11	Transfer-money 1035 1038	rút
+E4	Transfer-money:T11 Recipient-Arg:T13 Money-Arg:T12
+T12	MONEY 1039 1056	hơn 77 triệu đồng
+T13	PER 880 887	Bà Diệp
+T14	MONEY 961 975	241 triệu đồng
+T15	Transfer-money 771 774	rút
+E5	Transfer-money:T15 Money-Arg:T16 Beneficiary-Arg:T17
+T16	MONEY 775 793	hơn 305 triệu đồng
+T17	PER 675 695	bà Diệp và ông Thành
+T18	MONEY 859 877	hơn 165 triệu đồng
+T19	Transfer-money 855 858	rút
+E6	Transfer-money:T19 Money-Arg:T18

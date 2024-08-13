@@ -1,0 +1,8 @@
+T1	Marry 233 237	cưới
+E1	Marry:T1 Time-Arg:T3 Person-Arg:T2
+T2	PER 214 217	anh
+T3	TIME 238 251	trong năm nay
+T4	Marry 168 175	kết_hôn
+E2	Marry:T4 
+T5	PER 64 67	Tôi
+T6	PER 78 81	anh

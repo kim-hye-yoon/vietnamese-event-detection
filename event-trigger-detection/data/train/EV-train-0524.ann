@@ -1,0 +1,54 @@
+T1	Sue 34 40	lên_án
+E1	Sue:T1 Plaintiff-Arg:T6
+T2	Attack 46 54	tấn_công
+E2	Attack:T2 Place-Arg:T26
+T3	Meet 63 72	Phiên họp
+E3	Meet:T3 Entity-Arg:T4 Time-Arg:T5
+T4	ORG 82 111	Hội_đồng Bảo_an Liên_Hợp_Quốc
+T5	TIME 112 121	ngày 14/4
+T6	GPE 30 33	Nga
+T7	GPE 132 137	Syria
+T8	Meet 155 169	phiên họp khẩn
+E4	Meet:T8 Entity-Arg:T9 Time-Arg:T10
+T9	ORG 174 203	Hội_đồng Bảo_an Liên_Hợp_Quốc
+T10	TIME 225 229	14/4
+T11	Sue 399 405	lên_án
+E5	Sue:T11 Defendant-Arg:T14
+T12	Attack 411 421	không_kích
+E6	Attack:T12 Attacker-Arg:T14 Place-Arg:T13
+T13	GPE 431 436	Syria
+T14	GPE 450 465	Mỹ - Anh - Pháp
+T15	PER 628 631	Ông
+T16	Sue 632 638	lên_án
+E7	Sue:T16 Plaintiff-Arg:T15
+T17	Attack 735 743	xung_đột
+E8	Attack:T17 Place-Arg:T18
+T18	GPE 744 749	Syria
+T19	GPE 921 945	ba cường_quốc phương Tây
+T20	Attack 951 959	tấn_công
+E9	Attack:T20 Attacker-Arg:T19 Place-Arg:T21
+T21	GPE 964 985	quốc_gia có chủ_quyền
+T22	Attack 1411 1419	tấn_công
+E10	Attack:T22 Place-Arg:T23 Time-Arg:T34
+T23	GPE 1442 1469	Douma , Đông_Ghouta , Syria
+T24	Attack 2257 2270	cuộc tấn_công
+E11	Attack:T24 Place-Arg:T25
+T25	GPE 2280 2285	Syria
+T26	GPE 55 60	Syria
+T27	Attack 2140 2148	tấn_công
+E12	Attack:T27 Instrument-Arg:T28 Place-Arg:T29 Attacker-Arg:T39
+T28	WEA 2149 2156	hoá_học
+T29	GPE 2159 2164	Douma
+T30	Attack 1936 1944	tấn_công
+E13	Attack:T30 Time-Arg:T31
+T31	TIME 1950 1954	14/4
+T32	Attack 1716 1724	tấn_công
+E14	Attack:T32 Attacker-Arg:T33 Target-Arg:T38
+T33	GPE 1704 1706	Mỹ
+T34	TIME 1424 1439	cuối tuần trước
+T35	Phone-write 1680 1688	trao_đổi
+E15	Phone-write:T35 Entity-Arg:T36 Entity-Arg2:T37
+T36	PER 1693 1695	bà
+T37	PER 1653 1676	Tổng_thống Donald_Trump
+T38	ORG 1737 1752	chính_phủ Syria
+T39	ORG 2062 2108	các lực_lượng của Tổng_thống Bashar al - Assad

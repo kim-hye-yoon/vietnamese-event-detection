@@ -1,0 +1,17 @@
+T1	End-position 23 32	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 19	Trưởng ga Núi_Thành
+T3	End-position 369 378	cách chức
+E2	End-position:T3 Position-Arg:T4 Person-Arg:T5
+T4	JOB 346 365	Trưởng ga Núi_Thành
+T5	PER 325 343	Ông Dương_Văn_Minh
+T6	End-position 416 423	sa_thải
+E3	End-position:T6 Position-Arg:T7 Person-Arg:T8
+T7	JOB 402 412	Trưởng dồn
+T8	PER 381 399	Ông Nguyễn_Văn_Hải
+T9	Transport 718 720	đi
+E4	Transport:T9 Vehicle-Arg:T11 Destination-Arg:T10 Time-Arg:T13
+T10	FAC 725 727	ga
+T11	VEH 704 717	tàu hàng ASY2
+T12	FAC 689 701	ga Núi_Thành
+T13	TIME 667 682	16h20 ngày 26/5

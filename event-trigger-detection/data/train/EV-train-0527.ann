@@ -1,0 +1,34 @@
+T1	Transport 17 24	công_du
+E1	Transport:T1 Destination-Arg:T3 Artifact-Arg:T2
+T2	PER 1 16	Ngoại_trưởng Mỹ
+T3	GPE 25 38	4 nước châu_Á
+T4	PER 39 65	Ngoại_trưởng Mỹ John_Kerry
+T5	Transport 86 93	công_du
+E2	Transport:T5 Destination-Arg:T6 Artifact-Arg:T4
+T6	GPE 105 120	4 nước ở châu_Á
+T7	Meet 124 133	thảo_luận
+E3	Meet:T7 Entity-Arg:T4 Entity-Arg2:T8
+T8	PER 142 154	nhà_lãnh_đạo
+T9	PER 488 506	Ngoại_trưởng Kerry
+T10	Transport 510 513	tới
+E4	Transport:T10 Destination-Arg:T11 Time-Arg:T12 Artifact-Arg:T9
+T11	GPE 519 599	Hàn_Quốc , Trung_Quốc , Indonesia và Các tiểu vương_quốc Arập thống_nhất ( UAE )
+T12	TIME 473 485	ngày 13-18/2
+T13	PER 614 623	ông Kerry
+T14	PER 636 658	giới_chức nước chủ nhà
+T15	Meet 659 668	thảo_luận
+E5	Meet:T15 Entity-Arg:T14 Entity-Arg2:T13 Place-Arg:T31
+T22	PER 1709 1743	người đứng đầu ngành ngoại_giao Mỹ
+T23	Meet 1747 1755	trao_đổi
+E8	Meet:T23 Entity-Arg:T22 Entity-Arg2:T24
+T24	PER 1760 1798	các quan_chức cấp cao nước chủ_nhà UAE
+T25	Start-position 2031 2040	nhậm_chức
+E9	Start-position:T25 Person-Arg:T26 Time-Arg:T27 Position-Arg:T32
+T26	PER 1981 1990	ông Kerry
+T27	TIME 2050 2061	hơn một năm
+T28	Transport 2106 2113	công_du
+E10	Transport:T28 Time-Arg:T30 Artifact-Arg:T29
+T29	PER 2118 2141	Tổng_thống Barack_Obama
+T30	TIME 2163 2175	vào tháng Tư
+T31	GPE 606 611	Seoul
+T32	JOB 2005 2020	Ngoại_trưởng Mỹ

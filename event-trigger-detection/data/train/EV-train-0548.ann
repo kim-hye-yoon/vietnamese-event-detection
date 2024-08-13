@@ -1,0 +1,25 @@
+T1	GPE 0 11	Tây_Ban_Nha
+T2	Release-parole 12 21	trả tự_do
+E1	Release-parole:T2 Entity-Arg:T1 Person-Arg:T3
+T3	PER 26 51	6 cựu quan_chức Catalonia
+T4	Transport 108 111	rời
+E2	Transport:T4 Artifact-Arg:T7 Origin-Arg:T5 Time-Arg:T6
+T5	FAC 112 173	nhà tù Estremera , cách thủ_đô Madrid 75 km về hướng đông nam
+T6	TIME 176 185	ngày 4/12
+T7	PER 54 107	Các cựu quan_chức chính_quyền bị giải_tán ở Catalonia
+T8	Arrest-jail 414 421	bị giam
+E3	Arrest-jail:T8 Time-Arg:T10 Person-Arg:T9
+T9	PER 398 413	Những người này
+T10	TIME 425 437	đầu tháng 11
+T11	Transport 624 633	xuất_cảnh
+E4	Transport:T11 Artifact-Arg:T12
+T12	PER 584 599	6 cựu quan_chức
+T13	PER 768 810	cựu phó thủ_hiến Catalonia_Oriol_Junqueras
+T14	Arrest-jail 817 824	bị giam
+E5	Arrest-jail:T14 Person-Arg:T13
+T15	Extradite 1129 1135	dẫn_độ
+E6	Extradite:T15 Time-Arg:T16 Agent-Arg:T19 Person-Arg:T18
+T16	TIME 1140 1150	ngày 14/12
+T17	GPE 994 996	Bỉ
+T18	PER 999 1081	cựu thủ_hiến Catalonia_Carles_Puigdemont và 4 cựu thành_viên chính_quyền Catalonia
+T19	ORG 1091 1106	toà_án Brussels

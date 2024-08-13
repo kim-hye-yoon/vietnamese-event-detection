@@ -1,0 +1,46 @@
+T1	End-position 66 75	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 7 29	Phó chủ_tịch Thanh_Hoá
+T3	Meet 117 126	thảo_luận
+E2	Meet:T3 Entity-Arg:T4 Time-Arg:T5
+T4	ORG 90 98	Quốc_hội
+T5	TIME 78 87	Sáng 22/5
+T6	End-position 682 686	cách
+E3	End-position:T6 Position-Arg:T7 Entity-Arg:T11 Person-Arg:T12
+T7	JOB 687 711	tất_cả chức_vụ trong Đản
+T8	PER 715 724	Thủ_tướng
+T9	End-position 725 734	cách_chức
+E4	End-position:T9 Position-Arg:T10 Person-Arg:T12
+T10	JOB 735 776	Phó chủ_tịch UBND tỉnh nhiệm_kỳ 2016-2021
+T11	ORG 671 681	Ban_bí_thư
+T12	PER 660 667	ông này
+T13	End-position 1220 1229	cách_chức
+E5	End-position:T13 Person-Arg:T14
+T14	PER 1192 1208	Ông Ngô_Văn_Tuấn
+T15	JOB 1377 1399	tổ_trưởng tổ giúp_việc
+T16	Start-position 1363 1372	phân_công
+E6	Start-position:T16 Position-Arg:T15 Person-Arg:T17 Entity-Arg:T37
+T17	PER 1296 1303	Ông này
+T18	Nominate 2695 2703	bổ_nhiệm
+E7	Nominate:T18 Position-Arg:T19 Person-Arg:T20
+T19	JOB 2708 2739	Phó trưởng_phòng , Trưởng_phòng
+T20	PER 2574 2594	bà Trần_Vũ_Quỳnh_Anh
+T21	End-position 2830 2834	cách
+E8	End-position:T21 Entity-Arg:T24 Position-Arg:T22 Person-Arg:T23 Time-Arg:T25
+T22	JOB 2842 2860	chức_vụ trong Đảng
+T23	PER 2865 2881	ông Ngô_Văn_Tuấn
+T24	ORG 2808 2818	Ban_bí_thư
+T25	TIME 2790 2805	Ngày 17/12/2017
+T26	End-position 2909 2918	cách_chức
+E9	End-position:T26 Position-Arg:T27 Person-Arg:T28 Time-Arg:T30
+T27	JOB 2919 2972	Phó chủ_tịch UBND tỉnh Thanh_Hoá , nhiệm_kỳ 2016-2021
+T28	PER 2981 2988	ông này
+T29	PER 2899 2908	Thủ_tướng
+T30	TIME 2884 2896	Tháng 1/2018
+T31	Start-position 3021 3027	bố_trí
+E10	Start-position:T31 Person-Arg:T34 Time-Arg:T35 Position-Arg:T32 Entity-Arg:T36
+T34	PER 3007 3015	ông Tuấn
+T35	TIME 2995 3004	ngày 10/4
+T36	ORG 3184 3203	UBND tỉnh Thanh_Hoá
+T37	ORG 1321 1330	UBND tỉnh
+T32	JOB 3045 3151	Uỷ viên thường_trực , Tổ_trưởng tổ giúp_việc của Ban chỉ_đạo quy_hoạch xây_dựng phát_triển đô_thị và nhà ở

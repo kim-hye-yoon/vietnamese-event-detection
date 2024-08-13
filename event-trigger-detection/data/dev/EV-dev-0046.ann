@@ -1,0 +1,28 @@
+T1	PER 0 16	Hàng nghìn người
+T2	Demonstrate 17 26	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	Demonstrate 27 35	phản_đối
+E2	Demonstrate:T3 Entity-Arg:T1
+T4	PER 200 215	người biểu_tình
+T5	Demonstrate 216 222	tụ_tập
+E3	Demonstrate:T5 Entity-Arg:T4 Place-Arg:T6 Time-Arg:T7
+T6	LOC 225 243	quảng_trường Opera
+T7	TIME 244 251	hôm 5/5
+T8	Demonstrate 257 265	phản_đối
+E4	Demonstrate:T8 Entity-Arg:T4
+T9	PER 56 61	Người
+T10	Demonstrate 62 71	biểu_tình
+E5	Demonstrate:T10 Entity-Arg:T9 Place-Arg:T11 Time-Arg:T12
+T11	GPE 74 86	thủ_đô Paris
+T12	TIME 87 94	hôm 5/5
+T13	Demonstrate 364 373	biểu_tình
+E6	Demonstrate:T13 Place-Arg:T14 Place-Arg2:T15
+T14	GPE 396 414	thành_phố Toulouse
+T15	GPE 417 425	Bordeaux
+T16	Demonstrate 689 698	biểu_tình
+E7	Demonstrate:T16 Entity-Arg:T17
+T17	ORG 649 675	Đảng cực tả Defiant France
+T18	Demonstrate 769 778	biểu_tình
+E8	Demonstrate:T18 
+T19	Demonstrate 800 809	biểu_tình
+E9	Demonstrate:T19 

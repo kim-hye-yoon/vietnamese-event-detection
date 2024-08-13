@@ -1,0 +1,4 @@
+T1	Declare-bankruptcy 30 37	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3 Time-Arg:T2
+T2	TIME 38 46	năm 1997
+T3	ORG 0 5	Apple

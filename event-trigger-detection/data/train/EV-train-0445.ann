@@ -1,0 +1,57 @@
+T1	Pardon 9 25	xin tha_tội chết
+E1	Pardon:T1 Defendant-Arg:T3
+T2	PER 0 8	Người mẹ
+T3	PER 30 46	kẻ giết con mình
+T4	Attack 33 37	giết
+E2	Attack:T4 Target-Arg:T5
+T5	PER 38 46	con mình
+T6	PER 60 67	nữ_sinh
+T7	Attack 68 78	bị sát_hại
+E3	Attack:T7 Target-Arg:T6
+T8	Attack 504 511	sát_hại
+E4	Attack:T8 Target-Arg:T9
+T9	PER 512 519	nữ_sinh
+T10	Attack 939 943	giết
+E5	Attack:T10 Target-Arg:T11
+T11	PER 944 953	người_yêu
+T12	Trial-hearing 1793 1799	xét_xử
+E6	Trial-hearing:T12 
+T13	PER 2440 2444	Điệp
+T14	WEA 2458 2470	con dao nhọn
+T15	Attack 2483 2486	đâm
+E7	Attack:T15 Target-Arg:T16 Attacker-Arg:T13 Instrument-Arg:T14
+T16	PER 2487 2491	Xuân
+T17	PER 2505 2513	nạn_nhân
+T18	Die 2514 2521	tử_vong
+E8	Die:T18 Victim-Arg:T17 Agent-Arg:T13
+T19	PER 2531 2535	Điệp
+T20	Attack 2541 2547	tự đâm
+E9	Attack:T20 
+T21	Transport 2559 2570	được đưa đi
+E10	Transport:T21 Artifact-Arg:T19
+T22	Transfer-money 3750 3760	bồi_thường
+E11	Transfer-money:T22 Recipient-Arg:T23 Money-Arg:T24 Giver-Arg:T25
+T23	PER 3765 3771	bị hại
+T24	MONEY 3772 3786	200 triệu đồng
+T25	PER 3711 3724	gia_đình Điệp
+T26	ORG 3819 3822	Toà
+T27	Sentence 3826 3836	tuyên_phạt
+E12	Sentence:T27 Defendant-Arg:T28 Adjudicator-Arg:T26 Sentence-Arg:T29 Crime-Arg:T32
+T28	PER 3837 3841	Điệp
+T29	SEN 3842 3855	tù chung_thân
+T30	Attack 3860 3864	Giết
+E13	Attack:T30 Target-Arg:T31 Attacker-Arg:T28
+T31	PER 3865 3870	người
+T32	CRIME 3860 3870	Giết người
+T33	Transport 728 730	ra
+E14	Transport:T33 Destination-Arg:T36 Origin-Arg:T35 Artifact-Arg:T34
+T34	PER 718 720	gã
+T35	LOC 724 727	quê
+T36	LOC 731 740	thành_phố
+T37	PER 2234 2238	Xuân
+T38	Transport 2251 2253	về
+E15	Transport:T38 Destination-Arg:T39 Artifact-Arg:T37
+T39	FAC 2254 2263	phòng trọ
+T40	PER 2307 2318	Xuân và bạn
+T41	Transport 2319 2325	lao về
+E16	Transport:T41 Artifact-Arg:T40

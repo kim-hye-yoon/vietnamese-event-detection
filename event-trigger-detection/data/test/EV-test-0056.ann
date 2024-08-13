@@ -1,0 +1,48 @@
+T1	ORG 53 111	( CAO ) Phòng Cảnh_sát Truy_nã ( PC 52 ) Công_an Quảng_Nam
+T2	Transport 116 121	di_lí
+E1	Transport:T2 Agent-Arg:T1 Origin-Arg:T4 Destination-Arg:T5
+T4	LOC 184 198	TP Hồ_Chí_Minh
+T5	LOC 202 211	Quảng_Nam
+T6	Arrest-jail 248 251	bắt
+E2	Arrest-jail:T6 Time-Arg:T7 Person-Arg:T8
+T7	TIME 256 271	14 giờ ngày 1-4
+T8	PER 240 244	Loan
+T9	PER 599 603	Loan
+T10	Transport 604 607	dắt
+E3	Transport:T10 Agent-Arg:T9 Artifact-Arg:T11 Destination-Arg:T12
+T11	PER 613 628	4 người con nhỏ
+T12	LOC 641 655	TP Hồ_Chí_Minh
+T13	TIME 1258 1266	ngày 5-4
+T16	Transport 1298 1303	di_lý
+E4	Transport:T16 Time-Arg:T13 Origin-Arg:T18 Destination-Arg:T19 Agent-Arg:T14 Agent-Arg2:T38
+T17	PER 1322 1339	Nguyễn_Công_Chánh
+T18	GPE 1391 1402	Hồ_Chí_Minh
+T19	GPE 1406 1415	Quảng_Nam
+T20	Arrest-jail 1439 1442	bắt
+E5	Arrest-jail:T20 Person-Arg:T21 Agent-Arg:T40
+T21	PER 1418 1435	Nguyễn_Công_Chánh
+T22	PER 1716 1721	Chánh
+T25	Attack 1789 1793	chém
+E6	Attack:T25 Attacker-Arg:T22 Time-Arg:T26 Instrument-Arg:T23 Target-Arg:T24
+T26	TIME 1694 1713	18 giờ 20 cùng ngày
+T27	PER 1837 1842	Chánh
+T28	Transport 1843 1847	trốn
+E7	Transport:T28 Agent-Arg:T27 Origin-Arg:T30 Destination-Arg:T29
+T29	LOC 1871 1885	TP Hồ_Chí_Minh
+T30	LOC 1853 1863	địa_phương
+T3	PER 122 180	Trần_Thị_Tuyết_Loan ( SN 1950 , quê Điện_Bàn , Quảng_Nam )
+T31	PER 122 141	Trần_Thị_Tuyết_Loan
+T32	GPE 158 178	Điện_Bàn , Quảng_Nam
+T33	TIME 332 340	năm 1990
+T34	GPE 369 406	thị_trấn Thạnh_Mỹ ( huyện Nam_Giang )
+T14	ORG 1269 1293	PC52 , Công_an Quảng_Nam
+T15	PER 788 793	chồng
+T35	Transport 804 807	dẫn
+E8	Transport:T35 Artifact-Arg:T36 Agent-Arg:T15 Destination-Arg:T37
+T36	PER 808 821	4 đứa con nhỏ
+T37	GPE 826 833	Sài_Gòn
+T39	GPE 1356 1382	xã Tam_Mỹ_Đông , Núi_Thành
+T38	PER 1304 1384	đối_tượng truy_nã Nguyễn_Công_Chánh ( SN 1990 , ngụ xã Tam_Mỹ_Đông , Núi_Thành )
+T40	ORG 1498 1534	Cơ_quan CSĐT Công_an huyện Núi_Thành
+T23	WEA 1732 1750	một con dao tự_tạo
+T24	PER 1794 1802	ông Dũng

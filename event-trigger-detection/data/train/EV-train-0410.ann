@@ -1,0 +1,37 @@
+T1	WEA 0 13	Xe_tăng Israe
+T3	PER 24 49	người biểu_tình Palestine
+T4	Attack 190 198	khai_hoả
+E2	Attack:T4 Target-Arg:T5 Instrument-Arg:T6
+T5	PER 199 218	vào người biểu_tình
+T6	WEA 150 179	Xe_tăng quân_đội Israel ( IDF
+T7	PER 308 327	một người Palestine
+T8	Die 328 338	thiệt_mạng
+E3	Die:T8 Victim-Arg:T7
+T9	PER 342 351	một người
+T10	Injure 352 366	bị_thương nặng
+E4	Injure:T10 Victim-Arg:T9
+T11	PER 579 605	Hàng nghìn người Palestine
+T12	TIME 606 614	sáng nay
+T13	Demonstrate 623 632	tuần_hành
+E5	Demonstrate:T13 Time-Arg:T12 Entity-Arg:T11 Place-Arg:T14
+T14	LOC 635 658	6 địa_điểm dọc Dải_Gaza
+T15	PER 667 681	binh_sĩ Israel
+T16	Attack 687 694	nổ_súng
+E6	Attack:T16 Attacker-Arg:T15
+T17	PER 799 805	7 ngườ
+T18	Die 810 820	thiệt_mạng
+E7	Die:T18 Victim-Arg:T17
+T19	PER 824 839	hàng trăm người
+T20	Injure 840 849	bị_thương
+E8	Injure:T20 Victim-Arg:T19 Instrument-Arg:T21 Agent-Arg:T23
+T21	WEA 853 873	trúng đạn và hơi cay
+T2	Attack 15 18	bắn
+E1	Attack:T2 Instrument-Arg:T1 Target-Arg:T3
+T22	Die 19 23	chết
+E9	Die:T22 Instrument-Arg:T1 Victim-Arg:T3
+T23	PER 878 892	binh_sĩ Israel
+T24	Demonstrate 1187 1196	biểu_tình
+E10	Demonstrate:T24 Place-Arg:T25
+T25	LOC 1201 1221	biên_giới với Israel
+T26	Demonstrate 1268 1277	biểu_tình
+E11	Demonstrate:T26 

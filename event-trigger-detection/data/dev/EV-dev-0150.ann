@@ -1,0 +1,17 @@
+T1	Arrest-jail 254 263	đuổi theo
+E1	Arrest-jail:T1 Time-Arg:T2 Person-Arg:T5 Agent-Arg:T3 Place-Arg:T4
+T2	TIME 60 78	20 giờ 40 ngày 9-3
+T3	ORG 81 117	tổ tuần_tra Trạm CSGT Cửa Ô Hoà_Nhơn
+T5	PER 188 199	2 đối_tượng
+T4	FAC 143 177	đường tránh Nam_Hải_Vân – Tuý_Loan
+T6	Attack 477 486	khống_chế
+E2	Attack:T6 Attacker-Arg:T7 Target-Arg:T9 Place-Arg:T8
+T7	ORG 462 476	lực_lượng CSGT
+T8	LOC 279 326	thôn An_Ngãi_Tây 3 ( xã Hoà_Sơn , H. Hoà_Vang )
+T9	PER 352 405	Nguyễn_Văn_Huy ( 1992 , trú H._Lệ_Thuỷ , Quảng_Bình )
+T10	Arrest-jail 533 541	truy_xét
+E3	Arrest-jail:T10 Agent-Arg:T11
+T11	ORG 506 525	Đồn CA Bắc_Hoà_Vang
+T12	Arrest-jail 838 845	bắt_giữ
+E4	Arrest-jail:T12 Person-Arg:T13
+T13	PER 654 687	Huy câu_kết với đối_tượng tên Bột

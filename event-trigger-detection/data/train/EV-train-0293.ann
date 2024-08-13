@@ -1,0 +1,17 @@
+T1	Meet 29 31	dự
+E1	Meet:T1 Entity-Arg:T2 Entity-Arg2:T3
+T2	PER 1 28	Đại_tướng Phùng_Quang_Thanh
+T3	ORG 32 65	Đối_thoại Shangri - La lần thứ 13
+T4	Meet 66 75	Đối_thoại
+E2	Meet:T4 Entity-Arg:T5 Time-Arg:T6
+T5	ORG 76 99	Shangri - La lần thứ 13
+T6	TIME 108 132	từ ngày 30/5 -1/6/2014 v
+T7	TIME 158 167	Sáng 30/5
+T8	PER 170 208	Đoàn đại_biểu quân_sự cấp cao Việt_Nam
+T10	LOC 306 312	Hà_Nội
+T9	Transport 313 315	đi
+E3	Transport:T9 Origin-Arg:T10 Time-Arg:T7 Destination-Arg:T11 Artifact-Arg:T8
+T11	GPE 316 325	Singapore
+T12	Meet 326 328	dự
+E4	Meet:T12 Entity-Arg:T8 Time-Arg:T7 Entity-Arg2:T13
+T13	ORG 329 402	Hội_nghị thượng_đỉnh an_ninh châu_Á ( Đối_thoại Shangri - La ) lần thứ 13

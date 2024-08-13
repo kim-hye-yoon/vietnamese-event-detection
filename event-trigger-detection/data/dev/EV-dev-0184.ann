@@ -1,0 +1,14 @@
+T1	Attack 337 346	tiêu_diệt
+E1	Attack:T1 Instrument-Arg:T2
+T2	WEA 297 309	tổ_hợp Arrow
+T3	Attack 183 192	tiêu_diệt
+E2	Attack:T3 Instrument-Arg:T5 Target-Arg:T4
+T4	WEA 197 222	quả đạn phòng_không Syria
+T5	WEA 149 179	tổ_hợp phòng_thủ tên_lửa Arrow
+T6	Attack 25 31	bắn hạ
+E3	Attack:T6 Target-Arg:T7 Attacker-Arg:T8
+T7	WEA 32 57	tên_lửa phòng_không Syria
+T8	GPE 18 24	Israel
+T9	Attack 671 680	tiêu_diệt
+E4	Attack:T9 Target-Arg:T10
+T10	WEA 681 703	oanh_tạc cơ chiến_lược

@@ -1,0 +1,45 @@
+T1	GPE 120 122	Mỹ
+T2	GPE 125 128	Anh
+T3	GPE 131 135	Pháp
+T4	Attack 175 183	tấn_công
+E1	Attack:T4 Attacker-Arg:T3 Attacker-Arg2:T2 Attacker-Arg3:T1 Instrument-Arg:T6 Target-Arg:T5 Place-Arg:T7
+T5	FAC 184 192	ba cơ_sở
+T6	WEA 152 174	105 tên_lửa hành_trình
+T7	GPE 240 245	Syria
+T8	PER 284 310	ực_lượng phòng_không Syria
+T9	Attack 314 320	bắn hạ
+E2	Attack:T9 Target-Arg:T10 Attacker-Arg:T8
+T10	WEA 321 341	71 tên_lửa liên_quân
+T11	ORG 1427 1444	phòng_không Syria
+T12	Attack 1445 1451	bắn hạ
+E3	Attack:T12 Target-Arg:T13 Attacker-Arg:T11
+T13	WEA 1456 1468	70 % tên_lửa
+T14	Attack 3330 3338	tấn_công
+E4	Attack:T14 Attacker-Arg:T31 Place-Arg:T32
+T15	Attack 1808 1818	không kích
+E5	Attack:T15 
+T16	Attack 1876 1881	phóng
+E6	Attack:T16 Instrument-Arg:T17 Attacker-Arg:T18
+T17	WEA 1882 1901	tên_lửa phòng_không
+T18	GPE 1866 1871	Syria
+T19	Attack 2186 2191	phóng
+E7	Attack:T19 Attacker-Arg:T21 Instrument-Arg:T20 Target-Arg:T23
+T20	WEA 2196 2207	112 tên_lửa
+T21	ORG 2168 2182	quân_đội Syria
+T22	Attack 2225 2235	không_kích
+E8	Attack:T22 Attacker-Arg:T23
+T23	ORG 2240 2252	liên_quân Mỹ
+T24	Attack 2280 2285	phóng
+E9	Attack:T24 Instrument-Arg:T25 Attacker-Arg:T26
+T25	WEA 2257 2279	23 trong số 25 tên_lửa
+T26	ORG 2289 2313	các tổ_hợp Pantsir - S 1
+T27	Meet 2591 2602	cuộc họp_bá
+E10	Meet:T27 Entity-Arg:T30
+T28	Attack 2355 2364	xuất_kích
+E11	Attack:T28 Instrument-Arg:T29
+T29	WEA 2344 2354	29 quả đạn
+T30	PER 2615 2630	ông Konashenkov
+T31	ORG 3343 3363	Mỹ và liên_quân nhằm
+T32	GPE 3368 3373	Syria
+T33	Attack 3307 3319	chiến_trường
+E12	Attack:T33 

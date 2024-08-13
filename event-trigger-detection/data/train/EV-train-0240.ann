@@ -1,0 +1,32 @@
+T1	Attack 15 19	diệt
+E1	Attack:T1 Attacker-Arg:T2 Place-Arg:T4 Target-Arg:T3
+T2	PER 0 14	Không_quân Nga
+T4	GPE 50 55	Syria
+T5	Attack 100 108	tấn_công
+E2	Attack:T5 Attacker-Arg:T7 Instrument-Arg:T6 Place-Arg:T8
+T6	WEA 58 73	Máy_bay ném bom
+T7	GPE 96 99	Nga
+T8	GPE 146 151	Syria
+T9	Attack 200 210	chiến_dịch
+E3	Attack:T9 Place-Arg:T10
+T10	GPE 221 226	Syria
+T11	PER 229 243	không_quân Nga
+T12	Attack 247 256	tiêu_diệt
+E4	Attack:T12 Target-Arg:T13 Target-Arg2:T14 Attacker-Arg:T11
+T13	VEH 261 277	3.000 xe chở dầu
+T14	FAC 286 305	200 nhà_máy lọc dầu
+T15	Attack 578 585	phá_huỷ
+E5	Attack:T15 Target-Arg:T16
+T16	FAC 586 612	cơ_sở_hạ_tầng trên mặt_đất
+T17	Attack 986 996	chiến_dịch
+E6	Attack:T17 Place-Arg:T20 Attacker-Arg:T18
+T18	GPE 963 966	Nga
+T20	GPE 1009 1014	Syria
+T21	Attack 1042 1052	không kích
+E7	Attack:T21 Target-Arg:T22 Attacker-Arg:T18
+T22	PER 1062 1072	phiến quân
+T23	Attack 1088 1103	cuộc không_kích
+E8	Attack:T23 Attacker-Arg:T19
+T3	VEH 20 47	hơn 3.000 xe chở dầu của IS
+T25	ORG 126 143	Nhà nước Hồi_giáo
+T19	ORG 1108 1131	liên_quân do Mỹ dẫn_đầu

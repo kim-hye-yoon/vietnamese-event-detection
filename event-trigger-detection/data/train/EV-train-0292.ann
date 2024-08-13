@@ -1,0 +1,61 @@
+T1	Arquit 40 47	tha_tội
+E1	Arquit:T1 Defendant-Arg:T2
+T2	PER 27 31	Trộm
+T3	Transport 147 149	đi
+E2	Transport:T3 Vehicle-Arg:T4
+T4	VEH 143 146	ôtô
+T5	Meet 159 162	gặp
+E3	Meet:T5 Entity-Arg:T6
+T6	PER 163 179	2 người say rượu
+T7	PER 182 188	quý bà
+T8	Attack 307 315	đánh_đập
+E4	Attack:T8 Target-Arg:T9 Attacker-Arg:T10
+T9	PER 284 294	Thanh_niên
+T10	PER 298 306	đám đông
+T11	WEA 532 535	gậy
+T12	Attack 536 539	đập
+E5	Attack:T12 Target-Arg:T13 Attacker-Arg:T14 Instrument-Arg:T11
+T13	PER 506 514	Tên trộm
+T14	PER 518 526	đám đông
+T15	Transport 626 628	đi
+E6	Transport:T15 Vehicle-Arg:T16
+T16	VEH 622 625	ôtô
+T17	Meet 638 641	gặp
+E7	Meet:T17 Entity-Arg:T18
+T18	PER 642 658	2 người say rượu
+T19	Transport 695 701	lao ra
+E8	Transport:T19 Agent-Arg:T20
+T20	PER 688 690	họ
+T21	Transport 724 731	tới gần
+E9	Transport:T21 
+T22	Transport 966 968	đi
+E10	Transport:T22 Vehicle-Arg:T23 Agent-Arg:T24 Time-Arg:T25
+T23	VEH 963 965	xe
+T24	PER 955 958	tôi
+T25	TIME 865 882	lúc 0h3 ngày 14/6
+T26	Transfer-ownership 1240 1243	bán
+E11	Transfer-ownership:T26 Seller-Arg:T27
+T27	ORG 1231 1239	một shop
+T28	Attack 1407 1415	chửi_bới
+E12	Attack:T28 Attacker-Arg:T30 Target-Arg:T29
+T29	PER 1416 1432	cảnh_sát cơ_động
+T30	PER 1378 1394	Một_số người_dân
+T31	Transport 1455 1459	chạy
+E13	Transport:T31 Agent-Arg:T32
+T32	PER 1452 1454	nó
+T33	Die 1744 1749	tự_tử
+E14	Die:T33 Victim-Arg:T34
+T34	PER 1716 1721	Chồng
+T35	Transport 1860 1867	qua_lại
+E15	Transport:T35 Vehicle-Arg:T36
+T36	VEH 1853 1859	Các xe
+T37	Transport 1964 1967	đưa
+E16	Transport:T37 Agent-Arg:T38 Artifact-Arg:T39
+T38	PER 1904 1946	người_dân bên đường và cảnh_sát giao_thông
+T39	PER 1968 1977	2 cha con
+T40	Die 2065 2070	tự_tử
+E17	Die:T40 Victim-Arg:T41
+T41	PER 2016 2029	Người đàn_ông
+T42	Transport 2406 2408	đi
+E18	Transport:T42 Agent-Arg:T43
+T43	PER 2394 2405	nhiều người

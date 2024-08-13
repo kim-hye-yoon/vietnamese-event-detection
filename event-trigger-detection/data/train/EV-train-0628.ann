@@ -1,0 +1,51 @@
+T1	Attack 29 36	bắn rơi
+E1	Attack:T1 Target-Arg:T3 Place-Arg:T2
+T2	GPE 48 53	Syria
+T3	VEH 0 20	Mẫu trinh_sát cơ Nga
+T4	WEA 279 296	4 tiêm_kích F -16
+T5	GPE 301 307	Israel
+T6	Attack 308 316	tấn_công
+E2	Attack:T6 Instrument-Arg:T4 Place-Arg:T7 Attacker-Arg:T5
+T7	GPE 335 343	Latatkia
+T8	VEH 506 518	chiếc phi cơ
+T9	Transport 519 522	chở
+E3	Transport:T9 Artifact-Arg:T10 Vehicle-Arg:T8
+T10	PER 523 531	14 người
+T11	PER 621 638	phòng_không Syria
+T12	Attack 650 657	bắn rơi
+E4	Attack:T12 Attacker-Arg:T11 Target-Arg:T13
+T14	Attack 719 729	không_kích
+E5	Attack:T14 Attacker-Arg:T15
+T15	GPE 734 740	Israel
+T16	Attack 691 699	khai_hoả
+E6	Attack:T16 Attacker-Arg:T11
+T17	Attack 848 856	tấn_công
+E7	Attack:T17 Instrument-Arg:T18 Place-Arg:T19
+T18	WEA 840 847	tên_lửa
+T20	Attack 1092 1102	tham_chiến
+E8	Attack:T20 Place-Arg:T21 Target-Arg:T25
+T21	GPE 1105 1110	Syria
+T22	Phone-write 212 220	liên_lạc
+E9	Phone-write:T22 Entity-Arg:T23
+T23	PER 225 253	phi_hành_đoàn máy_bay Il -20
+T13	VEH 658 680	chiếc trinh_sát cơ Nga
+T24	Attack 834 839	phóng
+E10	Attack:T24 Instrument-Arg:T18
+T19	GPE 857 879	tỉnh Latakia của Syria
+T25	ORG 1075 1087	quân_đội Nga
+T26	Transport 1234 1244	triển_khai
+E11	Transport:T26 Destination-Arg:T27 Vehicle-Arg:T29
+T27	GPE 1249 1254	Syria
+T28	PER 1151 1167	14 quân_nhân Nga
+T29	VEH 1178 1219	một trong những mẫu máy_bay hiện_đại nhất
+T30	VEH 810 828	4 tiêm_kích Israel
+T31	Phone-write 2639 2652	cuộc liên_lạc
+E12	Phone-write:T31 Entity-Arg:T32
+T32	PER 2657 2667	đối_phương
+T33	VEH 2618 2624	Il -20
+T34	Phone-write 3538 3546	liên_lạc
+E13	Phone-write:T34 Entity-Arg:T35 Entity-Arg2:T36
+T35	ORG 3560 3583	lực_lượng nổi_dậy Syria
+T36	ORG 3587 3630	phiến quân Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T37	Attack 3681 3696	cuộc không_kích
+E14	Attack:T37 

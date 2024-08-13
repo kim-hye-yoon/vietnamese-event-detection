@@ -1,0 +1,30 @@
+T1	End-position 24 33	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 20	Chỉ_huy chiến_hạm Mỹ
+T3	Start-position 96 105	trở_thành
+E2	Start-position:T3 Time-Arg:T4 Person-Arg:T5
+T4	TIME 121 129	năm 2017
+T5	PER 61 91	Trung_tá Jeffrey_S._Tamulevich
+T6	End-position 228 237	cách_chức
+E3	End-position:T6 Person-Arg:T7 Position-Arg:T8 Time-Arg:T11
+T7	PER 238 268	trung_tá Jeffrey_S._Tamulevich
+T8	JOB 271 309	hạm_trưởng của tàu_khu_trục USS Hopper
+T9	JOB 177 212	chỉ_huy Vùng hải_quân Hawaii của Mỹ
+T10	PER 148 174	Chuẩn đô_đốc Brian_P._Fort
+T11	TIME 219 227	đầu tuần
+T12	Trial-hearing 338 346	điều_tra
+E4	Trial-hearing:T12 
+T13	Charge-indict 542 549	khởi_tố
+E5	Charge-indict:T13 Defendant-Arg:T14
+T14	PER 508 527	Những người vi_phạm
+T15	End-position 658 667	đuổi khỏi
+E6	End-position:T15 Person-Arg:T16
+T16	PER 638 648	Tamulevich
+T17	Start-position 1133 1136	giữ
+E7	Start-position:T17 Person-Arg:T18 Position-Arg:T19 Time-Arg:T20
+T18	PER 1122 1132	Tamulevich
+T19	JOB 1145 1171	phó chỉ_huy của USS Hopper
+T20	TIME 1175 1204	tháng 3/2016 đến tháng 7/2017
+T21	End-position 1222 1232	thăng chức
+E8	End-position:T21 Position-Arg:T22 Person-Arg:T18
+T22	JOB 1233 1243	hạm trưởng

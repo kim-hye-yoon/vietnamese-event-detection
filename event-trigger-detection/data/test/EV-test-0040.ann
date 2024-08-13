@@ -1,0 +1,12 @@
+T1	Marry 759 766	kết_hôn
+E1	Marry:T1 Person-Arg:T3 Time-Arg:T2
+T2	TIME 767 775	năm 2006
+T3	PER 729 731	Họ
+T4	Meet 732 735	gặp
+E2	Meet:T4 Entity-Arg:T3 Time-Arg:T5
+T5	TIME 741 756	cách đây 15 năm
+T6	PER 879 889	Hoàng_Bách
+T7	Be-born 890 894	sinh
+E3	Be-born:T7 Time-Arg:T8 Person-Arg:T6 Place-Arg:T9
+T8	TIME 895 903	năm 1980
+T9	GPE 910 918	Nam_Định

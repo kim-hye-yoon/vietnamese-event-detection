@@ -1,0 +1,21 @@
+T1	Arrest-jail 18 24	bị bắt
+E1	Arrest-jail:T1 Person-Arg:T4 Crime-Arg:T2
+T2	CRIME 28 45	nhận tiền chạy_án
+T3	Transfer-money 28 32	nhận
+E2	Transfer-money:T3 Recipient-Arg:T4
+T4	PER 0 17	Trưởng công_an xã
+T5	Arrest-jail 85 92	bắt_giữ
+E3	Arrest-jail:T5 Agent-Arg:T6 Time-Arg:T7 Person-Arg:T8 Crime-Arg:T9
+T6	ORG 60 81	Công_an tỉnh Đăk_Nông
+T7	TIME 48 57	Ngày 11/4
+T8	PER 93 163	ông Trần_Xuân_Trưởng , Trưởng Công_an xã Nhân_Cơ ( huyện Đăk_R ' Lấp )
+T9	CRIME 180 214	hành_vi Lừa_đảo chiếm_đoạt tài_sản
+T10	Sue 259 265	tố_cáo
+E4	Sue:T10 Plaintiff-Arg:T13 Defendant-Arg:T12 Time-Arg:T11 Crime-Arg:T16
+T11	TIME 217 228	Hồi đầu năm
+T12	PER 231 241	ông Trưởng
+T13	PER 245 258	một người_dân
+T14	Transfer-money 266 270	nhận
+E5	Transfer-money:T14 Recipient-Arg:T12 Money-Arg:T15
+T15	MONEY 271 291	hàng trăm triệu đồng
+T16	CRIME 266 316	nhận hàng trăm triệu đồng để chạy hoãn thi_hành án

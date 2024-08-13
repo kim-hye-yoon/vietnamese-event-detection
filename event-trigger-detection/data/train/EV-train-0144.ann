@@ -1,0 +1,52 @@
+T1	Execute 47 54	tử_hình
+E1	Execute:T1 Person-Arg:T2 Agent-Arg:T3
+T2	PER 55 70	công_dân Canada
+T3	GPE 7 17	Trung_Quốc
+T4	Trial-hearing 119 122	xử 
+E2	Trial-hearing:T4 Defendant-Arg:T7 Time-Arg:T5 Place-Arg:T6
+T5	TIME 122 130	hôm 14/1
+T6	GPE 133 181	thành_phố Đại_Liên , tỉnh Liêu_Ninh , Trung_Quốc
+T7	PER 73 108	Công_dân Canada_Robert_Schellenberg
+T8	Meet 276 284	trao_đổi
+E3	Meet:T8 Entity-Arg:T11 Entity-Arg2:T10 Time-Arg:T9
+T9	TIME 285 294	ngày 15/1
+T10	PER 230 267	Ngoại_trưởng Canada_Chrystia_Freeland
+T11	PER 199 226	Ngoại_trưởng Mỹ Mike_Pompeo
+T12	Arrest-jail 332 340	bắt giam
+E4	Arrest-jail:T12 Person-Arg:T14
+T13	Convict 382 388	kết_án
+E5	Convict:T13 Defendant-Arg:T14
+T14	PER 389 404	công_dân Canada
+T15	Arrest-jail 616 619	bắt
+E6	Arrest-jail:T15 Person-Arg:T17 Place-Arg:T16 Crime-Arg:T19
+T16	GPE 624 630	Canada
+T17	PER 563 612	Mạnh_Vãn_Chu , giám_đốc tài_chính tập_đoàn Huawei
+T19	CRIME 664 712	lừa_dối ngân_hàng , vi_phạm lệnh trừng_phạt Iran
+T20	Sentence 925 931	kết_án
+E8	Sentence:T20 Sentence-Arg:T21 Defendant-Arg:T22 Crime-Arg:T23 Time-Arg:T18 Adjudicator-Arg:T24 Place-Arg:T24
+T21	SEN 932 939	tử_hình
+T22	PER 940 975	công_dân Canada_Robert_Schellenberg
+T23	CRIME 983 998	buôn_bán ma_tuý
+T18	TIME 916 924	hôm 14/1
+T24	GPE 905 915	Trung_Quốc
+T25	Meet 1046 1055	thảo_luận
+E7	Meet:T25 Entity-Arg:T26 Entity-Arg2:T27 Entity-Arg3:T28
+T26	PER 1001 1012	Bà Freeland
+T27	PER 1016 1040	Thủ_tướng Justin_Trudeau
+T28	PER 1060 1081	các lãnh_đạo thế_giới
+T29	Arrest-jail 1140 1143	bắt
+E9	Arrest-jail:T29 Person-Arg:T31 Agent-Arg:T30
+T30	GPE 1129 1139	Trung_Quốc
+T31	PER 1144 1196	hai công_dân Canada_Michael_Kovrig và Michael_Spavor
+T32	Arrest-jail 1204 1207	bắt
+E10	Arrest-jail:T32 Person-Arg:T33
+T33	PER 1208 1215	bà Mạnh
+T34	Arrest-jail 1334 1338	giam
+E11	Arrest-jail:T34 Person-Arg:T35
+T35	PER 1339 1354	công_dân Canada
+T36	Sentence 1773 1783	quyết_định
+E12	Sentence:T36 Sentence-Arg:T37 Defendant-Arg:T38
+T37	SEN 1784 1791	tử_hình
+T38	PER 1792 1804	Schellenberg
+T39	Transfer-ownership 1952 1956	buôn
+E13	Transfer-ownership:T39 

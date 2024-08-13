@@ -1,0 +1,47 @@
+T1	ORG 0 20	Chứng_khoán Đại_Việt
+T2	End-position 21 30	bãi_nhiệm
+E1	End-position:T2 Entity-Arg:T1 Person-Arg:T3
+T3	PER 31 39	Chủ_tịch
+T4	Arrest-jail 47 50	bắt
+E2	Arrest-jail:T4 Person-Arg:T3
+T5	End-position 64 73	bãi_nhiệm
+E3	End-position:T5 Position-Arg:T6 Person-Arg:T7
+T6	JOB 74 111	chức_vụ Chủ_tịch Chứng_khoán Đại_Việt
+T7	PER 116 134	ông Mai_Hữu_Khương
+T8	Be-born 179 183	sinh
+E4	Be-born:T8 Time-Arg:T9 Person-Arg:T10
+T9	TIME 184 192	năm 1983
+T10	PER 158 176	Ông Mai_Hữu_Khương
+T11	PER 200 218	ông Phan_Thành_Mai
+T12	Be-born 221 225	sinh
+E5	Be-born:T12 Time-Arg:T13 Person-Arg:T11
+T13	TIME 226 234	năm 1971
+T14	PER 239 257	ông Phạm_Công_Danh
+T15	Be-born 260 264	sinh
+E6	Be-born:T15 Person-Arg:T14 Time-Arg:T16
+T16	TIME 265 273	năm 1965
+T17	Charge-indict 319 326	khởi_tố
+E7	Charge-indict:T17 Adjudicator-Arg:T18 Crime-Arg:T19
+T18	ORG 282 318	cơ_quan cảnh_sát điều_tra Bộ Công_an
+T19	CRIME 333 464	liên_quan đến vụ án cố_ý làm trái quy_định của Nhà_nước về quản_lý kinh_tế gây hậu_quả nghiêm_trọng xảy ra tại Tập_đoàn Thiên_Thanh
+T20	Arrest-jail 742 745	bắt
+E8	Arrest-jail:T20 Person-Arg:T24
+T21	End-position 775 784	bãi_nhiệm
+E9	End-position:T21 Position-Arg:T22 Entity-Arg:T23 Person-Arg:T24
+T22	JOB 785 792	chức_vụ
+T23	ORG 797 824	Ngân_hàng Xây_dựng Việt_Nam
+T24	PER 748 764	các cá_nhân trên
+T25	Start-position 1009 1017	bổ_nhiệm
+E10	Start-position:T25 Person-Arg:T29 Position-Arg:T26 Entity-Arg:T30
+T26	JOB 1022 1035	Chủ_tịch HĐQT
+T27	PER 912 930	ông Mai_Hữu_Khương
+T28	Arrest-jail 934 937	bắt
+E11	Arrest-jail:T28 Person-Arg:T27
+T29	PER 940 1002	bà Lê_Thị_Bích_Thuỷ - Phó Chủ_tịch Công_ty Chứng_khoán Đại_Việ
+T30	ORG 1071 1078	công_ty
+T31	Elect 1126 1134	trúng_cử
+E12	Elect:T31 Position-Arg:T32 Person-Arg:T33 Person-Arg2:T34 Time-Arg:T35
+T32	JOB 1139 1172	HĐQT Công_ty Chứng_khoán Đại_Việt
+T33	PER 1103 1121	ông Phan_Thành_Mai
+T34	PER 1081 1099	Ông Mai_Hữu_Khương
+T35	TIME 1173 1186	tháng 12/2013

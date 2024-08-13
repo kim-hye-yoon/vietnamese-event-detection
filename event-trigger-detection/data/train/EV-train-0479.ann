@@ -1,0 +1,4 @@
+T1	Transfer-money 83 89	thu về
+E1	Transfer-money:T1 Beneficiary-Arg:T3 Money-Arg:T2
+T2	MONEY 90 101	262 tỷ đồng
+T3	ORG 73 79	Dabaco

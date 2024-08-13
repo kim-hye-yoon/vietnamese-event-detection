@@ -1,0 +1,34 @@
+T1	Die 37 47	thiệt_mạng
+E1	Die:T1 Victim-Arg:T2
+T2	PER 28 36	1 lái_xe
+T3	PER 113 126	tài_xế xe_tải
+T5	LOC 132 139	tại_chỗ
+T6	PER 142 207	ba người còn lại ( trong đó có một lái_xe bus cùng 2 hành_khách )
+T7	Injure 208 217	bị_thương
+E2	Injure:T7 Victim-Arg:T6
+T4	Die 127 131	chết
+E3	Die:T4 Place-Arg:T5 Victim-Arg:T3
+T8	PER 256 262	tài_xế
+T9	Die 263 267	chết
+E4	Die:T9 Place-Arg:T10 Victim-Arg:T8
+T10	LOC 268 275	tại_chỗ
+T11	TIME 278 286	Sáng 6/4
+T12	VEH 289 309	một chiếc xe_tải nhẹ
+T13	PER 313 364	tài_xế Nguyễn_Khắc_Tùng ( 36 tuổi , ngụ Quảng_Nam )
+T15	Transport 384 387	chở
+E6	Transport:T15 Artifact-Arg:T16 Agent-Arg:T13 Vehicle-Arg:T12 Time-Arg:T11
+T16	VEH 388 409	1 xe ô_tô_con mới mua
+T17	PER 632 640	anh Tùng
+T18	Die 641 645	chết
+E7	Die:T18 Victim-Arg:T17 Place-Arg:T19
+T19	LOC 646 653	tại_chỗ
+T20	PER 656 666	lái_xe bus
+T21	PER 670 690	2 hành_khách trên xe
+T22	Injure 691 700	bị_thương
+E8	Injure:T22 Victim-Arg:T21 Victim-Arg2:T20
+T23	Transport 711 714	đưa
+E9	Transport:T23 Artifact-Arg:T21 Artifact-Arg2:T20 Destination-Arg:T24
+T24	FAC 719 739	Trạm_xá xã Xuân_Cảnh
+T25	Transport 757 768	chuyển_tiếp
+E10	Transport:T25 Artifact-Arg:T21 Artifact-Arg2:T20 Destination-Arg:T26
+T26	FAC 773 805	Bệnh_viện Đa_khoa tỉnh Bình_Định

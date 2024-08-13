@@ -1,0 +1,35 @@
+T1	ORG 0 5	Tesla
+T2	Declare-bankruptcy 6 13	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	PER 40 49	Elon_Musk
+T4	FAC 74 81	xe_điện
+T5	ORG 82 87	Tesla
+T6	TIME 119 124	7 năm
+T7	TIME 177 182	5 giờ
+T8	PER 189 198	Elon_Musk
+T9	NUM 322 327	8.000
+T10	TIME 335 344	2 giờ sau
+T11	PER 347 350	ông
+T12	ORG 360 365	Tesla
+T13	Declare-bankruptcy 369 376	phá_sản
+E2	Declare-bankruptcy:T13 Org-Arg:T12
+T14	PER 465 474	chúng_tôi
+T15	ORG 504 509	Tesla
+T16	Declare-bankruptcy 523 530	phá_sản
+E3	Declare-bankruptcy:T16 Org-Arg:T15
+T17	PER 639 643	Musk
+T18	PER 725 728	ông
+T19	PER 835 839	Elon
+T20	FAC 878 891	Tesla_Model 3
+T21	PER 1121 1130	Elon_Musk
+T22	PER 1215 1219	Musk
+T23	FAC 1392 1399	xe_điện
+T24	ORG 1447 1452	Tesla
+T25	ORG 1557 1562	Tesla
+T26	ORG 1625 1630	Tesla
+T27	NUM 1652 1654	22
+T28	TIME 1663 1670	tháng 3
+T29	TIME 1686 1699	tháng 12/2010
+T30	ORG 1818 1823	Tesla
+T31	MONEY 1915 1923	2 tỷ USD
+T32	ORG 1962 1967	Tesla

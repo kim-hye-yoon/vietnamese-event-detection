@@ -1,0 +1,59 @@
+T2	PER 0 6	Bác_sĩ
+T4	Fine 83 87	phạt
+E3	Fine:T4 Adjudicator-Arg:T6 Entity-Arg:T7 Time-Arg:T5 Crime-Arg:T9
+T5	TIME 59 68	Ngày 2/10
+T6	ORG 71 82	TAND TP HCM
+T7	PER 88 163	ông Trần_Hiệp_Thuần ( nguyên bác_sĩ Trung_tâm Y_tế dự_phòng quận Tân_Bình )
+T8	SEN 171 223	3 năm 2 tháng 28 ngày tù ( bằng thời_gian tạm giam )
+T9	CRIME 227 260	tội Mua_bán trái_phép chất ma_tuý
+T10	Transfer-ownership 231 238	Mua_bán
+E4	Transfer-ownership:T10 
+T12	PER 263 266	Ông
+T13	Sentence 299 307	tuyên_án
+E6	Sentence:T13 Adjudicator-Arg:T14 Defendant-Arg:T12
+T14	ORG 295 298	toà
+T15	Transfer-ownership 738 741	mua
+E7	Transfer-ownership:T15 Time-Arg:T16 Buyer-Arg:T17
+T16	TIME 713 728	từ tháng 9/2014
+T17	PER 696 705	Ông Thuần
+T18	Transfer-ownership 845 848	bán
+E8	Transfer-ownership:T18 Buyer-Arg:T19
+T19	PER 827 830	Ông
+T21	PER 927 936	ông Thuần
+T22	PER 1006 1042	người muốn cai_nghiện ma_tuý tại nhà
+T20	Transfer-ownership 998 1001	bán
+E9	Transfer-ownership:T20 Buyer-Arg:T22 Seller-Arg:T21
+T23	Transfer-ownership 1086 1089	bán
+E10	Transfer-ownership:T23 Buyer-Arg:T25 Seller-Arg:T24
+T24	PER 1073 1082	ông Thuần
+T25	PER 1094 1097	Lân
+T26	Transfer-ownership 1199 1202	bán
+E11	Transfer-ownership:T26 Buyer-Arg:T29 Price-Arg:T28 Seller-Arg:T27
+T27	PER 1146 1149	Ông
+T28	MONEY 1177 1190	55 triệu đồng
+T29	PER 1213 1252	một_số người nghiện ở Đăk_Lăk , Phú_Yên
+T30	Transfer-ownership 1284 1287	mua
+E12	Transfer-ownership:T30 Buyer-Arg:T32 Seller-Arg:T31
+T31	PER 1292 1301	ông Thuần
+T32	PER 1261 1283	cặp vợ_chồng ở Long_An
+T33	Fine 1343 1353	bị xử_phạt
+E13	Fine:T33 Crime-Arg:T35 Entity-Arg:T32
+T34	Transfer-ownership 1365 1372	Mua_bán
+E14	Transfer-ownership:T34 
+T35	CRIME 1357 1394	hành_vi Mua_bán trái_phép chất ma_tuý
+T36	Transfer-ownership 1457 1460	bán
+E15	Transfer-ownership:T36 Buyer-Arg:T38 Seller-Arg:T37
+T37	PER 1415 1424	ông Thuần
+T38	PER 1471 1485	các con_nghiện
+T39	Transfer-ownership 1801 1804	bán
+E16	Transfer-ownership:T39 Seller-Arg:T41 Buyer-Arg:T40
+T40	PER 1809 1818	bệnh_nhân
+T41	PER 1778 1784	bị_cáo
+T3	Release-parole 47 56	trả tự_do
+E2	Release-parole:T3 Person-Arg:T1
+T1	PER 0 41	Bác_sĩ bán thuốc có chất ma_tuý ở Sài_Gòn
+T42	Transfer-ownership 7 10	bán
+E1	Transfer-ownership:T42 Seller-Arg:T2 Place-Arg:T43
+T43	GPE 34 41	Sài_Gòn
+T11	Release-parole 267 281	được trả tự_do
+E5	Release-parole:T11 Person-Arg:T12

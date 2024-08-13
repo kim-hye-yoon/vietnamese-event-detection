@@ -1,0 +1,18 @@
+T1	Pardon 23 28	ân_xá
+E1	Pardon:T1 
+T2	PER 0 15	Chủ_tịch Sabeco
+T3	Pardon 52 57	ân_xá
+E2	Pardon:T3 
+T4	Pardon 364 369	Ân_xá
+E3	Pardon:T4 
+T5	Pardon 1180 1185	ân_xá
+E4	Pardon:T5 
+T6	Transfer-ownership 1822 1829	mua_bán
+E5	Transfer-ownership:T6 Time-Arg:T8
+T7	Merge-org 1832 1840	sáp_nhập
+E6	Merge-org:T7 Time-Arg:T8
+T8	TIME 1795 1807	trong 10 năm
+T9	Pardon 2241 2246	ân_xá
+E7	Pardon:T9 
+T10	Transfer-ownership 3252 3255	mua
+E8	Transfer-ownership:T10 

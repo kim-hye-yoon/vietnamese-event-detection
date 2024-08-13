@@ -1,0 +1,48 @@
+T1	Marry 56 68	lập gia_đình
+E1	Marry:T1 Person-Arg:T2
+T2	PER 52 55	Tôi
+T3	Transfer-money 152 154	nợ
+E2	Transfer-money:T3 Recipient-Arg:T5 Money-Arg:T4 Time-Arg:T6
+T4	MONEY 155 168	hơn 400 triệu
+T5	PER 117 120	tôi
+T6	TIME 98 114	Cách đây nửa năm
+T7	Transport 204 207	vào
+E3	Transport:T7 Destination-Arg:T8
+T8	GPE 208 211	Nam
+T9	PER 328 331	Tôi
+T10	Transport 332 335	vào
+E4	Transport:T10 Destination-Arg:T11 Agent-Arg:T9 Time-Arg:T12
+T11	GPE 336 339	Nam
+T12	TIME 340 360	đến nay được nửa năm
+T13	Transport 730 732	về
+E5	Transport:T13 Agent-Arg:T14
+T14	PER 719 722	Tôi
+T15	Transfer-money 1108 1116	vay_mượn
+E6	Transfer-money:T15 Recipient-Arg:T36
+T16	Transport 1662 1665	vào
+E7	Transport:T16 Agent-Arg:T18 Destination-Arg:T17
+T17	GPE 1666 1669	Nam
+T18	PER 1658 1661	bạn
+T19	Transport 1753 1755	đi
+E8	Transport:T19 Agent-Arg:T20
+T20	PER 1749 1752	bạn
+T21	Transport 1853 1859	đi vào
+E9	Transport:T21 Agent-Arg:T23 Destination-Arg:T22
+T22	GPE 1860 1863	Nam
+T23	PER 1845 1848	bạn
+T24	Transport 3025 3027	về
+E10	Transport:T24 Agent-Arg:T26 Artifact-Arg:T25 Destination-Arg:T31
+T25	PER 3021 3024	con
+T26	PER 3009 3015	vợ bạn
+T27	PER 533 538	Cô ấy
+T28	PER 544 547	con
+T29	Transport 548 550	về
+E11	Transport:T29 Destination-Arg:T30 Agent-Arg:T27 Artifact-Arg:T28
+T30	FAC 551 560	nhà ngoại
+T31	FAC 3028 3037	nhà ngoại
+T32	Phone-write 4143 4151	gọi điện
+E12	Phone-write:T32 Entity-Arg:T33 Entity-Arg2:T34 Time-Arg:T35
+T33	PER 4135 4142	Độc_giả
+T34	PER 4163 4176	biên_tập_viên
+T35	TIME 4213 4233	trong giờ_hành_chính
+T36	PER 1062 1065	bạn

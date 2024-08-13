@@ -1,0 +1,8 @@
+T1	PER 0 12	Tập_Cận_Bình
+T2	Elect 13 21	được bầu
+E1	Elect:T2 Position-Arg:T3 Person-Arg:T1
+T3	JOB 25 59	người quyền_lực nhất thế_giới 2018
+T4	Elect 837 843	đắc_cử
+E2	Elect:T4 Person-Arg:T5 Position-Arg:T6
+T5	PER 792 797	Putin
+T6	JOB 888 898	tổng_thống

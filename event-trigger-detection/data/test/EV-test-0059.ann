@@ -1,0 +1,36 @@
+T1	Attack 95 104	tiêu_diệt
+E1	Attack:T1 Target-Arg:T2 Place-Arg:T3
+T2	ORG 105 142	nhóm Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T3	GPE 145 150	Syria
+T4	ORG 185 187	IS
+T6	GPE 232 249	Mỹ và các đối_tác
+T7	Attack 262 269	loại_bỏ
+E3	Attack:T7 Attacker-Arg:T6 Target-Arg:T8 Place-Arg:T9
+T8	ORG 270 302	số nhỏ phiến quân IS còn sót lại
+T9	GPE 305 310	Syria
+T10	PER 436 441	Trump
+T11	Meet 442 445	gặp
+E4	Meet:T11 Entity-Arg:T10 Entity-Arg2:T12
+T12	PER 446 465	các chỉ_huy quân_sự
+T13	Meet 469 478	thảo_luận
+E5	Meet:T13 Entity-Arg:T14 Time-Arg:T15
+T14	ORG 366 398	Nhà_Trắng_Sarah_Huckabee_Sanders
+T15	TIME 399 407	ngày 4/4
+T16	PER 727 734	quân Mỹ
+T17	Transport 748 750	về
+E6	Transport:T17 Destination-Arg:T18 Artifact-Arg:T16 Agent-Arg:T27
+T18	GPE 751 755	nước
+T19	Attack 846 854	đánh_bại
+E7	Attack:T19 Target-Arg:T20
+T20	ORG 865 867	IS
+T21	Attack 1013 1022	tiêu_diệt
+E8	Attack:T21 Target-Arg:T22
+T22	ORG 1023 1025	IS
+T23	GPE 0 2	Mỹ
+T24	PER 13 17	quân
+T25	GPE 20 25	Syria
+T26	Transport 9 12	rút
+E9	Transport:T26 Agent-Arg:T23 Artifact-Arg:T24 Origin-Arg:T25
+T5	Attack 199 207	diệt_trừ
+E2	Attack:T5 Target-Arg:T4
+T27	PER 664 669	Trump

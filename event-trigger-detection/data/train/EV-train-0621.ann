@@ -1,0 +1,38 @@
+T1	Attack 102 106	chém
+E1	Attack:T1 Instrument-Arg:T2 Attacker-Arg:T3 Target-Arg:T4
+T2	WEA 98 101	rìu
+T3	PER 74 89	Lường_Văn_Vương
+T4	PER 112 114	vợ
+T5	Die 153 158	tự_tử
+E2	Die:T5 Agent-Arg:T3 Victim-Arg:T3
+T6	Attack 719 723	chém
+E3	Attack:T6 Target-Arg:T7
+T7	PER 699 707	nạn_nhân
+T8	Die 559 566	tử_vong
+E4	Die:T8 Victim-Arg:T9
+T9	PER 541 555	chị Hà_Thị_Tâm
+T10	Die 1120 1124	chết
+E5	Die:T10 Victim-Arg:T11 Place-Arg:T18
+T11	PER 1104 1119	Lường_Văn_Vương
+T12	Die 38 43	tự_tử
+E6	Die:T12 Agent-Arg:T15 Victim-Arg:T15
+T13	Die 11 15	chết
+E7	Die:T13 Victim-Arg:T16 Agent-Arg:T15
+T14	Attack 6 10	chém
+E8	Attack:T14 Target-Arg:T16 Attacker-Arg:T15
+T15	PER 0 5	Chồng
+T16	PER 16 18	vợ
+T17	Die 107 111	chết
+E9	Die:T17 Victim-Arg:T4 Agent-Arg:T3
+T18	FAC 1131 1152	một hốc đá sâu tầm 2m
+T19	Die 790 797	tử_vong
+E10	Die:T19 Victim-Arg:T7
+T20	Transport 943 947	trốn
+E11	Transport:T20 Artifact-Arg:T21 Destination-Arg:T22
+T21	PER 931 936	Vương
+T23	Attack 913 920	sát_hại
+E12	Attack:T23 Target-Arg:T24
+T24	PER 921 923	vợ
+T25	Die 1183 1190	tử_vong
+E13	Die:T25 Victim-Arg:T11 Place-Arg:T18
+T22	LOC 952 960	rừng sâu

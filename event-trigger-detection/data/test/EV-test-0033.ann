@@ -1,0 +1,39 @@
+T1	PER 526 533	Benalla
+T2	Arrest-jail 546 549	bắt
+E1	Arrest-jail:T2 Agent-Arg:T3 Person-Arg:T1 Crime-Arg:T4
+T3	PER 537 545	cảnh_sát
+T4	CRIME 565 595	việc hành_hung người biểu_tình
+T5	PER 855 862	Benalla
+T6	Attack 890 896	kéo lê
+E2	Attack:T6 Attacker-Arg:T5 Target-Arg:T7 Time-Arg:T10 Place-Arg:T11
+T7	PER 897 913	một người phụ_nữ
+T8	Attack 926 934	đánh_đập
+E3	Attack:T8 Attacker-Arg:T5 Target-Arg:T9 Time-Arg:T10 Place-Arg:T11
+T9	PER 935 958	một nam thanh_niên khác
+T10	TIME 980 1005	ngày Quốc_tế Lao_động 1/5
+T11	GPE 1008 1020	thủ_đô Paris
+T13	End-position 1529 1536	sa thải
+E4	End-position:T13 Person-Arg:T14 Time-Arg:T15
+T14	PER 1537 1544	Benalla
+T15	TIME 1545 1553	hôm 20/7
+T12	PER 1556 1564	Cảnh_sát
+T16	Arrest-jail 1572 1575	bắt
+E5	Arrest-jail:T16 Agent-Arg:T12 Person-Arg:T17
+T17	PER 1576 1602	anh ta cùng một vệ_sĩ khác
+T18	PER 2164 2198	Vệ_sĩ thân_cận của Tổng_thống Pháp
+T19	Attack 2199 2203	đánh
+E6	Attack:T19 Attacker-Arg:T18 Target-Arg:T20 Place-Arg:T21
+T20	PER 2204 2219	người biểu_tình
+T21	LOC 2225 2240	đường_phố Paris
+T22	Marry 26 34	đám_cưới
+E7	Marry:T22 Person-Arg:T23
+T23	PER 0 16	Vệ_sĩ của Macron
+T24	Attack 45 49	đánh
+E8	Attack:T24 Target-Arg:T25
+T25	PER 50 65	người biểu_tình
+T26	PER 226 233	kết_hôn
+T27	Marry 238 255	vị hôn thê Myriam
+E9	Marry:T27 Time-Arg:T28 Place-Arg:T29 Person-Arg:T30 Person-Arg2:T26
+T28	TIME 260 269	sáng 21/7
+T29	LOC 272 310	vùng ngoại_ô phía tây nam thủ_đô Paris
+T30	PER 165 215	vệ_sĩ thân_cận của Tổng_thống Pháp Emmanuel_Macron

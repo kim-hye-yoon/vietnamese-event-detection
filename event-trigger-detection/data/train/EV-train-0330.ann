@@ -1,0 +1,166 @@
+T1	Sentence 49 55	kết_án
+E1	Sentence:T1 Defendant-Arg:T4 Adjudicator-Arg:T3 Sentence-Arg:T2
+T2	SEN 56 63	tử_hình
+T3	GPE 38 48	Trung_Quốc
+T4	PER 19 34	công_dân Canada
+T5	Trial-hearing 117 119	xử
+E2	Trial-hearing:T5 Defendant-Arg:T7 Time-Arg:T6
+T6	TIME 120 129	ngày 14/1
+T7	PER 66 91	Robert_Lloyd_Schellenberg
+T8	ORG 144 208	Toà thượng_thẩm thành_phố Đại_Liên , tỉnh Liêu_Ninh , Trung_Quốc
+T9	TIME 209 216	hôm_qua
+T10	Sentence 217 225	tuyên_án
+E3	Sentence:T10 Sentence-Arg:T11 Crime-Arg:T13 Defendant-Arg:T12 Time-Arg:T9 Adjudicator-Arg:T8
+T11	SEN 226 233	tử_hình
+T12	PER 238 279	công_dân Canada_Robert_Lloyd_Schellenberg
+T13	CRIME 283 298	tội buôn ma_tuý
+T14	Transfer-ownership 287 291	buôn
+E4	Transfer-ownership:T14 Seller-Arg:T12
+T15	Arrest-jail 611 625	bắt và ngồi tù
+E5	Arrest-jail:T15 Agent-Arg:T16 Person-Arg:T17 Time-Arg:T18 Crime-Arg:T19
+T16	ORG 581 610	cảnh_sát thành_phố Abbotsford
+T17	PER 560 572	Schellenberg
+T18	TIME 664 676	tháng 2/2010
+T19	CRIME 681 718	tội_danh vận_chuyển , buôn_bán ma_tuý
+T20	Transport 690 700	vận_chuyển
+E6	Transport:T20 Agent-Arg:T17
+T21	Transfer-ownership 703 711	buôn_bán
+E7	Transfer-ownership:T21 Seller-Arg:T17
+T22	Release-parole 729 734	ra tù
+E8	Release-parole:T22 Person-Arg:T25
+T24	TIME 741 753	tháng 8/2011
+T25	PER 756 763	anh này
+T26	Arrest-jail 776 779	bắt
+E9	Arrest-jail:T26 Person-Arg:T25 Time-Arg:T24 Crime-Arg:T27
+T27	CRIME 789 818	tội_danh liên_quan đến ma_tuý
+T28	Sentence 902 908	kết_án
+E10	Sentence:T28 Defendant-Arg:T29 Adjudicator-Arg:T30 Time-Arg:T31 Sentence-Arg:T32
+T29	PER 909 921	Schellenberg
+T30	ORG 856 892	Toà_án tối_cao tỉnh British_Columbia
+T31	TIME 893 901	năm 2012
+T32	SEN 922 932	hai năm tù
+T33	Transport 1003 1006	tới
+E11	Transport:T33 Agent-Arg:T34 Destination-Arg:T35
+T34	PER 968 980	Schellenberg
+T35	GPE 1007 1017	Đông_Nam_Á
+T36	GPE 1047 1095	Lào , Myanmar , Malaysia , Singapore và Thái_Lan
+T37	Transport 1117 1120	tới
+E12	Transport:T37 Destination-Arg:T38 Agent-Arg:T34
+T38	GPE 1121 1131	Trung_Quốc
+T39	Transport 1020 1024	thăm
+E13	Transport:T39 Destination-Arg:T36 Agent-Arg:T34
+T40	Arrest-jail 1150 1153	bắt
+E14	Arrest-jail:T40 Time-Arg:T42 Person-Arg:T41 Agent-Arg:T43
+T41	PER 1134 1146	Schellenberg
+T42	TIME 1154 1169	ngày 19/11/2014
+T43	ORG 1208 1259	công_an Trung_Quốc tại Quảng_Châu , tỉnh Quảng_Đông
+T44	Transport 1287 1297	vận_chuyển
+E15	Transport:T44 Origin-Arg:T45 Destination-Arg:T46
+T45	GPE 1311 1321	Trung_Quốc
+T46	GPE 1326 1335	Australia
+T47	Transfer-ownership 1443 1452	xuất_khẩu
+E16	Transfer-ownership:T47 Place-Arg:T48 Seller-Arg:T49
+T48	GPE 1457 1466	Australia
+T49	PER 1338 1350	Schellenberg
+T50	Sentence 1621 1627	kết_án
+E17	Sentence:T50 Defendant-Arg:T53 Sentence-Arg:T57 Time-Arg:T56 Crime-Arg:T54 Adjudicator-Arg:T55 Place-Arg:T60
+T51	Convict 1593 1601	phạm_tội
+E18	Convict:T51 Defendant-Arg:T53 Adjudicator-Arg:T55 Time-Arg:T56 Crime-Arg:T54 Place-Arg:T60
+T52	Transfer-ownership 1602 1610	buôn_bán
+E19	Transfer-ownership:T52 Seller-Arg:T53
+T53	PER 1580 1592	Schellenberg
+T54	CRIME 1602 1617	buôn_bán ma_tuý
+T55	PER 1557 1570	các thẩm_phán
+T56	TIME 1541 1554	tháng 11/2018
+T57	SEN 1635 1644	15 năm tù
+T58	Fine 1654 1658	phạt
+E20	Fine:T58 Money-Arg:T59 Entity-Arg:T53 Adjudicator-Arg:T55 Time-Arg:T56 Crime-Arg:T54 Place-Arg:T60
+T59	MONEY 1659 1684	150.000 tệ ( 22.000 USD )
+T60	GPE 1528 1536	Đại_Liên
+T61	Transport 1706 1720	trục_xuất khỏi
+E21	Transport:T61 Agent-Arg:T63 Origin-Arg:T62
+T62	GPE 1721 1731	Trung_Quốc
+T63	PER 1687 1699	Schellenberg
+T64	Appeal 1832 1841	kháng_cáo
+E22	Appeal:T64 Adjudicator-Arg:T65 Defendant-Arg:T66
+T65	ORG 1846 1880	toà thượng_thẩm thành_phố Đại_Liên
+T66	PER 1789 1801	Schellenberg
+T67	Appeal 1978 1987	kháng_cáo
+E23	Appeal:T67 
+T68	PER 1990 2002	Schellenberg
+T69	Transport 2020 2023	tới
+E24	Transport:T69 Agent-Arg:T68 Destination-Arg:T70
+T70	GPE 2024 2033	Liêu_Ninh
+T71	Transfer-ownership 2158 2166	buôn_bán
+E25	Transfer-ownership:T71 Seller-Arg:T72
+T72	ORG 2150 2157	tổ_chức
+T73	Transport 2483 2493	vận_chuyển
+E26	Transport:T73 Origin-Arg:T74 Destination-Arg:T75 Agent-Arg:T76
+T74	GPE 2521 2531	Trung_Quốc
+T75	GPE 2536 2545	Australia
+T76	PER 2361 2373	Schellenberg
+T77	Transport 2615 2626	đi thăm_thú
+E27	Transport:T77 Artifact-Arg:T79 Agent-Arg:T80 Destination-Arg:T78
+T78	GPE 2627 2637	Trung_Quốc
+T79	PER 2548 2560	Schellenberg
+T80	PER 2582 2584	Xu
+T81	Transfer-ownership 2723 2727	buôn
+E28	Transfer-ownership:T81 
+T82	Transfer-ownership 2938 2946	buôn_bán
+E29	Transfer-ownership:T82 
+T83	Transfer-ownership 3149 3157	buôn_bán
+E30	Transfer-ownership:T83 Seller-Arg:T84
+T84	PER 3122 3129	Xu_Qing
+T85	PER 3356 3389	Khamla_Wong , một công_dân Canada
+T86	Arrest-jail 3398 3401	bắt
+E31	Arrest-jail:T86 Person-Arg:T85 Time-Arg:T87 Crime-Arg:T88
+T87	TIME 3406 3414	năm 2016
+T88	CRIME 3419 3448	tội_danh liên_quan đến ma_tuý
+T89	Transfer-ownership 3622 3626	buôn
+E32	Transfer-ownership:T89 Place-Arg:T90 Place-Arg2:T91
+T90	GPE 3637 3647	Trung_Quốc
+T91	GPE 3652 3661	Australia
+T92	Trial-hearing 4068 4070	xử
+E33	Trial-hearing:T92 Time-Arg:T93
+T93	TIME 4075 4084	ngày 14/1
+T94	Transfer-money 4347 4351	nhận
+E34	Transfer-money:T94 Giver-Arg:T97 Recipient-Arg:T96 Money-Arg:T95
+T95	MONEY 4314 4324	180.000 tệ
+T96	PER 4328 4334	anh ta
+T97	PER 4355 4361	bị_cáo
+T99	PER 4595 4604	một người
+T100	SEN 4613 4623	chung_thân
+T98	Sentence 4605 4612	lĩnh án
+E35	Sentence:T98 Sentence-Arg:T100 Defendant-Arg:T99
+T101	PER 4626 4639	người còn lại
+T102	Sentence 4643 4649	kết_án
+E36	Sentence:T102 Sentence-Arg:T103 Defendant-Arg:T101
+T103	SEN 4650 4657	tử_hình
+T104	Sentence 4718 4722	phạt
+E37	Sentence:T104 Adjudicator-Arg:T107 Sentence-Arg:T105 Defendant-Arg:T106 Sentence-Arg2:T108
+T105	SEN 4723 4732	15 năm tù
+T106	PER 4741 4753	Schellenberg
+T107	ORG 4701 4704	toà
+T108	SEN 4812 4819	tử_hình
+T109	Appeal 4904 4913	kháng_cáo
+E38	Appeal:T109 
+T110	Transfer-ownership 4931 4939	buôn_bán
+E39	Transfer-ownership:T110 Place-Arg:T111
+T111	GPE 4918 4928	Trung_Quốc
+T112	PER 5149 5196	giám_đốc tài_chính tập_đoàn Huawei_Mạnh_Vãn_Chu
+T113	Arrest-jail 5200 5203	bắt
+E40	Arrest-jail:T113 Person-Arg:T112 Place-Arg:T114
+T114	GPE 5206 5215	Vancouver
+T115	Extradite 5233 5239	dẫn_độ
+E41	Extradite:T115 Destination-Arg:T116 Person-Arg:T112
+T116	GPE 5243 5245	Mỹ
+T117	Trial-hearing 5255 5257	xử
+E42	Trial-hearing:T117 Place-Arg:T118
+T118	GPE 5264 5274	Trung_Quốc
+T119	Trial-hearing 6310 6312	xử
+E43	Trial-hearing:T119 Defendant-Arg:T120 Defendant-Arg2:T121
+T120	PER 6313 6325	Schellenberg
+T121	PER 6333 6345	Mạnh_Vãn_Chu
+T122	Release-parole 940 949	trả tự_do
+E44	Release-parole:T122 Time-Arg:T123 Person-Arg:T34
+T123	TIME 950 965	16 tháng sau đó

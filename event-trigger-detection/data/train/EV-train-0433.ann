@@ -1,0 +1,38 @@
+T3	PER 205 210	Chung
+T4	PER 242 246	Công
+T5	Attack 225 229	đánh
+E3	Attack:T5 Target-Arg:T4 Attacker-Arg:T3
+T6	TIME 259 274	21h45' ngày 8/2
+T7	PER 384 391	1 người
+T8	Die 395 399	chết
+E4	Die:T8 Victim-Arg:T7 Place-Arg:T9 Time-Arg:T6
+T9	FAC 281 354	phòng trọ tổ 1 , KP2 , phường Long_Bình_Tân , TP Biên_Hoà , tỉnh Đồng_Nai
+T10	PER 984 989	Chung
+T11	Attack 1042 1046	đánh
+E5	Attack:T11 Attacker-Arg:T10 Target-Arg:T12
+T12	PER 1063 1067	Công
+T13	Injure 1068 1076	bất_tỉnh
+E6	Injure:T13 Victim-Arg:T12 Agent-Arg:T10
+T14	PER 1079 1088	Mọi người
+T15	Transport 1089 1092	đưa
+E7	Transport:T15 Agent-Arg:T14 Artifact-Arg:T16 Destination-Arg:T17
+T16	PER 1093 1101	anh Công
+T17	FAC 1117 1142	Bệnh_viện Khu_công_nghiệp
+T18	PER 1149 1157	anh Công
+T19	Die 1161 1168	tử_vong
+E8	Die:T19 Victim-Arg:T18
+T20	PER 1323 1331	anh Công
+T21	Die 1332 1339	tử_vong
+E9	Die:T21 Victim-Arg:T20
+T22	ORG 1416 1435	Công_an TP Biên_Hoà
+T23	Transport 1439 1447	bàn_giao
+E10	Transport:T23 Agent-Arg:T22 Artifact-Arg:T24
+T24	PER 1465 1474	đối_tượng
+T1	PER 130 134	Công
+T2	Transfer-money 135 143	hỏi mượn
+E1	Transfer-money:T2 Recipient-Arg:T1
+T25	PER 775 779	Công
+T26	Transfer-money 780 784	mượn
+E2	Transfer-money:T26 Giver-Arg:T27 Recipient-Arg:T25 Money-Arg:T28
+T27	PER 789 794	Chung
+T28	MONEY 795 807	50 ngàn đồng

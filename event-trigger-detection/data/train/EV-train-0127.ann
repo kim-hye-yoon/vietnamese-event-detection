@@ -1,0 +1,34 @@
+T1	Release-parole 44 53	trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 38	Nguyên cục_trưởng Thi_hành án Vũng_Tàu
+T3	Sentence 105 115	tuyên_phạt
+E2	Sentence:T3 Adjudicator-Arg:T4 Time-Arg:T5 Defendant-Arg:T6 Sentence-Arg:T7 Crime-Arg:T8
+T4	ORG 74 101	TAND tỉnh Bà_Rịa - Vũng_Tàu
+T5	TIME 56 71	Chiều ngày 11/4
+T6	PER 116 274	Trần_Văn_Mười ( nguyên cục_trưởng Thi_hành án dân_sự ) cùng cựu cấp phó Lê Minh_Huy_Hoàng và Hoàng_Anh_Linh ( nguyên chuyên_viên Nội_chính Văn_phòng tỉnh_uỷ )
+T7	SEN 281 334	mức án 11 tháng 16 ngày tù ( bằng thời_hạn tạm giam )
+T8	CRIME 342 397	Lợi_dụng chức_vụ , quyền_hạn trong khi thi_hành công_vụ
+T9	Release-parole 416 425	trả tự_do
+E3	Release-parole:T9 Person-Arg:T10
+T10	PER 400 410	Các bị_cáo
+T11	Trial-hearing 897 903	xét_xử
+E4	Trial-hearing:T11 Defendant-Arg:T14 Crime-Arg:T15 Adjudicator-Arg:T12 Time-Arg:T13
+T12	ORG 873 896	TAND Tối_cao tại TP HCM
+T13	TIME 862 870	năm 1999
+T14	PER 914 979	ông Trịnh_Vĩnh_Bình ( Việt_kiều Hà_Lan ) và những người liên_quan
+T15	CRIME 983 1028	vi_phạm các quy_định về quản_lý và bảo_vệ đất
+T16	Transfer-ownership 1182 1185	mua
+E5	Transfer-ownership:T16 Buyer-Arg:T18 Place-Arg:T19
+T17	Transfer-ownership 1186 1189	bán
+E6	Transfer-ownership:T17 Seller-Arg:T18 Place-Arg:T19
+T18	PER 1171 1179	ông Bình
+T19	LOC 1205 1217	địa_bàn tỉnh
+T20	Transfer-ownership 1372 1375	bán
+E7	Transfer-ownership:T20 Artifact-Arg:T21
+T21	VEH 1356 1366	số ôtô này
+T22	Transfer-ownership 1653 1664	bán_đấu_giá
+E8	Transfer-ownership:T22 Seller-Arg:T23
+T23	PER 1636 1644	ông Mười
+T24	PER 1694 1701	em ruột
+T25	Transfer-ownership 1712 1715	mua
+E9	Transfer-ownership:T25 Buyer-Arg:T24

@@ -1,0 +1,57 @@
+T1	Fine 41 48	bị phạt
+E1	Fine:T1 Money-Arg:T2 Crime-Arg:T5
+T2	MONEY 49 64	12,5 triệu đồng
+T3	ORG 76 87	Một hàng ăn
+T4	LOC 90 120	bãi biển Sầm_Sơn ( Thanh_Hoá )
+T5	CRIME 1 40	“ Chặt chém ” thêm 5.000 đồng / bát phở
+T6	CRIME 121 172	“ chặt chém ” thêm 5.000 / bát phở đối_với du_khách
+T7	Fine 179 186	xử_phạt
+E2	Fine:T7 Entity-Arg:T3 Place-Arg:T4 Crime-Arg:T6 Money-Arg:T8
+T8	MONEY 187 202	12,5 triệu đồng
+T9	ORG 461 472	cơ_quan này
+T10	Fine 476 483	xử_phạt
+E3	Fine:T10 Adjudicator-Arg:T9 Entity-Arg:T11 Place-Arg:T12 Crime-Arg:T13
+T11	ORG 484 511	16 cơ_sở kinh_doanh du_lịch
+T12	GPE 514 540	thị_xã Sầm_Sơn - Thanh_Hoá
+T13	CRIME 544 605	vi_phạm hoạt_động kinh_doanh dịch_vụ , " chặt chém " du_khách
+T14	TIME 617 645	từ ngày 16-4 đến ngày 29-5 ,
+T15	ORG 646 649	Đội
+T16	Fine 708 715	xử_phạt
+E4	Fine:T16 Time-Arg:T14 Adjudicator-Arg:T15 Entity-Arg:T17 Money-Arg:T18
+T17	ORG 716 735	16 cơ_sở kinh_doanh
+T18	MONEY 748 779	tổng_số tiền trên 47 triệu đồng
+T19	ORG 794 805	nhiều cơ_sở
+T20	Fine 820 827	xử_phạt
+E5	Fine:T20 Entity-Arg:T19 Money-Arg:T21
+T21	MONEY 835 847	tiền rất lớn
+T22	ORG 852 889	nhà_hàng kinh_doanh ăn_uống Quỳnh_Nga
+T23	LOC 936 954	71 đường Nguyễn_Du
+T24	MONEY 966 981	12,5 triệu đồng
+T25	CRIME 985 1028	bán một bát phở cao hơn quy_định 5.000 đồng
+T26	Fine 958 965	xử_phạt
+E6	Fine:T26 Entity-Arg:T22 Money-Arg:T24 Place-Arg:T23 Crime-Arg:T25
+T27	Fine 1257 1264	xử_phạt
+E7	Fine:T27 Adjudicator-Arg:T28 Entity-Arg:T29
+T28	PER 1199 1221	đội quản_lý thị_trường
+T29	ORG 1278 1288	cơ_sở trên
+T30	ORG 1056 1065	cơ_sở này
+T31	Transfer-ownership 1090 1093	bán
+E8	Transfer-ownership:T31 Seller-Arg:T30 Buyer-Arg:T32 Price-Arg:T33
+T32	PER 1094 1115	cho người_dân Sầm_Sơn
+T33	MONEY 1135 1146	35.000 đồng
+T34	Transfer-ownership 1153 1156	bán
+E9	Transfer-ownership:T34 Seller-Arg:T30 Seller-Arg2:T35 Price-Arg:T36
+T35	PER 1161 1174	khách du_lịch
+T36	MONEY 1179 1196	40.000 đồng / bát
+T37	ORG 1302 1321	UBND thị_xã Sầm_Sơn
+T38	Fine 1326 1333	xử_phạt
+E10	Fine:T38 Adjudicator-Arg:T37 Entity-Arg:T39 Money-Arg:T40 Crime-Arg:T41
+T39	PER 1334 1432	ông Nguyễn_Văn_Tiến ( chủ bãi trông giữ xe khách_sạn Bông_Sen , số 3 Tây_Sơn , phường Trường_Sơn )
+T40	MONEY 1441 1454	15 triệu đồng
+T41	CRIME 1458 1546	thu phí trông giữ xe cao hơn 10.000 đồng đối_với xe ô_tô ( giá quy_định là 20.000 đồng )
+T42	ORG 1549 1583	Cơ_sở kinh_doanh karaoke Trung_Anh
+T43	LOC 1586 1615	56 Nguyễn_Du , phường Bắc_Sơn
+T44	Fine 1619 1623	phạt
+E11	Fine:T44 Entity-Arg:T42 Money-Arg:T45 Crime-Arg:T46
+T45	MONEY 1624 1639	12,5 triệu đồng
+T46	CRIME 1643 1677	tăng quá số phòng cam_kết trước đó

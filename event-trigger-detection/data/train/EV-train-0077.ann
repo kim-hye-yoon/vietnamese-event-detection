@@ -1,0 +1,74 @@
+T1	Release-parole 17 31	được trả tự_do
+E1	Release-parole:T1 Person-Arg:T2
+T2	PER 0 16	Giang_hồ Tý_Điên
+T3	Trial-hearing 66 72	xét_xử
+E2	Trial-hearing:T3 Time-Arg:T4 Adjudicator-Arg:T5 Defendant-Arg:T7
+T4	TIME 42 52	Chiều 17/7
+T5	ORG 86 97	TAND TP HCM
+T6	Sentence 98 108	tuyên_phạt
+E3	Sentence:T6 Time-Arg:T4 Defendant-Arg:T7 Adjudicator-Arg:T5 Sentence-Arg:T8 Crime-Arg:T9
+T7	PER 109 244	Nguyễn_Trọng_Ngôn ( 44 tuổi , biệt_danh Tý_Điên ) - cầm_đầu nhóm bảo_kê Bến_xe Miền_Đông ; Nguyễn_Quốc_Mạnh ( 50 tuổi , anh_trai Ngôn )
+T8	SEN 245 304	mức án 4 năm 3 tháng 26 ngày tù ( bằng thời_gian tạm giam )
+T9	CRIME 308 332	tội Cố_ý gây thương_tích
+T10	Release-parole 435 449	được trả tự_do
+E4	Release-parole:T10 Person-Arg:T11
+T11	PER 420 430	Các bị_cáo
+T12	Arrest-jail 505 509	giam
+E5	Arrest-jail:T12 Person-Arg:T13
+T13	PER 460 470	Các bị_cáo
+T14	Attack 711 719	tấn_công
+E6	Attack:T14 Attacker-Arg:T15 Target-Arg:T16
+T15	PER 678 695	Ngôn và đồng_phạm
+T16	PER 720 730	người khác
+T17	Trial-hearing 792 798	xét_xử
+E7	Trial-hearing:T17 Adjudicator-Arg:T18
+T18	ORG 801 804	toà
+T20	PER 1184 1201	Ngôn và đồng_phạm
+T21	TIME 1153 1181	từ năm 2010 đến đầu năm 2013
+T22	FAC 1261 1277	Bến_xe Miền_Đông
+T19	Attack 1221 1230	đánh nhau
+E8	Attack:T19 Attacker-Arg:T20 Place-Arg:T22 Time-Arg:T21
+T23	TIME 1280 1294	Sáng 23/7/2010
+T24	PER 1306 1328	tài_xế taxi Lê_Đức_Lợi
+T25	Transport 1329 1332	chở
+E9	Transport:T25 Time-Arg:T23 Agent-Arg:T24 Artifact-Arg:T26
+T26	PER 1333 1338	khách
+T27	Transport 1339 1342	vào
+E10	Transport:T27 Time-Arg:T23
+T28	Transport 1364 1367	vào
+E11	Transport:T28 Artifact-Arg:T33 Time-Arg:T23
+T29	Transfer-ownership 1379 1382	mua
+E12	Transfer-ownership:T29 Buyer-Arg:T26
+T30	Attack 1415 1419	đánh
+E13	Attack:T30 Attacker-Arg:T32 Target-Arg:T31 Time-Arg:T23
+T31	PER 1420 1427	ông này
+T32	PER 1388 1397	nhóm Ngôn
+T33	PER 1361 1363	họ
+T34	Attack 1464 1467	đập
+E14	Attack:T34 Instrument-Arg:T36 Attacker-Arg:T35 Target-Arg:T37
+T35	PER 1441 1450	Hồ_Sỹ_Quý
+T36	WEA 1455 1463	tuýp sắt
+T37	PER 1476 1486	tài_xế Lợi
+T38	Injure 1505 1523	chấn_thương sọ não
+E15	Injure:T38 Victim-Arg:T37 Agent-Arg:T35
+T39	Attack 1824 1833	đánh nhau
+E16	Attack:T39 Attacker-Arg:T41
+T40	TIME 1858 1878	từ năm 2012 đến 2013
+T41	PER 1881 1898	Ngôn và đồng_phạm
+T42	Attack 1907 1914	doạ_nạt
+E17	Attack:T42 Target-Arg:T43 Attacker-Arg:T41 Time-Arg:T40
+T43	PER 1915 1931	nhân_viên bán vé
+T44	Transfer-ownership 1925 1928	bán
+E18	Transfer-ownership:T44 Seller-Arg:T45
+T45	PER 1915 1924	nhân_viên
+T46	Attack 1934 1938	đánh
+E19	Attack:T46 Target-Arg:T47 Attacker-Arg:T41 Time-Arg:T40
+T47	PER 1939 1953	người điều_vận
+T48	Transfer-money 2007 2010	nộp
+E20	Transfer-money:T48 Giver-Arg:T51 Recipient-Arg:T49 Money-Arg:T50
+T49	PER 2015 2024	nhóm Ngôn
+T50	MONEY 2025 2042	hơn 70 triệu đồng
+T51	ORG 1983 1998	hai công_ty này
+T52	Trial-hearing 2206 2212	xét_xử
+E21	Trial-hearing:T52 Defendant-Arg:T53
+T53	PER 2215 2225	các bị_cáo

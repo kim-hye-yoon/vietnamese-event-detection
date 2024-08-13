@@ -1,0 +1,23 @@
+T1	PER 0 7	Nữ_sinh
+T2	Attack 8 17	đánh nhau
+E1	Attack:T2 Attacker-Arg:T1 Target-Arg:T1
+T3	PER 325 334	Người này
+T4	Attack 335 351	nắm tóc , kéo áo
+E2	Attack:T4 Attacker-Arg:T3
+T5	PER 354 363	người kia
+T6	Attack 368 384	hung_hãn đáp trả
+E3	Attack:T6 Attacker-Arg:T5
+T7	Attack 142 151	đánh nhau
+E4	Attack:T7 Attacker-Arg:T8
+T8	PER 157 166	2 nữ_sinh
+T9	Attack 438 447	đánh nhau
+E5	Attack:T9 Attacker-Arg:T10
+T10	PER 433 437	Cả 2
+T11	Attack 874 883	đánh nhau
+E6	Attack:T11 Attacker-Arg:T12
+T12	PER 889 900	các nữ_sinh
+T13	Attack 964 973	đánh nhau
+E7	Attack:T13 Attacker-Arg:T14
+T14	PER 956 963	nữ_sinh
+T15	Attack 1112 1121	đánh nhau
+E8	Attack:T15 

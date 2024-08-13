@@ -1,0 +1,41 @@
+T1	ORG 8 16	AC_Milan
+T2	Declare-bankruptcy 28 35	phá_sản
+E1	Declare-bankruptcy:T2 
+T3	PER 56 77	chủ_tịch của AC_Milan
+T4	PER 159 162	ông
+T5	ORG 135 142	công_ty
+T6	PER 165 177	Lý_Dũng_Hồng
+T7	Declare-bankruptcy 204 211	phá_sản
+E2	Declare-bankruptcy:T7 
+T13	TIME 464 468	19/2
+T14	GPE 496 501	Italy
+T15	PER 512 524	Lý_Dũng_Hồng
+T16	Declare-bankruptcy 525 541	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T16 
+T17	PER 557 560	ông
+T20	PER 666 683	ông chủ của Milan
+T21	ORG 730 759	quỹ đầu tư Elliott Management
+T22	TIME 769 783	300 triệu đôla
+T23	TIME 825 837	tháng 4/2017
+T26	ORG 892 900	AC_Milan
+T27	PER 904 921	Silvio Berlusconi
+T28	MONEY 930 944	876 triệu đôla
+T38	PER 1239 1260	HLV Vincenzo Montella
+T39	TIME 1265 1273	tháng 11
+T40	PER 1286 1301	Gennaro_Gattuso
+T8	ORG 593 645	Taobao - một trang thương_mại_điện_tử của Trung_Quốc
+T9	Transfer-ownership 576 587	bán_đấu_giá
+E4	Transfer-ownership:T9 
+T12	Transfer-money 723 726	vay
+E6	Transfer-money:T12 Giver-Arg:T21 Recipient-Arg:T20 Time-Arg:T22
+T18	Sue 809 818	khởi_kiện
+E7	Sue:T18 Plaintiff-Arg:T19 Defendant-Arg:T20
+T19	ORG 795 808	hai ngân_hàng
+T11	Transfer-ownership 888 891	mua
+E5	Transfer-ownership:T11 Buyer-Arg:T24 Time-Arg:T23 Price-Arg:T28
+T24	ORG 840 887	tập đoàn Rossoneri Sport_Group của Lý_Dũng_Hồng
+T25	End-position 1231 1238	sa_thải
+E8	End-position:T25 Person-Arg:T38 Entity-Arg:T29 Time-Arg:T39
+T29	ORG 1198 1230	Đội_bóng bảy lần vô_địch châu_Âu
+T30	Nominate 1277 1285	bổ_nhiệm
+E9	Nominate:T30 Person-Arg:T40 Time-Arg:T39 Agent-Arg:T29

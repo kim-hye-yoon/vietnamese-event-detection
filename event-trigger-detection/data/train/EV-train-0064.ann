@@ -1,0 +1,48 @@
+T2	PER 37 52	giám_đốc Huawei
+T3	GPE 27 29	Mỹ
+T1	Extradite 30 36	dẫn_độ
+E1	Extradite:T1 Person-Arg:T2 Agent-Arg:T3
+T4	Arrest-jail 491 494	bắt
+E2	Arrest-jail:T4 Person-Arg:T5
+T5	PER 495 533	giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T6	Extradite 647 653	dẫn_độ
+E3	Extradite:T6 Person-Arg:T7
+T7	PER 654 661	bà Mạnh
+T8	Extradite 724 730	dẫn_độ
+E4	Extradite:T8 
+T9	Arrest-jail 824 830	bị bắt
+E5	Arrest-jail:T9 Time-Arg:T11 Place-Arg:T12 Person-Arg:T10
+T10	PER 762 821	Mạnh Vãn_Chu , con_gái người sáng_lập Huawei_Nhậm_Chính_Phi
+T11	TIME 835 848	tháng 12/2018
+T12	GPE 853 881	thành_phố Vancouver , Canada
+T13	GPE 978 988	Trung_Quốc
+T14	Arrest-jail 996 999	bắt
+E6	Arrest-jail:T14 Person-Arg:T15 Agent-Arg:T13 Crime-Arg:T16
+T15	PER 1000 1019	hai công_dân Canada
+T16	CRIME 1033 1042	gián_điệp
+T17	Execute 1046 1056	xử tử_hình
+E7	Execute:T17 Person-Arg:T18
+T18	PER 1057 1090	một công_dân phạm_tội buôn ma_tuý
+T19	PER 1057 1069	một công_dân
+T20	Transfer-ownership 1079 1083	buôn
+E8	Transfer-ownership:T20 Buyer-Arg:T19
+T21	Extradite 1286 1292	dẫn_độ
+E9	Extradite:T21 
+T22	GPE 1367 1375	Bắc_Kinh
+T23	LOC 1379 1387	nước này
+T24	Release-parole 1388 1397	trả tự_do
+E10	Release-parole:T24 Person-Arg:T25 Place-Arg:T23
+T25	PER 1402 1421	hai công_dân Canada
+T26	Trial-hearing 1503 1509	xét_xử
+E11	Trial-hearing:T26 Defendant-Arg:T28
+T27	Extradite 1515 1521	dẫn_độ
+E12	Extradite:T27 Person-Arg:T28
+T28	PER 1448 1455	bà Mạnh
+T29	Extradite 1543 1549	dẫn_độ
+E13	Extradite:T29 
+T30	ORG 1552 1569	Bộ Tư_pháp Canada
+T31	PER 1617 1624	Bà Mạnh
+T32	Appeal 1634 1643	kháng_cáo
+E14	Appeal:T32 Defendant-Arg:T31
+T33	Transfer-ownership 1908 1917	xuất_khẩu
+E15	Transfer-ownership:T33 

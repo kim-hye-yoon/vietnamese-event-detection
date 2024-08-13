@@ -1,0 +1,22 @@
+T1	Transport 39 45	đi_lại
+E1	Transport:T1 Destination-Arg:T2 Agent-Arg:T3 Vehicle-Arg:T6
+T2	GPE 48 57	Biển_Đông
+T3	GPE 0 3	Anh
+T4	Transport 347 353	đi_lại
+E2	Transport:T4 Destination-Arg:T5 Vehicle-Arg:T7
+T5	GPE 358 367	Biển_Đông
+T6	VEH 14 23	tàu_chiến
+T7	VEH 300 303	tàu
+T8	Transport 397 403	đi_lại
+E3	Transport:T8 Agent-Arg:T9
+T9	PER 372 381	Chúng_tôi
+T10	Transport 619 622	bay
+E4	Transport:T10 Vehicle-Arg:T14 Agent-Arg:T13 Destination-Arg:T11 Time-Arg:T12
+T11	GPE 627 636	Biển_Đông
+T12	TIME 641 654	tháng 10/2016
+T13	GPE 590 593	Anh
+T14	VEH 602 618	4 phi cơ Typhoon
+T15	Transport 1363 1369	đi_lại
+E5	Transport:T15 Agent-Arg:T17 Destination-Arg:T16
+T16	LOC 1378 1391	trong khu_vực
+T17	GPE 1332 1334	Mỹ

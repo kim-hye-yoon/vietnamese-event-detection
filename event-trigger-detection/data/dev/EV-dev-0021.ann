@@ -1,0 +1,19 @@
+T1	Transport 25 31	trở_về
+E1	Transport:T1 Artifact-Arg:T2
+T2	PER 0 24	Tỷ_phú trẻ nhất châu_Phi
+T3	Transport 113 119	trở_về
+E2	Transport:T3 Destination-Arg:T5 Artifact-Arg:T4
+T4	PER 106 109	Tôi
+T5	FAC 120 123	nhà
+T6	Release-parole 338 347	trả tự_do
+E3	Release-parole:T6 Person-Arg:T7 Entity-Arg:T14
+T7	PER 230 271	Mohammed_Dewji , tỷ_phú trẻ nhất châu_Phi
+T8	Release-parole 1148 1162	được trả tự_do
+E4	Release-parole:T8 Person-Arg:T9
+T9	PER 1144 1147	ông
+T10	Release-parole 1198 1201	thả
+E5	Release-parole:T10 Entity-Arg:T11 Person-Arg:T12 Time-Arg:T13
+T11	PER 1178 1194	những kẻ bắt_cóc
+T12	PER 1202 1205	ông
+T13	TIME 1226 1236	sáng 20/10
+T14	PER 325 337	nhóm bắt_cóc

@@ -1,0 +1,3 @@
+T1	PER 588 596	nạn_nhân
+T2	Transport 602 608	chuyển
+E1	Transport:T2 Artifact-Arg:T1

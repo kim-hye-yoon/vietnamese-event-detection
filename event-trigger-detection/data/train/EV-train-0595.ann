@@ -1,0 +1,16 @@
+T1	PER 0 14	Bé gái 12 tuổi
+T2	Die 15 25	thiệt_mạng
+E1	Die:T2 Victim-Arg:T1
+T3	PER 128 135	bé Hồng
+T4	Die 136 140	chết
+E2	Die:T4 Place-Arg:T5 Victim-Arg:T3
+T5	FAC 145 153	vệ đường
+T6	PER 225 301	Nguyễn_Thuý_Hồng ( 12 tuổi , ở xã Xuân_Trạch , huyện Bố_Trạch , Quảng_Bình )
+T7	GPE 256 299	xã Xuân_Trạch , huyện Bố_Trạch , Quảng_Bình
+T8	Die 312 316	chết
+E3	Die:T8 Victim-Arg:T6 Place-Arg:T9
+T9	FAC 321 439	vệ đường ở khu_vực phía nam đường Hồ_Chí_Minh nhánh Đông , thuộc khu di_tích lịch_sử sân_bay Khe_Gát ( xã Xuân_Trạch )
+T10	PER 634 640	bé gái
+T11	Die 645 649	chết
+E4	Die:T11 Place-Arg:T12 Victim-Arg:T10
+T12	FAC 654 662	vệ đường

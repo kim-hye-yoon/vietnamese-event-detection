@@ -1,0 +1,32 @@
+T1	Transfer-ownership 245 248	bán
+E1	Transfer-ownership:T1 Seller-Arg:T2
+T2	PER 207 216	Đối_tượng
+T3	Arrest-jail 655 658	bắt
+E2	Arrest-jail:T3 Person-Arg:T4 Agent-Arg:T5 Time-Arg:T6
+T4	PER 664 739	thủ_phạm là Nguyễn_Văn_Minh ( 1993 , quê Trung_Hải , Gio_Linh , Quảng_Trị )
+T5	ORG 631 651	Công_an phường Mỹ_An
+T6	TIME 619 628	ngày 17/4
+T7	TIME 768 787	18 giờ 15 ngày 15/4
+T8	Transport 795 805	điều_khiển
+E3	Transport:T8 Origin-Arg:T9 Destination-Arg:T10 Time-Arg:T7 Agent-Arg:T12 Vehicle-Arg:T11
+T9	GPE 843 856	quận Hải_Châu
+T10	GPE 860 877	quận Ngũ_Hành_Sơn
+T11	VEH 806 812	xe_máy
+T12	PER 761 765	Minh
+T13	Transport 965 975	điều_khiển
+E4	Transport:T13 Vehicle-Arg:T15 Agent-Arg:T14 Time-Arg:T16
+T14	PER 958 964	chị T.
+T15	VEH 976 982	ô - tô
+T16	TIME 944 955	Ngay lúc đó
+T17	Transport 1838 1842	chạy
+E5	Transport:T17 Vehicle-Arg:T18 Agent-Arg:T19
+T18	VEH 1821 1823	xe
+T19	PER 1771 1775	Minh
+T20	Transfer-ownership 1887 1890	bán
+E6	Transfer-ownership:T20 Seller-Arg:T23 Buyer-Arg:T21 Price-Arg:T22
+T21	PER 1895 1964	một tiệm sửa_chữa điện_thoại trên đường Hà_Huy_Tập ( quận Thanh_Khê )
+T22	MONEY 1973 1985	3 triệu đồng
+T23	PER 1854 1858	Minh
+T24	Transfer-ownership 2022 2025	mua
+E7	Transfer-ownership:T24 Buyer-Arg:T25
+T25	PER 1998 2002	Minh

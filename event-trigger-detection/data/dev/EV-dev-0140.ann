@@ -1,0 +1,15 @@
+T1	Transfer-money 98 104	đầu_tư
+E1	Transfer-money:T1 Giver-Arg:T3 Money-Arg:T2
+T2	MONEY 105 120	hơn 275 tỷ đồng
+T3	ORG 67 82	UBND TP Đà_Nẵng
+T4	ORG 0 7	Đà_Nẵng
+T5	Transfer-money 8 11	chi
+E2	Transfer-money:T5 
+T6	TIME 12 28	hàng trăm tỷ đồn
+T7	Transfer-money 681 687	đầu_tư
+E3	Transfer-money:T7 Money-Arg:T9 Giver-Arg:T8
+T8	ORG 666 675	Thành_phố
+T9	MONEY 688 703	gần 190 tỷ đồng
+T10	Transfer-ownership 889 896	mua_sắm
+E4	Transfer-ownership:T10 Artifact-Arg:T11
+T11	VEH 910 923	xe ủi , xe_lu

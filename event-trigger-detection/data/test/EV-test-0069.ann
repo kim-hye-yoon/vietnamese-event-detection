@@ -1,0 +1,19 @@
+T1	Declare-bankruptcy 21 28	phá_sản
+E1	Declare-bankruptcy:T1 Place-Arg:T2
+T2	GPE 0 3	Nga
+T3	Declare-bankruptcy 260 267	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T4 Org-Arg2:T5
+T4	ORG 192 205	Các ngân_hàng
+T5	ORG 328 344	các doanh_nghiệp
+T6	ORG 388 412	Ngân_hàng trung_ương Nga
+T8	ORG 634 641	công_ty
+T7	Transfer-money 655 658	vay
+E3	Transfer-money:T7 Recipient-Arg:T8
+T9	Transfer-money 722 725	vay
+E4	Transfer-money:T9 
+T10	ORG 704 717	các ngân_hàng
+T11	Transfer-money 2023 2030	cho vay
+E5	Transfer-money:T11 Giver-Arg:T14 Money-Arg:T12 Time-Arg:T13
+T12	MONEY 1994 2003	45 tỷ USD
+T13	TIME 2004 2012	năm 2015
+T14	ORG 1969 1982	Các ngân_hàng

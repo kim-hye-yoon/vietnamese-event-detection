@@ -1,0 +1,6 @@
+T1	TIME 408 416	Năm 2014
+T2	PER 419 432	Kwon Sang_Woo
+T3	Transfer-ownership 433 436	mua
+E1	Transfer-ownership:T3 Price-Arg:T5 Artifact-Arg:T4 Buyer-Arg:T2 Time-Arg:T1
+T4	FAC 437 476	một toà nhà ở Chungdam - dong ( Seoul )
+T5	MONEY 481 520	giá 5,8 tỷ won ( khoảng 5,1 triệu USD )

@@ -1,0 +1,33 @@
+T1	Transfer-money 31 44	hưởng thù_lao
+E1	Transfer-money:T1 Recipient-Arg:T3 Money-Arg:T2
+T2	MONEY 45 56	1,8 tỷ đồng
+T3	PER 0 26	Chủ_tịch Vinacafe_Biên_Hoà
+T4	Transfer-money 92 103	trả thù_lao
+E2	Transfer-money:T4 Giver-Arg:T7 Recipient-Arg:T5 Money-Arg:T6 Time-Arg:T8
+T5	PER 108 130	Chủ_tịch Phạm_Quang_Vũ
+T6	MONEY 131 145	150 triệu đồng
+T7	ORG 57 74	Vinacafe Biên_Hoà
+T8	TIME 146 166	một tháng trong 2014
+T9	Transfer-money 172 181	trích quỹ
+E3	Transfer-money:T9 Money-Arg:T11 Recipient-Arg:T10 Time-Arg:T12
+T10	PER 208 228	cho cán_bộ nhân_viên
+T11	MONEY 194 207	3 tháng lương
+T12	TIME 229 237	năm 2013
+T13	Transfer-money 487 494	thù_lao
+E4	Transfer-money:T13 Giver-Arg:T14 Time-Arg:T15 Recipient-Arg:T16
+T14	ORG 451 462	công_ty này
+T15	TIME 443 450	năm nay
+T16	PER 499 540	các thành_viên Hội_đồng_quản_trị ( HĐQT )
+T17	PER 554 586	riêng Chủ_tịch HĐQT chuyên_trách
+T18	ORG 589 606	Vinacafe_Biên_Hoà
+T19	Transfer-money 619 632	hưởng thù_lao
+E5	Transfer-money:T19 Giver-Arg:T18 Recipient-Arg:T17 Money-Arg:T20
+T20	MONEY 633 657	150 triệu đồng một tháng
+T21	Transfer-money 727 731	nhận
+E6	Transfer-money:T21 Recipient-Arg:T22 Money-Arg:T23
+T22	PER 717 726	mỗi người
+T23	MONEY 732 755	20 triệu đồng một tháng
+T24	Transfer-money 1185 1188	chi
+E7	Transfer-money:T24 Giver-Arg:T25 Money-Arg:T26
+T25	PER 1169 1176	công_ty
+T26	MONEY 1193 1233	53 tỷ đồng trả cổ_tức 20 % bằng tiền_mặt

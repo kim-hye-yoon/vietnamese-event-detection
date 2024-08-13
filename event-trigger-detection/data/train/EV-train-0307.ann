@@ -1,0 +1,10 @@
+T1	ORG 0 12	FPT Software
+T2	Start-org 13 15	mở
+E1	Start-org:T2 Agent-Arg:T1 Org-Arg:T3 Place-Arg:T4
+T3	ORG 16 27	công_ty_con
+T4	GPE 32 43	Philippines
+T5	ORG 46 83	Công_ty Phần_mềm FPT ( FPT Software )
+T6	Start-org 88 99	khai_trương
+E2	Start-org:T6 Place-Arg:T8 Agent-Arg:T5 Org-Arg:T7
+T7	ORG 100 136	công_ty_con FPT Software_Philippines
+T8	FAC 145 173	khu Công_nghệ_thông_tin Cebu

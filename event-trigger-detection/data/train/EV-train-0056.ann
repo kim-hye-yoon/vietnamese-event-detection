@@ -1,0 +1,18 @@
+T1	Transport 1300 1308	quay lại
+E1	Transport:T1 Artifact-Arg:T4 Destination-Arg:T2
+T2	LOC 1309 1318	Sóc_Trăng
+T3	Transfer-money 1322 1328	đầu_tư
+E2	Transfer-money:T3 Giver-Arg:T4
+T4	PER 1296 1299	ông
+T5	Transport 1411 1415	sang
+E3	Transport:T5 Destination-Arg:T6 Artifact-Arg:T7
+T6	LOC 1416 1424	Bạc_Liêu
+T7	PER 1407 1410	ông
+T8	Transport 985 995	lang_thang
+E4	Transport:T8 Destination-Arg:T9 Artifact-Arg:T10
+T9	LOC 1001 1024	đồng_bằng sông Cửu_Long
+T10	PER 950 953	tôi
+T11	Transfer-money 816 822	đầu_tư
+E5	Transfer-money:T11 Giver-Arg:T12 Time-Arg:T13
+T12	PER 812 815	ông
+T13	TIME 801 809	năm 2001

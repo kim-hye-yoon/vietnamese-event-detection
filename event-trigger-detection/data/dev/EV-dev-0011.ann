@@ -1,0 +1,43 @@
+T1	Pardon 40 45	ân_xá
+E1	Pardon:T1 Defendant-Arg:T3 Adjudicator-Arg:T2
+T2	PER 16 36	thống_đốc California
+T3	PER 46 61	5 người nhập_cư
+T4	Pardon 132 137	ân_xá
+E2	Pardon:T4 Defendant-Arg:T6 Adjudicator-Arg:T5 Crime-Arg:T7
+T5	PER 107 128	Thống_đốc Jerry_Brown
+T6	PER 142 160	5 người nước_ngoài
+T7	CRIME 161 236	phạm_tội bắt_cóc , trộm_cướp , đánh vợ , đe_doạ khủng_bố và buôn_bán ma_tuý
+T8	Pardon 461 466	ân_xá
+E3	Pardon:T8 Time-Arg:T11 Adjudicator-Arg:T10 Defendant-Arg:T9
+T9	PER 467 480	56 trường_hợp
+T10	PER 375 401	Thống_đốc của đảng Dân_chủ
+T11	TIME 406 410	30/3
+T12	Pardon 796 801	ân_xá
+E4	Pardon:T12 
+T13	Pardon 1329 1334	ân_xá
+E5	Pardon:T13 Defendant-Arg:T15 Adjudicator-Arg:T16
+T14	Sentence 1391 1397	kết_án
+E6	Sentence:T14 Defendant-Arg:T15
+T15	PER 1353 1379	người nhập_cư bị trục_xuất
+T16	PER 1299 1314	thống_đốc Brown
+T17	Sue 1528 1532	kiện
+E7	Sue:T17 Adjudicator-Arg:T19 Time-Arg:T18
+T18	TIME 1492 1503	Đầu tháng 3
+T19	ORG 1506 1516	Bộ Tư_pháp
+T20	Attack 192 196	đánh
+E8	Attack:T20 Target-Arg:T21 Attacker-Arg:T6
+T21	PER 197 199	vợ
+T22	Transfer-ownership 221 229	buôn_bán
+E9	Transfer-ownership:T22 Seller-Arg:T6
+T23	Transport 535 544	trục_xuất
+E10	Transport:T23 Artifact-Arg:T9 Destination-Arg:T24
+T24	GPE 550 552	Mỹ
+T25	Transport 630 639	trục_xuất
+E11	Transport:T25 
+T26	Convict 922 928	kết_án
+E12	Convict:T26 Defendant-Arg:T27 Crime-Arg:T28
+T27	PER 852 854	Họ
+T28	CRIME 932 977	các tội liên_quan đến ma_tuý hoặc phi bạo_lực
+T29	Transport 1370 1379	trục_xuất
+E13	Transport:T29 Artifact-Arg:T30
+T30	PER 1353 1366	người nhập_cư

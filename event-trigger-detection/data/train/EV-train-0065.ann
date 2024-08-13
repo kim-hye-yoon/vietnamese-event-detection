@@ -1,0 +1,5 @@
+T1	Fine 1414 1418	phạt
+E1	Fine:T1 Money-Arg:T2 Crime-Arg:T3 Adjudicator-Arg:T4
+T2	MONEY 1428 1442	2.000.000 đồng
+T3	CRIME 1447 1497	hành_vi vi_phạm trong lĩnh_vực giao_thông đường_bộ
+T4	PER 1383 1404	Trưởng Công_an cấp xã

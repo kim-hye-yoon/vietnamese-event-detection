@@ -1,0 +1,21 @@
+T1	ORG 629 677	chính_phủ Syria của Tổng_thống Bashar al - Assad
+T2	WEA 683 697	vũ_khí_hoá_học
+T3	Attack 698 706	tấn_công
+E1	Attack:T3 Attacker-Arg:T1 Instrument-Arg:T2 Place-Arg:T4
+T4	GPE 707 730	thị_trấn Khan_Sheikhoun
+T5	PER 735 750	hàng chục người
+T6	Die 751 761	thiệt_mạng
+E2	Die:T6 Victim-Arg:T5 Agent-Arg:T1 Time-Arg:T7
+T7	TIME 762 773	hồi tháng 4
+T8	ORG 1081 1084	JIM
+T9	ORG 1090 1119	15 thành_viên Hội_đồng Bảo_an
+T10	Start-org 1129 1138	thành_lập
+E3	Start-org:T10 Time-Arg:T11 Agent-Arg:T9 Org-Arg:T8
+T11	TIME 1139 1147	năm 2015
+T12	ORG 1331 1349	quân_đội chính_phủ
+T13	Attack 1350 1360	không_kích
+E4	Attack:T13 Attacker-Arg:T12 Place-Arg:T14
+T14	GPE 1363 1377	Khan_Sheikhoun
+T15	Attack 1381 1385	đánh
+E5	Attack:T15 Attacker-Arg:T12 Target-Arg:T16
+T16	FAC 1392 1422	một kho vũ_khí của phe đối_lập

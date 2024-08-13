@@ -1,0 +1,67 @@
+T2	GPE 47 57	Trung_Quốc
+T1	Transfer-money 26 33	cho vay
+E1	Transfer-money:T1 Place-Arg:T2
+T4	Declare-bankruptcy 268 275	phá_sản
+E3	Declare-bankruptcy:T4 Org-Arg:T3
+T5	Declare-bankruptcy 288 295	phá_sản
+E4	Declare-bankruptcy:T5 Org-Arg:T3
+T6	MONEY 206 216	40.000 USD
+T3	ORG 224 267	công_ty cho vay ngang_hàng ( P 2 P ) online
+T7	Die 463 468	tự_tử
+E2	Die:T7 Agent-Arg:T8
+T8	PER 435 447	Người phụ_nữ
+T9	Declare-bankruptcy 921 928	phá_sản
+E5	Declare-bankruptcy:T9 Org-Arg:T10
+T10	ORG 914 920	PPMiao
+T11	Transport 822 824	đi
+E6	Transport:T11 Artifact-Arg:T12 Vehicle-Arg:T13 Time-Arg:T14 Origin-Arg:T15
+T12	PER 810 813	Ông
+T13	VEH 825 828	tàu
+T14	TIME 829 837	14 tiếng
+T15	GPE 841 849	Giang_Tô
+T16	Transfer-money 1139 1146	cho vay
+E7	Transfer-money:T16 Time-Arg:T18 Place-Arg:T17
+T17	GPE 1162 1172	Trung_Quốc
+T18	TIME 1097 1119	Từ tháng 6 đến tháng 8
+T19	Transfer-money 1630 1637	cho vay
+E8	Transfer-money:T19 Place-Arg:T20
+T20	GPE 1653 1655	Mỹ
+T21	Transfer-money 2103 2110	cho vay
+E9	Transfer-money:T21 
+T22	Transport 2537 2541	chạy
+E10	Transport:T22 
+T23	Transfer-money 2762 2765	vay
+E11	Transfer-money:T23 Recipient-Arg:T26
+T24	Transfer-money 2812 2815	trả
+E12	Transfer-money:T24 Giver-Arg:T26
+T25	Transfer-money 2897 2900	vay
+E13	Transfer-money:T25 Recipient-Arg:T27
+T26	PER 2739 2756	Nhiều cặp đôi trẻ
+T27	ORG 2866 2886	Các doanh_nghiệp nhỏ
+T28	Transfer-money 2923 2926	trả
+E14	Transfer-money:T28 Giver-Arg:T27
+T29	Transfer-ownership 2901 2904	mua
+E15	Transfer-ownership:T29 Buyer-Arg:T27
+T30	Transfer-ownership 3198 3201	bán
+E16	Transfer-ownership:T30 Buyer-Arg:T31
+T31	ORG 3210 3262	tổ_chức tài_chính khác hoặc cho ngân_hàng trung_ương
+T32	Transfer-money 3648 3651	trả
+E17	Transfer-money:T32 Time-Arg:T33
+T33	TIME 3628 3636	ngày 6/8
+T34	End-org 3685 3693	đóng_cửa
+E18	End-org:T34 Time-Arg:T33
+T35	Transfer-money 3748 3756	hoàn_trả
+E19	Transfer-money:T35 Time-Arg:T37 Giver-Arg:T36
+T36	ORG 3720 3726	PPMiao
+T37	TIME 3783 3788	3 năm
+T38	Transfer-money 3893 3896	trả
+E20	Transfer-money:T38 Giver-Arg:T39
+T39	ORG 3940 3946	PPMiao
+T40	Transfer-money 4005 4014	hoàn tiền
+E21	Transfer-money:T40 Money-Arg:T41
+T41	MONEY 3987 3996	1.500 USD
+T42	Die 4688 4693	tự_tử
+E22	Die:T42 Agent-Arg:T43
+T43	PER 4670 4682	người phụ_nữ
+T44	Die 4902 4906	chết
+E23	Die:T44 

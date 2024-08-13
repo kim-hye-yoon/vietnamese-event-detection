@@ -1,0 +1,22 @@
+T1	Divorce 0 6	Ly_hôn
+E1	Divorce:T1 Person-Arg:T2
+T2	PER 7 12	chồng
+T3	Marry 28 35	kết_hôn
+E2	Marry:T3 Person-Arg:T5 Person-Arg2:T4
+T4	PER 17 20	tôi
+T5	PER 40 61	người hơn mình 25 tuổ
+T6	Divorce 83 89	ly_hôn
+E3	Divorce:T6 Person-Arg:T8 Person-Arg2:T7
+T7	PER 65 68	Tôi
+T8	PER 90 95	chồng
+T9	Divorce 337 343	ly_hôn
+E4	Divorce:T9 Person-Arg:T10
+T10	PER 285 288	tôi
+T11	Die 600 603	mất
+E5	Die:T11 Victim-Arg:T12
+T12	PER 597 599	vợ
+T13	Divorce 931 937	ly_hôn
+E6	Divorce:T13 
+T14	Die 1298 1301	mất
+E7	Die:T14 Victim-Arg:T15
+T15	PER 1291 1297	vợ anh

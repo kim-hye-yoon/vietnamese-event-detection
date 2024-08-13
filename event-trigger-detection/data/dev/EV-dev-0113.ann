@@ -1,0 +1,37 @@
+T1	Attack 0 7	Xả súng
+E1	Attack:T1 Target-Arg:T2
+T2	PER 12 24	một gia_đình
+T3	PER 25 37	Một tay súng
+T4	Attack 41 48	xả súng
+E2	Attack:T4 Attacker-Arg:T3 Target-Arg:T5
+T5	PER 53 60	6 người
+T6	PER 94 101	2 người
+T7	PER 116 123	4 người
+T8	Die 102 112	thiệt_mạng
+E3	Die:T8 Victim-Arg:T6
+T9	Injure 124 133	bị_thương
+E4	Injure:T9 Victim-Arg:T7
+T10	PER 148 156	2 trẻ_em
+T11	Injure 157 166	bị_thương
+E5	Injure:T11 Victim-Arg:T10
+T12	PER 251 281	một tay súng chưa rõ danh_tính
+T13	Attack 285 292	xả súng
+E6	Attack:T13 Attacker-Arg:T12 Target-Arg:T14
+T14	PER 297 304	6 người
+T15	PER 338 345	2 người
+T16	PER 360 367	4 người
+T17	Die 346 356	thiệt_mạng
+E7	Die:T17 Victim-Arg:T15
+T18	Injure 368 377	bị_thương
+E8	Injure:T18 Victim-Arg:T16
+T19	PER 392 400	2 trẻ_em
+T20	Injure 401 410	bị_thương
+E9	Injure:T20 Victim-Arg:T19
+T21	PER 427 437	kẻ xả súng
+T22	Die 442 449	sát_hại
+E10	Die:T22 Agent-Arg:T21 Victim-Arg:T23
+T23	PER 450 463	một nhân_viên
+T24	PER 640 653	tay súng trên
+T25	Die 654 664	thiệt_mạng
+E11	Die:T25 Victim-Arg:T24 Place-Arg:T26
+T26	LOC 671 692	một ô_tô đỗ bên đường

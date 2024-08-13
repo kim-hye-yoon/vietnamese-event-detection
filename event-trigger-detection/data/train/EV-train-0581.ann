@@ -1,0 +1,30 @@
+T1	Declare-bankruptcy 22 29	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 0 21	Công_ty của Lady_Gaga
+T3	PER 12 21	Lady_Gaga
+T4	Start-org 288 297	thành_lập
+E2	Start-org:T4 Org-Arg:T5 Time-Arg:T6
+T5	ORG 278 287	Backplane
+T6	TIME 298 306	năm 2011
+T7	Transfer-money 322 325	rót
+E3	Transfer-money:T7 Giver-Arg:T8 Money-Arg:T9
+T8	PER 309 318	Lady_Gaga
+T9	MONEY 334 347	một triệu USD
+T10	Start-org 395 403	sáng_lập
+E4	Start-org:T10 Org-Arg:T11
+T11	ORG 404 425	Google - Eric_Schmidt
+T12	PER 386 425	nhà đồng sáng_lập Google - Eric_Schmidt
+T13	ORG 350 365	Google_Ventures
+T14	ORG 368 382	Menlo_Ventures
+T15	Transfer-money 431 434	góp
+E5	Transfer-money:T15 Giver-Arg:T12 Giver-Arg2:T14 Giver-Arg3:T13 Recipient-Arg:T16
+T16	ORG 443 452	Backplane
+T17	Declare-bankruptcy 769 776	phá_sản
+E6	Declare-bankruptcy:T17 Org-Arg:T18
+T18	ORG 705 714	Backplane
+T19	Transfer-ownership 821 824	mua
+E7	Transfer-ownership:T19 Buyer-Arg:T20
+T20	ORG 798 817	một nhóm nhà_đầu_tư
+T22	ORG 1033 1037	hãng
+T24	PER 1086 1088	cô
+T25	FAC 1117 1135	Thung_lũng Silicon

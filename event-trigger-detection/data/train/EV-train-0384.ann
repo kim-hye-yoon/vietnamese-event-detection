@@ -1,0 +1,16 @@
+T1	Transport 62 66	chạy
+E1	Transport:T1 
+T2	Attack 474 482	hãm_hiếp
+E2	Attack:T2 Target-Arg:T3
+T3	PER 462 470	Tám_Bính
+T4	Attack 2411 2419	hãm_hiếp
+E3	Attack:T4 
+T5	Transport 3193 3197	chạy
+E4	Transport:T5 
+T6	Transport 3232 3236	chạy
+E5	Transport:T6 
+T7	Transport 3240 3244	chạy
+E6	Transport:T7 
+T8	Attack 3317 3325	hãm_hiếp
+E7	Attack:T8 Target-Arg:T9
+T9	PER 3289 3297	Tám_Bính

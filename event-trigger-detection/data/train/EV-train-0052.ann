@@ -1,0 +1,26 @@
+T1	PER 0 16	Người Bangladesh
+T2	Demonstrate 17 26	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	VEH 37 44	xe_buýt
+T4	Attack 45 48	đâm
+E2	Attack:T4 Instrument-Arg:T3 Target-Arg:T6
+T5	Die 49 53	chết
+E3	Die:T5 Instrument-Arg:T3 Victim-Arg:T6
+T6	PER 54 68	hai thiếu_niên
+T7	Demonstrate 71 80	Biểu_tình
+E4	Demonstrate:T7 Place-Arg:T8 Time-Arg:T9
+T8	GPE 83 95	thủ_đô Dhaka
+T9	TIME 96 103	hôm 5/8
+T10	VEH 153 160	xe_buýt
+T11	Attack 167 170	đâm
+E5	Attack:T11 Instrument-Arg:T10 Target-Arg:T12 Time-Arg:T13
+T12	PER 175 189	hai thiếu_niên
+T13	TIME 190 200	tuần trước
+T14	PER 209 215	các em
+T15	Die 216 223	tử_vong
+E6	Die:T15 Instrument-Arg:T10 Victim-Arg:T14 Place-Arg:T16
+T16	LOC 224 231	tại_chỗ
+T17	GPE 1130 1140	Bangladesh
+T18	PER 1144 1160	hơn 40.000 người
+T19	Die 1161 1165	chết
+E7	Die:T19 Victim-Arg:T18 Place-Arg:T17

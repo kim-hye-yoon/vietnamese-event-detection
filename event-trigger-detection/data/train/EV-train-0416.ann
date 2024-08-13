@@ -1,0 +1,7 @@
+T1	Transport 31 35	sang
+E1	Transport:T1 Agent-Arg:T2
+T2	PER 24 30	bà bầu
+T3	Transport 368 377	di_chuyển
+E2	Transport:T3 
+T4	Transport 428 432	sang
+E3	Transport:T4 

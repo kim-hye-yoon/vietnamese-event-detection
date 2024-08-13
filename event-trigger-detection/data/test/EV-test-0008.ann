@@ -1,0 +1,26 @@
+T1	End-position 11 20	cách_chức
+E1	End-position:T1 Position-Arg:T3 Entity-Arg:T2
+T2	ORG 0 10	Triều_Tiên
+T3	JOB 21 49	chủ_nhiệm Tổng_cục Chính_trị
+T4	End-position 348 357	cách_chức
+E2	End-position:T4 Person-Arg:T5
+T5	PER 250 272	tướng Hwang_Pyong - so
+T6	Nominate 831 839	bổ_nhiệm
+E3	Nominate:T6 Person-Arg:T7 Agent-Arg:T8
+T7	PER 840 861	cán_bộ trong quân_đội
+T8	ORG 741 811	Tổng_cục Chính_trị là cơ_quan quyền_lực nhất trong quân_đội Triều_Tiên
+T9	End-position 941 950	cách_chức
+E4	End-position:T9 Person-Arg:T10
+T10	PER 928 937	ông Hwang
+T11	Trial-hearing 1053 1061	điều_tra
+E5	Trial-hearing:T11 Adjudicator-Arg:T12
+T12	ORG 1028 1046	Tổng_cục Chính_trị
+T13	PER 1065 1074	ông Hwang
+T14	ORG 1086 1097	trường đảng
+T15	Transport 1078 1085	đưa tới
+E6	Transport:T15 Artifact-Arg:T13
+T16	JOB 646 682	Chức_vụ Chủ_nhiệm Tổng_cục Chính_trị
+T17	PER 696 711	ông Hwang Pyong
+T18	TIME 730 738	năm 2014
+T19	Start-position 717 726	đảm_nhiệm
+E7	Start-position:T19 Person-Arg:T17 Position-Arg:T16 Time-Arg:T18

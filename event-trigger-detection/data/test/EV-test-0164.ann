@@ -1,0 +1,41 @@
+T1	PER 244 247	Anh
+T2	Transfer-money 271 275	tặng
+E1	Transfer-money:T2 Giver-Arg:T1 Money-Arg:T3
+T3	MONEY 281 308	10.000 tệ ( 34 triệu đồng )
+T4	TIME 1934 1942	Ngày 4/9
+T5	PER 1953 1961	cảnh_sát
+T6	Arrest-jail 1965 1968	bắt
+E2	Arrest-jail:T6 Time-Arg:T4 Person-Arg2:T7 Agent-Arg:T5
+T7	PER 1969 1977	2 mẹ_con
+T8	PER 2212 2222	Chu Mỗ_Anh
+T9	Marry 2238 2245	kết_hôn
+E3	Marry:T9 Person-Arg:T8 Time-Arg:T10
+T10	TIME 2250 2258	năm 1985
+T11	PER 2304 2310	Chu_Mỗ
+T12	TIME 2290 2298	năm 1996
+T13	Marry 2299 2303	sinh
+E4	Marry:T13 Time-Arg:T12 Person-Arg2:T11
+T14	TIME 2334 2342	Năm 2016
+T15	PER 2345 2347	bà
+T16	Marry 2348 2355	kết_hôn
+E5	Marry:T16 Person-Arg2:T17 Person-Arg3:T15 Time-Arg:T14
+T17	PER 2360 2385	người đàn_ông tỉnh Hà_Nam
+T18	PER 2439 2452	Cô_gái Chu_Mỗ
+T19	Marry 2453 2460	kết_hôn
+E6	Marry:T19 Person-Arg:T18 Person-Arg2:T21 Time-Arg:T20
+T20	TIME 2461 2469	năm 2013
+T21	PER 2474 2510	người đàn ông trẻ thành_phố An khánh
+T22	PER 2792 2802	hai mẹ_con
+T23	Arrest-jail 2809 2817	giam_giữ
+E7	Arrest-jail:T23 Person-Arg:T22
+T24	PER 452 463	nhà ông Hứa
+T25	Transfer-money 464 467	đưa
+E8	Transfer-money:T25 Giver-Arg:T24 Recipient-Arg:T26 Money-Arg:T27
+T26	PER 478 485	nhà_gái
+T27	MONEY 486 518	30.000 tệ ( hơn 100 triệu đồng )
+T28	PER 652 654	cô
+T29	Marry 668 675	kết_hôn
+E9	Marry:T29 Person-Arg:T28
+T30	Divorce 2532 2538	ly_hôn
+E10	Divorce:T30 Person-Arg:T18 Time-Arg:T31
+T31	TIME 2543 2555	tháng 3/2015

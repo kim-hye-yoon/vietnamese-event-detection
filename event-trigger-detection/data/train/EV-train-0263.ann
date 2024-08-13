@@ -1,0 +1,5 @@
+T1	Arrest-jail 13 19	bị bắt
+E1	Arrest-jail:T1 Person-Arg:T2
+T2	PER 0 12	Tên trộm trẻ
+T3	Pardon 25 40	van_xin tha_tội
+E2	Pardon:T3 Defendant-Arg:T2

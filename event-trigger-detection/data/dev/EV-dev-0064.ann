@@ -1,0 +1,30 @@
+T5	ORG 300 313	Sears_Holding
+T16	Transfer-ownership 729 732	bán
+E2	Transfer-ownership:T16 Seller-Arg:T17 Buyer-Arg:T18
+T17	ORG 706 713	công_ty
+T18	PER 737 747	khách_hàng
+T20	ORG 895 908	Sears_Holding
+T21	Declare-bankruptcy 923 930	phá_sản
+E3	Declare-bankruptcy:T21 Org-Arg:T20
+T22	MONEY 941 967	4 triệu USD ( 95 tỷ đồng )
+T30	ORG 1185 1221	Công_ty_cổ_phần Chứng_khoán Phú_Hưng
+T31	ORG 1233 1246	Sears_Holding
+T32	MONEY 1262 1275	300 triệu USD
+T48	PER 51 64	khách_hàng Mỹ
+T50	TIME 322 335	tháng 10/2018
+T1	Declare-bankruptcy 288 295	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T5 Time-Arg:T50
+T4	ORG 264 273	toà_án Mỹ
+T2	PER 97 189	ông Trần_Như_Tùng , Thành_viên HĐQT Công_ty_cổ_phần Dệt may – Đầu_tư – Thương_mại Thành_Công
+T6	Transfer-money 1250 1254	nhận
+E7	Transfer-money:T6 Recipient-Arg:T31 Money-Arg:T32 Giver-Arg:T7
+T7	PER 1279 1290	một đối_tác
+T10	Declare-bankruptcy 39 46	phá_sản
+E6	Declare-bankruptcy:T10 
+T9	Transfer-money 1428 1430	nợ
+E4	Transfer-money:T9 Money-Arg:T19
+T19	MONEY 1391 1401	95 tỷ đồng
+T3	Transport 1615 1619	giao
+E5	Transport:T3 
+T8	Transport 1664 1668	nhập
+E8	Transport:T8 

@@ -1,0 +1,13 @@
+T1	End-position 36 45	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 11	Lãnh_đạo xã
+T3	End-position 344 353	cách_chức
+E2	End-position:T3 Person-Arg:T5
+T4	End-position 474 483	thôi_việc
+E3	End-position:T4 
+T5	PER 276 339	Chủ tịch xã Trần Đoàn_Minh_Hiệp và Phó chủ_tịch xã Trần_Oai Dũn
+T6	Charge-indict 594 600	tố_cáo
+E4	Charge-indict:T6 Prosecutor-Arg:T9 Defendant-Arg:T8 Time-Arg:T7
+T7	TIME 544 563	Khoảng tháng 8/2016
+T8	PER 566 593	nhiều người_dân xã Bình_Lâm
+T9	PER 601 610	cán_bộ xã

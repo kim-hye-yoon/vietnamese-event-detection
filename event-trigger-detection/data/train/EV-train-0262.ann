@@ -1,0 +1,18 @@
+T1	GPE 0 6	Israel
+T2	Attack 7 15	tấn_công
+E1	Attack:T2 Attacker-Arg:T1 Place-Arg:T3
+T3	GPE 31 36	Syria
+T4	Attack 604 614	không_kích
+E2	Attack:T4 Target-Arg:T6 Instrument-Arg:T5
+T5	WEA 549 564	Tiêm_kích F -16
+T6	FAC 615 641	các cơ_sở của Iran ở Syria
+T7	PER 827 836	Một người
+T8	Injure 837 846	bị_thương
+E3	Injure:T8 Victim-Arg:T7
+T9	VEH 44 49	F -16
+T10	Attack 53 56	bắn
+E4	Attack:T10 Target-Arg:T9
+T11	Attack 921 924	bắn
+E5	Attack:T11 Target-Arg:T12 Instrument-Arg:T13
+T12	VEH 939 950	hai máy_bay
+T13	VEH 891 920	hệ_thống phòng_không nước này

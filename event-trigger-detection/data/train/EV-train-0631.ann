@@ -1,0 +1,21 @@
+T1	Transfer-money 25 34	nhập_khẩu
+E1	Transfer-money:T1 Giver-Arg:T2
+T2	ORG 8 24	các doanh_nghiệp
+T3	Transfer-money 106 110	nhập
+E2	Transfer-money:T3 Place-Arg:T4
+T4	GPE 114 122	Việt_Nam
+T5	PER 186 194	ba người
+T6	Die 195 202	tử_vong
+E3	Die:T6 Victim-Arg:T5
+T7	GPE 255 263	Việt_Nam
+T8	Transfer-money 271 280	nhập_khẩu
+E4	Transfer-money:T8 Recipient-Arg:T7
+T9	Transfer-money 879 888	nhập_khẩu
+E5	Transfer-money:T9 Place-Arg:T10
+T10	GPE 892 894	Mỹ
+T11	Transfer-money 1182 1186	nhập
+E6	Transfer-money:T11 Place-Arg:T12
+T12	GPE 1191 1199	Việt_Nam
+T13	Transfer-ownership 1350 1359	xuất_khẩu
+E7	Transfer-ownership:T13 Time-Arg:T14
+T14	TIME 1384 1392	năm 2014

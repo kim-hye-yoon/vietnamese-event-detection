@@ -1,0 +1,34 @@
+T1	End-position 21 30	cách_chức
+E1	End-position:T1 Person-Arg:T2
+T2	PER 0 17	Trưởng công_an xã
+T3	Attack 90 94	đánh
+E2	Attack:T3 Attacker-Arg:T5 Target-Arg:T6
+T4	Injure 95 98	gãy
+E3	Injure:T4 Victim-Arg:T6 Agent-Arg:T5
+T5	PER 64 89	Trưởng công_an xã Ia Hiao
+T6	PER 47 60	Anh Ksor_Khoa
+T7	Attack 34 38	đánh
+E4	Attack:T7 Target-Arg:T8 Attacker-Arg:T2
+T8	PER 39 44	người
+T9	End-position 239 248	cách_chức
+E5	End-position:T9 Entity-Arg:T12 Person-Arg:T10 Position-Arg:T11
+T10	PER 249 268	ông Nguyễn_Văn_Thìn
+T11	JOB 271 296	Trưởng công_an xã Ia_Hiao
+T12	ORG 215 220	huyện
+T13	Attack 410 414	đánh
+E6	Attack:T13 Target-Arg:T15 Attacker-Arg:T16
+T14	Injure 425 436	thương_tích
+E7	Injure:T14 Agent-Arg2:T16 Victim-Arg:T15
+T15	PER 415 420	người
+T16	PER 300 307	ông này
+T17	End-position 470 479	thôi_việc
+E8	End-position:T17 Position-Arg:T19 Person-Arg:T18
+T18	PER 453 461	ông Thìn
+T19	JOB 480 496	công_chức cấp xã
+T20	Attack 663 667	đánh
+E9	Attack:T20 Attacker-Arg:T21 Attacker-Arg2:T22
+T21	PER 646 654	ông Thìn
+T22	PER 550 563	anh Ksor_Khoa
+T23	Transport 616 620	chạy
+E10	Transport:T23 Vehicle-Arg:T24 Agent-Arg:T22
+T24	VEH 621 627	xe_máy

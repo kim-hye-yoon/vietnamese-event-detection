@@ -1,0 +1,23 @@
+T1	Marry 16 23	kết_hôn
+E1	Marry:T1 Person-Arg:T2
+T2	PER 0 15	Hoa_hậu Mỹ 2005
+T3	Marry 678 686	đám_cưới
+E2	Marry:T3 Person-Arg:T4
+T4	PER 691 693	mẹ
+T5	Be-born 1085 1089	sinh
+E3	Be-born:T5 Person-Arg:T7 Time-Arg:T6
+T6	TIME 1090 1098	năm 1980
+T7	PER 1072 1084	Deidre Downs
+T8	Start-position 1116 1126	đăng_quang
+E4	Start-position:T8 Position-Arg:T10 Person-Arg:T9
+T9	PER 1113 1115	Cô
+T10	JOB 1127 1142	Hoa_hậu Alabama
+T11	TIME 1143 1151	năm 2004
+T12	Start-position 1155 1164	trở_thành
+E5	Start-position:T12 Position-Arg:T13 Time-Arg:T14 Time-Arg2:T11
+T13	JOB 1165 1175	Hoa_hậu Mỹ
+T14	TIME 1176 1190	một năm sau đó
+T15	Marry 1201 1208	kết_hôn
+E6	Marry:T15 Person-Arg:T17 Person-Arg2:T16
+T16	PER 1213 1224	Andrew_Gunn
+T17	PER 1193 1195	Cô

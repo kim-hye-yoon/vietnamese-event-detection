@@ -1,0 +1,47 @@
+T1	Transfer-ownership 12 16	thuê
+E1	Transfer-ownership:T1 Seller-Arg:T2 Artifact-Arg:T3
+T2	ORG 0 7	Công_ty
+T3	VEH 17 23	xe_đạp
+T4	GPE 24 34	Trung_Quốc
+T5	ORG 0 34	Công_ty cho thuê xe_đạp Trung_Quốc
+T6	Declare-bankruptcy 35 42	phá_sản
+E2	Declare-bankruptcy:T6 Org-Arg:T5
+T7	Transfer-ownership 69 73	thuê
+E3	Transfer-ownership:T7 Seller-Arg:T8 Artifact-Arg:T9 Place-Arg:T10
+T8	ORG 57 64	Dịch_vụ
+T9	VEH 74 80	xe_đạp
+T10	GPE 105 115	Trung_Quốc
+T11	Declare-bankruptcy 1025 1041	tuyên_bố phá_sản
+E4	Declare-bankruptcy:T11 Org-Arg:T12 Place-Arg:T13
+T12	ORG 911 918	công_ty
+T13	GPE 1014 1024	Trung_Quốc
+T14	Transfer-ownership 965 969	thuê
+E5	Transfer-ownership:T14 Seller-Arg:T15 Artifact-Arg:T16 Place-Arg:T13
+T15	ORG 953 960	dịch_vụ
+T16	VEH 970 976	xe_đạp
+T17	Transfer-ownership 1144 1148	thuê
+E6	Transfer-ownership:T17 Seller-Arg:T18 Artifact-Arg:T20
+T18	ORG 1094 1122	công_ty công_nghệ Trung_Quốc
+T19	GPE 1112 1122	Trung_Quốc
+T20	VEH 1149 1155	xe_đạp
+T22	GPE 1297 1304	châu_Âu
+T23	Transfer-ownership 1410 1414	thuê
+E8	Transfer-ownership:T23 Buyer-Arg:T24 Artifact-Arg:T25 Place-Arg:T26
+T24	PER 1393 1409	người có nhu_cầu
+T25	VEH 1415 1417	xe
+T26	LOC 1449 1473	gần vị_trí của mình nhất
+T27	Transfer-money 1484 1487	trả
+E9	Transfer-money:T27 Giver-Arg:T30
+T28	Transfer-ownership 1493 1497	thuê
+E10	Transfer-ownership:T28 Artifact-Arg:T29 Buyer-Arg:T30
+T29	VEH 1498 1500	xe
+T30	PER 1503 1513	khách_hàng
+T31	Transfer-money 1517 1521	nhận
+E11	Transfer-money:T31 Recipient-Arg:T30
+T32	Transfer-ownership 1668 1672	thuê
+E12	Transfer-ownership:T32 Buyer-Arg:T33 Artifact-Arg:T34
+T33	PER 1653 1663	khách_hàng
+T34	VEH 1673 1675	xe
+T35	Transfer-ownership 1681 1684	trả
+E13	Transfer-ownership:T35 Seller-Arg:T33 Artifact-Arg:T36
+T36	VEH 1685 1687	xe

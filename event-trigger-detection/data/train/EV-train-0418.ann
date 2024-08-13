@@ -1,0 +1,36 @@
+T1	Transport 167 175	quay lại
+E1	Transport:T1 Agent-Arg:T2 Time-Arg:T3
+T2	PER 161 163	cô
+T3	TIME 139 145	sau đó
+T4	ORG 235 239	PC45
+T5	Arrest-jail 266 273	tạm giữ
+E2	Arrest-jail:T5 Person-Arg:T6 Person-Arg2:T7 Agent-Arg:T4
+T6	PER 274 293	Nguyễn_Thị_Cẩm_Thuý
+T7	PER 297 311	Hồ_Thành_Dương
+T8	Be-born 569 573	sinh
+E3	Be-born:T8 Time-Arg:T10 Place-Arg:T11 Person-Arg:T9
+T9	PER 551 555	Thuý
+T10	TIME 607 610	1/4
+T11	LOC 617 670	Trạm Y_tế phường An_Lạc , quận Ninh_Kiều , TP Cần_Thơ
+T12	Transfer-ownership 764 767	gửi
+E4	Transfer-ownership:T12 Beneficiary-Arg:T13 Time-Arg:T15 Seller-Arg:T14
+T13	ORG 772 784	chùa Bửu_Trì
+T14	PER 737 741	Thuý
+T15	TIME 673 700	Sau khi sinh chưa đầy 1 giờ
+T16	Arrest-jail 29 36	tạm giữ
+E5	Arrest-jail:T16 Person-Arg:T17
+T17	PER 37 51	hai kẻ bắt_cóc
+T18	Transport 745 749	mang
+E6	Transport:T18 Agent-Arg:T14 Artifact-Arg:T19
+T19	PER 750 757	cháu bé
+T20	PER 979 1031	phụ_nữ trẻ khoảng 20 tuổi ( là Nguyễn_Thị_Cẩm_Thuý )
+T21	Attack 1032 1040	đột_nhập
+E7	Attack:T21 Attacker-Arg:T20 Place-Arg:T22
+T22	LOC 1045 1049	chùa
+T23	Arrest-jail 1050 1057	bắt_cóc
+E8	Arrest-jail:T23 Agent-Arg:T20 Person-Arg:T24
+T24	PER 1058 1087	bé Hoàng_Duy ( 3 tháng tuổi )
+T25	PER 1167 1173	cô_gái
+T26	Transport 1230 1234	chạy
+E9	Transport:T26 Agent-Arg:T25 Destination-Arg:T27
+T27	LOC 1235 1243	ra đường

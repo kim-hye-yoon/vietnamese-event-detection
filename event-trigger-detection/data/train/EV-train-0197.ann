@@ -1,0 +1,22 @@
+T1	PER 0 13	Nông_dân Pháp
+T2	Demonstrate 14 23	biểu_tình
+E1	Demonstrate:T2 Entity-Arg:T1
+T3	PER 58 72	Những nông_dân
+T4	Demonstrate 87 96	biểu_tình
+E2	Demonstrate:T4 Entity-Arg:T3 Time-Arg:T5 Place-Arg:T6
+T5	TIME 129 137	hôm 29/8
+T6	GPE 140 149	làng Murs
+T7	PER 164 180	Hơn 100 nông_dân
+T8	TIME 181 189	hôm 29/8
+T9	Demonstrate 295 304	biểu_tình
+E3	Demonstrate:T9 Entity-Arg:T7 Time-Arg:T8
+T10	PER 362 373	Những người
+T11	Demonstrate 383 392	biểu_tình
+E4	Demonstrate:T11 Entity-Arg:T10
+T12	PER 1069 1094	Các nhà_đầu_tư Trung_Quốc
+T13	MONEY 1110 1119	89 tỷ USD
+T14	Transfer-ownership 1120 1123	mua
+E5	Transfer-ownership:T14 Price-Arg:T13 Buyer-Arg:T12
+T15	PER 1301 1309	nông_dân
+T16	Demonstrate 1324 1333	biểu_tình
+E6	Demonstrate:T16 Entity-Arg:T15

@@ -1,0 +1,34 @@
+T1	ORG 0 22	Công_ty vàng Bồng_Miêu
+T2	Declare-bankruptcy 23 30	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	TIME 38 43	28/11
+T5	ORG 88 115	Công_ty TNHH vàng Bồng_Miêu
+T7	Declare-bankruptcy 246 253	phá_sản
+E2	Declare-bankruptcy:T7 Org-Arg:T5 Place-Arg:T6
+T8	Declare-bankruptcy 291 307	tuyên_bố phá_sản
+E3	Declare-bankruptcy:T8 Org-Arg:T5 Place-Arg:T6
+T9	PER 169 175	chủ_nợ
+T10	PER 81 148	chủ_nợ Công_ty TNHH vàng Bồng_Miêu ( xã Tam_Lãnh , huyện Phú_Ninh )
+T11	Declare-bankruptcy 337 344	phá_sản
+E4	Declare-bankruptcy:T11 Org-Arg:T12
+T12	ORG 345 367	công_ty vàng Bồng_Miêu
+T13	PER 310 320	Các chủ_nợ
+T14	PER 402 411	24 chủ_nợ
+T16	ORG 453 472	TAND tỉnh Quảng_Nam
+T4	ORG 46 65	TAND tỉnh Quảng_Nam
+T15	Declare-bankruptcy 484 491	phá_sản
+E5	Declare-bankruptcy:T15 Org-Arg:T17
+T17	ORG 500 517	Công_ty Bồng_Miêu
+T26	Declare-bankruptcy 1104 1120	tuyên_bố phá_sản
+E6	Declare-bankruptcy:T26 Org-Arg:T27
+T27	ORG 1129 1146	Công_ty Bồng_Miêu
+T28	Declare-bankruptcy 1205 1212	phá_sản
+E7	Declare-bankruptcy:T28 Org-Arg:T29
+T29	ORG 1221 1237	doanh_nghiệp này
+T40	TIME 1717 1729	Tháng 5/2017
+T41	GPE 1732 1746	tỉnh Quảng_Nam
+T6	GPE 118 146	xã Tam_Lãnh , huyện Phú_Ninh
+T18	PER 1072 1084	14/24 chủ_nợ
+T19	End-org 1755 1763	đóng_cửa
+E8	End-org:T19 Org-Arg:T20 Time-Arg:T40 Place-Arg:T41
+T20	ORG 1764 1775	mỏ vàng này

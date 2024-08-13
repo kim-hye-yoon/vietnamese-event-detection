@@ -1,0 +1,41 @@
+T1	Attack 41 46	phóng
+E1	Attack:T1 Attacker-Arg:T3 Instrument-Arg:T2 Target-Arg:T20
+T3	PER 0 22	Lính phòng_không Syria
+T2	WEA 47 50	đạn
+T4	Attack 269 278	đánh chặn
+E2	Attack:T4 Attacker-Arg:T5 Place-Arg:T6 Target-Arg:T24
+T5	ORG 229 250	lực_lượng phòng_không
+T6	GPE 308 327	đông thành_phố Homs
+T7	Attack 448 453	phóng
+E3	Attack:T7 Attacker-Arg:T9 Instrument-Arg:T8
+T8	WEA 454 479	nhiều quả đạn Buk - M 2 E
+T9	PER 344 357	binh_sĩ Syria
+T11	Attack 582 586	phón
+E4	Attack:T11 Instrument-Arg:T12 Place-Arg:T13 Instrument-Arg2:T10 Attacker-Arg:T25 Instrument-Arg3:T26
+T12	WEA 589 619	03 tên_lửa hành_trình các loại
+T13	GPE 624 643	ba mục_tiêu ở Syria
+T14	ORG 887 902	Mỹ và đồng_minh
+T15	Attack 903 911	tấn_công
+E5	Attack:T15 Attacker-Arg:T14 Place-Arg:T16
+T16	GPE 862 883	tỉnh Homs và Damascus
+T17	FAC 1054 1079	Sân_bay Syria Al - Dumayr
+T18	Attack 1131 1139	tấn_công
+E6	Attack:T18 Target-Arg:T17 Instrument-Arg:T19
+T19	WEA 1144 1165	12 tên_lửa hành_trình
+T20	WEA 56 66	tên_lửa Mỹ
+T21	ORG 69 93	Đơn_vị phòng_không Syria
+T23	WEA 121 131	tên_lửa Mỹ
+T24	WEA 279 300	tên_lửa hành_trình Mỹ
+T22	Attack 111 120	đánh chặn
+E7	Attack:T22 Attacker-Arg:T21 Target-Arg:T23
+T10	VEH 539 548	tàu_chiến
+T25	GPE 563 578	Mỹ , Anh , Pháp
+T26	VEH 551 558	máy_bay
+T27	GPE 971 976	Syria
+T28	Attack 980 989	đánh chặn
+E8	Attack:T28 Attacker-Arg:T27 Target-Arg:T29
+T29	WEA 1003 1051	71 trong tổng_số 103 tên_lửa của Mỹ và đồng_minh
+T30	WEA 1172 1187	toàn_bộ tên_lửa
+T31	Attack 1194 1198	chặn
+E9	Attack:T31 Attacker-Arg:T32 Target-Arg:T30
+T32	ORG 1203 1220	phòng_không Syria

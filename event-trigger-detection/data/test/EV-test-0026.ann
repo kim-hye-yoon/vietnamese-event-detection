@@ -1,0 +1,10 @@
+T1	Transfer-ownership 4394 4397	bán
+E1	Transfer-ownership:T1 
+T2	Transfer-ownership 4766 4776	kinh_doanh
+E2	Transfer-ownership:T2 
+T3	Transfer-ownership 5139 5148	đồng_hành
+E3	Transfer-ownership:T3 
+T4	ORG 5153 5205	Công_ty CP Tập_đoàn Asanzo và Ngân_hàng TMCP An_Bình
+T5	End-position 58 67	nghỉ_việc
+E4	End-position:T5 
+T6	TIME 43 51	Năm 2016

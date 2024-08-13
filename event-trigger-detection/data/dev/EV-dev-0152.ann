@@ -1,0 +1,20 @@
+T1	Transport 180 188	tiến vào
+E1	Transport:T1 Destination-Arg:T3 Artifact-Arg:T2
+T2	PER 158 172	quân_đội Syria
+T3	LOC 189 203	khu_vực Manbij
+T4	Transport 684 687	đến
+E2	Transport:T4 Destination-Arg:T7 Artifact-Arg:T8
+T5	Attack 739 747	xâm_lược
+E3	Attack:T5 Attacker-Arg:T6 Place-Arg:T7
+T6	GPE 754 764	Thổ_Nhĩ_Kỳ
+T7	LOC 688 713	khu_vực biên_giới tây bắc
+T8	PER 675 683	quân_đội
+T9	Transport 912 920	tiến vào
+E4	Transport:T9 Destination-Arg:T10 Time-Arg:T12 Artifact-Arg:T11
+T10	GPE 921 936	thành_phố Afrin
+T11	PER 835 865	Lực_lượng thân chính_phủ Syria
+T12	TIME 866 875	ngày 23/2
+T13	Transport 996 999	tới
+E5	Transport:T13 Destination-Arg:T15 Artifact-Arg:T14
+T14	PER 972 995	lực_lượng thân Damascus
+T15	GPE 1000 1005	Afrin

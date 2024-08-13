@@ -1,0 +1,23 @@
+T1	Arrest-jail 247 254	tạm giữ
+E1	Arrest-jail:T1 Agent-Arg:T4 Person-Arg:T2 Time-Arg:T3
+T2	PER 263 356	Lê_Xuân_Phong ( SN 1996 , học_sinh lớp 12 A5 , trường THPT Lê_Thánh_Tông , thị_xã Ayun_Pa , )
+T3	TIME 158 166	Sáng 4/5
+T4	ORG 169 232	Cơ_quan Cảnh_sát điều_tra Công_an thị_xã Ayun_Pa , tỉnh Gia_Lai
+T5	Transport 612 615	đến
+E2	Transport:T5 Destination-Arg:T7 Artifact-Arg:T6 Time-Arg:T8
+T6	PER 567 572	Phong
+T7	FAC 616 664	một tiệm vàng S. nằm trên địa_bàn thị_xã Ayun_Pa
+T8	TIME 555 564	Chiều 1/5
+T9	Transport 797 804	bỏ trốn
+E3	Transport:T9 Artifact-Arg:T10 Time-Arg:T11 Origin-Arg:T12
+T10	PER 764 769	Phong
+T11	TIME 750 761	Ngay sau đó
+T12	FAC 787 796	tiệm vàng
+T13	Transport 1010 1016	trở_về
+E4	Transport:T13 Destination-Arg:T16 Artifact-Arg:T14 Time-Arg:T15
+T14	PER 988 993	Phong
+T15	TIME 978 985	Đêm 1/5
+T16	FAC 1017 1056	nhà ( đường Ngô_Mây , phường Đoàn_Kết )
+T17	Arrest-jail 1082 1089	bắt_giữ
+E5	Arrest-jail:T17 Agent-Arg:T18 Person-Arg:T14
+T18	PER 1064 1081	lực_lượng công_an

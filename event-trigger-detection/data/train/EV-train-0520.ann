@@ -1,0 +1,4 @@
+T1	Transport 155 164	lưu_thông
+E1	Transport:T1 Vehicle-Arg:T3 Time-Arg:T2
+T2	TIME 51 73	Khoảng 4 giờ sáng 30/5
+T3	VEH 76 119	một chiếc container mang biển số 70 H -9108

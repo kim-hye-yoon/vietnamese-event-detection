@@ -1,0 +1,8 @@
+T1	Elect 13 21	được bầu
+E1	Elect:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 0 12	Sergio_Ramos
+T3	JOB 25 51	trung_vệ hay nhất thế_giới
+T4	Injure 1419 1430	chấn_thương
+E2	Injure:T4 Victim-Arg:T5 Agent-Arg:T6
+T5	PER 1439 1452	Mohamed_Salah
+T6	PER 1406 1411	Ramos

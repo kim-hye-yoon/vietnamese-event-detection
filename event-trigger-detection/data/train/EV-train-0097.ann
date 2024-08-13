@@ -1,0 +1,44 @@
+T1	Attack 15 24	quét sạch
+E1	Attack:T1 Place-Arg:T4 Target-Arg:T2 Attacker-Arg:T3
+T2	ORG 25 35	phiến quân
+T3	ORG 0 14	Quân_đội Syria
+T4	LOC 36 57	quanh thủ_đô Damascus
+T5	Attack 140 155	cuộc giao_tranh
+E2	Attack:T5 Attacker-Arg:T6 Target-Arg:T7 Target-Arg2:T6 Attacker-Arg2:T7 Place-Arg:T27
+T6	ORG 161 179	quân_đội chính_phủ
+T7	ORG 183 193	phiến quân
+T8	PER 513 528	Một_số tay súng
+T9	Transport 544 552	rời khỏi
+E3	Transport:T9 Vehicle-Arg:T12 Destination-Arg:T11 Origin-Arg:T10 Artifact-Arg:T8
+T10	LOC 553 562	thành_phố
+T11	LOC 580 595	phía đông Syria
+T12	VEH 568 575	xe_buýt
+T13	Transport 762 769	bỏ trốn
+E4	Transport:T13 Origin-Arg:T15 Artifact-Arg:T14
+T14	PER 743 758	phần_lớn dân_cư
+T15	LOC 775 782	Yarmouk
+T16	PER 861 878	nhiều tay súng IS
+T17	Die 882 892	thiệt_mạng
+E5	Die:T17 Victim-Arg:T16
+T18	Attack 899 915	các đợt tấn_công
+E6	Attack:T18 Attacker-Arg:T19
+T19	ORG 920 938	quân_đội chính_phủ
+T20	Attack 1129 1139	giao_tranh
+E7	Attack:T20 Attacker-Arg:T21 Attacker-Arg2:T22 Target-Arg:T22 Target-Arg2:T21 Time-Arg:T33
+T21	ORG 1156 1180	quân_đội chính_phủ Syria
+T22	ORG 1184 1213	nhóm nổi_dậy Jaish al - Islam
+T24	Die 1256 1266	thiệt_mạng
+E8	Die:T24 Victim-Arg:T23
+T25	Attack 1493 1501	xung_đột
+E9	Attack:T25 Time-Arg:T26 Place-Arg:T34
+T26	TIME 1523 1537	cách đây 7 năm
+T27	GPE 60 116	Quận Hajar al - Aswad , phía nam thủ_đô Damascus , Syria
+T28	Transport 1042 1049	đẩy_lùi
+E10	Transport:T28 Agent-Arg:T29 Origin-Arg:T30
+T29	ORG 1050 1060	phiến quân
+T30	LOC 1066 1111	khu_vực Đông_Ghouta , ngoại_ô thủ_đô Damascus
+T31	ORG 1013 1027	quân_đội Syria
+T32	TIME 994 1010	Hồi giữa tháng 4
+T33	TIME 1214 1232	suốt nhiều năm qua
+T23	PER 1235 1252	Hơn 500.000 người
+T34	GPE 1510 1522	quốc_gia này

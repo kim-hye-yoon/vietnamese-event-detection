@@ -1,0 +1,44 @@
+T1	GPE 20 22	Mỹ
+T2	Transport 23 26	đưa
+E1	Transport:T2 Agent-Arg:T1 Artifact-Arg:T3 Destination-Arg:T4
+T3	VEH 27 46	5.000 xe_tải vũ_khí
+T4	GPE 51 56	Syria
+T5	GPE 203 205	Mỹ
+T6	GPE 209 218	đồng_minh
+T7	Transfer-ownership 230 233	bán
+E2	Transfer-ownership:T7 Seller-Arg:T6 Seller-Arg2:T5 Artifact-Arg:T8 Buyer-Arg:T9
+T8	WEA 234 240	vũ_khí
+T9	GPE 245 251	Ankara
+T10	PER 332 341	Chúng_tôi
+T11	Transfer-ownership 362 365	mua
+E3	Transfer-ownership:T11 Buyer-Arg:T10 Artifact-Arg:T12
+T12	VEH 366 379	vũ_khí của Mỹ
+T13	Transport 754 757	gửi
+E4	Transport:T13 Agent-Arg:T16 Destination-Arg:T15 Artifact-Arg:T14
+T14	VEH 758 771	những đoàn xe
+T15	LOC 776 778	đó
+T16	GPE 693 703	Washington
+T17	Transport 786 789	gửi
+E5	Transport:T17 Agent-Arg:T16 Artifact-Arg:T18 Destination-Arg:T21
+T18	VEH 790 802	5.000 xe_tải
+T19	Transport 803 806	chở
+E6	Transport:T19 Vehicle-Arg:T18 Artifact-Arg:T20 Destination-Arg:T21
+T20	WEA 811 817	vũ_khí
+T21	LOC 826 848	khu_vực phía bắc Syria
+T22	TIME 1042 1059	Tháng 12 năm_ngoá
+T23	PER 1063 1089	Tổng_thống Mỹ Donald_Trump
+T24	Transfer-money 1101 1109	cung_cấp
+E7	Transfer-money:T24 Giver-Arg:T23 Recipient-Arg:T26 Time-Arg:T22 Money-Arg:T25
+T25	MONEY 1129 1142	393 triệu USD
+T26	ORG 1147 1177	các " đối_tác " ở Syria và YPG
+T27	Start-org 1235 1244	thành_lập
+E8	Start-org:T27 Agent-Arg:T28 Org-Arg:T29
+T28	GPE 1215 1217	Mỹ
+T29	ORG 1249 1269	tiểu_đoàn người Kurd
+T30	Attack 1467 1473	lật_đổ
+E9	Attack:T30 Target-Arg:T31 Place-Arg:T32
+T31	ORG 1474 1486	quân_đội SDF
+T32	GPE 1489 1538	khu_vực đông bắc Syria , gần biên_giới Thổ_Nhĩ_Kỳ
+T33	Transfer-ownership 262 270	cung_cấp
+E10	Transfer-ownership:T33 Buyer-Arg:T34 Seller-Arg:T5 Seller-Arg2:T6
+T34	PER 284 312	lực_lượng người Kurd ở Syria

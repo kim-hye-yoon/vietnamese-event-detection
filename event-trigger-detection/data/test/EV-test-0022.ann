@@ -1,0 +1,18 @@
+T1	Attack 45 53	tấn_công
+E1	Attack:T1 Instrument-Arg:T4 Target-Arg:T2 Place-Arg:T3
+T2	FAC 54 60	căn_cứ
+T3	GPE 63 68	Syria
+T4	WEA 23 30	chất_nổ
+T5	Attack 260 268	tấn_công
+E2	Attack:T5 Instrument-Arg:T6 Target-Arg:T7 Place-Arg:T8
+T6	VEH 274 305	máy_bay_không_người_lái ( UAV )
+T7	FAC 323 344	hai căn_cứ của Moscow
+T8	GPE 353 358	Syria
+T9	PER 784 807	lực_lượng phòng_thủ Nga
+T10	Attack 823 826	bắn
+E3	Attack:T10 Attacker-Arg:T9 Target-Arg:T11
+T11	VEH 830 848	toàn_bộ số UAV này
+T12	PER 878 893	nhóm phiến quân
+T13	Attack 894 902	tấn_công
+E4	Attack:T13 Target-Arg:T14 Attacker-Arg:T12
+T14	FAC 903 920	căn_cứ của Moscow

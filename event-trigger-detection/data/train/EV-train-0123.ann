@@ -1,0 +1,55 @@
+T1	Attack 4 14	không kích
+E1	Attack:T1 Attacker-Arg:T5 Target-Arg:T3
+T2	Die 15 19	diệt
+E2	Die:T2 Place-Arg:T4 Victim-Arg:T3
+T4	GPE 46 51	Syria
+T5	GPE 0 3	Nga
+T6	Attack 54 67	Vụ không kích
+E3	Attack:T6 Place-Arg:T7
+T7	GPE 80 111	tỉnh Idlib , phía tây bắc Syria
+T8	PER 137 159	5 chỉ_huy chiến_trường
+T9	PER 163 185	32 tay súng phiến quân
+T10	Die 192 201	tiêu_diệt
+E4	Die:T10 Victim-Arg:T9 Victim-Arg2:T8
+T11	Attack 212 227	cuộc không_kích
+E5	Attack:T11 
+T12	Attack 322 335	cuộc tấn_công
+E6	Attack:T12 Place-Arg:T13
+T13	GPE 376 402	Idlib , phía tây bắc Syria
+T14	Attack 421 428	bao_vây
+E7	Attack:T14 Attacker-Arg:T15 Target-Arg:T16
+T15	PER 410 420	phiến quân
+T16	FAC 429 442	đồn quân_cảnh
+T17	Meet 516 524	cuộc họp
+E8	Meet:T17 Entity-Arg:T19
+T20	PER 676 685	5 chỉ_huy
+T21	Die 689 698	tiêu_diệt
+E10	Die:T21 Victim-Arg:T20
+T22	Attack 832 847	cuộc không_kích
+E11	Attack:T22 Attacker-Arg:T23
+T23	GPE 852 855	Nga
+T24	PER 863 876	37 dân_thường
+T25	Die 877 887	thiệt_mạng
+E12	Die:T25 Victim-Arg:T24
+T26	Attack 922 930	tấn_công
+E13	Attack:T26 Target-Arg:T28 Attacker-Arg:T27
+T27	GPE 935 938	Nga
+T28	ORG 948 963	Fatel al - Sham
+T29	Attack 1147 1155	tấn_công
+E14	Attack:T29 Place-Arg:T30 Attacker-Arg:T33
+T30	GPE 1169 1181	khu_vực Hama
+T31	Attack 1184 1191	bao_vây
+E15	Attack:T31 Target-Arg:T32 Attacker-Arg:T33
+T32	FAC 1192 1209	đồn quân_cảnh Nga
+T33	ORG 1122 1135	lực_lượng này
+T34	Attack 1266 1275	phản_kích
+E16	Attack:T34 Attacker-Arg:T35 Attacker-Arg2:T36
+T35	GPE 1249 1254	Syria
+T36	GPE 1233 1245	Quân_đội Nga
+T37	Die 1318 1327	tiêu_diệt
+E17	Die:T37 Victim-Arg:T38
+T38	PER 1328 1340	850 tay súng
+T3	PER 20 41	5 thủ_lĩnh al - Qaeda
+T18	Attack 491 506	cuộc không_kích
+E9	Attack:T18 Target-Arg:T19
+T19	PER 529 644	nhóm khủng_bố Mặt_trận Fateh al - Sham ( trước_đây mang tên Mặt_trận al - Nusra ) có liên_hệ với tổ_chức al - Qaeda

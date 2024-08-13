@@ -1,0 +1,13 @@
+T1	PER 206 215	Chúng_tôi
+T2	Meet 221 228	họp bàn
+E1	Meet:T2 Entity-Arg:T1 Entity-Arg2:T3
+T3	ORG 233 266	quân_đội và các cơ_quan liên_quan
+T4	PER 655 663	70 người
+T5	Die 664 674	thiệt_mạng
+E2	Die:T5 Victim-Arg:T4
+T6	Attack 868 876	tấn_công
+E3	Attack:T6 Instrument-Arg:T7
+T7	WEA 882 900	tên_lửa hành_trình
+T8	Attack 913 923	không_kích
+E4	Attack:T8 Time-Arg:T9
+T9	TIME 928 940	tháng 4/2017

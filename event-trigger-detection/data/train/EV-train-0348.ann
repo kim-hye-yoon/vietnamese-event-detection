@@ -1,0 +1,33 @@
+T1	End-position 23 32	cách_chức
+E1	End-position:T1 Person-Arg:T4 Position-Arg:T3
+T2	End-position 43 52	bãi_nhiệm
+E2	End-position:T2 Position-Arg:T3 Person-Arg:T4
+T3	JOB 53 70	đại_biểu Quốc_hội
+T4	PER 0 19	Phó bí_thư Đồng_Nai
+T5	Meet 98 101	họp
+E3	Meet:T5 Entity-Arg:T6 Entity-Arg2:T7 Time-Arg:T8
+T6	PER 122 150	Tổng_bí_thư Nguyễn_Phú_Trọng
+T7	ORG 84 94	Ban_bí_thư
+T8	TIME 73 81	Ngày 4/5
+T9	End-position 355 359	cách
+E4	End-position:T9 Entity-Arg:T10 Position-Arg:T11 Person-Arg:T12
+T10	ORG 333 343	Ban_bí_thư
+T11	JOB 367 389	các chức_vụ trong Đảng
+T12	PER 394 414	bà Phan_Thị_Mỹ_Thanh
+T13	End-position 494 503	bãi_nhiệm
+E5	End-position:T13 Position-Arg:T15 Person-Arg:T14 Entity-Arg:T16
+T14	PER 530 536	bà này
+T15	JOB 504 521	đại_biểu Quốc_hội
+T16	ORG 425 443	Đảng_đoàn Quốc_hội
+T17	Transport 2337 2339	đi
+E6	Transport:T17 
+T18	Meet 2700 2706	kỳ họp
+E7	Meet:T18 Entity-Arg:T19 Time-Arg:T20
+T19	ORG 2714 2740	Uỷ_ban Kiểm_tra Trung_ương
+T20	TIME 2743 2755	tháng 7/2017
+T21	Meet 2907 2913	kỳ họp
+E8	Meet:T21 Time-Arg:T22 Entity-Arg:T23
+T22	TIME 2931 2946	ngày 12 và 13/3
+T23	ORG 2951 2977	Uỷ_ban Kiểm_tra Trung_ương
+T24	Transport 2414 2423	xuất_cảnh
+E9	Transport:T24 

@@ -1,0 +1,22 @@
+T1	ORG 0 28	Casino mang tên Donald_Trump
+T2	Declare-bankruptcy 29 36	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	ORG 267 284	Trump_Plaza_Hotel
+T4	ORG 287 293	Casino
+T5	End-org 297 305	đóng_cửa
+E2	End-org:T5 Org-Arg:T4 Org-Arg2:T3 Time-Arg:T6
+T6	TIME 306 315	ngày 16/9
+T7	ORG 827 831	hãng
+T8	TIME 816 824	Năm 2011
+T9	Transfer-ownership 837 840	bán
+E3	Transfer-ownership:T9 Seller-Arg:T7 Time-Arg:T8 Buyer-Arg2:T11 Artifact-Arg:T10 Price-Arg:T12
+T10	ORG 841 859	Trump_Marina_Hotel
+T11	ORG 864 874	Landry ’ s
+T12	MONEY 883 895	38 triệu USD
+T13	TIME 1608 1616	Trước đó
+T14	ORG 1619 1640	3 casino khác tại đây
+T15	End-org 1654 1662	đóng_cửa
+E4	End-org:T15 Org-Arg:T14 Time-Arg:T13
+T16	ORG 1751 1760	Taj_Mahal
+T17	End-org 1766 1781	ngừng hoạt_động
+E5	End-org:T17 Org-Arg:T16

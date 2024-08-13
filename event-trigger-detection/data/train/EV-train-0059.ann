@@ -1,0 +1,40 @@
+T1	Sue 258 266	cáo_buộc
+E1	Sue:T1 Plaintiff-Arg:T2 Defendant-Arg:T16
+T2	PER 207 217	Đại_sứ Anh
+T4	GPE 1154 1170	Mỹ , Anh và Pháp
+T5	Sue 1171 1177	tố_cáo
+E2	Sue:T5 Defendant-Arg:T6 Plaintiff-Arg:T4
+T6	ORG 1178 1195	chính_quyền Syria
+T7	Attack 1196 1204	tấn_công
+E3	Attack:T7 Attacker-Arg:T6 Instrument-Arg:T28
+T8	PER 1226 1234	70 người
+T9	Die 1235 1245	thiệt_mạng
+E4	Die:T9 Victim-Arg:T8 Time-Arg:T10
+T10	TIME 1254 1262	ngày 7/4
+T11	Attack 1285 1295	không kích
+E5	Attack:T11 Attacker-Arg:T6 Target-Arg:T12
+T12	FAC 1300 1308	ba cơ_sở
+T14	Sentence 1390 1396	bác_bỏ
+E6	Sentence:T14 Defendant-Arg:T3
+T15	Attack 1687 1695	xung_đột
+E7	Attack:T15 Instrument-Arg:T24
+T16	GPE 267 279	Nga và Syria
+T3	GPE 1366 1378	Syria và Nga
+T13	Attack 434 442	tấn_công
+E8	Attack:T13 Target-Arg:T17 Instrument-Arg:T18 Attacker-Arg:T19
+T17	PER 443 453	dân thường
+T18	WEA 419 433	vũ_khí_hoá_học
+T19	GPE 408 413	Syria
+T21	Die 880 890	thiệt_mạng
+E9	Die:T21 Victim-Arg:T20
+T22	Attack 898 906	tấn_công
+E10	Attack:T22 Instrument-Arg:T23
+T23	WEA 918 926	chất độc
+T24	WEA 1707 1721	vũ_khí_hoá_học
+T25	Attack 809 817	tấn_công
+E11	Attack:T25 Attacker-Arg:T26 Target-Arg:T27
+T26	ORG 796 808	liên_quân Mỹ
+T27	FAC 783 792	các cơ_sở
+T20	PER 855 876	hàng chục nghìn người
+T28	WEA 1205 1212	hoá_học
+T29	GPE 1248 1253	Douma

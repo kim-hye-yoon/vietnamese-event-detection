@@ -1,0 +1,28 @@
+T1	Declare-bankruptcy 20 27	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T3
+T3	ORG 28 37	ngân_hàng
+T2	Declare-bankruptcy 440 447	phá_sản
+E2	Declare-bankruptcy:T2 Org-Arg:T4
+T4	ORG 410 431	các ngân_hàng quá yếu
+T5	Transfer-ownership 594 597	mua
+E3	Transfer-ownership:T5 Price-Arg:T6 Artifact-Arg:T7 Time-Arg:T11
+T6	MONEY 606 612	0 đồng
+T7	ORG 577 585	nhà_băng
+T8	Transfer-ownership 732 735	mua
+E4	Transfer-ownership:T8 Artifact-Arg:T10 Price-Arg:T9
+T9	MONEY 744 750	0 đồng
+T10	ORG 683 696	Các ngân_hàng
+T11	TIME 613 622	trước đây
+T12	Declare-bankruptcy 886 893	phá_sản
+E5	Declare-bankruptcy:T12 Org-Arg:T13
+T13	ORG 894 903	ngân_hàng
+T14	Transfer-ownership 2041 2044	mua
+E6	Transfer-ownership:T14 Buyer-Arg:T15
+T15	ORG 2032 2040	Nhà_nước
+T17	Transfer-ownership 2510 2521	chuyển_giao
+E8	Transfer-ownership:T17 Artifact-Arg:T18
+T18	ORG 2531 2540	ngân_hàng
+T16	Declare-bankruptcy 2489 2496	phá_sản
+E7	Declare-bankruptcy:T16 Org-Arg:T18
+T19	End-org 2499 2507	giải_thể
+E9	End-org:T19 Org-Arg:T18

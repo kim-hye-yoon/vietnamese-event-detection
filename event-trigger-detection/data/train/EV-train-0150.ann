@@ -1,0 +1,11 @@
+T1	ORG 0 19	Hãng hàng_không Anh
+T2	Declare-bankruptcy 24 31	phá_sản
+E1	Declare-bankruptcy:T2 Org-Arg:T1
+T3	ORG 217 251	hãng hàng_không khu_vực Anh Flybmi
+T4	TIME 256 260	16/2
+T5	Declare-bankruptcy 334 341	phá_sản
+E2	Declare-bankruptcy:T5 Org-Arg:T3 Time-Arg:T4
+T6	Transfer-ownership 955 958	mua
+E3	Transfer-ownership:T6 Buyer-Arg:T7 Seller-Arg:T8
+T7	PER 941 951	Khách_hàng
+T8	ORG 966 972	Flybmi

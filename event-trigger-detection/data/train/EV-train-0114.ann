@@ -1,0 +1,39 @@
+T2	TIME 65 73	Ngày 2/4
+T3	ORG 76 87	TAND Hà_Nội
+T8	Declare-bankruptcy 234 241	phá_sản
+E1	Declare-bankruptcy:T8 
+T9	TIME 242 251	sau 6 năm
+T11	ORG 256 263	công_ty
+T10	Start-org 252 255	lập
+E2	Start-org:T10 Org-Arg:T11 Time-Arg:T9 Agent-Arg:T6
+T13	ORG 336 404	Công_ty TNHH Vật_liệu xây_dựng vận_tải và thương_mại dịch_vụ Hoa_Nam
+T17	PER 482 491	Thơ và vợ
+T19	ORG 530 545	Công_ty Hoa_Nam
+T20	MONEY 591 602	386 tỷ đồng
+T23	PER 682 694	vợ_chồng Thơ
+T25	MONEY 785 798	254,1 tỷ đồng
+T26	MONEY 817 828	2,5 tỷ đồng
+T28	PER 983 986	Thơ
+T29	TIME 987 995	54 tháng
+T30	PER 1001 1005	Hằng
+T31	TIME 1006 1014	30 tháng
+T33	Fine 1033 1036	nộp
+E4	Fine:T33 Money-Arg:T35 Entity-Arg:T34
+T34	PER 1017 1027	Hai bị_cáo
+T35	MONEY 1052 1063	6,2 tỷ đồng
+T37	CRIME 186 215	tội Mua_bán trái_phép hoá_đơn
+T1	Trial-hearing 105 111	xét_xử
+E5	Trial-hearing:T1 Defendant-Arg:T4 Defendant-Arg2:T5 Crime-Arg:T37 Adjudicator-Arg:T3 Time-Arg:T2
+T4	PER 112 137	Lưu_Huyền_Thơ ( 47 tuổi )
+T5	PER 141 182	Đàm_Thị_Thu_Hằng ( vợ của Thơ , 42 tuổi )
+T6	PER 314 326	vợ_chồng Hoá
+T7	Start-org 327 330	lập
+E6	Start-org:T7 Agent-Arg:T6 Org-Arg:T13
+T12	Transfer-money 492 499	mua_bán
+E7	Transfer-money:T12 Money-Arg:T20 Time-Arg:T14
+T14	TIME 451 479	Từ năm 2010 đến tháng 1/2014
+T15	Transfer-money 698 705	mua_bán
+E8	Transfer-money:T15 Money-Arg:T25
+T16	Sentence 972 982	tuyên phạt
+E3	Sentence:T16 Defendant-Arg:T28 Time-Arg:T29 Defendant-Arg2:T30 Time-Arg2:T31 Crime-Arg:T18
+T18	CRIME 869 967	xâm_phạm đến chế_độ quản_lý kinh_tế của Nhà_nước , đồng_thời chiếm hưởng số tiền bất_chính rất lớn

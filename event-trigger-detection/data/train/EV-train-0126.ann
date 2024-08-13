@@ -1,0 +1,65 @@
+T2	Transport 22 29	du_lịch
+E2	Transport:T2 Destination-Arg:T3
+T3	GPE 30 37	20 nước
+T4	End-position 55 62	bỏ việc
+E3	End-position:T4 Person-Arg:T5 Position-Arg:T6
+T5	PER 38 51	Jay Meistrich
+T6	JOB 63 104	nghiên_cứu thiết_bị đầu_vào tại Microsoft
+T7	Start-org 108 111	lập
+E4	Start-org:T7 Agent-Arg:T5 Org-Arg:T8
+T8	ORG 112 158	Moo.do -  ứng_dụng giúp lên kế_hoạch công_việc
+T9	Transport 175 182	du_lịch
+E5	Transport:T9 Agent-Arg:T5 Destination-Arg:T10
+T10	LOC 183 202	vòng_quanh thế_giới
+T11	TIME 205 218	Một năm trước
+T12	PER 221 224	tôi
+T13	Transport 225 228	rời
+E6	Transport:T13 Origin-Arg:T14 Artifact-Arg:T12 Time-Arg:T11
+T14	GPE 229 249	San_Francisco ( Mỹ )
+T15	Transfer-ownership 252 255	bán
+E7	Transfer-ownership:T15 Time-Arg:T11 Seller-Arg:T12
+T16	Transfer-ownership 261 265	tặng
+E8	Transfer-ownership:T16 Time-Arg:T11 Seller-Arg:T12
+T18	PER 318 321	Tôi
+T19	Transport 325 332	du_lịch
+E9	Transport:T19 Destination-Arg:T20 Artifact-Arg:T18
+T20	GPE 337 373	45 thành_phố thuộc 20 nước khác nhau
+T17	TIME 961 973	Ba năm trước
+T21	PER 976 979	tôi
+T22	End-position 980 989	nghỉ_việc
+E10	End-position:T22 Time-Arg:T17 Person-Arg:T21 Entity-Arg:T23
+T23	ORG 992 1002	Mircrosoft
+T24	Transport 1006 1012	chuyển
+E11	Transport:T24 Destination-Arg:T25 Time-Arg:T17 Artifact-Arg:T21
+T25	GPE 1017 1030	San_Francisco
+T26	TIME 2247 2256	Năm_ngoái
+T27	PER 2259 2262	tôi
+T28	Transport 2263 2266	rời
+E12	Transport:T28 Time-Arg:T26 Origin-Arg:T29 Artifact-Arg:T27
+T29	GPE 2267 2280	San_Francisco
+T30	Transfer-money 2688 2696	chi_tiêu
+E13	Transfer-money:T30 Time-Arg:T31 Giver-Arg:T32
+T31	TIME 2708 2717	một tháng
+T32	PER 2722 2725	tôi
+T33	Transport 2802 2804	đi
+E14	Transport:T33 Destination-Arg:T34 Artifact-Arg:T32
+T34	GPE 2817 2824	20 nước
+T35	Transfer-money 2841 2849	chi_tiêu
+E15	Transfer-money:T35 Giver-Arg:T32
+T1	PER 1099 1102	cậu
+T36	Transport 1108 1114	chuyển
+E1	Transport:T36 Artifact-Arg:T1 Destination-Arg:T37
+T37	GPE 1119 1132	San_Francisco
+T38	Transport 2805 2812	du_lịch
+E16	Transport:T38 Artifact-Arg:T32 Destination-Arg:T34
+T39	PER 3079 3082	cậu
+T40	Transport 3100 3107	du_lịch
+E17	Transport:T40 Artifact-Arg:T39
+T41	PER 3142 3145	tôi
+T42	Transport 3165 3172	du_lịch
+E18	Transport:T42 Artifact-Arg:T41
+T43	PER 4165 4168	Tôi
+T44	Transport 4169 4176	trở_lại
+E19	Transport:T44 Artifact-Arg:T43 Destination-Arg:T45 Time-Arg:T46
+T45	GPE 4177 4184	Seattle
+T46	TIME 4189 4196	tháng 6

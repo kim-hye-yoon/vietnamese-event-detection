@@ -1,0 +1,32 @@
+T1	PER 243 260	ông Hồ_Văn_Trường
+T2	Die 329 336	tử_vong
+E1	Die:T2 Victim-Arg:T1 Agent-Arg:T4 Time-Arg:T3
+T3	TIME 390 404	chiều ngày 3/4
+T4	PER 350 374	dược_sĩ Nguyễn_Đình_Vinh
+T5	TIME 933 947	chiều ngày 3/4
+T6	PER 954 967	Hồ_Văn_Trường
+T7	Transport 1023 1026	đến
+E2	Transport:T7 Agent-Arg:T6 Time-Arg:T5 Destination-Arg:T8
+T9	PER 1369 1379	ông Trường
+T10	Die 1478 1485	tử_vong
+E3	Die:T10 Victim-Arg:T9
+T11	Die 0 7	Tử_vong
+E4	Die:T11 
+T12	Die 784 794	chết người
+E5	Die:T12 
+T13	Die 1627 1634	tử_vong
+E6	Die:T13 Agent-Arg:T15 Victim-Arg:T14
+T14	PER 1616 1626	ông Trường
+T15	PER 1641 1653	dược_sĩ Vinh
+T16	Die 1883 1890	tử_vong
+E7	Die:T16 Agent-Arg:T17
+T17	PER 1895 1905	ông Trường
+T18	Transport 1320 1322	đi
+E8	Transport:T18 Destination-Arg:T19 Agent-Arg:T20
+T19	LOC 1323 1329	về nhà
+T20	PER 1309 1319	ông Trường
+T8	LOC 1027 1169	cửa_hàng thuốc_tây của dược_sĩ Nguyễn_Đình_Vinh ( dược_sĩ , trú tại xóm 6 , xã Quỳnh_Tân , huyện Quỳnh_Lưu ) để chữa bệnh hen_suyễn , tức ngực
+T21	Transport 1709 1716	kéo đến
+E9	Transport:T21 Destination-Arg:T23 Agent-Arg:T22
+T22	PER 1688 1705	gia_đình nạn_nhân
+T23	LOC 1717 1729	nhà ông Vinh

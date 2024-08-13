@@ -1,0 +1,86 @@
+T1	PER 0 5	Mẹ vợ
+T2	ORG 14 17	toà
+T4	PER 35 41	con rể
+T3	Pardon 18 25	tha_tội
+E1	Pardon:T3 Defendant-Arg:T4 Adjudicator-Arg:T2
+T5	TIME 113 122	ngày 25/6
+T6	ORG 89 112	TAND Cấp cao tại TP HCM
+T7	Trial-hearing 123 125	xử
+E2	Trial-hearing:T7 Time-Arg:T5 Adjudicator-Arg:T6
+T8	Sentence 138 143	tuyên
+E3	Sentence:T8 Sentence-Arg:T9 Defendant-Arg:T10 Crime-Arg:T12
+T9	SEN 146 156	án tử_hình
+T10	PER 165 221	Nguyễn_Văn_Hồ ( 30 tuổi , ở quận Cái_Răng , TP Cần_Thơ )
+T13	PER 234 239	người
+T11	Attack 229 233	Giết
+E4	Attack:T11 Target-Arg:T13
+T12	CRIME 225 239	tội Giết người
+T14	TIME 255 263	năm 2013
+T15	PER 264 266	Hồ
+T16	Marry 267 274	kết_hôn
+E5	Marry:T16 Person-Arg:T17 Person-Arg2:T15 Time-Arg:T14
+T17	PER 279 307	người phụ_nữ cùng địa_phương
+T19	PER 392 394	Hồ
+T20	MONEY 400 417	hơn 16 triệu đồng
+T21	PER 422 449	một người đàn_ông quen_biết
+T18	Transfer-money 395 399	mượn
+E6	Transfer-money:T18 Recipient-Arg:T19 Money-Arg:T20 Giver-Arg:T21
+T22	Transport 484 491	bỏ trốn
+E7	Transport:T22 Artifact-Arg:T23
+T23	PER 481 483	gã
+T24	PER 509 511	Hồ
+T26	LOC 515 518	quê
+T25	Transport 512 514	về
+E8	Transport:T25 Destination-Arg:T26 Artifact-Arg:T24 Time-Arg:T27
+T27	TIME 494 506	Tháng 8/2017
+T28	PER 528 530	vợ
+T29	Transport 545 547	đi
+E9	Transport:T29 Origin-Arg:T30 Artifact-Arg:T28
+T30	FAC 541 544	nhà
+T31	Transport 702 704	đi
+E10	Transport:T31 Artifact-Arg:T33 Time-Arg:T32
+T32	TIME 660 673	Trưa 9/8/2017
+T33	PER 676 678	vợ
+T34	Transfer-ownership 705 708	mua
+E11	Transfer-ownership:T34 Buyer-Arg:T33
+T35	Attack 787 790	đâm
+E12	Attack:T35 Attacker-Arg:T36 Target-Arg:T37 Instrument-Arg:T38
+T36	PER 784 786	gã
+T37	PER 763 768	Cô vợ
+T38	WEA 810 813	dao
+T40	PER 823 825	Hồ
+T41	PER 830 838	nạn_nhân
+T42	FAC 845 852	nhà_bếp
+T43	WEA 857 860	dao
+T44	Attack 866 870	chém
+E14	Attack:T44 Instrument-Arg:T43 Target-Arg:T41 Attacker-Arg:T40 Place-Arg:T42
+T45	Die 871 878	tử_vong
+E15	Die:T45 Victim-Arg:T41 Agent-Arg:T40
+T39	Transport 839 844	xuống
+E13	Transport:T39 Artifact-Arg:T41 Artifact-Arg2:T40 Destination-Arg:T42
+T46	Sentence 917 927	tuyên_phạt
+E16	Sentence:T46 Defendant-Arg:T49 Sentence-Arg:T50 Adjudicator-Arg:T47 Time-Arg:T48
+T47	ORG 898 913	TAND TP Cần_Thơ
+T48	TIME 881 894	Hai tháng sau
+T49	PER 928 934	bị_cáo
+T50	SEN 935 942	tử_hình
+T51	PER 945 947	Hồ
+T52	Appeal 948 956	kháng_án
+E17	Appeal:T52 Defendant-Arg:T51
+T53	Appeal 1107 1116	kháng_cáo
+E18	Appeal:T53 
+T54	Pardon 1224 1236	tha_tội chết
+E19	Pardon:T54 Adjudicator-Arg:T57 Defendant-Arg:T55
+T55	PER 1241 1247	con rể
+T56	PER 1194 1202	mẹ vợ Hồ
+T57	ORG 1220 1223	toà
+T58	Attack 1389 1396	sát_hại
+E20	Attack:T58 Target-Arg:T59 Attacker-Arg:T60
+T59	PER 1397 1399	vợ
+T60	PER 1337 1343	bị_cáo
+T61	Attack 1409 1424	sử_dụng bạo_lực
+E21	Attack:T61 Attacker-Arg:T62
+T62	PER 1402 1408	Bị_cáo
+T63	Pardon 1586 1593	tha tội
+E22	Pardon:T63 Defendant-Arg:T64
+T64	PER 1603 1609	bị_cáo

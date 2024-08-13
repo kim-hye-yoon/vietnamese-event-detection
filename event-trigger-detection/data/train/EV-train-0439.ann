@@ -1,0 +1,61 @@
+T1	Release-parole 46 49	thả
+E1	Release-parole:T1 Person-Arg:T3 Entity-Arg:T2
+T2	GPE 37 45	Malaysia
+T3	PER 50 64	Đoàn_Thị_Hương
+T4	Phone-write 119 127	điện_đàm
+E2	Phone-write:T4 Entity-Arg:T6 Entity-Arg2:T5 Time-Arg:T7
+T5	PER 67 118	Phó thủ_tướng , Bộ_trưởng Ngoại_giao Phạm_Bình_Minh
+T6	PER 132 153	Ngoại_trưởng Malaysia
+T7	TIME 154 161	hôm_nay
+T8	Phone-write 248 256	điện_đàm
+E3	Phone-write:T8 Entity-Arg:T9 Time-Arg:T11 Entity-Arg2:T10
+T9	PER 261 301	Ngoại_trưởng Malaysia_Saifuddin_Abdullah
+T10	PER 186 237	Phó thủ_tướng , Bộ_trưởng Ngoại_giao Phạm_Bình_Minh
+T11	TIME 238 247	chiều nay
+T12	Attack 419 426	sát_hại
+E4	Attack:T12 Attacker-Arg:T16 Target-Arg:T13 Place-Arg:T14 Time-Arg:T15
+T13	PER 427 455	công_dân Triều_Tiên_Kim_Chol
+T14	GPE 458 470	Kuala_Lumpur
+T15	TIME 471 487	hồi tháng 2/2017
+T16	PER 369 406	Đoàn_Thị_Hương , nghi_phạm người Việt
+T17	Trial-hearing 659 665	xét_xử
+E5	Trial-hearing:T17 Adjudicator-Arg:T20
+T18	Release-parole 687 696	trả tự_do
+E6	Release-parole:T18 Person-Arg:T19
+T19	PER 701 715	Đoàn_Thị_Hương
+T20	GPE 642 650	Malaysia
+T21	Release-parole 876 879	thả
+E7	Release-parole:T21 Person-Arg:T22
+T22	PER 880 894	Đoàn_Thị_Hương
+T23	Trial-hearing 977 983	xét_xử
+E8	Trial-hearing:T23 Defendant-Arg:T25 Defendant-Arg2:T24
+T24	PER 989 994	Hương
+T25	PER 940 973	Siti_Aisyah , nghi_phạm Indonesia
+T26	Release-parole 1038 1049	phóng thích
+E9	Release-parole:T26 Time-Arg:T27 Entity-Arg:T28 Person-Arg:T25
+T27	TIME 1050 1058	hôm 11/3
+T28	ORG 1002 1017	toà_án Malaysia
+T29	Phone-write 1117 1124	gửi thư
+E10	Phone-write:T29 Entity-Arg:T31 Entity-Arg2:T30
+T30	PER 1061 1113	Bộ_trưởng Luật và Nhân_quyền Indonesia_Yasonna Laoly
+T31	PER 1129 1168	Bộ_trưởng Tư_pháp Malaysia_Tommy_Thomas
+T32	Release-parole 1205 1208	thả
+E11	Release-parole:T32 Person-Arg:T33
+T33	PER 1182 1186	Siti
+T34	PER 1361 1365	Siti
+T35	Release-parole 1366 1374	được thả
+E12	Release-parole:T35 Person-Arg:T34
+T36	Phone-write 1420 1427	gửi thư
+E13	Phone-write:T36 Entity-Arg:T38 Entity-Arg2:T37
+T37	PER 1377 1411	Các luật_sư của nghi_phạm Việt_Nam
+T38	PER 1436 1462	Bộ_trưởng Tư_pháp Malaysia
+T39	Release-parole 1476 1487	phóng_thích
+E14	Release-parole:T39 Person-Arg:T40
+T40	PER 1488 1490	cô
+T41	Attack 1549 1556	sát_hại
+E15	Attack:T41 Attacker-Arg:T43 Target-Arg:T42
+T42	PER 1557 1672	Kim Chol , người mà Mỹ và Hàn_Quốc cho là Kim_Jong - nam , anh cùng cha khác mẹ của lãnh_đạo Triều_Tiên_Kim_Jong-un
+T43	PER 1493 1506	Hương và Siti
+T44	Attack 1797 1801	giết
+E16	Attack:T44 Target-Arg:T45
+T45	PER 1802 1807	người

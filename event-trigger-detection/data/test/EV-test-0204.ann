@@ -1,0 +1,26 @@
+T1	ORG 8 17	Microsoft
+T2	PER 23 34	người Ấn_Độ
+T3	JOB 39 42	CEO
+T4	Nominate 18 22	chọn
+E1	Nominate:T4 Person-Arg:T2 Agent-Arg:T1 Position-Arg:T3
+T5	Nominate 64 72	bổ_nhiệm
+E2	Nominate:T5 Agent-Arg:T8 Person-Arg:T6 Position-Arg:T7
+T6	PER 73 90	ông Satya_Nadella
+T7	JOB 95 108	Tổng_giám_đốc
+T8	ORG 111 120	Microsoft
+T9	PER 1161 1163	Họ
+T10	Transport 1164 1167	đến
+E3	Transport:T10 Origin-Arg:T11 Artifact-Arg:T9
+T11	LOC 1171 1205	những vùng_đất khác nhau của Ấn_Độ
+T12	PER 3537 3540	ông
+T13	Nominate 3546 3554	bổ_nhiệm
+E4	Nominate:T13 Position-Arg:T14 Person-Arg:T12
+T14	JOB 3555 3626	lãnh_đạo mảng sáng_kiến đám mây đang phát_triển rất nhanh của Microsoft
+T15	PER 3997 4000	ông
+T16	PER 4008 4035	người vợ tương_lai của mình
+T17	Meet 4004 4007	gặp
+E5	Meet:T17 Entity-Arg:T15 Entity-Arg2:T16
+T18	Be-born 3911 3919	Sinh năm
+E6	Be-born:T18 Time-Arg:T19 Person-Arg:T20
+T19	TIME 3920 3924	1967
+T20	PER 3927 3934	Nadella

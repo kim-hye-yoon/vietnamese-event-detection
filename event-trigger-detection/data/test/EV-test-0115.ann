@@ -1,0 +1,53 @@
+T1	Arrest-jail 215 223	đón lõng
+E1	Arrest-jail:T1 Agent-Arg:T2 Place-Arg:T3 Person-Arg:T4 Time-Arg:T5
+T2	ORG 176 193	công_an phường 10
+T3	LOC 124 144	Bệnh_viện Nhi_Đồng 1
+T4	PER 61 114	người phụ_nữ dẫn dụ bé gái 6 tuổi để trấn_lột tài_sản
+T5	TIME 50 58	Sáng 6/4
+T6	Meet 1231 1240	phát_hiện
+E2	Meet:T6 Time-Arg:T7 Entity-Arg:T10 Entity-Arg2:T8 Place-Arg:T9
+T7	TIME 1187 1195	Sáng 5/4
+T8	PER 1198 1202	Trâm
+T9	LOC 1207 1227	Bệnh_viện Nhi_Đồng 1
+T10	PER 1244 1249	Thanh
+T11	Transport 1300 1303	chở
+E3	Transport:T11 Agent-Arg:T12 Origin-Arg:T15 Artifact-Arg2:T14 Vehicle-Arg:T13
+T12	PER 1285 1289	Trâm
+T13	VEH 1294 1299	xe_ôm
+T14	PER 1304 1306	bé
+T15	LOC 1310 1334	hồ bơi ở đường Khánh_Hội
+T16	Arrest-jail 625 632	bắt_giữ
+E4	Arrest-jail:T16 Person-Arg:T18 Time-Arg:T17
+T17	TIME 409 417	trưa nay
+T18	PER 429 448	Nguyễn_Thị_Thu_Trâm
+T19	PER 16 18	kẻ
+T20	Fine 0 4	Phạt
+E5	Fine:T20 Money-Arg:T21 Entity-Arg:T19
+T21	MONEY 5 15	hành_chính
+T22	Attack 19 26	bắt_cóc
+E6	Attack:T22 Attacker-Arg:T19 Target-Arg:T23 Place-Arg:T24
+T23	PER 27 33	bé gái
+T24	LOC 36 49	BV Nhi_Đồng 1
+T25	PER 800 804	Trâm
+T26	Transport 805 808	đến
+E7	Transport:T26 Agent-Arg:T25
+T27	PER 784 791	công_an
+T28	Arrest-jail 837 844	bắt_giữ
+E8	Arrest-jail:T28 Person-Arg:T27
+T29	PER 1052 1055	tôi
+T30	Transport 1060 1066	đi đến
+E9	Transport:T30 Agent-Arg:T29 Destination-Arg:T31
+T31	LOC 1067 1076	bệnh_viện
+T32	PER 1500 1508	người_ta
+T33	Transport 1512 1515	dẫn
+E10	Transport:T33 Agent-Arg:T32 Artifact-Arg:T34 Destination-Arg:T35
+T34	PER 1516 1518	bé
+T35	LOC 1523 1530	công_an
+T36	PER 1405 1409	Trâm
+T37	Transport 1410 1413	dẫn
+E11	Transport:T37 
+T38	PER 1414 1418	cháu
+T39	PER 2027 2031	Trâm
+T40	Fine 2039 2046	xử_phạt
+E12	Fine:T40 Entity-Arg:T39 Money-Arg:T41
+T41	MONEY 2047 2057	hành_chính

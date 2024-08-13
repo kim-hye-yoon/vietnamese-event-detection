@@ -1,0 +1,29 @@
+T1	Marry 23 30	kết_hôn
+E1	Marry:T1 
+T2	Marry 485 493	cưới_xin
+E2	Marry:T2 Person-Arg:T4
+T4	PER 460 463	tôi
+T5	Marry 550 554	cưới
+E4	Marry:T5 Person-Arg:T6
+T6	PER 500 503	tôi
+T3	Marry 753 761	cưới_xin
+E3	Marry:T3 Person-Arg:T7
+T7	PER 762 765	anh
+T8	Marry 1050 1054	cưới
+E5	Marry:T8 Person-Arg:T9
+T9	PER 1034 1037	tôi
+T10	Marry 1090 1094	cưới
+E6	Marry:T10 
+T11	Marry 1165 1169	cưới
+E7	Marry:T11 Person-Arg:T12
+T12	PER 1128 1131	Tôi
+T13	Marry 1790 1794	cưới
+E8	Marry:T13 Person-Arg:T14
+T14	PER 1778 1781	tôi
+T15	Transfer-money 2059 2065	hỗ_trợ
+E9	Transfer-money:T15 Giver-Arg:T16 Money-Arg:T17 Recipient-Arg:T18
+T16	PER 2050 2053	anh
+T17	MONEY 2066 2075	3,5 triệu
+T18	PER 2026 2029	tôi
+T19	Marry 2817 2821	cưới
+E10	Marry:T19 

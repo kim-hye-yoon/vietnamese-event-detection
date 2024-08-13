@@ -1,0 +1,23 @@
+T1	Attack 193 200	làm hại
+E1	Attack:T1 Target-Arg:T2 Attacker-Arg:T3
+T2	PER 201 206	cô_bé
+T4	TIME 241 271	vào_khoảng 21h ngày 17/11/2012
+T5	PER 322 325	Chí
+T6	Transport 331 334	chở
+E2	Transport:T6 Agent-Arg:T5 Artifact-Arg:T7 Destination-Arg:T8 Time-Arg:T4
+T7	PER 335 341	bé gái
+T8	LOC 345 353	nhà mình
+T9	PER 690 701	Lê_Tuấn_Chí
+T11	Arrest-jail 721 728	bắt_giữ
+E3	Arrest-jail:T11 Person-Arg:T9 Agent-Arg:T10
+T12	ORG 902 925	Toà_án nhân_dân TP. HCM
+T13	Sentence 926 936	tuyên_phạt
+E4	Sentence:T13 Adjudicator-Arg:T12 Defendant-Arg:T14 Crime-Arg2:T18 Sentence-Arg:T17 Time-Arg:T16
+T14	PER 937 948	Lê_Tuấn_Chí
+T3	PER 103 169	Lê_Tuấn_Chí ( 34 tuổi , người Hà_Nội , trọ tại Quận 12 , TP. HCM )
+T10	ORG 705 720	Công_an quận 12
+T15	Trial-hearing 735 744	phiên_toà
+E5	Trial-hearing:T15 Time-Arg:T16 Adjudicator-Arg:T12 Defendant-Arg:T14
+T16	TIME 753 762	ngày 10/3
+T17	SEN 956 970	10 năm tù_giam
+T18	CRIME 980 995	Hiếp_dâm trẻ_em

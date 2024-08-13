@@ -1,0 +1,19 @@
+T1	ORG 0 3	Toà
+T2	Release-parole 4 13	trả tự_do
+E1	Release-parole:T2 Entity-Arg:T1 Time-Arg:T3
+T3	TIME 22 36	sau nửa thế_kỷ
+T4	Phone-write 171 175	viết
+E2	Phone-write:T4 Entity-Arg:T5 Time-Arg:T6
+T5	ORG 121 161	 Wildlife SOS , tổ_chức từ_thiện của Anh
+T6	TIME 162 170	hôm 2/12
+T7	Release-parole 268 273	tự_do
+E3	Release-parole:T7 Entity-Arg:T8
+T8	ORG 238 250	toà_án Ấn_Độ
+T9	Transport 612 618	đưa đi
+E4	Transport:T9 Time-Arg:T10 Agent-Arg:T11
+T10	TIME 619 628	trong đêm
+T11	ORG 649 657	cảnh_sát
+T12	Attack 1124 1132	đánh_đập
+E5	Attack:T12 
+T13	Injure 1235 1244	bị_thương
+E6	Injure:T13 

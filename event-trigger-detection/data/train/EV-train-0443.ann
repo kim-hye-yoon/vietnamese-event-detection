@@ -1,0 +1,11 @@
+T1	VEH 0 15	Oanh_tạc cơ Nga
+T2	Attack 16 18	nã
+E1	Attack:T2 Instrument-Arg:T3 Instrument-Arg2:T1 Place-Arg:T4 Target-Arg:T5
+T3	WEA 19 26	tên_lửa
+T4	GPE 50 55	Syria
+T5	ORG 45 47	IS
+T6	VEH 58 90	Một oanh_tạc cơ tầm xa Tu -95 MS
+T7	TIME 91 100	ngày 26/9
+T8	Transport 101 109	cất_cánh
+E2	Transport:T8 Artifact-Arg:T6 Time-Arg:T7 Origin-Arg:T9
+T9	FAC 117 128	sân_bay Nga

@@ -1,0 +1,92 @@
+T1	Die 3 7	giết
+E1	Die:T1 Victim-Arg:T2 Agent-Arg:T3
+T2	PER 8 11	bạn
+T3	PER 0 2	Kẻ
+T4	Arquit 33 40	tha_tội
+E2	Arquit:T4 Defendant-Arg:T3
+T5	PER 17 28	mẹ nạn_nhân
+T6	Die 41 45	chết
+E3	Die:T6 Victim-Arg:T3
+T7	Pardon 112 134	xin giảm nhẹ hình_phạt
+E4	Pardon:T7 Adjudicator-Arg:T9 Time-Arg:T8 Defendant-Arg:T10
+T8	TIME 48 57	Ngày 24/4
+T9	ORG 60 97	Toà Phúc_thẩm TAND Tối_cao tại TP HCM
+T10	PER 139 190	bị_cáo Phạm_Ngọc_Thạch ( 35 tuổi , quê Quảng_Ngãi )
+T11	Arquit 214 221	giảm án
+E5	Arquit:T11 Defendant-Arg:T10 Adjudicator-Arg:T9 Crime-Arg:T12
+T12	CRIME 263 277	tội Giết người
+T13	Die 267 271	Giết
+E6	Die:T13 Victim-Arg:T14 Agent-Arg:T10
+T14	PER 272 277	người
+T15	Arquit 387 398	xin giảm án
+E7	Arquit:T15 Defendant-Arg:T16
+T16	PER 403 409	bị_cáo
+T17	Arquit 481 488	giảm án
+E8	Arquit:T17 Adjudicator-Arg:T18
+T18	ORG 467 470	toà
+T19	Arquit 537 559	xin giảm nhẹ hình_phạt
+E9	Arquit:T19 Defendant-Arg:T20
+T20	PER 504 516	Bị_cáo Thạch
+T21	Transport 1020 1023	chở
+E10	Transport:T21 Time-Arg:T27 Agent-Arg:T22 Artifact-Arg:T23
+T22	PER 1012 1019	anh Hoà
+T23	PER 1024 1035	vợ sắp cưới
+T24	Transport 1097 1100	chở
+E11	Transport:T24 Time-Arg:T27 Agent-Arg:T26 Artifact-Arg:T25
+T25	PER 1053 1058	Thạch
+T26	PER 1064 1096	một thanh_niên không rõ lai_lịch
+T27	TIME 996 1009	Chiều_hôm sau
+T28	Marry 1031 1035	cưới
+E12	Marry:T28 
+T29	Meet 1160 1168	Gặp nhau
+E13	Meet:T29 Entity-Arg:T30
+T30	PER 1171 1178	hai bên
+T31	Attack 1188 1194	xô_xát
+E14	Attack:T31 Attacker-Arg:T30
+T32	Transport 1236 1243	Bỏ chạy
+E15	Transport:T32 Agent-Arg:T35
+T33	Attack 1278 1281	đâm
+E16	Attack:T33 Target-Arg:T35 Attacker-Arg:T34
+T34	PER 1272 1277	Thạch
+T35	PER 1260 1268	nạn_nhân
+T36	Die 1295 1302	tử_vong
+E17	Die:T36 Victim-Arg:T35
+T37	PER 1319 1327	hung_thủ
+T38	Transport 1328 1337	trốn sang
+E18	Transport:T38 Agent-Arg:T37 Destination-Arg:T39 Destination-Arg2:T40
+T39	GPE 1338 1347	Campuchia
+T40	GPE 1350 1358	Thái_Lan
+T41	Transport 1378 1385	quay về
+E19	Transport:T41 Time-Arg:T42 Destination-Arg:T43 Agent-Arg:T44
+T42	TIME 1361 1371	Ba năm sau
+T43	GPE 1386 1394	Việt_Nam
+T44	PER 1397 1402	Thạch
+T45	Arrest-jail 1406 1409	bắt
+E20	Arrest-jail:T45 Person-Arg:T44
+T46	Trial-hearing 1422 1424	xử
+E21	Trial-hearing:T46 Time-Arg:T47
+T47	TIME 1437 1444	đầu năm
+T48	Appeal 1453 1462	kháng_cáo
+E22	Appeal:T48 Defendant-Arg:T50
+T49	Arquit 1463 1485	xin giảm nhẹ hình_phạt
+E23	Arquit:T49 Defendant-Arg:T50
+T50	PER 1447 1452	Thạch
+T51	Transfer-money 1504 1514	bồi_thường
+E24	Transfer-money:T51 Giver-Arg:T52 Recipient-Arg:T53 Money-Arg:T54
+T52	PER 1488 1503	gia_đình bị_cáo
+T53	PER 1519 1536	gia_đình nạn_nhân
+T54	MONEY 1547 1561	100 triệu đồng
+T55	Arquit 1785 1792	giảm án
+E25	Arquit:T55 Defendant-Arg:T57 Adjudicator-Arg:T56 Time-Arg:T58
+T56	ORG 1781 1784	toà
+T57	PER 1716 1721	Thạch
+T58	TIME 1682 1689	hôm_nay
+T59	Arquit 1894 1905	xin giảm án
+E26	Arquit:T59 Defendant-Arg:T60
+T60	PER 1910 1915	Thạch
+T61	Die 1936 1940	chết
+E27	Die:T61 Victim-Arg:T62
+T62	PER 1920 1927	Con tôi
+T63	Execute 1950 1957	tử_hình
+E28	Execute:T63 Person-Arg:T64
+T64	PER 1958 1964	bị_cáo

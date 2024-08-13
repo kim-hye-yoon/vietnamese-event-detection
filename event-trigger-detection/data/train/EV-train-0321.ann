@@ -1,0 +1,27 @@
+T1	Transfer-money 40 42	nợ
+E1	Transfer-money:T1 Money-Arg:T2
+T2	MONEY 48 54	gần tỷ
+T3	Transfer-money 96 99	trả
+E2	Transfer-money:T3 
+T4	Marry 154 158	cưới
+E3	Marry:T4 Person-Arg:T6 Person-Arg2:T5 Time-Arg:T7
+T5	PER 143 146	Tôi
+T6	PER 150 153	anh
+T7	TIME 183 196	tháng 10/2014
+T8	Transfer-money 886 888	nợ
+E4	Transfer-money:T8 Giver-Arg:T9
+T9	PER 882 885	tôi
+T10	Transfer-money 1178 1186	vay_mượn
+E5	Transfer-money:T10 
+T11	PER 1441 1444	anh
+T12	Transfer-money 1445 1447	nợ
+E6	Transfer-money:T12 Money-Arg:T14 Giver-Arg:T13 Recipient-Arg:T11
+T13	PER 1448 1456	người_ta
+T14	MONEY 1457 1466	300 triệu
+T15	Transfer-money 1512 1515	vay
+E7	Transfer-money:T15 Giver-Arg:T17 Recipient-Arg:T16 Money-Arg:T18
+T16	PER 1502 1511	chồng_con
+T17	PER 1516 1518	mẹ
+T18	MONEY 1519 1528	300 triệu
+T19	Transfer-money 2025 2028	trả
+E8	Transfer-money:T19 

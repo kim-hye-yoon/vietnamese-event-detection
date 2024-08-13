@@ -1,0 +1,65 @@
+T1	PER 0 24	Tổng_cục_trưởng Thống_kê
+T2	Declare-bankruptcy 49 56	phá_sản
+E1	Declare-bankruptcy:T2 Place-Arg:T3 Org-Arg:T4
+T3	GPE 59 67	Việt_Nam
+T18	Start-org 586 595	thành_lập
+E2	Start-org:T18 Org-Arg:T20
+T19	End-org 599 607	giải_thể
+E3	End-org:T19 Org-Arg:T20
+T20	ORG 573 585	doanh_nghiệp
+T21	End-org 680 688	giải_thể
+E4	End-org:T21 Org-Arg:T24 Place-Arg:T23
+T22	Start-org 705 714	thành_lập
+E5	Start-org:T22 Org-Arg:T25 Place-Arg:T23
+T23	GPE 723 731	Việt_Nam
+T24	ORG 667 679	doanh_nghiệp
+T25	ORG 692 704	doanh_nghiệp
+T26	PER 761 776	Nguyễn_Bích_Lâm
+T30	ORG 915 927	doanh_nghiệp
+T31	End-org 938 946	giải_thể
+E7	End-org:T31 Org-Arg:T30 Place-Arg:T32
+T32	GPE 949 957	Việt_Nam
+T33	Declare-bankruptcy 1058 1065	phá_sản
+E8	Declare-bankruptcy:T33 Org-Arg:T34 Place-Arg:T35 Place-Arg2:T37
+T34	ORG 1045 1057	doanh_nghiệp
+T35	GPE 1070 1081	New_Zealand
+T37	GPE 1094 1097	Anh
+T39	GPE 1189 1197	Việt_Nam
+T40	GPE 1114 1126	New_Zeanland
+T43	Start-org 1147 1156	thành_lập
+E9	Start-org:T43 Org-Arg:T41 Place-Arg:T40
+T41	ORG 1130 1146	100 doanh_nghiệp
+T44	ORG 1201 1213	doanh_nghiệp
+T46	Declare-bankruptcy 1262 1269	phá_sản
+E10	Declare-bankruptcy:T46 Org-Arg:T47
+T47	ORG 1249 1261	doanh_nghiệp
+T48	Start-org 1286 1295	thành_lập
+E11	Start-org:T48 Org-Arg:T44 Place-Arg:T39
+T49	PER 1304 1337	Tổng_cục_trưởng Tổng_cục thống_kê
+T50	ORG 1507 1524	doanh_nghiệp Việt
+T51	Declare-bankruptcy 1525 1532	phá_sản
+E12	Declare-bankruptcy:T51 Org-Arg:T50
+T52	ORG 1584 1601	Tổng_cục thống_kê
+T53	PER 1604 1653	ông Nguyễn_Chí_Dũng - Bộ_trưởng Kế_hoạch & Đầu_tư
+T54	GPE 1741 1749	Việt_Nam
+T55	Start-org 1806 1815	thành_lập
+E13	Start-org:T55 Org-Arg:T56 Place-Arg:T54
+T56	ORG 1790 1805	10 doanh_nghiệp
+T57	ORG 1827 1841	6 doanh_nghiệp
+T58	Declare-bankruptcy 1842 1849	phá_sản
+E14	Declare-bankruptcy:T58 Org-Arg:T57 Place-Arg:T54
+T4	ORG 36 48	doanh_nghiệp
+T5	Declare-bankruptcy 928 935	phá_sản
+E6	Declare-bankruptcy:T5 Org-Arg:T30 Place-Arg:T32
+T6	Start-org 1713 1722	thành_lập
+E15	Start-org:T6 Org-Arg:T8
+T7	End-org 1726 1734	đóng_cửa
+E16	End-org:T7 Org-Arg:T8
+T8	ORG 1695 1712	doanh_nghiệp Việt
+T9	Start-org 3207 3213	mở_cửa
+E17	Start-org:T9 
+T10	End-org 3222 3230	đóng_cửa
+E18	End-org:T10 
+T11	End-org 2746 2754	giải_thể
+E19	End-org:T11 
+T12	PER 3240 3253	Phó thủ_tướng

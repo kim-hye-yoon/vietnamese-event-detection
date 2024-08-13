@@ -1,0 +1,27 @@
+T1	Declare-bankruptcy 15 22	phá_sản
+E1	Declare-bankruptcy:T1 
+T2	GPE 27 36	Venezuela
+T9	NUM 349 351	96
+T13	Declare-bankruptcy 1009 1016	phá_sản
+E2	Declare-bankruptcy:T13 Org-Arg:T14
+T14	ORG 989 1008	doanh_nghiệp của họ
+T17	GPE 1089 1098	Venezuela
+T19	PER 1159 1162	ông
+T23	PER 1329 1332	Tôi
+T27	PER 1490 1493	ông
+T52	TIME 3019 3028	ngày 21/8
+T53	ORG 3076 3085	chính_phủ
+T3	End-position 1168 1175	sa_thải
+E3	End-position:T3 Person-Arg:T4
+T4	PER 1176 1189	hai nhân_viên
+T5	PER 1019 1043	Jhonny_Herrera , 41 tuổi
+T6	End-org 1350 1358	đóng_cửa
+E4	End-org:T6 
+T7	End-org 1515 1523	đóng_cửa
+E5	End-org:T7 Org-Arg:T8
+T8	ORG 1497 1511	những cửa_hàng
+T10	Demonstrate 2988 2997	biểu_tình
+E6	Demonstrate:T10 Time-Arg:T52 Entity-Arg:T12
+T11	Demonstrate 3001 3010	đình_công
+E7	Demonstrate:T11 Time-Arg:T52 Entity-Arg:T12
+T12	ORG 2955 2966	phe đối_lập

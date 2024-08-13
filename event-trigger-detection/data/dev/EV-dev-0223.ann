@@ -1,0 +1,16 @@
+T1	PER 0 6	Tú Anh
+T2	Marry 11 18	kết_hôn
+E1	Marry:T2 Person-Arg:T1
+T3	PER 50 64	hôn phu Tú Anh
+T4	Be-born 65 72	sinh ra
+E2	Be-born:T4 Person-Arg:T3 Place-Arg:T5
+T5	GPE 86 92	Hà_Nội
+T6	PER 559 565	Tú Anh
+T7	Be-born 566 570	sinh
+E3	Be-born:T7 Person-Arg:T6 Time-Arg:T8 Place-Arg:T9
+T8	TIME 571 579	năm 1993
+T9	GPE 582 588	Hà_Nội
+T10	PER 591 593	Cô
+T11	Nominate 594 603	đoạt giải
+E4	Nominate:T11 Person-Arg:T10 Position-Arg:T12
+T12	JOB 604 623	Á hậu Việt_Nam 2012

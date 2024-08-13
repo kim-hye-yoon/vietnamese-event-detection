@@ -1,0 +1,21 @@
+T1	Transport 113 115	đi
+E1	Transport:T1 Destination-Arg:T3 Vehicle-Arg:T2 Time-Arg:T4
+T2	VEH 79 108	tàu USS Theodore_Roosevelt Mỹ
+T3	LOC 120 129	Biển_Đông
+T4	TIME 134 146	tháng 4/2018
+T5	Meet 445 452	họp_báo
+E2	Meet:T5 Entity-Arg:T8 Time-Arg:T9 Place-Arg:T7
+T6	Meet 480 484	thăm
+E3	Meet:T6 Entity-Arg:T10
+T7	GPE 457 468	Philippines
+T8	PER 357 414	phó đô_đốc Phillip_Sawyer , tư_lệnh Hạm_đội 7 hải_quân Mỹ
+T9	TIME 417 424	hôm_qua
+T10	PER 489 512	soái hạm USS Blue_Ridge
+T11	Transport 691 700	di_chuyển
+E4	Transport:T11 Time-Arg:T13 Vehicle-Arg:T12
+T12	VEH 635 659	tàu_khu_trục USS Decatur
+T13	TIME 664 676	tháng 9/2018
+T15	VEH 1365 1376	oanh_tạc cơ
+T16	LOC 1385 1394	Biển_Đông
+T14	Transport 1377 1380	bay
+E5	Transport:T14 Vehicle-Arg:T15 Destination-Arg:T16

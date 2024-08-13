@@ -1,0 +1,85 @@
+T1	PER 0 13	Cụ bà 71 tuổi
+T2	PER 19 24	người
+T3	Attack 25 28	bắn
+E1	Attack:T3 Attacker-Arg:T2 Target-Arg:T4 Place-Arg:T5
+T4	PER 29 36	đối_tác
+T5	GPE 39 46	Sài_Gòn
+T6	ORG 61 72	TAND TP HCM
+T7	TIME 81 89	ngày 7/3
+T8	Trial-hearing 90 96	xét_xử
+E2	Trial-hearing:T8 Time-Arg:T7 Adjudicator-Arg:T6 Defendant-Arg:T9 Crime-Arg:T10
+T9	PER 97 157	bà Huỳnh_Thị_Tuyết_Hồng ( 71 tuổi , cựu cán_bộ toà quận 10 )
+T10	CRIME 165 185	Cố_ý gây thương_tích
+T11	PER 379 432	Lê_Đăng_Quang ( 26 tuổi ) , Hồ_Thanh_Nhân ( 23 tuổi )
+T12	Charge-indict 433 443	bị truy_tố
+E3	Charge-indict:T12 Crime-Arg:T13 Defendant-Arg:T11
+T13	CRIME 447 461	tội Giết người
+T14	Attack 451 455	Giết
+E4	Attack:T14 Target-Arg:T15 Attacker-Arg:T11
+T15	PER 456 461	người
+T16	PER 476 483	anh Nam
+T17	Attack 484 490	bị bắn
+E5	Attack:T17 Target-Arg:T16
+T18	PER 827 833	bà lão
+T19	Transfer-money 834 837	đưa
+E6	Transfer-money:T19 Giver-Arg:T18 Time-Arg:T22 Recipient-Arg:T20 Money-Arg:T21
+T20	PER 842 845	Nam
+T21	MONEY 846 860	200 triệu đồng
+T22	TIME 807 824	Đến cuối năm 2017
+T23	PER 1244 1257	Lê_Đăng_Quang
+T24	Attack 1258 1262	đánh
+E7	Attack:T24 Target-Arg:T25 Attacker-Arg:T23
+T25	PER 1263 1270	anh Nam
+T26	PER 1279 1286	bà Hồng
+T28	MONEY 1296 1305	1 tỷ đồng
+T27	Transfer-money 1287 1295	cho mượn
+E8	Transfer-money:T27 Giver-Arg:T26 Money-Arg:T28 Recipient-Arg:T29
+T29	PER 1224 1228	Nhân
+T30	Phone-write 1393 1401	gọi điện
+E9	Phone-write:T30 Entity-Arg:T31 Entity-Arg2:T32
+T31	PER 1376 1383	bà Hồng
+T32	PER 1406 1410	Nhân
+T33	PER 1331 1334	Nam
+T34	Transport 1335 1338	đến
+E10	Transport:T34 Artifact-Arg:T33
+T35	Transport 1505 1507	về
+E11	Transport:T35 Destination-Arg:T37 Artifact-Arg:T36 Time-Arg:T38
+T36	PER 1501 1504	Nam
+T37	FAC 1508 1528	nhà tại quận Tân_Phú
+T38	TIME 1436 1449	Tối 14/3/2018
+T39	Attack 1563 1566	bắn
+E12	Attack:T39 Attacker-Arg:T42
+T40	PER 1535 1542	anh này
+T41	Transport 1547 1550	đến
+E13	Transport:T41 Artifact-Arg:T40
+T42	PER 1557 1562	Quang
+T44	PER 1622 1630	nạn_nhân
+T43	Attack 1591 1594	bắn
+E14	Attack:T43 Target-Arg:T44
+T45	PER 1633 1636	Nam
+T46	PER 1642 1651	người_nhà
+T47	Transport 1652 1658	đưa đi
+E15	Transport:T47 Agent-Arg:T46 Artifact-Arg:T45
+T48	Transfer-money 1727 1731	mượn
+E16	Transfer-money:T48 Giver-Arg:T50 Recipient-Arg:T49 Money-Arg:T52
+T49	PER 1715 1719	Nhân
+T50	PER 1732 1739	bà Hồng
+T51	MONEY 1740 1754	100 triệu đồng
+T52	MONEY 1770 1778	30 triệu
+T53	PER 1815 1821	bà lão
+T54	Transfer-money 1822 1825	đưa
+E17	Transfer-money:T54 Money-Arg:T55 Giver-Arg:T53
+T55	MONEY 1826 1835	1 tỷ đồng
+T56	ORG 1875 1883	cảnh_sát
+T57	Arrest-jail 1884 1887	bắt
+E18	Arrest-jail:T57 Person-Arg:T58 Agent-Arg:T56
+T58	PER 1893 1898	Quang
+T59	Transfer-money 1965 1975	bồi_thường
+E19	Transfer-money:T59 Money-Arg:T61 Recipient-Arg:T60
+T60	PER 1944 1951	Anh Nam
+T61	MONEY 1976 1990	810 triệu đồng
+T62	PER 2058 2065	Bà Hồng
+T63	Transfer-money 2069 2079	bồi_thường
+E20	Transfer-money:T63 Recipient-Arg:T64 Giver-Arg:T62 Money-Arg:T65
+T64	PER 2084 2091	anh này
+T65	MONEY 2092 2101	300 triệu

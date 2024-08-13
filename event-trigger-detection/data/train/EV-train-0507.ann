@@ -1,0 +1,46 @@
+T1	Transport 6 10	điều
+E1	Transport:T1 Agent-Arg:T2 Artifact-Arg:T3 Destination-Arg:T4
+T2	GPE 0 5	Syria
+T3	WEA 11 32	tên_lửa Pantsir - S 1
+T4	LOC 37 57	sát biên_giới Israel
+T5	Attack 517 522	chống
+E2	Attack:T5 Attacker-Arg:T6 Target-Arg:T7 Place-Arg:T8
+T6	ORG 471 485	quân_đội Syria
+T7	ORG 523 533	phiến quân
+T8	LOC 537 584	khu_vực tây nam giáp biên_giới Israel và Jordan
+T9	Attack 836 845	truy_quét
+E3	Attack:T9 Target-Arg:T10 Attacker-Arg:T11 Place-Arg:T14
+T10	ORG 846 889	phiến quân Nhà_nước Hồi_giáo ( IS ) tự_xưng
+T11	ORG 691 715	quân_đội chính_phủ Syria
+T12	Attack 756 764	tấn_công
+E4	Attack:T12 Attacker-Arg:T11 Place-Arg:T13
+T13	LOC 769 780	khu_vực này
+T14	GPE 892 911	gần thị_trấn Sweida
+T15	Attack 948 958	không_kích
+E5	Attack:T15 Attacker-Arg:T16 Target-Arg:T17 Place-Arg:T18
+T16	GPE 914 920	Israel
+T17	ORG 968 982	lực_lượng Iran
+T18	GPE 992 997	Syria
+T19	Attack 1054 1062	tấn_công
+E6	Attack:T19 Target-Arg:T20 Attacker-Arg:T21
+T20	ORG 1063 1071	Tel_Aviv
+T21	GPE 1009 1015	Tehran
+T22	GPE 1206 1210	Iran
+T23	Transport 1211 1214	rút
+E7	Transport:T23 Agent-Arg:T22 Origin-Arg:T24 Artifact-Arg:T33
+T24	GPE 1240 1252	quốc_gia này
+T25	ORG 1255 1272	Không_quân Israel
+T26	TIME 1277 1281	10/5
+T27	Attack 1282 1287	phóng
+E8	Attack:T27 Attacker-Arg:T25 Instrument-Arg:T28 Time-Arg:T26
+T28	WEA 1288 1295	tên_lửa
+T29	Attack 1296 1305	tiêu_diệt
+E9	Attack:T29 Target-Arg:T30 Attacker-Arg:T25 Instrument-Arg:T28
+T30	FAC 1310 1344	hệ_thống phòng_không Pantsir - S 1
+T31	Attack 1422 1430	tấn_công
+E10	Attack:T31 Place-Arg:T32
+T32	GPE 1444 1468	Iran trên lãnh_thổ Syria
+T33	PER 1225 1234	lực_lượng
+T34	Attack 1361 1369	khai_hoả
+E11	Attack:T34 Target-Arg:T35
+T35	VEH 1374 1396	tiêm_kích của Tel_Aviv

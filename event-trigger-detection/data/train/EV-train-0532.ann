@@ -1,0 +1,4 @@
+T1	Elect 134 142	được bầu
+E1	Elect:T1 Position-Arg:T3 Person-Arg:T2
+T2	PER 93 117	 ông Miguel_Diaz - Canel
+T3	JOB 147 160	Chủ_tịch Cuba

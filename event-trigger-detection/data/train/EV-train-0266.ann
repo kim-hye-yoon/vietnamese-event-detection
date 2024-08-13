@@ -1,0 +1,29 @@
+T1	Declare-bankruptcy 9 16	phá_sản
+E1	Declare-bankruptcy:T1 Org-Arg:T2
+T2	ORG 17 38	doanh_nghiệp Nhà_nước
+T3	Declare-bankruptcy 968 975	phá_sản
+E2	Declare-bankruptcy:T3 Org-Arg:T7
+T4	Declare-bankruptcy 1078 1085	phá_sản
+E3	Declare-bankruptcy:T4 
+T5	ORG 904 912	Quốc_hội
+T6	ORG 921 930	Chính_phủ
+T7	ORG 831 871	các doanh_nghiệp Nhà_nước làm_ăn thua_lỗ
+T8	ORG 1086 1122	doanh_nghiệp Nhà_nước làm_ăn thua_lỗ
+T9	Transfer-money 1277 1284	nợ công
+E4	Transfer-money:T9 
+T10	Transfer-money 1425 1428	vay
+E5	Transfer-money:T10 
+T11	Transfer-money 1444 1447	trả
+E6	Transfer-money:T11 
+T12	Transfer-money 1692 1694	nợ
+E7	Transfer-money:T12 
+T13	ORG 1578 1587	Chính_phủ
+T14	TIME 1594 1599	5 năm
+T15	ORG 1709 1733	các ngân_hàng thương_mại
+T16	Transfer-money 2039 2041	nợ
+E8	Transfer-money:T16 
+T17	ORG 2042 2051	chính_phủ
+T18	Transfer-money 2073 2075	nợ
+E9	Transfer-money:T18 
+T19	Transfer-money 2103 2105	nợ
+E10	Transfer-money:T19 

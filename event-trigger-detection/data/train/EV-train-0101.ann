@@ -1,0 +1,45 @@
+T1	Start-org 112 120	sáng_lập
+E1	Start-org:T1 Org-Arg:T3 Agent-Arg:T4
+T3	ORG 121 147	tập_đoàn viễn_thông Huawei
+T4	PER 148 162	Nhậm_Chính_Phi
+T5	Transfer-ownership 414 417	mua
+E2	Transfer-ownership:T5 Buyer-Arg:T6
+T6	ORG 407 413	Huawei
+T7	Sue 853 857	kiện
+E3	Sue:T7 Defendant-Arg:T9 Plaintiff-Arg:T8
+T8	ORG 737 743	Huawei
+T9	ORG 858 870	chính_phủ Mỹ
+T10	Transfer-ownership 920 923	mua
+E4	Transfer-ownership:T10 Buyer-Arg:T11 Seller-Arg:T8
+T11	PER 908 919	nhà_thầu Mỹ
+T12	Start-org 1809 1811	mở
+E5	Start-org:T12 Org-Arg:T14 Place-Arg:T2 Time-Arg:T13
+T2	GPE 1816 1824	Brussels
+T13	TIME 1825 1839	trong tuần này
+T14	ORG 1786 1803	Một trung_tâm mới
+T15	Phone-write 2032 2036	viết
+E6	Phone-write:T15 Entity-Arg:T16 Time-Arg:T17
+T16	PER 1935 1950	William_Plummer
+T17	TIME 2061 2070	năm_ngoái
+T18	Phone-write 2437 2441	viết
+E7	Phone-write:T18 Entity-Arg:T19
+T19	PER 2429 2436	Plummer
+T20	Sue 2862 2866	kiện
+E8	Sue:T20 Plaintiff-Arg:T23 Defendant-Arg:T21 Place-Arg:T22 Crime-Arg:T24
+T21	ORG 2867 2873	Huawei
+T22	GPE 2878 2905	bang Washington và New_York
+T23	PER 2831 2850	Các công_tố_viên Mỹ
+T24	CRIME 2927 3022	cố_gắng đánh_cắp bí_mật thương_mại từ T - Mobile và vi_phạm lệnh trừng_phạt của Mỹ đối_với Iran
+T25	Arrest-jail 3067 3070	bắt
+E9	Arrest-jail:T25 Person-Arg:T26 Place-Arg:T27 Time-Arg:T28
+T26	PER 3025 3063	Giám_đốc tài_chính Huawei_Mạnh_Vãn_Chu
+T27	GPE 3073 3079	Canada
+T28	TIME 3084 3097	tháng 12/2018
+T29	GPE 3115 3125	Washington
+T30	Extradite 3157 3163	dẫn_độ
+E10	Extradite:T30 Destination-Arg:T31 Person-Arg:T26
+T31	GPE 3169 3171	Mỹ
+T32	Sue 3935 3939	kiện
+E11	Sue:T32 
+T33	Sue 4004 4008	kiện
+E12	Sue:T33 

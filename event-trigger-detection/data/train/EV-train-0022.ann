@@ -1,0 +1,30 @@
+T1	Transfer-money 280 282	nợ
+E1	Transfer-money:T1 Recipient-Arg:T3 Giver-Arg:T2 Money-Arg:T4
+T2	ORG 240 248	Thành_Đô
+T3	ORG 263 272	Sông_Đà 7
+T4	MONEY 290 301	4,3 tỷ đồng
+T5	Transfer-money 716 719	mua
+E2	Transfer-money:T5 Giver-Arg:T6 Money-Arg:T7 Time-Arg:T10
+T6	ORG 701 710	Sông_Đà 7
+T7	MONEY 760 772	9,98 tỷ đồng
+T8	Transfer-money 776 786	thanh_toán
+E3	Transfer-money:T8 Giver-Arg:T6 Money-Arg:T9 Time-Arg:T10
+T9	MONEY 792 804	5,96 tỷ đồng
+T10	TIME 690 698	năm 2012
+T11	Transfer-money 1260 1263	vay
+E4	Transfer-money:T11 Money-Arg:T13 Time-Arg:T14 Recipient-Arg:T12 Giver-Arg:T15 Giver-Arg2:T16
+T12	ORG 1250 1259	Sông_Đà 7
+T13	MONEY 1273 1284	361 tỷ đồng
+T14	TIME 1238 1247	hết quý I
+T15	ORG 1289 1346	nhiều nhà_băng khác nhau như BIDV , Vietinbank , ABBank …
+T16	PER 1352 1380	một_số cán_bộ nhân_viên khác
+T17	Declare-bankruptcy 21 28	phá_sản
+E5	Declare-bankruptcy:T17 Org-Arg:T19
+T19	ORG 11 20	Sông_Đà 7
+T18	Declare-bankruptcy 204 211	phá_sản
+E6	Declare-bankruptcy:T18 Org-Arg:T20
+T20	ORG 83 108	Công_ty_cổ_phần Sông_Đà 7
+T21	Transfer-money 647 650	trả
+E7	Transfer-money:T21 Giver-Arg:T23 Recipient-Arg:T22
+T22	ORG 655 668	Thép_Thành_Đô
+T23	ORG 565 574	Sông_Đà 7

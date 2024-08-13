@@ -1,0 +1,17 @@
+T1	Attack 209 212	bắn
+E1	Attack:T1 Target-Arg:T3 Instrument-Arg:T2 Time-Arg:T4 Place-Arg:T5
+T2	VEH 193 208	chiến_đấu cơ Mỹ
+T3	VEH 216 236	phi cơ quân_sự Syria
+T4	TIME 237 246	ngày 18/6
+T5	LOC 251 278	vùng ngoại_ô phía nam Raqqa
+T6	Attack 471 474	bắn
+E2	Attack:T6 Target-Arg:T8 Instrument-Arg:T7
+T7	VEH 430 467	chiến_đấu cơ F / A -18 E Super_Hornet
+T8	VEH 483 500	cường_kích Su -22
+T9	Attack 617 624	ném bom
+E3	Attack:T9 Instrument-Arg:T10
+T10	VEH 603 616	máy_bay Syria
+T11	Meet 812 820	đàm_phán
+E4	Meet:T11 Time-Arg:T12 Place-Arg:T13
+T12	TIME 875 883	hôm 10/7
+T13	GPE 888 914	Astana , thủ_đô Kazakhstan

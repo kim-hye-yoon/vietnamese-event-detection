@@ -1,0 +1,12 @@
+T1	Meet 104 117	cuộc tiếp_xúc
+E1	Meet:T1 Entity-Arg:T2 Entity-Arg2:T3
+T2	PER 122 145	lãnh_đạo Thừa_Thiên_Huế
+T3	ORG 78 90	doanh_nghiệp
+T4	Meet 263 276	cuộc tiếp_xúc
+E2	Meet:T4 Entity-Arg:T6 Entity-Arg2:T5
+T5	PER 236 255	lãnh_đạo địa_phương
+T6	PER 281 359	bà Lu_Xin_Xin - Giám_đốc Công_ty TNHH công_nghiệp Fuda_Bắc_Kinh ( Trung_Quốc )
+T7	Transfer-ownership 499 508	xuất_khẩu
+E3	Transfer-ownership:T7 Buyer-Arg:T8 Buyer-Arg2:T9
+T8	GPE 514 518	Nhật
+T9	GPE 522 532	Trung_Quốc

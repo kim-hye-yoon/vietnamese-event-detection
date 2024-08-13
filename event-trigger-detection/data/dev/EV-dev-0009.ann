@@ -1,0 +1,3 @@
+T1	Injure 336 347	chấn_thương
+E1	Injure:T1 Agent-Arg:T2
+T2	PER 307 318	Diego_Costa
